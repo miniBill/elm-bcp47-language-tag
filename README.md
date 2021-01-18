@@ -53,3 +53,7 @@ The following features and tag types are supported indirectly through the `custo
 - [Schema extensions](https://github.com/wooorm/bcp-47#schemaextensions)
 - [Private use](https://github.com/wooorm/bcp-47#schemaprivateuse)
 - [Irregular tags](https://github.com/wooorm/bcp-47#schemairregular)
+
+## Reference
+
+- Learn more about the BCP47 spec at <https://www.w3.org/International/questions/qa-choosing-language-tags>
