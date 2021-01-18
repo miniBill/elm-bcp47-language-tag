@@ -22,4 +22,9 @@ LanguageTag.build Language.hy { noOptions | region = Just Country.it, script = J
        variants = [ "arevela" ] }
     |> LanguageTag.toString
     --> "hy-Latn-IT-arevela"
+
+-- Chinese, Simplified script, as used in China
+LanguageTag.build Language.zh { noOptions | region = Just Country.cn, script = Just Script.hans }
+    |> LanguageTag.toString
+    --> "zh-Hans-CN"
 ```
