@@ -27,7 +27,7 @@ import Script exposing (Script)
 
 {-| -}
 type LanguageTag
-    = LanguageTag Language { region : Maybe Country, script : Maybe Script }
+    = LanguageTag Language Options
     | Custom String
 
 
@@ -51,17 +51,17 @@ unknown =
 
 {-| -}
 type alias Options =
-    { region : Maybe Country, script : Maybe Script }
+    { region : Maybe Country, script : Maybe Script, variants : List String }
 
 
 {-| -}
 noOptions : Options
 noOptions =
-    { region = Nothing, script = Nothing }
+    { region = Nothing, script = Nothing, variants = [] }
 
 
 {-| -}
-build : Language -> { region : Maybe Country, script : Maybe Script } -> LanguageTag
+build : Language -> Options -> LanguageTag
 build language options =
     LanguageTag language options
 
@@ -80,15 +80,16 @@ toString languageTag =
             customCode
 
         LanguageTag language options ->
-            ([ language
-                |> Language.details
-                |> .code
-                |> Just
-             , options.region |> Maybe.map Country.details |> Maybe.map .alpha2
-
-             --  , options.script
-             ]
+            (([ language
+                    |> Language.details
+                    |> .code
+                    |> Just
+              , options.script |> Maybe.map Script.details |> Maybe.map .code
+              , options.region |> Maybe.map Country.details |> Maybe.map .alpha2
+              ]
                 |> List.filterMap identity
+             )
+                ++ options.variants
             )
                 |> String.join "-"
 

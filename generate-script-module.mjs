@@ -26,13 +26,13 @@ ${normalizeCode(alpha2)} = Script
     })
     .join("\n\n");
   const countryModule = `module Script exposing
-    ( Script
+    ( Script, details
     , ${topLevelDefinitions.map(normalizeCode).join(", ")}
     )
 
 {-| ISO 15924 language script codes. See <https://en.wikipedia.org/wiki/ISO_15924>.
 
-@docs Script
+@docs Script, details
 
 @docs ${topLevelDefinitions.map(normalizeCode).join(", ")}
 
@@ -42,6 +42,11 @@ ${normalizeCode(alpha2)} = Script
 -}
 type Script
     = Script { code : String, name : String }
+
+{-| Get the code and other info for the ISO 15924 script code. -}
+details : Script -> { code : String, name : String }
+details (Script record) =
+    record
 
 
 ${languageEntriesCode}

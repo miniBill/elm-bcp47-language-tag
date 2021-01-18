@@ -4,6 +4,7 @@
 import LanguageTag exposing (noOptions)
 import Language
 import Country
+import Script
 
 LanguageTag.fromLanguage Language.no
     |> LanguageTag.toString
@@ -16,4 +17,9 @@ LanguageTag.build Language.en { noOptions | region = Just Country.gb }
 LanguageTag.build Language.zh { noOptions | region = Just Country.tw }
     |> LanguageTag.toString
     --> "zh-TW"
+
+LanguageTag.build Language.hy { noOptions | region = Just Country.it, script = Just Script.latn,
+       variants = [ "arevela" ] }
+    |> LanguageTag.toString
+    --> "hy-Latn-IT-arevela"
 ```
