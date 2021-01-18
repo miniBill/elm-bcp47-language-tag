@@ -1,7 +1,7 @@
 {
   "root": "../src",
   "tests": [
-    "REPLACEME",
+    "Language",
     "./README.md"
   ]
 }
