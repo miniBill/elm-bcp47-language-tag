@@ -48,6 +48,8 @@ ${normalizeCode(code639_1)} = Language
 type Language
     = Language { code : String }
 
+{-| Get the details for a Language, including the \`code\` which represents the 639-1 language code.
+-}
 details : Language -> { code : String }
 details (Language record) =
     record
