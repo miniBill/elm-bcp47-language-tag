@@ -31,13 +31,13 @@ ${normalizeCode(code639_1)} = Language
     .join("\n\n");
   console.log(languages);
   const languageModule = `module Language exposing
-    ( ${topLevelDefinitions.map(normalizeCode).join("\n    , ")}
-    , Language
+    ( Language, details
+    , ${topLevelDefinitions.map(normalizeCode).join(", ")}
     )
 
 {-| ISO 639-1 language codes. See <https://en.wikipedia.org/wiki/ISO_639>.
 
-@docs Language
+@docs Language, details
 
 @docs ${topLevelDefinitions.map(normalizeCode).join("\n    , ")}
 
@@ -48,6 +48,9 @@ ${normalizeCode(code639_1)} = Language
 type Language
     = Language { code : String }
 
+details : Language -> { code : String }
+details (Language record) =
+    record
 
 ${languageEntriesCode}
 `;
