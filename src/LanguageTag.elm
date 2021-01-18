@@ -1,4 +1,4 @@
-module LanguageTag exposing (..)
+module LanguageTag exposing (LanguageTag, custom, fromLanguage, toString)
 
 import Language exposing (Language)
 
