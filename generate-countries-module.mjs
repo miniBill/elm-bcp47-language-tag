@@ -25,13 +25,13 @@ ${normalizeCode(alpha2)} = Country
     })
     .join("\n\n");
   const countryModule = `module Country exposing
-    ( Country
+    ( Country, details
     , ${topLevelDefinitions.map(normalizeCode).join(", ")}
     )
 
 {-| ISO 3166-1 country codes. See <https://en.wikipedia.org/wiki/ISO_3166-1>.
 
-@docs Country
+@docs Country, details
 
 @docs ${topLevelDefinitions.map(normalizeCode).join(", ")}
 
@@ -42,6 +42,11 @@ ${normalizeCode(alpha2)} = Country
 type Country
     = Country { alpha2 : String, alpha3 : String }
 
+
+{-| Get the 2-digit and 3-digit versions of the ISO 3166 country code. -}
+details : Country -> { alpha2 : String, alpha3 : String }
+details (Country record) =
+    record
 
 ${languageEntriesCode}
 `;
