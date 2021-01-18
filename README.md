@@ -12,4 +12,8 @@ LanguageTag.fromLanguage Language.no
 LanguageTag.build Language.en { noOptions | region = Just Country.gb }
     |> LanguageTag.toString
     --> "en-GB"
+
+LanguageTag.build Language.zh { noOptions | region = Just Country.tw }
+    |> LanguageTag.toString
+    --> "zh-TW"
 ```
