@@ -1,10 +1,6 @@
 {
   "root": "../src",
   "tests": [
-    "./README.md",
-    "LanguageTag",
-    "Language",
-    "Country",
-    "Script"
+    "./README.md"
   ]
 }

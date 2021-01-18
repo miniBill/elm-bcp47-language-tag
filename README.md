@@ -4,5 +4,5 @@
 import LanguageTag
 import Language
 
-LanguageTag.fromLanguage Language.n |> LanguageTag.toString --> "abcd"
+LanguageTag.fromLanguage Language.no |> LanguageTag.toString --> "no"
 ```
