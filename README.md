@@ -28,3 +28,11 @@ LanguageTag.build Language.zh { noOptions | region = Just Country.cn, script = J
     |> LanguageTag.toString
     --> "zh-Hans-CN"
 ```
+
+## Custom Tags
+
+The following features and tag types are supported indirectly through the `custom` constructor that lets you supply your own custom string:
+
+- [Schema extensions](https://github.com/wooorm/bcp-47#schemaextensions)
+- [Private use](https://github.com/wooorm/bcp-47#schemaprivateuse)
+- [Irregular tags](https://github.com/wooorm/bcp-47#schemairregular)
