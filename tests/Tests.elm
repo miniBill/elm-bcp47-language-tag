@@ -1,7 +1,6 @@
 module Tests exposing (suite)
 
 import Expect exposing (Expectation)
-import Fuzz exposing (Fuzzer, int, list, string)
 import Language
 import LanguageTag
 import Test exposing (..)
