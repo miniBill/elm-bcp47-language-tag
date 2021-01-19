@@ -1,8 +1,8 @@
-// @ts-check
+import generate from "./generate-module.js";
 
-import { generate } from "./generate-module.mjs";
-
-const moduleConfig = {
+generate({
+  tagType: "extlang",
+  entryToTopLevelDefinition: (lang) => lang.data.subtag,
   definitionComment: (language) => language.data.record.Description.join("\n"),
   typeName: "ExtendedLanguage",
   comment: `[ISO 639](https://en.wikipedia.org/wiki/ISO_639) has some macrolanguages. Sometimes macrolanguages
@@ -15,5 +15,4 @@ const moduleConfig = {
   \`zh-CN\` (Chinese in the region Mainland China). Be sure to test your implementation because even if your language
   tag is precise, specific tools may depend on it being written in a specific way and may not interpret all correct
   variations.`,
-};
-generate("extlang", (lang) => lang.data.subtag, moduleConfig);
+});
