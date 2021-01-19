@@ -7,6 +7,7 @@
     "elm-test": "^0.19.1-revision4",
     "elm-tooling": "^0.6.2",
     "elm-verify-examples": "^5.0.0",
+    "language-tags": "^1.0.5",
     "node-fetch": "^2.6.1",
     "prettier": "^2.2.1"
   },
