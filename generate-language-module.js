@@ -15,6 +15,7 @@ generate({
   \`zh-CN\` (Chinese in the region Mainland China). Be sure to test your implementation because even if your language
   tag is precise, specific tools may depend on it being written in a specific way and may not interpret all correct
   variations.`,
+  toCodeComment: `Get the ISO 639 code for this ExtendedLanguage.`
 });
 
 generate({
@@ -25,6 +26,7 @@ generate({
   },
   typeName: "Language",
   comment: `ISO 639-1 language codes. See <https://en.wikipedia.org/wiki/ISO_639>.`,
+  toCodeComment: `Get the ISO 639 language code value for this Language.`
 });
 
 generate({
@@ -35,6 +37,7 @@ generate({
   },
   typeName: "Country",
   comment: `ISO 3166-1 country codes. See <https://en.wikipedia.org/wiki/ISO_3166-1>.`,
+  toCodeComment: `Get the ISO 3166-1 country code value for this Country.`
 });
 
 generate({
@@ -45,6 +48,7 @@ generate({
   },
   typeName: "Script",
   comment: `ISO 15924 language script codes. See <https://en.wikipedia.org/wiki/ISO_15924>.`,
+  toCodeComment: `Get the ISO 15924 language script code value for this Script.`
 });
 
 generate({
@@ -55,4 +59,5 @@ generate({
   },
   typeName: "Variant",
   comment: ``,
+  toCodeComment: `Get the code for this Variant.`
 });

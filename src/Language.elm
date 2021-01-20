@@ -1,11 +1,11 @@
 module Language exposing
-    ( Language, details
+    ( Language, toCodeString
     , aa, ab, ae, af, ak, am, an, ar, as_, av, ay, az, ba, be, bg, bh, bi, bm, bn, bo, br, bs, ca, ce, ch, co, cr, cs, cu, cv, cy, da, de, dv, dz, ee, el, en, eo, es, et, eu, fa, ff, fi, fj, fo, fr, fy, ga, gd, gl, gn, gu, gv, ha, he, hi, ho, hr, ht, hu, hy, hz, ia, id, ie, ig, ii, ik, in_, io, is, it, iu, iw, ja, ji, jv, jw, ka, kg, ki, kj, kk, kl, km, kn, ko, kr, ks, ku, kv, kw, ky, la, lb, lg, li, ln, lo, lt, lu, lv, mg, mh, mi, mk, ml, mn, mo, mr, ms, mt, my, na, nb, nd, ne, ng, nl, nn, no, nr, nv, ny, oc, oj, om, or, os, pa, pi, pl, ps, pt, qu, rm, rn, ro, ru, rw, sa, sc, sd, se, sg, sh, si, sk, sl, sm, sn, so, sq, sr, ss, st, su, sv, sw, ta, te, tg, th, ti, tk, tl, tn, to, tr, ts, tt, tw, ty, ug, uk, ur, uz, ve, vi, vo, wa, wo, xh, yi, yo, za, zh, zu
     )
 
 {-| ISO 639-1 language codes. See <https://en.wikipedia.org/wiki/ISO_639>.
 
-@docs Language, details
+@docs Language, toCodeString
 
 @docs aa, ab, ae, af, ak, am, an, ar, as_, av, ay, az, ba, be, bg, bh, bi, bm, bn, bo, br, bs, ca, ce, ch, co, cr, cs, cu, cv, cy, da, de, dv, dz, ee, el, en, eo, es, et, eu, fa, ff, fi, fj, fo, fr, fy, ga, gd, gl, gn, gu, gv, ha, he, hi, ho, hr, ht, hu, hy, hz, ia, id, ie, ig, ii, ik, in_, io, is, it, iu, iw, ja, ji, jv, jw, ka, kg, ki, kj, kk, kl, km, kn, ko, kr, ks, ku, kv, kw, ky, la, lb, lg, li, ln, lo, lt, lu, lv, mg, mh, mi, mk, ml, mn, mo, mr, ms, mt, my, na, nb, nd, ne, ng, nl, nn, no, nr, nv, ny, oc, oj, om, or, os, pa, pi, pl, ps, pt, qu, rm, rn, ro, ru, rw, sa, sc, sd, se, sg, sh, si, sk, sl, sm, sn, so, sq, sr, ss, st, su, sv, sw, ta, te, tg, th, ti, tk, tl, tn, to, tr, ts, tt, tw, ty, ug, uk, ur, uz, ve, vi, vo, wa, wo, xh, yi, yo, za, zh, zu
 
@@ -14,1341 +14,1341 @@ module Language exposing
 
 {-| -}
 type Language
-    = Language { code : String }
+    = Language String
 
 
-{-| Get the details for an ExtendedLanguage, including the `code` which represents the 639 language code.
+{-| Get the ISO 639 language code value for this Language.
 -}
-details : Language -> { code : String }
-details (Language record) =
-    record
+toCodeString : Language -> String
+toCodeString (Language rawCode) =
+    rawCode
 
 
 {-| Afar
 -}
 aa : Language
 aa =
-    Language { code = "aa" }
+    Language "aa"
 
 
 {-| Abkhazian
 -}
 ab : Language
 ab =
-    Language { code = "ab" }
+    Language "ab"
 
 
 {-| Avestan
 -}
 ae : Language
 ae =
-    Language { code = "ae" }
+    Language "ae"
 
 
 {-| Afrikaans
 -}
 af : Language
 af =
-    Language { code = "af" }
+    Language "af"
 
 
 {-| Akan
 -}
 ak : Language
 ak =
-    Language { code = "ak" }
+    Language "ak"
 
 
 {-| Amharic
 -}
 am : Language
 am =
-    Language { code = "am" }
+    Language "am"
 
 
 {-| Aragonese
 -}
 an : Language
 an =
-    Language { code = "an" }
+    Language "an"
 
 
 {-| Arabic
 -}
 ar : Language
 ar =
-    Language { code = "ar" }
+    Language "ar"
 
 
 {-| Assamese
 -}
 as_ : Language
 as_ =
-    Language { code = "as" }
+    Language "as"
 
 
 {-| Avaric
 -}
 av : Language
 av =
-    Language { code = "av" }
+    Language "av"
 
 
 {-| Aymara
 -}
 ay : Language
 ay =
-    Language { code = "ay" }
+    Language "ay"
 
 
 {-| Azerbaijani
 -}
 az : Language
 az =
-    Language { code = "az" }
+    Language "az"
 
 
 {-| Bashkir
 -}
 ba : Language
 ba =
-    Language { code = "ba" }
+    Language "ba"
 
 
 {-| Belarusian
 -}
 be : Language
 be =
-    Language { code = "be" }
+    Language "be"
 
 
 {-| Bulgarian
 -}
 bg : Language
 bg =
-    Language { code = "bg" }
+    Language "bg"
 
 
 {-| Bihari languages
 -}
 bh : Language
 bh =
-    Language { code = "bh" }
+    Language "bh"
 
 
 {-| Bislama
 -}
 bi : Language
 bi =
-    Language { code = "bi" }
+    Language "bi"
 
 
 {-| Bambara
 -}
 bm : Language
 bm =
-    Language { code = "bm" }
+    Language "bm"
 
 
 {-| Bengali Bangla
 -}
 bn : Language
 bn =
-    Language { code = "bn" }
+    Language "bn"
 
 
 {-| Tibetan
 -}
 bo : Language
 bo =
-    Language { code = "bo" }
+    Language "bo"
 
 
 {-| Breton
 -}
 br : Language
 br =
-    Language { code = "br" }
+    Language "br"
 
 
 {-| Bosnian
 -}
 bs : Language
 bs =
-    Language { code = "bs" }
+    Language "bs"
 
 
 {-| Catalan Valencian
 -}
 ca : Language
 ca =
-    Language { code = "ca" }
+    Language "ca"
 
 
 {-| Chechen
 -}
 ce : Language
 ce =
-    Language { code = "ce" }
+    Language "ce"
 
 
 {-| Chamorro
 -}
 ch : Language
 ch =
-    Language { code = "ch" }
+    Language "ch"
 
 
 {-| Corsican
 -}
 co : Language
 co =
-    Language { code = "co" }
+    Language "co"
 
 
 {-| Cree
 -}
 cr : Language
 cr =
-    Language { code = "cr" }
+    Language "cr"
 
 
 {-| Czech
 -}
 cs : Language
 cs =
-    Language { code = "cs" }
+    Language "cs"
 
 
 {-| Church Slavic Church Slavonic Old Bulgarian Old Church Slavonic Old Slavonic
 -}
 cu : Language
 cu =
-    Language { code = "cu" }
+    Language "cu"
 
 
 {-| Chuvash
 -}
 cv : Language
 cv =
-    Language { code = "cv" }
+    Language "cv"
 
 
 {-| Welsh
 -}
 cy : Language
 cy =
-    Language { code = "cy" }
+    Language "cy"
 
 
 {-| Danish
 -}
 da : Language
 da =
-    Language { code = "da" }
+    Language "da"
 
 
 {-| German
 -}
 de : Language
 de =
-    Language { code = "de" }
+    Language "de"
 
 
 {-| Dhivehi Divehi Maldivian
 -}
 dv : Language
 dv =
-    Language { code = "dv" }
+    Language "dv"
 
 
 {-| Dzongkha
 -}
 dz : Language
 dz =
-    Language { code = "dz" }
+    Language "dz"
 
 
 {-| Ewe
 -}
 ee : Language
 ee =
-    Language { code = "ee" }
+    Language "ee"
 
 
 {-| Modern Greek (1453-)
 -}
 el : Language
 el =
-    Language { code = "el" }
+    Language "el"
 
 
 {-| English
 -}
 en : Language
 en =
-    Language { code = "en" }
+    Language "en"
 
 
 {-| Esperanto
 -}
 eo : Language
 eo =
-    Language { code = "eo" }
+    Language "eo"
 
 
 {-| Spanish Castilian
 -}
 es : Language
 es =
-    Language { code = "es" }
+    Language "es"
 
 
 {-| Estonian
 -}
 et : Language
 et =
-    Language { code = "et" }
+    Language "et"
 
 
 {-| Basque
 -}
 eu : Language
 eu =
-    Language { code = "eu" }
+    Language "eu"
 
 
 {-| Persian
 -}
 fa : Language
 fa =
-    Language { code = "fa" }
+    Language "fa"
 
 
 {-| Fulah
 -}
 ff : Language
 ff =
-    Language { code = "ff" }
+    Language "ff"
 
 
 {-| Finnish
 -}
 fi : Language
 fi =
-    Language { code = "fi" }
+    Language "fi"
 
 
 {-| Fijian
 -}
 fj : Language
 fj =
-    Language { code = "fj" }
+    Language "fj"
 
 
 {-| Faroese
 -}
 fo : Language
 fo =
-    Language { code = "fo" }
+    Language "fo"
 
 
 {-| French
 -}
 fr : Language
 fr =
-    Language { code = "fr" }
+    Language "fr"
 
 
 {-| Western Frisian
 -}
 fy : Language
 fy =
-    Language { code = "fy" }
+    Language "fy"
 
 
 {-| Irish
 -}
 ga : Language
 ga =
-    Language { code = "ga" }
+    Language "ga"
 
 
 {-| Scottish Gaelic Gaelic
 -}
 gd : Language
 gd =
-    Language { code = "gd" }
+    Language "gd"
 
 
 {-| Galician
 -}
 gl : Language
 gl =
-    Language { code = "gl" }
+    Language "gl"
 
 
 {-| Guarani
 -}
 gn : Language
 gn =
-    Language { code = "gn" }
+    Language "gn"
 
 
 {-| Gujarati
 -}
 gu : Language
 gu =
-    Language { code = "gu" }
+    Language "gu"
 
 
 {-| Manx
 -}
 gv : Language
 gv =
-    Language { code = "gv" }
+    Language "gv"
 
 
 {-| Hausa
 -}
 ha : Language
 ha =
-    Language { code = "ha" }
+    Language "ha"
 
 
 {-| Hebrew
 -}
 he : Language
 he =
-    Language { code = "he" }
+    Language "he"
 
 
 {-| Hindi
 -}
 hi : Language
 hi =
-    Language { code = "hi" }
+    Language "hi"
 
 
 {-| Hiri Motu
 -}
 ho : Language
 ho =
-    Language { code = "ho" }
+    Language "ho"
 
 
 {-| Croatian
 -}
 hr : Language
 hr =
-    Language { code = "hr" }
+    Language "hr"
 
 
 {-| Haitian Haitian Creole
 -}
 ht : Language
 ht =
-    Language { code = "ht" }
+    Language "ht"
 
 
 {-| Hungarian
 -}
 hu : Language
 hu =
-    Language { code = "hu" }
+    Language "hu"
 
 
 {-| Armenian
 -}
 hy : Language
 hy =
-    Language { code = "hy" }
+    Language "hy"
 
 
 {-| Herero
 -}
 hz : Language
 hz =
-    Language { code = "hz" }
+    Language "hz"
 
 
 {-| Interlingua (International Auxiliary Language Association)
 -}
 ia : Language
 ia =
-    Language { code = "ia" }
+    Language "ia"
 
 
 {-| Indonesian
 -}
 id : Language
 id =
-    Language { code = "id" }
+    Language "id"
 
 
 {-| Interlingue Occidental
 -}
 ie : Language
 ie =
-    Language { code = "ie" }
+    Language "ie"
 
 
 {-| Igbo
 -}
 ig : Language
 ig =
-    Language { code = "ig" }
+    Language "ig"
 
 
 {-| Sichuan Yi Nuosu
 -}
 ii : Language
 ii =
-    Language { code = "ii" }
+    Language "ii"
 
 
 {-| Inupiaq
 -}
 ik : Language
 ik =
-    Language { code = "ik" }
+    Language "ik"
 
 
 {-| Indonesian
 -}
 in_ : Language
 in_ =
-    Language { code = "in" }
+    Language "in"
 
 
 {-| Ido
 -}
 io : Language
 io =
-    Language { code = "io" }
+    Language "io"
 
 
 {-| Icelandic
 -}
 is : Language
 is =
-    Language { code = "is" }
+    Language "is"
 
 
 {-| Italian
 -}
 it : Language
 it =
-    Language { code = "it" }
+    Language "it"
 
 
 {-| Inuktitut
 -}
 iu : Language
 iu =
-    Language { code = "iu" }
+    Language "iu"
 
 
 {-| Hebrew
 -}
 iw : Language
 iw =
-    Language { code = "iw" }
+    Language "iw"
 
 
 {-| Japanese
 -}
 ja : Language
 ja =
-    Language { code = "ja" }
+    Language "ja"
 
 
 {-| Yiddish
 -}
 ji : Language
 ji =
-    Language { code = "ji" }
+    Language "ji"
 
 
 {-| Javanese
 -}
 jv : Language
 jv =
-    Language { code = "jv" }
+    Language "jv"
 
 
 {-| Javanese
 -}
 jw : Language
 jw =
-    Language { code = "jw" }
+    Language "jw"
 
 
 {-| Georgian
 -}
 ka : Language
 ka =
-    Language { code = "ka" }
+    Language "ka"
 
 
 {-| Kongo
 -}
 kg : Language
 kg =
-    Language { code = "kg" }
+    Language "kg"
 
 
 {-| Kikuyu Gikuyu
 -}
 ki : Language
 ki =
-    Language { code = "ki" }
+    Language "ki"
 
 
 {-| Kuanyama Kwanyama
 -}
 kj : Language
 kj =
-    Language { code = "kj" }
+    Language "kj"
 
 
 {-| Kazakh
 -}
 kk : Language
 kk =
-    Language { code = "kk" }
+    Language "kk"
 
 
 {-| Kalaallisut Greenlandic
 -}
 kl : Language
 kl =
-    Language { code = "kl" }
+    Language "kl"
 
 
 {-| Khmer Central Khmer
 -}
 km : Language
 km =
-    Language { code = "km" }
+    Language "km"
 
 
 {-| Kannada
 -}
 kn : Language
 kn =
-    Language { code = "kn" }
+    Language "kn"
 
 
 {-| Korean
 -}
 ko : Language
 ko =
-    Language { code = "ko" }
+    Language "ko"
 
 
 {-| Kanuri
 -}
 kr : Language
 kr =
-    Language { code = "kr" }
+    Language "kr"
 
 
 {-| Kashmiri
 -}
 ks : Language
 ks =
-    Language { code = "ks" }
+    Language "ks"
 
 
 {-| Kurdish
 -}
 ku : Language
 ku =
-    Language { code = "ku" }
+    Language "ku"
 
 
 {-| Komi
 -}
 kv : Language
 kv =
-    Language { code = "kv" }
+    Language "kv"
 
 
 {-| Cornish
 -}
 kw : Language
 kw =
-    Language { code = "kw" }
+    Language "kw"
 
 
 {-| Kirghiz Kyrgyz
 -}
 ky : Language
 ky =
-    Language { code = "ky" }
+    Language "ky"
 
 
 {-| Latin
 -}
 la : Language
 la =
-    Language { code = "la" }
+    Language "la"
 
 
 {-| Luxembourgish Letzeburgesch
 -}
 lb : Language
 lb =
-    Language { code = "lb" }
+    Language "lb"
 
 
 {-| Ganda Luganda
 -}
 lg : Language
 lg =
-    Language { code = "lg" }
+    Language "lg"
 
 
 {-| Limburgan Limburger Limburgish
 -}
 li : Language
 li =
-    Language { code = "li" }
+    Language "li"
 
 
 {-| Lingala
 -}
 ln : Language
 ln =
-    Language { code = "ln" }
+    Language "ln"
 
 
 {-| Lao
 -}
 lo : Language
 lo =
-    Language { code = "lo" }
+    Language "lo"
 
 
 {-| Lithuanian
 -}
 lt : Language
 lt =
-    Language { code = "lt" }
+    Language "lt"
 
 
 {-| Luba-Katanga
 -}
 lu : Language
 lu =
-    Language { code = "lu" }
+    Language "lu"
 
 
 {-| Latvian
 -}
 lv : Language
 lv =
-    Language { code = "lv" }
+    Language "lv"
 
 
 {-| Malagasy
 -}
 mg : Language
 mg =
-    Language { code = "mg" }
+    Language "mg"
 
 
 {-| Marshallese
 -}
 mh : Language
 mh =
-    Language { code = "mh" }
+    Language "mh"
 
 
 {-| Maori
 -}
 mi : Language
 mi =
-    Language { code = "mi" }
+    Language "mi"
 
 
 {-| Macedonian
 -}
 mk : Language
 mk =
-    Language { code = "mk" }
+    Language "mk"
 
 
 {-| Malayalam
 -}
 ml : Language
 ml =
-    Language { code = "ml" }
+    Language "ml"
 
 
 {-| Mongolian
 -}
 mn : Language
 mn =
-    Language { code = "mn" }
+    Language "mn"
 
 
 {-| Moldavian Moldovan
 -}
 mo : Language
 mo =
-    Language { code = "mo" }
+    Language "mo"
 
 
 {-| Marathi
 -}
 mr : Language
 mr =
-    Language { code = "mr" }
+    Language "mr"
 
 
 {-| Malay (macrolanguage)
 -}
 ms : Language
 ms =
-    Language { code = "ms" }
+    Language "ms"
 
 
 {-| Maltese
 -}
 mt : Language
 mt =
-    Language { code = "mt" }
+    Language "mt"
 
 
 {-| Burmese
 -}
 my : Language
 my =
-    Language { code = "my" }
+    Language "my"
 
 
 {-| Nauru
 -}
 na : Language
 na =
-    Language { code = "na" }
+    Language "na"
 
 
 {-| Norwegian Bokmål
 -}
 nb : Language
 nb =
-    Language { code = "nb" }
+    Language "nb"
 
 
 {-| North Ndebele
 -}
 nd : Language
 nd =
-    Language { code = "nd" }
+    Language "nd"
 
 
 {-| Nepali (macrolanguage)
 -}
 ne : Language
 ne =
-    Language { code = "ne" }
+    Language "ne"
 
 
 {-| Ndonga
 -}
 ng : Language
 ng =
-    Language { code = "ng" }
+    Language "ng"
 
 
 {-| Dutch Flemish
 -}
 nl : Language
 nl =
-    Language { code = "nl" }
+    Language "nl"
 
 
 {-| Norwegian Nynorsk
 -}
 nn : Language
 nn =
-    Language { code = "nn" }
+    Language "nn"
 
 
 {-| Norwegian
 -}
 no : Language
 no =
-    Language { code = "no" }
+    Language "no"
 
 
 {-| South Ndebele
 -}
 nr : Language
 nr =
-    Language { code = "nr" }
+    Language "nr"
 
 
 {-| Navajo Navaho
 -}
 nv : Language
 nv =
-    Language { code = "nv" }
+    Language "nv"
 
 
 {-| Nyanja Chewa Chichewa
 -}
 ny : Language
 ny =
-    Language { code = "ny" }
+    Language "ny"
 
 
 {-| Occitan (post 1500)
 -}
 oc : Language
 oc =
-    Language { code = "oc" }
+    Language "oc"
 
 
 {-| Ojibwa
 -}
 oj : Language
 oj =
-    Language { code = "oj" }
+    Language "oj"
 
 
 {-| Oromo
 -}
 om : Language
 om =
-    Language { code = "om" }
+    Language "om"
 
 
 {-| Oriya (macrolanguage) Odia (macrolanguage)
 -}
 or : Language
 or =
-    Language { code = "or" }
+    Language "or"
 
 
 {-| Ossetian Ossetic
 -}
 os : Language
 os =
-    Language { code = "os" }
+    Language "os"
 
 
 {-| Panjabi Punjabi
 -}
 pa : Language
 pa =
-    Language { code = "pa" }
+    Language "pa"
 
 
 {-| Pali
 -}
 pi : Language
 pi =
-    Language { code = "pi" }
+    Language "pi"
 
 
 {-| Polish
 -}
 pl : Language
 pl =
-    Language { code = "pl" }
+    Language "pl"
 
 
 {-| Pushto Pashto
 -}
 ps : Language
 ps =
-    Language { code = "ps" }
+    Language "ps"
 
 
 {-| Portuguese
 -}
 pt : Language
 pt =
-    Language { code = "pt" }
+    Language "pt"
 
 
 {-| Quechua
 -}
 qu : Language
 qu =
-    Language { code = "qu" }
+    Language "qu"
 
 
 {-| Romansh
 -}
 rm : Language
 rm =
-    Language { code = "rm" }
+    Language "rm"
 
 
 {-| Rundi
 -}
 rn : Language
 rn =
-    Language { code = "rn" }
+    Language "rn"
 
 
 {-| Romanian Moldavian Moldovan
 -}
 ro : Language
 ro =
-    Language { code = "ro" }
+    Language "ro"
 
 
 {-| Russian
 -}
 ru : Language
 ru =
-    Language { code = "ru" }
+    Language "ru"
 
 
 {-| Kinyarwanda
 -}
 rw : Language
 rw =
-    Language { code = "rw" }
+    Language "rw"
 
 
 {-| Sanskrit
 -}
 sa : Language
 sa =
-    Language { code = "sa" }
+    Language "sa"
 
 
 {-| Sardinian
 -}
 sc : Language
 sc =
-    Language { code = "sc" }
+    Language "sc"
 
 
 {-| Sindhi
 -}
 sd : Language
 sd =
-    Language { code = "sd" }
+    Language "sd"
 
 
 {-| Northern Sami
 -}
 se : Language
 se =
-    Language { code = "se" }
+    Language "se"
 
 
 {-| Sango
 -}
 sg : Language
 sg =
-    Language { code = "sg" }
+    Language "sg"
 
 
 {-| Serbo-Croatian
 -}
 sh : Language
 sh =
-    Language { code = "sh" }
+    Language "sh"
 
 
 {-| Sinhala Sinhalese
 -}
 si : Language
 si =
-    Language { code = "si" }
+    Language "si"
 
 
 {-| Slovak
 -}
 sk : Language
 sk =
-    Language { code = "sk" }
+    Language "sk"
 
 
 {-| Slovenian
 -}
 sl : Language
 sl =
-    Language { code = "sl" }
+    Language "sl"
 
 
 {-| Samoan
 -}
 sm : Language
 sm =
-    Language { code = "sm" }
+    Language "sm"
 
 
 {-| Shona
 -}
 sn : Language
 sn =
-    Language { code = "sn" }
+    Language "sn"
 
 
 {-| Somali
 -}
 so : Language
 so =
-    Language { code = "so" }
+    Language "so"
 
 
 {-| Albanian
 -}
 sq : Language
 sq =
-    Language { code = "sq" }
+    Language "sq"
 
 
 {-| Serbian
 -}
 sr : Language
 sr =
-    Language { code = "sr" }
+    Language "sr"
 
 
 {-| Swati
 -}
 ss : Language
 ss =
-    Language { code = "ss" }
+    Language "ss"
 
 
 {-| Southern Sotho
 -}
 st : Language
 st =
-    Language { code = "st" }
+    Language "st"
 
 
 {-| Sundanese
 -}
 su : Language
 su =
-    Language { code = "su" }
+    Language "su"
 
 
 {-| Swedish
 -}
 sv : Language
 sv =
-    Language { code = "sv" }
+    Language "sv"
 
 
 {-| Swahili (macrolanguage)
 -}
 sw : Language
 sw =
-    Language { code = "sw" }
+    Language "sw"
 
 
 {-| Tamil
 -}
 ta : Language
 ta =
-    Language { code = "ta" }
+    Language "ta"
 
 
 {-| Telugu
 -}
 te : Language
 te =
-    Language { code = "te" }
+    Language "te"
 
 
 {-| Tajik
 -}
 tg : Language
 tg =
-    Language { code = "tg" }
+    Language "tg"
 
 
 {-| Thai
 -}
 th : Language
 th =
-    Language { code = "th" }
+    Language "th"
 
 
 {-| Tigrinya
 -}
 ti : Language
 ti =
-    Language { code = "ti" }
+    Language "ti"
 
 
 {-| Turkmen
 -}
 tk : Language
 tk =
-    Language { code = "tk" }
+    Language "tk"
 
 
 {-| Tagalog
 -}
 tl : Language
 tl =
-    Language { code = "tl" }
+    Language "tl"
 
 
 {-| Tswana
 -}
 tn : Language
 tn =
-    Language { code = "tn" }
+    Language "tn"
 
 
 {-| Tonga (Tonga Islands)
 -}
 to : Language
 to =
-    Language { code = "to" }
+    Language "to"
 
 
 {-| Turkish
 -}
 tr : Language
 tr =
-    Language { code = "tr" }
+    Language "tr"
 
 
 {-| Tsonga
 -}
 ts : Language
 ts =
-    Language { code = "ts" }
+    Language "ts"
 
 
 {-| Tatar
 -}
 tt : Language
 tt =
-    Language { code = "tt" }
+    Language "tt"
 
 
 {-| Twi
 -}
 tw : Language
 tw =
-    Language { code = "tw" }
+    Language "tw"
 
 
 {-| Tahitian
 -}
 ty : Language
 ty =
-    Language { code = "ty" }
+    Language "ty"
 
 
 {-| Uighur Uyghur
 -}
 ug : Language
 ug =
-    Language { code = "ug" }
+    Language "ug"
 
 
 {-| Ukrainian
 -}
 uk : Language
 uk =
-    Language { code = "uk" }
+    Language "uk"
 
 
 {-| Urdu
 -}
 ur : Language
 ur =
-    Language { code = "ur" }
+    Language "ur"
 
 
 {-| Uzbek
 -}
 uz : Language
 uz =
-    Language { code = "uz" }
+    Language "uz"
 
 
 {-| Venda
 -}
 ve : Language
 ve =
-    Language { code = "ve" }
+    Language "ve"
 
 
 {-| Vietnamese
 -}
 vi : Language
 vi =
-    Language { code = "vi" }
+    Language "vi"
 
 
 {-| Volapük
 -}
 vo : Language
 vo =
-    Language { code = "vo" }
+    Language "vo"
 
 
 {-| Walloon
 -}
 wa : Language
 wa =
-    Language { code = "wa" }
+    Language "wa"
 
 
 {-| Wolof
 -}
 wo : Language
 wo =
-    Language { code = "wo" }
+    Language "wo"
 
 
 {-| Xhosa
 -}
 xh : Language
 xh =
-    Language { code = "xh" }
+    Language "xh"
 
 
 {-| Yiddish
 -}
 yi : Language
 yi =
-    Language { code = "yi" }
+    Language "yi"
 
 
 {-| Yoruba
 -}
 yo : Language
 yo =
-    Language { code = "yo" }
+    Language "yo"
 
 
 {-| Zhuang Chuang
 -}
 za : Language
 za =
-    Language { code = "za" }
+    Language "za"
 
 
 {-| Chinese
 -}
 zh : Language
 zh =
-    Language { code = "zh" }
+    Language "zh"
 
 
 {-| Zulu
 -}
 zu : Language
 zu =
-    Language { code = "zu" }
+    Language "zu"

@@ -87,18 +87,15 @@ toString languageTag =
             customCode
 
         LanguageTag language options ->
-            (([ language
-                    |> Language.details
-                    |> .code
-                    |> Just
-              , options.extendedLanguage |> Maybe.map ExtendedLanguage.details |> Maybe.map .code
-              , options.script |> Maybe.map Script.details |> Maybe.map .code
-              , options.region |> Maybe.map Country.details |> Maybe.map .code
+            (([ language |> Language.toCodeString |> Just
+              , options.extendedLanguage |> Maybe.map ExtendedLanguage.toCodeString
+              , options.script |> Maybe.map Script.toCodeString
+              , options.region |> Maybe.map Country.toCodeString
               ]
                 |> List.filterMap identity
                 |> List.Extra.unique
              )
-                ++ List.map (Variant.details >> .code) options.variants
+                ++ List.map Variant.toCodeString options.variants
             )
                 |> String.join "-"
 

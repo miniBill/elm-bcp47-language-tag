@@ -1,11 +1,11 @@
 module Script exposing
-    ( Script, details
+    ( Script, toCodeString
     , adlm, afak, aghb, ahom, arab, aran, armi, armn, avst, bali, bamu, bass, batk, beng, bhks, blis, bopo, brah, brai, bugi, buhd, cakm, cans, cari, cham, cher, chrs, cirt, copt, cpmn, cprt, cyrl, cyrs, deva, diak, dogr, dsrt, dupl, egyd, egyh, egyp, elba, elym, ethi, geok, geor, glag, gong, gonm, goth, gran, grek, gujr, guru, hanb, hang, hani, hano, hans, hant, hatr, hebr, hira, hluw, hmng, hmnp, hrkt, hung, inds, ital, jamo, java, jpan, jurc, kali, kana, khar, khmr, khoj, kitl, kits, knda, kore, kpel, kthi, lana, laoo, latf, latg, latn, leke, lepc, limb, lina, linb, lisu, loma, lyci, lydi, mahj, maka, mand, mani, marc, maya, medf, mend, merc, mero, mlym, modi, mong, moon, mroo, mtei, mult, mymr, nand, narb, nbat, newa, nkdb, nkgb, nkoo, nshu, ogam, olck, orkh, orya, osge, osma, palm, pauc, perm, phag, phli, phlp, phlv, phnx, piqd, plrd, prti, rjng, rohg, roro, runr, samr, sara, sarb, saur, sgnw, shaw, shrd, shui, sidd, sind, sinh, sogd, sogo, sora, soyo, sund, sylo, syrc, syre, syrj, syrn, tagb, takr, tale, talu, taml, tang, tavt, telu, teng, tfng, tglg, thaa, thai, tibt, tirh, toto, ugar, vaii, visp, wara, wcho, wole, xpeo, xsux, yezi, yiii, zanb, zinh, zmth, zsye, zsym, zxxx, zyyy, zzzz
     )
 
 {-| ISO 15924 language script codes. See <https://en.wikipedia.org/wiki/ISO_15924>.
 
-@docs Script, details
+@docs Script, toCodeString
 
 @docs adlm, afak, aghb, ahom, arab, aran, armi, armn, avst, bali, bamu, bass, batk, beng, bhks, blis, bopo, brah, brai, bugi, buhd, cakm, cans, cari, cham, cher, chrs, cirt, copt, cpmn, cprt, cyrl, cyrs, deva, diak, dogr, dsrt, dupl, egyd, egyh, egyp, elba, elym, ethi, geok, geor, glag, gong, gonm, goth, gran, grek, gujr, guru, hanb, hang, hani, hano, hans, hant, hatr, hebr, hira, hluw, hmng, hmnp, hrkt, hung, inds, ital, jamo, java, jpan, jurc, kali, kana, khar, khmr, khoj, kitl, kits, knda, kore, kpel, kthi, lana, laoo, latf, latg, latn, leke, lepc, limb, lina, linb, lisu, loma, lyci, lydi, mahj, maka, mand, mani, marc, maya, medf, mend, merc, mero, mlym, modi, mong, moon, mroo, mtei, mult, mymr, nand, narb, nbat, newa, nkdb, nkgb, nkoo, nshu, ogam, olck, orkh, orya, osge, osma, palm, pauc, perm, phag, phli, phlp, phlv, phnx, piqd, plrd, prti, rjng, rohg, roro, runr, samr, sara, sarb, saur, sgnw, shaw, shrd, shui, sidd, sind, sinh, sogd, sogo, sora, soyo, sund, sylo, syrc, syre, syrj, syrn, tagb, takr, tale, talu, taml, tang, tavt, telu, teng, tfng, tglg, thaa, thai, tibt, tirh, toto, ugar, vaii, visp, wara, wcho, wole, xpeo, xsux, yezi, yiii, zanb, zinh, zmth, zsye, zsym, zxxx, zyyy, zzzz
 
@@ -14,35 +14,35 @@ module Script exposing
 
 {-| -}
 type Script
-    = Script { code : String }
+    = Script String
 
 
-{-| Get the details for an ExtendedLanguage, including the `code` which represents the 639 language code.
+{-| Get the ISO 15924 language script code value for this Script.
 -}
-details : Script -> { code : String }
-details (Script record) =
-    record
+toCodeString : Script -> String
+toCodeString (Script rawCode) =
+    rawCode
 
 
 {-| Adlam
 -}
 adlm : Script
 adlm =
-    Script { code = "adlm" }
+    Script "adlm"
 
 
 {-| Afaka
 -}
 afak : Script
 afak =
-    Script { code = "afak" }
+    Script "afak"
 
 
 {-| Caucasian Albanian
 -}
 aghb : Script
 aghb =
-    Script { code = "aghb" }
+    Script "aghb"
 
 
 {-| Ahom
@@ -50,70 +50,70 @@ Tai Ahom
 -}
 ahom : Script
 ahom =
-    Script { code = "ahom" }
+    Script "ahom"
 
 
 {-| Arabic
 -}
 arab : Script
 arab =
-    Script { code = "arab" }
+    Script "arab"
 
 
 {-| Arabic (Nastaliq variant)
 -}
 aran : Script
 aran =
-    Script { code = "aran" }
+    Script "aran"
 
 
 {-| Imperial Aramaic
 -}
 armi : Script
 armi =
-    Script { code = "armi" }
+    Script "armi"
 
 
 {-| Armenian
 -}
 armn : Script
 armn =
-    Script { code = "armn" }
+    Script "armn"
 
 
 {-| Avestan
 -}
 avst : Script
 avst =
-    Script { code = "avst" }
+    Script "avst"
 
 
 {-| Balinese
 -}
 bali : Script
 bali =
-    Script { code = "bali" }
+    Script "bali"
 
 
 {-| Bamum
 -}
 bamu : Script
 bamu =
-    Script { code = "bamu" }
+    Script "bamu"
 
 
 {-| Bassa Vah
 -}
 bass : Script
 bass =
-    Script { code = "bass" }
+    Script "bass"
 
 
 {-| Batak
 -}
 batk : Script
 batk =
-    Script { code = "batk" }
+    Script "batk"
 
 
 {-| Bengali
@@ -121,140 +121,140 @@ Bangla
 -}
 beng : Script
 beng =
-    Script { code = "beng" }
+    Script "beng"
 
 
 {-| Bhaiksuki
 -}
 bhks : Script
 bhks =
-    Script { code = "bhks" }
+    Script "bhks"
 
 
 {-| Blissymbols
 -}
 blis : Script
 blis =
-    Script { code = "blis" }
+    Script "blis"
 
 
 {-| Bopomofo
 -}
 bopo : Script
 bopo =
-    Script { code = "bopo" }
+    Script "bopo"
 
 
 {-| Brahmi
 -}
 brah : Script
 brah =
-    Script { code = "brah" }
+    Script "brah"
 
 
 {-| Braille
 -}
 brai : Script
 brai =
-    Script { code = "brai" }
+    Script "brai"
 
 
 {-| Buginese
 -}
 bugi : Script
 bugi =
-    Script { code = "bugi" }
+    Script "bugi"
 
 
 {-| Buhid
 -}
 buhd : Script
 buhd =
-    Script { code = "buhd" }
+    Script "buhd"
 
 
 {-| Chakma
 -}
 cakm : Script
 cakm =
-    Script { code = "cakm" }
+    Script "cakm"
 
 
 {-| Unified Canadian Aboriginal Syllabics
 -}
 cans : Script
 cans =
-    Script { code = "cans" }
+    Script "cans"
 
 
 {-| Carian
 -}
 cari : Script
 cari =
-    Script { code = "cari" }
+    Script "cari"
 
 
 {-| Cham
 -}
 cham : Script
 cham =
-    Script { code = "cham" }
+    Script "cham"
 
 
 {-| Cherokee
 -}
 cher : Script
 cher =
-    Script { code = "cher" }
+    Script "cher"
 
 
 {-| Chorasmian
 -}
 chrs : Script
 chrs =
-    Script { code = "chrs" }
+    Script "chrs"
 
 
 {-| Cirth
 -}
 cirt : Script
 cirt =
-    Script { code = "cirt" }
+    Script "cirt"
 
 
 {-| Coptic
 -}
 copt : Script
 copt =
-    Script { code = "copt" }
+    Script "copt"
 
 
 {-| Cypro-Minoan
 -}
 cpmn : Script
 cpmn =
-    Script { code = "cpmn" }
+    Script "cpmn"
 
 
 {-| Cypriot syllabary
 -}
 cprt : Script
 cprt =
-    Script { code = "cprt" }
+    Script "cprt"
 
 
 {-| Cyrillic
 -}
 cyrl : Script
 cyrl =
-    Script { code = "cyrl" }
+    Script "cyrl"
 
 
 {-| Cyrillic (Old Church Slavonic variant)
 -}
 cyrs : Script
 cyrs =
-    Script { code = "cyrs" }
+    Script "cyrs"
 
 
 {-| Devanagari
@@ -262,21 +262,21 @@ Nagari
 -}
 deva : Script
 deva =
-    Script { code = "deva" }
+    Script "deva"
 
 
 {-| Dives Akuru
 -}
 diak : Script
 diak =
-    Script { code = "diak" }
+    Script "diak"
 
 
 {-| Dogra
 -}
 dogr : Script
 dogr =
-    Script { code = "dogr" }
+    Script "dogr"
 
 
 {-| Deseret
@@ -284,7 +284,7 @@ Mormon
 -}
 dsrt : Script
 dsrt =
-    Script { code = "dsrt" }
+    Script "dsrt"
 
 
 {-| Duployan shorthand
@@ -292,42 +292,42 @@ Duployan stenography
 -}
 dupl : Script
 dupl =
-    Script { code = "dupl" }
+    Script "dupl"
 
 
 {-| Egyptian demotic
 -}
 egyd : Script
 egyd =
-    Script { code = "egyd" }
+    Script "egyd"
 
 
 {-| Egyptian hieratic
 -}
 egyh : Script
 egyh =
-    Script { code = "egyh" }
+    Script "egyh"
 
 
 {-| Egyptian hieroglyphs
 -}
 egyp : Script
 egyp =
-    Script { code = "egyp" }
+    Script "egyp"
 
 
 {-| Elbasan
 -}
 elba : Script
 elba =
-    Script { code = "elba" }
+    Script "elba"
 
 
 {-| Elymaic
 -}
 elym : Script
 elym =
-    Script { code = "elym" }
+    Script "elym"
 
 
 {-| Ethiopic
@@ -336,84 +336,84 @@ Ge'ez
 -}
 ethi : Script
 ethi =
-    Script { code = "ethi" }
+    Script "ethi"
 
 
 {-| Khutsuri (Asomtavruli and Nuskhuri)
 -}
 geok : Script
 geok =
-    Script { code = "geok" }
+    Script "geok"
 
 
 {-| Georgian (Mkhedruli and Mtavruli)
 -}
 geor : Script
 geor =
-    Script { code = "geor" }
+    Script "geor"
 
 
 {-| Glagolitic
 -}
 glag : Script
 glag =
-    Script { code = "glag" }
+    Script "glag"
 
 
 {-| Gunjala Gondi
 -}
 gong : Script
 gong =
-    Script { code = "gong" }
+    Script "gong"
 
 
 {-| Masaram Gondi
 -}
 gonm : Script
 gonm =
-    Script { code = "gonm" }
+    Script "gonm"
 
 
 {-| Gothic
 -}
 goth : Script
 goth =
-    Script { code = "goth" }
+    Script "goth"
 
 
 {-| Grantha
 -}
 gran : Script
 gran =
-    Script { code = "gran" }
+    Script "gran"
 
 
 {-| Greek
 -}
 grek : Script
 grek =
-    Script { code = "grek" }
+    Script "grek"
 
 
 {-| Gujarati
 -}
 gujr : Script
 gujr =
-    Script { code = "gujr" }
+    Script "gujr"
 
 
 {-| Gurmukhi
 -}
 guru : Script
 guru =
-    Script { code = "guru" }
+    Script "guru"
 
 
 {-| Han with Bopomofo (alias for Han + Bopomofo)
 -}
 hanb : Script
 hanb =
-    Script { code = "hanb" }
+    Script "hanb"
 
 
 {-| Hangul
@@ -422,7 +422,7 @@ Hangeul
 -}
 hang : Script
 hang =
-    Script { code = "hang" }
+    Script "hang"
 
 
 {-| Han
@@ -432,7 +432,7 @@ Hanja
 -}
 hani : Script
 hani =
-    Script { code = "hani" }
+    Script "hani"
 
 
 {-| Hanunoo
@@ -440,42 +440,42 @@ Hanunóo
 -}
 hano : Script
 hano =
-    Script { code = "hano" }
+    Script "hano"
 
 
 {-| Han (Simplified variant)
 -}
 hans : Script
 hans =
-    Script { code = "hans" }
+    Script "hans"
 
 
 {-| Han (Traditional variant)
 -}
 hant : Script
 hant =
-    Script { code = "hant" }
+    Script "hant"
 
 
 {-| Hatran
 -}
 hatr : Script
 hatr =
-    Script { code = "hatr" }
+    Script "hatr"
 
 
 {-| Hebrew
 -}
 hebr : Script
 hebr =
-    Script { code = "hebr" }
+    Script "hebr"
 
 
 {-| Hiragana
 -}
 hira : Script
 hira =
-    Script { code = "hira" }
+    Script "hira"
 
 
 {-| Anatolian Hieroglyphs
@@ -484,28 +484,28 @@ Hittite Hieroglyphs
 -}
 hluw : Script
 hluw =
-    Script { code = "hluw" }
+    Script "hluw"
 
 
 {-| Pahawh Hmong
 -}
 hmng : Script
 hmng =
-    Script { code = "hmng" }
+    Script "hmng"
 
 
 {-| Nyiakeng Puachue Hmong
 -}
 hmnp : Script
 hmnp =
-    Script { code = "hmnp" }
+    Script "hmnp"
 
 
 {-| Japanese syllabaries (alias for Hiragana + Katakana)
 -}
 hrkt : Script
 hrkt =
-    Script { code = "hrkt" }
+    Script "hrkt"
 
 
 {-| Old Hungarian
@@ -513,7 +513,7 @@ Hungarian Runic
 -}
 hung : Script
 hung =
-    Script { code = "hung" }
+    Script "hung"
 
 
 {-| Indus
@@ -521,119 +521,119 @@ Harappan
 -}
 inds : Script
 inds =
-    Script { code = "inds" }
+    Script "inds"
 
 
 {-| Old Italic (Etruscan, Oscan, etc.)
 -}
 ital : Script
 ital =
-    Script { code = "ital" }
+    Script "ital"
 
 
 {-| Jamo (alias for Jamo subset of Hangul)
 -}
 jamo : Script
 jamo =
-    Script { code = "jamo" }
+    Script "jamo"
 
 
 {-| Javanese
 -}
 java : Script
 java =
-    Script { code = "java" }
+    Script "java"
 
 
 {-| Japanese (alias for Han + Hiragana + Katakana)
 -}
 jpan : Script
 jpan =
-    Script { code = "jpan" }
+    Script "jpan"
 
 
 {-| Jurchen
 -}
 jurc : Script
 jurc =
-    Script { code = "jurc" }
+    Script "jurc"
 
 
 {-| Kayah Li
 -}
 kali : Script
 kali =
-    Script { code = "kali" }
+    Script "kali"
 
 
 {-| Katakana
 -}
 kana : Script
 kana =
-    Script { code = "kana" }
+    Script "kana"
 
 
 {-| Kharoshthi
 -}
 khar : Script
 khar =
-    Script { code = "khar" }
+    Script "khar"
 
 
 {-| Khmer
 -}
 khmr : Script
 khmr =
-    Script { code = "khmr" }
+    Script "khmr"
 
 
 {-| Khojki
 -}
 khoj : Script
 khoj =
-    Script { code = "khoj" }
+    Script "khoj"
 
 
 {-| Khitan large script
 -}
 kitl : Script
 kitl =
-    Script { code = "kitl" }
+    Script "kitl"
 
 
 {-| Khitan small script
 -}
 kits : Script
 kits =
-    Script { code = "kits" }
+    Script "kits"
 
 
 {-| Kannada
 -}
 knda : Script
 knda =
-    Script { code = "knda" }
+    Script "knda"
 
 
 {-| Korean (alias for Hangul + Han)
 -}
 kore : Script
 kore =
-    Script { code = "kore" }
+    Script "kore"
 
 
 {-| Kpelle
 -}
 kpel : Script
 kpel =
-    Script { code = "kpel" }
+    Script "kpel"
 
 
 {-| Kaithi
 -}
 kthi : Script
 kthi =
-    Script { code = "kthi" }
+    Script "kthi"
 
 
 {-| Tai Tham
@@ -641,42 +641,42 @@ Lanna
 -}
 lana : Script
 lana =
-    Script { code = "lana" }
+    Script "lana"
 
 
 {-| Lao
 -}
 laoo : Script
 laoo =
-    Script { code = "laoo" }
+    Script "laoo"
 
 
 {-| Latin (Fraktur variant)
 -}
 latf : Script
 latf =
-    Script { code = "latf" }
+    Script "latf"
 
 
 {-| Latin (Gaelic variant)
 -}
 latg : Script
 latg =
-    Script { code = "latg" }
+    Script "latg"
 
 
 {-| Latin
 -}
 latn : Script
 latn =
-    Script { code = "latn" }
+    Script "latn"
 
 
 {-| Leke
 -}
 leke : Script
 leke =
-    Script { code = "leke" }
+    Script "leke"
 
 
 {-| Lepcha
@@ -684,28 +684,28 @@ Róng
 -}
 lepc : Script
 lepc =
-    Script { code = "lepc" }
+    Script "lepc"
 
 
 {-| Limbu
 -}
 limb : Script
 limb =
-    Script { code = "limb" }
+    Script "limb"
 
 
 {-| Linear A
 -}
 lina : Script
 lina =
-    Script { code = "lina" }
+    Script "lina"
 
 
 {-| Linear B
 -}
 linb : Script
 linb =
-    Script { code = "linb" }
+    Script "linb"
 
 
 {-| Lisu
@@ -713,42 +713,42 @@ Fraser
 -}
 lisu : Script
 lisu =
-    Script { code = "lisu" }
+    Script "lisu"
 
 
 {-| Loma
 -}
 loma : Script
 loma =
-    Script { code = "loma" }
+    Script "loma"
 
 
 {-| Lycian
 -}
 lyci : Script
 lyci =
-    Script { code = "lyci" }
+    Script "lyci"
 
 
 {-| Lydian
 -}
 lydi : Script
 lydi =
-    Script { code = "lydi" }
+    Script "lydi"
 
 
 {-| Mahajani
 -}
 mahj : Script
 mahj =
-    Script { code = "mahj" }
+    Script "mahj"
 
 
 {-| Makasar
 -}
 maka : Script
 maka =
-    Script { code = "maka" }
+    Script "maka"
 
 
 {-| Mandaic
@@ -756,28 +756,28 @@ Mandaean
 -}
 mand : Script
 mand =
-    Script { code = "mand" }
+    Script "mand"
 
 
 {-| Manichaean
 -}
 mani : Script
 mani =
-    Script { code = "mani" }
+    Script "mani"
 
 
 {-| Marchen
 -}
 marc : Script
 marc =
-    Script { code = "marc" }
+    Script "marc"
 
 
 {-| Mayan hieroglyphs
 -}
 maya : Script
 maya =
-    Script { code = "maya" }
+    Script "maya"
 
 
 {-| Medefaidrin
@@ -786,35 +786,35 @@ Oberi Ɔkaimɛ
 -}
 medf : Script
 medf =
-    Script { code = "medf" }
+    Script "medf"
 
 
 {-| Mende Kikakui
 -}
 mend : Script
 mend =
-    Script { code = "mend" }
+    Script "mend"
 
 
 {-| Meroitic Cursive
 -}
 merc : Script
 merc =
-    Script { code = "merc" }
+    Script "merc"
 
 
 {-| Meroitic Hieroglyphs
 -}
 mero : Script
 mero =
-    Script { code = "mero" }
+    Script "mero"
 
 
 {-| Malayalam
 -}
 mlym : Script
 mlym =
-    Script { code = "mlym" }
+    Script "mlym"
 
 
 {-| Modi
@@ -822,14 +822,14 @@ Moḍī
 -}
 modi : Script
 modi =
-    Script { code = "modi" }
+    Script "modi"
 
 
 {-| Mongolian
 -}
 mong : Script
 mong =
-    Script { code = "mong" }
+    Script "mong"
 
 
 {-| Moon
@@ -839,7 +839,7 @@ Moon type
 -}
 moon : Script
 moon =
-    Script { code = "moon" }
+    Script "moon"
 
 
 {-| Mro
@@ -847,7 +847,7 @@ Mru
 -}
 mroo : Script
 mroo =
-    Script { code = "mroo" }
+    Script "mroo"
 
 
 {-| Meitei Mayek
@@ -856,14 +856,14 @@ Meetei
 -}
 mtei : Script
 mtei =
-    Script { code = "mtei" }
+    Script "mtei"
 
 
 {-| Multani
 -}
 mult : Script
 mult =
-    Script { code = "mult" }
+    Script "mult"
 
 
 {-| Myanmar
@@ -871,14 +871,14 @@ Burmese
 -}
 mymr : Script
 mymr =
-    Script { code = "mymr" }
+    Script "mymr"
 
 
 {-| Nandinagari
 -}
 nand : Script
 nand =
-    Script { code = "nand" }
+    Script "nand"
 
 
 {-| Old North Arabian
@@ -886,14 +886,14 @@ Ancient North Arabian
 -}
 narb : Script
 narb =
-    Script { code = "narb" }
+    Script "narb"
 
 
 {-| Nabataean
 -}
 nbat : Script
 nbat =
-    Script { code = "nbat" }
+    Script "nbat"
 
 
 {-| Newa
@@ -903,7 +903,7 @@ Nepāla lipi
 -}
 newa : Script
 newa =
-    Script { code = "newa" }
+    Script "newa"
 
 
 {-| Naxi Dongba
@@ -912,7 +912,7 @@ Nakhi Tomba
 -}
 nkdb : Script
 nkdb =
-    Script { code = "nkdb" }
+    Script "nkdb"
 
 
 {-| Naxi Geba
@@ -922,7 +922,7 @@ Nakhi Geba
 -}
 nkgb : Script
 nkgb =
-    Script { code = "nkgb" }
+    Script "nkgb"
 
 
 {-| N’Ko
@@ -930,21 +930,21 @@ N'Ko
 -}
 nkoo : Script
 nkoo =
-    Script { code = "nkoo" }
+    Script "nkoo"
 
 
 {-| Nüshu
 -}
 nshu : Script
 nshu =
-    Script { code = "nshu" }
+    Script "nshu"
 
 
 {-| Ogham
 -}
 ogam : Script
 ogam =
-    Script { code = "ogam" }
+    Script "ogam"
 
 
 {-| Ol Chiki
@@ -954,7 +954,7 @@ Santali
 -}
 olck : Script
 olck =
-    Script { code = "olck" }
+    Script "olck"
 
 
 {-| Old Turkic
@@ -962,7 +962,7 @@ Orkhon Runic
 -}
 orkh : Script
 orkh =
-    Script { code = "orkh" }
+    Script "orkh"
 
 
 {-| Oriya
@@ -970,84 +970,84 @@ Odia
 -}
 orya : Script
 orya =
-    Script { code = "orya" }
+    Script "orya"
 
 
 {-| Osage
 -}
 osge : Script
 osge =
-    Script { code = "osge" }
+    Script "osge"
 
 
 {-| Osmanya
 -}
 osma : Script
 osma =
-    Script { code = "osma" }
+    Script "osma"
 
 
 {-| Palmyrene
 -}
 palm : Script
 palm =
-    Script { code = "palm" }
+    Script "palm"
 
 
 {-| Pau Cin Hau
 -}
 pauc : Script
 pauc =
-    Script { code = "pauc" }
+    Script "pauc"
 
 
 {-| Old Permic
 -}
 perm : Script
 perm =
-    Script { code = "perm" }
+    Script "perm"
 
 
 {-| Phags-pa
 -}
 phag : Script
 phag =
-    Script { code = "phag" }
+    Script "phag"
 
 
 {-| Inscriptional Pahlavi
 -}
 phli : Script
 phli =
-    Script { code = "phli" }
+    Script "phli"
 
 
 {-| Psalter Pahlavi
 -}
 phlp : Script
 phlp =
-    Script { code = "phlp" }
+    Script "phlp"
 
 
 {-| Book Pahlavi
 -}
 phlv : Script
 phlv =
-    Script { code = "phlv" }
+    Script "phlv"
 
 
 {-| Phoenician
 -}
 phnx : Script
 phnx =
-    Script { code = "phnx" }
+    Script "phnx"
 
 
 {-| Klingon (KLI pIqaD)
 -}
 piqd : Script
 piqd =
-    Script { code = "piqd" }
+    Script "piqd"
 
 
 {-| Miao
@@ -1055,14 +1055,14 @@ Pollard
 -}
 plrd : Script
 plrd =
-    Script { code = "plrd" }
+    Script "plrd"
 
 
 {-| Inscriptional Parthian
 -}
 prti : Script
 prti =
-    Script { code = "prti" }
+    Script "prti"
 
 
 {-| Rejang
@@ -1071,63 +1071,63 @@ Kaganga
 -}
 rjng : Script
 rjng =
-    Script { code = "rjng" }
+    Script "rjng"
 
 
 {-| Hanifi Rohingya
 -}
 rohg : Script
 rohg =
-    Script { code = "rohg" }
+    Script "rohg"
 
 
 {-| Rongorongo
 -}
 roro : Script
 roro =
-    Script { code = "roro" }
+    Script "roro"
 
 
 {-| Runic
 -}
 runr : Script
 runr =
-    Script { code = "runr" }
+    Script "runr"
 
 
 {-| Samaritan
 -}
 samr : Script
 samr =
-    Script { code = "samr" }
+    Script "samr"
 
 
 {-| Sarati
 -}
 sara : Script
 sara =
-    Script { code = "sara" }
+    Script "sara"
 
 
 {-| Old South Arabian
 -}
 sarb : Script
 sarb =
-    Script { code = "sarb" }
+    Script "sarb"
 
 
 {-| Saurashtra
 -}
 saur : Script
 saur =
-    Script { code = "saur" }
+    Script "saur"
 
 
 {-| SignWriting
 -}
 sgnw : Script
 sgnw =
-    Script { code = "sgnw" }
+    Script "sgnw"
 
 
 {-| Shavian
@@ -1135,7 +1135,7 @@ Shaw
 -}
 shaw : Script
 shaw =
-    Script { code = "shaw" }
+    Script "shaw"
 
 
 {-| Sharada
@@ -1143,14 +1143,14 @@ shaw =
 -}
 shrd : Script
 shrd =
-    Script { code = "shrd" }
+    Script "shrd"
 
 
 {-| Shuishu
 -}
 shui : Script
 shui =
-    Script { code = "shui" }
+    Script "shui"
 
 
 {-| Siddham
@@ -1159,7 +1159,7 @@ Siddhamātṛkā
 -}
 sidd : Script
 sidd =
-    Script { code = "sidd" }
+    Script "sidd"
 
 
 {-| Khudawadi
@@ -1167,91 +1167,91 @@ Sindhi
 -}
 sind : Script
 sind =
-    Script { code = "sind" }
+    Script "sind"
 
 
 {-| Sinhala
 -}
 sinh : Script
 sinh =
-    Script { code = "sinh" }
+    Script "sinh"
 
 
 {-| Sogdian
 -}
 sogd : Script
 sogd =
-    Script { code = "sogd" }
+    Script "sogd"
 
 
 {-| Old Sogdian
 -}
 sogo : Script
 sogo =
-    Script { code = "sogo" }
+    Script "sogo"
 
 
 {-| Sora Sompeng
 -}
 sora : Script
 sora =
-    Script { code = "sora" }
+    Script "sora"
 
 
 {-| Soyombo
 -}
 soyo : Script
 soyo =
-    Script { code = "soyo" }
+    Script "soyo"
 
 
 {-| Sundanese
 -}
 sund : Script
 sund =
-    Script { code = "sund" }
+    Script "sund"
 
 
 {-| Syloti Nagri
 -}
 sylo : Script
 sylo =
-    Script { code = "sylo" }
+    Script "sylo"
 
 
 {-| Syriac
 -}
 syrc : Script
 syrc =
-    Script { code = "syrc" }
+    Script "syrc"
 
 
 {-| Syriac (Estrangelo variant)
 -}
 syre : Script
 syre =
-    Script { code = "syre" }
+    Script "syre"
 
 
 {-| Syriac (Western variant)
 -}
 syrj : Script
 syrj =
-    Script { code = "syrj" }
+    Script "syrj"
 
 
 {-| Syriac (Eastern variant)
 -}
 syrn : Script
 syrn =
-    Script { code = "syrn" }
+    Script "syrn"
 
 
 {-| Tagbanwa
 -}
 tagb : Script
 tagb =
-    Script { code = "tagb" }
+    Script "tagb"
 
 
 {-| Takri
@@ -1260,56 +1260,56 @@ tagb =
 -}
 takr : Script
 takr =
-    Script { code = "takr" }
+    Script "takr"
 
 
 {-| Tai Le
 -}
 tale : Script
 tale =
-    Script { code = "tale" }
+    Script "tale"
 
 
 {-| New Tai Lue
 -}
 talu : Script
 talu =
-    Script { code = "talu" }
+    Script "talu"
 
 
 {-| Tamil
 -}
 taml : Script
 taml =
-    Script { code = "taml" }
+    Script "taml"
 
 
 {-| Tangut
 -}
 tang : Script
 tang =
-    Script { code = "tang" }
+    Script "tang"
 
 
 {-| Tai Viet
 -}
 tavt : Script
 tavt =
-    Script { code = "tavt" }
+    Script "tavt"
 
 
 {-| Telugu
 -}
 telu : Script
 telu =
-    Script { code = "telu" }
+    Script "telu"
 
 
 {-| Tengwar
 -}
 teng : Script
 teng =
-    Script { code = "teng" }
+    Script "teng"
 
 
 {-| Tifinagh
@@ -1317,7 +1317,7 @@ Berber
 -}
 tfng : Script
 tfng =
-    Script { code = "tfng" }
+    Script "tfng"
 
 
 {-| Tagalog
@@ -1326,63 +1326,63 @@ Alibata
 -}
 tglg : Script
 tglg =
-    Script { code = "tglg" }
+    Script "tglg"
 
 
 {-| Thaana
 -}
 thaa : Script
 thaa =
-    Script { code = "thaa" }
+    Script "thaa"
 
 
 {-| Thai
 -}
 thai : Script
 thai =
-    Script { code = "thai" }
+    Script "thai"
 
 
 {-| Tibetan
 -}
 tibt : Script
 tibt =
-    Script { code = "tibt" }
+    Script "tibt"
 
 
 {-| Tirhuta
 -}
 tirh : Script
 tirh =
-    Script { code = "tirh" }
+    Script "tirh"
 
 
 {-| Toto
 -}
 toto : Script
 toto =
-    Script { code = "toto" }
+    Script "toto"
 
 
 {-| Ugaritic
 -}
 ugar : Script
 ugar =
-    Script { code = "ugar" }
+    Script "ugar"
 
 
 {-| Vai
 -}
 vaii : Script
 vaii =
-    Script { code = "vaii" }
+    Script "vaii"
 
 
 {-| Visible Speech
 -}
 visp : Script
 visp =
-    Script { code = "visp" }
+    Script "visp"
 
 
 {-| Warang Citi
@@ -1390,49 +1390,49 @@ Varang Kshiti
 -}
 wara : Script
 wara =
-    Script { code = "wara" }
+    Script "wara"
 
 
 {-| Wancho
 -}
 wcho : Script
 wcho =
-    Script { code = "wcho" }
+    Script "wcho"
 
 
 {-| Woleai
 -}
 wole : Script
 wole =
-    Script { code = "wole" }
+    Script "wole"
 
 
 {-| Old Persian
 -}
 xpeo : Script
 xpeo =
-    Script { code = "xpeo" }
+    Script "xpeo"
 
 
 {-| Sumero-Akkadian cuneiform
 -}
 xsux : Script
 xsux =
-    Script { code = "xsux" }
+    Script "xsux"
 
 
 {-| Yezidi
 -}
 yezi : Script
 yezi =
-    Script { code = "yezi" }
+    Script "yezi"
 
 
 {-| Yi
 -}
 yiii : Script
 yiii =
-    Script { code = "yiii" }
+    Script "yiii"
 
 
 {-| Zanabazar Square
@@ -1442,53 +1442,53 @@ Horizontal Square Script
 -}
 zanb : Script
 zanb =
-    Script { code = "zanb" }
+    Script "zanb"
 
 
 {-| Code for inherited script
 -}
 zinh : Script
 zinh =
-    Script { code = "zinh" }
+    Script "zinh"
 
 
 {-| Mathematical notation
 -}
 zmth : Script
 zmth =
-    Script { code = "zmth" }
+    Script "zmth"
 
 
 {-| Symbols (Emoji variant)
 -}
 zsye : Script
 zsye =
-    Script { code = "zsye" }
+    Script "zsye"
 
 
 {-| Symbols
 -}
 zsym : Script
 zsym =
-    Script { code = "zsym" }
+    Script "zsym"
 
 
 {-| Code for unwritten documents
 -}
 zxxx : Script
 zxxx =
-    Script { code = "zxxx" }
+    Script "zxxx"
 
 
 {-| Code for undetermined script
 -}
 zyyy : Script
 zyyy =
-    Script { code = "zyyy" }
+    Script "zyyy"
 
 
 {-| Code for uncoded script
 -}
 zzzz : Script
 zzzz =
-    Script { code = "zzzz" }
+    Script "zzzz"

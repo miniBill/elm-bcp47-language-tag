@@ -10,6 +10,7 @@ const tag = require("language-tags");
  * @param {(value: import("language-tags").Subtag | import("language-tags").Tag) => boolean} config.includeDefinition
  * @param {string} config.typeName
  * @param {string} config.comment
+ * @param {string} config.toCodeComment
  */
 module.exports = function generate(config) {
   const extlangs = tag
@@ -38,17 +39,17 @@ module.exports = function generate(config) {
       return `{-| ${config.definitionComment(language)} -}
 ${normalizeCode(key)} : ${config.typeName}
 ${normalizeCode(key)} =
-    ${config.typeName} { code = "${key}" }`;
+    ${config.typeName} "${key}"`;
     })
     .join("\n\n");
   const languageModule = `module ${config.typeName} exposing
-    ( ${config.typeName}, details
+    ( ${config.typeName}, toCodeString
     , ${topLevelDefinitions.map(normalizeCode).join(", ")}
     )
 
 {-| ${config.comment}
 
-@docs ${config.typeName}, details
+@docs ${config.typeName}, toCodeString
 
 @docs ${topLevelDefinitions.map(normalizeCode).join(", ")}
 
@@ -57,13 +58,13 @@ ${normalizeCode(key)} =
 {-|
 -}
 type ${config.typeName}
-    = ${config.typeName} { code : String }
+    = ${config.typeName} String
 
-{-| Get the details for an ExtendedLanguage, including the \`code\` which represents the 639 language code.
+{-| ${config.toCodeComment}
 -}
-details : ${config.typeName} -> { code : String }
-details (${config.typeName} record) =
-    record
+toCodeString : ${config.typeName} -> String
+toCodeString (${config.typeName} rawCode) =
+    rawCode
 
 ${languageEntriesCode}
 `;

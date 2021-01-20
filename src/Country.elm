@@ -1,11 +1,11 @@
 module Country exposing
-    ( Country, details
+    ( Country, toCodeString
     , n_001, n_002, n_003, n_005, n_009, n_011, n_013, n_014, n_015, n_017, n_018, n_019, n_021, n_029, n_030, n_034, n_035, n_039, n_053, n_054, n_057, n_061, n_142, n_143, n_145, n_150, n_151, n_154, n_155, n_202, n_419, ac, ad, ae, af, ag, ai, al, am, an, ao, aq, ar, as_, at, au, aw, ax, az, ba, bb, bd, be, bf, bg, bh, bi, bj, bl, bm, bn, bo, bq, br, bs, bt, bu, bv, bw, by, bz, ca, cc, cd, cf, cg, ch, ci, ck, cl, cm, cn, co, cp, cr, cs, cu, cv, cw, cx, cy, cz, dd, de, dg, dj, dk, dm, do, dz, ea, ec, ee, eg, eh, er, es, et, eu, ez, fi, fj, fk, fm, fo, fr, fx, ga, gb, gd, ge, gf, gg, gh, gi, gl, gm, gn, gp, gq, gr, gs, gt, gu, gw, gy, hk, hm, hn, hr, ht, hu, ic, id, ie, il, im, in_, io, iq, ir, is, it, je, jm, jo, jp, ke, kg, kh, ki, km, kn, kp, kr, kw, ky, kz, la, lb, lc, li, lk, lr, ls, lt, lu, lv, ly, ma, mc, md, me, mf, mg, mh, mk, ml, mm, mn, mo, mp, mq, mr, ms, mt, mu, mv, mw, mx, my, mz, na, nc, ne, nf, ng, ni, nl, no, np, nr, nt, nu, nz, om, pa, pe, pf, pg, ph, pk, pl, pm, pn, pr, ps, pt, pw, py, qa, re, ro, rs, ru, rw, sa, sb, sc, sd, se, sg, sh, si, sj, sk, sl, sm, sn, so, sr, ss, st, su, sv, sx, sy, sz, ta, tc, td, tf, tg, th, tj, tk, tl, tm, tn, to, tp, tr, tt, tv, tw, tz, ua, ug, um, un, us, uy, uz, va, vc, ve, vg, vi, vn, vu, wf, ws, yd, ye, yt, yu, za, zm, zr, zw
     )
 
 {-| ISO 3166-1 country codes. See <https://en.wikipedia.org/wiki/ISO_3166-1>.
 
-@docs Country, details
+@docs Country, toCodeString
 
 @docs n_001, n_002, n_003, n_005, n_009, n_011, n_013, n_014, n_015, n_017, n_018, n_019, n_021, n_029, n_030, n_034, n_035, n_039, n_053, n_054, n_057, n_061, n_142, n_143, n_145, n_150, n_151, n_154, n_155, n_202, n_419, ac, ad, ae, af, ag, ai, al, am, an, ao, aq, ar, as_, at, au, aw, ax, az, ba, bb, bd, be, bf, bg, bh, bi, bj, bl, bm, bn, bo, bq, br, bs, bt, bu, bv, bw, by, bz, ca, cc, cd, cf, cg, ch, ci, ck, cl, cm, cn, co, cp, cr, cs, cu, cv, cw, cx, cy, cz, dd, de, dg, dj, dk, dm, do, dz, ea, ec, ee, eg, eh, er, es, et, eu, ez, fi, fj, fk, fm, fo, fr, fx, ga, gb, gd, ge, gf, gg, gh, gi, gl, gm, gn, gp, gq, gr, gs, gt, gu, gw, gy, hk, hm, hn, hr, ht, hu, ic, id, ie, il, im, in_, io, iq, ir, is, it, je, jm, jo, jp, ke, kg, kh, ki, km, kn, kp, kr, kw, ky, kz, la, lb, lc, li, lk, lr, ls, lt, lu, lv, ly, ma, mc, md, me, mf, mg, mh, mk, ml, mm, mn, mo, mp, mq, mr, ms, mt, mu, mv, mw, mx, my, mz, na, nc, ne, nf, ng, ni, nl, no, np, nr, nt, nu, nz, om, pa, pe, pf, pg, ph, pk, pl, pm, pn, pr, ps, pt, pw, py, qa, re, ro, rs, ru, rw, sa, sb, sc, sd, se, sg, sh, si, sj, sk, sl, sm, sn, so, sr, ss, st, su, sv, sx, sy, sz, ta, tc, td, tf, tg, th, tj, tk, tl, tm, tn, to, tp, tr, tt, tv, tw, tz, ua, ug, um, un, us, uy, uz, va, vc, ve, vg, vi, vn, vu, wf, ws, yd, ye, yt, yu, za, zm, zr, zw
 
@@ -14,623 +14,623 @@ module Country exposing
 
 {-| -}
 type Country
-    = Country { code : String }
+    = Country String
 
 
-{-| Get the details for an ExtendedLanguage, including the `code` which represents the 639 language code.
+{-| Get the ISO 3166-1 country code value for this Country.
 -}
-details : Country -> { code : String }
-details (Country record) =
-    record
+toCodeString : Country -> String
+toCodeString (Country rawCode) =
+    rawCode
 
 
 {-| World
 -}
 n_001 : Country
 n_001 =
-    Country { code = "001" }
+    Country "001"
 
 
 {-| Africa
 -}
 n_002 : Country
 n_002 =
-    Country { code = "002" }
+    Country "002"
 
 
 {-| North America
 -}
 n_003 : Country
 n_003 =
-    Country { code = "003" }
+    Country "003"
 
 
 {-| South America
 -}
 n_005 : Country
 n_005 =
-    Country { code = "005" }
+    Country "005"
 
 
 {-| Oceania
 -}
 n_009 : Country
 n_009 =
-    Country { code = "009" }
+    Country "009"
 
 
 {-| Western Africa
 -}
 n_011 : Country
 n_011 =
-    Country { code = "011" }
+    Country "011"
 
 
 {-| Central America
 -}
 n_013 : Country
 n_013 =
-    Country { code = "013" }
+    Country "013"
 
 
 {-| Eastern Africa
 -}
 n_014 : Country
 n_014 =
-    Country { code = "014" }
+    Country "014"
 
 
 {-| Northern Africa
 -}
 n_015 : Country
 n_015 =
-    Country { code = "015" }
+    Country "015"
 
 
 {-| Middle Africa
 -}
 n_017 : Country
 n_017 =
-    Country { code = "017" }
+    Country "017"
 
 
 {-| Southern Africa
 -}
 n_018 : Country
 n_018 =
-    Country { code = "018" }
+    Country "018"
 
 
 {-| Americas
 -}
 n_019 : Country
 n_019 =
-    Country { code = "019" }
+    Country "019"
 
 
 {-| Northern America
 -}
 n_021 : Country
 n_021 =
-    Country { code = "021" }
+    Country "021"
 
 
 {-| Caribbean
 -}
 n_029 : Country
 n_029 =
-    Country { code = "029" }
+    Country "029"
 
 
 {-| Eastern Asia
 -}
 n_030 : Country
 n_030 =
-    Country { code = "030" }
+    Country "030"
 
 
 {-| Southern Asia
 -}
 n_034 : Country
 n_034 =
-    Country { code = "034" }
+    Country "034"
 
 
 {-| South-Eastern Asia
 -}
 n_035 : Country
 n_035 =
-    Country { code = "035" }
+    Country "035"
 
 
 {-| Southern Europe
 -}
 n_039 : Country
 n_039 =
-    Country { code = "039" }
+    Country "039"
 
 
 {-| Australia and New Zealand
 -}
 n_053 : Country
 n_053 =
-    Country { code = "053" }
+    Country "053"
 
 
 {-| Melanesia
 -}
 n_054 : Country
 n_054 =
-    Country { code = "054" }
+    Country "054"
 
 
 {-| Micronesia
 -}
 n_057 : Country
 n_057 =
-    Country { code = "057" }
+    Country "057"
 
 
 {-| Polynesia
 -}
 n_061 : Country
 n_061 =
-    Country { code = "061" }
+    Country "061"
 
 
 {-| Asia
 -}
 n_142 : Country
 n_142 =
-    Country { code = "142" }
+    Country "142"
 
 
 {-| Central Asia
 -}
 n_143 : Country
 n_143 =
-    Country { code = "143" }
+    Country "143"
 
 
 {-| Western Asia
 -}
 n_145 : Country
 n_145 =
-    Country { code = "145" }
+    Country "145"
 
 
 {-| Europe
 -}
 n_150 : Country
 n_150 =
-    Country { code = "150" }
+    Country "150"
 
 
 {-| Eastern Europe
 -}
 n_151 : Country
 n_151 =
-    Country { code = "151" }
+    Country "151"
 
 
 {-| Northern Europe
 -}
 n_154 : Country
 n_154 =
-    Country { code = "154" }
+    Country "154"
 
 
 {-| Western Europe
 -}
 n_155 : Country
 n_155 =
-    Country { code = "155" }
+    Country "155"
 
 
 {-| Sub-Saharan Africa
 -}
 n_202 : Country
 n_202 =
-    Country { code = "202" }
+    Country "202"
 
 
 {-| Latin America and the Caribbean
 -}
 n_419 : Country
 n_419 =
-    Country { code = "419" }
+    Country "419"
 
 
 {-| Ascension Island
 -}
 ac : Country
 ac =
-    Country { code = "ac" }
+    Country "ac"
 
 
 {-| Andorra
 -}
 ad : Country
 ad =
-    Country { code = "ad" }
+    Country "ad"
 
 
 {-| United Arab Emirates
 -}
 ae : Country
 ae =
-    Country { code = "ae" }
+    Country "ae"
 
 
 {-| Afghanistan
 -}
 af : Country
 af =
-    Country { code = "af" }
+    Country "af"
 
 
 {-| Antigua and Barbuda
 -}
 ag : Country
 ag =
-    Country { code = "ag" }
+    Country "ag"
 
 
 {-| Anguilla
 -}
 ai : Country
 ai =
-    Country { code = "ai" }
+    Country "ai"
 
 
 {-| Albania
 -}
 al : Country
 al =
-    Country { code = "al" }
+    Country "al"
 
 
 {-| Armenia
 -}
 am : Country
 am =
-    Country { code = "am" }
+    Country "am"
 
 
 {-| Netherlands Antilles
 -}
 an : Country
 an =
-    Country { code = "an" }
+    Country "an"
 
 
 {-| Angola
 -}
 ao : Country
 ao =
-    Country { code = "ao" }
+    Country "ao"
 
 
 {-| Antarctica
 -}
 aq : Country
 aq =
-    Country { code = "aq" }
+    Country "aq"
 
 
 {-| Argentina
 -}
 ar : Country
 ar =
-    Country { code = "ar" }
+    Country "ar"
 
 
 {-| American Samoa
 -}
 as_ : Country
 as_ =
-    Country { code = "as" }
+    Country "as"
 
 
 {-| Austria
 -}
 at : Country
 at =
-    Country { code = "at" }
+    Country "at"
 
 
 {-| Australia
 -}
 au : Country
 au =
-    Country { code = "au" }
+    Country "au"
 
 
 {-| Aruba
 -}
 aw : Country
 aw =
-    Country { code = "aw" }
+    Country "aw"
 
 
 {-| Åland Islands
 -}
 ax : Country
 ax =
-    Country { code = "ax" }
+    Country "ax"
 
 
 {-| Azerbaijan
 -}
 az : Country
 az =
-    Country { code = "az" }
+    Country "az"
 
 
 {-| Bosnia and Herzegovina
 -}
 ba : Country
 ba =
-    Country { code = "ba" }
+    Country "ba"
 
 
 {-| Barbados
 -}
 bb : Country
 bb =
-    Country { code = "bb" }
+    Country "bb"
 
 
 {-| Bangladesh
 -}
 bd : Country
 bd =
-    Country { code = "bd" }
+    Country "bd"
 
 
 {-| Belgium
 -}
 be : Country
 be =
-    Country { code = "be" }
+    Country "be"
 
 
 {-| Burkina Faso
 -}
 bf : Country
 bf =
-    Country { code = "bf" }
+    Country "bf"
 
 
 {-| Bulgaria
 -}
 bg : Country
 bg =
-    Country { code = "bg" }
+    Country "bg"
 
 
 {-| Bahrain
 -}
 bh : Country
 bh =
-    Country { code = "bh" }
+    Country "bh"
 
 
 {-| Burundi
 -}
 bi : Country
 bi =
-    Country { code = "bi" }
+    Country "bi"
 
 
 {-| Benin
 -}
 bj : Country
 bj =
-    Country { code = "bj" }
+    Country "bj"
 
 
 {-| Saint Barthélemy
 -}
 bl : Country
 bl =
-    Country { code = "bl" }
+    Country "bl"
 
 
 {-| Bermuda
 -}
 bm : Country
 bm =
-    Country { code = "bm" }
+    Country "bm"
 
 
 {-| Brunei Darussalam
 -}
 bn : Country
 bn =
-    Country { code = "bn" }
+    Country "bn"
 
 
 {-| Bolivia
 -}
 bo : Country
 bo =
-    Country { code = "bo" }
+    Country "bo"
 
 
 {-| Bonaire, Sint Eustatius and Saba
 -}
 bq : Country
 bq =
-    Country { code = "bq" }
+    Country "bq"
 
 
 {-| Brazil
 -}
 br : Country
 br =
-    Country { code = "br" }
+    Country "br"
 
 
 {-| Bahamas
 -}
 bs : Country
 bs =
-    Country { code = "bs" }
+    Country "bs"
 
 
 {-| Bhutan
 -}
 bt : Country
 bt =
-    Country { code = "bt" }
+    Country "bt"
 
 
 {-| Burma
 -}
 bu : Country
 bu =
-    Country { code = "bu" }
+    Country "bu"
 
 
 {-| Bouvet Island
 -}
 bv : Country
 bv =
-    Country { code = "bv" }
+    Country "bv"
 
 
 {-| Botswana
 -}
 bw : Country
 bw =
-    Country { code = "bw" }
+    Country "bw"
 
 
 {-| Belarus
 -}
 by : Country
 by =
-    Country { code = "by" }
+    Country "by"
 
 
 {-| Belize
 -}
 bz : Country
 bz =
-    Country { code = "bz" }
+    Country "bz"
 
 
 {-| Canada
 -}
 ca : Country
 ca =
-    Country { code = "ca" }
+    Country "ca"
 
 
 {-| Cocos (Keeling) Islands
 -}
 cc : Country
 cc =
-    Country { code = "cc" }
+    Country "cc"
 
 
 {-| The Democratic Republic of the Congo
 -}
 cd : Country
 cd =
-    Country { code = "cd" }
+    Country "cd"
 
 
 {-| Central African Republic
 -}
 cf : Country
 cf =
-    Country { code = "cf" }
+    Country "cf"
 
 
 {-| Congo
 -}
 cg : Country
 cg =
-    Country { code = "cg" }
+    Country "cg"
 
 
 {-| Switzerland
 -}
 ch : Country
 ch =
-    Country { code = "ch" }
+    Country "ch"
 
 
 {-| Côte d'Ivoire
 -}
 ci : Country
 ci =
-    Country { code = "ci" }
+    Country "ci"
 
 
 {-| Cook Islands
 -}
 ck : Country
 ck =
-    Country { code = "ck" }
+    Country "ck"
 
 
 {-| Chile
 -}
 cl : Country
 cl =
-    Country { code = "cl" }
+    Country "cl"
 
 
 {-| Cameroon
 -}
 cm : Country
 cm =
-    Country { code = "cm" }
+    Country "cm"
 
 
 {-| China
 -}
 cn : Country
 cn =
-    Country { code = "cn" }
+    Country "cn"
 
 
 {-| Colombia
 -}
 co : Country
 co =
-    Country { code = "co" }
+    Country "co"
 
 
 {-| Clipperton Island
 -}
 cp : Country
 cp =
-    Country { code = "cp" }
+    Country "cp"
 
 
 {-| Costa Rica
 -}
 cr : Country
 cr =
-    Country { code = "cr" }
+    Country "cr"
 
 
 {-| Serbia and Montenegro
 -}
 cs : Country
 cs =
-    Country { code = "cs" }
+    Country "cs"
 
 
 {-| Cuba
 -}
 cu : Country
 cu =
-    Country { code = "cu" }
+    Country "cu"
 
 
 {-| Cabo Verde
@@ -638,28 +638,28 @@ Cape Verde
 -}
 cv : Country
 cv =
-    Country { code = "cv" }
+    Country "cv"
 
 
 {-| Curaçao
 -}
 cw : Country
 cw =
-    Country { code = "cw" }
+    Country "cw"
 
 
 {-| Christmas Island
 -}
 cx : Country
 cx =
-    Country { code = "cx" }
+    Country "cx"
 
 
 {-| Cyprus
 -}
 cy : Country
 cy =
-    Country { code = "cy" }
+    Country "cy"
 
 
 {-| Czechia
@@ -667,1162 +667,1162 @@ Czech Republic
 -}
 cz : Country
 cz =
-    Country { code = "cz" }
+    Country "cz"
 
 
 {-| German Democratic Republic
 -}
 dd : Country
 dd =
-    Country { code = "dd" }
+    Country "dd"
 
 
 {-| Germany
 -}
 de : Country
 de =
-    Country { code = "de" }
+    Country "de"
 
 
 {-| Diego Garcia
 -}
 dg : Country
 dg =
-    Country { code = "dg" }
+    Country "dg"
 
 
 {-| Djibouti
 -}
 dj : Country
 dj =
-    Country { code = "dj" }
+    Country "dj"
 
 
 {-| Denmark
 -}
 dk : Country
 dk =
-    Country { code = "dk" }
+    Country "dk"
 
 
 {-| Dominica
 -}
 dm : Country
 dm =
-    Country { code = "dm" }
+    Country "dm"
 
 
 {-| Dominican Republic
 -}
 do : Country
 do =
-    Country { code = "do" }
+    Country "do"
 
 
 {-| Algeria
 -}
 dz : Country
 dz =
-    Country { code = "dz" }
+    Country "dz"
 
 
 {-| Ceuta, Melilla
 -}
 ea : Country
 ea =
-    Country { code = "ea" }
+    Country "ea"
 
 
 {-| Ecuador
 -}
 ec : Country
 ec =
-    Country { code = "ec" }
+    Country "ec"
 
 
 {-| Estonia
 -}
 ee : Country
 ee =
-    Country { code = "ee" }
+    Country "ee"
 
 
 {-| Egypt
 -}
 eg : Country
 eg =
-    Country { code = "eg" }
+    Country "eg"
 
 
 {-| Western Sahara
 -}
 eh : Country
 eh =
-    Country { code = "eh" }
+    Country "eh"
 
 
 {-| Eritrea
 -}
 er : Country
 er =
-    Country { code = "er" }
+    Country "er"
 
 
 {-| Spain
 -}
 es : Country
 es =
-    Country { code = "es" }
+    Country "es"
 
 
 {-| Ethiopia
 -}
 et : Country
 et =
-    Country { code = "et" }
+    Country "et"
 
 
 {-| European Union
 -}
 eu : Country
 eu =
-    Country { code = "eu" }
+    Country "eu"
 
 
 {-| Eurozone
 -}
 ez : Country
 ez =
-    Country { code = "ez" }
+    Country "ez"
 
 
 {-| Finland
 -}
 fi : Country
 fi =
-    Country { code = "fi" }
+    Country "fi"
 
 
 {-| Fiji
 -}
 fj : Country
 fj =
-    Country { code = "fj" }
+    Country "fj"
 
 
 {-| Falkland Islands (Malvinas)
 -}
 fk : Country
 fk =
-    Country { code = "fk" }
+    Country "fk"
 
 
 {-| Federated States of Micronesia
 -}
 fm : Country
 fm =
-    Country { code = "fm" }
+    Country "fm"
 
 
 {-| Faroe Islands
 -}
 fo : Country
 fo =
-    Country { code = "fo" }
+    Country "fo"
 
 
 {-| France
 -}
 fr : Country
 fr =
-    Country { code = "fr" }
+    Country "fr"
 
 
 {-| Metropolitan France
 -}
 fx : Country
 fx =
-    Country { code = "fx" }
+    Country "fx"
 
 
 {-| Gabon
 -}
 ga : Country
 ga =
-    Country { code = "ga" }
+    Country "ga"
 
 
 {-| United Kingdom
 -}
 gb : Country
 gb =
-    Country { code = "gb" }
+    Country "gb"
 
 
 {-| Grenada
 -}
 gd : Country
 gd =
-    Country { code = "gd" }
+    Country "gd"
 
 
 {-| Georgia
 -}
 ge : Country
 ge =
-    Country { code = "ge" }
+    Country "ge"
 
 
 {-| French Guiana
 -}
 gf : Country
 gf =
-    Country { code = "gf" }
+    Country "gf"
 
 
 {-| Guernsey
 -}
 gg : Country
 gg =
-    Country { code = "gg" }
+    Country "gg"
 
 
 {-| Ghana
 -}
 gh : Country
 gh =
-    Country { code = "gh" }
+    Country "gh"
 
 
 {-| Gibraltar
 -}
 gi : Country
 gi =
-    Country { code = "gi" }
+    Country "gi"
 
 
 {-| Greenland
 -}
 gl : Country
 gl =
-    Country { code = "gl" }
+    Country "gl"
 
 
 {-| Gambia
 -}
 gm : Country
 gm =
-    Country { code = "gm" }
+    Country "gm"
 
 
 {-| Guinea
 -}
 gn : Country
 gn =
-    Country { code = "gn" }
+    Country "gn"
 
 
 {-| Guadeloupe
 -}
 gp : Country
 gp =
-    Country { code = "gp" }
+    Country "gp"
 
 
 {-| Equatorial Guinea
 -}
 gq : Country
 gq =
-    Country { code = "gq" }
+    Country "gq"
 
 
 {-| Greece
 -}
 gr : Country
 gr =
-    Country { code = "gr" }
+    Country "gr"
 
 
 {-| South Georgia and the South Sandwich Islands
 -}
 gs : Country
 gs =
-    Country { code = "gs" }
+    Country "gs"
 
 
 {-| Guatemala
 -}
 gt : Country
 gt =
-    Country { code = "gt" }
+    Country "gt"
 
 
 {-| Guam
 -}
 gu : Country
 gu =
-    Country { code = "gu" }
+    Country "gu"
 
 
 {-| Guinea-Bissau
 -}
 gw : Country
 gw =
-    Country { code = "gw" }
+    Country "gw"
 
 
 {-| Guyana
 -}
 gy : Country
 gy =
-    Country { code = "gy" }
+    Country "gy"
 
 
 {-| Hong Kong
 -}
 hk : Country
 hk =
-    Country { code = "hk" }
+    Country "hk"
 
 
 {-| Heard Island and McDonald Islands
 -}
 hm : Country
 hm =
-    Country { code = "hm" }
+    Country "hm"
 
 
 {-| Honduras
 -}
 hn : Country
 hn =
-    Country { code = "hn" }
+    Country "hn"
 
 
 {-| Croatia
 -}
 hr : Country
 hr =
-    Country { code = "hr" }
+    Country "hr"
 
 
 {-| Haiti
 -}
 ht : Country
 ht =
-    Country { code = "ht" }
+    Country "ht"
 
 
 {-| Hungary
 -}
 hu : Country
 hu =
-    Country { code = "hu" }
+    Country "hu"
 
 
 {-| Canary Islands
 -}
 ic : Country
 ic =
-    Country { code = "ic" }
+    Country "ic"
 
 
 {-| Indonesia
 -}
 id : Country
 id =
-    Country { code = "id" }
+    Country "id"
 
 
 {-| Ireland
 -}
 ie : Country
 ie =
-    Country { code = "ie" }
+    Country "ie"
 
 
 {-| Israel
 -}
 il : Country
 il =
-    Country { code = "il" }
+    Country "il"
 
 
 {-| Isle of Man
 -}
 im : Country
 im =
-    Country { code = "im" }
+    Country "im"
 
 
 {-| India
 -}
 in_ : Country
 in_ =
-    Country { code = "in" }
+    Country "in"
 
 
 {-| British Indian Ocean Territory
 -}
 io : Country
 io =
-    Country { code = "io" }
+    Country "io"
 
 
 {-| Iraq
 -}
 iq : Country
 iq =
-    Country { code = "iq" }
+    Country "iq"
 
 
 {-| Islamic Republic of Iran
 -}
 ir : Country
 ir =
-    Country { code = "ir" }
+    Country "ir"
 
 
 {-| Iceland
 -}
 is : Country
 is =
-    Country { code = "is" }
+    Country "is"
 
 
 {-| Italy
 -}
 it : Country
 it =
-    Country { code = "it" }
+    Country "it"
 
 
 {-| Jersey
 -}
 je : Country
 je =
-    Country { code = "je" }
+    Country "je"
 
 
 {-| Jamaica
 -}
 jm : Country
 jm =
-    Country { code = "jm" }
+    Country "jm"
 
 
 {-| Jordan
 -}
 jo : Country
 jo =
-    Country { code = "jo" }
+    Country "jo"
 
 
 {-| Japan
 -}
 jp : Country
 jp =
-    Country { code = "jp" }
+    Country "jp"
 
 
 {-| Kenya
 -}
 ke : Country
 ke =
-    Country { code = "ke" }
+    Country "ke"
 
 
 {-| Kyrgyzstan
 -}
 kg : Country
 kg =
-    Country { code = "kg" }
+    Country "kg"
 
 
 {-| Cambodia
 -}
 kh : Country
 kh =
-    Country { code = "kh" }
+    Country "kh"
 
 
 {-| Kiribati
 -}
 ki : Country
 ki =
-    Country { code = "ki" }
+    Country "ki"
 
 
 {-| Comoros
 -}
 km : Country
 km =
-    Country { code = "km" }
+    Country "km"
 
 
 {-| Saint Kitts and Nevis
 -}
 kn : Country
 kn =
-    Country { code = "kn" }
+    Country "kn"
 
 
 {-| Democratic People's Republic of Korea
 -}
 kp : Country
 kp =
-    Country { code = "kp" }
+    Country "kp"
 
 
 {-| Republic of Korea
 -}
 kr : Country
 kr =
-    Country { code = "kr" }
+    Country "kr"
 
 
 {-| Kuwait
 -}
 kw : Country
 kw =
-    Country { code = "kw" }
+    Country "kw"
 
 
 {-| Cayman Islands
 -}
 ky : Country
 ky =
-    Country { code = "ky" }
+    Country "ky"
 
 
 {-| Kazakhstan
 -}
 kz : Country
 kz =
-    Country { code = "kz" }
+    Country "kz"
 
 
 {-| Lao People's Democratic Republic
 -}
 la : Country
 la =
-    Country { code = "la" }
+    Country "la"
 
 
 {-| Lebanon
 -}
 lb : Country
 lb =
-    Country { code = "lb" }
+    Country "lb"
 
 
 {-| Saint Lucia
 -}
 lc : Country
 lc =
-    Country { code = "lc" }
+    Country "lc"
 
 
 {-| Liechtenstein
 -}
 li : Country
 li =
-    Country { code = "li" }
+    Country "li"
 
 
 {-| Sri Lanka
 -}
 lk : Country
 lk =
-    Country { code = "lk" }
+    Country "lk"
 
 
 {-| Liberia
 -}
 lr : Country
 lr =
-    Country { code = "lr" }
+    Country "lr"
 
 
 {-| Lesotho
 -}
 ls : Country
 ls =
-    Country { code = "ls" }
+    Country "ls"
 
 
 {-| Lithuania
 -}
 lt : Country
 lt =
-    Country { code = "lt" }
+    Country "lt"
 
 
 {-| Luxembourg
 -}
 lu : Country
 lu =
-    Country { code = "lu" }
+    Country "lu"
 
 
 {-| Latvia
 -}
 lv : Country
 lv =
-    Country { code = "lv" }
+    Country "lv"
 
 
 {-| Libya
 -}
 ly : Country
 ly =
-    Country { code = "ly" }
+    Country "ly"
 
 
 {-| Morocco
 -}
 ma : Country
 ma =
-    Country { code = "ma" }
+    Country "ma"
 
 
 {-| Monaco
 -}
 mc : Country
 mc =
-    Country { code = "mc" }
+    Country "mc"
 
 
 {-| Moldova
 -}
 md : Country
 md =
-    Country { code = "md" }
+    Country "md"
 
 
 {-| Montenegro
 -}
 me : Country
 me =
-    Country { code = "me" }
+    Country "me"
 
 
 {-| Saint Martin (French part)
 -}
 mf : Country
 mf =
-    Country { code = "mf" }
+    Country "mf"
 
 
 {-| Madagascar
 -}
 mg : Country
 mg =
-    Country { code = "mg" }
+    Country "mg"
 
 
 {-| Marshall Islands
 -}
 mh : Country
 mh =
-    Country { code = "mh" }
+    Country "mh"
 
 
 {-| North Macedonia
 -}
 mk : Country
 mk =
-    Country { code = "mk" }
+    Country "mk"
 
 
 {-| Mali
 -}
 ml : Country
 ml =
-    Country { code = "ml" }
+    Country "ml"
 
 
 {-| Myanmar
 -}
 mm : Country
 mm =
-    Country { code = "mm" }
+    Country "mm"
 
 
 {-| Mongolia
 -}
 mn : Country
 mn =
-    Country { code = "mn" }
+    Country "mn"
 
 
 {-| Macao
 -}
 mo : Country
 mo =
-    Country { code = "mo" }
+    Country "mo"
 
 
 {-| Northern Mariana Islands
 -}
 mp : Country
 mp =
-    Country { code = "mp" }
+    Country "mp"
 
 
 {-| Martinique
 -}
 mq : Country
 mq =
-    Country { code = "mq" }
+    Country "mq"
 
 
 {-| Mauritania
 -}
 mr : Country
 mr =
-    Country { code = "mr" }
+    Country "mr"
 
 
 {-| Montserrat
 -}
 ms : Country
 ms =
-    Country { code = "ms" }
+    Country "ms"
 
 
 {-| Malta
 -}
 mt : Country
 mt =
-    Country { code = "mt" }
+    Country "mt"
 
 
 {-| Mauritius
 -}
 mu : Country
 mu =
-    Country { code = "mu" }
+    Country "mu"
 
 
 {-| Maldives
 -}
 mv : Country
 mv =
-    Country { code = "mv" }
+    Country "mv"
 
 
 {-| Malawi
 -}
 mw : Country
 mw =
-    Country { code = "mw" }
+    Country "mw"
 
 
 {-| Mexico
 -}
 mx : Country
 mx =
-    Country { code = "mx" }
+    Country "mx"
 
 
 {-| Malaysia
 -}
 my : Country
 my =
-    Country { code = "my" }
+    Country "my"
 
 
 {-| Mozambique
 -}
 mz : Country
 mz =
-    Country { code = "mz" }
+    Country "mz"
 
 
 {-| Namibia
 -}
 na : Country
 na =
-    Country { code = "na" }
+    Country "na"
 
 
 {-| New Caledonia
 -}
 nc : Country
 nc =
-    Country { code = "nc" }
+    Country "nc"
 
 
 {-| Niger
 -}
 ne : Country
 ne =
-    Country { code = "ne" }
+    Country "ne"
 
 
 {-| Norfolk Island
 -}
 nf : Country
 nf =
-    Country { code = "nf" }
+    Country "nf"
 
 
 {-| Nigeria
 -}
 ng : Country
 ng =
-    Country { code = "ng" }
+    Country "ng"
 
 
 {-| Nicaragua
 -}
 ni : Country
 ni =
-    Country { code = "ni" }
+    Country "ni"
 
 
 {-| Netherlands
 -}
 nl : Country
 nl =
-    Country { code = "nl" }
+    Country "nl"
 
 
 {-| Norway
 -}
 no : Country
 no =
-    Country { code = "no" }
+    Country "no"
 
 
 {-| Nepal
 -}
 np : Country
 np =
-    Country { code = "np" }
+    Country "np"
 
 
 {-| Nauru
 -}
 nr : Country
 nr =
-    Country { code = "nr" }
+    Country "nr"
 
 
 {-| Neutral Zone
 -}
 nt : Country
 nt =
-    Country { code = "nt" }
+    Country "nt"
 
 
 {-| Niue
 -}
 nu : Country
 nu =
-    Country { code = "nu" }
+    Country "nu"
 
 
 {-| New Zealand
 -}
 nz : Country
 nz =
-    Country { code = "nz" }
+    Country "nz"
 
 
 {-| Oman
 -}
 om : Country
 om =
-    Country { code = "om" }
+    Country "om"
 
 
 {-| Panama
 -}
 pa : Country
 pa =
-    Country { code = "pa" }
+    Country "pa"
 
 
 {-| Peru
 -}
 pe : Country
 pe =
-    Country { code = "pe" }
+    Country "pe"
 
 
 {-| French Polynesia
 -}
 pf : Country
 pf =
-    Country { code = "pf" }
+    Country "pf"
 
 
 {-| Papua New Guinea
 -}
 pg : Country
 pg =
-    Country { code = "pg" }
+    Country "pg"
 
 
 {-| Philippines
 -}
 ph : Country
 ph =
-    Country { code = "ph" }
+    Country "ph"
 
 
 {-| Pakistan
 -}
 pk : Country
 pk =
-    Country { code = "pk" }
+    Country "pk"
 
 
 {-| Poland
 -}
 pl : Country
 pl =
-    Country { code = "pl" }
+    Country "pl"
 
 
 {-| Saint Pierre and Miquelon
 -}
 pm : Country
 pm =
-    Country { code = "pm" }
+    Country "pm"
 
 
 {-| Pitcairn
 -}
 pn : Country
 pn =
-    Country { code = "pn" }
+    Country "pn"
 
 
 {-| Puerto Rico
 -}
 pr : Country
 pr =
-    Country { code = "pr" }
+    Country "pr"
 
 
 {-| State of Palestine
 -}
 ps : Country
 ps =
-    Country { code = "ps" }
+    Country "ps"
 
 
 {-| Portugal
 -}
 pt : Country
 pt =
-    Country { code = "pt" }
+    Country "pt"
 
 
 {-| Palau
 -}
 pw : Country
 pw =
-    Country { code = "pw" }
+    Country "pw"
 
 
 {-| Paraguay
 -}
 py : Country
 py =
-    Country { code = "py" }
+    Country "py"
 
 
 {-| Qatar
 -}
 qa : Country
 qa =
-    Country { code = "qa" }
+    Country "qa"
 
 
 {-| Réunion
 -}
 re : Country
 re =
-    Country { code = "re" }
+    Country "re"
 
 
 {-| Romania
 -}
 ro : Country
 ro =
-    Country { code = "ro" }
+    Country "ro"
 
 
 {-| Serbia
 -}
 rs : Country
 rs =
-    Country { code = "rs" }
+    Country "rs"
 
 
 {-| Russian Federation
 -}
 ru : Country
 ru =
-    Country { code = "ru" }
+    Country "ru"
 
 
 {-| Rwanda
 -}
 rw : Country
 rw =
-    Country { code = "rw" }
+    Country "rw"
 
 
 {-| Saudi Arabia
 -}
 sa : Country
 sa =
-    Country { code = "sa" }
+    Country "sa"
 
 
 {-| Solomon Islands
 -}
 sb : Country
 sb =
-    Country { code = "sb" }
+    Country "sb"
 
 
 {-| Seychelles
 -}
 sc : Country
 sc =
-    Country { code = "sc" }
+    Country "sc"
 
 
 {-| Sudan
 -}
 sd : Country
 sd =
-    Country { code = "sd" }
+    Country "sd"
 
 
 {-| Sweden
 -}
 se : Country
 se =
-    Country { code = "se" }
+    Country "se"
 
 
 {-| Singapore
 -}
 sg : Country
 sg =
-    Country { code = "sg" }
+    Country "sg"
 
 
 {-| Saint Helena, Ascension and Tristan da Cunha
 -}
 sh : Country
 sh =
-    Country { code = "sh" }
+    Country "sh"
 
 
 {-| Slovenia
 -}
 si : Country
 si =
-    Country { code = "si" }
+    Country "si"
 
 
 {-| Svalbard and Jan Mayen
 -}
 sj : Country
 sj =
-    Country { code = "sj" }
+    Country "sj"
 
 
 {-| Slovakia
 -}
 sk : Country
 sk =
-    Country { code = "sk" }
+    Country "sk"
 
 
 {-| Sierra Leone
 -}
 sl : Country
 sl =
-    Country { code = "sl" }
+    Country "sl"
 
 
 {-| San Marino
 -}
 sm : Country
 sm =
-    Country { code = "sm" }
+    Country "sm"
 
 
 {-| Senegal
 -}
 sn : Country
 sn =
-    Country { code = "sn" }
+    Country "sn"
 
 
 {-| Somalia
 -}
 so : Country
 so =
-    Country { code = "so" }
+    Country "so"
 
 
 {-| Suriname
 -}
 sr : Country
 sr =
-    Country { code = "sr" }
+    Country "sr"
 
 
 {-| South Sudan
 -}
 ss : Country
 ss =
-    Country { code = "ss" }
+    Country "ss"
 
 
 {-| Sao Tome and Principe
 -}
 st : Country
 st =
-    Country { code = "st" }
+    Country "st"
 
 
 {-| Union of Soviet Socialist Republics
 -}
 su : Country
 su =
-    Country { code = "su" }
+    Country "su"
 
 
 {-| El Salvador
 -}
 sv : Country
 sv =
-    Country { code = "sv" }
+    Country "sv"
 
 
 {-| Sint Maarten (Dutch part)
 -}
 sx : Country
 sx =
-    Country { code = "sx" }
+    Country "sx"
 
 
 {-| Syrian Arab Republic
 -}
 sy : Country
 sy =
-    Country { code = "sy" }
+    Country "sy"
 
 
 {-| Eswatini
@@ -1831,298 +1831,298 @@ Swaziland
 -}
 sz : Country
 sz =
-    Country { code = "sz" }
+    Country "sz"
 
 
 {-| Tristan da Cunha
 -}
 ta : Country
 ta =
-    Country { code = "ta" }
+    Country "ta"
 
 
 {-| Turks and Caicos Islands
 -}
 tc : Country
 tc =
-    Country { code = "tc" }
+    Country "tc"
 
 
 {-| Chad
 -}
 td : Country
 td =
-    Country { code = "td" }
+    Country "td"
 
 
 {-| French Southern Territories
 -}
 tf : Country
 tf =
-    Country { code = "tf" }
+    Country "tf"
 
 
 {-| Togo
 -}
 tg : Country
 tg =
-    Country { code = "tg" }
+    Country "tg"
 
 
 {-| Thailand
 -}
 th : Country
 th =
-    Country { code = "th" }
+    Country "th"
 
 
 {-| Tajikistan
 -}
 tj : Country
 tj =
-    Country { code = "tj" }
+    Country "tj"
 
 
 {-| Tokelau
 -}
 tk : Country
 tk =
-    Country { code = "tk" }
+    Country "tk"
 
 
 {-| Timor-Leste
 -}
 tl : Country
 tl =
-    Country { code = "tl" }
+    Country "tl"
 
 
 {-| Turkmenistan
 -}
 tm : Country
 tm =
-    Country { code = "tm" }
+    Country "tm"
 
 
 {-| Tunisia
 -}
 tn : Country
 tn =
-    Country { code = "tn" }
+    Country "tn"
 
 
 {-| Tonga
 -}
 to : Country
 to =
-    Country { code = "to" }
+    Country "to"
 
 
 {-| East Timor
 -}
 tp : Country
 tp =
-    Country { code = "tp" }
+    Country "tp"
 
 
 {-| Turkey
 -}
 tr : Country
 tr =
-    Country { code = "tr" }
+    Country "tr"
 
 
 {-| Trinidad and Tobago
 -}
 tt : Country
 tt =
-    Country { code = "tt" }
+    Country "tt"
 
 
 {-| Tuvalu
 -}
 tv : Country
 tv =
-    Country { code = "tv" }
+    Country "tv"
 
 
 {-| Taiwan, Province of China
 -}
 tw : Country
 tw =
-    Country { code = "tw" }
+    Country "tw"
 
 
 {-| United Republic of Tanzania
 -}
 tz : Country
 tz =
-    Country { code = "tz" }
+    Country "tz"
 
 
 {-| Ukraine
 -}
 ua : Country
 ua =
-    Country { code = "ua" }
+    Country "ua"
 
 
 {-| Uganda
 -}
 ug : Country
 ug =
-    Country { code = "ug" }
+    Country "ug"
 
 
 {-| United States Minor Outlying Islands
 -}
 um : Country
 um =
-    Country { code = "um" }
+    Country "um"
 
 
 {-| United Nations
 -}
 un : Country
 un =
-    Country { code = "un" }
+    Country "un"
 
 
 {-| United States
 -}
 us : Country
 us =
-    Country { code = "us" }
+    Country "us"
 
 
 {-| Uruguay
 -}
 uy : Country
 uy =
-    Country { code = "uy" }
+    Country "uy"
 
 
 {-| Uzbekistan
 -}
 uz : Country
 uz =
-    Country { code = "uz" }
+    Country "uz"
 
 
 {-| Holy See (Vatican City State)
 -}
 va : Country
 va =
-    Country { code = "va" }
+    Country "va"
 
 
 {-| Saint Vincent and the Grenadines
 -}
 vc : Country
 vc =
-    Country { code = "vc" }
+    Country "vc"
 
 
 {-| Venezuela
 -}
 ve : Country
 ve =
-    Country { code = "ve" }
+    Country "ve"
 
 
 {-| British Virgin Islands
 -}
 vg : Country
 vg =
-    Country { code = "vg" }
+    Country "vg"
 
 
 {-| U.S. Virgin Islands
 -}
 vi : Country
 vi =
-    Country { code = "vi" }
+    Country "vi"
 
 
 {-| Viet Nam
 -}
 vn : Country
 vn =
-    Country { code = "vn" }
+    Country "vn"
 
 
 {-| Vanuatu
 -}
 vu : Country
 vu =
-    Country { code = "vu" }
+    Country "vu"
 
 
 {-| Wallis and Futuna
 -}
 wf : Country
 wf =
-    Country { code = "wf" }
+    Country "wf"
 
 
 {-| Samoa
 -}
 ws : Country
 ws =
-    Country { code = "ws" }
+    Country "ws"
 
 
 {-| Democratic Yemen
 -}
 yd : Country
 yd =
-    Country { code = "yd" }
+    Country "yd"
 
 
 {-| Yemen
 -}
 ye : Country
 ye =
-    Country { code = "ye" }
+    Country "ye"
 
 
 {-| Mayotte
 -}
 yt : Country
 yt =
-    Country { code = "yt" }
+    Country "yt"
 
 
 {-| Yugoslavia
 -}
 yu : Country
 yu =
-    Country { code = "yu" }
+    Country "yu"
 
 
 {-| South Africa
 -}
 za : Country
 za =
-    Country { code = "za" }
+    Country "za"
 
 
 {-| Zambia
 -}
 zm : Country
 zm =
-    Country { code = "zm" }
+    Country "zm"
 
 
 {-| Zaire
 -}
 zr : Country
 zr =
-    Country { code = "zr" }
+    Country "zr"
 
 
 {-| Zimbabwe
 -}
 zw : Country
 zw =
-    Country { code = "zw" }
+    Country "zw"
