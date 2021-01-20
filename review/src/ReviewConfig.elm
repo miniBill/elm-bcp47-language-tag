@@ -58,3 +58,4 @@ config =
     --    |> NoInconsistentAliases.rule
     , NoModuleOnExposedNames.rule
     ]
+    |> List.map ( Review.Rule.ignoreErrorsForDirectories ["tests/VerifyExamples"])
