@@ -19,14 +19,22 @@ generate({
 });
 
 generate({
-  includeDefinition: (value) => value.type() === "language" && value.data.subtag.length == 2,
+  includeDefinition: (value) =>
+    value.type() === "language" && value.data.subtag.length == 2,
   entryToTopLevelDefinition: (lang) => lang.data.subtag,
   definitionComment: (language) => {
     return language.data.record.Description.join(" ").trim();
   },
   typeName: "Language",
-  comment: `ISO 639-1 language codes. See <https://en.wikipedia.org/wiki/ISO_639>.`,
-  toCodeComment: `Get the ISO 639 language code value for this Language.`
+  comment: `ISO 639-1 language codes. See <https://en.wikipedia.org/wiki/ISO_639>. 
+
+## Limitations
+
+There are about 8000 possibilities, and it causes performance issues for the Elm compiler, editor tooling, elm-format, and the Elm doc site if I generate all of those options.
+The Language codes that I've included in this module represent the majority of common cases, and together with the \`ExtendedLanguage\` values, you can build most of what you want.
+For everything else, there's [\`LanguageTag.custom\`](LanguageTag#custom) as an escape hatch (or open an issue to share your use case).
+`,
+  toCodeComment: `Get the ISO 639 language code value for this Language.`,
 });
 
 generate({
