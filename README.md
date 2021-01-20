@@ -8,7 +8,7 @@ with this package should give you added confidence but be sure to test the resul
 ## Project goals
 
 - Provide a way to create valid `BCP47` tags with confidence that the result is well-formed and valid.
-- The resulting Elm bundle will be able to include only the data that is explicitly referenced (for example, `LanguageTag.build Language.en { noOptions | region = Just Country.gb }` only includes the data for the English language and the Great Britain region, but doesn't cause your bundle to include data for French, Spanish, etc.)
+- The resulting Elm bundle will be able to include only the data that is explicitly referenced (for example, `LanguageTag.build Language.en { emptySubtags | region = Just Country.gb }` only includes the data for the English language and the Great Britain region, but doesn't cause your bundle to include data for French, Spanish, etc.)
 - For unusual cases, there's an escape hatch (`LanguageTag.custom`) where you're on your own making sure you have a valid and meaningful value (much like the elm/html API). If you encounter a use case that isn't supported directly and requires this escape hatch, please open a GitHub issue to describe your use case to help me get context!
 - This package is generated from a script with some data sources, so it can be relatively kept up-to-date through automation.
 
@@ -25,31 +25,40 @@ with this package should give you added confidence but be sure to test the resul
 ## Usage
 
 ```elm
-import LanguageTag exposing (noOptions)
+import LanguageTag exposing (emptySubtags)
 import LanguageTag.Language as Language
 import LanguageTag.Country as Country
 import LanguageTag.Script as Script
 import LanguageTag.Variant as Variant
 
-LanguageTag.fromLanguage Language.no
+Language.no
+    |> LanguageTag.build emptySubtags
     |> LanguageTag.toString
     --> "no"
 
-LanguageTag.build Language.en { noOptions | region = Just Country.gb }
+Language.en
+    |> LanguageTag.build  { emptySubtags | region = Just Country.gb }
     |> LanguageTag.toString
     --> "en-gb"
 
-LanguageTag.build Language.zh { noOptions | region = Just Country.tw }
+Language.zh
+    |> LanguageTag.build  { emptySubtags | region = Just Country.tw }
     |> LanguageTag.toString
     --> "zh-tw"
 
-LanguageTag.build Language.hy { noOptions | region = Just Country.it, script = Just Script.latn,
-       variants = [ Variant.arevela ] }
+Language.hy
+    |> LanguageTag.build  
+        { emptySubtags | 
+          region = Just Country.it
+        , script = Just Script.latn
+        , variants = [ Variant.arevela ] 
+        }
     |> LanguageTag.toString
     --> "hy-latn-it-arevela"
 
 -- Chinese, Simplified script, as used in China
-LanguageTag.build Language.zh { noOptions | region = Just Country.cn, script = Just Script.hans }
+Language.zh
+|> LanguageTag.build { emptySubtags | region = Just Country.cn, script = Just Script.hans }
     |> LanguageTag.toString
     --> "zh-hans-cn"
 ```

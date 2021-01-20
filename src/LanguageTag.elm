@@ -1,7 +1,7 @@
 module LanguageTag exposing
     ( LanguageTag
-    , Options, noOptions
-    , build, custom, fromLanguage, unknown
+    , Options, emptySubtags
+    , build, custom, unknown
     , toString
     )
 
@@ -12,9 +12,9 @@ See <https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang>.
 
 @docs LanguageTag
 
-@docs Options, noOptions
+@docs Options, emptySubtags
 
-@docs build, custom, fromLanguage, unknown
+@docs build, custom, unknown
 
 @docs toString
 
@@ -61,25 +61,38 @@ type alias Options =
     }
 
 
-{-| -}
-noOptions : Options
-noOptions =
+{-| This is useful for building up a LanguageTag with no subtags directly:
+
+    import LanguageTag
+    import LanguageTag.Language as Language
+    import LanguageTag.Country as Country
+
+    Language.en
+        |> build emptySubtags
+        |> LanguageTag.toString
+        --> "en"
+
+It's also useful as the starting record for building a LanguageTag that has subtags.
+
+    Language.en
+        |> build { emptySubtags | region = Just Country.us }
+        |> LanguageTag.toString
+        --> "en-us"
+
+-}
+emptySubtags : Options
+emptySubtags =
     { extendedLanguage = Nothing, region = Nothing, script = Nothing, variants = [] }
 
 
 {-| -}
-build : Language -> Options -> LanguageTag
-build language options =
+build : Options -> Language -> LanguageTag
+build options language =
     LanguageTag language options
 
 
-{-| -}
-fromLanguage : Language -> LanguageTag
-fromLanguage language =
-    LanguageTag language noOptions
-
-
-{-| -}
+{-| Get a BCP 47 formatted language tag String.
+-}
 toString : LanguageTag -> String
 toString languageTag =
     case languageTag of
@@ -100,7 +113,13 @@ toString languageTag =
                 |> String.join "-"
 
 
-{-| -}
+{-| This is an escape hatch with no validation. It will just directly use the String you pass in. So be sure to test out
+your LanguageTag that you construct with this function!
+
+If you've encountered a use case that isn't well supported by the current API, please feel free to open a GitHub Issues
+to share your use case.
+
+-}
 custom : String -> LanguageTag
 custom =
     Custom

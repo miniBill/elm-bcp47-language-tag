@@ -1,7 +1,7 @@
 module Tests exposing (suite)
 
 import Expect exposing (Expectation)
-import LanguageTag exposing (noOptions)
+import LanguageTag exposing (emptySubtags)
 import LanguageTag.ExtendedLanguage as ExtendedLanguage
 import LanguageTag.Language as Language
 import Test exposing (..)
@@ -13,7 +13,7 @@ suite =
         [ test "example" <|
             \() ->
                 Language.no
-                    |> LanguageTag.fromLanguage
+                    |> LanguageTag.build emptySubtags
                     |> LanguageTag.toString
                     |> Expect.equal "no"
         ]
