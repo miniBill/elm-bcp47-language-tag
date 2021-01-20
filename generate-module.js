@@ -3,12 +3,11 @@
 const fs = require("fs");
 const tag = require("language-tags");
 
-
 /**
  * @param {object} config
- * @param {"language" | "extlang" | "script" | "region" | "variant" | "grandfathered" | "redundant" | "tag"} config.tagType
  * @param { (arg0: import("language-tags/Subtag") | import("language-tags/Tag")) => string} config.definitionComment
  * @param {(value: import("language-tags").Subtag | import("language-tags").Tag) => string} config.entryToTopLevelDefinition
+ * @param {(value: import("language-tags").Subtag | import("language-tags").Tag) => boolean} config.includeDefinition
  * @param {string} config.typeName
  * @param {string} config.comment
  */
@@ -17,7 +16,7 @@ module.exports = function generate(config) {
     .search("")
     .filter((value) => {
       return (
-        value.type() === config.tagType &&
+        config.includeDefinition(value) &&
         value.Scope !== "private-use" &&
         value.data.record.Scope !== "private-use" &&
         value.data.record.Description.every(

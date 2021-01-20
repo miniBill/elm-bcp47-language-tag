@@ -18,7 +18,7 @@ suite =
                     |> Expect.equal "no"
         , test "remove duplicates" <|
             \() ->
-                LanguageTag.build Language.yue { noOptions | extendedLanguage = Just ExtendedLanguage.yue }
+                LanguageTag.build Language.zh { noOptions | extendedLanguage = Just ExtendedLanguage.cmn }
                     |> LanguageTag.toString
-                    |> Expect.equal "yue"
+                    |> Expect.equal "zh"
         ]

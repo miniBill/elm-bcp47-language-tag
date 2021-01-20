@@ -1,7 +1,7 @@
 const generate = require("./generate-module.js");
 
 generate({
-  tagType: "extlang",
+  includeDefinition: (value) => value.type() === "extlang",
   entryToTopLevelDefinition: (lang) => lang.data.subtag,
   definitionComment: (language) => language.data.record.Description.join("\n"),
   typeName: "ExtendedLanguage",
@@ -18,17 +18,17 @@ generate({
 });
 
 generate({
-  tagType: "language",
+  includeDefinition: (value) => value.type() === "language" && value.data.subtag.length == 2,
   entryToTopLevelDefinition: (lang) => lang.data.subtag,
   definitionComment: (language) => {
-    return language.data.record.Description.filter((value) => value).join("\n");
+    return language.data.record.Description.join(" ").trim();
   },
   typeName: "Language",
   comment: `ISO 639-1 language codes. See <https://en.wikipedia.org/wiki/ISO_639>.`,
 });
 
 generate({
-  tagType: "region",
+  includeDefinition: (value) => value.type() === "region",
   entryToTopLevelDefinition: (lang) => lang.data.subtag,
   definitionComment: (country) => {
     return country.data.record.Description.filter((value) => value).join("\n");
@@ -38,7 +38,7 @@ generate({
 });
 
 generate({
-  tagType: "script",
+  includeDefinition: (value) => value.type() === "script",
   entryToTopLevelDefinition: (lang) => lang.data.subtag,
   definitionComment: (country) => {
     return country.data.record.Description.join("\n");
@@ -48,7 +48,7 @@ generate({
 });
 
 generate({
-  tagType: "variant",
+  includeDefinition: (value) => value.type() === "variant",
   entryToTopLevelDefinition: (lang) => lang.data.subtag,
   definitionComment: (country) => {
     return country.data.record.Description.join("\n");
