@@ -26,10 +26,10 @@ with this package should give you added confidence but be sure to test the resul
 
 ```elm
 import LanguageTag exposing (noOptions)
-import Language
-import Country
-import Script
-import Variant
+import LanguageTag.Language as Language
+import LanguageTag.Country as Country
+import LanguageTag.Script as Script
+import LanguageTag.Variant as Variant
 
 LanguageTag.fromLanguage Language.no
     |> LanguageTag.toString

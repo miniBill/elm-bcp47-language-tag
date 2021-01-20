@@ -1,4 +1,4 @@
-module Variant exposing
+module LanguageTag.Variant exposing
     ( Variant, toCodeString
     , n_1606nict, n_1694acad, n_1901, n_1959acad, n_1994, n_1996, abl1943, akuapem, alalc97, aluku, ao1990, aranes, arevela, arevmda, asante, auvern, baku1926, balanka, barla, basiceng, bauddha, biscayan, biske, bohoric, boont, bornholm, cisaup, colb1945, cornu, creiss, dajnko, ekavsk, emodeng, fonipa, fonkirsh, fonnapa, fonupa, fonxsamp, gascon, grclass, grital, grmistr, hepburn, heploc, hognorsk, hsistemo, ijekavsk, itihasa, ivanchov, jauer, jyutping, kkcor, kociewie, kscor, laukika, lemosin, lengadoc, lipaw, luna1918, metelko, monoton, ndyuka, nedis, newfound, nicard, njiva, nulik, osojs, oxendict, pahawh2, pahawh3, pahawh4, pamaka, peano, petr1708, pinyin, polyton, provenc, puter, rigik, rozaj, rumgr, scotland, scouse, simple, solba, sotav, spanglis, surmiran, sursilv, sutsilv, tarask, tongyong, tunumiit, uccor, ucrcor, ulster, unifon, vaidika, valencia, vallader, vecdruka, vivaraup, wadegile, xsistemo
     )

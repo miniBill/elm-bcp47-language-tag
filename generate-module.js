@@ -40,7 +40,7 @@ ${normalizeCode(key)} =
     ${config.typeName} "${key}"`;
     })
     .join("\n\n");
-  const languageModule = `module ${config.typeName} exposing
+  const languageModule = `module LanguageTag.${config.typeName} exposing
     ( ${config.typeName}, toCodeString
     , ${topLevelDefinitions.map(normalizeCode).join(", ")}
     )
@@ -66,7 +66,7 @@ toCodeString (${config.typeName} rawCode) =
 
 ${languageEntriesCode}
 `;
-  fs.writeFileSync(`src/${config.typeName}.elm`, languageModule);
+  fs.writeFileSync(`src/LanguageTag/${config.typeName}.elm`, languageModule);
 }
 
 /**

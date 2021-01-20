@@ -6,11 +6,11 @@
     "version": "1.0.0",
     "exposed-modules": [
         "LanguageTag",
-        "Language",
-        "Country",
-        "Script",
-        "ExtendedLanguage",
-        "Variant"
+        "LanguageTag.Language",
+        "LanguageTag.Country",
+        "LanguageTag.Script",
+        "LanguageTag.ExtendedLanguage",
+        "LanguageTag.Variant"
     ],
     "elm-version": "0.19.0 <= v < 0.20.0",
     "dependencies": {

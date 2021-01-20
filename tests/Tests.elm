@@ -1,9 +1,9 @@
 module Tests exposing (suite)
 
 import Expect exposing (Expectation)
-import ExtendedLanguage
-import Language
 import LanguageTag exposing (noOptions)
+import LanguageTag.ExtendedLanguage as ExtendedLanguage
+import LanguageTag.Language as Language
 import Test exposing (..)
 
 

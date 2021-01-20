@@ -20,12 +20,12 @@ See <https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang>.
 
 -}
 
-import Country exposing (Country)
-import ExtendedLanguage exposing (ExtendedLanguage)
-import Language exposing (Language)
+import LanguageTag.Country as Country exposing (Country)
+import LanguageTag.ExtendedLanguage as ExtendedLanguage exposing (ExtendedLanguage)
+import LanguageTag.Language as Language exposing (Language)
+import LanguageTag.Script as Script exposing (Script)
+import LanguageTag.Variant as Variant exposing (Variant)
 import List.Extra
-import Script exposing (Script)
-import Variant exposing (Variant)
 
 
 {-| -}
