@@ -29,6 +29,7 @@ import LanguageTag exposing (noOptions)
 import Language
 import Country
 import Script
+import Variant
 
 LanguageTag.fromLanguage Language.no
     |> LanguageTag.toString
@@ -36,21 +37,21 @@ LanguageTag.fromLanguage Language.no
 
 LanguageTag.build Language.en { noOptions | region = Just Country.gb }
     |> LanguageTag.toString
-    --> "en-GB"
+    --> "en-gb"
 
 LanguageTag.build Language.zh { noOptions | region = Just Country.tw }
     |> LanguageTag.toString
-    --> "zh-TW"
+    --> "zh-tw"
 
 LanguageTag.build Language.hy { noOptions | region = Just Country.it, script = Just Script.latn,
-       variants = [ "arevela" ] }
+       variants = [ Variant.arevela ] }
     |> LanguageTag.toString
-    --> "hy-Latn-IT-arevela"
+    --> "hy-latn-it-arevela"
 
 -- Chinese, Simplified script, as used in China
 LanguageTag.build Language.zh { noOptions | region = Just Country.cn, script = Just Script.hans }
     |> LanguageTag.toString
-    --> "zh-Hans-CN"
+    --> "zh-hans-cn"
 ```
 
 ## Custom Tags

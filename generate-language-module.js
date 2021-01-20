@@ -46,3 +46,13 @@ generate({
   typeName: "Script",
   comment: `ISO 15924 language script codes. See <https://en.wikipedia.org/wiki/ISO_15924>.`,
 });
+
+generate({
+  tagType: "variant",
+  entryToTopLevelDefinition: (lang) => lang.data.subtag,
+  definitionComment: (country) => {
+    return country.data.record.Description.join("\n");
+  },
+  typeName: "Variant",
+  comment: ``,
+});

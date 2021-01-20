@@ -25,6 +25,7 @@ import ExtendedLanguage exposing (ExtendedLanguage)
 import Language exposing (Language)
 import List.Extra
 import Script exposing (Script)
+import Variant exposing (Variant)
 
 
 {-| -}
@@ -53,7 +54,11 @@ unknown =
 
 {-| -}
 type alias Options =
-    { extendedLanguage : Maybe ExtendedLanguage, region : Maybe Country, script : Maybe Script, variants : List String }
+    { extendedLanguage : Maybe ExtendedLanguage
+    , region : Maybe Country
+    , script : Maybe Script
+    , variants : List Variant
+    }
 
 
 {-| -}
@@ -93,7 +98,7 @@ toString languageTag =
                 |> List.filterMap identity
                 |> List.Extra.unique
              )
-                ++ options.variants
+                ++ List.map (Variant.details >> .code) options.variants
             )
                 |> String.join "-"
 
