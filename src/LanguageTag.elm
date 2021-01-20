@@ -95,7 +95,6 @@ toString languageTag =
              )
                 ++ options.variants
             )
-
                 |> String.join "-"
 
 

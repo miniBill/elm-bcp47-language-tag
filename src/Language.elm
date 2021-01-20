@@ -11,10 +11,11 @@ module Language exposing
 
 -}
 
-{-|
--}
+
+{-| -}
 type Language
     = Language { code : String }
+
 
 {-| Get the details for an ExtendedLanguage, including the `code` which represents the 639 language code.
 -}
@@ -22,41245 +23,57599 @@ details : Language -> { code : String }
 details (Language record) =
     record
 
-{-| Afar -}
+
+{-| Afar
+-}
 aa : Language
 aa =
     Language { code = "aa" }
 
-{-| Ghotuo -}
+
+{-| Ghotuo
+-}
 aaa : Language
 aaa =
     Language { code = "aaa" }
 
-{-| Alumu-Tesu -}
+
+{-| Alumu-Tesu
+-}
 aab : Language
 aab =
     Language { code = "aab" }
 
-{-| Ari -}
+
+{-| Ari
+-}
 aac : Language
 aac =
     Language { code = "aac" }
 
-{-| Amal -}
+
+{-| Amal
+-}
 aad : Language
 aad =
     Language { code = "aad" }
 
-{-| Arbëreshë Albanian -}
+
+{-| Arbëreshë Albanian
+-}
 aae : Language
 aae =
     Language { code = "aae" }
 
-{-| Aranadan -}
+
+{-| Aranadan
+-}
 aaf : Language
 aaf =
     Language { code = "aaf" }
 
-{-| Ambrak -}
+
+{-| Ambrak
+-}
 aag : Language
 aag =
     Language { code = "aag" }
 
-{-| Abu' Arapesh -}
+
+{-| Abu' Arapesh
+-}
 aah : Language
 aah =
     Language { code = "aah" }
 
-{-| Arifama-Miniafia -}
+
+{-| Arifama-Miniafia
+-}
 aai : Language
 aai =
     Language { code = "aai" }
 
-{-| Ankave -}
+
+{-| Ankave
+-}
 aak : Language
 aak =
     Language { code = "aak" }
 
-{-| Afade -}
+
+{-| Afade
+-}
 aal : Language
 aal =
     Language { code = "aal" }
 
-{-| Aramanik -}
+
+{-| Aramanik
+-}
 aam : Language
 aam =
     Language { code = "aam" }
 
-{-| Anambé -}
+
+{-| Anambé
+-}
 aan : Language
 aan =
     Language { code = "aan" }
 
-{-| Algerian Saharan Arabic -}
+
+{-| Algerian Saharan Arabic
+-}
 aao : Language
 aao =
     Language { code = "aao" }
 
-{-| Pará Arára -}
+
+{-| Pará Arára
+-}
 aap : Language
 aap =
     Language { code = "aap" }
 
-{-| Eastern Abnaki -}
+
+{-| Eastern Abnaki
+-}
 aaq : Language
 aaq =
     Language { code = "aaq" }
 
-{-| Aasáx -}
+
+{-| Aasáx
+-}
 aas : Language
 aas =
     Language { code = "aas" }
 
-{-| Arvanitika Albanian -}
+
+{-| Arvanitika Albanian
+-}
 aat : Language
 aat =
     Language { code = "aat" }
 
-{-| Abau -}
+
+{-| Abau
+-}
 aau : Language
 aau =
     Language { code = "aau" }
 
-{-| Austro-Asiatic languages -}
+
+{-| Austro-Asiatic languages
+-}
 aav : Language
 aav =
     Language { code = "aav" }
 
-{-| Solong -}
+
+{-| Solong
+-}
 aaw : Language
 aaw =
     Language { code = "aaw" }
 
-{-| Mandobo Atas -}
+
+{-| Mandobo Atas
+-}
 aax : Language
 aax =
     Language { code = "aax" }
 
-{-| Amarasi -}
+
+{-| Amarasi
+-}
 aaz : Language
 aaz =
     Language { code = "aaz" }
 
-{-| Abkhazian -}
+
+{-| Abkhazian
+-}
 ab : Language
 ab =
     Language { code = "ab" }
 
-{-| Abé -}
+
+{-| Abé
+-}
 aba : Language
 aba =
     Language { code = "aba" }
 
-{-| Bankon -}
+
+{-| Bankon
+-}
 abb : Language
 abb =
     Language { code = "abb" }
 
-{-| Ambala Ayta -}
+
+{-| Ambala Ayta
+-}
 abc : Language
 abc =
     Language { code = "abc" }
 
-{-| Manide -}
+
+{-| Manide
+-}
 abd : Language
 abd =
     Language { code = "abd" }
 
-{-| Western Abnaki -}
+
+{-| Western Abnaki
+-}
 abe : Language
 abe =
     Language { code = "abe" }
 
-{-| Abai Sungai -}
+
+{-| Abai Sungai
+-}
 abf : Language
 abf =
     Language { code = "abf" }
 
-{-| Abaga -}
+
+{-| Abaga
+-}
 abg : Language
 abg =
     Language { code = "abg" }
 
-{-| Tajiki Arabic -}
+
+{-| Tajiki Arabic
+-}
 abh : Language
 abh =
     Language { code = "abh" }
 
-{-| Abidji -}
+
+{-| Abidji
+-}
 abi : Language
 abi =
     Language { code = "abi" }
 
-{-| Aka-Bea -}
+
+{-| Aka-Bea
+-}
 abj : Language
 abj =
     Language { code = "abj" }
 
-{-| Lampung Nyo -}
+
+{-| Lampung Nyo
+-}
 abl : Language
 abl =
     Language { code = "abl" }
 
-{-| Abanyom -}
+
+{-| Abanyom
+-}
 abm : Language
 abm =
     Language { code = "abm" }
 
-{-| Abua -}
+
+{-| Abua
+-}
 abn : Language
 abn =
     Language { code = "abn" }
 
-{-| Abon -}
+
+{-| Abon
+-}
 abo : Language
 abo =
     Language { code = "abo" }
 
-{-| Abellen Ayta -}
+
+{-| Abellen Ayta
+-}
 abp : Language
 abp =
     Language { code = "abp" }
 
-{-| Abaza -}
+
+{-| Abaza
+-}
 abq : Language
 abq =
     Language { code = "abq" }
 
-{-| Abron -}
+
+{-| Abron
+-}
 abr : Language
 abr =
     Language { code = "abr" }
 
-{-| Ambonese Malay -}
+
+{-| Ambonese Malay
+-}
 abs : Language
 abs =
     Language { code = "abs" }
 
-{-| Ambulas -}
+
+{-| Ambulas
+-}
 abt : Language
 abt =
     Language { code = "abt" }
 
-{-| Abure -}
+
+{-| Abure
+-}
 abu : Language
 abu =
     Language { code = "abu" }
 
-{-| Baharna Arabic -}
+
+{-| Baharna Arabic
+-}
 abv : Language
 abv =
     Language { code = "abv" }
 
-{-| Pal -}
+
+{-| Pal
+-}
 abw : Language
 abw =
     Language { code = "abw" }
 
-{-| Inabaknon -}
+
+{-| Inabaknon
+-}
 abx : Language
 abx =
     Language { code = "abx" }
 
-{-| Aneme Wake -}
+
+{-| Aneme Wake
+-}
 aby : Language
 aby =
     Language { code = "aby" }
 
-{-| Abui -}
+
+{-| Abui
+-}
 abz : Language
 abz =
     Language { code = "abz" }
 
-{-| Achagua -}
+
+{-| Achagua
+-}
 aca : Language
 aca =
     Language { code = "aca" }
 
-{-| Áncá -}
+
+{-| Áncá
+-}
 acb : Language
 acb =
     Language { code = "acb" }
 
-{-| Gikyode -}
+
+{-| Gikyode
+-}
 acd : Language
 acd =
     Language { code = "acd" }
 
-{-| Achinese -}
+
+{-| Achinese
+-}
 ace : Language
 ace =
     Language { code = "ace" }
 
-{-| Saint Lucian Creole French -}
+
+{-| Saint Lucian Creole French
+-}
 acf : Language
 acf =
     Language { code = "acf" }
 
-{-| Acoli -}
+
+{-| Acoli
+-}
 ach : Language
 ach =
     Language { code = "ach" }
 
-{-| Aka-Cari -}
+
+{-| Aka-Cari
+-}
 aci : Language
 aci =
     Language { code = "aci" }
 
-{-| Aka-Kora -}
+
+{-| Aka-Kora
+-}
 ack : Language
 ack =
     Language { code = "ack" }
 
-{-| Akar-Bale -}
+
+{-| Akar-Bale
+-}
 acl : Language
 acl =
     Language { code = "acl" }
 
-{-| Mesopotamian Arabic -}
+
+{-| Mesopotamian Arabic
+-}
 acm : Language
 acm =
     Language { code = "acm" }
 
-{-| Achang -}
+
+{-| Achang
+-}
 acn : Language
 acn =
     Language { code = "acn" }
 
-{-| Eastern Acipa -}
+
+{-| Eastern Acipa
+-}
 acp : Language
 acp =
     Language { code = "acp" }
 
-{-| Ta'izzi-Adeni Arabic -}
+
+{-| Ta'izzi-Adeni Arabic
+-}
 acq : Language
 acq =
     Language { code = "acq" }
 
-{-| Achi -}
+
+{-| Achi
+-}
 acr : Language
 acr =
     Language { code = "acr" }
 
-{-| Acroá -}
+
+{-| Acroá
+-}
 acs : Language
 acs =
     Language { code = "acs" }
 
-{-| Achterhoeks -}
+
+{-| Achterhoeks
+-}
 act : Language
 act =
     Language { code = "act" }
 
-{-| Achuar-Shiwiar -}
+
+{-| Achuar-Shiwiar
+-}
 acu : Language
 acu =
     Language { code = "acu" }
 
-{-| Achumawi -}
+
+{-| Achumawi
+-}
 acv : Language
 acv =
     Language { code = "acv" }
 
-{-| Hijazi Arabic -}
+
+{-| Hijazi Arabic
+-}
 acw : Language
 acw =
     Language { code = "acw" }
 
-{-| Omani Arabic -}
+
+{-| Omani Arabic
+-}
 acx : Language
 acx =
     Language { code = "acx" }
 
-{-| Cypriot Arabic -}
+
+{-| Cypriot Arabic
+-}
 acy : Language
 acy =
     Language { code = "acy" }
 
-{-| Acheron -}
+
+{-| Acheron
+-}
 acz : Language
 acz =
     Language { code = "acz" }
 
-{-| Adangme -}
+
+{-| Adangme
+-}
 ada : Language
 ada =
     Language { code = "ada" }
 
-{-| Atauran -}
+
+{-| Atauran
+-}
 adb : Language
 adb =
     Language { code = "adb" }
 
+
 {-| Lidzonka
-Dzodinka -}
+Dzodinka
+-}
 add : Language
 add =
     Language { code = "add" }
 
-{-| Adele -}
+
+{-| Adele
+-}
 ade : Language
 ade =
     Language { code = "ade" }
 
-{-| Dhofari Arabic -}
+
+{-| Dhofari Arabic
+-}
 adf : Language
 adf =
     Language { code = "adf" }
 
-{-| Andegerebinha -}
+
+{-| Andegerebinha
+-}
 adg : Language
 adg =
     Language { code = "adg" }
 
-{-| Adhola -}
+
+{-| Adhola
+-}
 adh : Language
 adh =
     Language { code = "adh" }
 
-{-| Adi -}
+
+{-| Adi
+-}
 adi : Language
 adi =
     Language { code = "adi" }
 
-{-| Adioukrou -}
+
+{-| Adioukrou
+-}
 adj : Language
 adj =
     Language { code = "adj" }
 
-{-| Galo -}
+
+{-| Galo
+-}
 adl : Language
 adl =
     Language { code = "adl" }
 
-{-| Adang -}
+
+{-| Adang
+-}
 adn : Language
 adn =
     Language { code = "adn" }
 
-{-| Abu -}
+
+{-| Abu
+-}
 ado : Language
 ado =
     Language { code = "ado" }
 
-{-| Adap -}
+
+{-| Adap
+-}
 adp : Language
 adp =
     Language { code = "adp" }
 
-{-| Adangbe -}
+
+{-| Adangbe
+-}
 adq : Language
 adq =
     Language { code = "adq" }
 
-{-| Adonara -}
+
+{-| Adonara
+-}
 adr : Language
 adr =
     Language { code = "adr" }
 
-{-| Adamorobe Sign Language -}
+
+{-| Adamorobe Sign Language
+-}
 ads : Language
 ads =
     Language { code = "ads" }
 
-{-| Adnyamathanha -}
+
+{-| Adnyamathanha
+-}
 adt : Language
 adt =
     Language { code = "adt" }
 
-{-| Aduge -}
+
+{-| Aduge
+-}
 adu : Language
 adu =
     Language { code = "adu" }
 
-{-| Amundava -}
+
+{-| Amundava
+-}
 adw : Language
 adw =
     Language { code = "adw" }
 
-{-| Amdo Tibetan -}
+
+{-| Amdo Tibetan
+-}
 adx : Language
 adx =
     Language { code = "adx" }
 
+
 {-| Adyghe
-Adygei -}
+Adygei
+-}
 ady : Language
 ady =
     Language { code = "ady" }
 
-{-| Adzera -}
+
+{-| Adzera
+-}
 adz : Language
 adz =
     Language { code = "adz" }
 
-{-| Avestan -}
+
+{-| Avestan
+-}
 ae : Language
 ae =
     Language { code = "ae" }
 
-{-| Areba -}
+
+{-| Areba
+-}
 aea : Language
 aea =
     Language { code = "aea" }
 
-{-| Tunisian Arabic -}
+
+{-| Tunisian Arabic
+-}
 aeb : Language
 aeb =
     Language { code = "aeb" }
 
-{-| Saidi Arabic -}
+
+{-| Saidi Arabic
+-}
 aec : Language
 aec =
     Language { code = "aec" }
 
-{-| Argentine Sign Language -}
+
+{-| Argentine Sign Language
+-}
 aed : Language
 aed =
     Language { code = "aed" }
 
+
 {-| Northeast Pashai
-Northeast Pashayi -}
+Northeast Pashayi
+-}
 aee : Language
 aee =
     Language { code = "aee" }
 
-{-| Haeke -}
+
+{-| Haeke
+-}
 aek : Language
 aek =
     Language { code = "aek" }
 
-{-| Ambele -}
+
+{-| Ambele
+-}
 ael : Language
 ael =
     Language { code = "ael" }
 
-{-| Arem -}
+
+{-| Arem
+-}
 aem : Language
 aem =
     Language { code = "aem" }
 
-{-| Armenian Sign Language -}
+
+{-| Armenian Sign Language
+-}
 aen : Language
 aen =
     Language { code = "aen" }
 
-{-| Aer -}
+
+{-| Aer
+-}
 aeq : Language
 aeq =
     Language { code = "aeq" }
 
-{-| Eastern Arrernte -}
+
+{-| Eastern Arrernte
+-}
 aer : Language
 aer =
     Language { code = "aer" }
 
-{-| Alsea -}
+
+{-| Alsea
+-}
 aes : Language
 aes =
     Language { code = "aes" }
 
-{-| Akeu -}
+
+{-| Akeu
+-}
 aeu : Language
 aeu =
     Language { code = "aeu" }
 
-{-| Ambakich -}
+
+{-| Ambakich
+-}
 aew : Language
 aew =
     Language { code = "aew" }
 
-{-| Amele -}
+
+{-| Amele
+-}
 aey : Language
 aey =
     Language { code = "aey" }
 
-{-| Aeka -}
+
+{-| Aeka
+-}
 aez : Language
 aez =
     Language { code = "aez" }
 
-{-| Afrikaans -}
+
+{-| Afrikaans
+-}
 af : Language
 af =
     Language { code = "af" }
 
-{-| Afro-Asiatic languages -}
+
+{-| Afro-Asiatic languages
+-}
 afa : Language
 afa =
     Language { code = "afa" }
 
-{-| Gulf Arabic -}
+
+{-| Gulf Arabic
+-}
 afb : Language
 afb =
     Language { code = "afb" }
 
-{-| Andai -}
+
+{-| Andai
+-}
 afd : Language
 afd =
     Language { code = "afd" }
 
-{-| Putukwam -}
+
+{-| Putukwam
+-}
 afe : Language
 afe =
     Language { code = "afe" }
 
-{-| Afghan Sign Language -}
+
+{-| Afghan Sign Language
+-}
 afg : Language
 afg =
     Language { code = "afg" }
 
-{-| Afrihili -}
+
+{-| Afrihili
+-}
 afh : Language
 afh =
     Language { code = "afh" }
 
+
 {-| Akrukay
-Chini -}
+Chini
+-}
 afi : Language
 afi =
     Language { code = "afi" }
 
-{-| Nanubae -}
+
+{-| Nanubae
+-}
 afk : Language
 afk =
     Language { code = "afk" }
 
-{-| Defaka -}
+
+{-| Defaka
+-}
 afn : Language
 afn =
     Language { code = "afn" }
 
-{-| Eloyi -}
+
+{-| Eloyi
+-}
 afo : Language
 afo =
     Language { code = "afo" }
 
-{-| Tapei -}
+
+{-| Tapei
+-}
 afp : Language
 afp =
     Language { code = "afp" }
 
-{-| Afro-Seminole Creole -}
+
+{-| Afro-Seminole Creole
+-}
 afs : Language
 afs =
     Language { code = "afs" }
 
-{-| Afitti -}
+
+{-| Afitti
+-}
 aft : Language
 aft =
     Language { code = "aft" }
 
-{-| Awutu -}
+
+{-| Awutu
+-}
 afu : Language
 afu =
     Language { code = "afu" }
 
-{-| Obokuitai -}
+
+{-| Obokuitai
+-}
 afz : Language
 afz =
     Language { code = "afz" }
 
-{-| Aguano -}
+
+{-| Aguano
+-}
 aga : Language
 aga =
     Language { code = "aga" }
 
-{-| Legbo -}
+
+{-| Legbo
+-}
 agb : Language
 agb =
     Language { code = "agb" }
 
-{-| Agatu -}
+
+{-| Agatu
+-}
 agc : Language
 agc =
     Language { code = "agc" }
 
-{-| Agarabi -}
+
+{-| Agarabi
+-}
 agd : Language
 agd =
     Language { code = "agd" }
 
-{-| Angal -}
+
+{-| Angal
+-}
 age : Language
 age =
     Language { code = "age" }
 
-{-| Arguni -}
+
+{-| Arguni
+-}
 agf : Language
 agf =
     Language { code = "agf" }
 
-{-| Angor -}
+
+{-| Angor
+-}
 agg : Language
 agg =
     Language { code = "agg" }
 
-{-| Ngelima -}
+
+{-| Ngelima
+-}
 agh : Language
 agh =
     Language { code = "agh" }
 
-{-| Agariya -}
+
+{-| Agariya
+-}
 agi : Language
 agi =
     Language { code = "agi" }
 
-{-| Argobba -}
+
+{-| Argobba
+-}
 agj : Language
 agj =
     Language { code = "agj" }
 
-{-| Isarog Agta -}
+
+{-| Isarog Agta
+-}
 agk : Language
 agk =
     Language { code = "agk" }
 
-{-| Fembe -}
+
+{-| Fembe
+-}
 agl : Language
 agl =
     Language { code = "agl" }
 
-{-| Angaataha -}
+
+{-| Angaataha
+-}
 agm : Language
 agm =
     Language { code = "agm" }
 
-{-| Agutaynen -}
+
+{-| Agutaynen
+-}
 agn : Language
 agn =
     Language { code = "agn" }
 
-{-| Tainae -}
+
+{-| Tainae
+-}
 ago : Language
 ago =
     Language { code = "ago" }
 
-{-| Paranan -}
+
+{-| Paranan
+-}
 agp : Language
 agp =
     Language { code = "agp" }
 
-{-| Aghem -}
+
+{-| Aghem
+-}
 agq : Language
 agq =
     Language { code = "agq" }
 
-{-| Aguaruna -}
+
+{-| Aguaruna
+-}
 agr : Language
 agr =
     Language { code = "agr" }
 
-{-| Esimbi -}
+
+{-| Esimbi
+-}
 ags : Language
 ags =
     Language { code = "ags" }
 
-{-| Central Cagayan Agta -}
+
+{-| Central Cagayan Agta
+-}
 agt : Language
 agt =
     Language { code = "agt" }
 
-{-| Aguacateco -}
+
+{-| Aguacateco
+-}
 agu : Language
 agu =
     Language { code = "agu" }
 
-{-| Remontado Dumagat -}
+
+{-| Remontado Dumagat
+-}
 agv : Language
 agv =
     Language { code = "agv" }
 
-{-| Kahua -}
+
+{-| Kahua
+-}
 agw : Language
 agw =
     Language { code = "agw" }
 
-{-| Aghul -}
+
+{-| Aghul
+-}
 agx : Language
 agx =
     Language { code = "agx" }
 
-{-| Southern Alta -}
+
+{-| Southern Alta
+-}
 agy : Language
 agy =
     Language { code = "agy" }
 
-{-| Mt. Iriga Agta -}
+
+{-| Mt. Iriga Agta
+-}
 agz : Language
 agz =
     Language { code = "agz" }
 
-{-| Ahanta -}
+
+{-| Ahanta
+-}
 aha : Language
 aha =
     Language { code = "aha" }
 
-{-| Axamb -}
+
+{-| Axamb
+-}
 ahb : Language
 ahb =
     Language { code = "ahb" }
 
-{-| Qimant -}
+
+{-| Qimant
+-}
 ahg : Language
 ahg =
     Language { code = "ahg" }
 
-{-| Aghu -}
+
+{-| Aghu
+-}
 ahh : Language
 ahh =
     Language { code = "ahh" }
 
-{-| Tiagbamrin Aizi -}
+
+{-| Tiagbamrin Aizi
+-}
 ahi : Language
 ahi =
     Language { code = "ahi" }
 
-{-| Akha -}
+
+{-| Akha
+-}
 ahk : Language
 ahk =
     Language { code = "ahk" }
 
-{-| Igo -}
+
+{-| Igo
+-}
 ahl : Language
 ahl =
     Language { code = "ahl" }
 
-{-| Mobumrin Aizi -}
+
+{-| Mobumrin Aizi
+-}
 ahm : Language
 ahm =
     Language { code = "ahm" }
 
-{-| Àhàn -}
+
+{-| Àhàn
+-}
 ahn : Language
 ahn =
     Language { code = "ahn" }
 
-{-| Ahom -}
+
+{-| Ahom
+-}
 aho : Language
 aho =
     Language { code = "aho" }
 
-{-| Aproumu Aizi -}
+
+{-| Aproumu Aizi
+-}
 ahp : Language
 ahp =
     Language { code = "ahp" }
 
-{-| Ahirani -}
+
+{-| Ahirani
+-}
 ahr : Language
 ahr =
     Language { code = "ahr" }
 
-{-| Ashe -}
+
+{-| Ashe
+-}
 ahs : Language
 ahs =
     Language { code = "ahs" }
 
-{-| Ahtena -}
+
+{-| Ahtena
+-}
 aht : Language
 aht =
     Language { code = "aht" }
 
-{-| Arosi -}
+
+{-| Arosi
+-}
 aia : Language
 aia =
     Language { code = "aia" }
 
-{-| Ainu (China) -}
+
+{-| Ainu (China)
+-}
 aib : Language
 aib =
     Language { code = "aib" }
 
-{-| Ainbai -}
+
+{-| Ainbai
+-}
 aic : Language
 aic =
     Language { code = "aic" }
 
-{-| Alngith -}
+
+{-| Alngith
+-}
 aid : Language
 aid =
     Language { code = "aid" }
 
-{-| Amara -}
+
+{-| Amara
+-}
 aie : Language
 aie =
     Language { code = "aie" }
 
-{-| Agi -}
+
+{-| Agi
+-}
 aif : Language
 aif =
     Language { code = "aif" }
 
-{-| Antigua and Barbuda Creole English -}
+
+{-| Antigua and Barbuda Creole English
+-}
 aig : Language
 aig =
     Language { code = "aig" }
 
-{-| Ai-Cham -}
+
+{-| Ai-Cham
+-}
 aih : Language
 aih =
     Language { code = "aih" }
 
-{-| Assyrian Neo-Aramaic -}
+
+{-| Assyrian Neo-Aramaic
+-}
 aii : Language
 aii =
     Language { code = "aii" }
 
-{-| Lishanid Noshan -}
+
+{-| Lishanid Noshan
+-}
 aij : Language
 aij =
     Language { code = "aij" }
 
-{-| Ake -}
+
+{-| Ake
+-}
 aik : Language
 aik =
     Language { code = "aik" }
 
-{-| Aimele -}
+
+{-| Aimele
+-}
 ail : Language
 ail =
     Language { code = "ail" }
 
-{-| Aimol -}
+
+{-| Aimol
+-}
 aim : Language
 aim =
     Language { code = "aim" }
 
-{-| Ainu (Japan) -}
+
+{-| Ainu (Japan)
+-}
 ain : Language
 ain =
     Language { code = "ain" }
 
-{-| Aiton -}
+
+{-| Aiton
+-}
 aio : Language
 aio =
     Language { code = "aio" }
 
-{-| Burumakok -}
+
+{-| Burumakok
+-}
 aip : Language
 aip =
     Language { code = "aip" }
 
-{-| Aimaq -}
+
+{-| Aimaq
+-}
 aiq : Language
 aiq =
     Language { code = "aiq" }
 
-{-| Airoran -}
+
+{-| Airoran
+-}
 air : Language
 air =
     Language { code = "air" }
 
-{-| Nataoran Amis -}
+
+{-| Nataoran Amis
+-}
 ais : Language
 ais =
     Language { code = "ais" }
 
-{-| Arikem -}
+
+{-| Arikem
+-}
 ait : Language
 ait =
     Language { code = "ait" }
 
-{-| Aari -}
+
+{-| Aari
+-}
 aiw : Language
 aiw =
     Language { code = "aiw" }
 
-{-| Aighon -}
+
+{-| Aighon
+-}
 aix : Language
 aix =
     Language { code = "aix" }
 
-{-| Ali -}
+
+{-| Ali
+-}
 aiy : Language
 aiy =
     Language { code = "aiy" }
 
-{-| Aja (South Sudan) -}
+
+{-| Aja (South Sudan)
+-}
 aja : Language
 aja =
     Language { code = "aja" }
 
-{-| Aja (Benin) -}
+
+{-| Aja (Benin)
+-}
 ajg : Language
 ajg =
     Language { code = "ajg" }
 
-{-| Ajië -}
+
+{-| Ajië
+-}
 aji : Language
 aji =
     Language { code = "aji" }
 
-{-| Andajin -}
+
+{-| Andajin
+-}
 ajn : Language
 ajn =
     Language { code = "ajn" }
 
-{-| South Levantine Arabic -}
+
+{-| South Levantine Arabic
+-}
 ajp : Language
 ajp =
     Language { code = "ajp" }
 
-{-| Judeo-Tunisian Arabic -}
+
+{-| Judeo-Tunisian Arabic
+-}
 ajt : Language
 ajt =
     Language { code = "ajt" }
 
-{-| Judeo-Moroccan Arabic -}
+
+{-| Judeo-Moroccan Arabic
+-}
 aju : Language
 aju =
     Language { code = "aju" }
 
-{-| Ajawa -}
+
+{-| Ajawa
+-}
 ajw : Language
 ajw =
     Language { code = "ajw" }
 
-{-| Amri Karbi -}
+
+{-| Amri Karbi
+-}
 ajz : Language
 ajz =
     Language { code = "ajz" }
 
-{-| Akan -}
+
+{-| Akan
+-}
 ak : Language
 ak =
     Language { code = "ak" }
 
-{-| Batak Angkola -}
+
+{-| Batak Angkola
+-}
 akb : Language
 akb =
     Language { code = "akb" }
 
-{-| Mpur -}
+
+{-| Mpur
+-}
 akc : Language
 akc =
     Language { code = "akc" }
 
-{-| Ukpet-Ehom -}
+
+{-| Ukpet-Ehom
+-}
 akd : Language
 akd =
     Language { code = "akd" }
 
-{-| Akawaio -}
+
+{-| Akawaio
+-}
 ake : Language
 ake =
     Language { code = "ake" }
 
-{-| Akpa -}
+
+{-| Akpa
+-}
 akf : Language
 akf =
     Language { code = "akf" }
 
-{-| Anakalangu -}
+
+{-| Anakalangu
+-}
 akg : Language
 akg =
     Language { code = "akg" }
 
-{-| Angal Heneng -}
+
+{-| Angal Heneng
+-}
 akh : Language
 akh =
     Language { code = "akh" }
 
-{-| Aiome -}
+
+{-| Aiome
+-}
 aki : Language
 aki =
     Language { code = "aki" }
 
-{-| Aka-Jeru -}
+
+{-| Aka-Jeru
+-}
 akj : Language
 akj =
     Language { code = "akj" }
 
-{-| Akkadian -}
+
+{-| Akkadian
+-}
 akk : Language
 akk =
     Language { code = "akk" }
 
-{-| Aklanon -}
+
+{-| Aklanon
+-}
 akl : Language
 akl =
     Language { code = "akl" }
 
-{-| Aka-Bo -}
+
+{-| Aka-Bo
+-}
 akm : Language
 akm =
     Language { code = "akm" }
 
-{-| Akurio -}
+
+{-| Akurio
+-}
 ako : Language
 ako =
     Language { code = "ako" }
 
-{-| Siwu -}
+
+{-| Siwu
+-}
 akp : Language
 akp =
     Language { code = "akp" }
 
-{-| Ak -}
+
+{-| Ak
+-}
 akq : Language
 akq =
     Language { code = "akq" }
 
-{-| Araki -}
+
+{-| Araki
+-}
 akr : Language
 akr =
     Language { code = "akr" }
 
-{-| Akaselem -}
+
+{-| Akaselem
+-}
 aks : Language
 aks =
     Language { code = "aks" }
 
-{-| Akolet -}
+
+{-| Akolet
+-}
 akt : Language
 akt =
     Language { code = "akt" }
 
-{-| Akum -}
+
+{-| Akum
+-}
 aku : Language
 aku =
     Language { code = "aku" }
 
-{-| Akhvakh -}
+
+{-| Akhvakh
+-}
 akv : Language
 akv =
     Language { code = "akv" }
 
-{-| Akwa -}
+
+{-| Akwa
+-}
 akw : Language
 akw =
     Language { code = "akw" }
 
-{-| Aka-Kede -}
+
+{-| Aka-Kede
+-}
 akx : Language
 akx =
     Language { code = "akx" }
 
-{-| Aka-Kol -}
+
+{-| Aka-Kol
+-}
 aky : Language
 aky =
     Language { code = "aky" }
 
-{-| Alabama -}
+
+{-| Alabama
+-}
 akz : Language
 akz =
     Language { code = "akz" }
 
-{-| Alago -}
+
+{-| Alago
+-}
 ala : Language
 ala =
     Language { code = "ala" }
 
-{-| Qawasqar -}
+
+{-| Qawasqar
+-}
 alc : Language
 alc =
     Language { code = "alc" }
 
-{-| Alladian -}
+
+{-| Alladian
+-}
 ald : Language
 ald =
     Language { code = "ald" }
 
-{-| Aleut -}
+
+{-| Aleut
+-}
 ale : Language
 ale =
     Language { code = "ale" }
 
-{-| Alege -}
+
+{-| Alege
+-}
 alf : Language
 alf =
     Language { code = "alf" }
 
-{-| Algonquian languages -}
+
+{-| Algonquian languages
+-}
 alg : Language
 alg =
     Language { code = "alg" }
 
-{-| Alawa -}
+
+{-| Alawa
+-}
 alh : Language
 alh =
     Language { code = "alh" }
 
-{-| Amaimon -}
+
+{-| Amaimon
+-}
 ali : Language
 ali =
     Language { code = "ali" }
 
-{-| Alangan -}
+
+{-| Alangan
+-}
 alj : Language
 alj =
     Language { code = "alj" }
 
-{-| Alak -}
+
+{-| Alak
+-}
 alk : Language
 alk =
     Language { code = "alk" }
 
-{-| Allar -}
+
+{-| Allar
+-}
 all : Language
 all =
     Language { code = "all" }
 
-{-| Amblong -}
+
+{-| Amblong
+-}
 alm : Language
 alm =
     Language { code = "alm" }
 
-{-| Gheg Albanian -}
+
+{-| Gheg Albanian
+-}
 aln : Language
 aln =
     Language { code = "aln" }
 
-{-| Larike-Wakasihu -}
+
+{-| Larike-Wakasihu
+-}
 alo : Language
 alo =
     Language { code = "alo" }
 
-{-| Alune -}
+
+{-| Alune
+-}
 alp : Language
 alp =
     Language { code = "alp" }
 
-{-| Algonquin -}
+
+{-| Algonquin
+-}
 alq : Language
 alq =
     Language { code = "alq" }
 
-{-| Alutor -}
+
+{-| Alutor
+-}
 alr : Language
 alr =
     Language { code = "alr" }
 
-{-| Tosk Albanian -}
+
+{-| Tosk Albanian
+-}
 als : Language
 als =
     Language { code = "als" }
 
-{-| Southern Altai -}
+
+{-| Southern Altai
+-}
 alt : Language
 alt =
     Language { code = "alt" }
 
-{-| 'Are'are -}
+
+{-| 'Are'are
+-}
 alu : Language
 alu =
     Language { code = "alu" }
 
-{-| Atlantic-Congo languages -}
+
+{-| Atlantic-Congo languages
+-}
 alv : Language
 alv =
     Language { code = "alv" }
 
+
 {-| Alaba-K’abeena
-Wanbasana -}
+Wanbasana
+-}
 alw : Language
 alw =
     Language { code = "alw" }
 
-{-| Amol -}
+
+{-| Amol
+-}
 alx : Language
 alx =
     Language { code = "alx" }
 
-{-| Alyawarr -}
+
+{-| Alyawarr
+-}
 aly : Language
 aly =
     Language { code = "aly" }
 
-{-| Alur -}
+
+{-| Alur
+-}
 alz : Language
 alz =
     Language { code = "alz" }
 
-{-| Amharic -}
+
+{-| Amharic
+-}
 am : Language
 am =
     Language { code = "am" }
 
-{-| Amanayé -}
+
+{-| Amanayé
+-}
 ama : Language
 ama =
     Language { code = "ama" }
 
-{-| Ambo -}
+
+{-| Ambo
+-}
 amb : Language
 amb =
     Language { code = "amb" }
 
-{-| Amahuaca -}
+
+{-| Amahuaca
+-}
 amc : Language
 amc =
     Language { code = "amc" }
 
-{-| Yanesha' -}
+
+{-| Yanesha'
+-}
 ame : Language
 ame =
     Language { code = "ame" }
 
-{-| Hamer-Banna -}
+
+{-| Hamer-Banna
+-}
 amf : Language
 amf =
     Language { code = "amf" }
 
-{-| Amurdak -}
+
+{-| Amurdak
+-}
 amg : Language
 amg =
     Language { code = "amg" }
 
-{-| Amis -}
+
+{-| Amis
+-}
 ami : Language
 ami =
     Language { code = "ami" }
 
-{-| Amdang -}
+
+{-| Amdang
+-}
 amj : Language
 amj =
     Language { code = "amj" }
 
-{-| Ambai -}
+
+{-| Ambai
+-}
 amk : Language
 amk =
     Language { code = "amk" }
 
-{-| War-Jaintia -}
+
+{-| War-Jaintia
+-}
 aml : Language
 aml =
     Language { code = "aml" }
 
-{-| Ama (Papua New Guinea) -}
+
+{-| Ama (Papua New Guinea)
+-}
 amm : Language
 amm =
     Language { code = "amm" }
 
-{-| Amanab -}
+
+{-| Amanab
+-}
 amn : Language
 amn =
     Language { code = "amn" }
 
-{-| Amo -}
+
+{-| Amo
+-}
 amo : Language
 amo =
     Language { code = "amo" }
 
-{-| Alamblak -}
+
+{-| Alamblak
+-}
 amp : Language
 amp =
     Language { code = "amp" }
 
-{-| Amahai -}
+
+{-| Amahai
+-}
 amq : Language
 amq =
     Language { code = "amq" }
 
-{-| Amarakaeri -}
+
+{-| Amarakaeri
+-}
 amr : Language
 amr =
     Language { code = "amr" }
 
-{-| Southern Amami-Oshima -}
+
+{-| Southern Amami-Oshima
+-}
 ams : Language
 ams =
     Language { code = "ams" }
 
-{-| Amto -}
+
+{-| Amto
+-}
 amt : Language
 amt =
     Language { code = "amt" }
 
-{-| Guerrero Amuzgo -}
+
+{-| Guerrero Amuzgo
+-}
 amu : Language
 amu =
     Language { code = "amu" }
 
-{-| Ambelau -}
+
+{-| Ambelau
+-}
 amv : Language
 amv =
     Language { code = "amv" }
 
-{-| Western Neo-Aramaic -}
+
+{-| Western Neo-Aramaic
+-}
 amw : Language
 amw =
     Language { code = "amw" }
 
-{-| Anmatyerre -}
+
+{-| Anmatyerre
+-}
 amx : Language
 amx =
     Language { code = "amx" }
 
-{-| Ami -}
+
+{-| Ami
+-}
 amy : Language
 amy =
     Language { code = "amy" }
 
-{-| Atampaya -}
+
+{-| Atampaya
+-}
 amz : Language
 amz =
     Language { code = "amz" }
 
-{-| Aragonese -}
+
+{-| Aragonese
+-}
 an : Language
 an =
     Language { code = "an" }
 
-{-| Andaqui -}
+
+{-| Andaqui
+-}
 ana : Language
 ana =
     Language { code = "ana" }
 
-{-| Andoa -}
+
+{-| Andoa
+-}
 anb : Language
 anb =
     Language { code = "anb" }
 
-{-| Ngas -}
+
+{-| Ngas
+-}
 anc : Language
 anc =
     Language { code = "anc" }
 
-{-| Ansus -}
+
+{-| Ansus
+-}
 and : Language
 and =
     Language { code = "and" }
 
-{-| Xârâcùù -}
+
+{-| Xârâcùù
+-}
 ane : Language
 ane =
     Language { code = "ane" }
 
-{-| Animere -}
+
+{-| Animere
+-}
 anf : Language
 anf =
     Language { code = "anf" }
 
-{-| Old English (ca. 450-1100) -}
+
+{-| Old English (ca. 450-1100)
+-}
 ang : Language
 ang =
     Language { code = "ang" }
 
-{-| Nend -}
+
+{-| Nend
+-}
 anh : Language
 anh =
     Language { code = "anh" }
 
-{-| Andi -}
+
+{-| Andi
+-}
 ani : Language
 ani =
     Language { code = "ani" }
 
-{-| Anor -}
+
+{-| Anor
+-}
 anj : Language
 anj =
     Language { code = "anj" }
 
-{-| Goemai -}
+
+{-| Goemai
+-}
 ank : Language
 ank =
     Language { code = "ank" }
 
-{-| Anu-Hkongso Chin -}
+
+{-| Anu-Hkongso Chin
+-}
 anl : Language
 anl =
     Language { code = "anl" }
 
-{-| Anal -}
+
+{-| Anal
+-}
 anm : Language
 anm =
     Language { code = "anm" }
 
-{-| Obolo -}
+
+{-| Obolo
+-}
 ann : Language
 ann =
     Language { code = "ann" }
 
-{-| Andoque -}
+
+{-| Andoque
+-}
 ano : Language
 ano =
     Language { code = "ano" }
 
-{-| Angika -}
+
+{-| Angika
+-}
 anp : Language
 anp =
     Language { code = "anp" }
 
-{-| Jarawa (India) -}
+
+{-| Jarawa (India)
+-}
 anq : Language
 anq =
     Language { code = "anq" }
 
-{-| Andh -}
+
+{-| Andh
+-}
 anr : Language
 anr =
     Language { code = "anr" }
 
-{-| Anserma -}
+
+{-| Anserma
+-}
 ans : Language
 ans =
     Language { code = "ans" }
 
+
 {-| Antakarinya
-Antikarinya -}
+Antikarinya
+-}
 ant : Language
 ant =
     Language { code = "ant" }
 
-{-| Anuak -}
+
+{-| Anuak
+-}
 anu : Language
 anu =
     Language { code = "anu" }
 
-{-| Denya -}
+
+{-| Denya
+-}
 anv : Language
 anv =
     Language { code = "anv" }
 
-{-| Anaang -}
+
+{-| Anaang
+-}
 anw : Language
 anw =
     Language { code = "anw" }
 
-{-| Andra-Hus -}
+
+{-| Andra-Hus
+-}
 anx : Language
 anx =
     Language { code = "anx" }
 
-{-| Anyin -}
+
+{-| Anyin
+-}
 any : Language
 any =
     Language { code = "any" }
 
-{-| Anem -}
+
+{-| Anem
+-}
 anz : Language
 anz =
     Language { code = "anz" }
 
-{-| Angolar -}
+
+{-| Angolar
+-}
 aoa : Language
 aoa =
     Language { code = "aoa" }
 
-{-| Abom -}
+
+{-| Abom
+-}
 aob : Language
 aob =
     Language { code = "aob" }
 
-{-| Pemon -}
+
+{-| Pemon
+-}
 aoc : Language
 aoc =
     Language { code = "aoc" }
 
-{-| Andarum -}
+
+{-| Andarum
+-}
 aod : Language
 aod =
     Language { code = "aod" }
 
-{-| Angal Enen -}
+
+{-| Angal Enen
+-}
 aoe : Language
 aoe =
     Language { code = "aoe" }
 
-{-| Bragat -}
+
+{-| Bragat
+-}
 aof : Language
 aof =
     Language { code = "aof" }
 
-{-| Angoram -}
+
+{-| Angoram
+-}
 aog : Language
 aog =
     Language { code = "aog" }
 
-{-| Arma -}
+
+{-| Arma
+-}
 aoh : Language
 aoh =
     Language { code = "aoh" }
 
-{-| Anindilyakwa -}
+
+{-| Anindilyakwa
+-}
 aoi : Language
 aoi =
     Language { code = "aoi" }
 
-{-| Mufian -}
+
+{-| Mufian
+-}
 aoj : Language
 aoj =
     Language { code = "aoj" }
 
-{-| Arhö -}
+
+{-| Arhö
+-}
 aok : Language
 aok =
     Language { code = "aok" }
 
-{-| Alor -}
+
+{-| Alor
+-}
 aol : Language
 aol =
     Language { code = "aol" }
 
-{-| Ömie -}
+
+{-| Ömie
+-}
 aom : Language
 aom =
     Language { code = "aom" }
 
-{-| Bumbita Arapesh -}
+
+{-| Bumbita Arapesh
+-}
 aon : Language
 aon =
     Language { code = "aon" }
 
-{-| Aore -}
+
+{-| Aore
+-}
 aor : Language
 aor =
     Language { code = "aor" }
 
-{-| Taikat -}
+
+{-| Taikat
+-}
 aos : Language
 aos =
     Language { code = "aos" }
 
+
 {-| Atong (India)
-A'tong -}
+A'tong
+-}
 aot : Language
 aot =
     Language { code = "aot" }
 
-{-| A'ou -}
+
+{-| A'ou
+-}
 aou : Language
 aou =
     Language { code = "aou" }
 
-{-| Atorada -}
+
+{-| Atorada
+-}
 aox : Language
 aox =
     Language { code = "aox" }
 
-{-| Uab Meto -}
+
+{-| Uab Meto
+-}
 aoz : Language
 aoz =
     Language { code = "aoz" }
 
-{-| Apache languages -}
+
+{-| Apache languages
+-}
 apa : Language
 apa =
     Language { code = "apa" }
 
-{-| Sa'a -}
+
+{-| Sa'a
+-}
 apb : Language
 apb =
     Language { code = "apb" }
 
-{-| North Levantine Arabic -}
+
+{-| North Levantine Arabic
+-}
 apc : Language
 apc =
     Language { code = "apc" }
 
-{-| Sudanese Arabic -}
+
+{-| Sudanese Arabic
+-}
 apd : Language
 apd =
     Language { code = "apd" }
 
-{-| Bukiyip -}
+
+{-| Bukiyip
+-}
 ape : Language
 ape =
     Language { code = "ape" }
 
-{-| Pahanan Agta -}
+
+{-| Pahanan Agta
+-}
 apf : Language
 apf =
     Language { code = "apf" }
 
-{-| Ampanang -}
+
+{-| Ampanang
+-}
 apg : Language
 apg =
     Language { code = "apg" }
 
-{-| Athpariya -}
+
+{-| Athpariya
+-}
 aph : Language
 aph =
     Language { code = "aph" }
 
-{-| Apiaká -}
+
+{-| Apiaká
+-}
 api : Language
 api =
     Language { code = "api" }
 
-{-| Jicarilla Apache -}
+
+{-| Jicarilla Apache
+-}
 apj : Language
 apj =
     Language { code = "apj" }
 
-{-| Kiowa Apache -}
+
+{-| Kiowa Apache
+-}
 apk : Language
 apk =
     Language { code = "apk" }
 
-{-| Lipan Apache -}
+
+{-| Lipan Apache
+-}
 apl : Language
 apl =
     Language { code = "apl" }
 
-{-| Mescalero-Chiricahua Apache -}
+
+{-| Mescalero-Chiricahua Apache
+-}
 apm : Language
 apm =
     Language { code = "apm" }
 
-{-| Apinayé -}
+
+{-| Apinayé
+-}
 apn : Language
 apn =
     Language { code = "apn" }
 
-{-| Ambul -}
+
+{-| Ambul
+-}
 apo : Language
 apo =
     Language { code = "apo" }
 
-{-| Apma -}
+
+{-| Apma
+-}
 app : Language
 app =
     Language { code = "app" }
 
-{-| A-Pucikwar -}
+
+{-| A-Pucikwar
+-}
 apq : Language
 apq =
     Language { code = "apq" }
 
-{-| Arop-Lokep -}
+
+{-| Arop-Lokep
+-}
 apr : Language
 apr =
     Language { code = "apr" }
 
-{-| Arop-Sissano -}
+
+{-| Arop-Sissano
+-}
 aps : Language
 aps =
     Language { code = "aps" }
 
-{-| Apatani -}
+
+{-| Apatani
+-}
 apt : Language
 apt =
     Language { code = "apt" }
 
-{-| Apurinã -}
+
+{-| Apurinã
+-}
 apu : Language
 apu =
     Language { code = "apu" }
 
-{-| Alapmunte -}
+
+{-| Alapmunte
+-}
 apv : Language
 apv =
     Language { code = "apv" }
 
-{-| Western Apache -}
+
+{-| Western Apache
+-}
 apw : Language
 apw =
     Language { code = "apw" }
 
-{-| Aputai -}
+
+{-| Aputai
+-}
 apx : Language
 apx =
     Language { code = "apx" }
 
-{-| Apalaí -}
+
+{-| Apalaí
+-}
 apy : Language
 apy =
     Language { code = "apy" }
 
-{-| Safeyoka -}
+
+{-| Safeyoka
+-}
 apz : Language
 apz =
     Language { code = "apz" }
 
-{-| Alacalufan languages -}
+
+{-| Alacalufan languages
+-}
 aqa : Language
 aqa =
     Language { code = "aqa" }
 
-{-| Archi -}
+
+{-| Archi
+-}
 aqc : Language
 aqc =
     Language { code = "aqc" }
 
-{-| Ampari Dogon -}
+
+{-| Ampari Dogon
+-}
 aqd : Language
 aqd =
     Language { code = "aqd" }
 
-{-| Arigidi -}
+
+{-| Arigidi
+-}
 aqg : Language
 aqg =
     Language { code = "aqg" }
 
-{-| Algic languages -}
+
+{-| Algic languages
+-}
 aql : Language
 aql =
     Language { code = "aql" }
 
-{-| Atohwaim -}
+
+{-| Atohwaim
+-}
 aqm : Language
 aqm =
     Language { code = "aqm" }
 
-{-| Northern Alta -}
+
+{-| Northern Alta
+-}
 aqn : Language
 aqn =
     Language { code = "aqn" }
 
-{-| Atakapa -}
+
+{-| Atakapa
+-}
 aqp : Language
 aqp =
     Language { code = "aqp" }
 
-{-| Arhâ -}
+
+{-| Arhâ
+-}
 aqr : Language
 aqr =
     Language { code = "aqr" }
 
-{-| Angaité -}
+
+{-| Angaité
+-}
 aqt : Language
 aqt =
     Language { code = "aqt" }
 
-{-| Akuntsu -}
+
+{-| Akuntsu
+-}
 aqz : Language
 aqz =
     Language { code = "aqz" }
 
-{-| Arabic -}
+
+{-| Arabic
+-}
 ar : Language
 ar =
     Language { code = "ar" }
 
-{-| Standard Arabic -}
+
+{-| Standard Arabic
+-}
 arb : Language
 arb =
     Language { code = "arb" }
 
+
 {-| Official Aramaic (700-300 BCE)
-Imperial Aramaic (700-300 BCE) -}
+Imperial Aramaic (700-300 BCE)
+-}
 arc : Language
 arc =
     Language { code = "arc" }
 
-{-| Arabana -}
+
+{-| Arabana
+-}
 ard : Language
 ard =
     Language { code = "ard" }
 
-{-| Western Arrarnta -}
+
+{-| Western Arrarnta
+-}
 are : Language
 are =
     Language { code = "are" }
 
-{-| Arhuaco -}
+
+{-| Arhuaco
+-}
 arh : Language
 arh =
     Language { code = "arh" }
 
-{-| Arikara -}
+
+{-| Arikara
+-}
 ari : Language
 ari =
     Language { code = "ari" }
 
-{-| Arapaso -}
+
+{-| Arapaso
+-}
 arj : Language
 arj =
     Language { code = "arj" }
 
-{-| Arikapú -}
+
+{-| Arikapú
+-}
 ark : Language
 ark =
     Language { code = "ark" }
 
-{-| Arabela -}
+
+{-| Arabela
+-}
 arl : Language
 arl =
     Language { code = "arl" }
 
+
 {-| Mapudungun
-Mapuche -}
+Mapuche
+-}
 arn : Language
 arn =
     Language { code = "arn" }
 
-{-| Araona -}
+
+{-| Araona
+-}
 aro : Language
 aro =
     Language { code = "aro" }
 
-{-| Arapaho -}
+
+{-| Arapaho
+-}
 arp : Language
 arp =
     Language { code = "arp" }
 
-{-| Algerian Arabic -}
+
+{-| Algerian Arabic
+-}
 arq : Language
 arq =
     Language { code = "arq" }
 
-{-| Karo (Brazil) -}
+
+{-| Karo (Brazil)
+-}
 arr : Language
 arr =
     Language { code = "arr" }
 
-{-| Najdi Arabic -}
+
+{-| Najdi Arabic
+-}
 ars : Language
 ars =
     Language { code = "ars" }
 
-{-| Artificial languages -}
+
+{-| Artificial languages
+-}
 art : Language
 art =
     Language { code = "art" }
 
+
 {-| Aruá (Amazonas State)
-Arawá -}
+Arawá
+-}
 aru : Language
 aru =
     Language { code = "aru" }
 
-{-| Arbore -}
+
+{-| Arbore
+-}
 arv : Language
 arv =
     Language { code = "arv" }
 
-{-| Arawak -}
+
+{-| Arawak
+-}
 arw : Language
 arw =
     Language { code = "arw" }
 
-{-| Aruá (Rodonia State) -}
+
+{-| Aruá (Rodonia State)
+-}
 arx : Language
 arx =
     Language { code = "arx" }
 
-{-| Moroccan Arabic -}
+
+{-| Moroccan Arabic
+-}
 ary : Language
 ary =
     Language { code = "ary" }
 
-{-| Egyptian Arabic -}
+
+{-| Egyptian Arabic
+-}
 arz : Language
 arz =
     Language { code = "arz" }
 
-{-| Assamese -}
+
+{-| Assamese
+-}
 as_ : Language
 as_ =
     Language { code = "as" }
 
-{-| Asu (Tanzania) -}
+
+{-| Asu (Tanzania)
+-}
 asa : Language
 asa =
     Language { code = "asa" }
 
-{-| Assiniboine -}
+
+{-| Assiniboine
+-}
 asb : Language
 asb =
     Language { code = "asb" }
 
-{-| Casuarina Coast Asmat -}
+
+{-| Casuarina Coast Asmat
+-}
 asc : Language
 asc =
     Language { code = "asc" }
 
-{-| Asas -}
+
+{-| Asas
+-}
 asd : Language
 asd =
     Language { code = "asd" }
 
-{-| American Sign Language -}
+
+{-| American Sign Language
+-}
 ase : Language
 ase =
     Language { code = "ase" }
 
+
 {-| Auslan
-Australian Sign Language -}
+Australian Sign Language
+-}
 asf : Language
 asf =
     Language { code = "asf" }
 
-{-| Cishingini -}
+
+{-| Cishingini
+-}
 asg : Language
 asg =
     Language { code = "asg" }
 
-{-| Abishira -}
+
+{-| Abishira
+-}
 ash : Language
 ash =
     Language { code = "ash" }
 
-{-| Buruwai -}
+
+{-| Buruwai
+-}
 asi : Language
 asi =
     Language { code = "asi" }
 
-{-| Sari -}
+
+{-| Sari
+-}
 asj : Language
 asj =
     Language { code = "asj" }
 
-{-| Ashkun -}
+
+{-| Ashkun
+-}
 ask : Language
 ask =
     Language { code = "ask" }
 
-{-| Asilulu -}
+
+{-| Asilulu
+-}
 asl : Language
 asl =
     Language { code = "asl" }
 
-{-| Xingú Asuriní -}
+
+{-| Xingú Asuriní
+-}
 asn : Language
 asn =
     Language { code = "asn" }
 
-{-| Dano -}
+
+{-| Dano
+-}
 aso : Language
 aso =
     Language { code = "aso" }
 
-{-| Algerian Sign Language -}
+
+{-| Algerian Sign Language
+-}
 asp : Language
 asp =
     Language { code = "asp" }
 
-{-| Austrian Sign Language -}
+
+{-| Austrian Sign Language
+-}
 asq : Language
 asq =
     Language { code = "asq" }
 
-{-| Asuri -}
+
+{-| Asuri
+-}
 asr : Language
 asr =
     Language { code = "asr" }
 
-{-| Ipulo -}
+
+{-| Ipulo
+-}
 ass : Language
 ass =
     Language { code = "ass" }
 
+
 {-| Asturian
 Asturleonese
 Bable
-Leonese -}
+Leonese
+-}
 ast : Language
 ast =
     Language { code = "ast" }
 
-{-| Tocantins Asurini -}
+
+{-| Tocantins Asurini
+-}
 asu : Language
 asu =
     Language { code = "asu" }
 
-{-| Asoa -}
+
+{-| Asoa
+-}
 asv : Language
 asv =
     Language { code = "asv" }
 
-{-| Australian Aborigines Sign Language -}
+
+{-| Australian Aborigines Sign Language
+-}
 asw : Language
 asw =
     Language { code = "asw" }
 
-{-| Muratayak -}
+
+{-| Muratayak
+-}
 asx : Language
 asx =
     Language { code = "asx" }
 
-{-| Yaosakor Asmat -}
+
+{-| Yaosakor Asmat
+-}
 asy : Language
 asy =
     Language { code = "asy" }
 
-{-| As -}
+
+{-| As
+-}
 asz : Language
 asz =
     Language { code = "asz" }
 
-{-| Pele-Ata -}
+
+{-| Pele-Ata
+-}
 ata : Language
 ata =
     Language { code = "ata" }
 
-{-| Zaiwa -}
+
+{-| Zaiwa
+-}
 atb : Language
 atb =
     Language { code = "atb" }
 
-{-| Atsahuaca -}
+
+{-| Atsahuaca
+-}
 atc : Language
 atc =
     Language { code = "atc" }
 
-{-| Ata Manobo -}
+
+{-| Ata Manobo
+-}
 atd : Language
 atd =
     Language { code = "atd" }
 
-{-| Atemble -}
+
+{-| Atemble
+-}
 ate : Language
 ate =
     Language { code = "ate" }
 
-{-| Ivbie North-Okpela-Arhe -}
+
+{-| Ivbie North-Okpela-Arhe
+-}
 atg : Language
 atg =
     Language { code = "atg" }
 
-{-| Athapascan languages -}
+
+{-| Athapascan languages
+-}
 ath : Language
 ath =
     Language { code = "ath" }
 
-{-| Attié -}
+
+{-| Attié
+-}
 ati : Language
 ati =
     Language { code = "ati" }
 
-{-| Atikamekw -}
+
+{-| Atikamekw
+-}
 atj : Language
 atj =
     Language { code = "atj" }
 
-{-| Ati -}
+
+{-| Ati
+-}
 atk : Language
 atk =
     Language { code = "atk" }
 
-{-| Mt. Iraya Agta -}
+
+{-| Mt. Iraya Agta
+-}
 atl : Language
 atl =
     Language { code = "atl" }
 
-{-| Ata -}
+
+{-| Ata
+-}
 atm : Language
 atm =
     Language { code = "atm" }
 
-{-| Ashtiani -}
+
+{-| Ashtiani
+-}
 atn : Language
 atn =
     Language { code = "atn" }
 
-{-| Atong (Cameroon) -}
+
+{-| Atong (Cameroon)
+-}
 ato : Language
 ato =
     Language { code = "ato" }
 
-{-| Pudtol Atta -}
+
+{-| Pudtol Atta
+-}
 atp : Language
 atp =
     Language { code = "atp" }
 
-{-| Aralle-Tabulahan -}
+
+{-| Aralle-Tabulahan
+-}
 atq : Language
 atq =
     Language { code = "atq" }
 
-{-| Waimiri-Atroari -}
+
+{-| Waimiri-Atroari
+-}
 atr : Language
 atr =
     Language { code = "atr" }
 
-{-| Gros Ventre -}
+
+{-| Gros Ventre
+-}
 ats : Language
 ats =
     Language { code = "ats" }
 
-{-| Pamplona Atta -}
+
+{-| Pamplona Atta
+-}
 att : Language
 att =
     Language { code = "att" }
 
-{-| Reel -}
+
+{-| Reel
+-}
 atu : Language
 atu =
     Language { code = "atu" }
 
-{-| Northern Altai -}
+
+{-| Northern Altai
+-}
 atv : Language
 atv =
     Language { code = "atv" }
 
-{-| Atsugewi -}
+
+{-| Atsugewi
+-}
 atw : Language
 atw =
     Language { code = "atw" }
 
-{-| Arutani -}
+
+{-| Arutani
+-}
 atx : Language
 atx =
     Language { code = "atx" }
 
-{-| Aneityum -}
+
+{-| Aneityum
+-}
 aty : Language
 aty =
     Language { code = "aty" }
 
-{-| Arta -}
+
+{-| Arta
+-}
 atz : Language
 atz =
     Language { code = "atz" }
 
-{-| Asumboa -}
+
+{-| Asumboa
+-}
 aua : Language
 aua =
     Language { code = "aua" }
 
-{-| Alugu -}
+
+{-| Alugu
+-}
 aub : Language
 aub =
     Language { code = "aub" }
 
-{-| Waorani -}
+
+{-| Waorani
+-}
 auc : Language
 auc =
     Language { code = "auc" }
 
-{-| Anuta -}
+
+{-| Anuta
+-}
 aud : Language
 aud =
     Language { code = "aud" }
 
-{-| ǂKxʼauǁʼein -}
+
+{-| ǂKxʼauǁʼein
+-}
 aue : Language
 aue =
     Language { code = "aue" }
 
-{-| Arauan languages -}
+
+{-| Arauan languages
+-}
 auf : Language
 auf =
     Language { code = "auf" }
 
-{-| Aguna -}
+
+{-| Aguna
+-}
 aug : Language
 aug =
     Language { code = "aug" }
 
-{-| Aushi -}
+
+{-| Aushi
+-}
 auh : Language
 auh =
     Language { code = "auh" }
 
-{-| Anuki -}
+
+{-| Anuki
+-}
 aui : Language
 aui =
     Language { code = "aui" }
 
-{-| Awjilah -}
+
+{-| Awjilah
+-}
 auj : Language
 auj =
     Language { code = "auj" }
 
-{-| Heyo -}
+
+{-| Heyo
+-}
 auk : Language
 auk =
     Language { code = "auk" }
 
-{-| Aulua -}
+
+{-| Aulua
+-}
 aul : Language
 aul =
     Language { code = "aul" }
 
-{-| Asu (Nigeria) -}
+
+{-| Asu (Nigeria)
+-}
 aum : Language
 aum =
     Language { code = "aum" }
 
-{-| Molmo One -}
+
+{-| Molmo One
+-}
 aun : Language
 aun =
     Language { code = "aun" }
 
-{-| Auyokawa -}
+
+{-| Auyokawa
+-}
 auo : Language
 auo =
     Language { code = "auo" }
 
-{-| Makayam -}
+
+{-| Makayam
+-}
 aup : Language
 aup =
     Language { code = "aup" }
 
+
 {-| Anus
-Korur -}
+Korur
+-}
 auq : Language
 auq =
     Language { code = "auq" }
 
-{-| Aruek -}
+
+{-| Aruek
+-}
 aur : Language
 aur =
     Language { code = "aur" }
 
-{-| Australian languages -}
+
+{-| Australian languages
+-}
 aus : Language
 aus =
     Language { code = "aus" }
 
-{-| Austral -}
+
+{-| Austral
+-}
 aut : Language
 aut =
     Language { code = "aut" }
 
-{-| Auye -}
+
+{-| Auye
+-}
 auu : Language
 auu =
     Language { code = "auu" }
 
-{-| Awyi -}
+
+{-| Awyi
+-}
 auw : Language
 auw =
     Language { code = "auw" }
 
-{-| Aurá -}
+
+{-| Aurá
+-}
 aux : Language
 aux =
     Language { code = "aux" }
 
-{-| Awiyaana -}
+
+{-| Awiyaana
+-}
 auy : Language
 auy =
     Language { code = "auy" }
 
-{-| Uzbeki Arabic -}
+
+{-| Uzbeki Arabic
+-}
 auz : Language
 auz =
     Language { code = "auz" }
 
-{-| Avaric -}
+
+{-| Avaric
+-}
 av : Language
 av =
     Language { code = "av" }
 
-{-| Avau -}
+
+{-| Avau
+-}
 avb : Language
 avb =
     Language { code = "avb" }
 
-{-| Alviri-Vidari -}
+
+{-| Alviri-Vidari
+-}
 avd : Language
 avd =
     Language { code = "avd" }
 
-{-| Avikam -}
+
+{-| Avikam
+-}
 avi : Language
 avi =
     Language { code = "avi" }
 
-{-| Kotava -}
+
+{-| Kotava
+-}
 avk : Language
 avk =
     Language { code = "avk" }
 
-{-| Eastern Egyptian Bedawi Arabic -}
+
+{-| Eastern Egyptian Bedawi Arabic
+-}
 avl : Language
 avl =
     Language { code = "avl" }
 
-{-| Angkamuthi -}
+
+{-| Angkamuthi
+-}
 avm : Language
 avm =
     Language { code = "avm" }
 
-{-| Avatime -}
+
+{-| Avatime
+-}
 avn : Language
 avn =
     Language { code = "avn" }
 
-{-| Agavotaguerra -}
+
+{-| Agavotaguerra
+-}
 avo : Language
 avo =
     Language { code = "avo" }
 
-{-| Aushiri -}
+
+{-| Aushiri
+-}
 avs : Language
 avs =
     Language { code = "avs" }
 
-{-| Au -}
+
+{-| Au
+-}
 avt : Language
 avt =
     Language { code = "avt" }
 
-{-| Avokaya -}
+
+{-| Avokaya
+-}
 avu : Language
 avu =
     Language { code = "avu" }
 
-{-| Avá-Canoeiro -}
+
+{-| Avá-Canoeiro
+-}
 avv : Language
 avv =
     Language { code = "avv" }
 
-{-| Awadhi -}
+
+{-| Awadhi
+-}
 awa : Language
 awa =
     Language { code = "awa" }
 
-{-| Awa (Papua New Guinea) -}
+
+{-| Awa (Papua New Guinea)
+-}
 awb : Language
 awb =
     Language { code = "awb" }
 
-{-| Cicipu -}
+
+{-| Cicipu
+-}
 awc : Language
 awc =
     Language { code = "awc" }
 
-{-| Arawakan languages -}
+
+{-| Arawakan languages
+-}
 awd : Language
 awd =
     Language { code = "awd" }
 
-{-| Awetí -}
+
+{-| Awetí
+-}
 awe : Language
 awe =
     Language { code = "awe" }
 
-{-| Anguthimri -}
+
+{-| Anguthimri
+-}
 awg : Language
 awg =
     Language { code = "awg" }
 
-{-| Awbono -}
+
+{-| Awbono
+-}
 awh : Language
 awh =
     Language { code = "awh" }
 
-{-| Aekyom -}
+
+{-| Aekyom
+-}
 awi : Language
 awi =
     Language { code = "awi" }
 
-{-| Awabakal -}
+
+{-| Awabakal
+-}
 awk : Language
 awk =
     Language { code = "awk" }
 
-{-| Arawum -}
+
+{-| Arawum
+-}
 awm : Language
 awm =
     Language { code = "awm" }
 
-{-| Awngi -}
+
+{-| Awngi
+-}
 awn : Language
 awn =
     Language { code = "awn" }
 
-{-| Awak -}
+
+{-| Awak
+-}
 awo : Language
 awo =
     Language { code = "awo" }
 
-{-| Awera -}
+
+{-| Awera
+-}
 awr : Language
 awr =
     Language { code = "awr" }
 
-{-| South Awyu -}
+
+{-| South Awyu
+-}
 aws : Language
 aws =
     Language { code = "aws" }
 
-{-| Araweté -}
+
+{-| Araweté
+-}
 awt : Language
 awt =
     Language { code = "awt" }
 
-{-| Central Awyu -}
+
+{-| Central Awyu
+-}
 awu : Language
 awu =
     Language { code = "awu" }
 
-{-| Jair Awyu -}
+
+{-| Jair Awyu
+-}
 awv : Language
 awv =
     Language { code = "awv" }
 
-{-| Awun -}
+
+{-| Awun
+-}
 aww : Language
 aww =
     Language { code = "aww" }
 
-{-| Awara -}
+
+{-| Awara
+-}
 awx : Language
 awx =
     Language { code = "awx" }
 
-{-| Edera Awyu -}
+
+{-| Edera Awyu
+-}
 awy : Language
 awy =
     Language { code = "awy" }
 
-{-| Abipon -}
+
+{-| Abipon
+-}
 axb : Language
 axb =
     Language { code = "axb" }
 
-{-| Ayerrerenge -}
+
+{-| Ayerrerenge
+-}
 axe : Language
 axe =
     Language { code = "axe" }
 
-{-| Mato Grosso Arára -}
+
+{-| Mato Grosso Arára
+-}
 axg : Language
 axg =
     Language { code = "axg" }
 
-{-| Yaka (Central African Republic) -}
+
+{-| Yaka (Central African Republic)
+-}
 axk : Language
 axk =
     Language { code = "axk" }
 
-{-| Lower Southern Aranda -}
+
+{-| Lower Southern Aranda
+-}
 axl : Language
 axl =
     Language { code = "axl" }
 
-{-| Middle Armenian -}
+
+{-| Middle Armenian
+-}
 axm : Language
 axm =
     Language { code = "axm" }
 
-{-| Xârâgurè -}
+
+{-| Xârâgurè
+-}
 axx : Language
 axx =
     Language { code = "axx" }
 
-{-| Aymara -}
+
+{-| Aymara
+-}
 ay : Language
 ay =
     Language { code = "ay" }
 
-{-| Awar -}
+
+{-| Awar
+-}
 aya : Language
 aya =
     Language { code = "aya" }
 
-{-| Ayizo Gbe -}
+
+{-| Ayizo Gbe
+-}
 ayb : Language
 ayb =
     Language { code = "ayb" }
 
-{-| Southern Aymara -}
+
+{-| Southern Aymara
+-}
 ayc : Language
 ayc =
     Language { code = "ayc" }
 
-{-| Ayabadhu -}
+
+{-| Ayabadhu
+-}
 ayd : Language
 ayd =
     Language { code = "ayd" }
 
-{-| Ayere -}
+
+{-| Ayere
+-}
 aye : Language
 aye =
     Language { code = "aye" }
 
-{-| Ginyanga -}
+
+{-| Ginyanga
+-}
 ayg : Language
 ayg =
     Language { code = "ayg" }
 
-{-| Hadrami Arabic -}
+
+{-| Hadrami Arabic
+-}
 ayh : Language
 ayh =
     Language { code = "ayh" }
 
-{-| Leyigha -}
+
+{-| Leyigha
+-}
 ayi : Language
 ayi =
     Language { code = "ayi" }
 
-{-| Akuku -}
+
+{-| Akuku
+-}
 ayk : Language
 ayk =
     Language { code = "ayk" }
 
-{-| Libyan Arabic -}
+
+{-| Libyan Arabic
+-}
 ayl : Language
 ayl =
     Language { code = "ayl" }
 
-{-| Sanaani Arabic -}
+
+{-| Sanaani Arabic
+-}
 ayn : Language
 ayn =
     Language { code = "ayn" }
 
-{-| Ayoreo -}
+
+{-| Ayoreo
+-}
 ayo : Language
 ayo =
     Language { code = "ayo" }
 
-{-| North Mesopotamian Arabic -}
+
+{-| North Mesopotamian Arabic
+-}
 ayp : Language
 ayp =
     Language { code = "ayp" }
 
-{-| Ayi (Papua New Guinea) -}
+
+{-| Ayi (Papua New Guinea)
+-}
 ayq : Language
 ayq =
     Language { code = "ayq" }
 
-{-| Central Aymara -}
+
+{-| Central Aymara
+-}
 ayr : Language
 ayr =
     Language { code = "ayr" }
 
-{-| Sorsogon Ayta -}
+
+{-| Sorsogon Ayta
+-}
 ays : Language
 ays =
     Language { code = "ays" }
 
-{-| Magbukun Ayta -}
+
+{-| Magbukun Ayta
+-}
 ayt : Language
 ayt =
     Language { code = "ayt" }
 
-{-| Ayu -}
+
+{-| Ayu
+-}
 ayu : Language
 ayu =
     Language { code = "ayu" }
 
-{-| Ayi (China) -}
+
+{-| Ayi (China)
+-}
 ayx : Language
 ayx =
     Language { code = "ayx" }
 
-{-| Tayabas Ayta -}
+
+{-| Tayabas Ayta
+-}
 ayy : Language
 ayy =
     Language { code = "ayy" }
 
-{-| Mai Brat -}
+
+{-| Mai Brat
+-}
 ayz : Language
 ayz =
     Language { code = "ayz" }
 
-{-| Azerbaijani -}
+
+{-| Azerbaijani
+-}
 az : Language
 az =
     Language { code = "az" }
 
-{-| Azha -}
+
+{-| Azha
+-}
 aza : Language
 aza =
     Language { code = "aza" }
 
-{-| South Azerbaijani -}
+
+{-| South Azerbaijani
+-}
 azb : Language
 azb =
     Language { code = "azb" }
 
-{-| Uto-Aztecan languages -}
+
+{-| Uto-Aztecan languages
+-}
 azc : Language
 azc =
     Language { code = "azc" }
 
-{-| Eastern Durango Nahuatl -}
+
+{-| Eastern Durango Nahuatl
+-}
 azd : Language
 azd =
     Language { code = "azd" }
 
-{-| San Pedro Amuzgos Amuzgo -}
+
+{-| San Pedro Amuzgos Amuzgo
+-}
 azg : Language
 azg =
     Language { code = "azg" }
 
-{-| North Azerbaijani -}
+
+{-| North Azerbaijani
+-}
 azj : Language
 azj =
     Language { code = "azj" }
 
-{-| Ipalapa Amuzgo -}
+
+{-| Ipalapa Amuzgo
+-}
 azm : Language
 azm =
     Language { code = "azm" }
 
-{-| Western Durango Nahuatl -}
+
+{-| Western Durango Nahuatl
+-}
 azn : Language
 azn =
     Language { code = "azn" }
 
-{-| Awing -}
+
+{-| Awing
+-}
 azo : Language
 azo =
     Language { code = "azo" }
 
-{-| Faire Atta -}
+
+{-| Faire Atta
+-}
 azt : Language
 azt =
     Language { code = "azt" }
 
-{-| Highland Puebla Nahuatl -}
+
+{-| Highland Puebla Nahuatl
+-}
 azz : Language
 azz =
     Language { code = "azz" }
 
-{-| Bashkir -}
+
+{-| Bashkir
+-}
 ba : Language
 ba =
     Language { code = "ba" }
 
-{-| Babatana -}
+
+{-| Babatana
+-}
 baa : Language
 baa =
     Language { code = "baa" }
 
-{-| Bainouk-Gunyuño -}
+
+{-| Bainouk-Gunyuño
+-}
 bab : Language
 bab =
     Language { code = "bab" }
 
-{-| Badui -}
+
+{-| Badui
+-}
 bac : Language
 bac =
     Language { code = "bac" }
 
-{-| Banda languages -}
+
+{-| Banda languages
+-}
 bad : Language
 bad =
     Language { code = "bad" }
 
-{-| Baré -}
+
+{-| Baré
+-}
 bae : Language
 bae =
     Language { code = "bae" }
 
-{-| Nubaca -}
+
+{-| Nubaca
+-}
 baf : Language
 baf =
     Language { code = "baf" }
 
-{-| Tuki -}
+
+{-| Tuki
+-}
 bag : Language
 bag =
     Language { code = "bag" }
 
-{-| Bahamas Creole English -}
+
+{-| Bahamas Creole English
+-}
 bah : Language
 bah =
     Language { code = "bah" }
 
-{-| Bamileke languages -}
+
+{-| Bamileke languages
+-}
 bai : Language
 bai =
     Language { code = "bai" }
 
-{-| Barakai -}
+
+{-| Barakai
+-}
 baj : Language
 baj =
     Language { code = "baj" }
 
-{-| Baluchi -}
+
+{-| Baluchi
+-}
 bal : Language
 bal =
     Language { code = "bal" }
 
-{-| Balinese -}
+
+{-| Balinese
+-}
 ban : Language
 ban =
     Language { code = "ban" }
 
-{-| Waimaha -}
+
+{-| Waimaha
+-}
 bao : Language
 bao =
     Language { code = "bao" }
 
-{-| Bantawa -}
+
+{-| Bantawa
+-}
 bap : Language
 bap =
     Language { code = "bap" }
 
-{-| Bavarian -}
+
+{-| Bavarian
+-}
 bar : Language
 bar =
     Language { code = "bar" }
 
-{-| Basa (Cameroon) -}
+
+{-| Basa (Cameroon)
+-}
 bas : Language
 bas =
     Language { code = "bas" }
 
-{-| Baltic languages -}
+
+{-| Baltic languages
+-}
 bat : Language
 bat =
     Language { code = "bat" }
 
-{-| Bada (Nigeria) -}
+
+{-| Bada (Nigeria)
+-}
 bau : Language
 bau =
     Language { code = "bau" }
 
-{-| Vengo -}
+
+{-| Vengo
+-}
 bav : Language
 bav =
     Language { code = "bav" }
 
-{-| Bambili-Bambui -}
+
+{-| Bambili-Bambui
+-}
 baw : Language
 baw =
     Language { code = "baw" }
 
-{-| Bamun -}
+
+{-| Bamun
+-}
 bax : Language
 bax =
     Language { code = "bax" }
 
-{-| Batuley -}
+
+{-| Batuley
+-}
 bay : Language
 bay =
     Language { code = "bay" }
 
-{-| Tunen -}
+
+{-| Tunen
+-}
 baz : Language
 baz =
     Language { code = "baz" }
 
-{-| Baatonum -}
+
+{-| Baatonum
+-}
 bba : Language
 bba =
     Language { code = "bba" }
 
-{-| Barai -}
+
+{-| Barai
+-}
 bbb : Language
 bbb =
     Language { code = "bbb" }
 
-{-| Batak Toba -}
+
+{-| Batak Toba
+-}
 bbc : Language
 bbc =
     Language { code = "bbc" }
 
-{-| Bau -}
+
+{-| Bau
+-}
 bbd : Language
 bbd =
     Language { code = "bbd" }
 
-{-| Bangba -}
+
+{-| Bangba
+-}
 bbe : Language
 bbe =
     Language { code = "bbe" }
 
-{-| Baibai -}
+
+{-| Baibai
+-}
 bbf : Language
 bbf =
     Language { code = "bbf" }
 
-{-| Barama -}
+
+{-| Barama
+-}
 bbg : Language
 bbg =
     Language { code = "bbg" }
 
-{-| Bugan -}
+
+{-| Bugan
+-}
 bbh : Language
 bbh =
     Language { code = "bbh" }
 
-{-| Barombi -}
+
+{-| Barombi
+-}
 bbi : Language
 bbi =
     Language { code = "bbi" }
 
-{-| Ghomálá' -}
+
+{-| Ghomálá'
+-}
 bbj : Language
 bbj =
     Language { code = "bbj" }
 
-{-| Babanki -}
+
+{-| Babanki
+-}
 bbk : Language
 bbk =
     Language { code = "bbk" }
 
-{-| Bats -}
+
+{-| Bats
+-}
 bbl : Language
 bbl =
     Language { code = "bbl" }
 
-{-| Babango -}
+
+{-| Babango
+-}
 bbm : Language
 bbm =
     Language { code = "bbm" }
 
-{-| Uneapa -}
+
+{-| Uneapa
+-}
 bbn : Language
 bbn =
     Language { code = "bbn" }
 
+
 {-| Northern Bobo Madaré
-Konabéré -}
+Konabéré
+-}
 bbo : Language
 bbo =
     Language { code = "bbo" }
 
-{-| West Central Banda -}
+
+{-| West Central Banda
+-}
 bbp : Language
 bbp =
     Language { code = "bbp" }
 
-{-| Bamali -}
+
+{-| Bamali
+-}
 bbq : Language
 bbq =
     Language { code = "bbq" }
 
-{-| Girawa -}
+
+{-| Girawa
+-}
 bbr : Language
 bbr =
     Language { code = "bbr" }
 
-{-| Bakpinka -}
+
+{-| Bakpinka
+-}
 bbs : Language
 bbs =
     Language { code = "bbs" }
 
-{-| Mburku -}
+
+{-| Mburku
+-}
 bbt : Language
 bbt =
     Language { code = "bbt" }
 
-{-| Kulung (Nigeria) -}
+
+{-| Kulung (Nigeria)
+-}
 bbu : Language
 bbu =
     Language { code = "bbu" }
 
-{-| Karnai -}
+
+{-| Karnai
+-}
 bbv : Language
 bbv =
     Language { code = "bbv" }
 
-{-| Baba -}
+
+{-| Baba
+-}
 bbw : Language
 bbw =
     Language { code = "bbw" }
 
-{-| Bubia -}
+
+{-| Bubia
+-}
 bbx : Language
 bbx =
     Language { code = "bbx" }
 
-{-| Befang -}
+
+{-| Befang
+-}
 bby : Language
 bby =
     Language { code = "bby" }
 
-{-| Babalia Creole Arabic -}
+
+{-| Babalia Creole Arabic
+-}
 bbz : Language
 bbz =
     Language { code = "bbz" }
 
-{-| Central Bai -}
+
+{-| Central Bai
+-}
 bca : Language
 bca =
     Language { code = "bca" }
 
-{-| Bainouk-Samik -}
+
+{-| Bainouk-Samik
+-}
 bcb : Language
 bcb =
     Language { code = "bcb" }
 
-{-| Southern Balochi -}
+
+{-| Southern Balochi
+-}
 bcc : Language
 bcc =
     Language { code = "bcc" }
 
-{-| North Babar -}
+
+{-| North Babar
+-}
 bcd : Language
 bcd =
     Language { code = "bcd" }
 
-{-| Bamenyam -}
+
+{-| Bamenyam
+-}
 bce : Language
 bce =
     Language { code = "bce" }
 
-{-| Bamu -}
+
+{-| Bamu
+-}
 bcf : Language
 bcf =
     Language { code = "bcf" }
 
-{-| Baga Pokur -}
+
+{-| Baga Pokur
+-}
 bcg : Language
 bcg =
     Language { code = "bcg" }
 
-{-| Bariai -}
+
+{-| Bariai
+-}
 bch : Language
 bch =
     Language { code = "bch" }
 
-{-| Baoulé -}
+
+{-| Baoulé
+-}
 bci : Language
 bci =
     Language { code = "bci" }
 
-{-| Bardi -}
+
+{-| Bardi
+-}
 bcj : Language
 bcj =
     Language { code = "bcj" }
 
-{-| Bunuba -}
+
+{-| Bunuba
+-}
 bck : Language
 bck =
     Language { code = "bck" }
 
-{-| Central Bikol -}
+
+{-| Central Bikol
+-}
 bcl : Language
 bcl =
     Language { code = "bcl" }
 
-{-| Bannoni -}
+
+{-| Bannoni
+-}
 bcm : Language
 bcm =
     Language { code = "bcm" }
 
-{-| Bali (Nigeria) -}
+
+{-| Bali (Nigeria)
+-}
 bcn : Language
 bcn =
     Language { code = "bcn" }
 
-{-| Kaluli -}
+
+{-| Kaluli
+-}
 bco : Language
 bco =
     Language { code = "bco" }
 
-{-| Bali (Democratic Republic of Congo) -}
+
+{-| Bali (Democratic Republic of Congo)
+-}
 bcp : Language
 bcp =
     Language { code = "bcp" }
 
-{-| Bench -}
+
+{-| Bench
+-}
 bcq : Language
 bcq =
     Language { code = "bcq" }
 
-{-| Babine -}
+
+{-| Babine
+-}
 bcr : Language
 bcr =
     Language { code = "bcr" }
 
-{-| Kohumono -}
+
+{-| Kohumono
+-}
 bcs : Language
 bcs =
     Language { code = "bcs" }
 
-{-| Bendi -}
+
+{-| Bendi
+-}
 bct : Language
 bct =
     Language { code = "bct" }
 
-{-| Awad Bing -}
+
+{-| Awad Bing
+-}
 bcu : Language
 bcu =
     Language { code = "bcu" }
 
-{-| Shoo-Minda-Nye -}
+
+{-| Shoo-Minda-Nye
+-}
 bcv : Language
 bcv =
     Language { code = "bcv" }
 
-{-| Bana -}
+
+{-| Bana
+-}
 bcw : Language
 bcw =
     Language { code = "bcw" }
 
-{-| Bacama -}
+
+{-| Bacama
+-}
 bcy : Language
 bcy =
     Language { code = "bcy" }
 
-{-| Bainouk-Gunyaamolo -}
+
+{-| Bainouk-Gunyaamolo
+-}
 bcz : Language
 bcz =
     Language { code = "bcz" }
 
-{-| Bayot -}
+
+{-| Bayot
+-}
 bda : Language
 bda =
     Language { code = "bda" }
 
-{-| Basap -}
+
+{-| Basap
+-}
 bdb : Language
 bdb =
     Language { code = "bdb" }
 
-{-| Emberá-Baudó -}
+
+{-| Emberá-Baudó
+-}
 bdc : Language
 bdc =
     Language { code = "bdc" }
 
-{-| Bunama -}
+
+{-| Bunama
+-}
 bdd : Language
 bdd =
     Language { code = "bdd" }
 
-{-| Bade -}
+
+{-| Bade
+-}
 bde : Language
 bde =
     Language { code = "bde" }
 
-{-| Biage -}
+
+{-| Biage
+-}
 bdf : Language
 bdf =
     Language { code = "bdf" }
 
-{-| Bonggi -}
+
+{-| Bonggi
+-}
 bdg : Language
 bdg =
     Language { code = "bdg" }
 
-{-| Baka (South Sudan) -}
+
+{-| Baka (South Sudan)
+-}
 bdh : Language
 bdh =
     Language { code = "bdh" }
 
-{-| Burun -}
+
+{-| Burun
+-}
 bdi : Language
 bdi =
     Language { code = "bdi" }
 
+
 {-| Bai (South Sudan)
-Bai -}
+Bai
+-}
 bdj : Language
 bdj =
     Language { code = "bdj" }
 
-{-| Budukh -}
+
+{-| Budukh
+-}
 bdk : Language
 bdk =
     Language { code = "bdk" }
 
-{-| Indonesian Bajau -}
+
+{-| Indonesian Bajau
+-}
 bdl : Language
 bdl =
     Language { code = "bdl" }
 
-{-| Buduma -}
+
+{-| Buduma
+-}
 bdm : Language
 bdm =
     Language { code = "bdm" }
 
-{-| Baldemu -}
+
+{-| Baldemu
+-}
 bdn : Language
 bdn =
     Language { code = "bdn" }
 
-{-| Morom -}
+
+{-| Morom
+-}
 bdo : Language
 bdo =
     Language { code = "bdo" }
 
-{-| Bende -}
+
+{-| Bende
+-}
 bdp : Language
 bdp =
     Language { code = "bdp" }
 
-{-| Bahnar -}
+
+{-| Bahnar
+-}
 bdq : Language
 bdq =
     Language { code = "bdq" }
 
-{-| West Coast Bajau -}
+
+{-| West Coast Bajau
+-}
 bdr : Language
 bdr =
     Language { code = "bdr" }
 
-{-| Burunge -}
+
+{-| Burunge
+-}
 bds : Language
 bds =
     Language { code = "bds" }
 
-{-| Bokoto -}
+
+{-| Bokoto
+-}
 bdt : Language
 bdt =
     Language { code = "bdt" }
 
-{-| Oroko -}
+
+{-| Oroko
+-}
 bdu : Language
 bdu =
     Language { code = "bdu" }
 
-{-| Bodo Parja -}
+
+{-| Bodo Parja
+-}
 bdv : Language
 bdv =
     Language { code = "bdv" }
 
-{-| Baham -}
+
+{-| Baham
+-}
 bdw : Language
 bdw =
     Language { code = "bdw" }
 
-{-| Budong-Budong -}
+
+{-| Budong-Budong
+-}
 bdx : Language
 bdx =
     Language { code = "bdx" }
 
-{-| Bandjalang -}
+
+{-| Bandjalang
+-}
 bdy : Language
 bdy =
     Language { code = "bdy" }
 
-{-| Badeshi -}
+
+{-| Badeshi
+-}
 bdz : Language
 bdz =
     Language { code = "bdz" }
 
-{-| Belarusian -}
+
+{-| Belarusian
+-}
 be : Language
 be =
     Language { code = "be" }
 
-{-| Beaver -}
+
+{-| Beaver
+-}
 bea : Language
 bea =
     Language { code = "bea" }
 
-{-| Bebele -}
+
+{-| Bebele
+-}
 beb : Language
 beb =
     Language { code = "beb" }
 
-{-| Iceve-Maci -}
+
+{-| Iceve-Maci
+-}
 bec : Language
 bec =
     Language { code = "bec" }
 
-{-| Bedoanas -}
+
+{-| Bedoanas
+-}
 bed : Language
 bed =
     Language { code = "bed" }
 
-{-| Byangsi -}
+
+{-| Byangsi
+-}
 bee : Language
 bee =
     Language { code = "bee" }
 
-{-| Benabena -}
+
+{-| Benabena
+-}
 bef : Language
 bef =
     Language { code = "bef" }
 
-{-| Belait -}
+
+{-| Belait
+-}
 beg : Language
 beg =
     Language { code = "beg" }
 
-{-| Biali -}
+
+{-| Biali
+-}
 beh : Language
 beh =
     Language { code = "beh" }
 
-{-| Bekati' -}
+
+{-| Bekati'
+-}
 bei : Language
 bei =
     Language { code = "bei" }
 
+
 {-| Beja
-Bedawiyet -}
+Bedawiyet
+-}
 bej : Language
 bej =
     Language { code = "bej" }
 
-{-| Bebeli -}
+
+{-| Bebeli
+-}
 bek : Language
 bek =
     Language { code = "bek" }
 
-{-| Bemba (Zambia) -}
+
+{-| Bemba (Zambia)
+-}
 bem : Language
 bem =
     Language { code = "bem" }
 
-{-| Beami -}
+
+{-| Beami
+-}
 beo : Language
 beo =
     Language { code = "beo" }
 
-{-| Besoa -}
+
+{-| Besoa
+-}
 bep : Language
 bep =
     Language { code = "bep" }
 
-{-| Beembe -}
+
+{-| Beembe
+-}
 beq : Language
 beq =
     Language { code = "beq" }
 
-{-| Berber languages -}
+
+{-| Berber languages
+-}
 ber : Language
 ber =
     Language { code = "ber" }
 
-{-| Besme -}
+
+{-| Besme
+-}
 bes : Language
 bes =
     Language { code = "bes" }
 
-{-| Guiberoua Béte -}
+
+{-| Guiberoua Béte
+-}
 bet : Language
 bet =
     Language { code = "bet" }
 
-{-| Blagar -}
+
+{-| Blagar
+-}
 beu : Language
 beu =
     Language { code = "beu" }
 
-{-| Daloa Bété -}
+
+{-| Daloa Bété
+-}
 bev : Language
 bev =
     Language { code = "bev" }
 
-{-| Betawi -}
+
+{-| Betawi
+-}
 bew : Language
 bew =
     Language { code = "bew" }
 
-{-| Jur Modo -}
+
+{-| Jur Modo
+-}
 bex : Language
 bex =
     Language { code = "bex" }
 
-{-| Beli (Papua New Guinea) -}
+
+{-| Beli (Papua New Guinea)
+-}
 bey : Language
 bey =
     Language { code = "bey" }
 
-{-| Bena (Tanzania) -}
+
+{-| Bena (Tanzania)
+-}
 bez : Language
 bez =
     Language { code = "bez" }
 
-{-| Bari -}
+
+{-| Bari
+-}
 bfa : Language
 bfa =
     Language { code = "bfa" }
 
-{-| Pauri Bareli -}
+
+{-| Pauri Bareli
+-}
 bfb : Language
 bfb =
     Language { code = "bfb" }
 
+
 {-| Panyi Bai
-Northern Bai -}
+Northern Bai
+-}
 bfc : Language
 bfc =
     Language { code = "bfc" }
 
-{-| Bafut -}
+
+{-| Bafut
+-}
 bfd : Language
 bfd =
     Language { code = "bfd" }
 
+
 {-| Betaf
-Tena -}
+Tena
+-}
 bfe : Language
 bfe =
     Language { code = "bfe" }
 
-{-| Bofi -}
+
+{-| Bofi
+-}
 bff : Language
 bff =
     Language { code = "bff" }
 
-{-| Busang Kayan -}
+
+{-| Busang Kayan
+-}
 bfg : Language
 bfg =
     Language { code = "bfg" }
 
-{-| Blafe -}
+
+{-| Blafe
+-}
 bfh : Language
 bfh =
     Language { code = "bfh" }
 
-{-| British Sign Language -}
+
+{-| British Sign Language
+-}
 bfi : Language
 bfi =
     Language { code = "bfi" }
 
-{-| Bafanji -}
+
+{-| Bafanji
+-}
 bfj : Language
 bfj =
     Language { code = "bfj" }
 
-{-| Ban Khor Sign Language -}
+
+{-| Ban Khor Sign Language
+-}
 bfk : Language
 bfk =
     Language { code = "bfk" }
 
-{-| Banda-Ndélé -}
+
+{-| Banda-Ndélé
+-}
 bfl : Language
 bfl =
     Language { code = "bfl" }
 
-{-| Mmen -}
+
+{-| Mmen
+-}
 bfm : Language
 bfm =
     Language { code = "bfm" }
 
-{-| Bunak -}
+
+{-| Bunak
+-}
 bfn : Language
 bfn =
     Language { code = "bfn" }
 
-{-| Malba Birifor -}
+
+{-| Malba Birifor
+-}
 bfo : Language
 bfo =
     Language { code = "bfo" }
 
-{-| Beba -}
+
+{-| Beba
+-}
 bfp : Language
 bfp =
     Language { code = "bfp" }
 
-{-| Badaga -}
+
+{-| Badaga
+-}
 bfq : Language
 bfq =
     Language { code = "bfq" }
 
-{-| Bazigar -}
+
+{-| Bazigar
+-}
 bfr : Language
 bfr =
     Language { code = "bfr" }
 
-{-| Southern Bai -}
+
+{-| Southern Bai
+-}
 bfs : Language
 bfs =
     Language { code = "bfs" }
 
-{-| Balti -}
+
+{-| Balti
+-}
 bft : Language
 bft =
     Language { code = "bft" }
 
-{-| Gahri -}
+
+{-| Gahri
+-}
 bfu : Language
 bfu =
     Language { code = "bfu" }
 
-{-| Bondo -}
+
+{-| Bondo
+-}
 bfw : Language
 bfw =
     Language { code = "bfw" }
 
-{-| Bantayanon -}
+
+{-| Bantayanon
+-}
 bfx : Language
 bfx =
     Language { code = "bfx" }
 
-{-| Bagheli -}
+
+{-| Bagheli
+-}
 bfy : Language
 bfy =
     Language { code = "bfy" }
 
-{-| Mahasu Pahari -}
+
+{-| Mahasu Pahari
+-}
 bfz : Language
 bfz =
     Language { code = "bfz" }
 
-{-| Bulgarian -}
+
+{-| Bulgarian
+-}
 bg : Language
 bg =
     Language { code = "bg" }
 
-{-| Gwamhi-Wuri -}
+
+{-| Gwamhi-Wuri
+-}
 bga : Language
 bga =
     Language { code = "bga" }
 
-{-| Bobongko -}
+
+{-| Bobongko
+-}
 bgb : Language
 bgb =
     Language { code = "bgb" }
 
-{-| Haryanvi -}
+
+{-| Haryanvi
+-}
 bgc : Language
 bgc =
     Language { code = "bgc" }
 
-{-| Rathwi Bareli -}
+
+{-| Rathwi Bareli
+-}
 bgd : Language
 bgd =
     Language { code = "bgd" }
 
-{-| Bauria -}
+
+{-| Bauria
+-}
 bge : Language
 bge =
     Language { code = "bge" }
 
-{-| Bangandu -}
+
+{-| Bangandu
+-}
 bgf : Language
 bgf =
     Language { code = "bgf" }
 
-{-| Bugun -}
+
+{-| Bugun
+-}
 bgg : Language
 bgg =
     Language { code = "bgg" }
 
-{-| Giangan -}
+
+{-| Giangan
+-}
 bgi : Language
 bgi =
     Language { code = "bgi" }
 
-{-| Bangolan -}
+
+{-| Bangolan
+-}
 bgj : Language
 bgj =
     Language { code = "bgj" }
 
+
 {-| Bit
-Buxinhua -}
+Buxinhua
+-}
 bgk : Language
 bgk =
     Language { code = "bgk" }
 
-{-| Bo (Laos) -}
+
+{-| Bo (Laos)
+-}
 bgl : Language
 bgl =
     Language { code = "bgl" }
 
-{-| Baga Mboteni -}
+
+{-| Baga Mboteni
+-}
 bgm : Language
 bgm =
     Language { code = "bgm" }
 
-{-| Western Balochi -}
+
+{-| Western Balochi
+-}
 bgn : Language
 bgn =
     Language { code = "bgn" }
 
-{-| Baga Koga -}
+
+{-| Baga Koga
+-}
 bgo : Language
 bgo =
     Language { code = "bgo" }
 
-{-| Eastern Balochi -}
+
+{-| Eastern Balochi
+-}
 bgp : Language
 bgp =
     Language { code = "bgp" }
 
-{-| Bagri -}
+
+{-| Bagri
+-}
 bgq : Language
 bgq =
     Language { code = "bgq" }
 
-{-| Bawm Chin -}
+
+{-| Bawm Chin
+-}
 bgr : Language
 bgr =
     Language { code = "bgr" }
 
-{-| Tagabawa -}
+
+{-| Tagabawa
+-}
 bgs : Language
 bgs =
     Language { code = "bgs" }
 
-{-| Bughotu -}
+
+{-| Bughotu
+-}
 bgt : Language
 bgt =
     Language { code = "bgt" }
 
-{-| Mbongno -}
+
+{-| Mbongno
+-}
 bgu : Language
 bgu =
     Language { code = "bgu" }
 
-{-| Warkay-Bipim -}
+
+{-| Warkay-Bipim
+-}
 bgv : Language
 bgv =
     Language { code = "bgv" }
 
-{-| Bhatri -}
+
+{-| Bhatri
+-}
 bgw : Language
 bgw =
     Language { code = "bgw" }
 
-{-| Balkan Gagauz Turkish -}
+
+{-| Balkan Gagauz Turkish
+-}
 bgx : Language
 bgx =
     Language { code = "bgx" }
 
-{-| Benggoi -}
+
+{-| Benggoi
+-}
 bgy : Language
 bgy =
     Language { code = "bgy" }
 
-{-| Banggai -}
+
+{-| Banggai
+-}
 bgz : Language
 bgz =
     Language { code = "bgz" }
 
-{-| Bihari languages -}
+
+{-| Bihari languages
+-}
 bh : Language
 bh =
     Language { code = "bh" }
 
-{-| Bharia -}
+
+{-| Bharia
+-}
 bha : Language
 bha =
     Language { code = "bha" }
 
-{-| Bhili -}
+
+{-| Bhili
+-}
 bhb : Language
 bhb =
     Language { code = "bhb" }
 
-{-| Biga -}
+
+{-| Biga
+-}
 bhc : Language
 bhc =
     Language { code = "bhc" }
 
-{-| Bhadrawahi -}
+
+{-| Bhadrawahi
+-}
 bhd : Language
 bhd =
     Language { code = "bhd" }
 
-{-| Bhaya -}
+
+{-| Bhaya
+-}
 bhe : Language
 bhe =
     Language { code = "bhe" }
 
-{-| Odiai -}
+
+{-| Odiai
+-}
 bhf : Language
 bhf =
     Language { code = "bhf" }
 
-{-| Binandere -}
+
+{-| Binandere
+-}
 bhg : Language
 bhg =
     Language { code = "bhg" }
 
-{-| Bukharic -}
+
+{-| Bukharic
+-}
 bhh : Language
 bhh =
     Language { code = "bhh" }
 
-{-| Bhilali -}
+
+{-| Bhilali
+-}
 bhi : Language
 bhi =
     Language { code = "bhi" }
 
-{-| Bahing -}
+
+{-| Bahing
+-}
 bhj : Language
 bhj =
     Language { code = "bhj" }
 
-{-| Albay Bicolano -}
+
+{-| Albay Bicolano
+-}
 bhk : Language
 bhk =
     Language { code = "bhk" }
 
-{-| Bimin -}
+
+{-| Bimin
+-}
 bhl : Language
 bhl =
     Language { code = "bhl" }
 
-{-| Bathari -}
+
+{-| Bathari
+-}
 bhm : Language
 bhm =
     Language { code = "bhm" }
 
-{-| Bohtan Neo-Aramaic -}
+
+{-| Bohtan Neo-Aramaic
+-}
 bhn : Language
 bhn =
     Language { code = "bhn" }
 
-{-| Bhojpuri -}
+
+{-| Bhojpuri
+-}
 bho : Language
 bho =
     Language { code = "bho" }
 
-{-| Bima -}
+
+{-| Bima
+-}
 bhp : Language
 bhp =
     Language { code = "bhp" }
 
-{-| Tukang Besi South -}
+
+{-| Tukang Besi South
+-}
 bhq : Language
 bhq =
     Language { code = "bhq" }
 
-{-| Bara Malagasy -}
+
+{-| Bara Malagasy
+-}
 bhr : Language
 bhr =
     Language { code = "bhr" }
 
-{-| Buwal -}
+
+{-| Buwal
+-}
 bhs : Language
 bhs =
     Language { code = "bhs" }
 
-{-| Bhattiyali -}
+
+{-| Bhattiyali
+-}
 bht : Language
 bht =
     Language { code = "bht" }
 
-{-| Bhunjia -}
+
+{-| Bhunjia
+-}
 bhu : Language
 bhu =
     Language { code = "bhu" }
 
-{-| Bahau -}
+
+{-| Bahau
+-}
 bhv : Language
 bhv =
     Language { code = "bhv" }
 
-{-| Biak -}
+
+{-| Biak
+-}
 bhw : Language
 bhw =
     Language { code = "bhw" }
 
-{-| Bhalay -}
+
+{-| Bhalay
+-}
 bhx : Language
 bhx =
     Language { code = "bhx" }
 
-{-| Bhele -}
+
+{-| Bhele
+-}
 bhy : Language
 bhy =
     Language { code = "bhy" }
 
-{-| Bada (Indonesia) -}
+
+{-| Bada (Indonesia)
+-}
 bhz : Language
 bhz =
     Language { code = "bhz" }
 
-{-| Bislama -}
+
+{-| Bislama
+-}
 bi : Language
 bi =
     Language { code = "bi" }
 
-{-| Badimaya -}
+
+{-| Badimaya
+-}
 bia : Language
 bia =
     Language { code = "bia" }
 
+
 {-| Bissa
-Bisa -}
+Bisa
+-}
 bib : Language
 bib =
     Language { code = "bib" }
 
-{-| Bikaru -}
+
+{-| Bikaru
+-}
 bic : Language
 bic =
     Language { code = "bic" }
 
-{-| Bidiyo -}
+
+{-| Bidiyo
+-}
 bid : Language
 bid =
     Language { code = "bid" }
 
-{-| Bepour -}
+
+{-| Bepour
+-}
 bie : Language
 bie =
     Language { code = "bie" }
 
-{-| Biafada -}
+
+{-| Biafada
+-}
 bif : Language
 bif =
     Language { code = "bif" }
 
-{-| Biangai -}
+
+{-| Biangai
+-}
 big : Language
 big =
     Language { code = "big" }
 
-{-| Vaghat-Ya-Bijim-Legeri -}
+
+{-| Vaghat-Ya-Bijim-Legeri
+-}
 bij : Language
 bij =
     Language { code = "bij" }
 
-{-| Bikol -}
+
+{-| Bikol
+-}
 bik : Language
 bik =
     Language { code = "bik" }
 
-{-| Bile -}
+
+{-| Bile
+-}
 bil : Language
 bil =
     Language { code = "bil" }
 
-{-| Bimoba -}
+
+{-| Bimoba
+-}
 bim : Language
 bim =
     Language { code = "bim" }
 
+
 {-| Bini
-Edo -}
+Edo
+-}
 bin : Language
 bin =
     Language { code = "bin" }
 
-{-| Nai -}
+
+{-| Nai
+-}
 bio : Language
 bio =
     Language { code = "bio" }
 
-{-| Bila -}
+
+{-| Bila
+-}
 bip : Language
 bip =
     Language { code = "bip" }
 
-{-| Bipi -}
+
+{-| Bipi
+-}
 biq : Language
 biq =
     Language { code = "biq" }
 
-{-| Bisorio -}
+
+{-| Bisorio
+-}
 bir : Language
 bir =
     Language { code = "bir" }
 
-{-| Berinomo -}
+
+{-| Berinomo
+-}
 bit : Language
 bit =
     Language { code = "bit" }
 
-{-| Biete -}
+
+{-| Biete
+-}
 biu : Language
 biu =
     Language { code = "biu" }
 
-{-| Southern Birifor -}
+
+{-| Southern Birifor
+-}
 biv : Language
 biv =
     Language { code = "biv" }
 
-{-| Kol (Cameroon) -}
+
+{-| Kol (Cameroon)
+-}
 biw : Language
 biw =
     Language { code = "biw" }
 
-{-| Bijori -}
+
+{-| Bijori
+-}
 bix : Language
 bix =
     Language { code = "bix" }
 
-{-| Birhor -}
+
+{-| Birhor
+-}
 biy : Language
 biy =
     Language { code = "biy" }
 
-{-| Baloi -}
+
+{-| Baloi
+-}
 biz : Language
 biz =
     Language { code = "biz" }
 
-{-| Budza -}
+
+{-| Budza
+-}
 bja : Language
 bja =
     Language { code = "bja" }
 
-{-| Banggarla -}
+
+{-| Banggarla
+-}
 bjb : Language
 bjb =
     Language { code = "bjb" }
 
-{-| Bariji -}
+
+{-| Bariji
+-}
 bjc : Language
 bjc =
     Language { code = "bjc" }
 
-{-| Bandjigali -}
+
+{-| Bandjigali
+-}
 bjd : Language
 bjd =
     Language { code = "bjd" }
 
-{-| Biao-Jiao Mien -}
+
+{-| Biao-Jiao Mien
+-}
 bje : Language
 bje =
     Language { code = "bje" }
 
-{-| Barzani Jewish Neo-Aramaic -}
+
+{-| Barzani Jewish Neo-Aramaic
+-}
 bjf : Language
 bjf =
     Language { code = "bjf" }
 
-{-| Bidyogo -}
+
+{-| Bidyogo
+-}
 bjg : Language
 bjg =
     Language { code = "bjg" }
 
-{-| Bahinemo -}
+
+{-| Bahinemo
+-}
 bjh : Language
 bjh =
     Language { code = "bjh" }
 
-{-| Burji -}
+
+{-| Burji
+-}
 bji : Language
 bji =
     Language { code = "bji" }
 
-{-| Kanauji -}
+
+{-| Kanauji
+-}
 bjj : Language
 bjj =
     Language { code = "bjj" }
 
-{-| Barok -}
+
+{-| Barok
+-}
 bjk : Language
 bjk =
     Language { code = "bjk" }
 
-{-| Bulu (Papua New Guinea) -}
+
+{-| Bulu (Papua New Guinea)
+-}
 bjl : Language
 bjl =
     Language { code = "bjl" }
 
-{-| Bajelani -}
+
+{-| Bajelani
+-}
 bjm : Language
 bjm =
     Language { code = "bjm" }
 
-{-| Banjar -}
+
+{-| Banjar
+-}
 bjn : Language
 bjn =
     Language { code = "bjn" }
 
-{-| Mid-Southern Banda -}
+
+{-| Mid-Southern Banda
+-}
 bjo : Language
 bjo =
     Language { code = "bjo" }
 
-{-| Fanamaket -}
+
+{-| Fanamaket
+-}
 bjp : Language
 bjp =
     Language { code = "bjp" }
 
-{-| Southern Betsimisaraka Malagasy -}
+
+{-| Southern Betsimisaraka Malagasy
+-}
 bjq : Language
 bjq =
     Language { code = "bjq" }
 
-{-| Binumarien -}
+
+{-| Binumarien
+-}
 bjr : Language
 bjr =
     Language { code = "bjr" }
 
-{-| Bajan -}
+
+{-| Bajan
+-}
 bjs : Language
 bjs =
     Language { code = "bjs" }
 
-{-| Balanta-Ganja -}
+
+{-| Balanta-Ganja
+-}
 bjt : Language
 bjt =
     Language { code = "bjt" }
 
-{-| Busuu -}
+
+{-| Busuu
+-}
 bju : Language
 bju =
     Language { code = "bju" }
 
-{-| Bedjond -}
+
+{-| Bedjond
+-}
 bjv : Language
 bjv =
     Language { code = "bjv" }
 
-{-| Bakwé -}
+
+{-| Bakwé
+-}
 bjw : Language
 bjw =
     Language { code = "bjw" }
 
-{-| Banao Itneg -}
+
+{-| Banao Itneg
+-}
 bjx : Language
 bjx =
     Language { code = "bjx" }
 
-{-| Bayali -}
+
+{-| Bayali
+-}
 bjy : Language
 bjy =
     Language { code = "bjy" }
 
-{-| Baruga -}
+
+{-| Baruga
+-}
 bjz : Language
 bjz =
     Language { code = "bjz" }
 
-{-| Kyak -}
+
+{-| Kyak
+-}
 bka : Language
 bka =
     Language { code = "bka" }
 
-{-| Finallig -}
+
+{-| Finallig
+-}
 bkb : Language
 bkb =
     Language { code = "bkb" }
 
-{-| Baka (Cameroon) -}
+
+{-| Baka (Cameroon)
+-}
 bkc : Language
 bkc =
     Language { code = "bkc" }
 
+
 {-| Binukid
-Talaandig -}
+Talaandig
+-}
 bkd : Language
 bkd =
     Language { code = "bkd" }
 
-{-| Beeke -}
+
+{-| Beeke
+-}
 bkf : Language
 bkf =
     Language { code = "bkf" }
 
-{-| Buraka -}
+
+{-| Buraka
+-}
 bkg : Language
 bkg =
     Language { code = "bkg" }
 
-{-| Bakoko -}
+
+{-| Bakoko
+-}
 bkh : Language
 bkh =
     Language { code = "bkh" }
 
-{-| Baki -}
+
+{-| Baki
+-}
 bki : Language
 bki =
     Language { code = "bki" }
 
-{-| Pande -}
+
+{-| Pande
+-}
 bkj : Language
 bkj =
     Language { code = "bkj" }
 
-{-| Brokskat -}
+
+{-| Brokskat
+-}
 bkk : Language
 bkk =
     Language { code = "bkk" }
 
-{-| Berik -}
+
+{-| Berik
+-}
 bkl : Language
 bkl =
     Language { code = "bkl" }
 
-{-| Kom (Cameroon) -}
+
+{-| Kom (Cameroon)
+-}
 bkm : Language
 bkm =
     Language { code = "bkm" }
 
-{-| Bukitan -}
+
+{-| Bukitan
+-}
 bkn : Language
 bkn =
     Language { code = "bkn" }
 
-{-| Kwa' -}
+
+{-| Kwa'
+-}
 bko : Language
 bko =
     Language { code = "bko" }
 
-{-| Boko (Democratic Republic of Congo) -}
+
+{-| Boko (Democratic Republic of Congo)
+-}
 bkp : Language
 bkp =
     Language { code = "bkp" }
 
-{-| Bakairí -}
+
+{-| Bakairí
+-}
 bkq : Language
 bkq =
     Language { code = "bkq" }
 
-{-| Bakumpai -}
+
+{-| Bakumpai
+-}
 bkr : Language
 bkr =
     Language { code = "bkr" }
 
-{-| Northern Sorsoganon -}
+
+{-| Northern Sorsoganon
+-}
 bks : Language
 bks =
     Language { code = "bks" }
 
-{-| Boloki -}
+
+{-| Boloki
+-}
 bkt : Language
 bkt =
     Language { code = "bkt" }
 
-{-| Buhid -}
+
+{-| Buhid
+-}
 bku : Language
 bku =
     Language { code = "bku" }
 
-{-| Bekwarra -}
+
+{-| Bekwarra
+-}
 bkv : Language
 bkv =
     Language { code = "bkv" }
 
-{-| Bekwel -}
+
+{-| Bekwel
+-}
 bkw : Language
 bkw =
     Language { code = "bkw" }
 
-{-| Baikeno -}
+
+{-| Baikeno
+-}
 bkx : Language
 bkx =
     Language { code = "bkx" }
 
-{-| Bokyi -}
+
+{-| Bokyi
+-}
 bky : Language
 bky =
     Language { code = "bky" }
 
-{-| Bungku -}
+
+{-| Bungku
+-}
 bkz : Language
 bkz =
     Language { code = "bkz" }
 
-{-| Siksika -}
+
+{-| Siksika
+-}
 bla : Language
 bla =
     Language { code = "bla" }
 
-{-| Bilua -}
+
+{-| Bilua
+-}
 blb : Language
 blb =
     Language { code = "blb" }
 
-{-| Bella Coola -}
+
+{-| Bella Coola
+-}
 blc : Language
 blc =
     Language { code = "blc" }
 
-{-| Bolango -}
+
+{-| Bolango
+-}
 bld : Language
 bld =
     Language { code = "bld" }
 
-{-| Balanta-Kentohe -}
+
+{-| Balanta-Kentohe
+-}
 ble : Language
 ble =
     Language { code = "ble" }
 
-{-| Buol -}
+
+{-| Buol
+-}
 blf : Language
 blf =
     Language { code = "blf" }
 
-{-| Balau -}
+
+{-| Balau
+-}
 blg : Language
 blg =
     Language { code = "blg" }
 
-{-| Kuwaa -}
+
+{-| Kuwaa
+-}
 blh : Language
 blh =
     Language { code = "blh" }
 
-{-| Bolia -}
+
+{-| Bolia
+-}
 bli : Language
 bli =
     Language { code = "bli" }
 
-{-| Bolongan -}
+
+{-| Bolongan
+-}
 blj : Language
 blj =
     Language { code = "blj" }
 
+
 {-| Pa'o Karen
-Pa'O -}
+Pa'O
+-}
 blk : Language
 blk =
     Language { code = "blk" }
 
-{-| Biloxi -}
+
+{-| Biloxi
+-}
 bll : Language
 bll =
     Language { code = "bll" }
 
-{-| Beli (South Sudan) -}
+
+{-| Beli (South Sudan)
+-}
 blm : Language
 blm =
     Language { code = "blm" }
 
-{-| Southern Catanduanes Bikol -}
+
+{-| Southern Catanduanes Bikol
+-}
 bln : Language
 bln =
     Language { code = "bln" }
 
-{-| Anii -}
+
+{-| Anii
+-}
 blo : Language
 blo =
     Language { code = "blo" }
 
-{-| Blablanga -}
+
+{-| Blablanga
+-}
 blp : Language
 blp =
     Language { code = "blp" }
 
-{-| Baluan-Pam -}
+
+{-| Baluan-Pam
+-}
 blq : Language
 blq =
     Language { code = "blq" }
 
-{-| Blang -}
+
+{-| Blang
+-}
 blr : Language
 blr =
     Language { code = "blr" }
 
-{-| Balaesang -}
+
+{-| Balaesang
+-}
 bls : Language
 bls =
     Language { code = "bls" }
 
-{-| Tai Dam -}
+
+{-| Tai Dam
+-}
 blt : Language
 blt =
     Language { code = "blt" }
 
+
 {-| Kibala
-Bolo -}
+Bolo
+-}
 blv : Language
 blv =
     Language { code = "blv" }
 
-{-| Balangao -}
+
+{-| Balangao
+-}
 blw : Language
 blw =
     Language { code = "blw" }
 
-{-| Mag-Indi Ayta -}
+
+{-| Mag-Indi Ayta
+-}
 blx : Language
 blx =
     Language { code = "blx" }
 
-{-| Notre -}
+
+{-| Notre
+-}
 bly : Language
 bly =
     Language { code = "bly" }
 
-{-| Balantak -}
+
+{-| Balantak
+-}
 blz : Language
 blz =
     Language { code = "blz" }
 
-{-| Bambara -}
+
+{-| Bambara
+-}
 bm : Language
 bm =
     Language { code = "bm" }
 
-{-| Lame -}
+
+{-| Lame
+-}
 bma : Language
 bma =
     Language { code = "bma" }
 
-{-| Bembe -}
+
+{-| Bembe
+-}
 bmb : Language
 bmb =
     Language { code = "bmb" }
 
-{-| Biem -}
+
+{-| Biem
+-}
 bmc : Language
 bmc =
     Language { code = "bmc" }
 
-{-| Baga Manduri -}
+
+{-| Baga Manduri
+-}
 bmd : Language
 bmd =
     Language { code = "bmd" }
 
-{-| Limassa -}
+
+{-| Limassa
+-}
 bme : Language
 bme =
     Language { code = "bme" }
 
-{-| Bom-Kim -}
+
+{-| Bom-Kim
+-}
 bmf : Language
 bmf =
     Language { code = "bmf" }
 
-{-| Bamwe -}
+
+{-| Bamwe
+-}
 bmg : Language
 bmg =
     Language { code = "bmg" }
 
-{-| Kein -}
+
+{-| Kein
+-}
 bmh : Language
 bmh =
     Language { code = "bmh" }
 
-{-| Bagirmi -}
+
+{-| Bagirmi
+-}
 bmi : Language
 bmi =
     Language { code = "bmi" }
 
-{-| Bote-Majhi -}
+
+{-| Bote-Majhi
+-}
 bmj : Language
 bmj =
     Language { code = "bmj" }
 
-{-| Ghayavi -}
+
+{-| Ghayavi
+-}
 bmk : Language
 bmk =
     Language { code = "bmk" }
 
-{-| Bomboli -}
+
+{-| Bomboli
+-}
 bml : Language
 bml =
     Language { code = "bml" }
 
-{-| Northern Betsimisaraka Malagasy -}
+
+{-| Northern Betsimisaraka Malagasy
+-}
 bmm : Language
 bmm =
     Language { code = "bmm" }
 
-{-| Bina (Papua New Guinea) -}
+
+{-| Bina (Papua New Guinea)
+-}
 bmn : Language
 bmn =
     Language { code = "bmn" }
 
-{-| Bambalang -}
+
+{-| Bambalang
+-}
 bmo : Language
 bmo =
     Language { code = "bmo" }
 
-{-| Bulgebi -}
+
+{-| Bulgebi
+-}
 bmp : Language
 bmp =
     Language { code = "bmp" }
 
-{-| Bomu -}
+
+{-| Bomu
+-}
 bmq : Language
 bmq =
     Language { code = "bmq" }
 
-{-| Muinane -}
+
+{-| Muinane
+-}
 bmr : Language
 bmr =
     Language { code = "bmr" }
 
-{-| Bilma Kanuri -}
+
+{-| Bilma Kanuri
+-}
 bms : Language
 bms =
     Language { code = "bms" }
 
-{-| Biao Mon -}
+
+{-| Biao Mon
+-}
 bmt : Language
 bmt =
     Language { code = "bmt" }
 
-{-| Somba-Siawari -}
+
+{-| Somba-Siawari
+-}
 bmu : Language
 bmu =
     Language { code = "bmu" }
 
-{-| Bum -}
+
+{-| Bum
+-}
 bmv : Language
 bmv =
     Language { code = "bmv" }
 
-{-| Bomwali -}
+
+{-| Bomwali
+-}
 bmw : Language
 bmw =
     Language { code = "bmw" }
 
-{-| Baimak -}
+
+{-| Baimak
+-}
 bmx : Language
 bmx =
     Language { code = "bmx" }
 
-{-| Bemba (Democratic Republic of Congo) -}
+
+{-| Bemba (Democratic Republic of Congo)
+-}
 bmy : Language
 bmy =
     Language { code = "bmy" }
 
-{-| Baramu -}
+
+{-| Baramu
+-}
 bmz : Language
 bmz =
     Language { code = "bmz" }
 
+
 {-| Bengali
-Bangla -}
+Bangla
+-}
 bn : Language
 bn =
     Language { code = "bn" }
 
-{-| Bonerate -}
+
+{-| Bonerate
+-}
 bna : Language
 bna =
     Language { code = "bna" }
 
-{-| Bookan -}
+
+{-| Bookan
+-}
 bnb : Language
 bnb =
     Language { code = "bnb" }
 
-{-| Bontok -}
+
+{-| Bontok
+-}
 bnc : Language
 bnc =
     Language { code = "bnc" }
 
-{-| Banda (Indonesia) -}
+
+{-| Banda (Indonesia)
+-}
 bnd : Language
 bnd =
     Language { code = "bnd" }
 
-{-| Bintauna -}
+
+{-| Bintauna
+-}
 bne : Language
 bne =
     Language { code = "bne" }
 
-{-| Masiwang -}
+
+{-| Masiwang
+-}
 bnf : Language
 bnf =
     Language { code = "bnf" }
 
-{-| Benga -}
+
+{-| Benga
+-}
 bng : Language
 bng =
     Language { code = "bng" }
 
-{-| Bangi -}
+
+{-| Bangi
+-}
 bni : Language
 bni =
     Language { code = "bni" }
 
-{-| Eastern Tawbuid -}
+
+{-| Eastern Tawbuid
+-}
 bnj : Language
 bnj =
     Language { code = "bnj" }
 
-{-| Bierebo -}
+
+{-| Bierebo
+-}
 bnk : Language
 bnk =
     Language { code = "bnk" }
 
-{-| Boon -}
+
+{-| Boon
+-}
 bnl : Language
 bnl =
     Language { code = "bnl" }
 
-{-| Batanga -}
+
+{-| Batanga
+-}
 bnm : Language
 bnm =
     Language { code = "bnm" }
 
-{-| Bunun -}
+
+{-| Bunun
+-}
 bnn : Language
 bnn =
     Language { code = "bnn" }
 
-{-| Bantoanon -}
+
+{-| Bantoanon
+-}
 bno : Language
 bno =
     Language { code = "bno" }
 
-{-| Bola -}
+
+{-| Bola
+-}
 bnp : Language
 bnp =
     Language { code = "bnp" }
 
-{-| Bantik -}
+
+{-| Bantik
+-}
 bnq : Language
 bnq =
     Language { code = "bnq" }
 
-{-| Butmas-Tur -}
+
+{-| Butmas-Tur
+-}
 bnr : Language
 bnr =
     Language { code = "bnr" }
 
-{-| Bundeli -}
+
+{-| Bundeli
+-}
 bns : Language
 bns =
     Language { code = "bns" }
 
-{-| Bantu languages -}
+
+{-| Bantu languages
+-}
 bnt : Language
 bnt =
     Language { code = "bnt" }
 
-{-| Bentong -}
+
+{-| Bentong
+-}
 bnu : Language
 bnu =
     Language { code = "bnu" }
 
+
 {-| Bonerif
 Beneraf
-Edwas -}
+Edwas
+-}
 bnv : Language
 bnv =
     Language { code = "bnv" }
 
-{-| Bisis -}
+
+{-| Bisis
+-}
 bnw : Language
 bnw =
     Language { code = "bnw" }
 
-{-| Bangubangu -}
+
+{-| Bangubangu
+-}
 bnx : Language
 bnx =
     Language { code = "bnx" }
 
-{-| Bintulu -}
+
+{-| Bintulu
+-}
 bny : Language
 bny =
     Language { code = "bny" }
 
-{-| Beezen -}
+
+{-| Beezen
+-}
 bnz : Language
 bnz =
     Language { code = "bnz" }
 
-{-| Tibetan -}
+
+{-| Tibetan
+-}
 bo : Language
 bo =
     Language { code = "bo" }
 
-{-| Bora -}
+
+{-| Bora
+-}
 boa : Language
 boa =
     Language { code = "boa" }
 
-{-| Aweer -}
+
+{-| Aweer
+-}
 bob : Language
 bob =
     Language { code = "bob" }
 
-{-| Mundabli -}
+
+{-| Mundabli
+-}
 boe : Language
 boe =
     Language { code = "boe" }
 
-{-| Bolon -}
+
+{-| Bolon
+-}
 bof : Language
 bof =
     Language { code = "bof" }
 
-{-| Bamako Sign Language -}
+
+{-| Bamako Sign Language
+-}
 bog : Language
 bog =
     Language { code = "bog" }
 
-{-| Boma -}
+
+{-| Boma
+-}
 boh : Language
 boh =
     Language { code = "boh" }
 
-{-| Barbareño -}
+
+{-| Barbareño
+-}
 boi : Language
 boi =
     Language { code = "boi" }
 
-{-| Anjam -}
+
+{-| Anjam
+-}
 boj : Language
 boj =
     Language { code = "boj" }
 
-{-| Bonjo -}
+
+{-| Bonjo
+-}
 bok : Language
 bok =
     Language { code = "bok" }
 
-{-| Bole -}
+
+{-| Bole
+-}
 bol : Language
 bol =
     Language { code = "bol" }
 
-{-| Berom -}
+
+{-| Berom
+-}
 bom : Language
 bom =
     Language { code = "bom" }
 
-{-| Bine -}
+
+{-| Bine
+-}
 bon : Language
 bon =
     Language { code = "bon" }
 
-{-| Tiemacèwè Bozo -}
+
+{-| Tiemacèwè Bozo
+-}
 boo : Language
 boo =
     Language { code = "boo" }
 
-{-| Bonkiman -}
+
+{-| Bonkiman
+-}
 bop : Language
 bop =
     Language { code = "bop" }
 
-{-| Bogaya -}
+
+{-| Bogaya
+-}
 boq : Language
 boq =
     Language { code = "boq" }
 
-{-| Borôro -}
+
+{-| Borôro
+-}
 bor : Language
 bor =
     Language { code = "bor" }
 
-{-| Bongo -}
+
+{-| Bongo
+-}
 bot : Language
 bot =
     Language { code = "bot" }
 
-{-| Bondei -}
+
+{-| Bondei
+-}
 bou : Language
 bou =
     Language { code = "bou" }
 
-{-| Tuwuli -}
+
+{-| Tuwuli
+-}
 bov : Language
 bov =
     Language { code = "bov" }
 
-{-| Rema -}
+
+{-| Rema
+-}
 bow : Language
 bow =
     Language { code = "bow" }
 
-{-| Buamu -}
+
+{-| Buamu
+-}
 box : Language
 box =
     Language { code = "box" }
 
-{-| Bodo (Central African Republic) -}
+
+{-| Bodo (Central African Republic)
+-}
 boy : Language
 boy =
     Language { code = "boy" }
 
-{-| Tiéyaxo Bozo -}
+
+{-| Tiéyaxo Bozo
+-}
 boz : Language
 boz =
     Language { code = "boz" }
 
-{-| Daakaka -}
+
+{-| Daakaka
+-}
 bpa : Language
 bpa =
     Language { code = "bpa" }
 
-{-| Barbacoas -}
+
+{-| Barbacoas
+-}
 bpb : Language
 bpb =
     Language { code = "bpb" }
 
-{-| Banda-Banda -}
+
+{-| Banda-Banda
+-}
 bpd : Language
 bpd =
     Language { code = "bpd" }
 
-{-| Bonggo -}
+
+{-| Bonggo
+-}
 bpg : Language
 bpg =
     Language { code = "bpg" }
 
-{-| Botlikh -}
+
+{-| Botlikh
+-}
 bph : Language
 bph =
     Language { code = "bph" }
 
-{-| Bagupi -}
+
+{-| Bagupi
+-}
 bpi : Language
 bpi =
     Language { code = "bpi" }
 
-{-| Binji -}
+
+{-| Binji
+-}
 bpj : Language
 bpj =
     Language { code = "bpj" }
 
+
 {-| Orowe
-'Ôrôê -}
+'Ôrôê
+-}
 bpk : Language
 bpk =
     Language { code = "bpk" }
 
-{-| Broome Pearling Lugger Pidgin -}
+
+{-| Broome Pearling Lugger Pidgin
+-}
 bpl : Language
 bpl =
     Language { code = "bpl" }
 
-{-| Biyom -}
+
+{-| Biyom
+-}
 bpm : Language
 bpm =
     Language { code = "bpm" }
 
-{-| Dzao Min -}
+
+{-| Dzao Min
+-}
 bpn : Language
 bpn =
     Language { code = "bpn" }
 
-{-| Anasi -}
+
+{-| Anasi
+-}
 bpo : Language
 bpo =
     Language { code = "bpo" }
 
-{-| Kaure -}
+
+{-| Kaure
+-}
 bpp : Language
 bpp =
     Language { code = "bpp" }
 
-{-| Banda Malay -}
+
+{-| Banda Malay
+-}
 bpq : Language
 bpq =
     Language { code = "bpq" }
 
-{-| Koronadal Blaan -}
+
+{-| Koronadal Blaan
+-}
 bpr : Language
 bpr =
     Language { code = "bpr" }
 
-{-| Sarangani Blaan -}
+
+{-| Sarangani Blaan
+-}
 bps : Language
 bps =
     Language { code = "bps" }
 
-{-| Barrow Point -}
+
+{-| Barrow Point
+-}
 bpt : Language
 bpt =
     Language { code = "bpt" }
 
-{-| Bongu -}
+
+{-| Bongu
+-}
 bpu : Language
 bpu =
     Language { code = "bpu" }
 
-{-| Bian Marind -}
+
+{-| Bian Marind
+-}
 bpv : Language
 bpv =
     Language { code = "bpv" }
 
-{-| Bo (Papua New Guinea) -}
+
+{-| Bo (Papua New Guinea)
+-}
 bpw : Language
 bpw =
     Language { code = "bpw" }
 
-{-| Palya Bareli -}
+
+{-| Palya Bareli
+-}
 bpx : Language
 bpx =
     Language { code = "bpx" }
 
-{-| Bishnupriya -}
+
+{-| Bishnupriya
+-}
 bpy : Language
 bpy =
     Language { code = "bpy" }
 
-{-| Bilba -}
+
+{-| Bilba
+-}
 bpz : Language
 bpz =
     Language { code = "bpz" }
 
-{-| Tchumbuli -}
+
+{-| Tchumbuli
+-}
 bqa : Language
 bqa =
     Language { code = "bqa" }
 
-{-| Bagusa -}
+
+{-| Bagusa
+-}
 bqb : Language
 bqb =
     Language { code = "bqb" }
 
+
 {-| Boko (Benin)
-Boo -}
+Boo
+-}
 bqc : Language
 bqc =
     Language { code = "bqc" }
 
-{-| Bung -}
+
+{-| Bung
+-}
 bqd : Language
 bqd =
     Language { code = "bqd" }
 
-{-| Baga Kaloum -}
+
+{-| Baga Kaloum
+-}
 bqf : Language
 bqf =
     Language { code = "bqf" }
 
-{-| Bago-Kusuntu -}
+
+{-| Bago-Kusuntu
+-}
 bqg : Language
 bqg =
     Language { code = "bqg" }
 
-{-| Baima -}
+
+{-| Baima
+-}
 bqh : Language
 bqh =
     Language { code = "bqh" }
 
-{-| Bakhtiari -}
+
+{-| Bakhtiari
+-}
 bqi : Language
 bqi =
     Language { code = "bqi" }
 
-{-| Bandial -}
+
+{-| Bandial
+-}
 bqj : Language
 bqj =
     Language { code = "bqj" }
 
-{-| Banda-Mbrès -}
+
+{-| Banda-Mbrès
+-}
 bqk : Language
 bqk =
     Language { code = "bqk" }
 
-{-| Bilakura -}
+
+{-| Bilakura
+-}
 bql : Language
 bql =
     Language { code = "bql" }
 
-{-| Wumboko -}
+
+{-| Wumboko
+-}
 bqm : Language
 bqm =
     Language { code = "bqm" }
 
-{-| Bulgarian Sign Language -}
+
+{-| Bulgarian Sign Language
+-}
 bqn : Language
 bqn =
     Language { code = "bqn" }
 
-{-| Balo -}
+
+{-| Balo
+-}
 bqo : Language
 bqo =
     Language { code = "bqo" }
 
-{-| Busa -}
+
+{-| Busa
+-}
 bqp : Language
 bqp =
     Language { code = "bqp" }
 
-{-| Biritai -}
+
+{-| Biritai
+-}
 bqq : Language
 bqq =
     Language { code = "bqq" }
 
-{-| Burusu -}
+
+{-| Burusu
+-}
 bqr : Language
 bqr =
     Language { code = "bqr" }
 
-{-| Bosngun -}
+
+{-| Bosngun
+-}
 bqs : Language
 bqs =
     Language { code = "bqs" }
 
-{-| Bamukumbit -}
+
+{-| Bamukumbit
+-}
 bqt : Language
 bqt =
     Language { code = "bqt" }
 
-{-| Boguru -}
+
+{-| Boguru
+-}
 bqu : Language
 bqu =
     Language { code = "bqu" }
 
+
 {-| Koro Wachi
-Begbere-Ejar -}
+Begbere-Ejar
+-}
 bqv : Language
 bqv =
     Language { code = "bqv" }
 
-{-| Buru (Nigeria) -}
+
+{-| Buru (Nigeria)
+-}
 bqw : Language
 bqw =
     Language { code = "bqw" }
 
-{-| Baangi -}
+
+{-| Baangi
+-}
 bqx : Language
 bqx =
     Language { code = "bqx" }
 
-{-| Bengkala Sign Language -}
+
+{-| Bengkala Sign Language
+-}
 bqy : Language
 bqy =
     Language { code = "bqy" }
 
-{-| Bakaka -}
+
+{-| Bakaka
+-}
 bqz : Language
 bqz =
     Language { code = "bqz" }
 
-{-| Breton -}
+
+{-| Breton
+-}
 br : Language
 br =
     Language { code = "br" }
 
-{-| Braj -}
+
+{-| Braj
+-}
 bra : Language
 bra =
     Language { code = "bra" }
 
-{-| Lave -}
+
+{-| Lave
+-}
 brb : Language
 brb =
     Language { code = "brb" }
 
-{-| Berbice Creole Dutch -}
+
+{-| Berbice Creole Dutch
+-}
 brc : Language
 brc =
     Language { code = "brc" }
 
-{-| Baraamu -}
+
+{-| Baraamu
+-}
 brd : Language
 brd =
     Language { code = "brd" }
 
-{-| Bira -}
+
+{-| Bira
+-}
 brf : Language
 brf =
     Language { code = "brf" }
 
-{-| Baure -}
+
+{-| Baure
+-}
 brg : Language
 brg =
     Language { code = "brg" }
 
-{-| Brahui -}
+
+{-| Brahui
+-}
 brh : Language
 brh =
     Language { code = "brh" }
 
-{-| Mokpwe -}
+
+{-| Mokpwe
+-}
 bri : Language
 bri =
     Language { code = "bri" }
 
-{-| Bieria -}
+
+{-| Bieria
+-}
 brj : Language
 brj =
     Language { code = "brj" }
 
-{-| Birked -}
+
+{-| Birked
+-}
 brk : Language
 brk =
     Language { code = "brk" }
 
-{-| Birwa -}
+
+{-| Birwa
+-}
 brl : Language
 brl =
     Language { code = "brl" }
 
-{-| Barambu -}
+
+{-| Barambu
+-}
 brm : Language
 brm =
     Language { code = "brm" }
 
-{-| Boruca -}
+
+{-| Boruca
+-}
 brn : Language
 brn =
     Language { code = "brn" }
 
-{-| Brokkat -}
+
+{-| Brokkat
+-}
 bro : Language
 bro =
     Language { code = "bro" }
 
-{-| Barapasi -}
+
+{-| Barapasi
+-}
 brp : Language
 brp =
     Language { code = "brp" }
 
-{-| Breri -}
+
+{-| Breri
+-}
 brq : Language
 brq =
     Language { code = "brq" }
 
-{-| Birao -}
+
+{-| Birao
+-}
 brr : Language
 brr =
     Language { code = "brr" }
 
-{-| Baras -}
+
+{-| Baras
+-}
 brs : Language
 brs =
     Language { code = "brs" }
 
-{-| Bitare -}
+
+{-| Bitare
+-}
 brt : Language
 brt =
     Language { code = "brt" }
 
-{-| Eastern Bru -}
+
+{-| Eastern Bru
+-}
 bru : Language
 bru =
     Language { code = "bru" }
 
-{-| Western Bru -}
+
+{-| Western Bru
+-}
 brv : Language
 brv =
     Language { code = "brv" }
 
-{-| Bellari -}
+
+{-| Bellari
+-}
 brw : Language
 brw =
     Language { code = "brw" }
 
-{-| Bodo (India) -}
+
+{-| Bodo (India)
+-}
 brx : Language
 brx =
     Language { code = "brx" }
 
-{-| Burui -}
+
+{-| Burui
+-}
 bry : Language
 bry =
     Language { code = "bry" }
 
-{-| Bilbil -}
+
+{-| Bilbil
+-}
 brz : Language
 brz =
     Language { code = "brz" }
 
-{-| Bosnian -}
+
+{-| Bosnian
+-}
 bs : Language
 bs =
     Language { code = "bs" }
 
-{-| Abinomn -}
+
+{-| Abinomn
+-}
 bsa : Language
 bsa =
     Language { code = "bsa" }
 
-{-| Brunei Bisaya -}
+
+{-| Brunei Bisaya
+-}
 bsb : Language
 bsb =
     Language { code = "bsb" }
 
+
 {-| Bassari
-Oniyan -}
+Oniyan
+-}
 bsc : Language
 bsc =
     Language { code = "bsc" }
 
-{-| Wushi -}
+
+{-| Wushi
+-}
 bse : Language
 bse =
     Language { code = "bse" }
 
-{-| Bauchi -}
+
+{-| Bauchi
+-}
 bsf : Language
 bsf =
     Language { code = "bsf" }
 
-{-| Bashkardi -}
+
+{-| Bashkardi
+-}
 bsg : Language
 bsg =
     Language { code = "bsg" }
 
-{-| Kati -}
+
+{-| Kati
+-}
 bsh : Language
 bsh =
     Language { code = "bsh" }
 
-{-| Bassossi -}
+
+{-| Bassossi
+-}
 bsi : Language
 bsi =
     Language { code = "bsi" }
 
-{-| Bangwinji -}
+
+{-| Bangwinji
+-}
 bsj : Language
 bsj =
     Language { code = "bsj" }
 
-{-| Burushaski -}
+
+{-| Burushaski
+-}
 bsk : Language
 bsk =
     Language { code = "bsk" }
 
-{-| Basa-Gumna -}
+
+{-| Basa-Gumna
+-}
 bsl : Language
 bsl =
     Language { code = "bsl" }
 
-{-| Busami -}
+
+{-| Busami
+-}
 bsm : Language
 bsm =
     Language { code = "bsm" }
 
-{-| Barasana-Eduria -}
+
+{-| Barasana-Eduria
+-}
 bsn : Language
 bsn =
     Language { code = "bsn" }
 
-{-| Buso -}
+
+{-| Buso
+-}
 bso : Language
 bso =
     Language { code = "bso" }
 
-{-| Baga Sitemu -}
+
+{-| Baga Sitemu
+-}
 bsp : Language
 bsp =
     Language { code = "bsp" }
 
-{-| Bassa -}
+
+{-| Bassa
+-}
 bsq : Language
 bsq =
     Language { code = "bsq" }
 
-{-| Bassa-Kontagora -}
+
+{-| Bassa-Kontagora
+-}
 bsr : Language
 bsr =
     Language { code = "bsr" }
 
-{-| Akoose -}
+
+{-| Akoose
+-}
 bss : Language
 bss =
     Language { code = "bss" }
 
-{-| Basketo -}
+
+{-| Basketo
+-}
 bst : Language
 bst =
     Language { code = "bst" }
 
-{-| Bahonsuai -}
+
+{-| Bahonsuai
+-}
 bsu : Language
 bsu =
     Language { code = "bsu" }
 
-{-| Baga Sobané -}
+
+{-| Baga Sobané
+-}
 bsv : Language
 bsv =
     Language { code = "bsv" }
 
-{-| Baiso -}
+
+{-| Baiso
+-}
 bsw : Language
 bsw =
     Language { code = "bsw" }
 
-{-| Yangkam -}
+
+{-| Yangkam
+-}
 bsx : Language
 bsx =
     Language { code = "bsx" }
 
-{-| Sabah Bisaya -}
+
+{-| Sabah Bisaya
+-}
 bsy : Language
 bsy =
     Language { code = "bsy" }
 
-{-| Bata -}
+
+{-| Bata
+-}
 bta : Language
 bta =
     Language { code = "bta" }
 
-{-| Beti (Cameroon) -}
+
+{-| Beti (Cameroon)
+-}
 btb : Language
 btb =
     Language { code = "btb" }
 
-{-| Bati (Cameroon) -}
+
+{-| Bati (Cameroon)
+-}
 btc : Language
 btc =
     Language { code = "btc" }
 
-{-| Batak Dairi -}
+
+{-| Batak Dairi
+-}
 btd : Language
 btd =
     Language { code = "btd" }
 
-{-| Gamo-Ningi -}
+
+{-| Gamo-Ningi
+-}
 bte : Language
 bte =
     Language { code = "bte" }
 
-{-| Birgit -}
+
+{-| Birgit
+-}
 btf : Language
 btf =
     Language { code = "btf" }
 
-{-| Gagnoa Bété -}
+
+{-| Gagnoa Bété
+-}
 btg : Language
 btg =
     Language { code = "btg" }
 
-{-| Biatah Bidayuh -}
+
+{-| Biatah Bidayuh
+-}
 bth : Language
 bth =
     Language { code = "bth" }
 
-{-| Burate -}
+
+{-| Burate
+-}
 bti : Language
 bti =
     Language { code = "bti" }
 
-{-| Bacanese Malay -}
+
+{-| Bacanese Malay
+-}
 btj : Language
 btj =
     Language { code = "btj" }
 
-{-| Batak languages -}
+
+{-| Batak languages
+-}
 btk : Language
 btk =
     Language { code = "btk" }
 
-{-| Bhatola -}
+
+{-| Bhatola
+-}
 btl : Language
 btl =
     Language { code = "btl" }
 
-{-| Batak Mandailing -}
+
+{-| Batak Mandailing
+-}
 btm : Language
 btm =
     Language { code = "btm" }
 
-{-| Ratagnon -}
+
+{-| Ratagnon
+-}
 btn : Language
 btn =
     Language { code = "btn" }
 
-{-| Rinconada Bikol -}
+
+{-| Rinconada Bikol
+-}
 bto : Language
 bto =
     Language { code = "bto" }
 
-{-| Budibud -}
+
+{-| Budibud
+-}
 btp : Language
 btp =
     Language { code = "btp" }
 
-{-| Batek -}
+
+{-| Batek
+-}
 btq : Language
 btq =
     Language { code = "btq" }
 
-{-| Baetora -}
+
+{-| Baetora
+-}
 btr : Language
 btr =
     Language { code = "btr" }
 
-{-| Batak Simalungun -}
+
+{-| Batak Simalungun
+-}
 bts : Language
 bts =
     Language { code = "bts" }
 
-{-| Bete-Bendi -}
+
+{-| Bete-Bendi
+-}
 btt : Language
 btt =
     Language { code = "btt" }
 
-{-| Batu -}
+
+{-| Batu
+-}
 btu : Language
 btu =
     Language { code = "btu" }
 
-{-| Bateri -}
+
+{-| Bateri
+-}
 btv : Language
 btv =
     Language { code = "btv" }
 
-{-| Butuanon -}
+
+{-| Butuanon
+-}
 btw : Language
 btw =
     Language { code = "btw" }
 
-{-| Batak Karo -}
+
+{-| Batak Karo
+-}
 btx : Language
 btx =
     Language { code = "btx" }
 
-{-| Bobot -}
+
+{-| Bobot
+-}
 bty : Language
 bty =
     Language { code = "bty" }
 
-{-| Batak Alas-Kluet -}
+
+{-| Batak Alas-Kluet
+-}
 btz : Language
 btz =
     Language { code = "btz" }
 
-{-| Buriat -}
+
+{-| Buriat
+-}
 bua : Language
 bua =
     Language { code = "bua" }
 
-{-| Bua -}
+
+{-| Bua
+-}
 bub : Language
 bub =
     Language { code = "bub" }
 
-{-| Bushi -}
+
+{-| Bushi
+-}
 buc : Language
 buc =
     Language { code = "buc" }
 
-{-| Ntcham -}
+
+{-| Ntcham
+-}
 bud : Language
 bud =
     Language { code = "bud" }
 
-{-| Beothuk -}
+
+{-| Beothuk
+-}
 bue : Language
 bue =
     Language { code = "bue" }
 
-{-| Bushoong -}
+
+{-| Bushoong
+-}
 buf : Language
 buf =
     Language { code = "buf" }
 
-{-| Buginese -}
+
+{-| Buginese
+-}
 bug : Language
 bug =
     Language { code = "bug" }
 
-{-| Younuo Bunu -}
+
+{-| Younuo Bunu
+-}
 buh : Language
 buh =
     Language { code = "buh" }
 
-{-| Bongili -}
+
+{-| Bongili
+-}
 bui : Language
 bui =
     Language { code = "bui" }
 
-{-| Basa-Gurmana -}
+
+{-| Basa-Gurmana
+-}
 buj : Language
 buj =
     Language { code = "buj" }
 
-{-| Bugawac -}
+
+{-| Bugawac
+-}
 buk : Language
 buk =
     Language { code = "buk" }
 
-{-| Bulu (Cameroon) -}
+
+{-| Bulu (Cameroon)
+-}
 bum : Language
 bum =
     Language { code = "bum" }
 
-{-| Sherbro -}
+
+{-| Sherbro
+-}
 bun : Language
 bun =
     Language { code = "bun" }
 
-{-| Terei -}
+
+{-| Terei
+-}
 buo : Language
 buo =
     Language { code = "buo" }
 
-{-| Busoa -}
+
+{-| Busoa
+-}
 bup : Language
 bup =
     Language { code = "bup" }
 
-{-| Brem -}
+
+{-| Brem
+-}
 buq : Language
 buq =
     Language { code = "buq" }
 
-{-| Bokobaru -}
+
+{-| Bokobaru
+-}
 bus : Language
 bus =
     Language { code = "bus" }
 
-{-| Bungain -}
+
+{-| Bungain
+-}
 but : Language
 but =
     Language { code = "but" }
 
-{-| Budu -}
+
+{-| Budu
+-}
 buu : Language
 buu =
     Language { code = "buu" }
 
-{-| Bun -}
+
+{-| Bun
+-}
 buv : Language
 buv =
     Language { code = "buv" }
 
-{-| Bubi -}
+
+{-| Bubi
+-}
 buw : Language
 buw =
     Language { code = "buw" }
 
-{-| Boghom -}
+
+{-| Boghom
+-}
 bux : Language
 bux =
     Language { code = "bux" }
 
-{-| Bullom So -}
+
+{-| Bullom So
+-}
 buy : Language
 buy =
     Language { code = "buy" }
 
-{-| Bukwen -}
+
+{-| Bukwen
+-}
 buz : Language
 buz =
     Language { code = "buz" }
 
-{-| Barein -}
+
+{-| Barein
+-}
 bva : Language
 bva =
     Language { code = "bva" }
 
-{-| Bube -}
+
+{-| Bube
+-}
 bvb : Language
 bvb =
     Language { code = "bvb" }
 
-{-| Baelelea -}
+
+{-| Baelelea
+-}
 bvc : Language
 bvc =
     Language { code = "bvc" }
 
-{-| Baeggu -}
+
+{-| Baeggu
+-}
 bvd : Language
 bvd =
     Language { code = "bvd" }
 
-{-| Berau Malay -}
+
+{-| Berau Malay
+-}
 bve : Language
 bve =
     Language { code = "bve" }
 
-{-| Boor -}
+
+{-| Boor
+-}
 bvf : Language
 bvf =
     Language { code = "bvf" }
 
-{-| Bonkeng -}
+
+{-| Bonkeng
+-}
 bvg : Language
 bvg =
     Language { code = "bvg" }
 
-{-| Bure -}
+
+{-| Bure
+-}
 bvh : Language
 bvh =
     Language { code = "bvh" }
 
-{-| Belanda Viri -}
+
+{-| Belanda Viri
+-}
 bvi : Language
 bvi =
     Language { code = "bvi" }
 
-{-| Baan -}
+
+{-| Baan
+-}
 bvj : Language
 bvj =
     Language { code = "bvj" }
 
-{-| Bukat -}
+
+{-| Bukat
+-}
 bvk : Language
 bvk =
     Language { code = "bvk" }
 
-{-| Bolivian Sign Language -}
+
+{-| Bolivian Sign Language
+-}
 bvl : Language
 bvl =
     Language { code = "bvl" }
 
-{-| Bamunka -}
+
+{-| Bamunka
+-}
 bvm : Language
 bvm =
     Language { code = "bvm" }
 
-{-| Buna -}
+
+{-| Buna
+-}
 bvn : Language
 bvn =
     Language { code = "bvn" }
 
-{-| Bolgo -}
+
+{-| Bolgo
+-}
 bvo : Language
 bvo =
     Language { code = "bvo" }
 
-{-| Bumang -}
+
+{-| Bumang
+-}
 bvp : Language
 bvp =
     Language { code = "bvp" }
 
-{-| Birri -}
+
+{-| Birri
+-}
 bvq : Language
 bvq =
     Language { code = "bvq" }
 
-{-| Burarra -}
+
+{-| Burarra
+-}
 bvr : Language
 bvr =
     Language { code = "bvr" }
 
-{-| Bati (Indonesia) -}
+
+{-| Bati (Indonesia)
+-}
 bvt : Language
 bvt =
     Language { code = "bvt" }
 
-{-| Bukit Malay -}
+
+{-| Bukit Malay
+-}
 bvu : Language
 bvu =
     Language { code = "bvu" }
 
-{-| Baniva -}
+
+{-| Baniva
+-}
 bvv : Language
 bvv =
     Language { code = "bvv" }
 
-{-| Boga -}
+
+{-| Boga
+-}
 bvw : Language
 bvw =
     Language { code = "bvw" }
 
-{-| Dibole -}
+
+{-| Dibole
+-}
 bvx : Language
 bvx =
     Language { code = "bvx" }
 
-{-| Baybayanon -}
+
+{-| Baybayanon
+-}
 bvy : Language
 bvy =
     Language { code = "bvy" }
 
-{-| Bauzi -}
+
+{-| Bauzi
+-}
 bvz : Language
 bvz =
     Language { code = "bvz" }
 
-{-| Bwatoo -}
+
+{-| Bwatoo
+-}
 bwa : Language
 bwa =
     Language { code = "bwa" }
 
-{-| Namosi-Naitasiri-Serua -}
+
+{-| Namosi-Naitasiri-Serua
+-}
 bwb : Language
 bwb =
     Language { code = "bwb" }
 
-{-| Bwile -}
+
+{-| Bwile
+-}
 bwc : Language
 bwc =
     Language { code = "bwc" }
 
-{-| Bwaidoka -}
+
+{-| Bwaidoka
+-}
 bwd : Language
 bwd =
     Language { code = "bwd" }
 
-{-| Bwe Karen -}
+
+{-| Bwe Karen
+-}
 bwe : Language
 bwe =
     Language { code = "bwe" }
 
-{-| Boselewa -}
+
+{-| Boselewa
+-}
 bwf : Language
 bwf =
     Language { code = "bwf" }
 
-{-| Barwe -}
+
+{-| Barwe
+-}
 bwg : Language
 bwg =
     Language { code = "bwg" }
 
-{-| Bishuo -}
+
+{-| Bishuo
+-}
 bwh : Language
 bwh =
     Language { code = "bwh" }
 
-{-| Baniwa -}
+
+{-| Baniwa
+-}
 bwi : Language
 bwi =
     Language { code = "bwi" }
 
-{-| Láá Láá Bwamu -}
+
+{-| Láá Láá Bwamu
+-}
 bwj : Language
 bwj =
     Language { code = "bwj" }
 
-{-| Bauwaki -}
+
+{-| Bauwaki
+-}
 bwk : Language
 bwk =
     Language { code = "bwk" }
 
-{-| Bwela -}
+
+{-| Bwela
+-}
 bwl : Language
 bwl =
     Language { code = "bwl" }
 
-{-| Biwat -}
+
+{-| Biwat
+-}
 bwm : Language
 bwm =
     Language { code = "bwm" }
 
-{-| Wunai Bunu -}
+
+{-| Wunai Bunu
+-}
 bwn : Language
 bwn =
     Language { code = "bwn" }
 
+
 {-| Boro (Ethiopia)
-Borna (Ethiopia) -}
+Borna (Ethiopia)
+-}
 bwo : Language
 bwo =
     Language { code = "bwo" }
 
-{-| Mandobo Bawah -}
+
+{-| Mandobo Bawah
+-}
 bwp : Language
 bwp =
     Language { code = "bwp" }
 
-{-| Southern Bobo Madaré -}
+
+{-| Southern Bobo Madaré
+-}
 bwq : Language
 bwq =
     Language { code = "bwq" }
 
-{-| Bura-Pabir -}
+
+{-| Bura-Pabir
+-}
 bwr : Language
 bwr =
     Language { code = "bwr" }
 
-{-| Bomboma -}
+
+{-| Bomboma
+-}
 bws : Language
 bws =
     Language { code = "bws" }
 
-{-| Bafaw-Balong -}
+
+{-| Bafaw-Balong
+-}
 bwt : Language
 bwt =
     Language { code = "bwt" }
 
-{-| Buli (Ghana) -}
+
+{-| Buli (Ghana)
+-}
 bwu : Language
 bwu =
     Language { code = "bwu" }
 
-{-| Bwa -}
+
+{-| Bwa
+-}
 bww : Language
 bww =
     Language { code = "bww" }
 
-{-| Bu-Nao Bunu -}
+
+{-| Bu-Nao Bunu
+-}
 bwx : Language
 bwx =
     Language { code = "bwx" }
 
-{-| Cwi Bwamu -}
+
+{-| Cwi Bwamu
+-}
 bwy : Language
 bwy =
     Language { code = "bwy" }
 
-{-| Bwisi -}
+
+{-| Bwisi
+-}
 bwz : Language
 bwz =
     Language { code = "bwz" }
 
-{-| Tairaha -}
+
+{-| Tairaha
+-}
 bxa : Language
 bxa =
     Language { code = "bxa" }
 
-{-| Belanda Bor -}
+
+{-| Belanda Bor
+-}
 bxb : Language
 bxb =
     Language { code = "bxb" }
 
-{-| Molengue -}
+
+{-| Molengue
+-}
 bxc : Language
 bxc =
     Language { code = "bxc" }
 
-{-| Pela -}
+
+{-| Pela
+-}
 bxd : Language
 bxd =
     Language { code = "bxd" }
 
-{-| Birale -}
+
+{-| Birale
+-}
 bxe : Language
 bxe =
     Language { code = "bxe" }
 
+
 {-| Bilur
-Minigir -}
+Minigir
+-}
 bxf : Language
 bxf =
     Language { code = "bxf" }
 
-{-| Bangala -}
+
+{-| Bangala
+-}
 bxg : Language
 bxg =
     Language { code = "bxg" }
 
-{-| Buhutu -}
+
+{-| Buhutu
+-}
 bxh : Language
 bxh =
     Language { code = "bxh" }
 
-{-| Pirlatapa -}
+
+{-| Pirlatapa
+-}
 bxi : Language
 bxi =
     Language { code = "bxi" }
 
-{-| Bayungu -}
+
+{-| Bayungu
+-}
 bxj : Language
 bxj =
     Language { code = "bxj" }
 
+
 {-| Bukusu
-Lubukusu -}
+Lubukusu
+-}
 bxk : Language
 bxk =
     Language { code = "bxk" }
 
-{-| Jalkunan -}
+
+{-| Jalkunan
+-}
 bxl : Language
 bxl =
     Language { code = "bxl" }
 
-{-| Mongolia Buriat -}
+
+{-| Mongolia Buriat
+-}
 bxm : Language
 bxm =
     Language { code = "bxm" }
 
-{-| Burduna -}
+
+{-| Burduna
+-}
 bxn : Language
 bxn =
     Language { code = "bxn" }
 
-{-| Barikanchi -}
+
+{-| Barikanchi
+-}
 bxo : Language
 bxo =
     Language { code = "bxo" }
 
-{-| Bebil -}
+
+{-| Bebil
+-}
 bxp : Language
 bxp =
     Language { code = "bxp" }
 
-{-| Beele -}
+
+{-| Beele
+-}
 bxq : Language
 bxq =
     Language { code = "bxq" }
 
-{-| Russia Buriat -}
+
+{-| Russia Buriat
+-}
 bxr : Language
 bxr =
     Language { code = "bxr" }
 
-{-| Busam -}
+
+{-| Busam
+-}
 bxs : Language
 bxs =
     Language { code = "bxs" }
 
-{-| China Buriat -}
+
+{-| China Buriat
+-}
 bxu : Language
 bxu =
     Language { code = "bxu" }
 
-{-| Berakou -}
+
+{-| Berakou
+-}
 bxv : Language
 bxv =
     Language { code = "bxv" }
 
-{-| Bankagooma -}
+
+{-| Bankagooma
+-}
 bxw : Language
 bxw =
     Language { code = "bxw" }
 
-{-| Borna (Democratic Republic of Congo) -}
+
+{-| Borna (Democratic Republic of Congo)
+-}
 bxx : Language
 bxx =
     Language { code = "bxx" }
 
-{-| Binahari -}
+
+{-| Binahari
+-}
 bxz : Language
 bxz =
     Language { code = "bxz" }
 
-{-| Batak -}
+
+{-| Batak
+-}
 bya : Language
 bya =
     Language { code = "bya" }
 
-{-| Bikya -}
+
+{-| Bikya
+-}
 byb : Language
 byb =
     Language { code = "byb" }
 
-{-| Ubaghara -}
+
+{-| Ubaghara
+-}
 byc : Language
 byc =
     Language { code = "byc" }
 
-{-| Benyadu' -}
+
+{-| Benyadu'
+-}
 byd : Language
 byd =
     Language { code = "byd" }
 
-{-| Pouye -}
+
+{-| Pouye
+-}
 bye : Language
 bye =
     Language { code = "bye" }
 
-{-| Bete -}
+
+{-| Bete
+-}
 byf : Language
 byf =
     Language { code = "byf" }
 
-{-| Baygo -}
+
+{-| Baygo
+-}
 byg : Language
 byg =
     Language { code = "byg" }
 
-{-| Bhujel -}
+
+{-| Bhujel
+-}
 byh : Language
 byh =
     Language { code = "byh" }
 
-{-| Buyu -}
+
+{-| Buyu
+-}
 byi : Language
 byi =
     Language { code = "byi" }
 
-{-| Bina (Nigeria) -}
+
+{-| Bina (Nigeria)
+-}
 byj : Language
 byj =
     Language { code = "byj" }
 
-{-| Biao -}
+
+{-| Biao
+-}
 byk : Language
 byk =
     Language { code = "byk" }
 
-{-| Bayono -}
+
+{-| Bayono
+-}
 byl : Language
 byl =
     Language { code = "byl" }
 
-{-| Bidjara -}
+
+{-| Bidjara
+-}
 bym : Language
 bym =
     Language { code = "bym" }
 
+
 {-| Bilin
-Blin -}
+Blin
+-}
 byn : Language
 byn =
     Language { code = "byn" }
 
-{-| Biyo -}
+
+{-| Biyo
+-}
 byo : Language
 byo =
     Language { code = "byo" }
 
-{-| Bumaji -}
+
+{-| Bumaji
+-}
 byp : Language
 byp =
     Language { code = "byp" }
 
-{-| Basay -}
+
+{-| Basay
+-}
 byq : Language
 byq =
     Language { code = "byq" }
 
+
 {-| Baruya
-Yipma -}
+Yipma
+-}
 byr : Language
 byr =
     Language { code = "byr" }
 
-{-| Burak -}
+
+{-| Burak
+-}
 bys : Language
 bys =
     Language { code = "bys" }
 
-{-| Berti -}
+
+{-| Berti
+-}
 byt : Language
 byt =
     Language { code = "byt" }
 
-{-| Medumba -}
+
+{-| Medumba
+-}
 byv : Language
 byv =
     Language { code = "byv" }
 
-{-| Belhariya -}
+
+{-| Belhariya
+-}
 byw : Language
 byw =
     Language { code = "byw" }
 
-{-| Qaqet -}
+
+{-| Qaqet
+-}
 byx : Language
 byx =
     Language { code = "byx" }
 
-{-| Buya -}
+
+{-| Buya
+-}
 byy : Language
 byy =
     Language { code = "byy" }
 
-{-| Banaro -}
+
+{-| Banaro
+-}
 byz : Language
 byz =
     Language { code = "byz" }
 
-{-| Bandi -}
+
+{-| Bandi
+-}
 bza : Language
 bza =
     Language { code = "bza" }
 
-{-| Andio -}
+
+{-| Andio
+-}
 bzb : Language
 bzb =
     Language { code = "bzb" }
 
-{-| Southern Betsimisaraka Malagasy -}
+
+{-| Southern Betsimisaraka Malagasy
+-}
 bzc : Language
 bzc =
     Language { code = "bzc" }
 
-{-| Bribri -}
+
+{-| Bribri
+-}
 bzd : Language
 bzd =
     Language { code = "bzd" }
 
-{-| Jenaama Bozo -}
+
+{-| Jenaama Bozo
+-}
 bze : Language
 bze =
     Language { code = "bze" }
 
-{-| Boikin -}
+
+{-| Boikin
+-}
 bzf : Language
 bzf =
     Language { code = "bzf" }
 
-{-| Babuza -}
+
+{-| Babuza
+-}
 bzg : Language
 bzg =
     Language { code = "bzg" }
 
-{-| Mapos Buang -}
+
+{-| Mapos Buang
+-}
 bzh : Language
 bzh =
     Language { code = "bzh" }
 
-{-| Bisu -}
+
+{-| Bisu
+-}
 bzi : Language
 bzi =
     Language { code = "bzi" }
 
-{-| Belize Kriol English -}
+
+{-| Belize Kriol English
+-}
 bzj : Language
 bzj =
     Language { code = "bzj" }
 
-{-| Nicaragua Creole English -}
+
+{-| Nicaragua Creole English
+-}
 bzk : Language
 bzk =
     Language { code = "bzk" }
 
-{-| Boano (Sulawesi) -}
+
+{-| Boano (Sulawesi)
+-}
 bzl : Language
 bzl =
     Language { code = "bzl" }
 
-{-| Bolondo -}
+
+{-| Bolondo
+-}
 bzm : Language
 bzm =
     Language { code = "bzm" }
 
-{-| Boano (Maluku) -}
+
+{-| Boano (Maluku)
+-}
 bzn : Language
 bzn =
     Language { code = "bzn" }
 
-{-| Bozaba -}
+
+{-| Bozaba
+-}
 bzo : Language
 bzo =
     Language { code = "bzo" }
 
-{-| Kemberano -}
+
+{-| Kemberano
+-}
 bzp : Language
 bzp =
     Language { code = "bzp" }
 
-{-| Buli (Indonesia) -}
+
+{-| Buli (Indonesia)
+-}
 bzq : Language
 bzq =
     Language { code = "bzq" }
 
-{-| Biri -}
+
+{-| Biri
+-}
 bzr : Language
 bzr =
     Language { code = "bzr" }
 
-{-| Brazilian Sign Language -}
+
+{-| Brazilian Sign Language
+-}
 bzs : Language
 bzs =
     Language { code = "bzs" }
 
-{-| Brithenig -}
+
+{-| Brithenig
+-}
 bzt : Language
 bzt =
     Language { code = "bzt" }
 
-{-| Burmeso -}
+
+{-| Burmeso
+-}
 bzu : Language
 bzu =
     Language { code = "bzu" }
 
-{-| Naami -}
+
+{-| Naami
+-}
 bzv : Language
 bzv =
     Language { code = "bzv" }
 
-{-| Basa (Nigeria) -}
+
+{-| Basa (Nigeria)
+-}
 bzw : Language
 bzw =
     Language { code = "bzw" }
 
-{-| Kɛlɛngaxo Bozo -}
+
+{-| Kɛlɛngaxo Bozo
+-}
 bzx : Language
 bzx =
     Language { code = "bzx" }
 
-{-| Obanliku -}
+
+{-| Obanliku
+-}
 bzy : Language
 bzy =
     Language { code = "bzy" }
 
-{-| Evant -}
+
+{-| Evant
+-}
 bzz : Language
 bzz =
     Language { code = "bzz" }
 
+
 {-| Catalan
-Valencian -}
+Valencian
+-}
 ca : Language
 ca =
     Language { code = "ca" }
 
-{-| Chortí -}
+
+{-| Chortí
+-}
 caa : Language
 caa =
     Language { code = "caa" }
 
-{-| Garifuna -}
+
+{-| Garifuna
+-}
 cab : Language
 cab =
     Language { code = "cab" }
 
-{-| Chuj -}
+
+{-| Chuj
+-}
 cac : Language
 cac =
     Language { code = "cac" }
 
-{-| Caddo -}
+
+{-| Caddo
+-}
 cad : Language
 cad =
     Language { code = "cad" }
 
+
 {-| Lehar
-Laalaa -}
+Laalaa
+-}
 cae : Language
 cae =
     Language { code = "cae" }
 
-{-| Southern Carrier -}
+
+{-| Southern Carrier
+-}
 caf : Language
 caf =
     Language { code = "caf" }
 
-{-| Nivaclé -}
+
+{-| Nivaclé
+-}
 cag : Language
 cag =
     Language { code = "cag" }
 
-{-| Cahuarano -}
+
+{-| Cahuarano
+-}
 cah : Language
 cah =
     Language { code = "cah" }
 
-{-| Central American Indian languages -}
+
+{-| Central American Indian languages
+-}
 cai : Language
 cai =
     Language { code = "cai" }
 
-{-| Chané -}
+
+{-| Chané
+-}
 caj : Language
 caj =
     Language { code = "caj" }
 
+
 {-| Kaqchikel
-Cakchiquel -}
+Cakchiquel
+-}
 cak : Language
 cak =
     Language { code = "cak" }
 
-{-| Carolinian -}
+
+{-| Carolinian
+-}
 cal : Language
 cal =
     Language { code = "cal" }
 
-{-| Cemuhî -}
+
+{-| Cemuhî
+-}
 cam : Language
 cam =
     Language { code = "cam" }
 
-{-| Chambri -}
+
+{-| Chambri
+-}
 can : Language
 can =
     Language { code = "can" }
 
-{-| Chácobo -}
+
+{-| Chácobo
+-}
 cao : Language
 cao =
     Language { code = "cao" }
 
-{-| Chipaya -}
+
+{-| Chipaya
+-}
 cap : Language
 cap =
     Language { code = "cap" }
 
-{-| Car Nicobarese -}
+
+{-| Car Nicobarese
+-}
 caq : Language
 caq =
     Language { code = "caq" }
 
-{-| Galibi Carib -}
+
+{-| Galibi Carib
+-}
 car : Language
 car =
     Language { code = "car" }
 
-{-| Tsimané -}
+
+{-| Tsimané
+-}
 cas : Language
 cas =
     Language { code = "cas" }
 
-{-| Caucasian languages -}
+
+{-| Caucasian languages
+-}
 cau : Language
 cau =
     Language { code = "cau" }
 
-{-| Cavineña -}
+
+{-| Cavineña
+-}
 cav : Language
 cav =
     Language { code = "cav" }
 
-{-| Callawalla -}
+
+{-| Callawalla
+-}
 caw : Language
 caw =
     Language { code = "caw" }
 
-{-| Chiquitano -}
+
+{-| Chiquitano
+-}
 cax : Language
 cax =
     Language { code = "cax" }
 
-{-| Cayuga -}
+
+{-| Cayuga
+-}
 cay : Language
 cay =
     Language { code = "cay" }
 
-{-| Canichana -}
+
+{-| Canichana
+-}
 caz : Language
 caz =
     Language { code = "caz" }
 
-{-| Chibchan languages -}
+
+{-| Chibchan languages
+-}
 cba : Language
 cba =
     Language { code = "cba" }
 
-{-| Cabiyarí -}
+
+{-| Cabiyarí
+-}
 cbb : Language
 cbb =
     Language { code = "cbb" }
 
-{-| Carapana -}
+
+{-| Carapana
+-}
 cbc : Language
 cbc =
     Language { code = "cbc" }
 
-{-| Carijona -}
+
+{-| Carijona
+-}
 cbd : Language
 cbd =
     Language { code = "cbd" }
 
-{-| Chipiajes -}
+
+{-| Chipiajes
+-}
 cbe : Language
 cbe =
     Language { code = "cbe" }
 
-{-| Chimila -}
+
+{-| Chimila
+-}
 cbg : Language
 cbg =
     Language { code = "cbg" }
 
-{-| Cagua -}
+
+{-| Cagua
+-}
 cbh : Language
 cbh =
     Language { code = "cbh" }
 
-{-| Chachi -}
+
+{-| Chachi
+-}
 cbi : Language
 cbi =
     Language { code = "cbi" }
 
-{-| Ede Cabe -}
+
+{-| Ede Cabe
+-}
 cbj : Language
 cbj =
     Language { code = "cbj" }
 
-{-| Chavacano -}
+
+{-| Chavacano
+-}
 cbk : Language
 cbk =
     Language { code = "cbk" }
 
-{-| Bualkhaw Chin -}
+
+{-| Bualkhaw Chin
+-}
 cbl : Language
 cbl =
     Language { code = "cbl" }
 
-{-| Nyahkur -}
+
+{-| Nyahkur
+-}
 cbn : Language
 cbn =
     Language { code = "cbn" }
 
-{-| Izora -}
+
+{-| Izora
+-}
 cbo : Language
 cbo =
     Language { code = "cbo" }
 
+
 {-| Tsucuba
-Cuba -}
+Cuba
+-}
 cbq : Language
 cbq =
     Language { code = "cbq" }
 
-{-| Cashibo-Cacataibo -}
+
+{-| Cashibo-Cacataibo
+-}
 cbr : Language
 cbr =
     Language { code = "cbr" }
 
-{-| Cashinahua -}
+
+{-| Cashinahua
+-}
 cbs : Language
 cbs =
     Language { code = "cbs" }
 
-{-| Chayahuita -}
+
+{-| Chayahuita
+-}
 cbt : Language
 cbt =
     Language { code = "cbt" }
 
-{-| Candoshi-Shapra -}
+
+{-| Candoshi-Shapra
+-}
 cbu : Language
 cbu =
     Language { code = "cbu" }
 
-{-| Cacua -}
+
+{-| Cacua
+-}
 cbv : Language
 cbv =
     Language { code = "cbv" }
 
-{-| Kinabalian -}
+
+{-| Kinabalian
+-}
 cbw : Language
 cbw =
     Language { code = "cbw" }
 
-{-| Carabayo -}
+
+{-| Carabayo
+-}
 cby : Language
 cby =
     Language { code = "cby" }
 
-{-| Cauca -}
+
+{-| Cauca
+-}
 cca : Language
 cca =
     Language { code = "cca" }
 
-{-| Chamicuro -}
+
+{-| Chamicuro
+-}
 ccc : Language
 ccc =
     Language { code = "ccc" }
 
-{-| Cafundo Creole -}
+
+{-| Cafundo Creole
+-}
 ccd : Language
 ccd =
     Language { code = "ccd" }
 
-{-| Chopi -}
+
+{-| Chopi
+-}
 cce : Language
 cce =
     Language { code = "cce" }
 
-{-| Samba Daka -}
+
+{-| Samba Daka
+-}
 ccg : Language
 ccg =
     Language { code = "ccg" }
 
-{-| Atsam -}
+
+{-| Atsam
+-}
 cch : Language
 cch =
     Language { code = "cch" }
 
-{-| Kasanga -}
+
+{-| Kasanga
+-}
 ccj : Language
 ccj =
     Language { code = "ccj" }
 
-{-| Cutchi-Swahili -}
+
+{-| Cutchi-Swahili
+-}
 ccl : Language
 ccl =
     Language { code = "ccl" }
 
-{-| Malaccan Creole Malay -}
+
+{-| Malaccan Creole Malay
+-}
 ccm : Language
 ccm =
     Language { code = "ccm" }
 
-{-| North Caucasian languages -}
+
+{-| North Caucasian languages
+-}
 ccn : Language
 ccn =
     Language { code = "ccn" }
 
-{-| Comaltepec Chinantec -}
+
+{-| Comaltepec Chinantec
+-}
 cco : Language
 cco =
     Language { code = "cco" }
 
-{-| Chakma -}
+
+{-| Chakma
+-}
 ccp : Language
 ccp =
     Language { code = "ccp" }
 
-{-| Chaungtha -}
+
+{-| Chaungtha
+-}
 ccq : Language
 ccq =
     Language { code = "ccq" }
 
-{-| Cacaopera -}
+
+{-| Cacaopera
+-}
 ccr : Language
 ccr =
     Language { code = "ccr" }
 
-{-| South Caucasian languages -}
+
+{-| South Caucasian languages
+-}
 ccs : Language
 ccs =
     Language { code = "ccs" }
 
-{-| Choni -}
+
+{-| Choni
+-}
 cda : Language
 cda =
     Language { code = "cda" }
 
-{-| Chadic languages -}
+
+{-| Chadic languages
+-}
 cdc : Language
 cdc =
     Language { code = "cdc" }
 
-{-| Caddoan languages -}
+
+{-| Caddoan languages
+-}
 cdd : Language
 cdd =
     Language { code = "cdd" }
 
-{-| Chenchu -}
+
+{-| Chenchu
+-}
 cde : Language
 cde =
     Language { code = "cde" }
 
-{-| Chiru -}
+
+{-| Chiru
+-}
 cdf : Language
 cdf =
     Language { code = "cdf" }
 
-{-| Chamari -}
+
+{-| Chamari
+-}
 cdg : Language
 cdg =
     Language { code = "cdg" }
 
-{-| Chambeali -}
+
+{-| Chambeali
+-}
 cdh : Language
 cdh =
     Language { code = "cdh" }
 
-{-| Chodri -}
+
+{-| Chodri
+-}
 cdi : Language
 cdi =
     Language { code = "cdi" }
 
-{-| Churahi -}
+
+{-| Churahi
+-}
 cdj : Language
 cdj =
     Language { code = "cdj" }
 
-{-| Chepang -}
+
+{-| Chepang
+-}
 cdm : Language
 cdm =
     Language { code = "cdm" }
 
-{-| Chaudangsi -}
+
+{-| Chaudangsi
+-}
 cdn : Language
 cdn =
     Language { code = "cdn" }
 
-{-| Min Dong Chinese -}
+
+{-| Min Dong Chinese
+-}
 cdo : Language
 cdo =
     Language { code = "cdo" }
 
-{-| Cinda-Regi-Tiyal -}
+
+{-| Cinda-Regi-Tiyal
+-}
 cdr : Language
 cdr =
     Language { code = "cdr" }
 
-{-| Chadian Sign Language -}
+
+{-| Chadian Sign Language
+-}
 cds : Language
 cds =
     Language { code = "cds" }
 
-{-| Chadong -}
+
+{-| Chadong
+-}
 cdy : Language
 cdy =
     Language { code = "cdy" }
 
-{-| Koda -}
+
+{-| Koda
+-}
 cdz : Language
 cdz =
     Language { code = "cdz" }
 
-{-| Chechen -}
+
+{-| Chechen
+-}
 ce : Language
 ce =
     Language { code = "ce" }
 
-{-| Lower Chehalis -}
+
+{-| Lower Chehalis
+-}
 cea : Language
 cea =
     Language { code = "cea" }
 
-{-| Cebuano -}
+
+{-| Cebuano
+-}
 ceb : Language
 ceb =
     Language { code = "ceb" }
 
-{-| Chamacoco -}
+
+{-| Chamacoco
+-}
 ceg : Language
 ceg =
     Language { code = "ceg" }
 
-{-| Eastern Khumi Chin -}
+
+{-| Eastern Khumi Chin
+-}
 cek : Language
 cek =
     Language { code = "cek" }
 
-{-| Celtic languages -}
+
+{-| Celtic languages
+-}
 cel : Language
 cel =
     Language { code = "cel" }
 
-{-| Cen -}
+
+{-| Cen
+-}
 cen : Language
 cen =
     Language { code = "cen" }
 
-{-| Centúúm -}
+
+{-| Centúúm
+-}
 cet : Language
 cet =
     Language { code = "cet" }
 
-{-| Ekai Chin -}
+
+{-| Ekai Chin
+-}
 cey : Language
 cey =
     Language { code = "cey" }
 
-{-| Dijim-Bwilim -}
+
+{-| Dijim-Bwilim
+-}
 cfa : Language
 cfa =
     Language { code = "cfa" }
 
-{-| Cara -}
+
+{-| Cara
+-}
 cfd : Language
 cfd =
     Language { code = "cfd" }
 
-{-| Como Karim -}
+
+{-| Como Karim
+-}
 cfg : Language
 cfg =
     Language { code = "cfg" }
 
-{-| Falam Chin -}
+
+{-| Falam Chin
+-}
 cfm : Language
 cfm =
     Language { code = "cfm" }
 
-{-| Changriwa -}
+
+{-| Changriwa
+-}
 cga : Language
 cga =
     Language { code = "cga" }
 
-{-| Kagayanen -}
+
+{-| Kagayanen
+-}
 cgc : Language
 cgc =
     Language { code = "cgc" }
 
-{-| Chiga -}
+
+{-| Chiga
+-}
 cgg : Language
 cgg =
     Language { code = "cgg" }
 
-{-| Chocangacakha -}
+
+{-| Chocangacakha
+-}
 cgk : Language
 cgk =
     Language { code = "cgk" }
 
-{-| Chamorro -}
+
+{-| Chamorro
+-}
 ch : Language
 ch =
     Language { code = "ch" }
 
-{-| Chibcha -}
+
+{-| Chibcha
+-}
 chb : Language
 chb =
     Language { code = "chb" }
 
-{-| Catawba -}
+
+{-| Catawba
+-}
 chc : Language
 chc =
     Language { code = "chc" }
 
-{-| Highland Oaxaca Chontal -}
+
+{-| Highland Oaxaca Chontal
+-}
 chd : Language
 chd =
     Language { code = "chd" }
 
-{-| Tabasco Chontal -}
+
+{-| Tabasco Chontal
+-}
 chf : Language
 chf =
     Language { code = "chf" }
 
-{-| Chagatai -}
+
+{-| Chagatai
+-}
 chg : Language
 chg =
     Language { code = "chg" }
 
-{-| Chinook -}
+
+{-| Chinook
+-}
 chh : Language
 chh =
     Language { code = "chh" }
 
-{-| Ojitlán Chinantec -}
+
+{-| Ojitlán Chinantec
+-}
 chj : Language
 chj =
     Language { code = "chj" }
 
-{-| Chuukese -}
+
+{-| Chuukese
+-}
 chk : Language
 chk =
     Language { code = "chk" }
 
-{-| Cahuilla -}
+
+{-| Cahuilla
+-}
 chl : Language
 chl =
     Language { code = "chl" }
 
-{-| Mari (Russia) -}
+
+{-| Mari (Russia)
+-}
 chm : Language
 chm =
     Language { code = "chm" }
 
-{-| Chinook jargon -}
+
+{-| Chinook jargon
+-}
 chn : Language
 chn =
     Language { code = "chn" }
 
-{-| Choctaw -}
+
+{-| Choctaw
+-}
 cho : Language
 cho =
     Language { code = "cho" }
 
+
 {-| Chipewyan
-Dene Suline -}
+Dene Suline
+-}
 chp : Language
 chp =
     Language { code = "chp" }
 
-{-| Quiotepec Chinantec -}
+
+{-| Quiotepec Chinantec
+-}
 chq : Language
 chq =
     Language { code = "chq" }
 
-{-| Cherokee -}
+
+{-| Cherokee
+-}
 chr : Language
 chr =
     Language { code = "chr" }
 
-{-| Cholón -}
+
+{-| Cholón
+-}
 cht : Language
 cht =
     Language { code = "cht" }
 
-{-| Chuwabu -}
+
+{-| Chuwabu
+-}
 chw : Language
 chw =
     Language { code = "chw" }
 
-{-| Chantyal -}
+
+{-| Chantyal
+-}
 chx : Language
 chx =
     Language { code = "chx" }
 
-{-| Cheyenne -}
+
+{-| Cheyenne
+-}
 chy : Language
 chy =
     Language { code = "chy" }
 
-{-| Ozumacín Chinantec -}
+
+{-| Ozumacín Chinantec
+-}
 chz : Language
 chz =
     Language { code = "chz" }
 
-{-| Cia-Cia -}
+
+{-| Cia-Cia
+-}
 cia : Language
 cia =
     Language { code = "cia" }
 
-{-| Ci Gbe -}
+
+{-| Ci Gbe
+-}
 cib : Language
 cib =
     Language { code = "cib" }
 
-{-| Chickasaw -}
+
+{-| Chickasaw
+-}
 cic : Language
 cic =
     Language { code = "cic" }
 
-{-| Chimariko -}
+
+{-| Chimariko
+-}
 cid : Language
 cid =
     Language { code = "cid" }
 
-{-| Cineni -}
+
+{-| Cineni
+-}
 cie : Language
 cie =
     Language { code = "cie" }
 
-{-| Chinali -}
+
+{-| Chinali
+-}
 cih : Language
 cih =
     Language { code = "cih" }
 
-{-| Chitkuli Kinnauri -}
+
+{-| Chitkuli Kinnauri
+-}
 cik : Language
 cik =
     Language { code = "cik" }
 
-{-| Cimbrian -}
+
+{-| Cimbrian
+-}
 cim : Language
 cim =
     Language { code = "cim" }
 
-{-| Cinta Larga -}
+
+{-| Cinta Larga
+-}
 cin : Language
 cin =
     Language { code = "cin" }
 
-{-| Chiapanec -}
+
+{-| Chiapanec
+-}
 cip : Language
 cip =
     Language { code = "cip" }
 
+
 {-| Tiri
 Haméa
-Méa -}
+Méa
+-}
 cir : Language
 cir =
     Language { code = "cir" }
 
-{-| Chippewa -}
+
+{-| Chippewa
+-}
 ciw : Language
 ciw =
     Language { code = "ciw" }
 
-{-| Chaima -}
+
+{-| Chaima
+-}
 ciy : Language
 ciy =
     Language { code = "ciy" }
 
-{-| Western Cham -}
+
+{-| Western Cham
+-}
 cja : Language
 cja =
     Language { code = "cja" }
 
-{-| Chru -}
+
+{-| Chru
+-}
 cje : Language
 cje =
     Language { code = "cje" }
 
-{-| Upper Chehalis -}
+
+{-| Upper Chehalis
+-}
 cjh : Language
 cjh =
     Language { code = "cjh" }
 
-{-| Chamalal -}
+
+{-| Chamalal
+-}
 cji : Language
 cji =
     Language { code = "cji" }
 
-{-| Chokwe -}
+
+{-| Chokwe
+-}
 cjk : Language
 cjk =
     Language { code = "cjk" }
 
-{-| Eastern Cham -}
+
+{-| Eastern Cham
+-}
 cjm : Language
 cjm =
     Language { code = "cjm" }
 
-{-| Chenapian -}
+
+{-| Chenapian
+-}
 cjn : Language
 cjn =
     Language { code = "cjn" }
 
-{-| Ashéninka Pajonal -}
+
+{-| Ashéninka Pajonal
+-}
 cjo : Language
 cjo =
     Language { code = "cjo" }
 
-{-| Cabécar -}
+
+{-| Cabécar
+-}
 cjp : Language
 cjp =
     Language { code = "cjp" }
 
-{-| Chorotega -}
+
+{-| Chorotega
+-}
 cjr : Language
 cjr =
     Language { code = "cjr" }
 
-{-| Shor -}
+
+{-| Shor
+-}
 cjs : Language
 cjs =
     Language { code = "cjs" }
 
-{-| Chuave -}
+
+{-| Chuave
+-}
 cjv : Language
 cjv =
     Language { code = "cjv" }
 
-{-| Jinyu Chinese -}
+
+{-| Jinyu Chinese
+-}
 cjy : Language
 cjy =
     Language { code = "cjy" }
 
-{-| Khumi Awa Chin -}
+
+{-| Khumi Awa Chin
+-}
 cka : Language
 cka =
     Language { code = "cka" }
 
-{-| Central Kurdish -}
+
+{-| Central Kurdish
+-}
 ckb : Language
 ckb =
     Language { code = "ckb" }
 
-{-| Chak -}
+
+{-| Chak
+-}
 ckh : Language
 ckh =
     Language { code = "ckh" }
 
-{-| Cibak -}
+
+{-| Cibak
+-}
 ckl : Language
 ckl =
     Language { code = "ckl" }
 
-{-| Chakavian -}
+
+{-| Chakavian
+-}
 ckm : Language
 ckm =
     Language { code = "ckm" }
 
-{-| Kaang Chin -}
+
+{-| Kaang Chin
+-}
 ckn : Language
 ckn =
     Language { code = "ckn" }
 
-{-| Anufo -}
+
+{-| Anufo
+-}
 cko : Language
 cko =
     Language { code = "cko" }
 
-{-| Kajakse -}
+
+{-| Kajakse
+-}
 ckq : Language
 ckq =
     Language { code = "ckq" }
 
-{-| Kairak -}
+
+{-| Kairak
+-}
 ckr : Language
 ckr =
     Language { code = "ckr" }
 
-{-| Tayo -}
+
+{-| Tayo
+-}
 cks : Language
 cks =
     Language { code = "cks" }
 
-{-| Chukot -}
+
+{-| Chukot
+-}
 ckt : Language
 ckt =
     Language { code = "ckt" }
 
-{-| Koasati -}
+
+{-| Koasati
+-}
 cku : Language
 cku =
     Language { code = "cku" }
 
-{-| Kavalan -}
+
+{-| Kavalan
+-}
 ckv : Language
 ckv =
     Language { code = "ckv" }
 
-{-| Caka -}
+
+{-| Caka
+-}
 ckx : Language
 ckx =
     Language { code = "ckx" }
 
-{-| Cakfem-Mushere -}
+
+{-| Cakfem-Mushere
+-}
 cky : Language
 cky =
     Language { code = "cky" }
 
-{-| Cakchiquel-Quiché Mixed Language -}
+
+{-| Cakchiquel-Quiché Mixed Language
+-}
 ckz : Language
 ckz =
     Language { code = "ckz" }
 
-{-| Ron -}
+
+{-| Ron
+-}
 cla : Language
 cla =
     Language { code = "cla" }
 
-{-| Chilcotin -}
+
+{-| Chilcotin
+-}
 clc : Language
 clc =
     Language { code = "clc" }
 
-{-| Chaldean Neo-Aramaic -}
+
+{-| Chaldean Neo-Aramaic
+-}
 cld : Language
 cld =
     Language { code = "cld" }
 
-{-| Lealao Chinantec -}
+
+{-| Lealao Chinantec
+-}
 cle : Language
 cle =
     Language { code = "cle" }
 
-{-| Chilisso -}
+
+{-| Chilisso
+-}
 clh : Language
 clh =
     Language { code = "clh" }
 
-{-| Chakali -}
+
+{-| Chakali
+-}
 cli : Language
 cli =
     Language { code = "cli" }
 
-{-| Laitu Chin -}
+
+{-| Laitu Chin
+-}
 clj : Language
 clj =
     Language { code = "clj" }
 
-{-| Idu-Mishmi -}
+
+{-| Idu-Mishmi
+-}
 clk : Language
 clk =
     Language { code = "clk" }
 
-{-| Chala -}
+
+{-| Chala
+-}
 cll : Language
 cll =
     Language { code = "cll" }
 
-{-| Clallam -}
+
+{-| Clallam
+-}
 clm : Language
 clm =
     Language { code = "clm" }
 
-{-| Lowland Oaxaca Chontal -}
+
+{-| Lowland Oaxaca Chontal
+-}
 clo : Language
 clo =
     Language { code = "clo" }
 
-{-| Lautu Chin -}
+
+{-| Lautu Chin
+-}
 clt : Language
 clt =
     Language { code = "clt" }
 
-{-| Caluyanun -}
+
+{-| Caluyanun
+-}
 clu : Language
 clu =
     Language { code = "clu" }
 
-{-| Chulym -}
+
+{-| Chulym
+-}
 clw : Language
 clw =
     Language { code = "clw" }
 
-{-| Eastern Highland Chatino -}
+
+{-| Eastern Highland Chatino
+-}
 cly : Language
 cly =
     Language { code = "cly" }
 
-{-| Maa -}
+
+{-| Maa
+-}
 cma : Language
 cma =
     Language { code = "cma" }
 
-{-| Chamic languages -}
+
+{-| Chamic languages
+-}
 cmc : Language
 cmc =
     Language { code = "cmc" }
 
-{-| Cerma -}
+
+{-| Cerma
+-}
 cme : Language
 cme =
     Language { code = "cme" }
 
-{-| Classical Mongolian -}
+
+{-| Classical Mongolian
+-}
 cmg : Language
 cmg =
     Language { code = "cmg" }
 
-{-| Emberá-Chamí -}
+
+{-| Emberá-Chamí
+-}
 cmi : Language
 cmi =
     Language { code = "cmi" }
 
-{-| Chimakum -}
+
+{-| Chimakum
+-}
 cmk : Language
 cmk =
     Language { code = "cmk" }
 
-{-| Campalagian -}
+
+{-| Campalagian
+-}
 cml : Language
 cml =
     Language { code = "cml" }
 
-{-| Michigamea -}
+
+{-| Michigamea
+-}
 cmm : Language
 cmm =
     Language { code = "cmm" }
 
-{-| Mandarin Chinese -}
+
+{-| Mandarin Chinese
+-}
 cmn : Language
 cmn =
     Language { code = "cmn" }
 
-{-| Central Mnong -}
+
+{-| Central Mnong
+-}
 cmo : Language
 cmo =
     Language { code = "cmo" }
 
-{-| Mro-Khimi Chin -}
+
+{-| Mro-Khimi Chin
+-}
 cmr : Language
 cmr =
     Language { code = "cmr" }
 
-{-| Messapic -}
+
+{-| Messapic
+-}
 cms : Language
 cms =
     Language { code = "cms" }
 
-{-| Camtho -}
+
+{-| Camtho
+-}
 cmt : Language
 cmt =
     Language { code = "cmt" }
 
-{-| Changthang -}
+
+{-| Changthang
+-}
 cna : Language
 cna =
     Language { code = "cna" }
 
-{-| Chinbon Chin -}
+
+{-| Chinbon Chin
+-}
 cnb : Language
 cnb =
     Language { code = "cnb" }
 
-{-| Côông -}
+
+{-| Côông
+-}
 cnc : Language
 cnc =
     Language { code = "cnc" }
 
-{-| Northern Qiang -}
+
+{-| Northern Qiang
+-}
 cng : Language
 cng =
     Language { code = "cng" }
 
+
 {-| Hakha Chin
-Haka Chin -}
+Haka Chin
+-}
 cnh : Language
 cnh =
     Language { code = "cnh" }
 
-{-| Asháninka -}
+
+{-| Asháninka
+-}
 cni : Language
 cni =
     Language { code = "cni" }
 
-{-| Khumi Chin -}
+
+{-| Khumi Chin
+-}
 cnk : Language
 cnk =
     Language { code = "cnk" }
 
-{-| Lalana Chinantec -}
+
+{-| Lalana Chinantec
+-}
 cnl : Language
 cnl =
     Language { code = "cnl" }
 
-{-| Con -}
+
+{-| Con
+-}
 cno : Language
 cno =
     Language { code = "cno" }
 
+
 {-| Northern Ping Chinese
-Northern Pinghua -}
+Northern Pinghua
+-}
 cnp : Language
 cnp =
     Language { code = "cnp" }
 
-{-| Montenegrin -}
+
+{-| Montenegrin
+-}
 cnr : Language
 cnr =
     Language { code = "cnr" }
 
-{-| Central Asmat -}
+
+{-| Central Asmat
+-}
 cns : Language
 cns =
     Language { code = "cns" }
 
-{-| Tepetotutla Chinantec -}
+
+{-| Tepetotutla Chinantec
+-}
 cnt : Language
 cnt =
     Language { code = "cnt" }
 
-{-| Chenoua -}
+
+{-| Chenoua
+-}
 cnu : Language
 cnu =
     Language { code = "cnu" }
 
-{-| Ngawn Chin -}
+
+{-| Ngawn Chin
+-}
 cnw : Language
 cnw =
     Language { code = "cnw" }
 
-{-| Middle Cornish -}
+
+{-| Middle Cornish
+-}
 cnx : Language
 cnx =
     Language { code = "cnx" }
 
-{-| Corsican -}
+
+{-| Corsican
+-}
 co : Language
 co =
     Language { code = "co" }
 
-{-| Cocos Islands Malay -}
+
+{-| Cocos Islands Malay
+-}
 coa : Language
 coa =
     Language { code = "coa" }
 
-{-| Chicomuceltec -}
+
+{-| Chicomuceltec
+-}
 cob : Language
 cob =
     Language { code = "cob" }
 
-{-| Cocopa -}
+
+{-| Cocopa
+-}
 coc : Language
 coc =
     Language { code = "coc" }
 
-{-| Cocama-Cocamilla -}
+
+{-| Cocama-Cocamilla
+-}
 cod : Language
 cod =
     Language { code = "cod" }
 
-{-| Koreguaje -}
+
+{-| Koreguaje
+-}
 coe : Language
 coe =
     Language { code = "coe" }
 
-{-| Colorado -}
+
+{-| Colorado
+-}
 cof : Language
 cof =
     Language { code = "cof" }
 
-{-| Chong -}
+
+{-| Chong
+-}
 cog : Language
 cog =
     Language { code = "cog" }
 
+
 {-| Chonyi-Dzihana-Kauma
-Chichonyi-Chidzihana-Chikauma -}
+Chichonyi-Chidzihana-Chikauma
+-}
 coh : Language
 coh =
     Language { code = "coh" }
 
-{-| Cochimi -}
+
+{-| Cochimi
+-}
 coj : Language
 coj =
     Language { code = "coj" }
 
-{-| Santa Teresa Cora -}
+
+{-| Santa Teresa Cora
+-}
 cok : Language
 cok =
     Language { code = "cok" }
 
-{-| Columbia-Wenatchi -}
+
+{-| Columbia-Wenatchi
+-}
 col : Language
 col =
     Language { code = "col" }
 
-{-| Comanche -}
+
+{-| Comanche
+-}
 com : Language
 com =
     Language { code = "com" }
 
-{-| Cofán -}
+
+{-| Cofán
+-}
 con : Language
 con =
     Language { code = "con" }
 
-{-| Comox -}
+
+{-| Comox
+-}
 coo : Language
 coo =
     Language { code = "coo" }
 
-{-| Coptic -}
+
+{-| Coptic
+-}
 cop : Language
 cop =
     Language { code = "cop" }
 
-{-| Coquille -}
+
+{-| Coquille
+-}
 coq : Language
 coq =
     Language { code = "coq" }
 
-{-| Caquinte -}
+
+{-| Caquinte
+-}
 cot : Language
 cot =
     Language { code = "cot" }
 
-{-| Wamey -}
+
+{-| Wamey
+-}
 cou : Language
 cou =
     Language { code = "cou" }
 
-{-| Cao Miao -}
+
+{-| Cao Miao
+-}
 cov : Language
 cov =
     Language { code = "cov" }
 
-{-| Cowlitz -}
+
+{-| Cowlitz
+-}
 cow : Language
 cow =
     Language { code = "cow" }
 
-{-| Nanti -}
+
+{-| Nanti
+-}
 cox : Language
 cox =
     Language { code = "cox" }
 
-{-| Coyaima -}
+
+{-| Coyaima
+-}
 coy : Language
 coy =
     Language { code = "coy" }
 
-{-| Chochotec -}
+
+{-| Chochotec
+-}
 coz : Language
 coz =
     Language { code = "coz" }
 
-{-| Palantla Chinantec -}
+
+{-| Palantla Chinantec
+-}
 cpa : Language
 cpa =
     Language { code = "cpa" }
 
-{-| Ucayali-Yurúa Ashéninka -}
+
+{-| Ucayali-Yurúa Ashéninka
+-}
 cpb : Language
 cpb =
     Language { code = "cpb" }
 
-{-| Ajyíninka Apurucayali -}
+
+{-| Ajyíninka Apurucayali
+-}
 cpc : Language
 cpc =
     Language { code = "cpc" }
 
-{-| English-based creoles and pidgins -}
+
+{-| English-based creoles and pidgins
+-}
 cpe : Language
 cpe =
     Language { code = "cpe" }
 
-{-| French-based creoles and pidgins -}
+
+{-| French-based creoles and pidgins
+-}
 cpf : Language
 cpf =
     Language { code = "cpf" }
 
-{-| Cappadocian Greek -}
+
+{-| Cappadocian Greek
+-}
 cpg : Language
 cpg =
     Language { code = "cpg" }
 
-{-| Chinese Pidgin English -}
+
+{-| Chinese Pidgin English
+-}
 cpi : Language
 cpi =
     Language { code = "cpi" }
 
-{-| Cherepon -}
+
+{-| Cherepon
+-}
 cpn : Language
 cpn =
     Language { code = "cpn" }
 
-{-| Kpeego -}
+
+{-| Kpeego
+-}
 cpo : Language
 cpo =
     Language { code = "cpo" }
 
-{-| Portuguese-based creoles and pidgins -}
+
+{-| Portuguese-based creoles and pidgins
+-}
 cpp : Language
 cpp =
     Language { code = "cpp" }
 
-{-| Capiznon -}
+
+{-| Capiznon
+-}
 cps : Language
 cps =
     Language { code = "cps" }
 
-{-| Pichis Ashéninka -}
+
+{-| Pichis Ashéninka
+-}
 cpu : Language
 cpu =
     Language { code = "cpu" }
 
-{-| Pu-Xian Chinese -}
+
+{-| Pu-Xian Chinese
+-}
 cpx : Language
 cpx =
     Language { code = "cpx" }
 
-{-| South Ucayali Ashéninka -}
+
+{-| South Ucayali Ashéninka
+-}
 cpy : Language
 cpy =
     Language { code = "cpy" }
 
-{-| Chuanqiandian Cluster Miao -}
+
+{-| Chuanqiandian Cluster Miao
+-}
 cqd : Language
 cqd =
     Language { code = "cqd" }
 
-{-| Chilean Quechua -}
+
+{-| Chilean Quechua
+-}
 cqu : Language
 cqu =
     Language { code = "cqu" }
 
-{-| Cree -}
+
+{-| Cree
+-}
 cr : Language
 cr =
     Language { code = "cr" }
 
-{-| Chara -}
+
+{-| Chara
+-}
 cra : Language
 cra =
     Language { code = "cra" }
 
-{-| Island Carib -}
+
+{-| Island Carib
+-}
 crb : Language
 crb =
     Language { code = "crb" }
 
-{-| Lonwolwol -}
+
+{-| Lonwolwol
+-}
 crc : Language
 crc =
     Language { code = "crc" }
 
-{-| Coeur d'Alene -}
+
+{-| Coeur d'Alene
+-}
 crd : Language
 crd =
     Language { code = "crd" }
 
-{-| Caramanta -}
+
+{-| Caramanta
+-}
 crf : Language
 crf =
     Language { code = "crf" }
 
-{-| Michif -}
+
+{-| Michif
+-}
 crg : Language
 crg =
     Language { code = "crg" }
 
+
 {-| Crimean Tatar
-Crimean Turkish -}
+Crimean Turkish
+-}
 crh : Language
 crh =
     Language { code = "crh" }
 
-{-| Sãotomense -}
+
+{-| Sãotomense
+-}
 cri : Language
 cri =
     Language { code = "cri" }
 
-{-| Southern East Cree -}
+
+{-| Southern East Cree
+-}
 crj : Language
 crj =
     Language { code = "crj" }
 
-{-| Plains Cree -}
+
+{-| Plains Cree
+-}
 crk : Language
 crk =
     Language { code = "crk" }
 
-{-| Northern East Cree -}
+
+{-| Northern East Cree
+-}
 crl : Language
 crl =
     Language { code = "crl" }
 
-{-| Moose Cree -}
+
+{-| Moose Cree
+-}
 crm : Language
 crm =
     Language { code = "crm" }
 
-{-| El Nayar Cora -}
+
+{-| El Nayar Cora
+-}
 crn : Language
 crn =
     Language { code = "crn" }
 
-{-| Crow -}
+
+{-| Crow
+-}
 cro : Language
 cro =
     Language { code = "cro" }
 
-{-| Creoles and pidgins -}
+
+{-| Creoles and pidgins
+-}
 crp : Language
 crp =
     Language { code = "crp" }
 
-{-| Iyo'wujwa Chorote -}
+
+{-| Iyo'wujwa Chorote
+-}
 crq : Language
 crq =
     Language { code = "crq" }
 
-{-| Carolina Algonquian -}
+
+{-| Carolina Algonquian
+-}
 crr : Language
 crr =
     Language { code = "crr" }
 
-{-| Seselwa Creole French -}
+
+{-| Seselwa Creole French
+-}
 crs : Language
 crs =
     Language { code = "crs" }
 
-{-| Iyojwa'ja Chorote -}
+
+{-| Iyojwa'ja Chorote
+-}
 crt : Language
 crt =
     Language { code = "crt" }
 
-{-| Chaura -}
+
+{-| Chaura
+-}
 crv : Language
 crv =
     Language { code = "crv" }
 
-{-| Chrau -}
+
+{-| Chrau
+-}
 crw : Language
 crw =
     Language { code = "crw" }
 
-{-| Carrier -}
+
+{-| Carrier
+-}
 crx : Language
 crx =
     Language { code = "crx" }
 
-{-| Cori -}
+
+{-| Cori
+-}
 cry : Language
 cry =
     Language { code = "cry" }
 
-{-| Cruzeño -}
+
+{-| Cruzeño
+-}
 crz : Language
 crz =
     Language { code = "crz" }
 
-{-| Czech -}
+
+{-| Czech
+-}
 cs : Language
 cs =
     Language { code = "cs" }
 
-{-| Chiltepec Chinantec -}
+
+{-| Chiltepec Chinantec
+-}
 csa : Language
 csa =
     Language { code = "csa" }
 
-{-| Kashubian -}
+
+{-| Kashubian
+-}
 csb : Language
 csb =
     Language { code = "csb" }
 
+
 {-| Catalan Sign Language
 Lengua de señas catalana
-Llengua de Signes Catalana -}
+Llengua de Signes Catalana
+-}
 csc : Language
 csc =
     Language { code = "csc" }
 
-{-| Chiangmai Sign Language -}
+
+{-| Chiangmai Sign Language
+-}
 csd : Language
 csd =
     Language { code = "csd" }
 
-{-| Czech Sign Language -}
+
+{-| Czech Sign Language
+-}
 cse : Language
 cse =
     Language { code = "cse" }
 
-{-| Cuba Sign Language -}
+
+{-| Cuba Sign Language
+-}
 csf : Language
 csf =
     Language { code = "csf" }
 
-{-| Chilean Sign Language -}
+
+{-| Chilean Sign Language
+-}
 csg : Language
 csg =
     Language { code = "csg" }
 
-{-| Asho Chin -}
+
+{-| Asho Chin
+-}
 csh : Language
 csh =
     Language { code = "csh" }
 
-{-| Coast Miwok -}
+
+{-| Coast Miwok
+-}
 csi : Language
 csi =
     Language { code = "csi" }
 
-{-| Songlai Chin -}
+
+{-| Songlai Chin
+-}
 csj : Language
 csj =
     Language { code = "csj" }
 
-{-| Jola-Kasa -}
+
+{-| Jola-Kasa
+-}
 csk : Language
 csk =
     Language { code = "csk" }
 
-{-| Chinese Sign Language -}
+
+{-| Chinese Sign Language
+-}
 csl : Language
 csl =
     Language { code = "csl" }
 
-{-| Central Sierra Miwok -}
+
+{-| Central Sierra Miwok
+-}
 csm : Language
 csm =
     Language { code = "csm" }
 
-{-| Colombian Sign Language -}
+
+{-| Colombian Sign Language
+-}
 csn : Language
 csn =
     Language { code = "csn" }
 
+
 {-| Sochiapam Chinantec
-Sochiapan Chinantec -}
+Sochiapan Chinantec
+-}
 cso : Language
 cso =
     Language { code = "cso" }
 
+
 {-| Southern Ping Chinese
-Southern Pinghua -}
+Southern Pinghua
+-}
 csp : Language
 csp =
     Language { code = "csp" }
 
-{-| Croatia Sign Language -}
+
+{-| Croatia Sign Language
+-}
 csq : Language
 csq =
     Language { code = "csq" }
 
-{-| Costa Rican Sign Language -}
+
+{-| Costa Rican Sign Language
+-}
 csr : Language
 csr =
     Language { code = "csr" }
 
-{-| Southern Ohlone -}
+
+{-| Southern Ohlone
+-}
 css : Language
 css =
     Language { code = "css" }
 
-{-| Northern Ohlone -}
+
+{-| Northern Ohlone
+-}
 cst : Language
 cst =
     Language { code = "cst" }
 
-{-| Central Sudanic languages -}
+
+{-| Central Sudanic languages
+-}
 csu : Language
 csu =
     Language { code = "csu" }
 
-{-| Sumtu Chin -}
+
+{-| Sumtu Chin
+-}
 csv : Language
 csv =
     Language { code = "csv" }
 
-{-| Swampy Cree -}
+
+{-| Swampy Cree
+-}
 csw : Language
 csw =
     Language { code = "csw" }
 
-{-| Siyin Chin -}
+
+{-| Siyin Chin
+-}
 csy : Language
 csy =
     Language { code = "csy" }
 
-{-| Coos -}
+
+{-| Coos
+-}
 csz : Language
 csz =
     Language { code = "csz" }
 
-{-| Tataltepec Chatino -}
+
+{-| Tataltepec Chatino
+-}
 cta : Language
 cta =
     Language { code = "cta" }
 
-{-| Chetco -}
+
+{-| Chetco
+-}
 ctc : Language
 ctc =
     Language { code = "ctc" }
 
-{-| Tedim Chin -}
+
+{-| Tedim Chin
+-}
 ctd : Language
 ctd =
     Language { code = "ctd" }
 
-{-| Tepinapa Chinantec -}
+
+{-| Tepinapa Chinantec
+-}
 cte : Language
 cte =
     Language { code = "cte" }
 
-{-| Chittagonian -}
+
+{-| Chittagonian
+-}
 ctg : Language
 ctg =
     Language { code = "ctg" }
 
-{-| Thaiphum Chin -}
+
+{-| Thaiphum Chin
+-}
 cth : Language
 cth =
     Language { code = "cth" }
 
-{-| Tlacoatzintepec Chinantec -}
+
+{-| Tlacoatzintepec Chinantec
+-}
 ctl : Language
 ctl =
     Language { code = "ctl" }
 
-{-| Chitimacha -}
+
+{-| Chitimacha
+-}
 ctm : Language
 ctm =
     Language { code = "ctm" }
 
-{-| Chhintange -}
+
+{-| Chhintange
+-}
 ctn : Language
 ctn =
     Language { code = "ctn" }
 
-{-| Emberá-Catío -}
+
+{-| Emberá-Catío
+-}
 cto : Language
 cto =
     Language { code = "cto" }
 
-{-| Western Highland Chatino -}
+
+{-| Western Highland Chatino
+-}
 ctp : Language
 ctp =
     Language { code = "ctp" }
 
-{-| Northern Catanduanes Bikol -}
+
+{-| Northern Catanduanes Bikol
+-}
 cts : Language
 cts =
     Language { code = "cts" }
 
-{-| Wayanad Chetti -}
+
+{-| Wayanad Chetti
+-}
 ctt : Language
 ctt =
     Language { code = "ctt" }
 
-{-| Chol -}
+
+{-| Chol
+-}
 ctu : Language
 ctu =
     Language { code = "ctu" }
 
-{-| Zacatepec Chatino -}
+
+{-| Zacatepec Chatino
+-}
 ctz : Language
 ctz =
     Language { code = "ctz" }
+
 
 {-| Church Slavic
 Church Slavonic
 Old Bulgarian
 Old Church Slavonic
-Old Slavonic -}
+Old Slavonic
+-}
 cu : Language
 cu =
     Language { code = "cu" }
 
-{-| Cua -}
+
+{-| Cua
+-}
 cua : Language
 cua =
     Language { code = "cua" }
 
-{-| Cubeo -}
+
+{-| Cubeo
+-}
 cub : Language
 cub =
     Language { code = "cub" }
 
-{-| Usila Chinantec -}
+
+{-| Usila Chinantec
+-}
 cuc : Language
 cuc =
     Language { code = "cuc" }
 
+
 {-| Chungmboko
-Cung -}
+Cung
+-}
 cug : Language
 cug =
     Language { code = "cug" }
 
+
 {-| Chuka
-Gichuka -}
+Gichuka
+-}
 cuh : Language
 cuh =
     Language { code = "cuh" }
 
-{-| Cuiba -}
+
+{-| Cuiba
+-}
 cui : Language
 cui =
     Language { code = "cui" }
 
-{-| Mashco Piro -}
+
+{-| Mashco Piro
+-}
 cuj : Language
 cuj =
     Language { code = "cuj" }
 
-{-| San Blas Kuna -}
+
+{-| San Blas Kuna
+-}
 cuk : Language
 cuk =
     Language { code = "cuk" }
 
+
 {-| Culina
-Kulina -}
+Kulina
+-}
 cul : Language
 cul =
     Language { code = "cul" }
 
-{-| Cumeral -}
+
+{-| Cumeral
+-}
 cum : Language
 cum =
     Language { code = "cum" }
 
-{-| Cumanagoto -}
+
+{-| Cumanagoto
+-}
 cuo : Language
 cuo =
     Language { code = "cuo" }
 
-{-| Cupeño -}
+
+{-| Cupeño
+-}
 cup : Language
 cup =
     Language { code = "cup" }
 
-{-| Cun -}
+
+{-| Cun
+-}
 cuq : Language
 cuq =
     Language { code = "cuq" }
 
-{-| Chhulung -}
+
+{-| Chhulung
+-}
 cur : Language
 cur =
     Language { code = "cur" }
 
-{-| Cushitic languages -}
+
+{-| Cushitic languages
+-}
 cus : Language
 cus =
     Language { code = "cus" }
 
-{-| Teutila Cuicatec -}
+
+{-| Teutila Cuicatec
+-}
 cut : Language
 cut =
     Language { code = "cut" }
 
-{-| Tai Ya -}
+
+{-| Tai Ya
+-}
 cuu : Language
 cuu =
     Language { code = "cuu" }
 
-{-| Cuvok -}
+
+{-| Cuvok
+-}
 cuv : Language
 cuv =
     Language { code = "cuv" }
 
-{-| Chukwa -}
+
+{-| Chukwa
+-}
 cuw : Language
 cuw =
     Language { code = "cuw" }
 
-{-| Tepeuxila Cuicatec -}
+
+{-| Tepeuxila Cuicatec
+-}
 cux : Language
 cux =
     Language { code = "cux" }
 
-{-| Cuitlatec -}
+
+{-| Cuitlatec
+-}
 cuy : Language
 cuy =
     Language { code = "cuy" }
 
-{-| Chuvash -}
+
+{-| Chuvash
+-}
 cv : Language
 cv =
     Language { code = "cv" }
 
-{-| Chug -}
+
+{-| Chug
+-}
 cvg : Language
 cvg =
     Language { code = "cvg" }
 
-{-| Valle Nacional Chinantec -}
+
+{-| Valle Nacional Chinantec
+-}
 cvn : Language
 cvn =
     Language { code = "cvn" }
 
-{-| Kabwa -}
+
+{-| Kabwa
+-}
 cwa : Language
 cwa =
     Language { code = "cwa" }
 
-{-| Maindo -}
+
+{-| Maindo
+-}
 cwb : Language
 cwb =
     Language { code = "cwb" }
 
-{-| Woods Cree -}
+
+{-| Woods Cree
+-}
 cwd : Language
 cwd =
     Language { code = "cwd" }
 
-{-| Kwere -}
+
+{-| Kwere
+-}
 cwe : Language
 cwe =
     Language { code = "cwe" }
 
+
 {-| Chewong
-Cheq Wong -}
+Cheq Wong
+-}
 cwg : Language
 cwg =
     Language { code = "cwg" }
 
-{-| Kuwaataay -}
+
+{-| Kuwaataay
+-}
 cwt : Language
 cwt =
     Language { code = "cwt" }
 
-{-| Welsh -}
+
+{-| Welsh
+-}
 cy : Language
 cy =
     Language { code = "cy" }
 
-{-| Nopala Chatino -}
+
+{-| Nopala Chatino
+-}
 cya : Language
 cya =
     Language { code = "cya" }
 
-{-| Cayubaba -}
+
+{-| Cayubaba
+-}
 cyb : Language
 cyb =
     Language { code = "cyb" }
 
-{-| Cuyonon -}
+
+{-| Cuyonon
+-}
 cyo : Language
 cyo =
     Language { code = "cyo" }
 
-{-| Huizhou Chinese -}
+
+{-| Huizhou Chinese
+-}
 czh : Language
 czh =
     Language { code = "czh" }
 
-{-| Knaanic -}
+
+{-| Knaanic
+-}
 czk : Language
 czk =
     Language { code = "czk" }
 
-{-| Zenzontepec Chatino -}
+
+{-| Zenzontepec Chatino
+-}
 czn : Language
 czn =
     Language { code = "czn" }
 
-{-| Min Zhong Chinese -}
+
+{-| Min Zhong Chinese
+-}
 czo : Language
 czo =
     Language { code = "czo" }
 
-{-| Zotung Chin -}
+
+{-| Zotung Chin
+-}
 czt : Language
 czt =
     Language { code = "czt" }
 
-{-| Danish -}
+
+{-| Danish
+-}
 da : Language
 da =
     Language { code = "da" }
 
-{-| Dangaléat -}
+
+{-| Dangaléat
+-}
 daa : Language
 daa =
     Language { code = "daa" }
 
-{-| Dambi -}
+
+{-| Dambi
+-}
 dac : Language
 dac =
     Language { code = "dac" }
 
-{-| Marik -}
+
+{-| Marik
+-}
 dad : Language
 dad =
     Language { code = "dad" }
 
-{-| Duupa -}
+
+{-| Duupa
+-}
 dae : Language
 dae =
     Language { code = "dae" }
 
-{-| Dan -}
+
+{-| Dan
+-}
 daf : Language
 daf =
     Language { code = "daf" }
 
-{-| Dagbani -}
+
+{-| Dagbani
+-}
 dag : Language
 dag =
     Language { code = "dag" }
 
-{-| Gwahatike -}
+
+{-| Gwahatike
+-}
 dah : Language
 dah =
     Language { code = "dah" }
 
-{-| Day -}
+
+{-| Day
+-}
 dai : Language
 dai =
     Language { code = "dai" }
 
-{-| Dar Fur Daju -}
+
+{-| Dar Fur Daju
+-}
 daj : Language
 daj =
     Language { code = "daj" }
 
-{-| Dakota -}
+
+{-| Dakota
+-}
 dak : Language
 dak =
     Language { code = "dak" }
 
-{-| Dahalo -}
+
+{-| Dahalo
+-}
 dal : Language
 dal =
     Language { code = "dal" }
 
-{-| Damakawa -}
+
+{-| Damakawa
+-}
 dam : Language
 dam =
     Language { code = "dam" }
 
-{-| Daai Chin -}
+
+{-| Daai Chin
+-}
 dao : Language
 dao =
     Language { code = "dao" }
 
-{-| Nisi (India) -}
+
+{-| Nisi (India)
+-}
 dap : Language
 dap =
     Language { code = "dap" }
 
-{-| Dandami Maria -}
+
+{-| Dandami Maria
+-}
 daq : Language
 daq =
     Language { code = "daq" }
 
-{-| Dargwa -}
+
+{-| Dargwa
+-}
 dar : Language
 dar =
     Language { code = "dar" }
 
-{-| Daho-Doo -}
+
+{-| Daho-Doo
+-}
 das : Language
 das =
     Language { code = "das" }
 
-{-| Dar Sila Daju -}
+
+{-| Dar Sila Daju
+-}
 dau : Language
 dau =
     Language { code = "dau" }
 
+
 {-| Taita
-Dawida -}
+Dawida
+-}
 dav : Language
 dav =
     Language { code = "dav" }
 
-{-| Davawenyo -}
+
+{-| Davawenyo
+-}
 daw : Language
 daw =
     Language { code = "daw" }
 
-{-| Dayi -}
+
+{-| Dayi
+-}
 dax : Language
 dax =
     Language { code = "dax" }
 
-{-| Land Dayak languages -}
+
+{-| Land Dayak languages
+-}
 day : Language
 day =
     Language { code = "day" }
 
-{-| Dao -}
+
+{-| Dao
+-}
 daz : Language
 daz =
     Language { code = "daz" }
 
-{-| Bangime -}
+
+{-| Bangime
+-}
 dba : Language
 dba =
     Language { code = "dba" }
 
-{-| Deno -}
+
+{-| Deno
+-}
 dbb : Language
 dbb =
     Language { code = "dbb" }
 
-{-| Dadiya -}
+
+{-| Dadiya
+-}
 dbd : Language
 dbd =
     Language { code = "dbd" }
 
-{-| Dabe -}
+
+{-| Dabe
+-}
 dbe : Language
 dbe =
     Language { code = "dbe" }
 
-{-| Edopi -}
+
+{-| Edopi
+-}
 dbf : Language
 dbf =
     Language { code = "dbf" }
 
-{-| Dogul Dom Dogon -}
+
+{-| Dogul Dom Dogon
+-}
 dbg : Language
 dbg =
     Language { code = "dbg" }
 
-{-| Doka -}
+
+{-| Doka
+-}
 dbi : Language
 dbi =
     Language { code = "dbi" }
 
-{-| Ida'an -}
+
+{-| Ida'an
+-}
 dbj : Language
 dbj =
     Language { code = "dbj" }
 
-{-| Dyirbal -}
+
+{-| Dyirbal
+-}
 dbl : Language
 dbl =
     Language { code = "dbl" }
 
-{-| Duguri -}
+
+{-| Duguri
+-}
 dbm : Language
 dbm =
     Language { code = "dbm" }
 
-{-| Duriankere -}
+
+{-| Duriankere
+-}
 dbn : Language
 dbn =
     Language { code = "dbn" }
 
-{-| Dulbu -}
+
+{-| Dulbu
+-}
 dbo : Language
 dbo =
     Language { code = "dbo" }
 
-{-| Duwai -}
+
+{-| Duwai
+-}
 dbp : Language
 dbp =
     Language { code = "dbp" }
 
-{-| Daba -}
+
+{-| Daba
+-}
 dbq : Language
 dbq =
     Language { code = "dbq" }
 
-{-| Dabarre -}
+
+{-| Dabarre
+-}
 dbr : Language
 dbr =
     Language { code = "dbr" }
 
-{-| Ben Tey Dogon -}
+
+{-| Ben Tey Dogon
+-}
 dbt : Language
 dbt =
     Language { code = "dbt" }
 
-{-| Bondum Dom Dogon -}
+
+{-| Bondum Dom Dogon
+-}
 dbu : Language
 dbu =
     Language { code = "dbu" }
 
-{-| Dungu -}
+
+{-| Dungu
+-}
 dbv : Language
 dbv =
     Language { code = "dbv" }
 
-{-| Bankan Tey Dogon -}
+
+{-| Bankan Tey Dogon
+-}
 dbw : Language
 dbw =
     Language { code = "dbw" }
 
-{-| Dibiyaso -}
+
+{-| Dibiyaso
+-}
 dby : Language
 dby =
     Language { code = "dby" }
 
-{-| Deccan -}
+
+{-| Deccan
+-}
 dcc : Language
 dcc =
     Language { code = "dcc" }
 
-{-| Negerhollands -}
+
+{-| Negerhollands
+-}
 dcr : Language
 dcr =
     Language { code = "dcr" }
 
-{-| Dadi Dadi -}
+
+{-| Dadi Dadi
+-}
 dda : Language
 dda =
     Language { code = "dda" }
 
-{-| Dongotono -}
+
+{-| Dongotono
+-}
 ddd : Language
 ddd =
     Language { code = "ddd" }
 
-{-| Doondo -}
+
+{-| Doondo
+-}
 dde : Language
 dde =
     Language { code = "dde" }
 
-{-| Fataluku -}
+
+{-| Fataluku
+-}
 ddg : Language
 ddg =
     Language { code = "ddg" }
 
-{-| West Goodenough -}
+
+{-| West Goodenough
+-}
 ddi : Language
 ddi =
     Language { code = "ddi" }
 
-{-| Jaru -}
+
+{-| Jaru
+-}
 ddj : Language
 ddj =
     Language { code = "ddj" }
 
-{-| Dendi (Benin) -}
+
+{-| Dendi (Benin)
+-}
 ddn : Language
 ddn =
     Language { code = "ddn" }
 
-{-| Dido -}
+
+{-| Dido
+-}
 ddo : Language
 ddo =
     Language { code = "ddo" }
 
-{-| Dhudhuroa -}
+
+{-| Dhudhuroa
+-}
 ddr : Language
 ddr =
     Language { code = "ddr" }
 
-{-| Donno So Dogon -}
+
+{-| Donno So Dogon
+-}
 dds : Language
 dds =
     Language { code = "dds" }
 
-{-| Dawera-Daweloor -}
+
+{-| Dawera-Daweloor
+-}
 ddw : Language
 ddw =
     Language { code = "ddw" }
 
-{-| German -}
+
+{-| German
+-}
 de : Language
 de =
     Language { code = "de" }
 
-{-| Dagik -}
+
+{-| Dagik
+-}
 dec : Language
 dec =
     Language { code = "dec" }
 
-{-| Dedua -}
+
+{-| Dedua
+-}
 ded : Language
 ded =
     Language { code = "ded" }
 
-{-| Dewoin -}
+
+{-| Dewoin
+-}
 dee : Language
 dee =
     Language { code = "dee" }
 
-{-| Dezfuli -}
+
+{-| Dezfuli
+-}
 def : Language
 def =
     Language { code = "def" }
 
-{-| Degema -}
+
+{-| Degema
+-}
 deg : Language
 deg =
     Language { code = "deg" }
 
-{-| Dehwari -}
+
+{-| Dehwari
+-}
 deh : Language
 deh =
     Language { code = "deh" }
 
-{-| Demisa -}
+
+{-| Demisa
+-}
 dei : Language
 dei =
     Language { code = "dei" }
 
-{-| Dek -}
+
+{-| Dek
+-}
 dek : Language
 dek =
     Language { code = "dek" }
 
-{-| Delaware -}
+
+{-| Delaware
+-}
 del : Language
 del =
     Language { code = "del" }
 
-{-| Dem -}
+
+{-| Dem
+-}
 dem : Language
 dem =
     Language { code = "dem" }
 
-{-| Slave (Athapascan) -}
+
+{-| Slave (Athapascan)
+-}
 den : Language
 den =
     Language { code = "den" }
 
-{-| Pidgin Delaware -}
+
+{-| Pidgin Delaware
+-}
 dep : Language
 dep =
     Language { code = "dep" }
 
-{-| Dendi (Central African Republic) -}
+
+{-| Dendi (Central African Republic)
+-}
 deq : Language
 deq =
     Language { code = "deq" }
 
-{-| Deori -}
+
+{-| Deori
+-}
 der : Language
 der =
     Language { code = "der" }
 
-{-| Desano -}
+
+{-| Desano
+-}
 des : Language
 des =
     Language { code = "des" }
 
-{-| Domung -}
+
+{-| Domung
+-}
 dev : Language
 dev =
     Language { code = "dev" }
 
-{-| Dengese -}
+
+{-| Dengese
+-}
 dez : Language
 dez =
     Language { code = "dez" }
 
-{-| Southern Dagaare -}
+
+{-| Southern Dagaare
+-}
 dga : Language
 dga =
     Language { code = "dga" }
 
-{-| Bunoge Dogon -}
+
+{-| Bunoge Dogon
+-}
 dgb : Language
 dgb =
     Language { code = "dgb" }
 
-{-| Casiguran Dumagat Agta -}
+
+{-| Casiguran Dumagat Agta
+-}
 dgc : Language
 dgc =
     Language { code = "dgc" }
 
-{-| Dagaari Dioula -}
+
+{-| Dagaari Dioula
+-}
 dgd : Language
 dgd =
     Language { code = "dgd" }
 
-{-| Degenan -}
+
+{-| Degenan
+-}
 dge : Language
 dge =
     Language { code = "dge" }
 
-{-| Doga -}
+
+{-| Doga
+-}
 dgg : Language
 dgg =
     Language { code = "dgg" }
 
-{-| Dghwede -}
+
+{-| Dghwede
+-}
 dgh : Language
 dgh =
     Language { code = "dgh" }
 
-{-| Northern Dagara -}
+
+{-| Northern Dagara
+-}
 dgi : Language
 dgi =
     Language { code = "dgi" }
 
-{-| Dagba -}
+
+{-| Dagba
+-}
 dgk : Language
 dgk =
     Language { code = "dgk" }
 
+
 {-| Andaandi
-Dongolawi -}
+Dongolawi
+-}
 dgl : Language
 dgl =
     Language { code = "dgl" }
 
-{-| Dagoman -}
+
+{-| Dagoman
+-}
 dgn : Language
 dgn =
     Language { code = "dgn" }
 
-{-| Dogri (individual language) -}
+
+{-| Dogri (individual language)
+-}
 dgo : Language
 dgo =
     Language { code = "dgo" }
 
+
 {-| Dogrib
-Tłı̨chǫ -}
+Tłı̨chǫ
+-}
 dgr : Language
 dgr =
     Language { code = "dgr" }
 
-{-| Dogoso -}
+
+{-| Dogoso
+-}
 dgs : Language
 dgs =
     Language { code = "dgs" }
 
-{-| Ndra'ngith -}
+
+{-| Ndra'ngith
+-}
 dgt : Language
 dgt =
     Language { code = "dgt" }
 
-{-| Degaru -}
+
+{-| Degaru
+-}
 dgu : Language
 dgu =
     Language { code = "dgu" }
 
-{-| Daungwurrung -}
+
+{-| Daungwurrung
+-}
 dgw : Language
 dgw =
     Language { code = "dgw" }
 
-{-| Doghoro -}
+
+{-| Doghoro
+-}
 dgx : Language
 dgx =
     Language { code = "dgx" }
 
-{-| Daga -}
+
+{-| Daga
+-}
 dgz : Language
 dgz =
     Language { code = "dgz" }
 
-{-| Dhanwar (India) -}
+
+{-| Dhanwar (India)
+-}
 dha : Language
 dha =
     Language { code = "dha" }
 
-{-| Dhundari -}
+
+{-| Dhundari
+-}
 dhd : Language
 dhd =
     Language { code = "dhd" }
 
+
 {-| Dhangu-Djangu
 Dhangu
-Djangu -}
+Djangu
+-}
 dhg : Language
 dhg =
     Language { code = "dhg" }
 
-{-| Dhimal -}
+
+{-| Dhimal
+-}
 dhi : Language
 dhi =
     Language { code = "dhi" }
 
-{-| Dhalandji -}
+
+{-| Dhalandji
+-}
 dhl : Language
 dhl =
     Language { code = "dhl" }
 
-{-| Zemba -}
+
+{-| Zemba
+-}
 dhm : Language
 dhm =
     Language { code = "dhm" }
 
-{-| Dhanki -}
+
+{-| Dhanki
+-}
 dhn : Language
 dhn =
     Language { code = "dhn" }
 
-{-| Dhodia -}
+
+{-| Dhodia
+-}
 dho : Language
 dho =
     Language { code = "dho" }
 
-{-| Dhargari -}
+
+{-| Dhargari
+-}
 dhr : Language
 dhr =
     Language { code = "dhr" }
 
-{-| Dhaiso -}
+
+{-| Dhaiso
+-}
 dhs : Language
 dhs =
     Language { code = "dhs" }
 
-{-| Dhurga -}
+
+{-| Dhurga
+-}
 dhu : Language
 dhu =
     Language { code = "dhu" }
 
+
 {-| Dehu
-Drehu -}
+Drehu
+-}
 dhv : Language
 dhv =
     Language { code = "dhv" }
 
-{-| Dhanwar (Nepal) -}
+
+{-| Dhanwar (Nepal)
+-}
 dhw : Language
 dhw =
     Language { code = "dhw" }
 
-{-| Dhungaloo -}
+
+{-| Dhungaloo
+-}
 dhx : Language
 dhx =
     Language { code = "dhx" }
 
-{-| Dia -}
+
+{-| Dia
+-}
 dia : Language
 dia =
     Language { code = "dia" }
 
-{-| South Central Dinka -}
+
+{-| South Central Dinka
+-}
 dib : Language
 dib =
     Language { code = "dib" }
 
-{-| Lakota Dida -}
+
+{-| Lakota Dida
+-}
 dic : Language
 dic =
     Language { code = "dic" }
 
-{-| Didinga -}
+
+{-| Didinga
+-}
 did : Language
 did =
     Language { code = "did" }
 
+
 {-| Dieri
-Diyari -}
+Diyari
+-}
 dif : Language
 dif =
     Language { code = "dif" }
 
+
 {-| Digo
-Chidigo -}
+Chidigo
+-}
 dig : Language
 dig =
     Language { code = "dig" }
 
-{-| Kumiai -}
+
+{-| Kumiai
+-}
 dih : Language
 dih =
     Language { code = "dih" }
 
-{-| Dimbong -}
+
+{-| Dimbong
+-}
 dii : Language
 dii =
     Language { code = "dii" }
 
-{-| Dai -}
+
+{-| Dai
+-}
 dij : Language
 dij =
     Language { code = "dij" }
 
-{-| Southwestern Dinka -}
+
+{-| Southwestern Dinka
+-}
 dik : Language
 dik =
     Language { code = "dik" }
 
-{-| Dilling -}
+
+{-| Dilling
+-}
 dil : Language
 dil =
     Language { code = "dil" }
 
-{-| Dime -}
+
+{-| Dime
+-}
 dim : Language
 dim =
     Language { code = "dim" }
 
-{-| Dinka -}
+
+{-| Dinka
+-}
 din : Language
 din =
     Language { code = "din" }
 
-{-| Dibo -}
+
+{-| Dibo
+-}
 dio : Language
 dio =
     Language { code = "dio" }
 
-{-| Northeastern Dinka -}
+
+{-| Northeastern Dinka
+-}
 dip : Language
 dip =
     Language { code = "dip" }
 
-{-| Dimli (individual language) -}
+
+{-| Dimli (individual language)
+-}
 diq : Language
 diq =
     Language { code = "diq" }
 
-{-| Dirim -}
+
+{-| Dirim
+-}
 dir : Language
 dir =
     Language { code = "dir" }
 
-{-| Dimasa -}
+
+{-| Dimasa
+-}
 dis : Language
 dis =
     Language { code = "dis" }
 
-{-| Dirari -}
+
+{-| Dirari
+-}
 dit : Language
 dit =
     Language { code = "dit" }
 
-{-| Diriku -}
+
+{-| Diriku
+-}
 diu : Language
 diu =
     Language { code = "diu" }
 
-{-| Northwestern Dinka -}
+
+{-| Northwestern Dinka
+-}
 diw : Language
 diw =
     Language { code = "diw" }
 
-{-| Dixon Reef -}
+
+{-| Dixon Reef
+-}
 dix : Language
 dix =
     Language { code = "dix" }
 
-{-| Diuwe -}
+
+{-| Diuwe
+-}
 diy : Language
 diy =
     Language { code = "diy" }
 
-{-| Ding -}
+
+{-| Ding
+-}
 diz : Language
 diz =
     Language { code = "diz" }
 
-{-| Djadjawurrung -}
+
+{-| Djadjawurrung
+-}
 dja : Language
 dja =
     Language { code = "dja" }
 
-{-| Djinba -}
+
+{-| Djinba
+-}
 djb : Language
 djb =
     Language { code = "djb" }
 
-{-| Dar Daju Daju -}
+
+{-| Dar Daju Daju
+-}
 djc : Language
 djc =
     Language { code = "djc" }
 
+
 {-| Djamindjung
-Ngaliwurru -}
+Ngaliwurru
+-}
 djd : Language
 djd =
     Language { code = "djd" }
 
-{-| Zarma -}
+
+{-| Zarma
+-}
 dje : Language
 dje =
     Language { code = "dje" }
 
-{-| Djangun -}
+
+{-| Djangun
+-}
 djf : Language
 djf =
     Language { code = "djf" }
 
-{-| Djinang -}
+
+{-| Djinang
+-}
 dji : Language
 dji =
     Language { code = "dji" }
 
-{-| Djeebbana -}
+
+{-| Djeebbana
+-}
 djj : Language
 djj =
     Language { code = "djj" }
 
+
 {-| Eastern Maroon Creole
 Businenge Tongo
-Nenge -}
+Nenge
+-}
 djk : Language
 djk =
     Language { code = "djk" }
 
-{-| Djiwarli -}
+
+{-| Djiwarli
+-}
 djl : Language
 djl =
     Language { code = "djl" }
 
-{-| Jamsay Dogon -}
+
+{-| Jamsay Dogon
+-}
 djm : Language
 djm =
     Language { code = "djm" }
 
+
 {-| Jawoyn
-Djauan -}
+Djauan
+-}
 djn : Language
 djn =
     Language { code = "djn" }
 
-{-| Jangkang -}
+
+{-| Jangkang
+-}
 djo : Language
 djo =
     Language { code = "djo" }
 
-{-| Djambarrpuyngu -}
+
+{-| Djambarrpuyngu
+-}
 djr : Language
 djr =
     Language { code = "djr" }
 
-{-| Kapriman -}
+
+{-| Kapriman
+-}
 dju : Language
 dju =
     Language { code = "dju" }
 
-{-| Djawi -}
+
+{-| Djawi
+-}
 djw : Language
 djw =
     Language { code = "djw" }
 
-{-| Dakpakha -}
+
+{-| Dakpakha
+-}
 dka : Language
 dka =
     Language { code = "dka" }
 
-{-| Dakka -}
+
+{-| Dakka
+-}
 dkk : Language
 dkk =
     Language { code = "dkk" }
 
-{-| Kolum So Dogon -}
+
+{-| Kolum So Dogon
+-}
 dkl : Language
 dkl =
     Language { code = "dkl" }
 
-{-| Kuijau -}
+
+{-| Kuijau
+-}
 dkr : Language
 dkr =
     Language { code = "dkr" }
 
-{-| Southeastern Dinka -}
+
+{-| Southeastern Dinka
+-}
 dks : Language
 dks =
     Language { code = "dks" }
 
-{-| Mazagway -}
+
+{-| Mazagway
+-}
 dkx : Language
 dkx =
     Language { code = "dkx" }
 
-{-| Dolgan -}
+
+{-| Dolgan
+-}
 dlg : Language
 dlg =
     Language { code = "dlg" }
 
-{-| Dahalik -}
+
+{-| Dahalik
+-}
 dlk : Language
 dlk =
     Language { code = "dlk" }
 
-{-| Dalmatian -}
+
+{-| Dalmatian
+-}
 dlm : Language
 dlm =
     Language { code = "dlm" }
 
-{-| Darlong -}
+
+{-| Darlong
+-}
 dln : Language
 dln =
     Language { code = "dln" }
 
-{-| Duma -}
+
+{-| Duma
+-}
 dma : Language
 dma =
     Language { code = "dma" }
 
-{-| Mombo Dogon -}
+
+{-| Mombo Dogon
+-}
 dmb : Language
 dmb =
     Language { code = "dmb" }
 
-{-| Gavak -}
+
+{-| Gavak
+-}
 dmc : Language
 dmc =
     Language { code = "dmc" }
 
-{-| Madhi Madhi -}
+
+{-| Madhi Madhi
+-}
 dmd : Language
 dmd =
     Language { code = "dmd" }
 
-{-| Dugwor -}
+
+{-| Dugwor
+-}
 dme : Language
 dme =
     Language { code = "dme" }
 
-{-| Medefaidrin -}
+
+{-| Medefaidrin
+-}
 dmf : Language
 dmf =
     Language { code = "dmf" }
 
-{-| Upper Kinabatangan -}
+
+{-| Upper Kinabatangan
+-}
 dmg : Language
 dmg =
     Language { code = "dmg" }
 
-{-| Domaaki -}
+
+{-| Domaaki
+-}
 dmk : Language
 dmk =
     Language { code = "dmk" }
 
-{-| Dameli -}
+
+{-| Dameli
+-}
 dml : Language
 dml =
     Language { code = "dml" }
 
-{-| Dama -}
+
+{-| Dama
+-}
 dmm : Language
 dmm =
     Language { code = "dmm" }
 
-{-| Mande languages -}
+
+{-| Mande languages
+-}
 dmn : Language
 dmn =
     Language { code = "dmn" }
 
-{-| Kemedzung -}
+
+{-| Kemedzung
+-}
 dmo : Language
 dmo =
     Language { code = "dmo" }
 
-{-| East Damar -}
+
+{-| East Damar
+-}
 dmr : Language
 dmr =
     Language { code = "dmr" }
 
-{-| Dampelas -}
+
+{-| Dampelas
+-}
 dms : Language
 dms =
     Language { code = "dms" }
 
+
 {-| Dubu
-Tebi -}
+Tebi
+-}
 dmu : Language
 dmu =
     Language { code = "dmu" }
 
-{-| Dumpas -}
+
+{-| Dumpas
+-}
 dmv : Language
 dmv =
     Language { code = "dmv" }
 
-{-| Mudburra -}
+
+{-| Mudburra
+-}
 dmw : Language
 dmw =
     Language { code = "dmw" }
 
-{-| Dema -}
+
+{-| Dema
+-}
 dmx : Language
 dmx =
     Language { code = "dmx" }
 
+
 {-| Demta
-Sowari -}
+Sowari
+-}
 dmy : Language
 dmy =
     Language { code = "dmy" }
 
-{-| Upper Grand Valley Dani -}
+
+{-| Upper Grand Valley Dani
+-}
 dna : Language
 dna =
     Language { code = "dna" }
 
-{-| Daonda -}
+
+{-| Daonda
+-}
 dnd : Language
 dnd =
     Language { code = "dnd" }
 
-{-| Ndendeule -}
+
+{-| Ndendeule
+-}
 dne : Language
 dne =
     Language { code = "dne" }
 
-{-| Dungan -}
+
+{-| Dungan
+-}
 dng : Language
 dng =
     Language { code = "dng" }
 
-{-| Lower Grand Valley Dani -}
+
+{-| Lower Grand Valley Dani
+-}
 dni : Language
 dni =
     Language { code = "dni" }
 
-{-| Dan -}
+
+{-| Dan
+-}
 dnj : Language
 dnj =
     Language { code = "dnj" }
 
-{-| Dengka -}
+
+{-| Dengka
+-}
 dnk : Language
 dnk =
     Language { code = "dnk" }
 
-{-| Dzùùngoo -}
+
+{-| Dzùùngoo
+-}
 dnn : Language
 dnn =
     Language { code = "dnn" }
 
+
 {-| Ndrulo
-Northern Lendu -}
+Northern Lendu
+-}
 dno : Language
 dno =
     Language { code = "dno" }
 
-{-| Danaru -}
+
+{-| Danaru
+-}
 dnr : Language
 dnr =
     Language { code = "dnr" }
 
-{-| Mid Grand Valley Dani -}
+
+{-| Mid Grand Valley Dani
+-}
 dnt : Language
 dnt =
     Language { code = "dnt" }
 
-{-| Danau -}
+
+{-| Danau
+-}
 dnu : Language
 dnu =
     Language { code = "dnu" }
 
-{-| Danu -}
+
+{-| Danu
+-}
 dnv : Language
 dnv =
     Language { code = "dnv" }
 
-{-| Western Dani -}
+
+{-| Western Dani
+-}
 dnw : Language
 dnw =
     Language { code = "dnw" }
 
-{-| Dení -}
+
+{-| Dení
+-}
 dny : Language
 dny =
     Language { code = "dny" }
 
-{-| Dom -}
+
+{-| Dom
+-}
 doa : Language
 doa =
     Language { code = "doa" }
 
-{-| Dobu -}
+
+{-| Dobu
+-}
 dob : Language
 dob =
     Language { code = "dob" }
 
-{-| Northern Dong -}
+
+{-| Northern Dong
+-}
 doc : Language
 doc =
     Language { code = "doc" }
 
-{-| Doe -}
+
+{-| Doe
+-}
 doe : Language
 doe =
     Language { code = "doe" }
 
-{-| Domu -}
+
+{-| Domu
+-}
 dof : Language
 dof =
     Language { code = "dof" }
 
-{-| Dong -}
+
+{-| Dong
+-}
 doh : Language
 doh =
     Language { code = "doh" }
 
-{-| Dogri (macrolanguage) -}
+
+{-| Dogri (macrolanguage)
+-}
 doi : Language
 doi =
     Language { code = "doi" }
 
-{-| Dondo -}
+
+{-| Dondo
+-}
 dok : Language
 dok =
     Language { code = "dok" }
 
-{-| Doso -}
+
+{-| Doso
+-}
 dol : Language
 dol =
     Language { code = "dol" }
 
-{-| Toura (Papua New Guinea) -}
+
+{-| Toura (Papua New Guinea)
+-}
 don : Language
 don =
     Language { code = "don" }
 
-{-| Dongo -}
+
+{-| Dongo
+-}
 doo : Language
 doo =
     Language { code = "doo" }
 
-{-| Lukpa -}
+
+{-| Lukpa
+-}
 dop : Language
 dop =
     Language { code = "dop" }
 
-{-| Dominican Sign Language -}
+
+{-| Dominican Sign Language
+-}
 doq : Language
 doq =
     Language { code = "doq" }
 
-{-| Dori'o -}
+
+{-| Dori'o
+-}
 dor : Language
 dor =
     Language { code = "dor" }
 
-{-| Dogosé -}
+
+{-| Dogosé
+-}
 dos : Language
 dos =
     Language { code = "dos" }
 
-{-| Dass -}
+
+{-| Dass
+-}
 dot : Language
 dot =
     Language { code = "dot" }
 
-{-| Dombe -}
+
+{-| Dombe
+-}
 dov : Language
 dov =
     Language { code = "dov" }
 
-{-| Doyayo -}
+
+{-| Doyayo
+-}
 dow : Language
 dow =
     Language { code = "dow" }
 
-{-| Bussa -}
+
+{-| Bussa
+-}
 dox : Language
 dox =
     Language { code = "dox" }
 
-{-| Dompo -}
+
+{-| Dompo
+-}
 doy : Language
 doy =
     Language { code = "doy" }
 
-{-| Dorze -}
+
+{-| Dorze
+-}
 doz : Language
 doz =
     Language { code = "doz" }
 
-{-| Papar -}
+
+{-| Papar
+-}
 dpp : Language
 dpp =
     Language { code = "dpp" }
 
-{-| Dravidian languages -}
+
+{-| Dravidian languages
+-}
 dra : Language
 dra =
     Language { code = "dra" }
 
-{-| Dair -}
+
+{-| Dair
+-}
 drb : Language
 drb =
     Language { code = "drb" }
 
-{-| Minderico -}
+
+{-| Minderico
+-}
 drc : Language
 drc =
     Language { code = "drc" }
 
-{-| Darmiya -}
+
+{-| Darmiya
+-}
 drd : Language
 drd =
     Language { code = "drd" }
 
-{-| Dolpo -}
+
+{-| Dolpo
+-}
 dre : Language
 dre =
     Language { code = "dre" }
 
-{-| Rungus -}
+
+{-| Rungus
+-}
 drg : Language
 drg =
     Language { code = "drg" }
 
-{-| Darkhat -}
+
+{-| Darkhat
+-}
 drh : Language
 drh =
     Language { code = "drh" }
 
-{-| C'Lela -}
+
+{-| C'Lela
+-}
 dri : Language
 dri =
     Language { code = "dri" }
 
-{-| Paakantyi -}
+
+{-| Paakantyi
+-}
 drl : Language
 drl =
     Language { code = "drl" }
 
-{-| West Damar -}
+
+{-| West Damar
+-}
 drn : Language
 drn =
     Language { code = "drn" }
 
-{-| Daro-Matu Melanau -}
+
+{-| Daro-Matu Melanau
+-}
 dro : Language
 dro =
     Language { code = "dro" }
 
-{-| Dura -}
+
+{-| Dura
+-}
 drq : Language
 drq =
     Language { code = "drq" }
 
-{-| Dororo -}
+
+{-| Dororo
+-}
 drr : Language
 drr =
     Language { code = "drr" }
 
-{-| Gedeo -}
+
+{-| Gedeo
+-}
 drs : Language
 drs =
     Language { code = "drs" }
 
-{-| Drents -}
+
+{-| Drents
+-}
 drt : Language
 drt =
     Language { code = "drt" }
 
-{-| Rukai -}
+
+{-| Rukai
+-}
 dru : Language
 dru =
     Language { code = "dru" }
 
-{-| Darwazi -}
+
+{-| Darwazi
+-}
 drw : Language
 drw =
     Language { code = "drw" }
 
-{-| Darai -}
+
+{-| Darai
+-}
 dry : Language
 dry =
     Language { code = "dry" }
 
-{-| Lower Sorbian -}
+
+{-| Lower Sorbian
+-}
 dsb : Language
 dsb =
     Language { code = "dsb" }
 
-{-| Dutch Sign Language -}
+
+{-| Dutch Sign Language
+-}
 dse : Language
 dse =
     Language { code = "dse" }
 
-{-| Daasanach -}
+
+{-| Daasanach
+-}
 dsh : Language
 dsh =
     Language { code = "dsh" }
 
-{-| Disa -}
+
+{-| Disa
+-}
 dsi : Language
 dsi =
     Language { code = "dsi" }
 
-{-| Danish Sign Language -}
+
+{-| Danish Sign Language
+-}
 dsl : Language
 dsl =
     Language { code = "dsl" }
 
-{-| Dusner -}
+
+{-| Dusner
+-}
 dsn : Language
 dsn =
     Language { code = "dsn" }
 
-{-| Desiya -}
+
+{-| Desiya
+-}
 dso : Language
 dso =
     Language { code = "dso" }
 
-{-| Tadaksahak -}
+
+{-| Tadaksahak
+-}
 dsq : Language
 dsq =
     Language { code = "dsq" }
 
-{-| Daur -}
+
+{-| Daur
+-}
 dta : Language
 dta =
     Language { code = "dta" }
 
-{-| Labuk-Kinabatangan Kadazan -}
+
+{-| Labuk-Kinabatangan Kadazan
+-}
 dtb : Language
 dtb =
     Language { code = "dtb" }
 
-{-| Ditidaht -}
+
+{-| Ditidaht
+-}
 dtd : Language
 dtd =
     Language { code = "dtd" }
 
-{-| Adithinngithigh -}
+
+{-| Adithinngithigh
+-}
 dth : Language
 dth =
     Language { code = "dth" }
 
-{-| Ana Tinga Dogon -}
+
+{-| Ana Tinga Dogon
+-}
 dti : Language
 dti =
     Language { code = "dti" }
 
-{-| Tene Kan Dogon -}
+
+{-| Tene Kan Dogon
+-}
 dtk : Language
 dtk =
     Language { code = "dtk" }
 
-{-| Tomo Kan Dogon -}
+
+{-| Tomo Kan Dogon
+-}
 dtm : Language
 dtm =
     Language { code = "dtm" }
 
-{-| Daatsʼíin -}
+
+{-| Daatsʼíin
+-}
 dtn : Language
 dtn =
     Language { code = "dtn" }
 
-{-| Tommo So Dogon -}
+
+{-| Tommo So Dogon
+-}
 dto : Language
 dto =
     Language { code = "dto" }
 
+
 {-| Kadazan Dusun
-Central Dusun -}
+Central Dusun
+-}
 dtp : Language
 dtp =
     Language { code = "dtp" }
 
-{-| Lotud -}
+
+{-| Lotud
+-}
 dtr : Language
 dtr =
     Language { code = "dtr" }
 
-{-| Toro So Dogon -}
+
+{-| Toro So Dogon
+-}
 dts : Language
 dts =
     Language { code = "dts" }
 
-{-| Toro Tegu Dogon -}
+
+{-| Toro Tegu Dogon
+-}
 dtt : Language
 dtt =
     Language { code = "dtt" }
 
-{-| Tebul Ure Dogon -}
+
+{-| Tebul Ure Dogon
+-}
 dtu : Language
 dtu =
     Language { code = "dtu" }
 
-{-| Dotyali -}
+
+{-| Dotyali
+-}
 dty : Language
 dty =
     Language { code = "dty" }
 
-{-| Duala -}
+
+{-| Duala
+-}
 dua : Language
 dua =
     Language { code = "dua" }
 
-{-| Dubli -}
+
+{-| Dubli
+-}
 dub : Language
 dub =
     Language { code = "dub" }
 
-{-| Duna -}
+
+{-| Duna
+-}
 duc : Language
 duc =
     Language { code = "duc" }
 
-{-| Hun-Saare -}
+
+{-| Hun-Saare
+-}
 dud : Language
 dud =
     Language { code = "dud" }
 
-{-| Umiray Dumaget Agta -}
+
+{-| Umiray Dumaget Agta
+-}
 due : Language
 due =
     Language { code = "due" }
 
+
 {-| Dumbea
-Drubea -}
+Drubea
+-}
 duf : Language
 duf =
     Language { code = "duf" }
 
+
 {-| Duruma
-Chiduruma -}
+Chiduruma
+-}
 dug : Language
 dug =
     Language { code = "dug" }
 
-{-| Dungra Bhil -}
+
+{-| Dungra Bhil
+-}
 duh : Language
 duh =
     Language { code = "duh" }
 
-{-| Dumun -}
+
+{-| Dumun
+-}
 dui : Language
 dui =
     Language { code = "dui" }
 
-{-| Dhuwal -}
+
+{-| Dhuwal
+-}
 duj : Language
 duj =
     Language { code = "duj" }
 
-{-| Uyajitaya -}
+
+{-| Uyajitaya
+-}
 duk : Language
 duk =
     Language { code = "duk" }
 
-{-| Alabat Island Agta -}
+
+{-| Alabat Island Agta
+-}
 dul : Language
 dul =
     Language { code = "dul" }
 
-{-| Middle Dutch (ca. 1050-1350) -}
+
+{-| Middle Dutch (ca. 1050-1350)
+-}
 dum : Language
 dum =
     Language { code = "dum" }
 
-{-| Dusun Deyah -}
+
+{-| Dusun Deyah
+-}
 dun : Language
 dun =
     Language { code = "dun" }
 
-{-| Dupaninan Agta -}
+
+{-| Dupaninan Agta
+-}
 duo : Language
 duo =
     Language { code = "duo" }
 
-{-| Duano -}
+
+{-| Duano
+-}
 dup : Language
 dup =
     Language { code = "dup" }
 
-{-| Dusun Malang -}
+
+{-| Dusun Malang
+-}
 duq : Language
 duq =
     Language { code = "duq" }
 
-{-| Dii -}
+
+{-| Dii
+-}
 dur : Language
 dur =
     Language { code = "dur" }
 
-{-| Dumi -}
+
+{-| Dumi
+-}
 dus : Language
 dus =
     Language { code = "dus" }
 
-{-| Drung -}
+
+{-| Drung
+-}
 duu : Language
 duu =
     Language { code = "duu" }
 
-{-| Duvle -}
+
+{-| Duvle
+-}
 duv : Language
 duv =
     Language { code = "duv" }
 
-{-| Dusun Witu -}
+
+{-| Dusun Witu
+-}
 duw : Language
 duw =
     Language { code = "duw" }
 
-{-| Duungooma -}
+
+{-| Duungooma
+-}
 dux : Language
 dux =
     Language { code = "dux" }
 
-{-| Dicamay Agta -}
+
+{-| Dicamay Agta
+-}
 duy : Language
 duy =
     Language { code = "duy" }
 
-{-| Duli-Gey -}
+
+{-| Duli-Gey
+-}
 duz : Language
 duz =
     Language { code = "duz" }
 
+
 {-| Dhivehi
 Divehi
-Maldivian -}
+Maldivian
+-}
 dv : Language
 dv =
     Language { code = "dv" }
 
-{-| Duau -}
+
+{-| Duau
+-}
 dva : Language
 dva =
     Language { code = "dva" }
 
-{-| Diri -}
+
+{-| Diri
+-}
 dwa : Language
 dwa =
     Language { code = "dwa" }
 
-{-| Dawik Kui -}
+
+{-| Dawik Kui
+-}
 dwk : Language
 dwk =
     Language { code = "dwk" }
 
-{-| Walo Kumbe Dogon -}
+
+{-| Walo Kumbe Dogon
+-}
 dwl : Language
 dwl =
     Language { code = "dwl" }
 
-{-| Dawro -}
+
+{-| Dawro
+-}
 dwr : Language
 dwr =
     Language { code = "dwr" }
 
-{-| Dutton World Speedwords -}
+
+{-| Dutton World Speedwords
+-}
 dws : Language
 dws =
     Language { code = "dws" }
 
-{-| Dhuwal -}
+
+{-| Dhuwal
+-}
 dwu : Language
 dwu =
     Language { code = "dwu" }
 
-{-| Dawawa -}
+
+{-| Dawawa
+-}
 dww : Language
 dww =
     Language { code = "dww" }
 
-{-| Dhuwaya -}
+
+{-| Dhuwaya
+-}
 dwy : Language
 dwy =
     Language { code = "dwy" }
 
-{-| Dewas Rai -}
+
+{-| Dewas Rai
+-}
 dwz : Language
 dwz =
     Language { code = "dwz" }
 
-{-| Dyan -}
+
+{-| Dyan
+-}
 dya : Language
 dya =
     Language { code = "dya" }
 
-{-| Dyaberdyaber -}
+
+{-| Dyaberdyaber
+-}
 dyb : Language
 dyb =
     Language { code = "dyb" }
 
-{-| Dyugun -}
+
+{-| Dyugun
+-}
 dyd : Language
 dyd =
     Language { code = "dyd" }
 
-{-| Villa Viciosa Agta -}
+
+{-| Villa Viciosa Agta
+-}
 dyg : Language
 dyg =
     Language { code = "dyg" }
 
-{-| Djimini Senoufo -}
+
+{-| Djimini Senoufo
+-}
 dyi : Language
 dyi =
     Language { code = "dyi" }
 
-{-| Yanda Dom Dogon -}
+
+{-| Yanda Dom Dogon
+-}
 dym : Language
 dym =
     Language { code = "dym" }
 
+
 {-| Dyangadi
-Dhanggatti -}
+Dhanggatti
+-}
 dyn : Language
 dyn =
     Language { code = "dyn" }
 
-{-| Jola-Fonyi -}
+
+{-| Jola-Fonyi
+-}
 dyo : Language
 dyo =
     Language { code = "dyo" }
 
-{-| Dyula -}
+
+{-| Dyula
+-}
 dyu : Language
 dyu =
     Language { code = "dyu" }
 
+
 {-| Djabugay
-Dyaabugay -}
+Dyaabugay
+-}
 dyy : Language
 dyy =
     Language { code = "dyy" }
 
-{-| Dzongkha -}
+
+{-| Dzongkha
+-}
 dz : Language
 dz =
     Language { code = "dz" }
 
-{-| Tunzu -}
+
+{-| Tunzu
+-}
 dza : Language
 dza =
     Language { code = "dza" }
 
-{-| Daza -}
+
+{-| Daza
+-}
 dzd : Language
 dzd =
     Language { code = "dzd" }
 
-{-| Djiwarli -}
+
+{-| Djiwarli
+-}
 dze : Language
 dze =
     Language { code = "dze" }
 
-{-| Dazaga -}
+
+{-| Dazaga
+-}
 dzg : Language
 dzg =
     Language { code = "dzg" }
 
-{-| Dzalakha -}
+
+{-| Dzalakha
+-}
 dzl : Language
 dzl =
     Language { code = "dzl" }
 
-{-| Dzando -}
+
+{-| Dzando
+-}
 dzn : Language
 dzn =
     Language { code = "dzn" }
 
-{-| Karenggapa -}
+
+{-| Karenggapa
+-}
 eaa : Language
 eaa =
     Language { code = "eaa" }
 
-{-| Beginci -}
+
+{-| Beginci
+-}
 ebc : Language
 ebc =
     Language { code = "ebc" }
 
-{-| Ebughu -}
+
+{-| Ebughu
+-}
 ebg : Language
 ebg =
     Language { code = "ebg" }
 
-{-| Eastern Bontok -}
+
+{-| Eastern Bontok
+-}
 ebk : Language
 ebk =
     Language { code = "ebk" }
 
-{-| Teke-Ebo -}
+
+{-| Teke-Ebo
+-}
 ebo : Language
 ebo =
     Language { code = "ebo" }
 
-{-| Ebrié -}
+
+{-| Ebrié
+-}
 ebr : Language
 ebr =
     Language { code = "ebr" }
 
+
 {-| Embu
-Kiembu -}
+Kiembu
+-}
 ebu : Language
 ebu =
     Language { code = "ebu" }
 
-{-| Eteocretan -}
+
+{-| Eteocretan
+-}
 ecr : Language
 ecr =
     Language { code = "ecr" }
 
-{-| Ecuadorian Sign Language -}
+
+{-| Ecuadorian Sign Language
+-}
 ecs : Language
 ecs =
     Language { code = "ecs" }
 
-{-| Eteocypriot -}
+
+{-| Eteocypriot
+-}
 ecy : Language
 ecy =
     Language { code = "ecy" }
 
-{-| Ewe -}
+
+{-| Ewe
+-}
 ee : Language
 ee =
     Language { code = "ee" }
 
-{-| E -}
+
+{-| E
+-}
 eee : Language
 eee =
     Language { code = "eee" }
 
-{-| Efai -}
+
+{-| Efai
+-}
 efa : Language
 efa =
     Language { code = "efa" }
 
-{-| Efe -}
+
+{-| Efe
+-}
 efe : Language
 efe =
     Language { code = "efe" }
 
-{-| Efik -}
+
+{-| Efik
+-}
 efi : Language
 efi =
     Language { code = "efi" }
 
-{-| Ega -}
+
+{-| Ega
+-}
 ega : Language
 ega =
     Language { code = "ega" }
 
-{-| Emilian -}
+
+{-| Emilian
+-}
 egl : Language
 egl =
     Language { code = "egl" }
 
-{-| Eggon -}
+
+{-| Eggon
+-}
 ego : Language
 ego =
     Language { code = "ego" }
 
-{-| Egyptian languages -}
+
+{-| Egyptian languages
+-}
 egx : Language
 egx =
     Language { code = "egx" }
 
-{-| Egyptian (Ancient) -}
+
+{-| Egyptian (Ancient)
+-}
 egy : Language
 egy =
     Language { code = "egy" }
 
-{-| Ehueun -}
+
+{-| Ehueun
+-}
 ehu : Language
 ehu =
     Language { code = "ehu" }
 
-{-| Eipomek -}
+
+{-| Eipomek
+-}
 eip : Language
 eip =
     Language { code = "eip" }
 
-{-| Eitiep -}
+
+{-| Eitiep
+-}
 eit : Language
 eit =
     Language { code = "eit" }
 
-{-| Askopan -}
+
+{-| Askopan
+-}
 eiv : Language
 eiv =
     Language { code = "eiv" }
 
-{-| Ejamat -}
+
+{-| Ejamat
+-}
 eja : Language
 eja =
     Language { code = "eja" }
 
-{-| Ekajuk -}
+
+{-| Ekajuk
+-}
 eka : Language
 eka =
     Language { code = "eka" }
 
-{-| Eastern Karnic -}
+
+{-| Eastern Karnic
+-}
 ekc : Language
 ekc =
     Language { code = "ekc" }
 
-{-| Ekit -}
+
+{-| Ekit
+-}
 eke : Language
 eke =
     Language { code = "eke" }
 
-{-| Ekari -}
+
+{-| Ekari
+-}
 ekg : Language
 ekg =
     Language { code = "ekg" }
 
-{-| Eki -}
+
+{-| Eki
+-}
 eki : Language
 eki =
     Language { code = "eki" }
 
-{-| Standard Estonian -}
+
+{-| Standard Estonian
+-}
 ekk : Language
 ekk =
     Language { code = "ekk" }
 
+
 {-| Kol (Bangladesh)
-Kol -}
+Kol
+-}
 ekl : Language
 ekl =
     Language { code = "ekl" }
 
-{-| Elip -}
+
+{-| Elip
+-}
 ekm : Language
 ekm =
     Language { code = "ekm" }
 
-{-| Koti -}
+
+{-| Koti
+-}
 eko : Language
 eko =
     Language { code = "eko" }
 
-{-| Ekpeye -}
+
+{-| Ekpeye
+-}
 ekp : Language
 ekp =
     Language { code = "ekp" }
 
-{-| Yace -}
+
+{-| Yace
+-}
 ekr : Language
 ekr =
     Language { code = "ekr" }
 
-{-| Eastern Kayah -}
+
+{-| Eastern Kayah
+-}
 eky : Language
 eky =
     Language { code = "eky" }
 
-{-| Modern Greek (1453-) -}
+
+{-| Modern Greek (1453-)
+-}
 el : Language
 el =
     Language { code = "el" }
 
-{-| Elepi -}
+
+{-| Elepi
+-}
 ele : Language
 ele =
     Language { code = "ele" }
 
-{-| El Hugeirat -}
+
+{-| El Hugeirat
+-}
 elh : Language
 elh =
     Language { code = "elh" }
 
-{-| Nding -}
+
+{-| Nding
+-}
 eli : Language
 eli =
     Language { code = "eli" }
 
-{-| Elkei -}
+
+{-| Elkei
+-}
 elk : Language
 elk =
     Language { code = "elk" }
 
-{-| Eleme -}
+
+{-| Eleme
+-}
 elm : Language
 elm =
     Language { code = "elm" }
 
-{-| El Molo -}
+
+{-| El Molo
+-}
 elo : Language
 elo =
     Language { code = "elo" }
 
-{-| Elpaputih -}
+
+{-| Elpaputih
+-}
 elp : Language
 elp =
     Language { code = "elp" }
 
-{-| Elu -}
+
+{-| Elu
+-}
 elu : Language
 elu =
     Language { code = "elu" }
 
-{-| Elamite -}
+
+{-| Elamite
+-}
 elx : Language
 elx =
     Language { code = "elx" }
 
-{-| Emai-Iuleha-Ora -}
+
+{-| Emai-Iuleha-Ora
+-}
 ema : Language
 ema =
     Language { code = "ema" }
 
-{-| Embaloh -}
+
+{-| Embaloh
+-}
 emb : Language
 emb =
     Language { code = "emb" }
 
-{-| Emerillon -}
+
+{-| Emerillon
+-}
 eme : Language
 eme =
     Language { code = "eme" }
 
-{-| Eastern Meohang -}
+
+{-| Eastern Meohang
+-}
 emg : Language
 emg =
     Language { code = "emg" }
 
-{-| Mussau-Emira -}
+
+{-| Mussau-Emira
+-}
 emi : Language
 emi =
     Language { code = "emi" }
 
-{-| Eastern Maninkakan -}
+
+{-| Eastern Maninkakan
+-}
 emk : Language
 emk =
     Language { code = "emk" }
 
-{-| Mamulique -}
+
+{-| Mamulique
+-}
 emm : Language
 emm =
     Language { code = "emm" }
 
-{-| Eman -}
+
+{-| Eman
+-}
 emn : Language
 emn =
     Language { code = "emn" }
 
-{-| Emok -}
+
+{-| Emok
+-}
 emo : Language
 emo =
     Language { code = "emo" }
 
-{-| Northern Emberá -}
+
+{-| Northern Emberá
+-}
 emp : Language
 emp =
     Language { code = "emp" }
 
-{-| Pacific Gulf Yupik -}
+
+{-| Pacific Gulf Yupik
+-}
 ems : Language
 ems =
     Language { code = "ems" }
 
-{-| Eastern Muria -}
+
+{-| Eastern Muria
+-}
 emu : Language
 emu =
     Language { code = "emu" }
 
-{-| Emplawas -}
+
+{-| Emplawas
+-}
 emw : Language
 emw =
     Language { code = "emw" }
 
-{-| Erromintxela -}
+
+{-| Erromintxela
+-}
 emx : Language
 emx =
     Language { code = "emx" }
 
-{-| Epigraphic Mayan -}
+
+{-| Epigraphic Mayan
+-}
 emy : Language
 emy =
     Language { code = "emy" }
 
-{-| English -}
+
+{-| English
+-}
 en : Language
 en =
     Language { code = "en" }
 
-{-| Apali -}
+
+{-| Apali
+-}
 ena : Language
 ena =
     Language { code = "ena" }
 
-{-| Markweeta -}
+
+{-| Markweeta
+-}
 enb : Language
 enb =
     Language { code = "enb" }
 
-{-| En -}
+
+{-| En
+-}
 enc : Language
 enc =
     Language { code = "enc" }
 
-{-| Ende -}
+
+{-| Ende
+-}
 end : Language
 end =
     Language { code = "end" }
 
-{-| Forest Enets -}
+
+{-| Forest Enets
+-}
 enf : Language
 enf =
     Language { code = "enf" }
 
-{-| Tundra Enets -}
+
+{-| Tundra Enets
+-}
 enh : Language
 enh =
     Language { code = "enh" }
 
-{-| Enlhet -}
+
+{-| Enlhet
+-}
 enl : Language
 enl =
     Language { code = "enl" }
 
-{-| Middle English (1100-1500) -}
+
+{-| Middle English (1100-1500)
+-}
 enm : Language
 enm =
     Language { code = "enm" }
 
-{-| Engenni -}
+
+{-| Engenni
+-}
 enn : Language
 enn =
     Language { code = "enn" }
 
-{-| Enggano -}
+
+{-| Enggano
+-}
 eno : Language
 eno =
     Language { code = "eno" }
 
-{-| Enga -}
+
+{-| Enga
+-}
 enq : Language
 enq =
     Language { code = "enq" }
 
+
 {-| Emumu
-Emem -}
+Emem
+-}
 enr : Language
 enr =
     Language { code = "enr" }
 
-{-| Enu -}
+
+{-| Enu
+-}
 enu : Language
 enu =
     Language { code = "enu" }
 
-{-| Enwan (Edu State) -}
+
+{-| Enwan (Edu State)
+-}
 env : Language
 env =
     Language { code = "env" }
 
-{-| Enwan (Akwa Ibom State) -}
+
+{-| Enwan (Akwa Ibom State)
+-}
 enw : Language
 enw =
     Language { code = "enw" }
 
-{-| Enxet -}
+
+{-| Enxet
+-}
 enx : Language
 enx =
     Language { code = "enx" }
 
-{-| Esperanto -}
+
+{-| Esperanto
+-}
 eo : Language
 eo =
     Language { code = "eo" }
 
-{-| Beti (Côte d'Ivoire) -}
+
+{-| Beti (Côte d'Ivoire)
+-}
 eot : Language
 eot =
     Language { code = "eot" }
 
-{-| Epie -}
+
+{-| Epie
+-}
 epi : Language
 epi =
     Language { code = "epi" }
 
-{-| Eravallan -}
+
+{-| Eravallan
+-}
 era : Language
 era =
     Language { code = "era" }
 
-{-| Sie -}
+
+{-| Sie
+-}
 erg : Language
 erg =
     Language { code = "erg" }
 
-{-| Eruwa -}
+
+{-| Eruwa
+-}
 erh : Language
 erh =
     Language { code = "erh" }
 
-{-| Ogea -}
+
+{-| Ogea
+-}
 eri : Language
 eri =
     Language { code = "eri" }
 
-{-| South Efate -}
+
+{-| South Efate
+-}
 erk : Language
 erk =
     Language { code = "erk" }
 
-{-| Horpa -}
+
+{-| Horpa
+-}
 ero : Language
 ero =
     Language { code = "ero" }
 
-{-| Erre -}
+
+{-| Erre
+-}
 err : Language
 err =
     Language { code = "err" }
 
-{-| Ersu -}
+
+{-| Ersu
+-}
 ers : Language
 ers =
     Language { code = "ers" }
 
-{-| Eritai -}
+
+{-| Eritai
+-}
 ert : Language
 ert =
     Language { code = "ert" }
 
-{-| Erokwanas -}
+
+{-| Erokwanas
+-}
 erw : Language
 erw =
     Language { code = "erw" }
 
+
 {-| Spanish
-Castilian -}
+Castilian
+-}
 es : Language
 es =
     Language { code = "es" }
 
-{-| Ese Ejja -}
+
+{-| Ese Ejja
+-}
 ese : Language
 ese =
     Language { code = "ese" }
 
-{-| Aheri Gondi -}
+
+{-| Aheri Gondi
+-}
 esg : Language
 esg =
     Language { code = "esg" }
 
-{-| Eshtehardi -}
+
+{-| Eshtehardi
+-}
 esh : Language
 esh =
     Language { code = "esh" }
 
-{-| North Alaskan Inupiatun -}
+
+{-| North Alaskan Inupiatun
+-}
 esi : Language
 esi =
     Language { code = "esi" }
 
-{-| Northwest Alaska Inupiatun -}
+
+{-| Northwest Alaska Inupiatun
+-}
 esk : Language
 esk =
     Language { code = "esk" }
 
-{-| Egypt Sign Language -}
+
+{-| Egypt Sign Language
+-}
 esl : Language
 esl =
     Language { code = "esl" }
 
-{-| Esuma -}
+
+{-| Esuma
+-}
 esm : Language
 esm =
     Language { code = "esm" }
 
-{-| Salvadoran Sign Language -}
+
+{-| Salvadoran Sign Language
+-}
 esn : Language
 esn =
     Language { code = "esn" }
 
-{-| Estonian Sign Language -}
+
+{-| Estonian Sign Language
+-}
 eso : Language
 eso =
     Language { code = "eso" }
 
-{-| Esselen -}
+
+{-| Esselen
+-}
 esq : Language
 esq =
     Language { code = "esq" }
 
-{-| Central Siberian Yupik -}
+
+{-| Central Siberian Yupik
+-}
 ess : Language
 ess =
     Language { code = "ess" }
 
-{-| Central Yupik -}
+
+{-| Central Yupik
+-}
 esu : Language
 esu =
     Language { code = "esu" }
 
-{-| Eskimo-Aleut languages -}
+
+{-| Eskimo-Aleut languages
+-}
 esx : Language
 esx =
     Language { code = "esx" }
 
-{-| Eskayan -}
+
+{-| Eskayan
+-}
 esy : Language
 esy =
     Language { code = "esy" }
 
-{-| Estonian -}
+
+{-| Estonian
+-}
 et : Language
 et =
     Language { code = "et" }
 
-{-| Etebi -}
+
+{-| Etebi
+-}
 etb : Language
 etb =
     Language { code = "etb" }
 
-{-| Etchemin -}
+
+{-| Etchemin
+-}
 etc : Language
 etc =
     Language { code = "etc" }
 
-{-| Ethiopian Sign Language -}
+
+{-| Ethiopian Sign Language
+-}
 eth : Language
 eth =
     Language { code = "eth" }
 
-{-| Eton (Vanuatu) -}
+
+{-| Eton (Vanuatu)
+-}
 etn : Language
 etn =
     Language { code = "etn" }
 
-{-| Eton (Cameroon) -}
+
+{-| Eton (Cameroon)
+-}
 eto : Language
 eto =
     Language { code = "eto" }
 
-{-| Edolo -}
+
+{-| Edolo
+-}
 etr : Language
 etr =
     Language { code = "etr" }
 
-{-| Yekhee -}
+
+{-| Yekhee
+-}
 ets : Language
 ets =
     Language { code = "ets" }
 
-{-| Etruscan -}
+
+{-| Etruscan
+-}
 ett : Language
 ett =
     Language { code = "ett" }
 
-{-| Ejagham -}
+
+{-| Ejagham
+-}
 etu : Language
 etu =
     Language { code = "etu" }
 
-{-| Eten -}
+
+{-| Eten
+-}
 etx : Language
 etx =
     Language { code = "etx" }
 
-{-| Semimi -}
+
+{-| Semimi
+-}
 etz : Language
 etz =
     Language { code = "etz" }
 
-{-| Basque -}
+
+{-| Basque
+-}
 eu : Language
 eu =
     Language { code = "eu" }
 
-{-| Basque (family) -}
+
+{-| Basque (family)
+-}
 euq : Language
 euq =
     Language { code = "euq" }
 
-{-| Even -}
+
+{-| Even
+-}
 eve : Language
 eve =
     Language { code = "eve" }
 
-{-| Uvbie -}
+
+{-| Uvbie
+-}
 evh : Language
 evh =
     Language { code = "evh" }
 
-{-| Evenki -}
+
+{-| Evenki
+-}
 evn : Language
 evn =
     Language { code = "evn" }
 
-{-| Ewondo -}
+
+{-| Ewondo
+-}
 ewo : Language
 ewo =
     Language { code = "ewo" }
 
-{-| Extremaduran -}
+
+{-| Extremaduran
+-}
 ext : Language
 ext =
     Language { code = "ext" }
 
-{-| Eyak -}
+
+{-| Eyak
+-}
 eya : Language
 eya =
     Language { code = "eya" }
 
-{-| Keiyo -}
+
+{-| Keiyo
+-}
 eyo : Language
 eyo =
     Language { code = "eyo" }
 
-{-| Ezaa -}
+
+{-| Ezaa
+-}
 eza : Language
 eza =
     Language { code = "eza" }
 
-{-| Uzekwe -}
+
+{-| Uzekwe
+-}
 eze : Language
 eze =
     Language { code = "eze" }
 
-{-| Persian -}
+
+{-| Persian
+-}
 fa : Language
 fa =
     Language { code = "fa" }
 
-{-| Fasu -}
+
+{-| Fasu
+-}
 faa : Language
 faa =
     Language { code = "faa" }
 
-{-| Fa d'Ambu -}
+
+{-| Fa d'Ambu
+-}
 fab : Language
 fab =
     Language { code = "fab" }
 
-{-| Wagi -}
+
+{-| Wagi
+-}
 fad : Language
 fad =
     Language { code = "fad" }
 
-{-| Fagani -}
+
+{-| Fagani
+-}
 faf : Language
 faf =
     Language { code = "faf" }
 
-{-| Finongan -}
+
+{-| Finongan
+-}
 fag : Language
 fag =
     Language { code = "fag" }
 
-{-| Baissa Fali -}
+
+{-| Baissa Fali
+-}
 fah : Language
 fah =
     Language { code = "fah" }
 
-{-| Faiwol -}
+
+{-| Faiwol
+-}
 fai : Language
 fai =
     Language { code = "fai" }
 
-{-| Faita -}
+
+{-| Faita
+-}
 faj : Language
 faj =
     Language { code = "faj" }
 
-{-| Fang (Cameroon) -}
+
+{-| Fang (Cameroon)
+-}
 fak : Language
 fak =
     Language { code = "fak" }
 
-{-| South Fali -}
+
+{-| South Fali
+-}
 fal : Language
 fal =
     Language { code = "fal" }
 
-{-| Fam -}
+
+{-| Fam
+-}
 fam : Language
 fam =
     Language { code = "fam" }
 
-{-| Fang (Equatorial Guinea) -}
+
+{-| Fang (Equatorial Guinea)
+-}
 fan : Language
 fan =
     Language { code = "fan" }
 
-{-| Paloor -}
+
+{-| Paloor
+-}
 fap : Language
 fap =
     Language { code = "fap" }
 
-{-| Fataleka -}
+
+{-| Fataleka
+-}
 far : Language
 far =
     Language { code = "far" }
 
-{-| Fanti -}
+
+{-| Fanti
+-}
 fat : Language
 fat =
     Language { code = "fat" }
 
-{-| Fayu -}
+
+{-| Fayu
+-}
 fau : Language
 fau =
     Language { code = "fau" }
 
-{-| Fala -}
+
+{-| Fala
+-}
 fax : Language
 fax =
     Language { code = "fax" }
 
-{-| Southwestern Fars -}
+
+{-| Southwestern Fars
+-}
 fay : Language
 fay =
     Language { code = "fay" }
 
-{-| Northwestern Fars -}
+
+{-| Northwestern Fars
+-}
 faz : Language
 faz =
     Language { code = "faz" }
 
-{-| West Albay Bikol -}
+
+{-| West Albay Bikol
+-}
 fbl : Language
 fbl =
     Language { code = "fbl" }
 
-{-| Quebec Sign Language -}
+
+{-| Quebec Sign Language
+-}
 fcs : Language
 fcs =
     Language { code = "fcs" }
 
-{-| Feroge -}
+
+{-| Feroge
+-}
 fer : Language
 fer =
     Language { code = "fer" }
 
-{-| Fulah -}
+
+{-| Fulah
+-}
 ff : Language
 ff =
     Language { code = "ff" }
 
-{-| Foia Foia -}
+
+{-| Foia Foia
+-}
 ffi : Language
 ffi =
     Language { code = "ffi" }
 
-{-| Maasina Fulfulde -}
+
+{-| Maasina Fulfulde
+-}
 ffm : Language
 ffm =
     Language { code = "ffm" }
 
-{-| Fongoro -}
+
+{-| Fongoro
+-}
 fgr : Language
 fgr =
     Language { code = "fgr" }
 
-{-| Finnish -}
+
+{-| Finnish
+-}
 fi : Language
 fi =
     Language { code = "fi" }
 
-{-| Nobiin -}
+
+{-| Nobiin
+-}
 fia : Language
 fia =
     Language { code = "fia" }
 
-{-| Fyer -}
+
+{-| Fyer
+-}
 fie : Language
 fie =
     Language { code = "fie" }
 
-{-| Faifi -}
+
+{-| Faifi
+-}
 fif : Language
 fif =
     Language { code = "fif" }
 
+
 {-| Filipino
-Pilipino -}
+Pilipino
+-}
 fil : Language
 fil =
     Language { code = "fil" }
 
-{-| Fipa -}
+
+{-| Fipa
+-}
 fip : Language
 fip =
     Language { code = "fip" }
 
-{-| Firan -}
+
+{-| Firan
+-}
 fir : Language
 fir =
     Language { code = "fir" }
 
-{-| Tornedalen Finnish -}
+
+{-| Tornedalen Finnish
+-}
 fit : Language
 fit =
     Language { code = "fit" }
 
-{-| Finno-Ugrian languages -}
+
+{-| Finno-Ugrian languages
+-}
 fiu : Language
 fiu =
     Language { code = "fiu" }
 
-{-| Fiwaga -}
+
+{-| Fiwaga
+-}
 fiw : Language
 fiw =
     Language { code = "fiw" }
 
-{-| Fijian -}
+
+{-| Fijian
+-}
 fj : Language
 fj =
     Language { code = "fj" }
 
-{-| Kirya-Konzəl -}
+
+{-| Kirya-Konzəl
+-}
 fkk : Language
 fkk =
     Language { code = "fkk" }
 
-{-| Kven Finnish -}
+
+{-| Kven Finnish
+-}
 fkv : Language
 fkv =
     Language { code = "fkv" }
 
-{-| Kalispel-Pend d'Oreille -}
+
+{-| Kalispel-Pend d'Oreille
+-}
 fla : Language
 fla =
     Language { code = "fla" }
 
-{-| Foau -}
+
+{-| Foau
+-}
 flh : Language
 flh =
     Language { code = "flh" }
 
-{-| Fali -}
+
+{-| Fali
+-}
 fli : Language
 fli =
     Language { code = "fli" }
 
-{-| North Fali -}
+
+{-| North Fali
+-}
 fll : Language
 fll =
     Language { code = "fll" }
 
-{-| Flinders Island -}
+
+{-| Flinders Island
+-}
 fln : Language
 fln =
     Language { code = "fln" }
 
-{-| Fuliiru -}
+
+{-| Fuliiru
+-}
 flr : Language
 flr =
     Language { code = "flr" }
 
+
 {-| Flaaitaal
-Tsotsitaal -}
+Tsotsitaal
+-}
 fly : Language
 fly =
     Language { code = "fly" }
 
-{-| Fe'fe' -}
+
+{-| Fe'fe'
+-}
 fmp : Language
 fmp =
     Language { code = "fmp" }
 
-{-| Far Western Muria -}
+
+{-| Far Western Muria
+-}
 fmu : Language
 fmu =
     Language { code = "fmu" }
 
-{-| Fanbak -}
+
+{-| Fanbak
+-}
 fnb : Language
 fnb =
     Language { code = "fnb" }
 
-{-| Fanagalo -}
+
+{-| Fanagalo
+-}
 fng : Language
 fng =
     Language { code = "fng" }
 
-{-| Fania -}
+
+{-| Fania
+-}
 fni : Language
 fni =
     Language { code = "fni" }
 
-{-| Faroese -}
+
+{-| Faroese
+-}
 fo : Language
 fo =
     Language { code = "fo" }
 
-{-| Foodo -}
+
+{-| Foodo
+-}
 fod : Language
 fod =
     Language { code = "fod" }
 
-{-| Foi -}
+
+{-| Foi
+-}
 foi : Language
 foi =
     Language { code = "foi" }
 
-{-| Foma -}
+
+{-| Foma
+-}
 fom : Language
 fom =
     Language { code = "fom" }
 
-{-| Fon -}
+
+{-| Fon
+-}
 fon : Language
 fon =
     Language { code = "fon" }
 
-{-| Fore -}
+
+{-| Fore
+-}
 for : Language
 for =
     Language { code = "for" }
 
-{-| Siraya -}
+
+{-| Siraya
+-}
 fos : Language
 fos =
     Language { code = "fos" }
 
-{-| Formosan languages -}
+
+{-| Formosan languages
+-}
 fox : Language
 fox =
     Language { code = "fox" }
 
-{-| Fernando Po Creole English -}
+
+{-| Fernando Po Creole English
+-}
 fpe : Language
 fpe =
     Language { code = "fpe" }
 
-{-| Fas -}
+
+{-| Fas
+-}
 fqs : Language
 fqs =
     Language { code = "fqs" }
 
-{-| French -}
+
+{-| French
+-}
 fr : Language
 fr =
     Language { code = "fr" }
 
-{-| Cajun French -}
+
+{-| Cajun French
+-}
 frc : Language
 frc =
     Language { code = "frc" }
 
-{-| Fordata -}
+
+{-| Fordata
+-}
 frd : Language
 frd =
     Language { code = "frd" }
 
-{-| Frankish -}
+
+{-| Frankish
+-}
 frk : Language
 frk =
     Language { code = "frk" }
 
-{-| Middle French (ca. 1400-1600) -}
+
+{-| Middle French (ca. 1400-1600)
+-}
 frm : Language
 frm =
     Language { code = "frm" }
 
-{-| Old French (842-ca. 1400) -}
+
+{-| Old French (842-ca. 1400)
+-}
 fro : Language
 fro =
     Language { code = "fro" }
 
+
 {-| Arpitan
-Francoprovençal -}
+Francoprovençal
+-}
 frp : Language
 frp =
     Language { code = "frp" }
 
-{-| Forak -}
+
+{-| Forak
+-}
 frq : Language
 frq =
     Language { code = "frq" }
 
-{-| Northern Frisian -}
+
+{-| Northern Frisian
+-}
 frr : Language
 frr =
     Language { code = "frr" }
 
-{-| Eastern Frisian -}
+
+{-| Eastern Frisian
+-}
 frs : Language
 frs =
     Language { code = "frs" }
 
-{-| Fortsenal -}
+
+{-| Fortsenal
+-}
 frt : Language
 frt =
     Language { code = "frt" }
 
-{-| Finnish Sign Language -}
+
+{-| Finnish Sign Language
+-}
 fse : Language
 fse =
     Language { code = "fse" }
 
-{-| French Sign Language -}
+
+{-| French Sign Language
+-}
 fsl : Language
 fsl =
     Language { code = "fsl" }
 
+
 {-| Finland-Swedish Sign Language
 finlandssvenskt teckenspråk
-suomenruotsalainen viittomakieli -}
+suomenruotsalainen viittomakieli
+-}
 fss : Language
 fss =
     Language { code = "fss" }
 
-{-| Adamawa Fulfulde -}
+
+{-| Adamawa Fulfulde
+-}
 fub : Language
 fub =
     Language { code = "fub" }
 
-{-| Pulaar -}
+
+{-| Pulaar
+-}
 fuc : Language
 fuc =
     Language { code = "fuc" }
 
-{-| East Futuna -}
+
+{-| East Futuna
+-}
 fud : Language
 fud =
     Language { code = "fud" }
 
-{-| Borgu Fulfulde -}
+
+{-| Borgu Fulfulde
+-}
 fue : Language
 fue =
     Language { code = "fue" }
 
-{-| Pular -}
+
+{-| Pular
+-}
 fuf : Language
 fuf =
     Language { code = "fuf" }
 
-{-| Western Niger Fulfulde -}
+
+{-| Western Niger Fulfulde
+-}
 fuh : Language
 fuh =
     Language { code = "fuh" }
 
-{-| Bagirmi Fulfulde -}
+
+{-| Bagirmi Fulfulde
+-}
 fui : Language
 fui =
     Language { code = "fui" }
 
-{-| Ko -}
+
+{-| Ko
+-}
 fuj : Language
 fuj =
     Language { code = "fuj" }
 
-{-| Fum -}
+
+{-| Fum
+-}
 fum : Language
 fum =
     Language { code = "fum" }
 
-{-| Fulniô -}
+
+{-| Fulniô
+-}
 fun : Language
 fun =
     Language { code = "fun" }
 
-{-| Central-Eastern Niger Fulfulde -}
+
+{-| Central-Eastern Niger Fulfulde
+-}
 fuq : Language
 fuq =
     Language { code = "fuq" }
 
-{-| Friulian -}
+
+{-| Friulian
+-}
 fur : Language
 fur =
     Language { code = "fur" }
 
-{-| Futuna-Aniwa -}
+
+{-| Futuna-Aniwa
+-}
 fut : Language
 fut =
     Language { code = "fut" }
 
-{-| Furu -}
+
+{-| Furu
+-}
 fuu : Language
 fuu =
     Language { code = "fuu" }
 
-{-| Nigerian Fulfulde -}
+
+{-| Nigerian Fulfulde
+-}
 fuv : Language
 fuv =
     Language { code = "fuv" }
 
-{-| Fuyug -}
+
+{-| Fuyug
+-}
 fuy : Language
 fuy =
     Language { code = "fuy" }
 
-{-| Fur -}
+
+{-| Fur
+-}
 fvr : Language
 fvr =
     Language { code = "fvr" }
 
-{-| Fwâi -}
+
+{-| Fwâi
+-}
 fwa : Language
 fwa =
     Language { code = "fwa" }
 
-{-| Fwe -}
+
+{-| Fwe
+-}
 fwe : Language
 fwe =
     Language { code = "fwe" }
 
-{-| Western Frisian -}
+
+{-| Western Frisian
+-}
 fy : Language
 fy =
     Language { code = "fy" }
 
-{-| Irish -}
+
+{-| Irish
+-}
 ga : Language
 ga =
     Language { code = "ga" }
 
-{-| Ga -}
+
+{-| Ga
+-}
 gaa : Language
 gaa =
     Language { code = "gaa" }
 
-{-| Gabri -}
+
+{-| Gabri
+-}
 gab : Language
 gab =
     Language { code = "gab" }
 
-{-| Mixed Great Andamanese -}
+
+{-| Mixed Great Andamanese
+-}
 gac : Language
 gac =
     Language { code = "gac" }
 
-{-| Gaddang -}
+
+{-| Gaddang
+-}
 gad : Language
 gad =
     Language { code = "gad" }
 
-{-| Guarequena -}
+
+{-| Guarequena
+-}
 gae : Language
 gae =
     Language { code = "gae" }
 
-{-| Gende -}
+
+{-| Gende
+-}
 gaf : Language
 gaf =
     Language { code = "gaf" }
 
-{-| Gagauz -}
+
+{-| Gagauz
+-}
 gag : Language
 gag =
     Language { code = "gag" }
 
-{-| Alekano -}
+
+{-| Alekano
+-}
 gah : Language
 gah =
     Language { code = "gah" }
 
-{-| Borei -}
+
+{-| Borei
+-}
 gai : Language
 gai =
     Language { code = "gai" }
 
-{-| Gadsup -}
+
+{-| Gadsup
+-}
 gaj : Language
 gaj =
     Language { code = "gaj" }
 
-{-| Gamkonora -}
+
+{-| Gamkonora
+-}
 gak : Language
 gak =
     Language { code = "gak" }
 
-{-| Galolen -}
+
+{-| Galolen
+-}
 gal : Language
 gal =
     Language { code = "gal" }
 
-{-| Kandawo -}
+
+{-| Kandawo
+-}
 gam : Language
 gam =
     Language { code = "gam" }
 
-{-| Gan Chinese -}
+
+{-| Gan Chinese
+-}
 gan : Language
 gan =
     Language { code = "gan" }
 
-{-| Gants -}
+
+{-| Gants
+-}
 gao : Language
 gao =
     Language { code = "gao" }
 
-{-| Gal -}
+
+{-| Gal
+-}
 gap : Language
 gap =
     Language { code = "gap" }
 
-{-| Gata' -}
+
+{-| Gata'
+-}
 gaq : Language
 gaq =
     Language { code = "gaq" }
 
-{-| Galeya -}
+
+{-| Galeya
+-}
 gar : Language
 gar =
     Language { code = "gar" }
 
-{-| Adiwasi Garasia -}
+
+{-| Adiwasi Garasia
+-}
 gas : Language
 gas =
     Language { code = "gas" }
 
-{-| Kenati -}
+
+{-| Kenati
+-}
 gat : Language
 gat =
     Language { code = "gat" }
 
-{-| Mudhili Gadaba -}
+
+{-| Mudhili Gadaba
+-}
 gau : Language
 gau =
     Language { code = "gau" }
 
-{-| Gabutamon -}
+
+{-| Gabutamon
+-}
 gav : Language
 gav =
     Language { code = "gav" }
 
-{-| Nobonob -}
+
+{-| Nobonob
+-}
 gaw : Language
 gaw =
     Language { code = "gaw" }
 
-{-| Borana-Arsi-Guji Oromo -}
+
+{-| Borana-Arsi-Guji Oromo
+-}
 gax : Language
 gax =
     Language { code = "gax" }
 
-{-| Gayo -}
+
+{-| Gayo
+-}
 gay : Language
 gay =
     Language { code = "gay" }
 
-{-| West Central Oromo -}
+
+{-| West Central Oromo
+-}
 gaz : Language
 gaz =
     Language { code = "gaz" }
 
-{-| Gbaya (Central African Republic) -}
+
+{-| Gbaya (Central African Republic)
+-}
 gba : Language
 gba =
     Language { code = "gba" }
 
-{-| Kaytetye -}
+
+{-| Kaytetye
+-}
 gbb : Language
 gbb =
     Language { code = "gbb" }
 
-{-| Garawa -}
+
+{-| Garawa
+-}
 gbc : Language
 gbc =
     Language { code = "gbc" }
 
-{-| Karajarri -}
+
+{-| Karajarri
+-}
 gbd : Language
 gbd =
     Language { code = "gbd" }
 
-{-| Niksek -}
+
+{-| Niksek
+-}
 gbe : Language
 gbe =
     Language { code = "gbe" }
 
-{-| Gaikundi -}
+
+{-| Gaikundi
+-}
 gbf : Language
 gbf =
     Language { code = "gbf" }
 
-{-| Gbanziri -}
+
+{-| Gbanziri
+-}
 gbg : Language
 gbg =
     Language { code = "gbg" }
 
-{-| Defi Gbe -}
+
+{-| Defi Gbe
+-}
 gbh : Language
 gbh =
     Language { code = "gbh" }
 
-{-| Galela -}
+
+{-| Galela
+-}
 gbi : Language
 gbi =
     Language { code = "gbi" }
 
-{-| Bodo Gadaba -}
+
+{-| Bodo Gadaba
+-}
 gbj : Language
 gbj =
     Language { code = "gbj" }
 
-{-| Gaddi -}
+
+{-| Gaddi
+-}
 gbk : Language
 gbk =
     Language { code = "gbk" }
 
-{-| Gamit -}
+
+{-| Gamit
+-}
 gbl : Language
 gbl =
     Language { code = "gbl" }
 
-{-| Garhwali -}
+
+{-| Garhwali
+-}
 gbm : Language
 gbm =
     Language { code = "gbm" }
 
-{-| Mo'da -}
+
+{-| Mo'da
+-}
 gbn : Language
 gbn =
     Language { code = "gbn" }
 
-{-| Northern Grebo -}
+
+{-| Northern Grebo
+-}
 gbo : Language
 gbo =
     Language { code = "gbo" }
 
-{-| Gbaya-Bossangoa -}
+
+{-| Gbaya-Bossangoa
+-}
 gbp : Language
 gbp =
     Language { code = "gbp" }
 
-{-| Gbaya-Bozoum -}
+
+{-| Gbaya-Bozoum
+-}
 gbq : Language
 gbq =
     Language { code = "gbq" }
 
-{-| Gbagyi -}
+
+{-| Gbagyi
+-}
 gbr : Language
 gbr =
     Language { code = "gbr" }
 
-{-| Gbesi Gbe -}
+
+{-| Gbesi Gbe
+-}
 gbs : Language
 gbs =
     Language { code = "gbs" }
 
-{-| Gagadu -}
+
+{-| Gagadu
+-}
 gbu : Language
 gbu =
     Language { code = "gbu" }
 
-{-| Gbanu -}
+
+{-| Gbanu
+-}
 gbv : Language
 gbv =
     Language { code = "gbv" }
 
-{-| Gabi-Gabi -}
+
+{-| Gabi-Gabi
+-}
 gbw : Language
 gbw =
     Language { code = "gbw" }
 
-{-| Eastern Xwla Gbe -}
+
+{-| Eastern Xwla Gbe
+-}
 gbx : Language
 gbx =
     Language { code = "gbx" }
 
-{-| Gbari -}
+
+{-| Gbari
+-}
 gby : Language
 gby =
     Language { code = "gby" }
 
-{-| Zoroastrian Dari -}
+
+{-| Zoroastrian Dari
+-}
 gbz : Language
 gbz =
     Language { code = "gbz" }
 
-{-| Mali -}
+
+{-| Mali
+-}
 gcc : Language
 gcc =
     Language { code = "gcc" }
 
-{-| Ganggalida -}
+
+{-| Ganggalida
+-}
 gcd : Language
 gcd =
     Language { code = "gcd" }
 
-{-| Galice -}
+
+{-| Galice
+-}
 gce : Language
 gce =
     Language { code = "gce" }
 
-{-| Guadeloupean Creole French -}
+
+{-| Guadeloupean Creole French
+-}
 gcf : Language
 gcf =
     Language { code = "gcf" }
 
-{-| Grenadian Creole English -}
+
+{-| Grenadian Creole English
+-}
 gcl : Language
 gcl =
     Language { code = "gcl" }
 
-{-| Gaina -}
+
+{-| Gaina
+-}
 gcn : Language
 gcn =
     Language { code = "gcn" }
 
-{-| Guianese Creole French -}
+
+{-| Guianese Creole French
+-}
 gcr : Language
 gcr =
     Language { code = "gcr" }
 
-{-| Colonia Tovar German -}
+
+{-| Colonia Tovar German
+-}
 gct : Language
 gct =
     Language { code = "gct" }
 
+
 {-| Scottish Gaelic
-Gaelic -}
+Gaelic
+-}
 gd : Language
 gd =
     Language { code = "gd" }
 
-{-| Gade Lohar -}
+
+{-| Gade Lohar
+-}
 gda : Language
 gda =
     Language { code = "gda" }
 
-{-| Pottangi Ollar Gadaba -}
+
+{-| Pottangi Ollar Gadaba
+-}
 gdb : Language
 gdb =
     Language { code = "gdb" }
 
-{-| Gugu Badhun -}
+
+{-| Gugu Badhun
+-}
 gdc : Language
 gdc =
     Language { code = "gdc" }
 
-{-| Gedaged -}
+
+{-| Gedaged
+-}
 gdd : Language
 gdd =
     Language { code = "gdd" }
 
-{-| Gude -}
+
+{-| Gude
+-}
 gde : Language
 gde =
     Language { code = "gde" }
 
-{-| Guduf-Gava -}
+
+{-| Guduf-Gava
+-}
 gdf : Language
 gdf =
     Language { code = "gdf" }
 
-{-| Ga'dang -}
+
+{-| Ga'dang
+-}
 gdg : Language
 gdg =
     Language { code = "gdg" }
 
+
 {-| Gadjerawang
-Gajirrabeng -}
+Gajirrabeng
+-}
 gdh : Language
 gdh =
     Language { code = "gdh" }
 
-{-| Gundi -}
+
+{-| Gundi
+-}
 gdi : Language
 gdi =
     Language { code = "gdi" }
 
-{-| Gurdjar -}
+
+{-| Gurdjar
+-}
 gdj : Language
 gdj =
     Language { code = "gdj" }
 
-{-| Gadang -}
+
+{-| Gadang
+-}
 gdk : Language
 gdk =
     Language { code = "gdk" }
 
-{-| Dirasha -}
+
+{-| Dirasha
+-}
 gdl : Language
 gdl =
     Language { code = "gdl" }
 
-{-| Laal -}
+
+{-| Laal
+-}
 gdm : Language
 gdm =
     Language { code = "gdm" }
 
-{-| Umanakaina -}
+
+{-| Umanakaina
+-}
 gdn : Language
 gdn =
     Language { code = "gdn" }
 
-{-| Ghodoberi -}
+
+{-| Ghodoberi
+-}
 gdo : Language
 gdo =
     Language { code = "gdo" }
 
-{-| Mehri -}
+
+{-| Mehri
+-}
 gdq : Language
 gdq =
     Language { code = "gdq" }
 
-{-| Wipi -}
+
+{-| Wipi
+-}
 gdr : Language
 gdr =
     Language { code = "gdr" }
 
-{-| Ghandruk Sign Language -}
+
+{-| Ghandruk Sign Language
+-}
 gds : Language
 gds =
     Language { code = "gds" }
 
-{-| Kungardutyi -}
+
+{-| Kungardutyi
+-}
 gdt : Language
 gdt =
     Language { code = "gdt" }
 
-{-| Gudu -}
+
+{-| Gudu
+-}
 gdu : Language
 gdu =
     Language { code = "gdu" }
 
-{-| Godwari -}
+
+{-| Godwari
+-}
 gdx : Language
 gdx =
     Language { code = "gdx" }
 
-{-| Geruma -}
+
+{-| Geruma
+-}
 gea : Language
 gea =
     Language { code = "gea" }
 
-{-| Kire -}
+
+{-| Kire
+-}
 geb : Language
 geb =
     Language { code = "geb" }
 
-{-| Gboloo Grebo -}
+
+{-| Gboloo Grebo
+-}
 gec : Language
 gec =
     Language { code = "gec" }
 
-{-| Gade -}
+
+{-| Gade
+-}
 ged : Language
 ged =
     Language { code = "ged" }
 
-{-| Gerai -}
+
+{-| Gerai
+-}
 gef : Language
 gef =
     Language { code = "gef" }
 
-{-| Gengle -}
+
+{-| Gengle
+-}
 geg : Language
 geg =
     Language { code = "geg" }
 
+
 {-| Hutterite German
-Hutterisch -}
+Hutterisch
+-}
 geh : Language
 geh =
     Language { code = "geh" }
 
-{-| Gebe -}
+
+{-| Gebe
+-}
 gei : Language
 gei =
     Language { code = "gei" }
 
-{-| Gen -}
+
+{-| Gen
+-}
 gej : Language
 gej =
     Language { code = "gej" }
 
-{-| Ywom -}
+
+{-| Ywom
+-}
 gek : Language
 gek =
     Language { code = "gek" }
 
-{-| ut-Ma'in -}
+
+{-| ut-Ma'in
+-}
 gel : Language
 gel =
     Language { code = "gel" }
 
-{-| Germanic languages -}
+
+{-| Germanic languages
+-}
 gem : Language
 gem =
     Language { code = "gem" }
 
-{-| Geme -}
+
+{-| Geme
+-}
 geq : Language
 geq =
     Language { code = "geq" }
 
-{-| Geser-Gorom -}
+
+{-| Geser-Gorom
+-}
 ges : Language
 ges =
     Language { code = "ges" }
 
-{-| Eviya -}
+
+{-| Eviya
+-}
 gev : Language
 gev =
     Language { code = "gev" }
 
-{-| Gera -}
+
+{-| Gera
+-}
 gew : Language
 gew =
     Language { code = "gew" }
 
-{-| Garre -}
+
+{-| Garre
+-}
 gex : Language
 gex =
     Language { code = "gex" }
 
-{-| Enya -}
+
+{-| Enya
+-}
 gey : Language
 gey =
     Language { code = "gey" }
 
-{-| Geez -}
+
+{-| Geez
+-}
 gez : Language
 gez =
     Language { code = "gez" }
 
-{-| Patpatar -}
+
+{-| Patpatar
+-}
 gfk : Language
 gfk =
     Language { code = "gfk" }
 
-{-| Gafat -}
+
+{-| Gafat
+-}
 gft : Language
 gft =
     Language { code = "gft" }
 
-{-| Mangetti Dune ǃXung -}
+
+{-| Mangetti Dune ǃXung
+-}
 gfx : Language
 gfx =
     Language { code = "gfx" }
 
-{-| Gao -}
+
+{-| Gao
+-}
 gga : Language
 gga =
     Language { code = "gga" }
 
-{-| Gbii -}
+
+{-| Gbii
+-}
 ggb : Language
 ggb =
     Language { code = "ggb" }
 
-{-| Gugadj -}
+
+{-| Gugadj
+-}
 ggd : Language
 ggd =
     Language { code = "ggd" }
 
-{-| Gurr-goni -}
+
+{-| Gurr-goni
+-}
 gge : Language
 gge =
     Language { code = "gge" }
 
-{-| Gurgula -}
+
+{-| Gurgula
+-}
 ggg : Language
 ggg =
     Language { code = "ggg" }
 
-{-| Kungarakany -}
+
+{-| Kungarakany
+-}
 ggk : Language
 ggk =
     Language { code = "ggk" }
 
-{-| Ganglau -}
+
+{-| Ganglau
+-}
 ggl : Language
 ggl =
     Language { code = "ggl" }
 
-{-| Eastern Gurung -}
+
+{-| Eastern Gurung
+-}
 ggn : Language
 ggn =
     Language { code = "ggn" }
 
-{-| Southern Gondi -}
+
+{-| Southern Gondi
+-}
 ggo : Language
 ggo =
     Language { code = "ggo" }
 
-{-| Aghu Tharnggalu -}
+
+{-| Aghu Tharnggalu
+-}
 ggr : Language
 ggr =
     Language { code = "ggr" }
 
-{-| Gitua -}
+
+{-| Gitua
+-}
 ggt : Language
 ggt =
     Language { code = "ggt" }
 
+
 {-| Gagu
-Gban -}
+Gban
+-}
 ggu : Language
 ggu =
     Language { code = "ggu" }
 
-{-| Gogodala -}
+
+{-| Gogodala
+-}
 ggw : Language
 ggw =
     Language { code = "ggw" }
 
-{-| Ghadamès -}
+
+{-| Ghadamès
+-}
 gha : Language
 gha =
     Language { code = "gha" }
 
-{-| Hiberno-Scottish Gaelic -}
+
+{-| Hiberno-Scottish Gaelic
+-}
 ghc : Language
 ghc =
     Language { code = "ghc" }
 
-{-| Southern Ghale -}
+
+{-| Southern Ghale
+-}
 ghe : Language
 ghe =
     Language { code = "ghe" }
 
-{-| Northern Ghale -}
+
+{-| Northern Ghale
+-}
 ghh : Language
 ghh =
     Language { code = "ghh" }
 
-{-| Geko Karen -}
+
+{-| Geko Karen
+-}
 ghk : Language
 ghk =
     Language { code = "ghk" }
 
-{-| Ghulfan -}
+
+{-| Ghulfan
+-}
 ghl : Language
 ghl =
     Language { code = "ghl" }
 
-{-| Ghanongga -}
+
+{-| Ghanongga
+-}
 ghn : Language
 ghn =
     Language { code = "ghn" }
 
-{-| Ghomara -}
+
+{-| Ghomara
+-}
 gho : Language
 gho =
     Language { code = "gho" }
 
-{-| Ghera -}
+
+{-| Ghera
+-}
 ghr : Language
 ghr =
     Language { code = "ghr" }
 
-{-| Guhu-Samane -}
+
+{-| Guhu-Samane
+-}
 ghs : Language
 ghs =
     Language { code = "ghs" }
 
+
 {-| Kuke
-Kutang Ghale -}
+Kutang Ghale
+-}
 ght : Language
 ght =
     Language { code = "ght" }
 
-{-| Kija -}
+
+{-| Kija
+-}
 gia : Language
 gia =
     Language { code = "gia" }
 
-{-| Gibanawa -}
+
+{-| Gibanawa
+-}
 gib : Language
 gib =
     Language { code = "gib" }
 
-{-| Gail -}
+
+{-| Gail
+-}
 gic : Language
 gic =
     Language { code = "gic" }
 
-{-| Gidar -}
+
+{-| Gidar
+-}
 gid : Language
 gid =
     Language { code = "gid" }
 
+
 {-| Gaɓogbo
-Guébie -}
+Guébie
+-}
 gie : Language
 gie =
     Language { code = "gie" }
 
-{-| Goaria -}
+
+{-| Goaria
+-}
 gig : Language
 gig =
     Language { code = "gig" }
 
-{-| Githabul -}
+
+{-| Githabul
+-}
 gih : Language
 gih =
     Language { code = "gih" }
 
-{-| Gilbertese -}
+
+{-| Gilbertese
+-}
 gil : Language
 gil =
     Language { code = "gil" }
 
-{-| Gimi (Eastern Highlands) -}
+
+{-| Gimi (Eastern Highlands)
+-}
 gim : Language
 gim =
     Language { code = "gim" }
 
-{-| Hinukh -}
+
+{-| Hinukh
+-}
 gin : Language
 gin =
     Language { code = "gin" }
 
-{-| Gelao -}
+
+{-| Gelao
+-}
 gio : Language
 gio =
     Language { code = "gio" }
 
-{-| Gimi (West New Britain) -}
+
+{-| Gimi (West New Britain)
+-}
 gip : Language
 gip =
     Language { code = "gip" }
 
-{-| Green Gelao -}
+
+{-| Green Gelao
+-}
 giq : Language
 giq =
     Language { code = "giq" }
 
-{-| Red Gelao -}
+
+{-| Red Gelao
+-}
 gir : Language
 gir =
     Language { code = "gir" }
 
-{-| North Giziga -}
+
+{-| North Giziga
+-}
 gis : Language
 gis =
     Language { code = "gis" }
 
-{-| Gitxsan -}
+
+{-| Gitxsan
+-}
 git : Language
 git =
     Language { code = "git" }
 
-{-| Mulao -}
+
+{-| Mulao
+-}
 giu : Language
 giu =
     Language { code = "giu" }
 
-{-| White Gelao -}
+
+{-| White Gelao
+-}
 giw : Language
 giw =
     Language { code = "giw" }
 
-{-| Gilima -}
+
+{-| Gilima
+-}
 gix : Language
 gix =
     Language { code = "gix" }
 
-{-| Giyug -}
+
+{-| Giyug
+-}
 giy : Language
 giy =
     Language { code = "giy" }
 
-{-| South Giziga -}
+
+{-| South Giziga
+-}
 giz : Language
 giz =
     Language { code = "giz" }
 
-{-| Geji -}
+
+{-| Geji
+-}
 gji : Language
 gji =
     Language { code = "gji" }
 
-{-| Kachi Koli -}
+
+{-| Kachi Koli
+-}
 gjk : Language
 gjk =
     Language { code = "gjk" }
 
-{-| Gunditjmara -}
+
+{-| Gunditjmara
+-}
 gjm : Language
 gjm =
     Language { code = "gjm" }
 
-{-| Gonja -}
+
+{-| Gonja
+-}
 gjn : Language
 gjn =
     Language { code = "gjn" }
 
-{-| Gurindji Kriol -}
+
+{-| Gurindji Kriol
+-}
 gjr : Language
 gjr =
     Language { code = "gjr" }
 
-{-| Gujari -}
+
+{-| Gujari
+-}
 gju : Language
 gju =
     Language { code = "gju" }
 
-{-| Guya -}
+
+{-| Guya
+-}
 gka : Language
 gka =
     Language { code = "gka" }
 
-{-| Magɨ (Madang Province) -}
+
+{-| Magɨ (Madang Province)
+-}
 gkd : Language
 gkd =
     Language { code = "gkd" }
 
-{-| Ndai -}
+
+{-| Ndai
+-}
 gke : Language
 gke =
     Language { code = "gke" }
 
-{-| Gokana -}
+
+{-| Gokana
+-}
 gkn : Language
 gkn =
     Language { code = "gkn" }
 
-{-| Kok-Nar -}
+
+{-| Kok-Nar
+-}
 gko : Language
 gko =
     Language { code = "gko" }
 
-{-| Guinea Kpelle -}
+
+{-| Guinea Kpelle
+-}
 gkp : Language
 gkp =
     Language { code = "gkp" }
 
-{-| ǂUngkue -}
+
+{-| ǂUngkue
+-}
 gku : Language
 gku =
     Language { code = "gku" }
 
-{-| Galician -}
+
+{-| Galician
+-}
 gl : Language
 gl =
     Language { code = "gl" }
 
-{-| Bon Gula -}
+
+{-| Bon Gula
+-}
 glc : Language
 glc =
     Language { code = "glc" }
 
-{-| Nanai -}
+
+{-| Nanai
+-}
 gld : Language
 gld =
     Language { code = "gld" }
 
+
 {-| Northwest Pashai
-Northwest Pashayi -}
+Northwest Pashayi
+-}
 glh : Language
 glh =
     Language { code = "glh" }
 
-{-| Guliguli -}
+
+{-| Guliguli
+-}
 gli : Language
 gli =
     Language { code = "gli" }
 
-{-| Gula Iro -}
+
+{-| Gula Iro
+-}
 glj : Language
 glj =
     Language { code = "glj" }
 
-{-| Gilaki -}
+
+{-| Gilaki
+-}
 glk : Language
 glk =
     Language { code = "glk" }
 
-{-| Garlali -}
+
+{-| Garlali
+-}
 gll : Language
 gll =
     Language { code = "gll" }
 
-{-| Galambu -}
+
+{-| Galambu
+-}
 glo : Language
 glo =
     Language { code = "glo" }
 
-{-| Glaro-Twabo -}
+
+{-| Glaro-Twabo
+-}
 glr : Language
 glr =
     Language { code = "glr" }
 
-{-| Gula (Chad) -}
+
+{-| Gula (Chad)
+-}
 glu : Language
 glu =
     Language { code = "glu" }
 
-{-| Glavda -}
+
+{-| Glavda
+-}
 glw : Language
 glw =
     Language { code = "glw" }
 
-{-| Gule -}
+
+{-| Gule
+-}
 gly : Language
 gly =
     Language { code = "gly" }
 
-{-| Gambera -}
+
+{-| Gambera
+-}
 gma : Language
 gma =
     Language { code = "gma" }
 
-{-| Gula'alaa -}
+
+{-| Gula'alaa
+-}
 gmb : Language
 gmb =
     Language { code = "gmb" }
 
-{-| Mághdì -}
+
+{-| Mághdì
+-}
 gmd : Language
 gmd =
     Language { code = "gmd" }
 
-{-| East Germanic languages -}
+
+{-| East Germanic languages
+-}
 gme : Language
 gme =
     Language { code = "gme" }
 
-{-| Magɨyi -}
+
+{-| Magɨyi
+-}
 gmg : Language
 gmg =
     Language { code = "gmg" }
 
-{-| Middle High German (ca. 1050-1500) -}
+
+{-| Middle High German (ca. 1050-1500)
+-}
 gmh : Language
 gmh =
     Language { code = "gmh" }
 
-{-| Middle Low German -}
+
+{-| Middle Low German
+-}
 gml : Language
 gml =
     Language { code = "gml" }
 
-{-| Gbaya-Mbodomo -}
+
+{-| Gbaya-Mbodomo
+-}
 gmm : Language
 gmm =
     Language { code = "gmm" }
 
-{-| Gimnime -}
+
+{-| Gimnime
+-}
 gmn : Language
 gmn =
     Language { code = "gmn" }
 
-{-| North Germanic languages -}
+
+{-| North Germanic languages
+-}
 gmq : Language
 gmq =
     Language { code = "gmq" }
 
+
 {-| Mirning
-Mirniny -}
+Mirniny
+-}
 gmr : Language
 gmr =
     Language { code = "gmr" }
 
-{-| Gumalu -}
+
+{-| Gumalu
+-}
 gmu : Language
 gmu =
     Language { code = "gmu" }
 
-{-| Gamo -}
+
+{-| Gamo
+-}
 gmv : Language
 gmv =
     Language { code = "gmv" }
 
-{-| West Germanic languages -}
+
+{-| West Germanic languages
+-}
 gmw : Language
 gmw =
     Language { code = "gmw" }
 
-{-| Magoma -}
+
+{-| Magoma
+-}
 gmx : Language
 gmx =
     Language { code = "gmx" }
 
-{-| Mycenaean Greek -}
+
+{-| Mycenaean Greek
+-}
 gmy : Language
 gmy =
     Language { code = "gmy" }
 
-{-| Mgbolizhia -}
+
+{-| Mgbolizhia
+-}
 gmz : Language
 gmz =
     Language { code = "gmz" }
 
-{-| Guarani -}
+
+{-| Guarani
+-}
 gn : Language
 gn =
     Language { code = "gn" }
 
-{-| Kaansa -}
+
+{-| Kaansa
+-}
 gna : Language
 gna =
     Language { code = "gna" }
 
-{-| Gangte -}
+
+{-| Gangte
+-}
 gnb : Language
 gnb =
     Language { code = "gnb" }
 
-{-| Guanche -}
+
+{-| Guanche
+-}
 gnc : Language
 gnc =
     Language { code = "gnc" }
 
-{-| Zulgo-Gemzek -}
+
+{-| Zulgo-Gemzek
+-}
 gnd : Language
 gnd =
     Language { code = "gnd" }
 
-{-| Ganang -}
+
+{-| Ganang
+-}
 gne : Language
 gne =
     Language { code = "gne" }
 
-{-| Ngangam -}
+
+{-| Ngangam
+-}
 gng : Language
 gng =
     Language { code = "gng" }
 
-{-| Lere -}
+
+{-| Lere
+-}
 gnh : Language
 gnh =
     Language { code = "gnh" }
 
-{-| Gooniyandi -}
+
+{-| Gooniyandi
+-}
 gni : Language
 gni =
     Language { code = "gni" }
 
-{-| Ngen -}
+
+{-| Ngen
+-}
 gnj : Language
 gnj =
     Language { code = "gnj" }
 
-{-| ǁGana -}
+
+{-| ǁGana
+-}
 gnk : Language
 gnk =
     Language { code = "gnk" }
 
-{-| Gangulu -}
+
+{-| Gangulu
+-}
 gnl : Language
 gnl =
     Language { code = "gnl" }
 
-{-| Ginuman -}
+
+{-| Ginuman
+-}
 gnm : Language
 gnm =
     Language { code = "gnm" }
 
-{-| Gumatj -}
+
+{-| Gumatj
+-}
 gnn : Language
 gnn =
     Language { code = "gnn" }
 
-{-| Northern Gondi -}
+
+{-| Northern Gondi
+-}
 gno : Language
 gno =
     Language { code = "gno" }
 
-{-| Gana -}
+
+{-| Gana
+-}
 gnq : Language
 gnq =
     Language { code = "gnq" }
 
-{-| Gureng Gureng -}
+
+{-| Gureng Gureng
+-}
 gnr : Language
 gnr =
     Language { code = "gnr" }
 
-{-| Guntai -}
+
+{-| Guntai
+-}
 gnt : Language
 gnt =
     Language { code = "gnt" }
 
-{-| Gnau -}
+
+{-| Gnau
+-}
 gnu : Language
 gnu =
     Language { code = "gnu" }
 
-{-| Western Bolivian Guaraní -}
+
+{-| Western Bolivian Guaraní
+-}
 gnw : Language
 gnw =
     Language { code = "gnw" }
 
-{-| Ganzi -}
+
+{-| Ganzi
+-}
 gnz : Language
 gnz =
     Language { code = "gnz" }
 
-{-| Guro -}
+
+{-| Guro
+-}
 goa : Language
 goa =
     Language { code = "goa" }
 
-{-| Playero -}
+
+{-| Playero
+-}
 gob : Language
 gob =
     Language { code = "gob" }
 
-{-| Gorakor -}
+
+{-| Gorakor
+-}
 goc : Language
 goc =
     Language { code = "goc" }
 
-{-| Godié -}
+
+{-| Godié
+-}
 god : Language
 god =
     Language { code = "god" }
 
-{-| Gongduk -}
+
+{-| Gongduk
+-}
 goe : Language
 goe =
     Language { code = "goe" }
 
-{-| Gofa -}
+
+{-| Gofa
+-}
 gof : Language
 gof =
     Language { code = "gof" }
 
-{-| Gogo -}
+
+{-| Gogo
+-}
 gog : Language
 gog =
     Language { code = "gog" }
 
-{-| Old High German (ca. 750-1050) -}
+
+{-| Old High German (ca. 750-1050)
+-}
 goh : Language
 goh =
     Language { code = "goh" }
 
-{-| Gobasi -}
+
+{-| Gobasi
+-}
 goi : Language
 goi =
     Language { code = "goi" }
 
-{-| Gowlan -}
+
+{-| Gowlan
+-}
 goj : Language
 goj =
     Language { code = "goj" }
 
-{-| Gowli -}
+
+{-| Gowli
+-}
 gok : Language
 gok =
     Language { code = "gok" }
 
-{-| Gola -}
+
+{-| Gola
+-}
 gol : Language
 gol =
     Language { code = "gol" }
 
-{-| Goan Konkani -}
+
+{-| Goan Konkani
+-}
 gom : Language
 gom =
     Language { code = "gom" }
 
-{-| Gondi -}
+
+{-| Gondi
+-}
 gon : Language
 gon =
     Language { code = "gon" }
 
-{-| Gone Dau -}
+
+{-| Gone Dau
+-}
 goo : Language
 goo =
     Language { code = "goo" }
 
-{-| Yeretuar -}
+
+{-| Yeretuar
+-}
 gop : Language
 gop =
     Language { code = "gop" }
 
-{-| Gorap -}
+
+{-| Gorap
+-}
 goq : Language
 goq =
     Language { code = "goq" }
 
-{-| Gorontalo -}
+
+{-| Gorontalo
+-}
 gor : Language
 gor =
     Language { code = "gor" }
 
-{-| Gronings -}
+
+{-| Gronings
+-}
 gos : Language
 gos =
     Language { code = "gos" }
 
-{-| Gothic -}
+
+{-| Gothic
+-}
 got : Language
 got =
     Language { code = "got" }
 
-{-| Gavar -}
+
+{-| Gavar
+-}
 gou : Language
 gou =
     Language { code = "gou" }
 
-{-| Gorowa -}
+
+{-| Gorowa
+-}
 gow : Language
 gow =
     Language { code = "gow" }
 
-{-| Gobu -}
+
+{-| Gobu
+-}
 gox : Language
 gox =
     Language { code = "gox" }
 
-{-| Goundo -}
+
+{-| Goundo
+-}
 goy : Language
 goy =
     Language { code = "goy" }
 
-{-| Gozarkhani -}
+
+{-| Gozarkhani
+-}
 goz : Language
 goz =
     Language { code = "goz" }
 
-{-| Gupa-Abawa -}
+
+{-| Gupa-Abawa
+-}
 gpa : Language
 gpa =
     Language { code = "gpa" }
 
-{-| Ghanaian Pidgin English -}
+
+{-| Ghanaian Pidgin English
+-}
 gpe : Language
 gpe =
     Language { code = "gpe" }
 
-{-| Taiap -}
+
+{-| Taiap
+-}
 gpn : Language
 gpn =
     Language { code = "gpn" }
 
-{-| Ga'anda -}
+
+{-| Ga'anda
+-}
 gqa : Language
 gqa =
     Language { code = "gqa" }
 
-{-| Guiqiong -}
+
+{-| Guiqiong
+-}
 gqi : Language
 gqi =
     Language { code = "gqi" }
 
-{-| Guana (Brazil) -}
+
+{-| Guana (Brazil)
+-}
 gqn : Language
 gqn =
     Language { code = "gqn" }
 
-{-| Gor -}
+
+{-| Gor
+-}
 gqr : Language
 gqr =
     Language { code = "gqr" }
 
-{-| Qau -}
+
+{-| Qau
+-}
 gqu : Language
 gqu =
     Language { code = "gqu" }
 
-{-| Rajput Garasia -}
+
+{-| Rajput Garasia
+-}
 gra : Language
 gra =
     Language { code = "gra" }
 
-{-| Grebo -}
+
+{-| Grebo
+-}
 grb : Language
 grb =
     Language { code = "grb" }
 
-{-| Ancient Greek (to 1453) -}
+
+{-| Ancient Greek (to 1453)
+-}
 grc : Language
 grc =
     Language { code = "grc" }
 
-{-| Guruntum-Mbaaru -}
+
+{-| Guruntum-Mbaaru
+-}
 grd : Language
 grd =
     Language { code = "grd" }
 
-{-| Madi -}
+
+{-| Madi
+-}
 grg : Language
 grg =
     Language { code = "grg" }
 
-{-| Gbiri-Niragu -}
+
+{-| Gbiri-Niragu
+-}
 grh : Language
 grh =
     Language { code = "grh" }
 
-{-| Ghari -}
+
+{-| Ghari
+-}
 gri : Language
 gri =
     Language { code = "gri" }
 
-{-| Southern Grebo -}
+
+{-| Southern Grebo
+-}
 grj : Language
 grj =
     Language { code = "grj" }
 
-{-| Greek languages -}
+
+{-| Greek languages
+-}
 grk : Language
 grk =
     Language { code = "grk" }
 
-{-| Kota Marudu Talantang -}
+
+{-| Kota Marudu Talantang
+-}
 grm : Language
 grm =
     Language { code = "grm" }
 
-{-| Groma -}
+
+{-| Groma
+-}
 gro : Language
 gro =
     Language { code = "gro" }
 
-{-| Gorovu -}
+
+{-| Gorovu
+-}
 grq : Language
 grq =
     Language { code = "grq" }
 
-{-| Taznatit -}
+
+{-| Taznatit
+-}
 grr : Language
 grr =
     Language { code = "grr" }
 
-{-| Gresi -}
+
+{-| Gresi
+-}
 grs : Language
 grs =
     Language { code = "grs" }
 
-{-| Garo -}
+
+{-| Garo
+-}
 grt : Language
 grt =
     Language { code = "grt" }
 
-{-| Kistane -}
+
+{-| Kistane
+-}
 gru : Language
 gru =
     Language { code = "gru" }
 
-{-| Central Grebo -}
+
+{-| Central Grebo
+-}
 grv : Language
 grv =
     Language { code = "grv" }
 
-{-| Gweda -}
+
+{-| Gweda
+-}
 grw : Language
 grw =
     Language { code = "grw" }
 
-{-| Guriaso -}
+
+{-| Guriaso
+-}
 grx : Language
 grx =
     Language { code = "grx" }
 
-{-| Barclayville Grebo -}
+
+{-| Barclayville Grebo
+-}
 gry : Language
 gry =
     Language { code = "gry" }
 
-{-| Guramalum -}
+
+{-| Guramalum
+-}
 grz : Language
 grz =
     Language { code = "grz" }
 
-{-| Ghanaian Sign Language -}
+
+{-| Ghanaian Sign Language
+-}
 gse : Language
 gse =
     Language { code = "gse" }
 
-{-| German Sign Language -}
+
+{-| German Sign Language
+-}
 gsg : Language
 gsg =
     Language { code = "gsg" }
 
-{-| Gusilay -}
+
+{-| Gusilay
+-}
 gsl : Language
 gsl =
     Language { code = "gsl" }
 
-{-| Guatemalan Sign Language -}
+
+{-| Guatemalan Sign Language
+-}
 gsm : Language
 gsm =
     Language { code = "gsm" }
 
+
 {-| Nema
-Gusan -}
+Gusan
+-}
 gsn : Language
 gsn =
     Language { code = "gsn" }
 
-{-| Southwest Gbaya -}
+
+{-| Southwest Gbaya
+-}
 gso : Language
 gso =
     Language { code = "gso" }
 
-{-| Wasembo -}
+
+{-| Wasembo
+-}
 gsp : Language
 gsp =
     Language { code = "gsp" }
 
-{-| Greek Sign Language -}
+
+{-| Greek Sign Language
+-}
 gss : Language
 gss =
     Language { code = "gss" }
 
+
 {-| Swiss German
 Alemannic
-Alsatian -}
+Alsatian
+-}
 gsw : Language
 gsw =
     Language { code = "gsw" }
 
-{-| Guató -}
+
+{-| Guató
+-}
 gta : Language
 gta =
     Language { code = "gta" }
 
-{-| Gbati-ri -}
+
+{-| Gbati-ri
+-}
 gti : Language
 gti =
     Language { code = "gti" }
 
-{-| Aghu-Tharnggala -}
+
+{-| Aghu-Tharnggala
+-}
 gtu : Language
 gtu =
     Language { code = "gtu" }
 
-{-| Gujarati -}
+
+{-| Gujarati
+-}
 gu : Language
 gu =
     Language { code = "gu" }
 
-{-| Shiki -}
+
+{-| Shiki
+-}
 gua : Language
 gua =
     Language { code = "gua" }
 
-{-| Guajajára -}
+
+{-| Guajajára
+-}
 gub : Language
 gub =
     Language { code = "gub" }
 
-{-| Wayuu -}
+
+{-| Wayuu
+-}
 guc : Language
 guc =
     Language { code = "guc" }
 
-{-| Yocoboué Dida -}
+
+{-| Yocoboué Dida
+-}
 gud : Language
 gud =
     Language { code = "gud" }
 
-{-| Gurindji -}
+
+{-| Gurindji
+-}
 gue : Language
 gue =
     Language { code = "gue" }
 
-{-| Gupapuyngu -}
+
+{-| Gupapuyngu
+-}
 guf : Language
 guf =
     Language { code = "guf" }
 
-{-| Paraguayan Guaraní -}
+
+{-| Paraguayan Guaraní
+-}
 gug : Language
 gug =
     Language { code = "gug" }
 
-{-| Guahibo -}
+
+{-| Guahibo
+-}
 guh : Language
 guh =
     Language { code = "guh" }
 
-{-| Eastern Bolivian Guaraní -}
+
+{-| Eastern Bolivian Guaraní
+-}
 gui : Language
 gui =
     Language { code = "gui" }
 
-{-| Gumuz -}
+
+{-| Gumuz
+-}
 guk : Language
 guk =
     Language { code = "guk" }
 
-{-| Sea Island Creole English -}
+
+{-| Sea Island Creole English
+-}
 gul : Language
 gul =
     Language { code = "gul" }
 
-{-| Guambiano -}
+
+{-| Guambiano
+-}
 gum : Language
 gum =
     Language { code = "gum" }
 
-{-| Mbyá Guaraní -}
+
+{-| Mbyá Guaraní
+-}
 gun : Language
 gun =
     Language { code = "gun" }
 
-{-| Guayabero -}
+
+{-| Guayabero
+-}
 guo : Language
 guo =
     Language { code = "guo" }
 
-{-| Gunwinggu -}
+
+{-| Gunwinggu
+-}
 gup : Language
 gup =
     Language { code = "gup" }
 
-{-| Aché -}
+
+{-| Aché
+-}
 guq : Language
 guq =
     Language { code = "guq" }
 
-{-| Farefare -}
+
+{-| Farefare
+-}
 gur : Language
 gur =
     Language { code = "gur" }
 
-{-| Guinean Sign Language -}
+
+{-| Guinean Sign Language
+-}
 gus : Language
 gus =
     Language { code = "gus" }
 
-{-| Maléku Jaíka -}
+
+{-| Maléku Jaíka
+-}
 gut : Language
 gut =
     Language { code = "gut" }
 
-{-| Yanomamö -}
+
+{-| Yanomamö
+-}
 guu : Language
 guu =
     Language { code = "guu" }
 
-{-| Gey -}
+
+{-| Gey
+-}
 guv : Language
 guv =
     Language { code = "guv" }
 
-{-| Gun -}
+
+{-| Gun
+-}
 guw : Language
 guw =
     Language { code = "guw" }
 
-{-| Gourmanchéma -}
+
+{-| Gourmanchéma
+-}
 gux : Language
 gux =
     Language { code = "gux" }
 
+
 {-| Gusii
-Ekegusii -}
+Ekegusii
+-}
 guz : Language
 guz =
     Language { code = "guz" }
 
-{-| Manx -}
+
+{-| Manx
+-}
 gv : Language
 gv =
     Language { code = "gv" }
 
-{-| Guana (Paraguay) -}
+
+{-| Guana (Paraguay)
+-}
 gva : Language
 gva =
     Language { code = "gva" }
 
-{-| Guanano -}
+
+{-| Guanano
+-}
 gvc : Language
 gvc =
     Language { code = "gvc" }
 
-{-| Duwet -}
+
+{-| Duwet
+-}
 gve : Language
 gve =
     Language { code = "gve" }
 
-{-| Golin -}
+
+{-| Golin
+-}
 gvf : Language
 gvf =
     Language { code = "gvf" }
 
-{-| Guajá -}
+
+{-| Guajá
+-}
 gvj : Language
 gvj =
     Language { code = "gvj" }
 
-{-| Gulay -}
+
+{-| Gulay
+-}
 gvl : Language
 gvl =
     Language { code = "gvl" }
 
-{-| Gurmana -}
+
+{-| Gurmana
+-}
 gvm : Language
 gvm =
     Language { code = "gvm" }
 
-{-| Kuku-Yalanji -}
+
+{-| Kuku-Yalanji
+-}
 gvn : Language
 gvn =
     Language { code = "gvn" }
 
-{-| Gavião Do Jiparaná -}
+
+{-| Gavião Do Jiparaná
+-}
 gvo : Language
 gvo =
     Language { code = "gvo" }
 
-{-| Pará Gavião -}
+
+{-| Pará Gavião
+-}
 gvp : Language
 gvp =
     Language { code = "gvp" }
 
-{-| Gurung -}
+
+{-| Gurung
+-}
 gvr : Language
 gvr =
     Language { code = "gvr" }
 
-{-| Gumawana -}
+
+{-| Gumawana
+-}
 gvs : Language
 gvs =
     Language { code = "gvs" }
 
-{-| Guyani -}
+
+{-| Guyani
+-}
 gvy : Language
 gvy =
     Language { code = "gvy" }
 
-{-| Mbato -}
+
+{-| Mbato
+-}
 gwa : Language
 gwa =
     Language { code = "gwa" }
 
-{-| Gwa -}
+
+{-| Gwa
+-}
 gwb : Language
 gwb =
     Language { code = "gwb" }
 
+
 {-| Gawri
-Kalami -}
+Kalami
+-}
 gwc : Language
 gwc =
     Language { code = "gwc" }
 
-{-| Gawwada -}
+
+{-| Gawwada
+-}
 gwd : Language
 gwd =
     Language { code = "gwd" }
 
-{-| Gweno -}
+
+{-| Gweno
+-}
 gwe : Language
 gwe =
     Language { code = "gwe" }
 
-{-| Gowro -}
+
+{-| Gowro
+-}
 gwf : Language
 gwf =
     Language { code = "gwf" }
 
-{-| Moo -}
+
+{-| Moo
+-}
 gwg : Language
 gwg =
     Language { code = "gwg" }
 
-{-| Gwichʼin -}
+
+{-| Gwichʼin
+-}
 gwi : Language
 gwi =
     Language { code = "gwi" }
 
-{-| ǀGwi -}
+
+{-| ǀGwi
+-}
 gwj : Language
 gwj =
     Language { code = "gwj" }
 
-{-| Awngthim -}
+
+{-| Awngthim
+-}
 gwm : Language
 gwm =
     Language { code = "gwm" }
 
-{-| Gwandara -}
+
+{-| Gwandara
+-}
 gwn : Language
 gwn =
     Language { code = "gwn" }
 
-{-| Gwere -}
+
+{-| Gwere
+-}
 gwr : Language
 gwr =
     Language { code = "gwr" }
 
-{-| Gawar-Bati -}
+
+{-| Gawar-Bati
+-}
 gwt : Language
 gwt =
     Language { code = "gwt" }
 
-{-| Guwamu -}
+
+{-| Guwamu
+-}
 gwu : Language
 gwu =
     Language { code = "gwu" }
 
-{-| Kwini -}
+
+{-| Kwini
+-}
 gww : Language
 gww =
     Language { code = "gww" }
 
-{-| Gua -}
+
+{-| Gua
+-}
 gwx : Language
 gwx =
     Language { code = "gwx" }
 
-{-| Wè Southern -}
+
+{-| Wè Southern
+-}
 gxx : Language
 gxx =
     Language { code = "gxx" }
 
-{-| Northwest Gbaya -}
+
+{-| Northwest Gbaya
+-}
 gya : Language
 gya =
     Language { code = "gya" }
 
-{-| Garus -}
+
+{-| Garus
+-}
 gyb : Language
 gyb =
     Language { code = "gyb" }
 
-{-| Kayardild -}
+
+{-| Kayardild
+-}
 gyd : Language
 gyd =
     Language { code = "gyd" }
 
-{-| Gyem -}
+
+{-| Gyem
+-}
 gye : Language
 gye =
     Language { code = "gye" }
 
-{-| Gungabula -}
+
+{-| Gungabula
+-}
 gyf : Language
 gyf =
     Language { code = "gyf" }
 
-{-| Gbayi -}
+
+{-| Gbayi
+-}
 gyg : Language
 gyg =
     Language { code = "gyg" }
 
-{-| Gyele -}
+
+{-| Gyele
+-}
 gyi : Language
 gyi =
     Language { code = "gyi" }
 
-{-| Gayil -}
+
+{-| Gayil
+-}
 gyl : Language
 gyl =
     Language { code = "gyl" }
 
-{-| Ngäbere -}
+
+{-| Ngäbere
+-}
 gym : Language
 gym =
     Language { code = "gym" }
 
-{-| Guyanese Creole English -}
+
+{-| Guyanese Creole English
+-}
 gyn : Language
 gyn =
     Language { code = "gyn" }
 
-{-| Gyalsumdo -}
+
+{-| Gyalsumdo
+-}
 gyo : Language
 gyo =
     Language { code = "gyo" }
 
-{-| Guarayu -}
+
+{-| Guarayu
+-}
 gyr : Language
 gyr =
     Language { code = "gyr" }
 
-{-| Gunya -}
+
+{-| Gunya
+-}
 gyy : Language
 gyy =
     Language { code = "gyy" }
 
-{-| Ganza -}
+
+{-| Ganza
+-}
 gza : Language
 gza =
     Language { code = "gza" }
 
-{-| Gazi -}
+
+{-| Gazi
+-}
 gzi : Language
 gzi =
     Language { code = "gzi" }
 
-{-| Gane -}
+
+{-| Gane
+-}
 gzn : Language
 gzn =
     Language { code = "gzn" }
 
-{-| Hausa -}
+
+{-| Hausa
+-}
 ha : Language
 ha =
     Language { code = "ha" }
 
-{-| Han -}
+
+{-| Han
+-}
 haa : Language
 haa =
     Language { code = "haa" }
 
-{-| Hanoi Sign Language -}
+
+{-| Hanoi Sign Language
+-}
 hab : Language
 hab =
     Language { code = "hab" }
 
-{-| Gurani -}
+
+{-| Gurani
+-}
 hac : Language
 hac =
     Language { code = "hac" }
 
-{-| Hatam -}
+
+{-| Hatam
+-}
 had : Language
 had =
     Language { code = "had" }
 
-{-| Eastern Oromo -}
+
+{-| Eastern Oromo
+-}
 hae : Language
 hae =
     Language { code = "hae" }
 
-{-| Haiphong Sign Language -}
+
+{-| Haiphong Sign Language
+-}
 haf : Language
 haf =
     Language { code = "haf" }
 
-{-| Hanga -}
+
+{-| Hanga
+-}
 hag : Language
 hag =
     Language { code = "hag" }
 
-{-| Hahon -}
+
+{-| Hahon
+-}
 hah : Language
 hah =
     Language { code = "hah" }
 
-{-| Haida -}
+
+{-| Haida
+-}
 hai : Language
 hai =
     Language { code = "hai" }
 
-{-| Hajong -}
+
+{-| Hajong
+-}
 haj : Language
 haj =
     Language { code = "haj" }
 
-{-| Hakka Chinese -}
+
+{-| Hakka Chinese
+-}
 hak : Language
 hak =
     Language { code = "hak" }
 
-{-| Halang -}
+
+{-| Halang
+-}
 hal : Language
 hal =
     Language { code = "hal" }
 
-{-| Hewa -}
+
+{-| Hewa
+-}
 ham : Language
 ham =
     Language { code = "ham" }
 
-{-| Hangaza -}
+
+{-| Hangaza
+-}
 han : Language
 han =
     Language { code = "han" }
 
-{-| Hakö -}
+
+{-| Hakö
+-}
 hao : Language
 hao =
     Language { code = "hao" }
 
-{-| Hupla -}
+
+{-| Hupla
+-}
 hap : Language
 hap =
     Language { code = "hap" }
 
-{-| Ha -}
+
+{-| Ha
+-}
 haq : Language
 haq =
     Language { code = "haq" }
 
-{-| Harari -}
+
+{-| Harari
+-}
 har : Language
 har =
     Language { code = "har" }
 
-{-| Haisla -}
+
+{-| Haisla
+-}
 has : Language
 has =
     Language { code = "has" }
 
-{-| Havu -}
+
+{-| Havu
+-}
 hav : Language
 hav =
     Language { code = "hav" }
 
-{-| Hawaiian -}
+
+{-| Hawaiian
+-}
 haw : Language
 haw =
     Language { code = "haw" }
 
-{-| Southern Haida -}
+
+{-| Southern Haida
+-}
 hax : Language
 hax =
     Language { code = "hax" }
 
-{-| Haya -}
+
+{-| Haya
+-}
 hay : Language
 hay =
     Language { code = "hay" }
 
-{-| Hazaragi -}
+
+{-| Hazaragi
+-}
 haz : Language
 haz =
     Language { code = "haz" }
 
-{-| Hamba -}
+
+{-| Hamba
+-}
 hba : Language
 hba =
     Language { code = "hba" }
 
-{-| Huba -}
+
+{-| Huba
+-}
 hbb : Language
 hbb =
     Language { code = "hbb" }
 
-{-| Heiban -}
+
+{-| Heiban
+-}
 hbn : Language
 hbn =
     Language { code = "hbn" }
 
-{-| Ancient Hebrew -}
+
+{-| Ancient Hebrew
+-}
 hbo : Language
 hbo =
     Language { code = "hbo" }
 
-{-| Habu -}
+
+{-| Habu
+-}
 hbu : Language
 hbu =
     Language { code = "hbu" }
 
-{-| Andaman Creole Hindi -}
+
+{-| Andaman Creole Hindi
+-}
 hca : Language
 hca =
     Language { code = "hca" }
 
-{-| Huichol -}
+
+{-| Huichol
+-}
 hch : Language
 hch =
     Language { code = "hch" }
 
-{-| Northern Haida -}
+
+{-| Northern Haida
+-}
 hdn : Language
 hdn =
     Language { code = "hdn" }
 
-{-| Honduras Sign Language -}
+
+{-| Honduras Sign Language
+-}
 hds : Language
 hds =
     Language { code = "hds" }
 
-{-| Hadiyya -}
+
+{-| Hadiyya
+-}
 hdy : Language
 hdy =
     Language { code = "hdy" }
 
-{-| Hebrew -}
+
+{-| Hebrew
+-}
 he : Language
 he =
     Language { code = "he" }
 
-{-| Northern Qiandong Miao -}
+
+{-| Northern Qiandong Miao
+-}
 hea : Language
 hea =
     Language { code = "hea" }
 
-{-| Herdé -}
+
+{-| Herdé
+-}
 hed : Language
 hed =
     Language { code = "hed" }
 
-{-| Helong -}
+
+{-| Helong
+-}
 heg : Language
 heg =
     Language { code = "heg" }
 
-{-| Hehe -}
+
+{-| Hehe
+-}
 heh : Language
 heh =
     Language { code = "heh" }
 
-{-| Heiltsuk -}
+
+{-| Heiltsuk
+-}
 hei : Language
 hei =
     Language { code = "hei" }
 
-{-| Hemba -}
+
+{-| Hemba
+-}
 hem : Language
 hem =
     Language { code = "hem" }
 
-{-| Haiǁom -}
+
+{-| Haiǁom
+-}
 hgm : Language
 hgm =
     Language { code = "hgm" }
 
-{-| Haigwai -}
+
+{-| Haigwai
+-}
 hgw : Language
 hgw =
     Language { code = "hgw" }
 
-{-| Hoia Hoia -}
+
+{-| Hoia Hoia
+-}
 hhi : Language
 hhi =
     Language { code = "hhi" }
 
-{-| Kerak -}
+
+{-| Kerak
+-}
 hhr : Language
 hhr =
     Language { code = "hhr" }
 
-{-| Hoyahoya -}
+
+{-| Hoyahoya
+-}
 hhy : Language
 hhy =
     Language { code = "hhy" }
 
-{-| Hindi -}
+
+{-| Hindi
+-}
 hi : Language
 hi =
     Language { code = "hi" }
 
-{-| Lamang -}
+
+{-| Lamang
+-}
 hia : Language
 hia =
     Language { code = "hia" }
 
-{-| Hibito -}
+
+{-| Hibito
+-}
 hib : Language
 hib =
     Language { code = "hib" }
 
-{-| Hidatsa -}
+
+{-| Hidatsa
+-}
 hid : Language
 hid =
     Language { code = "hid" }
 
-{-| Fiji Hindi -}
+
+{-| Fiji Hindi
+-}
 hif : Language
 hif =
     Language { code = "hif" }
 
-{-| Kamwe -}
+
+{-| Kamwe
+-}
 hig : Language
 hig =
     Language { code = "hig" }
 
-{-| Pamosu -}
+
+{-| Pamosu
+-}
 hih : Language
 hih =
     Language { code = "hih" }
 
-{-| Hinduri -}
+
+{-| Hinduri
+-}
 hii : Language
 hii =
     Language { code = "hii" }
 
-{-| Hijuk -}
+
+{-| Hijuk
+-}
 hij : Language
 hij =
     Language { code = "hij" }
 
-{-| Seit-Kaitetu -}
+
+{-| Seit-Kaitetu
+-}
 hik : Language
 hik =
     Language { code = "hik" }
 
-{-| Hiligaynon -}
+
+{-| Hiligaynon
+-}
 hil : Language
 hil =
     Language { code = "hil" }
 
+
 {-| Himachali languages
-Western Pahari languages -}
+Western Pahari languages
+-}
 him : Language
 him =
     Language { code = "him" }
 
-{-| Tsoa -}
+
+{-| Tsoa
+-}
 hio : Language
 hio =
     Language { code = "hio" }
 
-{-| Himarimã -}
+
+{-| Himarimã
+-}
 hir : Language
 hir =
     Language { code = "hir" }
 
-{-| Hittite -}
+
+{-| Hittite
+-}
 hit : Language
 hit =
     Language { code = "hit" }
 
-{-| Hiw -}
+
+{-| Hiw
+-}
 hiw : Language
 hiw =
     Language { code = "hiw" }
 
-{-| Hixkaryána -}
+
+{-| Hixkaryána
+-}
 hix : Language
 hix =
     Language { code = "hix" }
 
-{-| Haji -}
+
+{-| Haji
+-}
 hji : Language
 hji =
     Language { code = "hji" }
 
-{-| Kahe -}
+
+{-| Kahe
+-}
 hka : Language
 hka =
     Language { code = "hka" }
 
-{-| Hunde -}
+
+{-| Hunde
+-}
 hke : Language
 hke =
     Language { code = "hke" }
 
-{-| Hunjara-Kaina Ke -}
+
+{-| Hunjara-Kaina Ke
+-}
 hkk : Language
 hkk =
     Language { code = "hkk" }
 
-{-| Mel-Khaonh -}
+
+{-| Mel-Khaonh
+-}
 hkn : Language
 hkn =
     Language { code = "hkn" }
 
+
 {-| Hong Kong Sign Language
-Heung Kong Sau Yue -}
+Heung Kong Sau Yue
+-}
 hks : Language
 hks =
     Language { code = "hks" }
 
-{-| Halia -}
+
+{-| Halia
+-}
 hla : Language
 hla =
     Language { code = "hla" }
 
-{-| Halbi -}
+
+{-| Halbi
+-}
 hlb : Language
 hlb =
     Language { code = "hlb" }
 
-{-| Halang Doan -}
+
+{-| Halang Doan
+-}
 hld : Language
 hld =
     Language { code = "hld" }
 
-{-| Hlersu -}
+
+{-| Hlersu
+-}
 hle : Language
 hle =
     Language { code = "hle" }
 
-{-| Matu Chin -}
+
+{-| Matu Chin
+-}
 hlt : Language
 hlt =
     Language { code = "hlt" }
 
-{-| Hieroglyphic Luwian -}
+
+{-| Hieroglyphic Luwian
+-}
 hlu : Language
 hlu =
     Language { code = "hlu" }
 
+
 {-| Southern Mashan Hmong
-Southern Mashan Miao -}
+Southern Mashan Miao
+-}
 hma : Language
 hma =
     Language { code = "hma" }
 
-{-| Humburi Senni Songhay -}
+
+{-| Humburi Senni Songhay
+-}
 hmb : Language
 hmb =
     Language { code = "hmb" }
 
+
 {-| Central Huishui Hmong
-Central Huishui Miao -}
+Central Huishui Miao
+-}
 hmc : Language
 hmc =
     Language { code = "hmc" }
 
+
 {-| Large Flowery Miao
 A-hmaos
-Da-Hua Miao -}
+Da-Hua Miao
+-}
 hmd : Language
 hmd =
     Language { code = "hmd" }
 
+
 {-| Eastern Huishui Hmong
-Eastern Huishui Miao -}
+Eastern Huishui Miao
+-}
 hme : Language
 hme =
     Language { code = "hme" }
 
-{-| Hmong Don -}
+
+{-| Hmong Don
+-}
 hmf : Language
 hmf =
     Language { code = "hmf" }
 
-{-| Southwestern Guiyang Hmong -}
+
+{-| Southwestern Guiyang Hmong
+-}
 hmg : Language
 hmg =
     Language { code = "hmg" }
 
+
 {-| Southwestern Huishui Hmong
-Southwestern Huishui Miao -}
+Southwestern Huishui Miao
+-}
 hmh : Language
 hmh =
     Language { code = "hmh" }
 
+
 {-| Northern Huishui Hmong
-Northern Huishui Miao -}
+Northern Huishui Miao
+-}
 hmi : Language
 hmi =
     Language { code = "hmi" }
 
+
 {-| Ge
-Gejia -}
+Gejia
+-}
 hmj : Language
 hmj =
     Language { code = "hmj" }
 
-{-| Maek -}
+
+{-| Maek
+-}
 hmk : Language
 hmk =
     Language { code = "hmk" }
 
+
 {-| Luopohe Hmong
-Luopohe Miao -}
+Luopohe Miao
+-}
 hml : Language
 hml =
     Language { code = "hml" }
 
+
 {-| Central Mashan Hmong
-Central Mashan Miao -}
+Central Mashan Miao
+-}
 hmm : Language
 hmm =
     Language { code = "hmm" }
 
+
 {-| Hmong
-Mong -}
+Mong
+-}
 hmn : Language
 hmn =
     Language { code = "hmn" }
 
+
 {-| Northern Mashan Hmong
-Northern Mashan Miao -}
+Northern Mashan Miao
+-}
 hmp : Language
 hmp =
     Language { code = "hmp" }
 
-{-| Eastern Qiandong Miao -}
+
+{-| Eastern Qiandong Miao
+-}
 hmq : Language
 hmq =
     Language { code = "hmq" }
 
-{-| Hmar -}
+
+{-| Hmar
+-}
 hmr : Language
 hmr =
     Language { code = "hmr" }
 
-{-| Southern Qiandong Miao -}
+
+{-| Southern Qiandong Miao
+-}
 hms : Language
 hms =
     Language { code = "hms" }
 
-{-| Hamtai -}
+
+{-| Hamtai
+-}
 hmt : Language
 hmt =
     Language { code = "hmt" }
 
-{-| Hamap -}
+
+{-| Hamap
+-}
 hmu : Language
 hmu =
     Language { code = "hmu" }
 
-{-| Hmong Dô -}
+
+{-| Hmong Dô
+-}
 hmv : Language
 hmv =
     Language { code = "hmv" }
 
+
 {-| Western Mashan Hmong
-Western Mashan Miao -}
+Western Mashan Miao
+-}
 hmw : Language
 hmw =
     Language { code = "hmw" }
 
-{-| Hmong-Mien languages -}
+
+{-| Hmong-Mien languages
+-}
 hmx : Language
 hmx =
     Language { code = "hmx" }
 
+
 {-| Southern Guiyang Hmong
-Southern Guiyang Miao -}
+Southern Guiyang Miao
+-}
 hmy : Language
 hmy =
     Language { code = "hmy" }
 
+
 {-| Hmong Shua
-Sinicized Miao -}
+Sinicized Miao
+-}
 hmz : Language
 hmz =
     Language { code = "hmz" }
 
-{-| Mina (Cameroon) -}
+
+{-| Mina (Cameroon)
+-}
 hna : Language
 hna =
     Language { code = "hna" }
 
-{-| Southern Hindko -}
+
+{-| Southern Hindko
+-}
 hnd : Language
 hnd =
     Language { code = "hnd" }
 
-{-| Chhattisgarhi -}
+
+{-| Chhattisgarhi
+-}
 hne : Language
 hne =
     Language { code = "hne" }
 
-{-| Hungu -}
+
+{-| Hungu
+-}
 hng : Language
 hng =
     Language { code = "hng" }
 
-{-| ǁAni -}
+
+{-| ǁAni
+-}
 hnh : Language
 hnh =
     Language { code = "hnh" }
 
-{-| Hani -}
+
+{-| Hani
+-}
 hni : Language
 hni =
     Language { code = "hni" }
 
+
 {-| Hmong Njua
 Mong Leng
-Mong Njua -}
+Mong Njua
+-}
 hnj : Language
 hnj =
     Language { code = "hnj" }
 
-{-| Hanunoo -}
+
+{-| Hanunoo
+-}
 hnn : Language
 hnn =
     Language { code = "hnn" }
 
-{-| Northern Hindko -}
+
+{-| Northern Hindko
+-}
 hno : Language
 hno =
     Language { code = "hno" }
 
-{-| Caribbean Hindustani -}
+
+{-| Caribbean Hindustani
+-}
 hns : Language
 hns =
     Language { code = "hns" }
 
-{-| Hung -}
+
+{-| Hung
+-}
 hnu : Language
 hnu =
     Language { code = "hnu" }
 
-{-| Hiri Motu -}
+
+{-| Hiri Motu
+-}
 ho : Language
 ho =
     Language { code = "ho" }
 
-{-| Hoava -}
+
+{-| Hoava
+-}
 hoa : Language
 hoa =
     Language { code = "hoa" }
 
-{-| Mari (Madang Province) -}
+
+{-| Mari (Madang Province)
+-}
 hob : Language
 hob =
     Language { code = "hob" }
 
-{-| Ho -}
+
+{-| Ho
+-}
 hoc : Language
 hoc =
     Language { code = "hoc" }
 
-{-| Holma -}
+
+{-| Holma
+-}
 hod : Language
 hod =
     Language { code = "hod" }
 
-{-| Horom -}
+
+{-| Horom
+-}
 hoe : Language
 hoe =
     Language { code = "hoe" }
 
-{-| Hobyót -}
+
+{-| Hobyót
+-}
 hoh : Language
 hoh =
     Language { code = "hoh" }
 
-{-| Holikachuk -}
+
+{-| Holikachuk
+-}
 hoi : Language
 hoi =
     Language { code = "hoi" }
 
+
 {-| Hadothi
-Haroti -}
+Haroti
+-}
 hoj : Language
 hoj =
     Language { code = "hoj" }
 
-{-| Hokan languages -}
+
+{-| Hokan languages
+-}
 hok : Language
 hok =
     Language { code = "hok" }
 
-{-| Holu -}
+
+{-| Holu
+-}
 hol : Language
 hol =
     Language { code = "hol" }
 
-{-| Homa -}
+
+{-| Homa
+-}
 hom : Language
 hom =
     Language { code = "hom" }
 
-{-| Holoholo -}
+
+{-| Holoholo
+-}
 hoo : Language
 hoo =
     Language { code = "hoo" }
 
-{-| Hopi -}
+
+{-| Hopi
+-}
 hop : Language
 hop =
     Language { code = "hop" }
 
-{-| Horo -}
+
+{-| Horo
+-}
 hor : Language
 hor =
     Language { code = "hor" }
 
-{-| Ho Chi Minh City Sign Language -}
+
+{-| Ho Chi Minh City Sign Language
+-}
 hos : Language
 hos =
     Language { code = "hos" }
 
+
 {-| Hote
-Malê -}
+Malê
+-}
 hot : Language
 hot =
     Language { code = "hot" }
 
-{-| Hovongan -}
+
+{-| Hovongan
+-}
 hov : Language
 hov =
     Language { code = "hov" }
 
-{-| Honi -}
+
+{-| Honi
+-}
 how : Language
 how =
     Language { code = "how" }
 
-{-| Holiya -}
+
+{-| Holiya
+-}
 hoy : Language
 hoy =
     Language { code = "hoy" }
 
-{-| Hozo -}
+
+{-| Hozo
+-}
 hoz : Language
 hoz =
     Language { code = "hoz" }
 
-{-| Hpon -}
+
+{-| Hpon
+-}
 hpo : Language
 hpo =
     Language { code = "hpo" }
 
+
 {-| Hawai'i Sign Language (HSL)
-Hawai'i Pidgin Sign Language -}
+Hawai'i Pidgin Sign Language
+-}
 hps : Language
 hps =
     Language { code = "hps" }
 
-{-| Croatian -}
+
+{-| Croatian
+-}
 hr : Language
 hr =
     Language { code = "hr" }
 
-{-| Hrangkhol -}
+
+{-| Hrangkhol
+-}
 hra : Language
 hra =
     Language { code = "hra" }
 
-{-| Niwer Mil -}
+
+{-| Niwer Mil
+-}
 hrc : Language
 hrc =
     Language { code = "hrc" }
 
-{-| Hre -}
+
+{-| Hre
+-}
 hre : Language
 hre =
     Language { code = "hre" }
 
-{-| Haruku -}
+
+{-| Haruku
+-}
 hrk : Language
 hrk =
     Language { code = "hrk" }
 
-{-| Horned Miao -}
+
+{-| Horned Miao
+-}
 hrm : Language
 hrm =
     Language { code = "hrm" }
 
-{-| Haroi -}
+
+{-| Haroi
+-}
 hro : Language
 hro =
     Language { code = "hro" }
 
-{-| Nhirrpi -}
+
+{-| Nhirrpi
+-}
 hrp : Language
 hrp =
     Language { code = "hrp" }
 
-{-| Horuru -}
+
+{-| Horuru
+-}
 hrr : Language
 hrr =
     Language { code = "hrr" }
 
-{-| Hértevin -}
+
+{-| Hértevin
+-}
 hrt : Language
 hrt =
     Language { code = "hrt" }
 
-{-| Hruso -}
+
+{-| Hruso
+-}
 hru : Language
 hru =
     Language { code = "hru" }
 
-{-| Warwar Feni -}
+
+{-| Warwar Feni
+-}
 hrw : Language
 hrw =
     Language { code = "hrw" }
 
-{-| Hunsrik -}
+
+{-| Hunsrik
+-}
 hrx : Language
 hrx =
     Language { code = "hrx" }
 
-{-| Harzani -}
+
+{-| Harzani
+-}
 hrz : Language
 hrz =
     Language { code = "hrz" }
 
-{-| Upper Sorbian -}
+
+{-| Upper Sorbian
+-}
 hsb : Language
 hsb =
     Language { code = "hsb" }
 
-{-| Hungarian Sign Language -}
+
+{-| Hungarian Sign Language
+-}
 hsh : Language
 hsh =
     Language { code = "hsh" }
 
-{-| Hausa Sign Language -}
+
+{-| Hausa Sign Language
+-}
 hsl : Language
 hsl =
     Language { code = "hsl" }
 
-{-| Xiang Chinese -}
+
+{-| Xiang Chinese
+-}
 hsn : Language
 hsn =
     Language { code = "hsn" }
 
-{-| Harsusi -}
+
+{-| Harsusi
+-}
 hss : Language
 hss =
     Language { code = "hss" }
 
+
 {-| Haitian
-Haitian Creole -}
+Haitian Creole
+-}
 ht : Language
 ht =
     Language { code = "ht" }
 
-{-| Hoti -}
+
+{-| Hoti
+-}
 hti : Language
 hti =
     Language { code = "hti" }
 
-{-| Minica Huitoto -}
+
+{-| Minica Huitoto
+-}
 hto : Language
 hto =
     Language { code = "hto" }
 
-{-| Hadza -}
+
+{-| Hadza
+-}
 hts : Language
 hts =
     Language { code = "hts" }
 
-{-| Hitu -}
+
+{-| Hitu
+-}
 htu : Language
 htu =
     Language { code = "htu" }
 
-{-| Middle Hittite -}
+
+{-| Middle Hittite
+-}
 htx : Language
 htx =
     Language { code = "htx" }
 
-{-| Hungarian -}
+
+{-| Hungarian
+-}
 hu : Language
 hu =
     Language { code = "hu" }
 
-{-| Huambisa -}
+
+{-| Huambisa
+-}
 hub : Language
 hub =
     Language { code = "hub" }
 
+
 {-| ǂHua
-ǂʼAmkhoe -}
+ǂʼAmkhoe
+-}
 huc : Language
 huc =
     Language { code = "huc" }
 
-{-| Huaulu -}
+
+{-| Huaulu
+-}
 hud : Language
 hud =
     Language { code = "hud" }
 
-{-| San Francisco Del Mar Huave -}
+
+{-| San Francisco Del Mar Huave
+-}
 hue : Language
 hue =
     Language { code = "hue" }
 
-{-| Humene -}
+
+{-| Humene
+-}
 huf : Language
 huf =
     Language { code = "huf" }
 
-{-| Huachipaeri -}
+
+{-| Huachipaeri
+-}
 hug : Language
 hug =
     Language { code = "hug" }
 
-{-| Huilliche -}
+
+{-| Huilliche
+-}
 huh : Language
 huh =
     Language { code = "huh" }
 
-{-| Huli -}
+
+{-| Huli
+-}
 hui : Language
 hui =
     Language { code = "hui" }
 
+
 {-| Northern Guiyang Hmong
-Northern Guiyang Miao -}
+Northern Guiyang Miao
+-}
 huj : Language
 huj =
     Language { code = "huj" }
 
-{-| Hulung -}
+
+{-| Hulung
+-}
 huk : Language
 huk =
     Language { code = "huk" }
 
-{-| Hula -}
+
+{-| Hula
+-}
 hul : Language
 hul =
     Language { code = "hul" }
 
-{-| Hungana -}
+
+{-| Hungana
+-}
 hum : Language
 hum =
     Language { code = "hum" }
 
-{-| Hu -}
+
+{-| Hu
+-}
 huo : Language
 huo =
     Language { code = "huo" }
 
-{-| Hupa -}
+
+{-| Hupa
+-}
 hup : Language
 hup =
     Language { code = "hup" }
 
-{-| Tsat -}
+
+{-| Tsat
+-}
 huq : Language
 huq =
     Language { code = "huq" }
 
-{-| Halkomelem -}
+
+{-| Halkomelem
+-}
 hur : Language
 hur =
     Language { code = "hur" }
 
-{-| Huastec -}
+
+{-| Huastec
+-}
 hus : Language
 hus =
     Language { code = "hus" }
 
-{-| Humla -}
+
+{-| Humla
+-}
 hut : Language
 hut =
     Language { code = "hut" }
 
-{-| Murui Huitoto -}
+
+{-| Murui Huitoto
+-}
 huu : Language
 huu =
     Language { code = "huu" }
 
-{-| San Mateo Del Mar Huave -}
+
+{-| San Mateo Del Mar Huave
+-}
 huv : Language
 huv =
     Language { code = "huv" }
 
-{-| Hukumina -}
+
+{-| Hukumina
+-}
 huw : Language
 huw =
     Language { code = "huw" }
 
-{-| Nüpode Huitoto -}
+
+{-| Nüpode Huitoto
+-}
 hux : Language
 hux =
     Language { code = "hux" }
 
-{-| Hulaulá -}
+
+{-| Hulaulá
+-}
 huy : Language
 huy =
     Language { code = "huy" }
 
-{-| Hunzib -}
+
+{-| Hunzib
+-}
 huz : Language
 huz =
     Language { code = "huz" }
 
-{-| Haitian Vodoun Culture Language -}
+
+{-| Haitian Vodoun Culture Language
+-}
 hvc : Language
 hvc =
     Language { code = "hvc" }
 
-{-| San Dionisio Del Mar Huave -}
+
+{-| San Dionisio Del Mar Huave
+-}
 hve : Language
 hve =
     Language { code = "hve" }
 
-{-| Haveke -}
+
+{-| Haveke
+-}
 hvk : Language
 hvk =
     Language { code = "hvk" }
 
-{-| Sabu -}
+
+{-| Sabu
+-}
 hvn : Language
 hvn =
     Language { code = "hvn" }
 
-{-| Santa María Del Mar Huave -}
+
+{-| Santa María Del Mar Huave
+-}
 hvv : Language
 hvv =
     Language { code = "hvv" }
 
-{-| Wané -}
+
+{-| Wané
+-}
 hwa : Language
 hwa =
     Language { code = "hwa" }
 
+
 {-| Hawai'i Creole English
-Hawai'i Pidgin -}
+Hawai'i Pidgin
+-}
 hwc : Language
 hwc =
     Language { code = "hwc" }
 
-{-| Hwana -}
+
+{-| Hwana
+-}
 hwo : Language
 hwo =
     Language { code = "hwo" }
 
-{-| Armenian -}
+
+{-| Armenian
+-}
 hy : Language
 hy =
     Language { code = "hy" }
 
-{-| Hya -}
+
+{-| Hya
+-}
 hya : Language
 hya =
     Language { code = "hya" }
 
-{-| Western Armenian -}
+
+{-| Western Armenian
+-}
 hyw : Language
 hyw =
     Language { code = "hyw" }
 
-{-| Armenian (family) -}
+
+{-| Armenian (family)
+-}
 hyx : Language
 hyx =
     Language { code = "hyx" }
 
-{-| Herero -}
+
+{-| Herero
+-}
 hz : Language
 hz =
     Language { code = "hz" }
 
-{-| Interlingua (International Auxiliary Language Association) -}
+
+{-| Interlingua (International Auxiliary Language Association)
+-}
 ia : Language
 ia =
     Language { code = "ia" }
 
-{-| Iaai -}
+
+{-| Iaai
+-}
 iai : Language
 iai =
     Language { code = "iai" }
 
-{-| Iatmul -}
+
+{-| Iatmul
+-}
 ian : Language
 ian =
     Language { code = "ian" }
 
-{-| Iapama -}
+
+{-| Iapama
+-}
 iap : Language
 iap =
     Language { code = "iap" }
 
-{-| Purari -}
+
+{-| Purari
+-}
 iar : Language
 iar =
     Language { code = "iar" }
 
-{-| Iban -}
+
+{-| Iban
+-}
 iba : Language
 iba =
     Language { code = "iba" }
 
-{-| Ibibio -}
+
+{-| Ibibio
+-}
 ibb : Language
 ibb =
     Language { code = "ibb" }
 
-{-| Iwaidja -}
+
+{-| Iwaidja
+-}
 ibd : Language
 ibd =
     Language { code = "ibd" }
 
-{-| Akpes -}
+
+{-| Akpes
+-}
 ibe : Language
 ibe =
     Language { code = "ibe" }
 
-{-| Ibanag -}
+
+{-| Ibanag
+-}
 ibg : Language
 ibg =
     Language { code = "ibg" }
 
-{-| Bih -}
+
+{-| Bih
+-}
 ibh : Language
 ibh =
     Language { code = "ibh" }
 
-{-| Ibilo -}
+
+{-| Ibilo
+-}
 ibi : Language
 ibi =
     Language { code = "ibi" }
 
-{-| Ibaloi -}
+
+{-| Ibaloi
+-}
 ibl : Language
 ibl =
     Language { code = "ibl" }
 
-{-| Agoi -}
+
+{-| Agoi
+-}
 ibm : Language
 ibm =
     Language { code = "ibm" }
 
-{-| Ibino -}
+
+{-| Ibino
+-}
 ibn : Language
 ibn =
     Language { code = "ibn" }
 
-{-| Ibuoro -}
+
+{-| Ibuoro
+-}
 ibr : Language
 ibr =
     Language { code = "ibr" }
 
-{-| Ibu -}
+
+{-| Ibu
+-}
 ibu : Language
 ibu =
     Language { code = "ibu" }
 
-{-| Ibani -}
+
+{-| Ibani
+-}
 iby : Language
 iby =
     Language { code = "iby" }
 
-{-| Ede Ica -}
+
+{-| Ede Ica
+-}
 ica : Language
 ica =
     Language { code = "ica" }
 
-{-| Etkywan -}
+
+{-| Etkywan
+-}
 ich : Language
 ich =
     Language { code = "ich" }
 
-{-| Icelandic Sign Language -}
+
+{-| Icelandic Sign Language
+-}
 icl : Language
 icl =
     Language { code = "icl" }
 
-{-| Islander Creole English -}
+
+{-| Islander Creole English
+-}
 icr : Language
 icr =
     Language { code = "icr" }
 
-{-| Indonesian -}
+
+{-| Indonesian
+-}
 id : Language
 id =
     Language { code = "id" }
 
+
 {-| Idakho-Isukha-Tiriki
-Luidakho-Luisukha-Lutirichi -}
+Luidakho-Luisukha-Lutirichi
+-}
 ida : Language
 ida =
     Language { code = "ida" }
 
-{-| Indo-Portuguese -}
+
+{-| Indo-Portuguese
+-}
 idb : Language
 idb =
     Language { code = "idb" }
 
+
 {-| Idon
-Ajiya -}
+Ajiya
+-}
 idc : Language
 idc =
     Language { code = "idc" }
 
-{-| Ede Idaca -}
+
+{-| Ede Idaca
+-}
 idd : Language
 idd =
     Language { code = "idd" }
 
-{-| Idere -}
+
+{-| Idere
+-}
 ide : Language
 ide =
     Language { code = "ide" }
 
-{-| Idi -}
+
+{-| Idi
+-}
 idi : Language
 idi =
     Language { code = "idi" }
 
-{-| Indri -}
+
+{-| Indri
+-}
 idr : Language
 idr =
     Language { code = "idr" }
 
-{-| Idesa -}
+
+{-| Idesa
+-}
 ids : Language
 ids =
     Language { code = "ids" }
 
-{-| Idaté -}
+
+{-| Idaté
+-}
 idt : Language
 idt =
     Language { code = "idt" }
 
-{-| Idoma -}
+
+{-| Idoma
+-}
 idu : Language
 idu =
     Language { code = "idu" }
 
+
 {-| Interlingue
-Occidental -}
+Occidental
+-}
 ie : Language
 ie =
     Language { code = "ie" }
 
-{-| Amganad Ifugao -}
+
+{-| Amganad Ifugao
+-}
 ifa : Language
 ifa =
     Language { code = "ifa" }
 
+
 {-| Batad Ifugao
-Ayangan Ifugao -}
+Ayangan Ifugao
+-}
 ifb : Language
 ifb =
     Language { code = "ifb" }
 
-{-| Ifè -}
+
+{-| Ifè
+-}
 ife : Language
 ife =
     Language { code = "ife" }
 
-{-| Ifo -}
+
+{-| Ifo
+-}
 iff : Language
 iff =
     Language { code = "iff" }
 
-{-| Tuwali Ifugao -}
+
+{-| Tuwali Ifugao
+-}
 ifk : Language
 ifk =
     Language { code = "ifk" }
 
-{-| Teke-Fuumu -}
+
+{-| Teke-Fuumu
+-}
 ifm : Language
 ifm =
     Language { code = "ifm" }
 
-{-| Mayoyao Ifugao -}
+
+{-| Mayoyao Ifugao
+-}
 ifu : Language
 ifu =
     Language { code = "ifu" }
 
-{-| Keley-I Kallahan -}
+
+{-| Keley-I Kallahan
+-}
 ify : Language
 ify =
     Language { code = "ify" }
 
-{-| Igbo -}
+
+{-| Igbo
+-}
 ig : Language
 ig =
     Language { code = "ig" }
 
-{-| Ebira -}
+
+{-| Ebira
+-}
 igb : Language
 igb =
     Language { code = "igb" }
 
-{-| Igede -}
+
+{-| Igede
+-}
 ige : Language
 ige =
     Language { code = "ige" }
 
-{-| Igana -}
+
+{-| Igana
+-}
 igg : Language
 igg =
     Language { code = "igg" }
 
-{-| Igala -}
+
+{-| Igala
+-}
 igl : Language
 igl =
     Language { code = "igl" }
 
-{-| Kanggape -}
+
+{-| Kanggape
+-}
 igm : Language
 igm =
     Language { code = "igm" }
 
-{-| Ignaciano -}
+
+{-| Ignaciano
+-}
 ign : Language
 ign =
     Language { code = "ign" }
 
-{-| Isebe -}
+
+{-| Isebe
+-}
 igo : Language
 igo =
     Language { code = "igo" }
 
-{-| Interglossa -}
+
+{-| Interglossa
+-}
 igs : Language
 igs =
     Language { code = "igs" }
 
-{-| Igwe -}
+
+{-| Igwe
+-}
 igw : Language
 igw =
     Language { code = "igw" }
 
-{-| Iha Based Pidgin -}
+
+{-| Iha Based Pidgin
+-}
 ihb : Language
 ihb =
     Language { code = "ihb" }
 
-{-| Ihievbe -}
+
+{-| Ihievbe
+-}
 ihi : Language
 ihi =
     Language { code = "ihi" }
 
-{-| Iha -}
+
+{-| Iha
+-}
 ihp : Language
 ihp =
     Language { code = "ihp" }
 
-{-| Bidhawal -}
+
+{-| Bidhawal
+-}
 ihw : Language
 ihw =
     Language { code = "ihw" }
 
+
 {-| Sichuan Yi
-Nuosu -}
+Nuosu
+-}
 ii : Language
 ii =
     Language { code = "ii" }
 
-{-| Thiin -}
+
+{-| Thiin
+-}
 iin : Language
 iin =
     Language { code = "iin" }
 
-{-| Indo-Iranian languages -}
+
+{-| Indo-Iranian languages
+-}
 iir : Language
 iir =
     Language { code = "iir" }
 
-{-| Izon -}
+
+{-| Izon
+-}
 ijc : Language
 ijc =
     Language { code = "ijc" }
 
-{-| Biseni -}
+
+{-| Biseni
+-}
 ije : Language
 ije =
     Language { code = "ije" }
 
-{-| Ede Ije -}
+
+{-| Ede Ije
+-}
 ijj : Language
 ijj =
     Language { code = "ijj" }
 
-{-| Kalabari -}
+
+{-| Kalabari
+-}
 ijn : Language
 ijn =
     Language { code = "ijn" }
 
-{-| Ijo languages -}
+
+{-| Ijo languages
+-}
 ijo : Language
 ijo =
     Language { code = "ijo" }
 
-{-| Southeast Ijo -}
+
+{-| Southeast Ijo
+-}
 ijs : Language
 ijs =
     Language { code = "ijs" }
 
-{-| Inupiaq -}
+
+{-| Inupiaq
+-}
 ik : Language
 ik =
     Language { code = "ik" }
 
-{-| Eastern Canadian Inuktitut -}
+
+{-| Eastern Canadian Inuktitut
+-}
 ike : Language
 ike =
     Language { code = "ike" }
 
-{-| Iko -}
+
+{-| Iko
+-}
 iki : Language
 iki =
     Language { code = "iki" }
 
-{-| Ika -}
+
+{-| Ika
+-}
 ikk : Language
 ikk =
     Language { code = "ikk" }
 
-{-| Ikulu -}
+
+{-| Ikulu
+-}
 ikl : Language
 ikl =
     Language { code = "ikl" }
 
-{-| Olulumo-Ikom -}
+
+{-| Olulumo-Ikom
+-}
 iko : Language
 iko =
     Language { code = "iko" }
 
-{-| Ikpeshi -}
+
+{-| Ikpeshi
+-}
 ikp : Language
 ikp =
     Language { code = "ikp" }
 
-{-| Ikaranggal -}
+
+{-| Ikaranggal
+-}
 ikr : Language
 ikr =
     Language { code = "ikr" }
 
-{-| Inuit Sign Language -}
+
+{-| Inuit Sign Language
+-}
 iks : Language
 iks =
     Language { code = "iks" }
 
+
 {-| Inuinnaqtun
-Western Canadian Inuktitut -}
+Western Canadian Inuktitut
+-}
 ikt : Language
 ikt =
     Language { code = "ikt" }
 
-{-| Iku-Gora-Ankwa -}
+
+{-| Iku-Gora-Ankwa
+-}
 ikv : Language
 ikv =
     Language { code = "ikv" }
 
-{-| Ikwere -}
+
+{-| Ikwere
+-}
 ikw : Language
 ikw =
     Language { code = "ikw" }
 
-{-| Ik -}
+
+{-| Ik
+-}
 ikx : Language
 ikx =
     Language { code = "ikx" }
 
-{-| Ikizu -}
+
+{-| Ikizu
+-}
 ikz : Language
 ikz =
     Language { code = "ikz" }
 
-{-| Ile Ape -}
+
+{-| Ile Ape
+-}
 ila : Language
 ila =
     Language { code = "ila" }
 
-{-| Ila -}
+
+{-| Ila
+-}
 ilb : Language
 ilb =
     Language { code = "ilb" }
 
-{-| Garig-Ilgar -}
+
+{-| Garig-Ilgar
+-}
 ilg : Language
 ilg =
     Language { code = "ilg" }
 
-{-| Ili Turki -}
+
+{-| Ili Turki
+-}
 ili : Language
 ili =
     Language { code = "ili" }
 
-{-| Ilongot -}
+
+{-| Ilongot
+-}
 ilk : Language
 ilk =
     Language { code = "ilk" }
 
-{-| Iranun -}
+
+{-| Iranun
+-}
 ill : Language
 ill =
     Language { code = "ill" }
 
-{-| Iranun (Malaysia) -}
+
+{-| Iranun (Malaysia)
+-}
 ilm : Language
 ilm =
     Language { code = "ilm" }
 
-{-| Iloko -}
+
+{-| Iloko
+-}
 ilo : Language
 ilo =
     Language { code = "ilo" }
 
-{-| Iranun (Philippines) -}
+
+{-| Iranun (Philippines)
+-}
 ilp : Language
 ilp =
     Language { code = "ilp" }
 
-{-| International Sign -}
+
+{-| International Sign
+-}
 ils : Language
 ils =
     Language { code = "ils" }
 
-{-| Ili'uun -}
+
+{-| Ili'uun
+-}
 ilu : Language
 ilu =
     Language { code = "ilu" }
 
-{-| Ilue -}
+
+{-| Ilue
+-}
 ilv : Language
 ilv =
     Language { code = "ilv" }
 
-{-| Talur -}
+
+{-| Talur
+-}
 ilw : Language
 ilw =
     Language { code = "ilw" }
 
-{-| Mala Malasar -}
+
+{-| Mala Malasar
+-}
 ima : Language
 ima =
     Language { code = "ima" }
 
-{-| Imeraguen -}
+
+{-| Imeraguen
+-}
 ime : Language
 ime =
     Language { code = "ime" }
 
-{-| Anamgura -}
+
+{-| Anamgura
+-}
 imi : Language
 imi =
     Language { code = "imi" }
 
-{-| Miluk -}
+
+{-| Miluk
+-}
 iml : Language
 iml =
     Language { code = "iml" }
 
-{-| Imonda -}
+
+{-| Imonda
+-}
 imn : Language
 imn =
     Language { code = "imn" }
 
-{-| Imbongu -}
+
+{-| Imbongu
+-}
 imo : Language
 imo =
     Language { code = "imo" }
 
-{-| Imroing -}
+
+{-| Imroing
+-}
 imr : Language
 imr =
     Language { code = "imr" }
 
-{-| Marsian -}
+
+{-| Marsian
+-}
 ims : Language
 ims =
     Language { code = "ims" }
 
-{-| Milyan -}
+
+{-| Milyan
+-}
 imy : Language
 imy =
     Language { code = "imy" }
 
-{-| Indonesian -}
+
+{-| Indonesian
+-}
 in_ : Language
 in_ =
     Language { code = "in" }
 
-{-| Inga -}
+
+{-| Inga
+-}
 inb : Language
 inb =
     Language { code = "inb" }
 
-{-| Indic languages -}
+
+{-| Indic languages
+-}
 inc : Language
 inc =
     Language { code = "inc" }
 
-{-| Indo-European languages -}
+
+{-| Indo-European languages
+-}
 ine : Language
 ine =
     Language { code = "ine" }
 
-{-| Degexit'an -}
+
+{-| Degexit'an
+-}
 ing : Language
 ing =
     Language { code = "ing" }
 
-{-| Ingush -}
+
+{-| Ingush
+-}
 inh : Language
 inh =
     Language { code = "inh" }
 
-{-| Jungle Inga -}
+
+{-| Jungle Inga
+-}
 inj : Language
 inj =
     Language { code = "inj" }
 
-{-| Indonesian Sign Language -}
+
+{-| Indonesian Sign Language
+-}
 inl : Language
 inl =
     Language { code = "inl" }
 
-{-| Minaean -}
+
+{-| Minaean
+-}
 inm : Language
 inm =
     Language { code = "inm" }
 
-{-| Isinai -}
+
+{-| Isinai
+-}
 inn : Language
 inn =
     Language { code = "inn" }
 
-{-| Inoke-Yate -}
+
+{-| Inoke-Yate
+-}
 ino : Language
 ino =
     Language { code = "ino" }
 
-{-| Iñapari -}
+
+{-| Iñapari
+-}
 inp : Language
 inp =
     Language { code = "inp" }
 
-{-| Indian Sign Language -}
+
+{-| Indian Sign Language
+-}
 ins : Language
 ins =
     Language { code = "ins" }
 
-{-| Intha -}
+
+{-| Intha
+-}
 int : Language
 int =
     Language { code = "int" }
 
-{-| Ineseño -}
+
+{-| Ineseño
+-}
 inz : Language
 inz =
     Language { code = "inz" }
 
-{-| Ido -}
+
+{-| Ido
+-}
 io : Language
 io =
     Language { code = "io" }
 
-{-| Inor -}
+
+{-| Inor
+-}
 ior : Language
 ior =
     Language { code = "ior" }
 
-{-| Tuma-Irumu -}
+
+{-| Tuma-Irumu
+-}
 iou : Language
 iou =
     Language { code = "iou" }
 
-{-| Iowa-Oto -}
+
+{-| Iowa-Oto
+-}
 iow : Language
 iow =
     Language { code = "iow" }
 
-{-| Ipili -}
+
+{-| Ipili
+-}
 ipi : Language
 ipi =
     Language { code = "ipi" }
 
-{-| Ipiko -}
+
+{-| Ipiko
+-}
 ipo : Language
 ipo =
     Language { code = "ipo" }
 
-{-| Iquito -}
+
+{-| Iquito
+-}
 iqu : Language
 iqu =
     Language { code = "iqu" }
 
-{-| Ikwo -}
+
+{-| Ikwo
+-}
 iqw : Language
 iqw =
     Language { code = "iqw" }
 
-{-| Iranian languages -}
+
+{-| Iranian languages
+-}
 ira : Language
 ira =
     Language { code = "ira" }
 
-{-| Iresim -}
+
+{-| Iresim
+-}
 ire : Language
 ire =
     Language { code = "ire" }
 
-{-| Irarutu -}
+
+{-| Irarutu
+-}
 irh : Language
 irh =
     Language { code = "irh" }
 
+
 {-| Rigwe
-Irigwe -}
+Irigwe
+-}
 iri : Language
 iri =
     Language { code = "iri" }
 
-{-| Iraqw -}
+
+{-| Iraqw
+-}
 irk : Language
 irk =
     Language { code = "irk" }
 
-{-| Irántxe -}
+
+{-| Irántxe
+-}
 irn : Language
 irn =
     Language { code = "irn" }
 
-{-| Iroquoian languages -}
+
+{-| Iroquoian languages
+-}
 iro : Language
 iro =
     Language { code = "iro" }
 
-{-| Ir -}
+
+{-| Ir
+-}
 irr : Language
 irr =
     Language { code = "irr" }
 
-{-| Irula -}
+
+{-| Irula
+-}
 iru : Language
 iru =
     Language { code = "iru" }
 
-{-| Kamberau -}
+
+{-| Kamberau
+-}
 irx : Language
 irx =
     Language { code = "irx" }
 
-{-| Iraya -}
+
+{-| Iraya
+-}
 iry : Language
 iry =
     Language { code = "iry" }
 
-{-| Icelandic -}
+
+{-| Icelandic
+-}
 is : Language
 is =
     Language { code = "is" }
 
-{-| Isabi -}
+
+{-| Isabi
+-}
 isa : Language
 isa =
     Language { code = "isa" }
 
-{-| Isconahua -}
+
+{-| Isconahua
+-}
 isc : Language
 isc =
     Language { code = "isc" }
 
-{-| Isnag -}
+
+{-| Isnag
+-}
 isd : Language
 isd =
     Language { code = "isd" }
 
-{-| Italian Sign Language -}
+
+{-| Italian Sign Language
+-}
 ise : Language
 ise =
     Language { code = "ise" }
 
-{-| Irish Sign Language -}
+
+{-| Irish Sign Language
+-}
 isg : Language
 isg =
     Language { code = "isg" }
 
-{-| Esan -}
+
+{-| Esan
+-}
 ish : Language
 ish =
     Language { code = "ish" }
 
-{-| Nkem-Nkum -}
+
+{-| Nkem-Nkum
+-}
 isi : Language
 isi =
     Language { code = "isi" }
 
-{-| Ishkashimi -}
+
+{-| Ishkashimi
+-}
 isk : Language
 isk =
     Language { code = "isk" }
 
-{-| Masimasi -}
+
+{-| Masimasi
+-}
 ism : Language
 ism =
     Language { code = "ism" }
 
-{-| Isanzu -}
+
+{-| Isanzu
+-}
 isn : Language
 isn =
     Language { code = "isn" }
 
-{-| Isoko -}
+
+{-| Isoko
+-}
 iso : Language
 iso =
     Language { code = "iso" }
 
-{-| Israeli Sign Language -}
+
+{-| Israeli Sign Language
+-}
 isr : Language
 isr =
     Language { code = "isr" }
 
-{-| Istriot -}
+
+{-| Istriot
+-}
 ist : Language
 ist =
     Language { code = "ist" }
 
-{-| Isu (Menchum Division) -}
+
+{-| Isu (Menchum Division)
+-}
 isu : Language
 isu =
     Language { code = "isu" }
 
-{-| Italian -}
+
+{-| Italian
+-}
 it : Language
 it =
     Language { code = "it" }
 
-{-| Binongan Itneg -}
+
+{-| Binongan Itneg
+-}
 itb : Language
 itb =
     Language { code = "itb" }
 
-{-| Italic languages -}
+
+{-| Italic languages
+-}
 itc : Language
 itc =
     Language { code = "itc" }
 
-{-| Southern Tidung -}
+
+{-| Southern Tidung
+-}
 itd : Language
 itd =
     Language { code = "itd" }
 
-{-| Itene -}
+
+{-| Itene
+-}
 ite : Language
 ite =
     Language { code = "ite" }
 
-{-| Inlaod Itneg -}
+
+{-| Inlaod Itneg
+-}
 iti : Language
 iti =
     Language { code = "iti" }
 
-{-| Judeo-Italian -}
+
+{-| Judeo-Italian
+-}
 itk : Language
 itk =
     Language { code = "itk" }
 
-{-| Itelmen -}
+
+{-| Itelmen
+-}
 itl : Language
 itl =
     Language { code = "itl" }
 
-{-| Itu Mbon Uzo -}
+
+{-| Itu Mbon Uzo
+-}
 itm : Language
 itm =
     Language { code = "itm" }
 
-{-| Itonama -}
+
+{-| Itonama
+-}
 ito : Language
 ito =
     Language { code = "ito" }
 
-{-| Iteri -}
+
+{-| Iteri
+-}
 itr : Language
 itr =
     Language { code = "itr" }
 
-{-| Isekiri -}
+
+{-| Isekiri
+-}
 its : Language
 its =
     Language { code = "its" }
 
-{-| Maeng Itneg -}
+
+{-| Maeng Itneg
+-}
 itt : Language
 itt =
     Language { code = "itt" }
 
-{-| Itawit -}
+
+{-| Itawit
+-}
 itv : Language
 itv =
     Language { code = "itv" }
 
-{-| Ito -}
+
+{-| Ito
+-}
 itw : Language
 itw =
     Language { code = "itw" }
 
-{-| Itik -}
+
+{-| Itik
+-}
 itx : Language
 itx =
     Language { code = "itx" }
 
-{-| Moyadan Itneg -}
+
+{-| Moyadan Itneg
+-}
 ity : Language
 ity =
     Language { code = "ity" }
 
-{-| Itzá -}
+
+{-| Itzá
+-}
 itz : Language
 itz =
     Language { code = "itz" }
 
-{-| Inuktitut -}
+
+{-| Inuktitut
+-}
 iu : Language
 iu =
     Language { code = "iu" }
 
-{-| Iu Mien -}
+
+{-| Iu Mien
+-}
 ium : Language
 ium =
     Language { code = "ium" }
 
-{-| Ibatan -}
+
+{-| Ibatan
+-}
 ivb : Language
 ivb =
     Language { code = "ivb" }
 
-{-| Ivatan -}
+
+{-| Ivatan
+-}
 ivv : Language
 ivv =
     Language { code = "ivv" }
 
-{-| Hebrew -}
+
+{-| Hebrew
+-}
 iw : Language
 iw =
     Language { code = "iw" }
 
-{-| I-Wak -}
+
+{-| I-Wak
+-}
 iwk : Language
 iwk =
     Language { code = "iwk" }
 
-{-| Iwam -}
+
+{-| Iwam
+-}
 iwm : Language
 iwm =
     Language { code = "iwm" }
 
-{-| Iwur -}
+
+{-| Iwur
+-}
 iwo : Language
 iwo =
     Language { code = "iwo" }
 
-{-| Sepik Iwam -}
+
+{-| Sepik Iwam
+-}
 iws : Language
 iws =
     Language { code = "iws" }
 
-{-| Ixcatec -}
+
+{-| Ixcatec
+-}
 ixc : Language
 ixc =
     Language { code = "ixc" }
 
-{-| Ixil -}
+
+{-| Ixil
+-}
 ixl : Language
 ixl =
     Language { code = "ixl" }
 
-{-| Iyayu -}
+
+{-| Iyayu
+-}
 iya : Language
 iya =
     Language { code = "iya" }
 
-{-| Mesaka -}
+
+{-| Mesaka
+-}
 iyo : Language
 iyo =
     Language { code = "iyo" }
 
-{-| Yaka (Congo) -}
+
+{-| Yaka (Congo)
+-}
 iyx : Language
 iyx =
     Language { code = "iyx" }
 
-{-| Ingrian -}
+
+{-| Ingrian
+-}
 izh : Language
 izh =
     Language { code = "izh" }
 
-{-| Izi-Ezaa-Ikwo-Mgbo -}
+
+{-| Izi-Ezaa-Ikwo-Mgbo
+-}
 izi : Language
 izi =
     Language { code = "izi" }
 
-{-| Izere -}
+
+{-| Izere
+-}
 izr : Language
 izr =
     Language { code = "izr" }
 
-{-| Izii -}
+
+{-| Izii
+-}
 izz : Language
 izz =
     Language { code = "izz" }
 
-{-| Japanese -}
+
+{-| Japanese
+-}
 ja : Language
 ja =
     Language { code = "ja" }
 
-{-| Jamamadí -}
+
+{-| Jamamadí
+-}
 jaa : Language
 jaa =
     Language { code = "jaa" }
 
-{-| Hyam -}
+
+{-| Hyam
+-}
 jab : Language
 jab =
     Language { code = "jab" }
 
+
 {-| Popti'
-Jakalteko -}
+Jakalteko
+-}
 jac : Language
 jac =
     Language { code = "jac" }
 
-{-| Jahanka -}
+
+{-| Jahanka
+-}
 jad : Language
 jad =
     Language { code = "jad" }
 
-{-| Yabem -}
+
+{-| Yabem
+-}
 jae : Language
 jae =
     Language { code = "jae" }
 
-{-| Jara -}
+
+{-| Jara
+-}
 jaf : Language
 jaf =
     Language { code = "jaf" }
 
-{-| Jah Hut -}
+
+{-| Jah Hut
+-}
 jah : Language
 jah =
     Language { code = "jah" }
 
-{-| Zazao -}
+
+{-| Zazao
+-}
 jaj : Language
 jaj =
     Language { code = "jaj" }
 
-{-| Jakun -}
+
+{-| Jakun
+-}
 jak : Language
 jak =
     Language { code = "jak" }
 
-{-| Yalahatan -}
+
+{-| Yalahatan
+-}
 jal : Language
 jal =
     Language { code = "jal" }
 
-{-| Jamaican Creole English -}
+
+{-| Jamaican Creole English
+-}
 jam : Language
 jam =
     Language { code = "jam" }
 
-{-| Jandai -}
+
+{-| Jandai
+-}
 jan : Language
 jan =
     Language { code = "jan" }
 
-{-| Yanyuwa -}
+
+{-| Yanyuwa
+-}
 jao : Language
 jao =
     Language { code = "jao" }
 
-{-| Yaqay -}
+
+{-| Yaqay
+-}
 jaq : Language
 jaq =
     Language { code = "jaq" }
 
-{-| Jarawa (Nigeria) -}
+
+{-| Jarawa (Nigeria)
+-}
 jar : Language
 jar =
     Language { code = "jar" }
 
-{-| New Caledonian Javanese -}
+
+{-| New Caledonian Javanese
+-}
 jas : Language
 jas =
     Language { code = "jas" }
 
-{-| Jakati -}
+
+{-| Jakati
+-}
 jat : Language
 jat =
     Language { code = "jat" }
 
-{-| Yaur -}
+
+{-| Yaur
+-}
 jau : Language
 jau =
     Language { code = "jau" }
 
-{-| Jambi Malay -}
+
+{-| Jambi Malay
+-}
 jax : Language
 jax =
     Language { code = "jax" }
 
+
 {-| Yan-nhangu
-Nhangu -}
+Nhangu
+-}
 jay : Language
 jay =
     Language { code = "jay" }
 
-{-| Jawe -}
+
+{-| Jawe
+-}
 jaz : Language
 jaz =
     Language { code = "jaz" }
 
-{-| Judeo-Berber -}
+
+{-| Judeo-Berber
+-}
 jbe : Language
 jbe =
     Language { code = "jbe" }
 
-{-| Badjiri -}
+
+{-| Badjiri
+-}
 jbi : Language
 jbi =
     Language { code = "jbi" }
 
-{-| Arandai -}
+
+{-| Arandai
+-}
 jbj : Language
 jbj =
     Language { code = "jbj" }
 
-{-| Barikewa -}
+
+{-| Barikewa
+-}
 jbk : Language
 jbk =
     Language { code = "jbk" }
 
-{-| Nafusi -}
+
+{-| Nafusi
+-}
 jbn : Language
 jbn =
     Language { code = "jbn" }
 
-{-| Lojban -}
+
+{-| Lojban
+-}
 jbo : Language
 jbo =
     Language { code = "jbo" }
 
-{-| Jofotek-Bromnya -}
+
+{-| Jofotek-Bromnya
+-}
 jbr : Language
 jbr =
     Language { code = "jbr" }
 
-{-| Jabutí -}
+
+{-| Jabutí
+-}
 jbt : Language
 jbt =
     Language { code = "jbt" }
 
-{-| Jukun Takum -}
+
+{-| Jukun Takum
+-}
 jbu : Language
 jbu =
     Language { code = "jbu" }
 
-{-| Yawijibaya -}
+
+{-| Yawijibaya
+-}
 jbw : Language
 jbw =
     Language { code = "jbw" }
 
-{-| Jamaican Country Sign Language -}
+
+{-| Jamaican Country Sign Language
+-}
 jcs : Language
 jcs =
     Language { code = "jcs" }
 
-{-| Krymchak -}
+
+{-| Krymchak
+-}
 jct : Language
 jct =
     Language { code = "jct" }
 
-{-| Jad -}
+
+{-| Jad
+-}
 jda : Language
 jda =
     Language { code = "jda" }
 
-{-| Jadgali -}
+
+{-| Jadgali
+-}
 jdg : Language
 jdg =
     Language { code = "jdg" }
 
-{-| Judeo-Tat -}
+
+{-| Judeo-Tat
+-}
 jdt : Language
 jdt =
     Language { code = "jdt" }
 
-{-| Jebero -}
+
+{-| Jebero
+-}
 jeb : Language
 jeb =
     Language { code = "jeb" }
 
-{-| Jerung -}
+
+{-| Jerung
+-}
 jee : Language
 jee =
     Language { code = "jee" }
 
-{-| Jeng -}
+
+{-| Jeng
+-}
 jeg : Language
 jeg =
     Language { code = "jeg" }
 
-{-| Jeh -}
+
+{-| Jeh
+-}
 jeh : Language
 jeh =
     Language { code = "jeh" }
 
-{-| Yei -}
+
+{-| Yei
+-}
 jei : Language
 jei =
     Language { code = "jei" }
 
-{-| Jeri Kuo -}
+
+{-| Jeri Kuo
+-}
 jek : Language
 jek =
     Language { code = "jek" }
 
-{-| Yelmek -}
+
+{-| Yelmek
+-}
 jel : Language
 jel =
     Language { code = "jel" }
 
-{-| Dza -}
+
+{-| Dza
+-}
 jen : Language
 jen =
     Language { code = "jen" }
 
-{-| Jere -}
+
+{-| Jere
+-}
 jer : Language
 jer =
     Language { code = "jer" }
 
-{-| Manem -}
+
+{-| Manem
+-}
 jet : Language
 jet =
     Language { code = "jet" }
 
-{-| Jonkor Bourmataguil -}
+
+{-| Jonkor Bourmataguil
+-}
 jeu : Language
 jeu =
     Language { code = "jeu" }
 
-{-| Ngbee -}
+
+{-| Ngbee
+-}
 jgb : Language
 jgb =
     Language { code = "jgb" }
 
-{-| Judeo-Georgian -}
+
+{-| Judeo-Georgian
+-}
 jge : Language
 jge =
     Language { code = "jge" }
 
-{-| Gwak -}
+
+{-| Gwak
+-}
 jgk : Language
 jgk =
     Language { code = "jgk" }
 
-{-| Ngomba -}
+
+{-| Ngomba
+-}
 jgo : Language
 jgo =
     Language { code = "jgo" }
 
-{-| Jehai -}
+
+{-| Jehai
+-}
 jhi : Language
 jhi =
     Language { code = "jhi" }
 
-{-| Jhankot Sign Language -}
+
+{-| Jhankot Sign Language
+-}
 jhs : Language
 jhs =
     Language { code = "jhs" }
 
-{-| Yiddish -}
+
+{-| Yiddish
+-}
 ji : Language
 ji =
     Language { code = "ji" }
 
-{-| Jina -}
+
+{-| Jina
+-}
 jia : Language
 jia =
     Language { code = "jia" }
 
-{-| Jibu -}
+
+{-| Jibu
+-}
 jib : Language
 jib =
     Language { code = "jib" }
 
-{-| Tol -}
+
+{-| Tol
+-}
 jic : Language
 jic =
     Language { code = "jic" }
 
-{-| Bu -}
+
+{-| Bu
+-}
 jid : Language
 jid =
     Language { code = "jid" }
 
-{-| Jilbe -}
+
+{-| Jilbe
+-}
 jie : Language
 jie =
     Language { code = "jie" }
 
+
 {-| Jingulu
-Djingili -}
+Djingili
+-}
 jig : Language
 jig =
     Language { code = "jig" }
 
+
 {-| sTodsde
-Shangzhai -}
+Shangzhai
+-}
 jih : Language
 jih =
     Language { code = "jih" }
 
-{-| Jiiddu -}
+
+{-| Jiiddu
+-}
 jii : Language
 jii =
     Language { code = "jii" }
 
-{-| Jilim -}
+
+{-| Jilim
+-}
 jil : Language
 jil =
     Language { code = "jil" }
 
-{-| Jimi (Cameroon) -}
+
+{-| Jimi (Cameroon)
+-}
 jim : Language
 jim =
     Language { code = "jim" }
 
-{-| Jiamao -}
+
+{-| Jiamao
+-}
 jio : Language
 jio =
     Language { code = "jio" }
 
+
 {-| Guanyinqiao
-Lavrung -}
+Lavrung
+-}
 jiq : Language
 jiq =
     Language { code = "jiq" }
 
-{-| Jita -}
+
+{-| Jita
+-}
 jit : Language
 jit =
     Language { code = "jit" }
 
-{-| Youle Jinuo -}
+
+{-| Youle Jinuo
+-}
 jiu : Language
 jiu =
     Language { code = "jiu" }
 
-{-| Shuar -}
+
+{-| Shuar
+-}
 jiv : Language
 jiv =
     Language { code = "jiv" }
 
-{-| Buyuan Jinuo -}
+
+{-| Buyuan Jinuo
+-}
 jiy : Language
 jiy =
     Language { code = "jiy" }
 
-{-| Jejueo -}
+
+{-| Jejueo
+-}
 jje : Language
 jje =
     Language { code = "jje" }
 
-{-| Bankal -}
+
+{-| Bankal
+-}
 jjr : Language
 jjr =
     Language { code = "jjr" }
 
-{-| Kaera -}
+
+{-| Kaera
+-}
 jka : Language
 jka =
     Language { code = "jka" }
 
-{-| Mobwa Karen -}
+
+{-| Mobwa Karen
+-}
 jkm : Language
 jkm =
     Language { code = "jkm" }
 
-{-| Kubo -}
+
+{-| Kubo
+-}
 jko : Language
 jko =
     Language { code = "jko" }
 
-{-| Paku Karen -}
+
+{-| Paku Karen
+-}
 jkp : Language
 jkp =
     Language { code = "jkp" }
 
-{-| Koro (India) -}
+
+{-| Koro (India)
+-}
 jkr : Language
 jkr =
     Language { code = "jkr" }
 
-{-| Labir -}
+
+{-| Labir
+-}
 jku : Language
 jku =
     Language { code = "jku" }
 
-{-| Ngile -}
+
+{-| Ngile
+-}
 jle : Language
 jle =
     Language { code = "jle" }
 
-{-| Jamaican Sign Language -}
+
+{-| Jamaican Sign Language
+-}
 jls : Language
 jls =
     Language { code = "jls" }
 
-{-| Dima -}
+
+{-| Dima
+-}
 jma : Language
 jma =
     Language { code = "jma" }
 
-{-| Zumbun -}
+
+{-| Zumbun
+-}
 jmb : Language
 jmb =
     Language { code = "jmb" }
 
-{-| Machame -}
+
+{-| Machame
+-}
 jmc : Language
 jmc =
     Language { code = "jmc" }
 
-{-| Yamdena -}
+
+{-| Yamdena
+-}
 jmd : Language
 jmd =
     Language { code = "jmd" }
 
-{-| Jimi (Nigeria) -}
+
+{-| Jimi (Nigeria)
+-}
 jmi : Language
 jmi =
     Language { code = "jmi" }
 
-{-| Jumli -}
+
+{-| Jumli
+-}
 jml : Language
 jml =
     Language { code = "jml" }
 
-{-| Makuri Naga -}
+
+{-| Makuri Naga
+-}
 jmn : Language
 jmn =
     Language { code = "jmn" }
 
-{-| Kamara -}
+
+{-| Kamara
+-}
 jmr : Language
 jmr =
     Language { code = "jmr" }
 
-{-| Mashi (Nigeria) -}
+
+{-| Mashi (Nigeria)
+-}
 jms : Language
 jms =
     Language { code = "jms" }
 
-{-| Mouwase -}
+
+{-| Mouwase
+-}
 jmw : Language
 jmw =
     Language { code = "jmw" }
 
-{-| Western Juxtlahuaca Mixtec -}
+
+{-| Western Juxtlahuaca Mixtec
+-}
 jmx : Language
 jmx =
     Language { code = "jmx" }
 
-{-| Jangshung -}
+
+{-| Jangshung
+-}
 jna : Language
 jna =
     Language { code = "jna" }
 
-{-| Jandavra -}
+
+{-| Jandavra
+-}
 jnd : Language
 jnd =
     Language { code = "jnd" }
 
-{-| Yangman -}
+
+{-| Yangman
+-}
 jng : Language
 jng =
     Language { code = "jng" }
 
-{-| Janji -}
+
+{-| Janji
+-}
 jni : Language
 jni =
     Language { code = "jni" }
 
-{-| Yemsa -}
+
+{-| Yemsa
+-}
 jnj : Language
 jnj =
     Language { code = "jnj" }
 
-{-| Rawat -}
+
+{-| Rawat
+-}
 jnl : Language
 jnl =
     Language { code = "jnl" }
 
-{-| Jaunsari -}
+
+{-| Jaunsari
+-}
 jns : Language
 jns =
     Language { code = "jns" }
 
-{-| Joba -}
+
+{-| Joba
+-}
 job : Language
 job =
     Language { code = "job" }
 
-{-| Wojenaka -}
+
+{-| Wojenaka
+-}
 jod : Language
 jod =
     Language { code = "jod" }
 
-{-| Jogi -}
+
+{-| Jogi
+-}
 jog : Language
 jog =
     Language { code = "jog" }
 
-{-| Jorá -}
+
+{-| Jorá
+-}
 jor : Language
 jor =
     Language { code = "jor" }
 
-{-| Jordanian Sign Language -}
+
+{-| Jordanian Sign Language
+-}
 jos : Language
 jos =
     Language { code = "jos" }
 
-{-| Jowulu -}
+
+{-| Jowulu
+-}
 jow : Language
 jow =
     Language { code = "jow" }
 
-{-| Jewish Palestinian Aramaic -}
+
+{-| Jewish Palestinian Aramaic
+-}
 jpa : Language
 jpa =
     Language { code = "jpa" }
 
-{-| Judeo-Persian -}
+
+{-| Judeo-Persian
+-}
 jpr : Language
 jpr =
     Language { code = "jpr" }
 
-{-| Japanese (family) -}
+
+{-| Japanese (family)
+-}
 jpx : Language
 jpx =
     Language { code = "jpx" }
 
-{-| Jaqaru -}
+
+{-| Jaqaru
+-}
 jqr : Language
 jqr =
     Language { code = "jqr" }
 
-{-| Jarai -}
+
+{-| Jarai
+-}
 jra : Language
 jra =
     Language { code = "jra" }
 
-{-| Judeo-Arabic -}
+
+{-| Judeo-Arabic
+-}
 jrb : Language
 jrb =
     Language { code = "jrb" }
 
-{-| Jiru -}
+
+{-| Jiru
+-}
 jrr : Language
 jrr =
     Language { code = "jrr" }
 
-{-| Jorto -}
+
+{-| Jorto
+-}
 jrt : Language
 jrt =
     Language { code = "jrt" }
 
-{-| Japrería -}
+
+{-| Japrería
+-}
 jru : Language
 jru =
     Language { code = "jru" }
 
-{-| Japanese Sign Language -}
+
+{-| Japanese Sign Language
+-}
 jsl : Language
 jsl =
     Language { code = "jsl" }
 
-{-| Júma -}
+
+{-| Júma
+-}
 jua : Language
 jua =
     Language { code = "jua" }
 
-{-| Wannu -}
+
+{-| Wannu
+-}
 jub : Language
 jub =
     Language { code = "jub" }
 
-{-| Jurchen -}
+
+{-| Jurchen
+-}
 juc : Language
 juc =
     Language { code = "juc" }
 
-{-| Worodougou -}
+
+{-| Worodougou
+-}
 jud : Language
 jud =
     Language { code = "jud" }
 
-{-| Hõne -}
+
+{-| Hõne
+-}
 juh : Language
 juh =
     Language { code = "juh" }
 
-{-| Ngadjuri -}
+
+{-| Ngadjuri
+-}
 jui : Language
 jui =
     Language { code = "jui" }
 
-{-| Wapan -}
+
+{-| Wapan
+-}
 juk : Language
 juk =
     Language { code = "juk" }
 
-{-| Jirel -}
+
+{-| Jirel
+-}
 jul : Language
 jul =
     Language { code = "jul" }
 
-{-| Jumjum -}
+
+{-| Jumjum
+-}
 jum : Language
 jum =
     Language { code = "jum" }
 
-{-| Juang -}
+
+{-| Juang
+-}
 jun : Language
 jun =
     Language { code = "jun" }
 
-{-| Jiba -}
+
+{-| Jiba
+-}
 juo : Language
 juo =
     Language { code = "juo" }
 
-{-| Hupdë -}
+
+{-| Hupdë
+-}
 jup : Language
 jup =
     Language { code = "jup" }
 
-{-| Jurúna -}
+
+{-| Jurúna
+-}
 jur : Language
 jur =
     Language { code = "jur" }
 
-{-| Jumla Sign Language -}
+
+{-| Jumla Sign Language
+-}
 jus : Language
 jus =
     Language { code = "jus" }
 
-{-| Jutish -}
+
+{-| Jutish
+-}
 jut : Language
 jut =
     Language { code = "jut" }
 
-{-| Ju -}
+
+{-| Ju
+-}
 juu : Language
 juu =
     Language { code = "juu" }
 
-{-| Wãpha -}
+
+{-| Wãpha
+-}
 juw : Language
 juw =
     Language { code = "juw" }
 
-{-| Juray -}
+
+{-| Juray
+-}
 juy : Language
 juy =
     Language { code = "juy" }
 
-{-| Javanese -}
+
+{-| Javanese
+-}
 jv : Language
 jv =
     Language { code = "jv" }
 
-{-| Javindo -}
+
+{-| Javindo
+-}
 jvd : Language
 jvd =
     Language { code = "jvd" }
 
-{-| Caribbean Javanese -}
+
+{-| Caribbean Javanese
+-}
 jvn : Language
 jvn =
     Language { code = "jvn" }
 
-{-| Javanese -}
+
+{-| Javanese
+-}
 jw : Language
 jw =
     Language { code = "jw" }
 
-{-| Jwira-Pepesa -}
+
+{-| Jwira-Pepesa
+-}
 jwi : Language
 jwi =
     Language { code = "jwi" }
 
-{-| Jiarong -}
+
+{-| Jiarong
+-}
 jya : Language
 jya =
     Language { code = "jya" }
 
-{-| Judeo-Yemeni Arabic -}
+
+{-| Judeo-Yemeni Arabic
+-}
 jye : Language
 jye =
     Language { code = "jye" }
 
-{-| Jaya -}
+
+{-| Jaya
+-}
 jyy : Language
 jyy =
     Language { code = "jyy" }
 
-{-| Georgian -}
+
+{-| Georgian
+-}
 ka : Language
 ka =
     Language { code = "ka" }
 
+
 {-| Kara-Kalpak
-Karakalpak -}
+Karakalpak
+-}
 kaa : Language
 kaa =
     Language { code = "kaa" }
 
-{-| Kabyle -}
+
+{-| Kabyle
+-}
 kab : Language
 kab =
     Language { code = "kab" }
 
+
 {-| Kachin
-Jingpho -}
+Jingpho
+-}
 kac : Language
 kac =
     Language { code = "kac" }
 
-{-| Adara -}
+
+{-| Adara
+-}
 kad : Language
 kad =
     Language { code = "kad" }
 
-{-| Ketangalan -}
+
+{-| Ketangalan
+-}
 kae : Language
 kae =
     Language { code = "kae" }
 
-{-| Katso -}
+
+{-| Katso
+-}
 kaf : Language
 kaf =
     Language { code = "kaf" }
 
-{-| Kajaman -}
+
+{-| Kajaman
+-}
 kag : Language
 kag =
     Language { code = "kag" }
 
-{-| Kara (Central African Republic) -}
+
+{-| Kara (Central African Republic)
+-}
 kah : Language
 kah =
     Language { code = "kah" }
 
-{-| Karekare -}
+
+{-| Karekare
+-}
 kai : Language
 kai =
     Language { code = "kai" }
 
-{-| Jju -}
+
+{-| Jju
+-}
 kaj : Language
 kaj =
     Language { code = "kaj" }
 
+
 {-| Kalanguya
-Kayapa Kallahan -}
+Kayapa Kallahan
+-}
 kak : Language
 kak =
     Language { code = "kak" }
 
-{-| Kamba (Kenya) -}
+
+{-| Kamba (Kenya)
+-}
 kam : Language
 kam =
     Language { code = "kam" }
 
-{-| Xaasongaxango -}
+
+{-| Xaasongaxango
+-}
 kao : Language
 kao =
     Language { code = "kao" }
 
-{-| Bezhta -}
+
+{-| Bezhta
+-}
 kap : Language
 kap =
     Language { code = "kap" }
 
-{-| Capanahua -}
+
+{-| Capanahua
+-}
 kaq : Language
 kaq =
     Language { code = "kaq" }
 
-{-| Karen languages -}
+
+{-| Karen languages
+-}
 kar : Language
 kar =
     Language { code = "kar" }
 
-{-| Katukína -}
+
+{-| Katukína
+-}
 kav : Language
 kav =
     Language { code = "kav" }
 
-{-| Kawi -}
+
+{-| Kawi
+-}
 kaw : Language
 kaw =
     Language { code = "kaw" }
 
-{-| Kao -}
+
+{-| Kao
+-}
 kax : Language
 kax =
     Language { code = "kax" }
 
-{-| Kamayurá -}
+
+{-| Kamayurá
+-}
 kay : Language
 kay =
     Language { code = "kay" }
 
-{-| Kalarko -}
+
+{-| Kalarko
+-}
 kba : Language
 kba =
     Language { code = "kba" }
 
-{-| Kaxuiâna -}
+
+{-| Kaxuiâna
+-}
 kbb : Language
 kbb =
     Language { code = "kbb" }
 
-{-| Kadiwéu -}
+
+{-| Kadiwéu
+-}
 kbc : Language
 kbc =
     Language { code = "kbc" }
 
-{-| Kabardian -}
+
+{-| Kabardian
+-}
 kbd : Language
 kbd =
     Language { code = "kbd" }
 
-{-| Kanju -}
+
+{-| Kanju
+-}
 kbe : Language
 kbe =
     Language { code = "kbe" }
 
-{-| Kakauhua -}
+
+{-| Kakauhua
+-}
 kbf : Language
 kbf =
     Language { code = "kbf" }
 
-{-| Khamba -}
+
+{-| Khamba
+-}
 kbg : Language
 kbg =
     Language { code = "kbg" }
 
-{-| Camsá -}
+
+{-| Camsá
+-}
 kbh : Language
 kbh =
     Language { code = "kbh" }
 
-{-| Kaptiau -}
+
+{-| Kaptiau
+-}
 kbi : Language
 kbi =
     Language { code = "kbi" }
 
-{-| Kari -}
+
+{-| Kari
+-}
 kbj : Language
 kbj =
     Language { code = "kbj" }
 
-{-| Grass Koiari -}
+
+{-| Grass Koiari
+-}
 kbk : Language
 kbk =
     Language { code = "kbk" }
 
-{-| Kanembu -}
+
+{-| Kanembu
+-}
 kbl : Language
 kbl =
     Language { code = "kbl" }
 
-{-| Iwal -}
+
+{-| Iwal
+-}
 kbm : Language
 kbm =
     Language { code = "kbm" }
 
-{-| Kare (Central African Republic) -}
+
+{-| Kare (Central African Republic)
+-}
 kbn : Language
 kbn =
     Language { code = "kbn" }
 
-{-| Keliko -}
+
+{-| Keliko
+-}
 kbo : Language
 kbo =
     Language { code = "kbo" }
 
-{-| Kabiyè -}
+
+{-| Kabiyè
+-}
 kbp : Language
 kbp =
     Language { code = "kbp" }
 
-{-| Kamano -}
+
+{-| Kamano
+-}
 kbq : Language
 kbq =
     Language { code = "kbq" }
 
-{-| Kafa -}
+
+{-| Kafa
+-}
 kbr : Language
 kbr =
     Language { code = "kbr" }
 
-{-| Kande -}
+
+{-| Kande
+-}
 kbs : Language
 kbs =
     Language { code = "kbs" }
 
-{-| Abadi -}
+
+{-| Abadi
+-}
 kbt : Language
 kbt =
     Language { code = "kbt" }
 
-{-| Kabutra -}
+
+{-| Kabutra
+-}
 kbu : Language
 kbu =
     Language { code = "kbu" }
 
-{-| Dera (Indonesia) -}
+
+{-| Dera (Indonesia)
+-}
 kbv : Language
 kbv =
     Language { code = "kbv" }
 
-{-| Kaiep -}
+
+{-| Kaiep
+-}
 kbw : Language
 kbw =
     Language { code = "kbw" }
 
-{-| Ap Ma -}
+
+{-| Ap Ma
+-}
 kbx : Language
 kbx =
     Language { code = "kbx" }
 
-{-| Manga Kanuri -}
+
+{-| Manga Kanuri
+-}
 kby : Language
 kby =
     Language { code = "kby" }
 
-{-| Duhwa -}
+
+{-| Duhwa
+-}
 kbz : Language
 kbz =
     Language { code = "kbz" }
 
-{-| Khanty -}
+
+{-| Khanty
+-}
 kca : Language
 kca =
     Language { code = "kca" }
 
-{-| Kawacha -}
+
+{-| Kawacha
+-}
 kcb : Language
 kcb =
     Language { code = "kcb" }
 
-{-| Lubila -}
+
+{-| Lubila
+-}
 kcc : Language
 kcc =
     Language { code = "kcc" }
 
-{-| Ngkâlmpw Kanum -}
+
+{-| Ngkâlmpw Kanum
+-}
 kcd : Language
 kcd =
     Language { code = "kcd" }
 
-{-| Kaivi -}
+
+{-| Kaivi
+-}
 kce : Language
 kce =
     Language { code = "kce" }
 
-{-| Ukaan -}
+
+{-| Ukaan
+-}
 kcf : Language
 kcf =
     Language { code = "kcf" }
 
-{-| Tyap -}
+
+{-| Tyap
+-}
 kcg : Language
 kcg =
     Language { code = "kcg" }
 
-{-| Vono -}
+
+{-| Vono
+-}
 kch : Language
 kch =
     Language { code = "kch" }
 
-{-| Kamantan -}
+
+{-| Kamantan
+-}
 kci : Language
 kci =
     Language { code = "kci" }
 
-{-| Kobiana -}
+
+{-| Kobiana
+-}
 kcj : Language
 kcj =
     Language { code = "kcj" }
 
-{-| Kalanga -}
+
+{-| Kalanga
+-}
 kck : Language
 kck =
     Language { code = "kck" }
 
+
 {-| Kela (Papua New Guinea)
-Kala -}
+Kala
+-}
 kcl : Language
 kcl =
     Language { code = "kcl" }
 
-{-| Gula (Central African Republic) -}
+
+{-| Gula (Central African Republic)
+-}
 kcm : Language
 kcm =
     Language { code = "kcm" }
 
-{-| Nubi -}
+
+{-| Nubi
+-}
 kcn : Language
 kcn =
     Language { code = "kcn" }
 
-{-| Kinalakna -}
+
+{-| Kinalakna
+-}
 kco : Language
 kco =
     Language { code = "kco" }
 
-{-| Kanga -}
+
+{-| Kanga
+-}
 kcp : Language
 kcp =
     Language { code = "kcp" }
 
-{-| Kamo -}
+
+{-| Kamo
+-}
 kcq : Language
 kcq =
     Language { code = "kcq" }
 
-{-| Katla -}
+
+{-| Katla
+-}
 kcr : Language
 kcr =
     Language { code = "kcr" }
 
-{-| Koenoem -}
+
+{-| Koenoem
+-}
 kcs : Language
 kcs =
     Language { code = "kcs" }
 
-{-| Kaian -}
+
+{-| Kaian
+-}
 kct : Language
 kct =
     Language { code = "kct" }
 
-{-| Kami (Tanzania) -}
+
+{-| Kami (Tanzania)
+-}
 kcu : Language
 kcu =
     Language { code = "kcu" }
 
-{-| Kete -}
+
+{-| Kete
+-}
 kcv : Language
 kcv =
     Language { code = "kcv" }
 
-{-| Kabwari -}
+
+{-| Kabwari
+-}
 kcw : Language
 kcw =
     Language { code = "kcw" }
 
-{-| Kachama-Ganjule -}
+
+{-| Kachama-Ganjule
+-}
 kcx : Language
 kcx =
     Language { code = "kcx" }
 
-{-| Korandje -}
+
+{-| Korandje
+-}
 kcy : Language
 kcy =
     Language { code = "kcy" }
 
-{-| Konongo -}
+
+{-| Konongo
+-}
 kcz : Language
 kcz =
     Language { code = "kcz" }
 
-{-| Worimi -}
+
+{-| Worimi
+-}
 kda : Language
 kda =
     Language { code = "kda" }
 
-{-| Kutu -}
+
+{-| Kutu
+-}
 kdc : Language
 kdc =
     Language { code = "kdc" }
 
-{-| Yankunytjatjara -}
+
+{-| Yankunytjatjara
+-}
 kdd : Language
 kdd =
     Language { code = "kdd" }
 
-{-| Makonde -}
+
+{-| Makonde
+-}
 kde : Language
 kde =
     Language { code = "kde" }
 
-{-| Mamusi -}
+
+{-| Mamusi
+-}
 kdf : Language
 kdf =
     Language { code = "kdf" }
 
-{-| Seba -}
+
+{-| Seba
+-}
 kdg : Language
 kdg =
     Language { code = "kdg" }
 
-{-| Tem -}
+
+{-| Tem
+-}
 kdh : Language
 kdh =
     Language { code = "kdh" }
 
-{-| Kumam -}
+
+{-| Kumam
+-}
 kdi : Language
 kdi =
     Language { code = "kdi" }
 
-{-| Karamojong -}
+
+{-| Karamojong
+-}
 kdj : Language
 kdj =
     Language { code = "kdj" }
 
+
 {-| Numèè
-Kwényi -}
+Kwényi
+-}
 kdk : Language
 kdk =
     Language { code = "kdk" }
 
-{-| Tsikimba -}
+
+{-| Tsikimba
+-}
 kdl : Language
 kdl =
     Language { code = "kdl" }
 
-{-| Kagoma -}
+
+{-| Kagoma
+-}
 kdm : Language
 kdm =
     Language { code = "kdm" }
 
-{-| Kunda -}
+
+{-| Kunda
+-}
 kdn : Language
 kdn =
     Language { code = "kdn" }
 
-{-| Kordofanian languages -}
+
+{-| Kordofanian languages
+-}
 kdo : Language
 kdo =
     Language { code = "kdo" }
 
-{-| Kaningdon-Nindem -}
+
+{-| Kaningdon-Nindem
+-}
 kdp : Language
 kdp =
     Language { code = "kdp" }
 
-{-| Koch -}
+
+{-| Koch
+-}
 kdq : Language
 kdq =
     Language { code = "kdq" }
 
-{-| Karaim -}
+
+{-| Karaim
+-}
 kdr : Language
 kdr =
     Language { code = "kdr" }
 
-{-| Kuy -}
+
+{-| Kuy
+-}
 kdt : Language
 kdt =
     Language { code = "kdt" }
 
-{-| Kadaru -}
+
+{-| Kadaru
+-}
 kdu : Language
 kdu =
     Language { code = "kdu" }
 
-{-| Kado -}
+
+{-| Kado
+-}
 kdv : Language
 kdv =
     Language { code = "kdv" }
 
-{-| Koneraw -}
+
+{-| Koneraw
+-}
 kdw : Language
 kdw =
     Language { code = "kdw" }
 
-{-| Kam -}
+
+{-| Kam
+-}
 kdx : Language
 kdx =
     Language { code = "kdx" }
 
+
 {-| Keder
-Keijar -}
+Keijar
+-}
 kdy : Language
 kdy =
     Language { code = "kdy" }
 
-{-| Kwaja -}
+
+{-| Kwaja
+-}
 kdz : Language
 kdz =
     Language { code = "kdz" }
 
-{-| Kabuverdianu -}
+
+{-| Kabuverdianu
+-}
 kea : Language
 kea =
     Language { code = "kea" }
 
-{-| Kélé -}
+
+{-| Kélé
+-}
 keb : Language
 keb =
     Language { code = "keb" }
 
-{-| Keiga -}
+
+{-| Keiga
+-}
 kec : Language
 kec =
     Language { code = "kec" }
 
-{-| Kerewe -}
+
+{-| Kerewe
+-}
 ked : Language
 ked =
     Language { code = "ked" }
 
-{-| Eastern Keres -}
+
+{-| Eastern Keres
+-}
 kee : Language
 kee =
     Language { code = "kee" }
 
-{-| Kpessi -}
+
+{-| Kpessi
+-}
 kef : Language
 kef =
     Language { code = "kef" }
 
-{-| Tese -}
+
+{-| Tese
+-}
 keg : Language
 keg =
     Language { code = "keg" }
 
-{-| Keak -}
+
+{-| Keak
+-}
 keh : Language
 keh =
     Language { code = "keh" }
 
-{-| Kei -}
+
+{-| Kei
+-}
 kei : Language
 kei =
     Language { code = "kei" }
 
-{-| Kadar -}
+
+{-| Kadar
+-}
 kej : Language
 kej =
     Language { code = "kej" }
 
-{-| Kekchí -}
+
+{-| Kekchí
+-}
 kek : Language
 kek =
     Language { code = "kek" }
 
-{-| Kela (Democratic Republic of Congo) -}
+
+{-| Kela (Democratic Republic of Congo)
+-}
 kel : Language
 kel =
     Language { code = "kel" }
 
-{-| Kemak -}
+
+{-| Kemak
+-}
 kem : Language
 kem =
     Language { code = "kem" }
 
-{-| Kenyang -}
+
+{-| Kenyang
+-}
 ken : Language
 ken =
     Language { code = "ken" }
 
-{-| Kakwa -}
+
+{-| Kakwa
+-}
 keo : Language
 keo =
     Language { code = "keo" }
 
-{-| Kaikadi -}
+
+{-| Kaikadi
+-}
 kep : Language
 kep =
     Language { code = "kep" }
 
-{-| Kamar -}
+
+{-| Kamar
+-}
 keq : Language
 keq =
     Language { code = "keq" }
 
-{-| Kera -}
+
+{-| Kera
+-}
 ker : Language
 ker =
     Language { code = "ker" }
 
-{-| Kugbo -}
+
+{-| Kugbo
+-}
 kes : Language
 kes =
     Language { code = "kes" }
 
-{-| Ket -}
+
+{-| Ket
+-}
 ket : Language
 ket =
     Language { code = "ket" }
 
-{-| Akebu -}
+
+{-| Akebu
+-}
 keu : Language
 keu =
     Language { code = "keu" }
 
-{-| Kanikkaran -}
+
+{-| Kanikkaran
+-}
 kev : Language
 kev =
     Language { code = "kev" }
 
-{-| West Kewa -}
+
+{-| West Kewa
+-}
 kew : Language
 kew =
     Language { code = "kew" }
 
-{-| Kukna -}
+
+{-| Kukna
+-}
 kex : Language
 kex =
     Language { code = "kex" }
 
-{-| Kupia -}
+
+{-| Kupia
+-}
 key : Language
 key =
     Language { code = "key" }
 
-{-| Kukele -}
+
+{-| Kukele
+-}
 kez : Language
 kez =
     Language { code = "kez" }
 
-{-| Kodava -}
+
+{-| Kodava
+-}
 kfa : Language
 kfa =
     Language { code = "kfa" }
 
-{-| Northwestern Kolami -}
+
+{-| Northwestern Kolami
+-}
 kfb : Language
 kfb =
     Language { code = "kfb" }
 
-{-| Konda-Dora -}
+
+{-| Konda-Dora
+-}
 kfc : Language
 kfc =
     Language { code = "kfc" }
 
-{-| Korra Koraga -}
+
+{-| Korra Koraga
+-}
 kfd : Language
 kfd =
     Language { code = "kfd" }
 
-{-| Kota (India) -}
+
+{-| Kota (India)
+-}
 kfe : Language
 kfe =
     Language { code = "kfe" }
 
-{-| Koya -}
+
+{-| Koya
+-}
 kff : Language
 kff =
     Language { code = "kff" }
 
-{-| Kudiya -}
+
+{-| Kudiya
+-}
 kfg : Language
 kfg =
     Language { code = "kfg" }
 
-{-| Kurichiya -}
+
+{-| Kurichiya
+-}
 kfh : Language
 kfh =
     Language { code = "kfh" }
 
-{-| Kannada Kurumba -}
+
+{-| Kannada Kurumba
+-}
 kfi : Language
 kfi =
     Language { code = "kfi" }
 
-{-| Kemiehua -}
+
+{-| Kemiehua
+-}
 kfj : Language
 kfj =
     Language { code = "kfj" }
 
-{-| Kinnauri -}
+
+{-| Kinnauri
+-}
 kfk : Language
 kfk =
     Language { code = "kfk" }
 
-{-| Kung -}
+
+{-| Kung
+-}
 kfl : Language
 kfl =
     Language { code = "kfl" }
 
-{-| Khunsari -}
+
+{-| Khunsari
+-}
 kfm : Language
 kfm =
     Language { code = "kfm" }
 
-{-| Kuk -}
+
+{-| Kuk
+-}
 kfn : Language
 kfn =
     Language { code = "kfn" }
 
-{-| Koro (Côte d'Ivoire) -}
+
+{-| Koro (Côte d'Ivoire)
+-}
 kfo : Language
 kfo =
     Language { code = "kfo" }
 
-{-| Korwa -}
+
+{-| Korwa
+-}
 kfp : Language
 kfp =
     Language { code = "kfp" }
 
-{-| Korku -}
+
+{-| Korku
+-}
 kfq : Language
 kfq =
     Language { code = "kfq" }
 
+
 {-| Kachhi
-Kutchi -}
+Kutchi
+-}
 kfr : Language
 kfr =
     Language { code = "kfr" }
 
-{-| Bilaspuri -}
+
+{-| Bilaspuri
+-}
 kfs : Language
 kfs =
     Language { code = "kfs" }
 
-{-| Kanjari -}
+
+{-| Kanjari
+-}
 kft : Language
 kft =
     Language { code = "kft" }
 
-{-| Katkari -}
+
+{-| Katkari
+-}
 kfu : Language
 kfu =
     Language { code = "kfu" }
 
-{-| Kurmukar -}
+
+{-| Kurmukar
+-}
 kfv : Language
 kfv =
     Language { code = "kfv" }
 
-{-| Kharam Naga -}
+
+{-| Kharam Naga
+-}
 kfw : Language
 kfw =
     Language { code = "kfw" }
 
-{-| Kullu Pahari -}
+
+{-| Kullu Pahari
+-}
 kfx : Language
 kfx =
     Language { code = "kfx" }
 
-{-| Kumaoni -}
+
+{-| Kumaoni
+-}
 kfy : Language
 kfy =
     Language { code = "kfy" }
 
-{-| Koromfé -}
+
+{-| Koromfé
+-}
 kfz : Language
 kfz =
     Language { code = "kfz" }
 
-{-| Kongo -}
+
+{-| Kongo
+-}
 kg : Language
 kg =
     Language { code = "kg" }
 
-{-| Koyaga -}
+
+{-| Koyaga
+-}
 kga : Language
 kga =
     Language { code = "kga" }
 
-{-| Kawe -}
+
+{-| Kawe
+-}
 kgb : Language
 kgb =
     Language { code = "kgb" }
 
-{-| Kasseng -}
+
+{-| Kasseng
+-}
 kgc : Language
 kgc =
     Language { code = "kgc" }
 
-{-| Kataang -}
+
+{-| Kataang
+-}
 kgd : Language
 kgd =
     Language { code = "kgd" }
 
-{-| Komering -}
+
+{-| Komering
+-}
 kge : Language
 kge =
     Language { code = "kge" }
 
-{-| Kube -}
+
+{-| Kube
+-}
 kgf : Language
 kgf =
     Language { code = "kgf" }
 
-{-| Kusunda -}
+
+{-| Kusunda
+-}
 kgg : Language
 kgg =
     Language { code = "kgg" }
 
-{-| Upper Tanudan Kalinga -}
+
+{-| Upper Tanudan Kalinga
+-}
 kgh : Language
 kgh =
     Language { code = "kgh" }
 
-{-| Selangor Sign Language -}
+
+{-| Selangor Sign Language
+-}
 kgi : Language
 kgi =
     Language { code = "kgi" }
 
-{-| Gamale Kham -}
+
+{-| Gamale Kham
+-}
 kgj : Language
 kgj =
     Language { code = "kgj" }
 
-{-| Kaiwá -}
+
+{-| Kaiwá
+-}
 kgk : Language
 kgk =
     Language { code = "kgk" }
 
-{-| Kunggari -}
+
+{-| Kunggari
+-}
 kgl : Language
 kgl =
     Language { code = "kgl" }
 
-{-| Karipúna -}
+
+{-| Karipúna
+-}
 kgm : Language
 kgm =
     Language { code = "kgm" }
 
-{-| Karingani -}
+
+{-| Karingani
+-}
 kgn : Language
 kgn =
     Language { code = "kgn" }
 
-{-| Krongo -}
+
+{-| Krongo
+-}
 kgo : Language
 kgo =
     Language { code = "kgo" }
 
-{-| Kaingang -}
+
+{-| Kaingang
+-}
 kgp : Language
 kgp =
     Language { code = "kgp" }
 
-{-| Kamoro -}
+
+{-| Kamoro
+-}
 kgq : Language
 kgq =
     Language { code = "kgq" }
 
-{-| Abun -}
+
+{-| Abun
+-}
 kgr : Language
 kgr =
     Language { code = "kgr" }
 
-{-| Kumbainggar -}
+
+{-| Kumbainggar
+-}
 kgs : Language
 kgs =
     Language { code = "kgs" }
 
-{-| Somyev -}
+
+{-| Somyev
+-}
 kgt : Language
 kgt =
     Language { code = "kgt" }
 
-{-| Kobol -}
+
+{-| Kobol
+-}
 kgu : Language
 kgu =
     Language { code = "kgu" }
 
-{-| Karas -}
+
+{-| Karas
+-}
 kgv : Language
 kgv =
     Language { code = "kgv" }
 
-{-| Karon Dori -}
+
+{-| Karon Dori
+-}
 kgw : Language
 kgw =
     Language { code = "kgw" }
 
-{-| Kamaru -}
+
+{-| Kamaru
+-}
 kgx : Language
 kgx =
     Language { code = "kgx" }
 
-{-| Kyerung -}
+
+{-| Kyerung
+-}
 kgy : Language
 kgy =
     Language { code = "kgy" }
 
-{-| Khasi -}
+
+{-| Khasi
+-}
 kha : Language
 kha =
     Language { code = "kha" }
 
-{-| Lü -}
+
+{-| Lü
+-}
 khb : Language
 khb =
     Language { code = "khb" }
 
-{-| Tukang Besi North -}
+
+{-| Tukang Besi North
+-}
 khc : Language
 khc =
     Language { code = "khc" }
 
-{-| Bädi Kanum -}
+
+{-| Bädi Kanum
+-}
 khd : Language
 khd =
     Language { code = "khd" }
 
-{-| Korowai -}
+
+{-| Korowai
+-}
 khe : Language
 khe =
     Language { code = "khe" }
 
-{-| Khuen -}
+
+{-| Khuen
+-}
 khf : Language
 khf =
     Language { code = "khf" }
 
-{-| Khams Tibetan -}
+
+{-| Khams Tibetan
+-}
 khg : Language
 khg =
     Language { code = "khg" }
 
-{-| Kehu -}
+
+{-| Kehu
+-}
 khh : Language
 khh =
     Language { code = "khh" }
 
-{-| Khoisan languages -}
+
+{-| Khoisan languages
+-}
 khi : Language
 khi =
     Language { code = "khi" }
 
-{-| Kuturmi -}
+
+{-| Kuturmi
+-}
 khj : Language
 khj =
     Language { code = "khj" }
 
-{-| Halh Mongolian -}
+
+{-| Halh Mongolian
+-}
 khk : Language
 khk =
     Language { code = "khk" }
 
-{-| Lusi -}
+
+{-| Lusi
+-}
 khl : Language
 khl =
     Language { code = "khl" }
 
-{-| Khandesi -}
+
+{-| Khandesi
+-}
 khn : Language
 khn =
     Language { code = "khn" }
 
+
 {-| Khotanese
-Sakan -}
+Sakan
+-}
 kho : Language
 kho =
     Language { code = "kho" }
 
+
 {-| Kapori
-Kapauri -}
+Kapauri
+-}
 khp : Language
 khp =
     Language { code = "khp" }
 
-{-| Koyra Chiini Songhay -}
+
+{-| Koyra Chiini Songhay
+-}
 khq : Language
 khq =
     Language { code = "khq" }
 
-{-| Kharia -}
+
+{-| Kharia
+-}
 khr : Language
 khr =
     Language { code = "khr" }
 
-{-| Kasua -}
+
+{-| Kasua
+-}
 khs : Language
 khs =
     Language { code = "khs" }
 
-{-| Khamti -}
+
+{-| Khamti
+-}
 kht : Language
 kht =
     Language { code = "kht" }
 
-{-| Nkhumbi -}
+
+{-| Nkhumbi
+-}
 khu : Language
 khu =
     Language { code = "khu" }
 
-{-| Khvarshi -}
+
+{-| Khvarshi
+-}
 khv : Language
 khv =
     Language { code = "khv" }
 
-{-| Khowar -}
+
+{-| Khowar
+-}
 khw : Language
 khw =
     Language { code = "khw" }
 
-{-| Kanu -}
+
+{-| Kanu
+-}
 khx : Language
 khx =
     Language { code = "khx" }
 
-{-| Kele (Democratic Republic of Congo) -}
+
+{-| Kele (Democratic Republic of Congo)
+-}
 khy : Language
 khy =
     Language { code = "khy" }
 
-{-| Keapara -}
+
+{-| Keapara
+-}
 khz : Language
 khz =
     Language { code = "khz" }
 
+
 {-| Kikuyu
-Gikuyu -}
+Gikuyu
+-}
 ki : Language
 ki =
     Language { code = "ki" }
 
-{-| Kim -}
+
+{-| Kim
+-}
 kia : Language
 kia =
     Language { code = "kia" }
 
-{-| Koalib -}
+
+{-| Koalib
+-}
 kib : Language
 kib =
     Language { code = "kib" }
 
-{-| Kickapoo -}
+
+{-| Kickapoo
+-}
 kic : Language
 kic =
     Language { code = "kic" }
 
-{-| Koshin -}
+
+{-| Koshin
+-}
 kid : Language
 kid =
     Language { code = "kid" }
 
-{-| Kibet -}
+
+{-| Kibet
+-}
 kie : Language
 kie =
     Language { code = "kie" }
 
-{-| Eastern Parbate Kham -}
+
+{-| Eastern Parbate Kham
+-}
 kif : Language
 kif =
     Language { code = "kif" }
 
+
 {-| Kimaama
-Kimaghima -}
+Kimaghima
+-}
 kig : Language
 kig =
     Language { code = "kig" }
 
-{-| Kilmeri -}
+
+{-| Kilmeri
+-}
 kih : Language
 kih =
     Language { code = "kih" }
 
-{-| Kitsai -}
+
+{-| Kitsai
+-}
 kii : Language
 kii =
     Language { code = "kii" }
 
-{-| Kilivila -}
+
+{-| Kilivila
+-}
 kij : Language
 kij =
     Language { code = "kij" }
 
-{-| Kariya -}
+
+{-| Kariya
+-}
 kil : Language
 kil =
     Language { code = "kil" }
 
-{-| Karagas -}
+
+{-| Karagas
+-}
 kim : Language
 kim =
     Language { code = "kim" }
 
-{-| Kiowa -}
+
+{-| Kiowa
+-}
 kio : Language
 kio =
     Language { code = "kio" }
 
-{-| Sheshi Kham -}
+
+{-| Sheshi Kham
+-}
 kip : Language
 kip =
     Language { code = "kip" }
 
+
 {-| Kosadle
-Kosare -}
+Kosare
+-}
 kiq : Language
 kiq =
     Language { code = "kiq" }
 
-{-| Kis -}
+
+{-| Kis
+-}
 kis : Language
 kis =
     Language { code = "kis" }
 
-{-| Agob -}
+
+{-| Agob
+-}
 kit : Language
 kit =
     Language { code = "kit" }
 
-{-| Kirmanjki (individual language) -}
+
+{-| Kirmanjki (individual language)
+-}
 kiu : Language
 kiu =
     Language { code = "kiu" }
 
-{-| Kimbu -}
+
+{-| Kimbu
+-}
 kiv : Language
 kiv =
     Language { code = "kiv" }
 
-{-| Northeast Kiwai -}
+
+{-| Northeast Kiwai
+-}
 kiw : Language
 kiw =
     Language { code = "kiw" }
 
-{-| Khiamniungan Naga -}
+
+{-| Khiamniungan Naga
+-}
 kix : Language
 kix =
     Language { code = "kix" }
 
-{-| Kirikiri -}
+
+{-| Kirikiri
+-}
 kiy : Language
 kiy =
     Language { code = "kiy" }
 
-{-| Kisi -}
+
+{-| Kisi
+-}
 kiz : Language
 kiz =
     Language { code = "kiz" }
 
+
 {-| Kuanyama
-Kwanyama -}
+Kwanyama
+-}
 kj : Language
 kj =
     Language { code = "kj" }
 
-{-| Mlap -}
+
+{-| Mlap
+-}
 kja : Language
 kja =
     Language { code = "kja" }
 
+
 {-| Q'anjob'al
-Kanjobal -}
+Kanjobal
+-}
 kjb : Language
 kjb =
     Language { code = "kjb" }
 
-{-| Coastal Konjo -}
+
+{-| Coastal Konjo
+-}
 kjc : Language
 kjc =
     Language { code = "kjc" }
 
-{-| Southern Kiwai -}
+
+{-| Southern Kiwai
+-}
 kjd : Language
 kjd =
     Language { code = "kjd" }
 
-{-| Kisar -}
+
+{-| Kisar
+-}
 kje : Language
 kje =
     Language { code = "kje" }
 
-{-| Khalaj [Indo-Iranian] -}
+
+{-| Khalaj [Indo-Iranian]
+-}
 kjf : Language
 kjf =
     Language { code = "kjf" }
 
-{-| Khmu -}
+
+{-| Khmu
+-}
 kjg : Language
 kjg =
     Language { code = "kjg" }
 
-{-| Khakas -}
+
+{-| Khakas
+-}
 kjh : Language
 kjh =
     Language { code = "kjh" }
 
-{-| Zabana -}
+
+{-| Zabana
+-}
 kji : Language
 kji =
     Language { code = "kji" }
 
-{-| Khinalugh -}
+
+{-| Khinalugh
+-}
 kjj : Language
 kjj =
     Language { code = "kjj" }
 
-{-| Highland Konjo -}
+
+{-| Highland Konjo
+-}
 kjk : Language
 kjk =
     Language { code = "kjk" }
 
-{-| Western Parbate Kham -}
+
+{-| Western Parbate Kham
+-}
 kjl : Language
 kjl =
     Language { code = "kjl" }
 
-{-| Kháng -}
+
+{-| Kháng
+-}
 kjm : Language
 kjm =
     Language { code = "kjm" }
 
-{-| Kunjen -}
+
+{-| Kunjen
+-}
 kjn : Language
 kjn =
     Language { code = "kjn" }
 
-{-| Harijan Kinnauri -}
+
+{-| Harijan Kinnauri
+-}
 kjo : Language
 kjo =
     Language { code = "kjo" }
 
-{-| Pwo Eastern Karen -}
+
+{-| Pwo Eastern Karen
+-}
 kjp : Language
 kjp =
     Language { code = "kjp" }
 
-{-| Western Keres -}
+
+{-| Western Keres
+-}
 kjq : Language
 kjq =
     Language { code = "kjq" }
 
-{-| Kurudu -}
+
+{-| Kurudu
+-}
 kjr : Language
 kjr =
     Language { code = "kjr" }
 
-{-| East Kewa -}
+
+{-| East Kewa
+-}
 kjs : Language
 kjs =
     Language { code = "kjs" }
 
-{-| Phrae Pwo Karen -}
+
+{-| Phrae Pwo Karen
+-}
 kjt : Language
 kjt =
     Language { code = "kjt" }
 
-{-| Kashaya -}
+
+{-| Kashaya
+-}
 kju : Language
 kju =
     Language { code = "kju" }
 
-{-| Kaikavian Literary Language -}
+
+{-| Kaikavian Literary Language
+-}
 kjv : Language
 kjv =
     Language { code = "kjv" }
 
-{-| Ramopa -}
+
+{-| Ramopa
+-}
 kjx : Language
 kjx =
     Language { code = "kjx" }
 
-{-| Erave -}
+
+{-| Erave
+-}
 kjy : Language
 kjy =
     Language { code = "kjy" }
 
-{-| Bumthangkha -}
+
+{-| Bumthangkha
+-}
 kjz : Language
 kjz =
     Language { code = "kjz" }
 
-{-| Kazakh -}
+
+{-| Kazakh
+-}
 kk : Language
 kk =
     Language { code = "kk" }
 
-{-| Kakanda -}
+
+{-| Kakanda
+-}
 kka : Language
 kka =
     Language { code = "kka" }
 
-{-| Kwerisa -}
+
+{-| Kwerisa
+-}
 kkb : Language
 kkb =
     Language { code = "kkb" }
 
-{-| Odoodee -}
+
+{-| Odoodee
+-}
 kkc : Language
 kkc =
     Language { code = "kkc" }
 
-{-| Kinuku -}
+
+{-| Kinuku
+-}
 kkd : Language
 kkd =
     Language { code = "kkd" }
 
-{-| Kakabe -}
+
+{-| Kakabe
+-}
 kke : Language
 kke =
     Language { code = "kke" }
 
-{-| Kalaktang Monpa -}
+
+{-| Kalaktang Monpa
+-}
 kkf : Language
 kkf =
     Language { code = "kkf" }
 
-{-| Mabaka Valley Kalinga -}
+
+{-| Mabaka Valley Kalinga
+-}
 kkg : Language
 kkg =
     Language { code = "kkg" }
 
-{-| Khün -}
+
+{-| Khün
+-}
 kkh : Language
 kkh =
     Language { code = "kkh" }
 
-{-| Kagulu -}
+
+{-| Kagulu
+-}
 kki : Language
 kki =
     Language { code = "kki" }
 
-{-| Kako -}
+
+{-| Kako
+-}
 kkj : Language
 kkj =
     Language { code = "kkj" }
 
-{-| Kokota -}
+
+{-| Kokota
+-}
 kkk : Language
 kkk =
     Language { code = "kkk" }
 
-{-| Kosarek Yale -}
+
+{-| Kosarek Yale
+-}
 kkl : Language
 kkl =
     Language { code = "kkl" }
 
-{-| Kiong -}
+
+{-| Kiong
+-}
 kkm : Language
 kkm =
     Language { code = "kkm" }
 
-{-| Kon Keu -}
+
+{-| Kon Keu
+-}
 kkn : Language
 kkn =
     Language { code = "kkn" }
 
-{-| Karko -}
+
+{-| Karko
+-}
 kko : Language
 kko =
     Language { code = "kko" }
 
+
 {-| Gugubera
-Koko-Bera -}
+Koko-Bera
+-}
 kkp : Language
 kkp =
     Language { code = "kkp" }
 
-{-| Kaeku -}
+
+{-| Kaeku
+-}
 kkq : Language
 kkq =
     Language { code = "kkq" }
 
-{-| Kir-Balar -}
+
+{-| Kir-Balar
+-}
 kkr : Language
 kkr =
     Language { code = "kkr" }
 
-{-| Giiwo -}
+
+{-| Giiwo
+-}
 kks : Language
 kks =
     Language { code = "kks" }
 
-{-| Koi -}
+
+{-| Koi
+-}
 kkt : Language
 kkt =
     Language { code = "kkt" }
 
-{-| Tumi -}
+
+{-| Tumi
+-}
 kku : Language
 kku =
     Language { code = "kku" }
 
-{-| Kangean -}
+
+{-| Kangean
+-}
 kkv : Language
 kkv =
     Language { code = "kkv" }
 
-{-| Teke-Kukuya -}
+
+{-| Teke-Kukuya
+-}
 kkw : Language
 kkw =
     Language { code = "kkw" }
 
-{-| Kohin -}
+
+{-| Kohin
+-}
 kkx : Language
 kkx =
     Language { code = "kkx" }
 
+
 {-| Guugu Yimidhirr
-Guguyimidjir -}
+Guguyimidjir
+-}
 kky : Language
 kky =
     Language { code = "kky" }
 
-{-| Kaska -}
+
+{-| Kaska
+-}
 kkz : Language
 kkz =
     Language { code = "kkz" }
 
+
 {-| Kalaallisut
-Greenlandic -}
+Greenlandic
+-}
 kl : Language
 kl =
     Language { code = "kl" }
 
-{-| Klamath-Modoc -}
+
+{-| Klamath-Modoc
+-}
 kla : Language
 kla =
     Language { code = "kla" }
 
-{-| Kiliwa -}
+
+{-| Kiliwa
+-}
 klb : Language
 klb =
     Language { code = "klb" }
 
-{-| Kolbila -}
+
+{-| Kolbila
+-}
 klc : Language
 klc =
     Language { code = "klc" }
 
-{-| Gamilaraay -}
+
+{-| Gamilaraay
+-}
 kld : Language
 kld =
     Language { code = "kld" }
 
-{-| Kulung (Nepal) -}
+
+{-| Kulung (Nepal)
+-}
 kle : Language
 kle =
     Language { code = "kle" }
 
-{-| Kendeje -}
+
+{-| Kendeje
+-}
 klf : Language
 klf =
     Language { code = "klf" }
 
-{-| Tagakaulo -}
+
+{-| Tagakaulo
+-}
 klg : Language
 klg =
     Language { code = "klg" }
 
-{-| Weliki -}
+
+{-| Weliki
+-}
 klh : Language
 klh =
     Language { code = "klh" }
 
-{-| Kalumpang -}
+
+{-| Kalumpang
+-}
 kli : Language
 kli =
     Language { code = "kli" }
 
-{-| Khalaj -}
+
+{-| Khalaj
+-}
 klj : Language
 klj =
     Language { code = "klj" }
 
-{-| Kono (Nigeria) -}
+
+{-| Kono (Nigeria)
+-}
 klk : Language
 klk =
     Language { code = "klk" }
 
-{-| Kagan Kalagan -}
+
+{-| Kagan Kalagan
+-}
 kll : Language
 kll =
     Language { code = "kll" }
 
-{-| Migum -}
+
+{-| Migum
+-}
 klm : Language
 klm =
     Language { code = "klm" }
 
-{-| Kalenjin -}
+
+{-| Kalenjin
+-}
 kln : Language
 kln =
     Language { code = "kln" }
 
-{-| Kapya -}
+
+{-| Kapya
+-}
 klo : Language
 klo =
     Language { code = "klo" }
 
-{-| Kamasa -}
+
+{-| Kamasa
+-}
 klp : Language
 klp =
     Language { code = "klp" }
 
-{-| Rumu -}
+
+{-| Rumu
+-}
 klq : Language
 klq =
     Language { code = "klq" }
 
-{-| Khaling -}
+
+{-| Khaling
+-}
 klr : Language
 klr =
     Language { code = "klr" }
 
-{-| Kalasha -}
+
+{-| Kalasha
+-}
 kls : Language
 kls =
     Language { code = "kls" }
 
-{-| Nukna -}
+
+{-| Nukna
+-}
 klt : Language
 klt =
     Language { code = "klt" }
 
-{-| Klao -}
+
+{-| Klao
+-}
 klu : Language
 klu =
     Language { code = "klu" }
 
-{-| Maskelynes -}
+
+{-| Maskelynes
+-}
 klv : Language
 klv =
     Language { code = "klv" }
 
+
 {-| Tado
-Lindu -}
+Lindu
+-}
 klw : Language
 klw =
     Language { code = "klw" }
 
-{-| Koluwawa -}
+
+{-| Koluwawa
+-}
 klx : Language
 klx =
     Language { code = "klx" }
 
-{-| Kalao -}
+
+{-| Kalao
+-}
 kly : Language
 kly =
     Language { code = "kly" }
 
-{-| Kabola -}
+
+{-| Kabola
+-}
 klz : Language
 klz =
     Language { code = "klz" }
 
+
 {-| Khmer
-Central Khmer -}
+Central Khmer
+-}
 km : Language
 km =
     Language { code = "km" }
 
-{-| Konni -}
+
+{-| Konni
+-}
 kma : Language
 kma =
     Language { code = "kma" }
 
-{-| Kimbundu -}
+
+{-| Kimbundu
+-}
 kmb : Language
 kmb =
     Language { code = "kmb" }
 
-{-| Southern Dong -}
+
+{-| Southern Dong
+-}
 kmc : Language
 kmc =
     Language { code = "kmc" }
 
-{-| Majukayang Kalinga -}
+
+{-| Majukayang Kalinga
+-}
 kmd : Language
 kmd =
     Language { code = "kmd" }
 
-{-| Bakole -}
+
+{-| Bakole
+-}
 kme : Language
 kme =
     Language { code = "kme" }
 
-{-| Kare (Papua New Guinea) -}
+
+{-| Kare (Papua New Guinea)
+-}
 kmf : Language
 kmf =
     Language { code = "kmf" }
 
-{-| Kâte -}
+
+{-| Kâte
+-}
 kmg : Language
 kmg =
     Language { code = "kmg" }
 
-{-| Kalam -}
+
+{-| Kalam
+-}
 kmh : Language
 kmh =
     Language { code = "kmh" }
 
-{-| Kami (Nigeria) -}
+
+{-| Kami (Nigeria)
+-}
 kmi : Language
 kmi =
     Language { code = "kmi" }
 
-{-| Kumarbhag Paharia -}
+
+{-| Kumarbhag Paharia
+-}
 kmj : Language
 kmj =
     Language { code = "kmj" }
 
-{-| Limos Kalinga -}
+
+{-| Limos Kalinga
+-}
 kmk : Language
 kmk =
     Language { code = "kmk" }
 
-{-| Tanudan Kalinga -}
+
+{-| Tanudan Kalinga
+-}
 kml : Language
 kml =
     Language { code = "kml" }
 
-{-| Kom (India) -}
+
+{-| Kom (India)
+-}
 kmm : Language
 kmm =
     Language { code = "kmm" }
 
-{-| Awtuw -}
+
+{-| Awtuw
+-}
 kmn : Language
 kmn =
     Language { code = "kmn" }
 
-{-| Kwoma -}
+
+{-| Kwoma
+-}
 kmo : Language
 kmo =
     Language { code = "kmo" }
 
-{-| Gimme -}
+
+{-| Gimme
+-}
 kmp : Language
 kmp =
     Language { code = "kmp" }
 
-{-| Kwama -}
+
+{-| Kwama
+-}
 kmq : Language
 kmq =
     Language { code = "kmq" }
 
-{-| Northern Kurdish -}
+
+{-| Northern Kurdish
+-}
 kmr : Language
 kmr =
     Language { code = "kmr" }
 
-{-| Kamasau -}
+
+{-| Kamasau
+-}
 kms : Language
 kms =
     Language { code = "kms" }
 
-{-| Kemtuik -}
+
+{-| Kemtuik
+-}
 kmt : Language
 kmt =
     Language { code = "kmt" }
 
-{-| Kanite -}
+
+{-| Kanite
+-}
 kmu : Language
 kmu =
     Language { code = "kmu" }
 
-{-| Karipúna Creole French -}
+
+{-| Karipúna Creole French
+-}
 kmv : Language
 kmv =
     Language { code = "kmv" }
 
-{-| Komo (Democratic Republic of Congo) -}
+
+{-| Komo (Democratic Republic of Congo)
+-}
 kmw : Language
 kmw =
     Language { code = "kmw" }
 
-{-| Waboda -}
+
+{-| Waboda
+-}
 kmx : Language
 kmx =
     Language { code = "kmx" }
 
-{-| Koma -}
+
+{-| Koma
+-}
 kmy : Language
 kmy =
     Language { code = "kmy" }
 
-{-| Khorasani Turkish -}
+
+{-| Khorasani Turkish
+-}
 kmz : Language
 kmz =
     Language { code = "kmz" }
 
-{-| Kannada -}
+
+{-| Kannada
+-}
 kn : Language
 kn =
     Language { code = "kn" }
 
-{-| Dera (Nigeria) -}
+
+{-| Dera (Nigeria)
+-}
 kna : Language
 kna =
     Language { code = "kna" }
 
-{-| Lubuagan Kalinga -}
+
+{-| Lubuagan Kalinga
+-}
 knb : Language
 knb =
     Language { code = "knb" }
 
-{-| Central Kanuri -}
+
+{-| Central Kanuri
+-}
 knc : Language
 knc =
     Language { code = "knc" }
 
-{-| Konda -}
+
+{-| Konda
+-}
 knd : Language
 knd =
     Language { code = "knd" }
 
-{-| Kankanaey -}
+
+{-| Kankanaey
+-}
 kne : Language
 kne =
     Language { code = "kne" }
 
-{-| Mankanya -}
+
+{-| Mankanya
+-}
 knf : Language
 knf =
     Language { code = "knf" }
 
-{-| Koongo -}
+
+{-| Koongo
+-}
 kng : Language
 kng =
     Language { code = "kng" }
 
-{-| Kanufi -}
+
+{-| Kanufi
+-}
 kni : Language
 kni =
     Language { code = "kni" }
 
-{-| Western Kanjobal -}
+
+{-| Western Kanjobal
+-}
 knj : Language
 knj =
     Language { code = "knj" }
 
-{-| Kuranko -}
+
+{-| Kuranko
+-}
 knk : Language
 knk =
     Language { code = "knk" }
 
-{-| Keninjal -}
+
+{-| Keninjal
+-}
 knl : Language
 knl =
     Language { code = "knl" }
 
-{-| Kanamarí -}
+
+{-| Kanamarí
+-}
 knm : Language
 knm =
     Language { code = "knm" }
 
-{-| Konkani (individual language) -}
+
+{-| Konkani (individual language)
+-}
 knn : Language
 knn =
     Language { code = "knn" }
 
-{-| Kono (Sierra Leone) -}
+
+{-| Kono (Sierra Leone)
+-}
 kno : Language
 kno =
     Language { code = "kno" }
 
-{-| Kwanja -}
+
+{-| Kwanja
+-}
 knp : Language
 knp =
     Language { code = "knp" }
 
-{-| Kintaq -}
+
+{-| Kintaq
+-}
 knq : Language
 knq =
     Language { code = "knq" }
 
-{-| Kaningra -}
+
+{-| Kaningra
+-}
 knr : Language
 knr =
     Language { code = "knr" }
 
-{-| Kensiu -}
+
+{-| Kensiu
+-}
 kns : Language
 kns =
     Language { code = "kns" }
 
-{-| Panoan Katukína -}
+
+{-| Panoan Katukína
+-}
 knt : Language
 knt =
     Language { code = "knt" }
 
-{-| Kono (Guinea) -}
+
+{-| Kono (Guinea)
+-}
 knu : Language
 knu =
     Language { code = "knu" }
 
-{-| Tabo -}
+
+{-| Tabo
+-}
 knv : Language
 knv =
     Language { code = "knv" }
 
-{-| Kung-Ekoka -}
+
+{-| Kung-Ekoka
+-}
 knw : Language
 knw =
     Language { code = "knw" }
 
+
 {-| Kendayan
-Salako -}
+Salako
+-}
 knx : Language
 knx =
     Language { code = "knx" }
 
-{-| Kanyok -}
+
+{-| Kanyok
+-}
 kny : Language
 kny =
     Language { code = "kny" }
 
-{-| Kalamsé -}
+
+{-| Kalamsé
+-}
 knz : Language
 knz =
     Language { code = "knz" }
 
-{-| Korean -}
+
+{-| Korean
+-}
 ko : Language
 ko =
     Language { code = "ko" }
 
-{-| Konomala -}
+
+{-| Konomala
+-}
 koa : Language
 koa =
     Language { code = "koa" }
 
-{-| Kpati -}
+
+{-| Kpati
+-}
 koc : Language
 koc =
     Language { code = "koc" }
 
-{-| Kodi -}
+
+{-| Kodi
+-}
 kod : Language
 kod =
     Language { code = "kod" }
 
-{-| Kacipo-Balesi -}
+
+{-| Kacipo-Balesi
+-}
 koe : Language
 koe =
     Language { code = "koe" }
 
-{-| Kubi -}
+
+{-| Kubi
+-}
 kof : Language
 kof =
     Language { code = "kof" }
 
+
 {-| Cogui
-Kogi -}
+Kogi
+-}
 kog : Language
 kog =
     Language { code = "kog" }
 
-{-| Koyo -}
+
+{-| Koyo
+-}
 koh : Language
 koh =
     Language { code = "koh" }
 
-{-| Komi-Permyak -}
+
+{-| Komi-Permyak
+-}
 koi : Language
 koi =
     Language { code = "koi" }
 
-{-| Sara Dunjo -}
+
+{-| Sara Dunjo
+-}
 koj : Language
 koj =
     Language { code = "koj" }
 
-{-| Konkani (macrolanguage) -}
+
+{-| Konkani (macrolanguage)
+-}
 kok : Language
 kok =
     Language { code = "kok" }
 
-{-| Kol (Papua New Guinea) -}
+
+{-| Kol (Papua New Guinea)
+-}
 kol : Language
 kol =
     Language { code = "kol" }
 
-{-| Konzo -}
+
+{-| Konzo
+-}
 koo : Language
 koo =
     Language { code = "koo" }
 
-{-| Waube -}
+
+{-| Waube
+-}
 kop : Language
 kop =
     Language { code = "kop" }
 
-{-| Kota (Gabon) -}
+
+{-| Kota (Gabon)
+-}
 koq : Language
 koq =
     Language { code = "koq" }
 
-{-| Kosraean -}
+
+{-| Kosraean
+-}
 kos : Language
 kos =
     Language { code = "kos" }
 
-{-| Lagwan -}
+
+{-| Lagwan
+-}
 kot : Language
 kot =
     Language { code = "kot" }
 
-{-| Koke -}
+
+{-| Koke
+-}
 kou : Language
 kou =
     Language { code = "kou" }
 
-{-| Kudu-Camo -}
+
+{-| Kudu-Camo
+-}
 kov : Language
 kov =
     Language { code = "kov" }
 
-{-| Kugama -}
+
+{-| Kugama
+-}
 kow : Language
 kow =
     Language { code = "kow" }
 
-{-| Coxima -}
+
+{-| Coxima
+-}
 kox : Language
 kox =
     Language { code = "kox" }
 
-{-| Koyukon -}
+
+{-| Koyukon
+-}
 koy : Language
 koy =
     Language { code = "koy" }
 
-{-| Korak -}
+
+{-| Korak
+-}
 koz : Language
 koz =
     Language { code = "koz" }
 
-{-| Kutto -}
+
+{-| Kutto
+-}
 kpa : Language
 kpa =
     Language { code = "kpa" }
 
-{-| Mullu Kurumba -}
+
+{-| Mullu Kurumba
+-}
 kpb : Language
 kpb =
     Language { code = "kpb" }
 
-{-| Curripaco -}
+
+{-| Curripaco
+-}
 kpc : Language
 kpc =
     Language { code = "kpc" }
 
-{-| Koba -}
+
+{-| Koba
+-}
 kpd : Language
 kpd =
     Language { code = "kpd" }
 
-{-| Kpelle -}
+
+{-| Kpelle
+-}
 kpe : Language
 kpe =
     Language { code = "kpe" }
 
-{-| Komba -}
+
+{-| Komba
+-}
 kpf : Language
 kpf =
     Language { code = "kpf" }
 
-{-| Kapingamarangi -}
+
+{-| Kapingamarangi
+-}
 kpg : Language
 kpg =
     Language { code = "kpg" }
 
-{-| Kplang -}
+
+{-| Kplang
+-}
 kph : Language
 kph =
     Language { code = "kph" }
 
-{-| Kofei -}
+
+{-| Kofei
+-}
 kpi : Language
 kpi =
     Language { code = "kpi" }
 
-{-| Karajá -}
+
+{-| Karajá
+-}
 kpj : Language
 kpj =
     Language { code = "kpj" }
 
-{-| Kpan -}
+
+{-| Kpan
+-}
 kpk : Language
 kpk =
     Language { code = "kpk" }
 
-{-| Kpala -}
+
+{-| Kpala
+-}
 kpl : Language
 kpl =
     Language { code = "kpl" }
 
-{-| Koho -}
+
+{-| Koho
+-}
 kpm : Language
 kpm =
     Language { code = "kpm" }
 
-{-| Kepkiriwát -}
+
+{-| Kepkiriwát
+-}
 kpn : Language
 kpn =
     Language { code = "kpn" }
 
-{-| Ikposo -}
+
+{-| Ikposo
+-}
 kpo : Language
 kpo =
     Language { code = "kpo" }
 
-{-| Paku Karen -}
+
+{-| Paku Karen
+-}
 kpp : Language
 kpp =
     Language { code = "kpp" }
 
-{-| Korupun-Sela -}
+
+{-| Korupun-Sela
+-}
 kpq : Language
 kpq =
     Language { code = "kpq" }
 
-{-| Korafe-Yegha -}
+
+{-| Korafe-Yegha
+-}
 kpr : Language
 kpr =
     Language { code = "kpr" }
 
-{-| Tehit -}
+
+{-| Tehit
+-}
 kps : Language
 kps =
     Language { code = "kps" }
 
-{-| Karata -}
+
+{-| Karata
+-}
 kpt : Language
 kpt =
     Language { code = "kpt" }
 
-{-| Kafoa -}
+
+{-| Kafoa
+-}
 kpu : Language
 kpu =
     Language { code = "kpu" }
 
-{-| Komi-Zyrian -}
+
+{-| Komi-Zyrian
+-}
 kpv : Language
 kpv =
     Language { code = "kpv" }
 
-{-| Kobon -}
+
+{-| Kobon
+-}
 kpw : Language
 kpw =
     Language { code = "kpw" }
 
-{-| Mountain Koiali -}
+
+{-| Mountain Koiali
+-}
 kpx : Language
 kpx =
     Language { code = "kpx" }
 
-{-| Koryak -}
+
+{-| Koryak
+-}
 kpy : Language
 kpy =
     Language { code = "kpy" }
 
-{-| Kupsabiny -}
+
+{-| Kupsabiny
+-}
 kpz : Language
 kpz =
     Language { code = "kpz" }
 
-{-| Mum -}
+
+{-| Mum
+-}
 kqa : Language
 kqa =
     Language { code = "kqa" }
 
-{-| Kovai -}
+
+{-| Kovai
+-}
 kqb : Language
 kqb =
     Language { code = "kqb" }
 
-{-| Doromu-Koki -}
+
+{-| Doromu-Koki
+-}
 kqc : Language
 kqc =
     Language { code = "kqc" }
 
-{-| Koy Sanjaq Surat -}
+
+{-| Koy Sanjaq Surat
+-}
 kqd : Language
 kqd =
     Language { code = "kqd" }
 
-{-| Kalagan -}
+
+{-| Kalagan
+-}
 kqe : Language
 kqe =
     Language { code = "kqe" }
 
-{-| Kakabai -}
+
+{-| Kakabai
+-}
 kqf : Language
 kqf =
     Language { code = "kqf" }
 
-{-| Khe -}
+
+{-| Khe
+-}
 kqg : Language
 kqg =
     Language { code = "kqg" }
 
-{-| Kisankasa -}
+
+{-| Kisankasa
+-}
 kqh : Language
 kqh =
     Language { code = "kqh" }
 
-{-| Koitabu -}
+
+{-| Koitabu
+-}
 kqi : Language
 kqi =
     Language { code = "kqi" }
 
-{-| Koromira -}
+
+{-| Koromira
+-}
 kqj : Language
 kqj =
     Language { code = "kqj" }
 
-{-| Kotafon Gbe -}
+
+{-| Kotafon Gbe
+-}
 kqk : Language
 kqk =
     Language { code = "kqk" }
 
-{-| Kyenele -}
+
+{-| Kyenele
+-}
 kql : Language
 kql =
     Language { code = "kql" }
 
-{-| Khisa -}
+
+{-| Khisa
+-}
 kqm : Language
 kqm =
     Language { code = "kqm" }
 
-{-| Kaonde -}
+
+{-| Kaonde
+-}
 kqn : Language
 kqn =
     Language { code = "kqn" }
 
-{-| Eastern Krahn -}
+
+{-| Eastern Krahn
+-}
 kqo : Language
 kqo =
     Language { code = "kqo" }
 
-{-| Kimré -}
+
+{-| Kimré
+-}
 kqp : Language
 kqp =
     Language { code = "kqp" }
 
-{-| Krenak -}
+
+{-| Krenak
+-}
 kqq : Language
 kqq =
     Language { code = "kqq" }
 
-{-| Kimaragang -}
+
+{-| Kimaragang
+-}
 kqr : Language
 kqr =
     Language { code = "kqr" }
 
-{-| Northern Kissi -}
+
+{-| Northern Kissi
+-}
 kqs : Language
 kqs =
     Language { code = "kqs" }
 
-{-| Klias River Kadazan -}
+
+{-| Klias River Kadazan
+-}
 kqt : Language
 kqt =
     Language { code = "kqt" }
 
-{-| Seroa -}
+
+{-| Seroa
+-}
 kqu : Language
 kqu =
     Language { code = "kqu" }
 
-{-| Okolod -}
+
+{-| Okolod
+-}
 kqv : Language
 kqv =
     Language { code = "kqv" }
 
-{-| Kandas -}
+
+{-| Kandas
+-}
 kqw : Language
 kqw =
     Language { code = "kqw" }
 
-{-| Mser -}
+
+{-| Mser
+-}
 kqx : Language
 kqx =
     Language { code = "kqx" }
 
-{-| Koorete -}
+
+{-| Koorete
+-}
 kqy : Language
 kqy =
     Language { code = "kqy" }
 
-{-| Korana -}
+
+{-| Korana
+-}
 kqz : Language
 kqz =
     Language { code = "kqz" }
 
-{-| Kanuri -}
+
+{-| Kanuri
+-}
 kr : Language
 kr =
     Language { code = "kr" }
 
-{-| Kumhali -}
+
+{-| Kumhali
+-}
 kra : Language
 kra =
     Language { code = "kra" }
 
-{-| Karkin -}
+
+{-| Karkin
+-}
 krb : Language
 krb =
     Language { code = "krb" }
 
-{-| Karachay-Balkar -}
+
+{-| Karachay-Balkar
+-}
 krc : Language
 krc =
     Language { code = "krc" }
 
-{-| Kairui-Midiki -}
+
+{-| Kairui-Midiki
+-}
 krd : Language
 krd =
     Language { code = "krd" }
 
-{-| Panará -}
+
+{-| Panará
+-}
 kre : Language
 kre =
     Language { code = "kre" }
 
-{-| Koro (Vanuatu) -}
+
+{-| Koro (Vanuatu)
+-}
 krf : Language
 krf =
     Language { code = "krf" }
 
-{-| Kurama -}
+
+{-| Kurama
+-}
 krh : Language
 krh =
     Language { code = "krh" }
 
-{-| Krio -}
+
+{-| Krio
+-}
 kri : Language
 kri =
     Language { code = "kri" }
 
-{-| Kinaray-A -}
+
+{-| Kinaray-A
+-}
 krj : Language
 krj =
     Language { code = "krj" }
 
-{-| Kerek -}
+
+{-| Kerek
+-}
 krk : Language
 krk =
     Language { code = "krk" }
 
-{-| Karelian -}
+
+{-| Karelian
+-}
 krl : Language
 krl =
     Language { code = "krl" }
 
-{-| Krim -}
+
+{-| Krim
+-}
 krm : Language
 krm =
     Language { code = "krm" }
 
-{-| Sapo -}
+
+{-| Sapo
+-}
 krn : Language
 krn =
     Language { code = "krn" }
 
-{-| Kru languages -}
+
+{-| Kru languages
+-}
 kro : Language
 kro =
     Language { code = "kro" }
 
-{-| Korop -}
+
+{-| Korop
+-}
 krp : Language
 krp =
     Language { code = "krp" }
 
-{-| Krung -}
+
+{-| Krung
+-}
 krr : Language
 krr =
     Language { code = "krr" }
 
-{-| Gbaya (Sudan) -}
+
+{-| Gbaya (Sudan)
+-}
 krs : Language
 krs =
     Language { code = "krs" }
 
-{-| Tumari Kanuri -}
+
+{-| Tumari Kanuri
+-}
 krt : Language
 krt =
     Language { code = "krt" }
 
-{-| Kurukh -}
+
+{-| Kurukh
+-}
 kru : Language
 kru =
     Language { code = "kru" }
 
-{-| Kavet -}
+
+{-| Kavet
+-}
 krv : Language
 krv =
     Language { code = "krv" }
 
-{-| Western Krahn -}
+
+{-| Western Krahn
+-}
 krw : Language
 krw =
     Language { code = "krw" }
 
-{-| Karon -}
+
+{-| Karon
+-}
 krx : Language
 krx =
     Language { code = "krx" }
 
-{-| Kryts -}
+
+{-| Kryts
+-}
 kry : Language
 kry =
     Language { code = "kry" }
 
-{-| Sota Kanum -}
+
+{-| Sota Kanum
+-}
 krz : Language
 krz =
     Language { code = "krz" }
 
-{-| Kashmiri -}
+
+{-| Kashmiri
+-}
 ks : Language
 ks =
     Language { code = "ks" }
 
-{-| Shuwa-Zamani -}
+
+{-| Shuwa-Zamani
+-}
 ksa : Language
 ksa =
     Language { code = "ksa" }
 
-{-| Shambala -}
+
+{-| Shambala
+-}
 ksb : Language
 ksb =
     Language { code = "ksb" }
 
-{-| Southern Kalinga -}
+
+{-| Southern Kalinga
+-}
 ksc : Language
 ksc =
     Language { code = "ksc" }
 
-{-| Kuanua -}
+
+{-| Kuanua
+-}
 ksd : Language
 ksd =
     Language { code = "ksd" }
 
-{-| Kuni -}
+
+{-| Kuni
+-}
 kse : Language
 kse =
     Language { code = "kse" }
 
-{-| Bafia -}
+
+{-| Bafia
+-}
 ksf : Language
 ksf =
     Language { code = "ksf" }
 
-{-| Kusaghe -}
+
+{-| Kusaghe
+-}
 ksg : Language
 ksg =
     Language { code = "ksg" }
 
-{-| Kölsch -}
+
+{-| Kölsch
+-}
 ksh : Language
 ksh =
     Language { code = "ksh" }
 
+
 {-| Krisa
-I'saka -}
+I'saka
+-}
 ksi : Language
 ksi =
     Language { code = "ksi" }
 
-{-| Uare -}
+
+{-| Uare
+-}
 ksj : Language
 ksj =
     Language { code = "ksj" }
 
-{-| Kansa -}
+
+{-| Kansa
+-}
 ksk : Language
 ksk =
     Language { code = "ksk" }
 
-{-| Kumalu -}
+
+{-| Kumalu
+-}
 ksl : Language
 ksl =
     Language { code = "ksl" }
 
-{-| Kumba -}
+
+{-| Kumba
+-}
 ksm : Language
 ksm =
     Language { code = "ksm" }
 
-{-| Kasiguranin -}
+
+{-| Kasiguranin
+-}
 ksn : Language
 ksn =
     Language { code = "ksn" }
 
-{-| Kofa -}
+
+{-| Kofa
+-}
 kso : Language
 kso =
     Language { code = "kso" }
 
-{-| Kaba -}
+
+{-| Kaba
+-}
 ksp : Language
 ksp =
     Language { code = "ksp" }
 
-{-| Kwaami -}
+
+{-| Kwaami
+-}
 ksq : Language
 ksq =
     Language { code = "ksq" }
 
-{-| Borong -}
+
+{-| Borong
+-}
 ksr : Language
 ksr =
     Language { code = "ksr" }
 
-{-| Southern Kisi -}
+
+{-| Southern Kisi
+-}
 kss : Language
 kss =
     Language { code = "kss" }
 
-{-| Winyé -}
+
+{-| Winyé
+-}
 kst : Language
 kst =
     Language { code = "kst" }
 
-{-| Khamyang -}
+
+{-| Khamyang
+-}
 ksu : Language
 ksu =
     Language { code = "ksu" }
 
-{-| Kusu -}
+
+{-| Kusu
+-}
 ksv : Language
 ksv =
     Language { code = "ksv" }
 
-{-| S'gaw Karen -}
+
+{-| S'gaw Karen
+-}
 ksw : Language
 ksw =
     Language { code = "ksw" }
 
-{-| Kedang -}
+
+{-| Kedang
+-}
 ksx : Language
 ksx =
     Language { code = "ksx" }
 
-{-| Kharia Thar -}
+
+{-| Kharia Thar
+-}
 ksy : Language
 ksy =
     Language { code = "ksy" }
 
-{-| Kodaku -}
+
+{-| Kodaku
+-}
 ksz : Language
 ksz =
     Language { code = "ksz" }
 
-{-| Katua -}
+
+{-| Katua
+-}
 kta : Language
 kta =
     Language { code = "kta" }
 
-{-| Kambaata -}
+
+{-| Kambaata
+-}
 ktb : Language
 ktb =
     Language { code = "ktb" }
 
-{-| Kholok -}
+
+{-| Kholok
+-}
 ktc : Language
 ktc =
     Language { code = "ktc" }
 
+
 {-| Kokata
-Kukatha -}
+Kukatha
+-}
 ktd : Language
 ktd =
     Language { code = "ktd" }
 
-{-| Nubri -}
+
+{-| Nubri
+-}
 kte : Language
 kte =
     Language { code = "kte" }
 
-{-| Kwami -}
+
+{-| Kwami
+-}
 ktf : Language
 ktf =
     Language { code = "ktf" }
 
-{-| Kalkutung -}
+
+{-| Kalkutung
+-}
 ktg : Language
 ktg =
     Language { code = "ktg" }
 
-{-| Karanga -}
+
+{-| Karanga
+-}
 kth : Language
 kth =
     Language { code = "kth" }
 
-{-| North Muyu -}
+
+{-| North Muyu
+-}
 kti : Language
 kti =
     Language { code = "kti" }
 
-{-| Plapo Krumen -}
+
+{-| Plapo Krumen
+-}
 ktj : Language
 ktj =
     Language { code = "ktj" }
 
-{-| Kaniet -}
+
+{-| Kaniet
+-}
 ktk : Language
 ktk =
     Language { code = "ktk" }
 
-{-| Koroshi -}
+
+{-| Koroshi
+-}
 ktl : Language
 ktl =
     Language { code = "ktl" }
 
-{-| Kurti -}
+
+{-| Kurti
+-}
 ktm : Language
 ktm =
     Language { code = "ktm" }
 
-{-| Karitiâna -}
+
+{-| Karitiâna
+-}
 ktn : Language
 ktn =
     Language { code = "ktn" }
 
-{-| Kuot -}
+
+{-| Kuot
+-}
 kto : Language
 kto =
     Language { code = "kto" }
 
-{-| Kaduo -}
+
+{-| Kaduo
+-}
 ktp : Language
 ktp =
     Language { code = "ktp" }
 
-{-| Katabaga -}
+
+{-| Katabaga
+-}
 ktq : Language
 ktq =
     Language { code = "ktq" }
 
-{-| Kota Marudu Tinagas -}
+
+{-| Kota Marudu Tinagas
+-}
 ktr : Language
 ktr =
     Language { code = "ktr" }
 
-{-| South Muyu -}
+
+{-| South Muyu
+-}
 kts : Language
 kts =
     Language { code = "kts" }
 
-{-| Ketum -}
+
+{-| Ketum
+-}
 ktt : Language
 ktt =
     Language { code = "ktt" }
 
-{-| Kituba (Democratic Republic of Congo) -}
+
+{-| Kituba (Democratic Republic of Congo)
+-}
 ktu : Language
 ktu =
     Language { code = "ktu" }
 
-{-| Eastern Katu -}
+
+{-| Eastern Katu
+-}
 ktv : Language
 ktv =
     Language { code = "ktv" }
 
-{-| Kato -}
+
+{-| Kato
+-}
 ktw : Language
 ktw =
     Language { code = "ktw" }
 
-{-| Kaxararí -}
+
+{-| Kaxararí
+-}
 ktx : Language
 ktx =
     Language { code = "ktx" }
 
-{-| Kango (Bas-Uélé District) -}
+
+{-| Kango (Bas-Uélé District)
+-}
 kty : Language
 kty =
     Language { code = "kty" }
 
+
 {-| Juǀʼhoan
-Juǀʼhoansi -}
+Juǀʼhoansi
+-}
 ktz : Language
 ktz =
     Language { code = "ktz" }
 
-{-| Kurdish -}
+
+{-| Kurdish
+-}
 ku : Language
 ku =
     Language { code = "ku" }
 
-{-| Kutep -}
+
+{-| Kutep
+-}
 kub : Language
 kub =
     Language { code = "kub" }
 
-{-| Kwinsu -}
+
+{-| Kwinsu
+-}
 kuc : Language
 kuc =
     Language { code = "kuc" }
 
-{-| 'Auhelawa -}
+
+{-| 'Auhelawa
+-}
 kud : Language
 kud =
     Language { code = "kud" }
 
-{-| Kuman (Papua New Guinea) -}
+
+{-| Kuman (Papua New Guinea)
+-}
 kue : Language
 kue =
     Language { code = "kue" }
 
-{-| Western Katu -}
+
+{-| Western Katu
+-}
 kuf : Language
 kuf =
     Language { code = "kuf" }
 
-{-| Kupa -}
+
+{-| Kupa
+-}
 kug : Language
 kug =
     Language { code = "kug" }
 
-{-| Kushi -}
+
+{-| Kushi
+-}
 kuh : Language
 kuh =
     Language { code = "kuh" }
 
+
 {-| Kuikúro-Kalapálo
-Kalapalo -}
+Kalapalo
+-}
 kui : Language
 kui =
     Language { code = "kui" }
 
-{-| Kuria -}
+
+{-| Kuria
+-}
 kuj : Language
 kuj =
     Language { code = "kuj" }
 
-{-| Kepo' -}
+
+{-| Kepo'
+-}
 kuk : Language
 kuk =
     Language { code = "kuk" }
 
-{-| Kulere -}
+
+{-| Kulere
+-}
 kul : Language
 kul =
     Language { code = "kul" }
 
-{-| Kumyk -}
+
+{-| Kumyk
+-}
 kum : Language
 kum =
     Language { code = "kum" }
 
-{-| Kunama -}
+
+{-| Kunama
+-}
 kun : Language
 kun =
     Language { code = "kun" }
 
-{-| Kumukio -}
+
+{-| Kumukio
+-}
 kuo : Language
 kuo =
     Language { code = "kuo" }
 
-{-| Kunimaipa -}
+
+{-| Kunimaipa
+-}
 kup : Language
 kup =
     Language { code = "kup" }
 
-{-| Karipuna -}
+
+{-| Karipuna
+-}
 kuq : Language
 kuq =
     Language { code = "kuq" }
 
-{-| Kusaal -}
+
+{-| Kusaal
+-}
 kus : Language
 kus =
     Language { code = "kus" }
 
-{-| Kutenai -}
+
+{-| Kutenai
+-}
 kut : Language
 kut =
     Language { code = "kut" }
 
-{-| Upper Kuskokwim -}
+
+{-| Upper Kuskokwim
+-}
 kuu : Language
 kuu =
     Language { code = "kuu" }
 
-{-| Kur -}
+
+{-| Kur
+-}
 kuv : Language
 kuv =
     Language { code = "kuv" }
 
-{-| Kpagua -}
+
+{-| Kpagua
+-}
 kuw : Language
 kuw =
     Language { code = "kuw" }
 
-{-| Kukatja -}
+
+{-| Kukatja
+-}
 kux : Language
 kux =
     Language { code = "kux" }
 
-{-| Kuuku-Ya'u -}
+
+{-| Kuuku-Ya'u
+-}
 kuy : Language
 kuy =
     Language { code = "kuy" }
 
-{-| Kunza -}
+
+{-| Kunza
+-}
 kuz : Language
 kuz =
     Language { code = "kuz" }
 
-{-| Komi -}
+
+{-| Komi
+-}
 kv : Language
 kv =
     Language { code = "kv" }
 
-{-| Bagvalal -}
+
+{-| Bagvalal
+-}
 kva : Language
 kva =
     Language { code = "kva" }
 
-{-| Kubu -}
+
+{-| Kubu
+-}
 kvb : Language
 kvb =
     Language { code = "kvb" }
 
-{-| Kove -}
+
+{-| Kove
+-}
 kvc : Language
 kvc =
     Language { code = "kvc" }
 
-{-| Kui (Indonesia) -}
+
+{-| Kui (Indonesia)
+-}
 kvd : Language
 kvd =
     Language { code = "kvd" }
 
-{-| Kalabakan -}
+
+{-| Kalabakan
+-}
 kve : Language
 kve =
     Language { code = "kve" }
 
-{-| Kabalai -}
+
+{-| Kabalai
+-}
 kvf : Language
 kvf =
     Language { code = "kvf" }
 
-{-| Kuni-Boazi -}
+
+{-| Kuni-Boazi
+-}
 kvg : Language
 kvg =
     Language { code = "kvg" }
 
-{-| Komodo -}
+
+{-| Komodo
+-}
 kvh : Language
 kvh =
     Language { code = "kvh" }
 
-{-| Kwang -}
+
+{-| Kwang
+-}
 kvi : Language
 kvi =
     Language { code = "kvi" }
 
-{-| Psikye -}
+
+{-| Psikye
+-}
 kvj : Language
 kvj =
     Language { code = "kvj" }
 
-{-| Korean Sign Language -}
+
+{-| Korean Sign Language
+-}
 kvk : Language
 kvk =
     Language { code = "kvk" }
 
-{-| Kayaw -}
+
+{-| Kayaw
+-}
 kvl : Language
 kvl =
     Language { code = "kvl" }
 
-{-| Kendem -}
+
+{-| Kendem
+-}
 kvm : Language
 kvm =
     Language { code = "kvm" }
 
-{-| Border Kuna -}
+
+{-| Border Kuna
+-}
 kvn : Language
 kvn =
     Language { code = "kvn" }
 
-{-| Dobel -}
+
+{-| Dobel
+-}
 kvo : Language
 kvo =
     Language { code = "kvo" }
 
-{-| Kompane -}
+
+{-| Kompane
+-}
 kvp : Language
 kvp =
     Language { code = "kvp" }
 
-{-| Geba Karen -}
+
+{-| Geba Karen
+-}
 kvq : Language
 kvq =
     Language { code = "kvq" }
 
-{-| Kerinci -}
+
+{-| Kerinci
+-}
 kvr : Language
 kvr =
     Language { code = "kvr" }
 
-{-| Kunggara -}
+
+{-| Kunggara
+-}
 kvs : Language
 kvs =
     Language { code = "kvs" }
 
+
 {-| Lahta Karen
-Lahta -}
+Lahta
+-}
 kvt : Language
 kvt =
     Language { code = "kvt" }
 
-{-| Yinbaw Karen -}
+
+{-| Yinbaw Karen
+-}
 kvu : Language
 kvu =
     Language { code = "kvu" }
 
-{-| Kola -}
+
+{-| Kola
+-}
 kvv : Language
 kvv =
     Language { code = "kvv" }
 
-{-| Wersing -}
+
+{-| Wersing
+-}
 kvw : Language
 kvw =
     Language { code = "kvw" }
 
-{-| Parkari Koli -}
+
+{-| Parkari Koli
+-}
 kvx : Language
 kvx =
     Language { code = "kvx" }
 
+
 {-| Yintale Karen
-Yintale -}
+Yintale
+-}
 kvy : Language
 kvy =
     Language { code = "kvy" }
 
+
 {-| Tsakwambo
-Tsaukambo -}
+Tsaukambo
+-}
 kvz : Language
 kvz =
     Language { code = "kvz" }
 
-{-| Cornish -}
+
+{-| Cornish
+-}
 kw : Language
 kw =
     Language { code = "kw" }
 
-{-| Dâw -}
+
+{-| Dâw
+-}
 kwa : Language
 kwa =
     Language { code = "kwa" }
 
-{-| Kwa -}
+
+{-| Kwa
+-}
 kwb : Language
 kwb =
     Language { code = "kwb" }
 
-{-| Likwala -}
+
+{-| Likwala
+-}
 kwc : Language
 kwc =
     Language { code = "kwc" }
 
-{-| Kwaio -}
+
+{-| Kwaio
+-}
 kwd : Language
 kwd =
     Language { code = "kwd" }
 
-{-| Kwerba -}
+
+{-| Kwerba
+-}
 kwe : Language
 kwe =
     Language { code = "kwe" }
 
-{-| Kwara'ae -}
+
+{-| Kwara'ae
+-}
 kwf : Language
 kwf =
     Language { code = "kwf" }
 
-{-| Sara Kaba Deme -}
+
+{-| Sara Kaba Deme
+-}
 kwg : Language
 kwg =
     Language { code = "kwg" }
 
-{-| Kowiai -}
+
+{-| Kowiai
+-}
 kwh : Language
 kwh =
     Language { code = "kwh" }
 
-{-| Awa-Cuaiquer -}
+
+{-| Awa-Cuaiquer
+-}
 kwi : Language
 kwi =
     Language { code = "kwi" }
 
-{-| Kwanga -}
+
+{-| Kwanga
+-}
 kwj : Language
 kwj =
     Language { code = "kwj" }
 
-{-| Kwakiutl -}
+
+{-| Kwakiutl
+-}
 kwk : Language
 kwk =
     Language { code = "kwk" }
 
-{-| Kofyar -}
+
+{-| Kofyar
+-}
 kwl : Language
 kwl =
     Language { code = "kwl" }
 
-{-| Kwambi -}
+
+{-| Kwambi
+-}
 kwm : Language
 kwm =
     Language { code = "kwm" }
 
-{-| Kwangali -}
+
+{-| Kwangali
+-}
 kwn : Language
 kwn =
     Language { code = "kwn" }
 
-{-| Kwomtari -}
+
+{-| Kwomtari
+-}
 kwo : Language
 kwo =
     Language { code = "kwo" }
 
-{-| Kodia -}
+
+{-| Kodia
+-}
 kwp : Language
 kwp =
     Language { code = "kwp" }
 
-{-| Kwak -}
+
+{-| Kwak
+-}
 kwq : Language
 kwq =
     Language { code = "kwq" }
 
-{-| Kwer -}
+
+{-| Kwer
+-}
 kwr : Language
 kwr =
     Language { code = "kwr" }
 
-{-| Kwese -}
+
+{-| Kwese
+-}
 kws : Language
 kws =
     Language { code = "kws" }
 
-{-| Kwesten -}
+
+{-| Kwesten
+-}
 kwt : Language
 kwt =
     Language { code = "kwt" }
 
-{-| Kwakum -}
+
+{-| Kwakum
+-}
 kwu : Language
 kwu =
     Language { code = "kwu" }
 
-{-| Sara Kaba Náà -}
+
+{-| Sara Kaba Náà
+-}
 kwv : Language
 kwv =
     Language { code = "kwv" }
 
-{-| Kwinti -}
+
+{-| Kwinti
+-}
 kww : Language
 kww =
     Language { code = "kww" }
 
-{-| Khirwar -}
+
+{-| Khirwar
+-}
 kwx : Language
 kwx =
     Language { code = "kwx" }
 
-{-| San Salvador Kongo -}
+
+{-| San Salvador Kongo
+-}
 kwy : Language
 kwy =
     Language { code = "kwy" }
 
-{-| Kwadi -}
+
+{-| Kwadi
+-}
 kwz : Language
 kwz =
     Language { code = "kwz" }
 
-{-| Kairiru -}
+
+{-| Kairiru
+-}
 kxa : Language
 kxa =
     Language { code = "kxa" }
 
-{-| Krobu -}
+
+{-| Krobu
+-}
 kxb : Language
 kxb =
     Language { code = "kxb" }
 
+
 {-| Konso
-Khonso -}
+Khonso
+-}
 kxc : Language
 kxc =
     Language { code = "kxc" }
 
-{-| Brunei -}
+
+{-| Brunei
+-}
 kxd : Language
 kxd =
     Language { code = "kxd" }
 
-{-| Kakihum -}
+
+{-| Kakihum
+-}
 kxe : Language
 kxe =
     Language { code = "kxe" }
 
+
 {-| Manumanaw Karen
-Manumanaw -}
+Manumanaw
+-}
 kxf : Language
 kxf =
     Language { code = "kxf" }
 
-{-| Karo (Ethiopia) -}
+
+{-| Karo (Ethiopia)
+-}
 kxh : Language
 kxh =
     Language { code = "kxh" }
 
-{-| Keningau Murut -}
+
+{-| Keningau Murut
+-}
 kxi : Language
 kxi =
     Language { code = "kxi" }
 
-{-| Kulfa -}
+
+{-| Kulfa
+-}
 kxj : Language
 kxj =
     Language { code = "kxj" }
 
-{-| Zayein Karen -}
+
+{-| Zayein Karen
+-}
 kxk : Language
 kxk =
     Language { code = "kxk" }
 
-{-| Nepali Kurux -}
+
+{-| Nepali Kurux
+-}
 kxl : Language
 kxl =
     Language { code = "kxl" }
 
-{-| Northern Khmer -}
+
+{-| Northern Khmer
+-}
 kxm : Language
 kxm =
     Language { code = "kxm" }
 
-{-| Kanowit-Tanjong Melanau -}
+
+{-| Kanowit-Tanjong Melanau
+-}
 kxn : Language
 kxn =
     Language { code = "kxn" }
 
-{-| Kanoé -}
+
+{-| Kanoé
+-}
 kxo : Language
 kxo =
     Language { code = "kxo" }
 
-{-| Wadiyara Koli -}
+
+{-| Wadiyara Koli
+-}
 kxp : Language
 kxp =
     Language { code = "kxp" }
 
-{-| Smärky Kanum -}
+
+{-| Smärky Kanum
+-}
 kxq : Language
 kxq =
     Language { code = "kxq" }
 
-{-| Koro (Papua New Guinea) -}
+
+{-| Koro (Papua New Guinea)
+-}
 kxr : Language
 kxr =
     Language { code = "kxr" }
 
-{-| Kangjia -}
+
+{-| Kangjia
+-}
 kxs : Language
 kxs =
     Language { code = "kxs" }
 
-{-| Koiwat -}
+
+{-| Koiwat
+-}
 kxt : Language
 kxt =
     Language { code = "kxt" }
 
-{-| Kui (India) -}
+
+{-| Kui (India)
+-}
 kxu : Language
 kxu =
     Language { code = "kxu" }
 
-{-| Kuvi -}
+
+{-| Kuvi
+-}
 kxv : Language
 kxv =
     Language { code = "kxv" }
 
-{-| Konai -}
+
+{-| Konai
+-}
 kxw : Language
 kxw =
     Language { code = "kxw" }
 
-{-| Likuba -}
+
+{-| Likuba
+-}
 kxx : Language
 kxx =
     Language { code = "kxx" }
 
-{-| Kayong -}
+
+{-| Kayong
+-}
 kxy : Language
 kxy =
     Language { code = "kxy" }
 
-{-| Kerewo -}
+
+{-| Kerewo
+-}
 kxz : Language
 kxz =
     Language { code = "kxz" }
 
+
 {-| Kirghiz
-Kyrgyz -}
+Kyrgyz
+-}
 ky : Language
 ky =
     Language { code = "ky" }
 
-{-| Kwaya -}
+
+{-| Kwaya
+-}
 kya : Language
 kya =
     Language { code = "kya" }
 
-{-| Butbut Kalinga -}
+
+{-| Butbut Kalinga
+-}
 kyb : Language
 kyb =
     Language { code = "kyb" }
 
-{-| Kyaka -}
+
+{-| Kyaka
+-}
 kyc : Language
 kyc =
     Language { code = "kyc" }
 
-{-| Karey -}
+
+{-| Karey
+-}
 kyd : Language
 kyd =
     Language { code = "kyd" }
 
-{-| Krache -}
+
+{-| Krache
+-}
 kye : Language
 kye =
     Language { code = "kye" }
 
-{-| Kouya -}
+
+{-| Kouya
+-}
 kyf : Language
 kyf =
     Language { code = "kyf" }
 
-{-| Keyagana -}
+
+{-| Keyagana
+-}
 kyg : Language
 kyg =
     Language { code = "kyg" }
 
-{-| Karok -}
+
+{-| Karok
+-}
 kyh : Language
 kyh =
     Language { code = "kyh" }
 
-{-| Kiput -}
+
+{-| Kiput
+-}
 kyi : Language
 kyi =
     Language { code = "kyi" }
 
-{-| Karao -}
+
+{-| Karao
+-}
 kyj : Language
 kyj =
     Language { code = "kyj" }
 
-{-| Kamayo -}
+
+{-| Kamayo
+-}
 kyk : Language
 kyk =
     Language { code = "kyk" }
 
-{-| Kalapuya -}
+
+{-| Kalapuya
+-}
 kyl : Language
 kyl =
     Language { code = "kyl" }
 
-{-| Kpatili -}
+
+{-| Kpatili
+-}
 kym : Language
 kym =
     Language { code = "kym" }
 
-{-| Northern Binukidnon -}
+
+{-| Northern Binukidnon
+-}
 kyn : Language
 kyn =
     Language { code = "kyn" }
 
-{-| Kelon -}
+
+{-| Kelon
+-}
 kyo : Language
 kyo =
     Language { code = "kyo" }
 
-{-| Kang -}
+
+{-| Kang
+-}
 kyp : Language
 kyp =
     Language { code = "kyp" }
 
-{-| Kenga -}
+
+{-| Kenga
+-}
 kyq : Language
 kyq =
     Language { code = "kyq" }
 
-{-| Kuruáya -}
+
+{-| Kuruáya
+-}
 kyr : Language
 kyr =
     Language { code = "kyr" }
 
-{-| Baram Kayan -}
+
+{-| Baram Kayan
+-}
 kys : Language
 kys =
     Language { code = "kys" }
 
-{-| Kayagar -}
+
+{-| Kayagar
+-}
 kyt : Language
 kyt =
     Language { code = "kyt" }
 
-{-| Western Kayah -}
+
+{-| Western Kayah
+-}
 kyu : Language
 kyu =
     Language { code = "kyu" }
 
-{-| Kayort -}
+
+{-| Kayort
+-}
 kyv : Language
 kyv =
     Language { code = "kyv" }
 
-{-| Kudmali -}
+
+{-| Kudmali
+-}
 kyw : Language
 kyw =
     Language { code = "kyw" }
 
-{-| Rapoisi -}
+
+{-| Rapoisi
+-}
 kyx : Language
 kyx =
     Language { code = "kyx" }
 
-{-| Kambaira -}
+
+{-| Kambaira
+-}
 kyy : Language
 kyy =
     Language { code = "kyy" }
 
-{-| Kayabí -}
+
+{-| Kayabí
+-}
 kyz : Language
 kyz =
     Language { code = "kyz" }
 
-{-| Western Karaboro -}
+
+{-| Western Karaboro
+-}
 kza : Language
 kza =
     Language { code = "kza" }
 
-{-| Kaibobo -}
+
+{-| Kaibobo
+-}
 kzb : Language
 kzb =
     Language { code = "kzb" }
 
-{-| Bondoukou Kulango -}
+
+{-| Bondoukou Kulango
+-}
 kzc : Language
 kzc =
     Language { code = "kzc" }
 
-{-| Kadai -}
+
+{-| Kadai
+-}
 kzd : Language
 kzd =
     Language { code = "kzd" }
 
-{-| Kosena -}
+
+{-| Kosena
+-}
 kze : Language
 kze =
     Language { code = "kze" }
 
-{-| Da'a Kaili -}
+
+{-| Da'a Kaili
+-}
 kzf : Language
 kzf =
     Language { code = "kzf" }
 
-{-| Kikai -}
+
+{-| Kikai
+-}
 kzg : Language
 kzg =
     Language { code = "kzg" }
 
-{-| Kenuzi-Dongola -}
+
+{-| Kenuzi-Dongola
+-}
 kzh : Language
 kzh =
     Language { code = "kzh" }
 
-{-| Kelabit -}
+
+{-| Kelabit
+-}
 kzi : Language
 kzi =
     Language { code = "kzi" }
 
-{-| Coastal Kadazan -}
+
+{-| Coastal Kadazan
+-}
 kzj : Language
 kzj =
     Language { code = "kzj" }
 
-{-| Kazukuru -}
+
+{-| Kazukuru
+-}
 kzk : Language
 kzk =
     Language { code = "kzk" }
 
-{-| Kayeli -}
+
+{-| Kayeli
+-}
 kzl : Language
 kzl =
     Language { code = "kzl" }
 
-{-| Kais -}
+
+{-| Kais
+-}
 kzm : Language
 kzm =
     Language { code = "kzm" }
 
-{-| Kokola -}
+
+{-| Kokola
+-}
 kzn : Language
 kzn =
     Language { code = "kzn" }
 
-{-| Kaningi -}
+
+{-| Kaningi
+-}
 kzo : Language
 kzo =
     Language { code = "kzo" }
 
-{-| Kaidipang -}
+
+{-| Kaidipang
+-}
 kzp : Language
 kzp =
     Language { code = "kzp" }
 
-{-| Kaike -}
+
+{-| Kaike
+-}
 kzq : Language
 kzq =
     Language { code = "kzq" }
 
-{-| Karang -}
+
+{-| Karang
+-}
 kzr : Language
 kzr =
     Language { code = "kzr" }
 
-{-| Sugut Dusun -}
+
+{-| Sugut Dusun
+-}
 kzs : Language
 kzs =
     Language { code = "kzs" }
 
-{-| Tambunan Dusun -}
+
+{-| Tambunan Dusun
+-}
 kzt : Language
 kzt =
     Language { code = "kzt" }
 
-{-| Kayupulau -}
+
+{-| Kayupulau
+-}
 kzu : Language
 kzu =
     Language { code = "kzu" }
 
-{-| Komyandaret -}
+
+{-| Komyandaret
+-}
 kzv : Language
 kzv =
     Language { code = "kzv" }
 
-{-| Karirí-Xocó -}
+
+{-| Karirí-Xocó
+-}
 kzw : Language
 kzw =
     Language { code = "kzw" }
 
-{-| Kamarian -}
+
+{-| Kamarian
+-}
 kzx : Language
 kzx =
     Language { code = "kzx" }
 
-{-| Kango (Tshopo District) -}
+
+{-| Kango (Tshopo District)
+-}
 kzy : Language
 kzy =
     Language { code = "kzy" }
 
-{-| Kalabra -}
+
+{-| Kalabra
+-}
 kzz : Language
 kzz =
     Language { code = "kzz" }
 
-{-| Latin -}
+
+{-| Latin
+-}
 la : Language
 la =
     Language { code = "la" }
 
-{-| Southern Subanen -}
+
+{-| Southern Subanen
+-}
 laa : Language
 laa =
     Language { code = "laa" }
 
-{-| Linear A -}
+
+{-| Linear A
+-}
 lab : Language
 lab =
     Language { code = "lab" }
 
-{-| Lacandon -}
+
+{-| Lacandon
+-}
 lac : Language
 lac =
     Language { code = "lac" }
 
-{-| Ladino -}
+
+{-| Ladino
+-}
 lad : Language
 lad =
     Language { code = "lad" }
 
-{-| Pattani -}
+
+{-| Pattani
+-}
 lae : Language
 lae =
     Language { code = "lae" }
 
-{-| Lafofa -}
+
+{-| Lafofa
+-}
 laf : Language
 laf =
     Language { code = "laf" }
 
-{-| Langi -}
+
+{-| Langi
+-}
 lag : Language
 lag =
     Language { code = "lag" }
 
-{-| Lahnda -}
+
+{-| Lahnda
+-}
 lah : Language
 lah =
     Language { code = "lah" }
 
-{-| Lambya -}
+
+{-| Lambya
+-}
 lai : Language
 lai =
     Language { code = "lai" }
 
-{-| Lango (Uganda) -}
+
+{-| Lango (Uganda)
+-}
 laj : Language
 laj =
     Language { code = "laj" }
 
-{-| Laka (Nigeria) -}
+
+{-| Laka (Nigeria)
+-}
 lak : Language
 lak =
     Language { code = "lak" }
 
-{-| Lalia -}
+
+{-| Lalia
+-}
 lal : Language
 lal =
     Language { code = "lal" }
 
-{-| Lamba -}
+
+{-| Lamba
+-}
 lam : Language
 lam =
     Language { code = "lam" }
 
-{-| Laru -}
+
+{-| Laru
+-}
 lan : Language
 lan =
     Language { code = "lan" }
 
-{-| Laka (Chad) -}
+
+{-| Laka (Chad)
+-}
 lap : Language
 lap =
     Language { code = "lap" }
 
-{-| Qabiao -}
+
+{-| Qabiao
+-}
 laq : Language
 laq =
     Language { code = "laq" }
 
-{-| Larteh -}
+
+{-| Larteh
+-}
 lar : Language
 lar =
     Language { code = "lar" }
 
-{-| Lama (Togo) -}
+
+{-| Lama (Togo)
+-}
 las : Language
 las =
     Language { code = "las" }
 
-{-| Laba -}
+
+{-| Laba
+-}
 lau : Language
 lau =
     Language { code = "lau" }
 
-{-| Lauje -}
+
+{-| Lauje
+-}
 law : Language
 law =
     Language { code = "law" }
 
-{-| Tiwa -}
+
+{-| Tiwa
+-}
 lax : Language
 lax =
     Language { code = "lax" }
 
-{-| Lama Bai -}
+
+{-| Lama Bai
+-}
 lay : Language
 lay =
     Language { code = "lay" }
 
-{-| Aribwatsa -}
+
+{-| Aribwatsa
+-}
 laz : Language
 laz =
     Language { code = "laz" }
 
+
 {-| Luxembourgish
-Letzeburgesch -}
+Letzeburgesch
+-}
 lb : Language
 lb =
     Language { code = "lb" }
 
-{-| Lui -}
+
+{-| Lui
+-}
 lba : Language
 lba =
     Language { code = "lba" }
 
-{-| Label -}
+
+{-| Label
+-}
 lbb : Language
 lbb =
     Language { code = "lbb" }
 
-{-| Lakkia -}
+
+{-| Lakkia
+-}
 lbc : Language
 lbc =
     Language { code = "lbc" }
 
-{-| Lak -}
+
+{-| Lak
+-}
 lbe : Language
 lbe =
     Language { code = "lbe" }
 
-{-| Tinani -}
+
+{-| Tinani
+-}
 lbf : Language
 lbf =
     Language { code = "lbf" }
 
-{-| Laopang -}
+
+{-| Laopang
+-}
 lbg : Language
 lbg =
     Language { code = "lbg" }
 
-{-| La'bi -}
+
+{-| La'bi
+-}
 lbi : Language
 lbi =
     Language { code = "lbi" }
 
-{-| Ladakhi -}
+
+{-| Ladakhi
+-}
 lbj : Language
 lbj =
     Language { code = "lbj" }
 
-{-| Central Bontok -}
+
+{-| Central Bontok
+-}
 lbk : Language
 lbk =
     Language { code = "lbk" }
 
-{-| Libon Bikol -}
+
+{-| Libon Bikol
+-}
 lbl : Language
 lbl =
     Language { code = "lbl" }
 
-{-| Lodhi -}
+
+{-| Lodhi
+-}
 lbm : Language
 lbm =
     Language { code = "lbm" }
 
-{-| Rmeet -}
+
+{-| Rmeet
+-}
 lbn : Language
 lbn =
     Language { code = "lbn" }
 
-{-| Laven -}
+
+{-| Laven
+-}
 lbo : Language
 lbo =
     Language { code = "lbo" }
 
-{-| Wampar -}
+
+{-| Wampar
+-}
 lbq : Language
 lbq =
     Language { code = "lbq" }
 
-{-| Lohorung -}
+
+{-| Lohorung
+-}
 lbr : Language
 lbr =
     Language { code = "lbr" }
 
-{-| Libyan Sign Language -}
+
+{-| Libyan Sign Language
+-}
 lbs : Language
 lbs =
     Language { code = "lbs" }
 
-{-| Lachi -}
+
+{-| Lachi
+-}
 lbt : Language
 lbt =
     Language { code = "lbt" }
 
-{-| Labu -}
+
+{-| Labu
+-}
 lbu : Language
 lbu =
     Language { code = "lbu" }
 
-{-| Lavatbura-Lamusong -}
+
+{-| Lavatbura-Lamusong
+-}
 lbv : Language
 lbv =
     Language { code = "lbv" }
 
-{-| Tolaki -}
+
+{-| Tolaki
+-}
 lbw : Language
 lbw =
     Language { code = "lbw" }
 
-{-| Lawangan -}
+
+{-| Lawangan
+-}
 lbx : Language
 lbx =
     Language { code = "lbx" }
 
+
 {-| Lamalama
-Lamu-Lamu -}
+Lamu-Lamu
+-}
 lby : Language
 lby =
     Language { code = "lby" }
 
-{-| Lardil -}
+
+{-| Lardil
+-}
 lbz : Language
 lbz =
     Language { code = "lbz" }
 
-{-| Legenyem -}
+
+{-| Legenyem
+-}
 lcc : Language
 lcc =
     Language { code = "lcc" }
 
-{-| Lola -}
+
+{-| Lola
+-}
 lcd : Language
 lcd =
     Language { code = "lcd" }
 
+
 {-| Loncong
-Sekak -}
+Sekak
+-}
 lce : Language
 lce =
     Language { code = "lce" }
 
-{-| Lubu -}
+
+{-| Lubu
+-}
 lcf : Language
 lcf =
     Language { code = "lcf" }
 
-{-| Luchazi -}
+
+{-| Luchazi
+-}
 lch : Language
 lch =
     Language { code = "lch" }
 
-{-| Lisela -}
+
+{-| Lisela
+-}
 lcl : Language
 lcl =
     Language { code = "lcl" }
 
-{-| Tungag -}
+
+{-| Tungag
+-}
 lcm : Language
 lcm =
     Language { code = "lcm" }
 
-{-| Western Lawa -}
+
+{-| Western Lawa
+-}
 lcp : Language
 lcp =
     Language { code = "lcp" }
 
-{-| Luhu -}
+
+{-| Luhu
+-}
 lcq : Language
 lcq =
     Language { code = "lcq" }
 
-{-| Lisabata-Nuniali -}
+
+{-| Lisabata-Nuniali
+-}
 lcs : Language
 lcs =
     Language { code = "lcs" }
 
-{-| Kla-Dan -}
+
+{-| Kla-Dan
+-}
 lda : Language
 lda =
     Language { code = "lda" }
 
-{-| Dũya -}
+
+{-| Dũya
+-}
 ldb : Language
 ldb =
     Language { code = "ldb" }
 
-{-| Luri -}
+
+{-| Luri
+-}
 ldd : Language
 ldd =
     Language { code = "ldd" }
 
-{-| Lenyima -}
+
+{-| Lenyima
+-}
 ldg : Language
 ldg =
     Language { code = "ldg" }
 
-{-| Lamja-Dengsa-Tola -}
+
+{-| Lamja-Dengsa-Tola
+-}
 ldh : Language
 ldh =
     Language { code = "ldh" }
 
-{-| Laari -}
+
+{-| Laari
+-}
 ldi : Language
 ldi =
     Language { code = "ldi" }
 
-{-| Lemoro -}
+
+{-| Lemoro
+-}
 ldj : Language
 ldj =
     Language { code = "ldj" }
 
-{-| Leelau -}
+
+{-| Leelau
+-}
 ldk : Language
 ldk =
     Language { code = "ldk" }
 
-{-| Kaan -}
+
+{-| Kaan
+-}
 ldl : Language
 ldl =
     Language { code = "ldl" }
 
-{-| Landoma -}
+
+{-| Landoma
+-}
 ldm : Language
 ldm =
     Language { code = "ldm" }
 
-{-| Láadan -}
+
+{-| Láadan
+-}
 ldn : Language
 ldn =
     Language { code = "ldn" }
 
-{-| Loo -}
+
+{-| Loo
+-}
 ldo : Language
 ldo =
     Language { code = "ldo" }
 
-{-| Tso -}
+
+{-| Tso
+-}
 ldp : Language
 ldp =
     Language { code = "ldp" }
 
-{-| Lufu -}
+
+{-| Lufu
+-}
 ldq : Language
 ldq =
     Language { code = "ldq" }
 
-{-| Lega-Shabunda -}
+
+{-| Lega-Shabunda
+-}
 lea : Language
 lea =
     Language { code = "lea" }
 
-{-| Lala-Bisa -}
+
+{-| Lala-Bisa
+-}
 leb : Language
 leb =
     Language { code = "leb" }
 
-{-| Leco -}
+
+{-| Leco
+-}
 lec : Language
 lec =
     Language { code = "lec" }
 
-{-| Lendu -}
+
+{-| Lendu
+-}
 led : Language
 led =
     Language { code = "led" }
 
-{-| Lyélé -}
+
+{-| Lyélé
+-}
 lee : Language
 lee =
     Language { code = "lee" }
 
-{-| Lelemi -}
+
+{-| Lelemi
+-}
 lef : Language
 lef =
     Language { code = "lef" }
 
-{-| Lengua -}
+
+{-| Lengua
+-}
 leg : Language
 leg =
     Language { code = "leg" }
 
-{-| Lenje -}
+
+{-| Lenje
+-}
 leh : Language
 leh =
     Language { code = "leh" }
 
-{-| Lemio -}
+
+{-| Lemio
+-}
 lei : Language
 lei =
     Language { code = "lei" }
 
-{-| Lengola -}
+
+{-| Lengola
+-}
 lej : Language
 lej =
     Language { code = "lej" }
 
-{-| Leipon -}
+
+{-| Leipon
+-}
 lek : Language
 lek =
     Language { code = "lek" }
 
-{-| Lele (Democratic Republic of Congo) -}
+
+{-| Lele (Democratic Republic of Congo)
+-}
 lel : Language
 lel =
     Language { code = "lel" }
 
-{-| Nomaande -}
+
+{-| Nomaande
+-}
 lem : Language
 lem =
     Language { code = "lem" }
 
-{-| Lenca -}
+
+{-| Lenca
+-}
 len : Language
 len =
     Language { code = "len" }
 
-{-| Leti (Cameroon) -}
+
+{-| Leti (Cameroon)
+-}
 leo : Language
 leo =
     Language { code = "leo" }
 
-{-| Lepcha -}
+
+{-| Lepcha
+-}
 lep : Language
 lep =
     Language { code = "lep" }
 
-{-| Lembena -}
+
+{-| Lembena
+-}
 leq : Language
 leq =
     Language { code = "leq" }
 
-{-| Lenkau -}
+
+{-| Lenkau
+-}
 ler : Language
 ler =
     Language { code = "ler" }
 
-{-| Lese -}
+
+{-| Lese
+-}
 les : Language
 les =
     Language { code = "les" }
 
+
 {-| Lesing-Gelimi
-Amio-Gelimi -}
+Amio-Gelimi
+-}
 let_ : Language
 let_ =
     Language { code = "let" }
 
-{-| Kara (Papua New Guinea) -}
+
+{-| Kara (Papua New Guinea)
+-}
 leu : Language
 leu =
     Language { code = "leu" }
 
-{-| Lamma -}
+
+{-| Lamma
+-}
 lev : Language
 lev =
     Language { code = "lev" }
 
-{-| Ledo Kaili -}
+
+{-| Ledo Kaili
+-}
 lew : Language
 lew =
     Language { code = "lew" }
 
-{-| Luang -}
+
+{-| Luang
+-}
 lex : Language
 lex =
     Language { code = "lex" }
 
-{-| Lemolang -}
+
+{-| Lemolang
+-}
 ley : Language
 ley =
     Language { code = "ley" }
 
-{-| Lezghian -}
+
+{-| Lezghian
+-}
 lez : Language
 lez =
     Language { code = "lez" }
 
-{-| Lefa -}
+
+{-| Lefa
+-}
 lfa : Language
 lfa =
     Language { code = "lfa" }
 
-{-| Lingua Franca Nova -}
+
+{-| Lingua Franca Nova
+-}
 lfn : Language
 lfn =
     Language { code = "lfn" }
 
+
 {-| Ganda
-Luganda -}
+Luganda
+-}
 lg : Language
 lg =
     Language { code = "lg" }
 
-{-| Lungga -}
+
+{-| Lungga
+-}
 lga : Language
 lga =
     Language { code = "lga" }
 
-{-| Laghu -}
+
+{-| Laghu
+-}
 lgb : Language
 lgb =
     Language { code = "lgb" }
 
-{-| Lugbara -}
+
+{-| Lugbara
+-}
 lgg : Language
 lgg =
     Language { code = "lgg" }
 
-{-| Laghuu -}
+
+{-| Laghuu
+-}
 lgh : Language
 lgh =
     Language { code = "lgh" }
 
-{-| Lengilu -}
+
+{-| Lengilu
+-}
 lgi : Language
 lgi =
     Language { code = "lgi" }
 
+
 {-| Lingarak
-Neverver -}
+Neverver
+-}
 lgk : Language
 lgk =
     Language { code = "lgk" }
 
-{-| Wala -}
+
+{-| Wala
+-}
 lgl : Language
 lgl =
     Language { code = "lgl" }
 
-{-| Lega-Mwenga -}
+
+{-| Lega-Mwenga
+-}
 lgm : Language
 lgm =
     Language { code = "lgm" }
 
+
 {-| T'apo
-Opuuo -}
+Opuuo
+-}
 lgn : Language
 lgn =
     Language { code = "lgn" }
 
-{-| Logba -}
+
+{-| Logba
+-}
 lgq : Language
 lgq =
     Language { code = "lgq" }
 
-{-| Lengo -}
+
+{-| Lengo
+-}
 lgr : Language
 lgr =
     Language { code = "lgr" }
 
-{-| Pahi -}
+
+{-| Pahi
+-}
 lgt : Language
 lgt =
     Language { code = "lgt" }
 
-{-| Longgu -}
+
+{-| Longgu
+-}
 lgu : Language
 lgu =
     Language { code = "lgu" }
 
-{-| Ligenza -}
+
+{-| Ligenza
+-}
 lgz : Language
 lgz =
     Language { code = "lgz" }
 
-{-| Laha (Viet Nam) -}
+
+{-| Laha (Viet Nam)
+-}
 lha : Language
 lha =
     Language { code = "lha" }
 
-{-| Laha (Indonesia) -}
+
+{-| Laha (Indonesia)
+-}
 lhh : Language
 lhh =
     Language { code = "lhh" }
 
-{-| Lahu Shi -}
+
+{-| Lahu Shi
+-}
 lhi : Language
 lhi =
     Language { code = "lhi" }
 
-{-| Lahul Lohar -}
+
+{-| Lahul Lohar
+-}
 lhl : Language
 lhl =
     Language { code = "lhl" }
 
-{-| Lhomi -}
+
+{-| Lhomi
+-}
 lhm : Language
 lhm =
     Language { code = "lhm" }
 
-{-| Lahanan -}
+
+{-| Lahanan
+-}
 lhn : Language
 lhn =
     Language { code = "lhn" }
 
-{-| Lhokpu -}
+
+{-| Lhokpu
+-}
 lhp : Language
 lhp =
     Language { code = "lhp" }
 
-{-| Mlahsö -}
+
+{-| Mlahsö
+-}
 lhs : Language
 lhs =
     Language { code = "lhs" }
 
-{-| Lo-Toga -}
+
+{-| Lo-Toga
+-}
 lht : Language
 lht =
     Language { code = "lht" }
 
-{-| Lahu -}
+
+{-| Lahu
+-}
 lhu : Language
 lhu =
     Language { code = "lhu" }
 
+
 {-| Limburgan
 Limburger
-Limburgish -}
+Limburgish
+-}
 li : Language
 li =
     Language { code = "li" }
 
-{-| West-Central Limba -}
+
+{-| West-Central Limba
+-}
 lia : Language
 lia =
     Language { code = "lia" }
 
-{-| Likum -}
+
+{-| Likum
+-}
 lib : Language
 lib =
     Language { code = "lib" }
 
-{-| Hlai -}
+
+{-| Hlai
+-}
 lic : Language
 lic =
     Language { code = "lic" }
 
-{-| Nyindrou -}
+
+{-| Nyindrou
+-}
 lid : Language
 lid =
     Language { code = "lid" }
 
-{-| Likila -}
+
+{-| Likila
+-}
 lie : Language
 lie =
     Language { code = "lie" }
 
-{-| Limbu -}
+
+{-| Limbu
+-}
 lif : Language
 lif =
     Language { code = "lif" }
 
-{-| Ligbi -}
+
+{-| Ligbi
+-}
 lig : Language
 lig =
     Language { code = "lig" }
 
-{-| Lihir -}
+
+{-| Lihir
+-}
 lih : Language
 lih =
     Language { code = "lih" }
 
-{-| Lingkhim -}
+
+{-| Lingkhim
+-}
 lii : Language
 lii =
     Language { code = "lii" }
 
-{-| Ligurian -}
+
+{-| Ligurian
+-}
 lij : Language
 lij =
     Language { code = "lij" }
 
-{-| Lika -}
+
+{-| Lika
+-}
 lik : Language
 lik =
     Language { code = "lik" }
 
-{-| Lillooet -}
+
+{-| Lillooet
+-}
 lil : Language
 lil =
     Language { code = "lil" }
 
-{-| Liki -}
+
+{-| Liki
+-}
 lio : Language
 lio =
     Language { code = "lio" }
 
-{-| Sekpele -}
+
+{-| Sekpele
+-}
 lip : Language
 lip =
     Language { code = "lip" }
 
-{-| Libido -}
+
+{-| Libido
+-}
 liq : Language
 liq =
     Language { code = "liq" }
 
-{-| Liberian English -}
+
+{-| Liberian English
+-}
 lir : Language
 lir =
     Language { code = "lir" }
 
-{-| Lisu -}
+
+{-| Lisu
+-}
 lis : Language
 lis =
     Language { code = "lis" }
 
-{-| Logorik -}
+
+{-| Logorik
+-}
 liu : Language
 liu =
     Language { code = "liu" }
 
-{-| Liv -}
+
+{-| Liv
+-}
 liv : Language
 liv =
     Language { code = "liv" }
 
-{-| Col -}
+
+{-| Col
+-}
 liw : Language
 liw =
     Language { code = "liw" }
 
-{-| Liabuku -}
+
+{-| Liabuku
+-}
 lix : Language
 lix =
     Language { code = "lix" }
 
-{-| Banda-Bambari -}
+
+{-| Banda-Bambari
+-}
 liy : Language
 liy =
     Language { code = "liy" }
 
-{-| Libinza -}
+
+{-| Libinza
+-}
 liz : Language
 liz =
     Language { code = "liz" }
 
-{-| Golpa -}
+
+{-| Golpa
+-}
 lja : Language
 lja =
     Language { code = "lja" }
 
-{-| Rampi -}
+
+{-| Rampi
+-}
 lje : Language
 lje =
     Language { code = "lje" }
 
-{-| Laiyolo -}
+
+{-| Laiyolo
+-}
 lji : Language
 lji =
     Language { code = "lji" }
 
-{-| Li'o -}
+
+{-| Li'o
+-}
 ljl : Language
 ljl =
     Language { code = "ljl" }
 
-{-| Lampung Api -}
+
+{-| Lampung Api
+-}
 ljp : Language
 ljp =
     Language { code = "ljp" }
 
-{-| Yirandali -}
+
+{-| Yirandali
+-}
 ljw : Language
 ljw =
     Language { code = "ljw" }
 
-{-| Yuru -}
+
+{-| Yuru
+-}
 ljx : Language
 ljx =
     Language { code = "ljx" }
 
-{-| Lakalei -}
+
+{-| Lakalei
+-}
 lka : Language
 lka =
     Language { code = "lka" }
 
+
 {-| Kabras
-Lukabaras -}
+Lukabaras
+-}
 lkb : Language
 lkb =
     Language { code = "lkb" }
 
-{-| Kucong -}
+
+{-| Kucong
+-}
 lkc : Language
 lkc =
     Language { code = "lkc" }
 
-{-| Lakondê -}
+
+{-| Lakondê
+-}
 lkd : Language
 lkd =
     Language { code = "lkd" }
 
-{-| Kenyi -}
+
+{-| Kenyi
+-}
 lke : Language
 lke =
     Language { code = "lke" }
 
-{-| Lakha -}
+
+{-| Lakha
+-}
 lkh : Language
 lkh =
     Language { code = "lkh" }
 
-{-| Laki -}
+
+{-| Laki
+-}
 lki : Language
 lki =
     Language { code = "lki" }
 
-{-| Remun -}
+
+{-| Remun
+-}
 lkj : Language
 lkj =
     Language { code = "lkj" }
 
-{-| Laeko-Libuat -}
+
+{-| Laeko-Libuat
+-}
 lkl : Language
 lkl =
     Language { code = "lkl" }
 
-{-| Kalaamaya -}
+
+{-| Kalaamaya
+-}
 lkm : Language
 lkm =
     Language { code = "lkm" }
 
+
 {-| Lakon
-Vure -}
+Vure
+-}
 lkn : Language
 lkn =
     Language { code = "lkn" }
 
+
 {-| Khayo
-Olukhayo -}
+Olukhayo
+-}
 lko : Language
 lko =
     Language { code = "lko" }
 
-{-| Päri -}
+
+{-| Päri
+-}
 lkr : Language
 lkr =
     Language { code = "lkr" }
 
+
 {-| Kisa
-Olushisa -}
+Olushisa
+-}
 lks : Language
 lks =
     Language { code = "lks" }
 
-{-| Lakota -}
+
+{-| Lakota
+-}
 lkt : Language
 lkt =
     Language { code = "lkt" }
 
-{-| Kungkari -}
+
+{-| Kungkari
+-}
 lku : Language
 lku =
     Language { code = "lku" }
 
-{-| Lokoya -}
+
+{-| Lokoya
+-}
 lky : Language
 lky =
     Language { code = "lky" }
 
-{-| Lala-Roba -}
+
+{-| Lala-Roba
+-}
 lla : Language
 lla =
     Language { code = "lla" }
 
-{-| Lolo -}
+
+{-| Lolo
+-}
 llb : Language
 llb =
     Language { code = "llb" }
 
-{-| Lele (Guinea) -}
+
+{-| Lele (Guinea)
+-}
 llc : Language
 llc =
     Language { code = "llc" }
 
-{-| Ladin -}
+
+{-| Ladin
+-}
 lld : Language
 lld =
     Language { code = "lld" }
 
-{-| Lele (Papua New Guinea) -}
+
+{-| Lele (Papua New Guinea)
+-}
 lle : Language
 lle =
     Language { code = "lle" }
 
-{-| Hermit -}
+
+{-| Hermit
+-}
 llf : Language
 llf =
     Language { code = "llf" }
 
-{-| Lole -}
+
+{-| Lole
+-}
 llg : Language
 llg =
     Language { code = "llg" }
 
-{-| Lamu -}
+
+{-| Lamu
+-}
 llh : Language
 llh =
     Language { code = "llh" }
 
-{-| Teke-Laali -}
+
+{-| Teke-Laali
+-}
 lli : Language
 lli =
     Language { code = "lli" }
 
-{-| Ladji Ladji -}
+
+{-| Ladji Ladji
+-}
 llj : Language
 llj =
     Language { code = "llj" }
 
-{-| Lelak -}
+
+{-| Lelak
+-}
 llk : Language
 llk =
     Language { code = "llk" }
 
-{-| Lilau -}
+
+{-| Lilau
+-}
 lll : Language
 lll =
     Language { code = "lll" }
 
-{-| Lasalimu -}
+
+{-| Lasalimu
+-}
 llm : Language
 llm =
     Language { code = "llm" }
 
-{-| Lele (Chad) -}
+
+{-| Lele (Chad)
+-}
 lln : Language
 lln =
     Language { code = "lln" }
 
-{-| Khlor -}
+
+{-| Khlor
+-}
 llo : Language
 llo =
     Language { code = "llo" }
 
-{-| North Efate -}
+
+{-| North Efate
+-}
 llp : Language
 llp =
     Language { code = "llp" }
 
-{-| Lolak -}
+
+{-| Lolak
+-}
 llq : Language
 llq =
     Language { code = "llq" }
 
-{-| Lithuanian Sign Language -}
+
+{-| Lithuanian Sign Language
+-}
 lls : Language
 lls =
     Language { code = "lls" }
 
-{-| Lau -}
+
+{-| Lau
+-}
 llu : Language
 llu =
     Language { code = "llu" }
 
-{-| Lauan -}
+
+{-| Lauan
+-}
 llx : Language
 llx =
     Language { code = "llx" }
 
-{-| East Limba -}
+
+{-| East Limba
+-}
 lma : Language
 lma =
     Language { code = "lma" }
 
-{-| Merei -}
+
+{-| Merei
+-}
 lmb : Language
 lmb =
     Language { code = "lmb" }
 
-{-| Limilngan -}
+
+{-| Limilngan
+-}
 lmc : Language
 lmc =
     Language { code = "lmc" }
 
-{-| Lumun -}
+
+{-| Lumun
+-}
 lmd : Language
 lmd =
     Language { code = "lmd" }
 
-{-| Pévé -}
+
+{-| Pévé
+-}
 lme : Language
 lme =
     Language { code = "lme" }
 
-{-| South Lembata -}
+
+{-| South Lembata
+-}
 lmf : Language
 lmf =
     Language { code = "lmf" }
 
-{-| Lamogai -}
+
+{-| Lamogai
+-}
 lmg : Language
 lmg =
     Language { code = "lmg" }
 
-{-| Lambichhong -}
+
+{-| Lambichhong
+-}
 lmh : Language
 lmh =
     Language { code = "lmh" }
 
-{-| Lombi -}
+
+{-| Lombi
+-}
 lmi : Language
 lmi =
     Language { code = "lmi" }
 
-{-| West Lembata -}
+
+{-| West Lembata
+-}
 lmj : Language
 lmj =
     Language { code = "lmj" }
 
-{-| Lamkang -}
+
+{-| Lamkang
+-}
 lmk : Language
 lmk =
     Language { code = "lmk" }
 
-{-| Hano -}
+
+{-| Hano
+-}
 lml : Language
 lml =
     Language { code = "lml" }
 
-{-| Lamam -}
+
+{-| Lamam
+-}
 lmm : Language
 lmm =
     Language { code = "lmm" }
 
-{-| Lambadi -}
+
+{-| Lambadi
+-}
 lmn : Language
 lmn =
     Language { code = "lmn" }
 
-{-| Lombard -}
+
+{-| Lombard
+-}
 lmo : Language
 lmo =
     Language { code = "lmo" }
 
-{-| Limbum -}
+
+{-| Limbum
+-}
 lmp : Language
 lmp =
     Language { code = "lmp" }
 
-{-| Lamatuka -}
+
+{-| Lamatuka
+-}
 lmq : Language
 lmq =
     Language { code = "lmq" }
 
-{-| Lamalera -}
+
+{-| Lamalera
+-}
 lmr : Language
 lmr =
     Language { code = "lmr" }
 
-{-| Lamenu -}
+
+{-| Lamenu
+-}
 lmu : Language
 lmu =
     Language { code = "lmu" }
 
-{-| Lomaiviti -}
+
+{-| Lomaiviti
+-}
 lmv : Language
 lmv =
     Language { code = "lmv" }
 
-{-| Lake Miwok -}
+
+{-| Lake Miwok
+-}
 lmw : Language
 lmw =
     Language { code = "lmw" }
 
-{-| Laimbue -}
+
+{-| Laimbue
+-}
 lmx : Language
 lmx =
     Language { code = "lmx" }
 
-{-| Lamboya -}
+
+{-| Lamboya
+-}
 lmy : Language
 lmy =
     Language { code = "lmy" }
 
-{-| Lumbee -}
+
+{-| Lumbee
+-}
 lmz : Language
 lmz =
     Language { code = "lmz" }
 
-{-| Lingala -}
+
+{-| Lingala
+-}
 ln : Language
 ln =
     Language { code = "ln" }
 
-{-| Langbashe -}
+
+{-| Langbashe
+-}
 lna : Language
 lna =
     Language { code = "lna" }
 
-{-| Mbalanhu -}
+
+{-| Mbalanhu
+-}
 lnb : Language
 lnb =
     Language { code = "lnb" }
 
+
 {-| Lundayeh
-Lun Bawang -}
+Lun Bawang
+-}
 lnd : Language
 lnd =
     Language { code = "lnd" }
 
-{-| Langobardic -}
+
+{-| Langobardic
+-}
 lng : Language
 lng =
     Language { code = "lng" }
 
-{-| Lanoh -}
+
+{-| Lanoh
+-}
 lnh : Language
 lnh =
     Language { code = "lnh" }
 
-{-| Daantanai' -}
+
+{-| Daantanai'
+-}
 lni : Language
 lni =
     Language { code = "lni" }
 
-{-| Leningitij -}
+
+{-| Leningitij
+-}
 lnj : Language
 lnj =
     Language { code = "lnj" }
 
-{-| South Central Banda -}
+
+{-| South Central Banda
+-}
 lnl : Language
 lnl =
     Language { code = "lnl" }
 
-{-| Langam -}
+
+{-| Langam
+-}
 lnm : Language
 lnm =
     Language { code = "lnm" }
 
-{-| Lorediakarkar -}
+
+{-| Lorediakarkar
+-}
 lnn : Language
 lnn =
     Language { code = "lnn" }
 
-{-| Lango (South Sudan) -}
+
+{-| Lango (South Sudan)
+-}
 lno : Language
 lno =
     Language { code = "lno" }
 
-{-| Lamnso' -}
+
+{-| Lamnso'
+-}
 lns : Language
 lns =
     Language { code = "lns" }
 
-{-| Longuda -}
+
+{-| Longuda
+-}
 lnu : Language
 lnu =
     Language { code = "lnu" }
 
-{-| Lanima -}
+
+{-| Lanima
+-}
 lnw : Language
 lnw =
     Language { code = "lnw" }
 
-{-| Lonzo -}
+
+{-| Lonzo
+-}
 lnz : Language
 lnz =
     Language { code = "lnz" }
 
-{-| Lao -}
+
+{-| Lao
+-}
 lo : Language
 lo =
     Language { code = "lo" }
 
-{-| Loloda -}
+
+{-| Loloda
+-}
 loa : Language
 loa =
     Language { code = "loa" }
 
-{-| Lobi -}
+
+{-| Lobi
+-}
 lob : Language
 lob =
     Language { code = "lob" }
 
-{-| Inonhan -}
+
+{-| Inonhan
+-}
 loc : Language
 loc =
     Language { code = "loc" }
 
-{-| Saluan -}
+
+{-| Saluan
+-}
 loe : Language
 loe =
     Language { code = "loe" }
 
-{-| Logol -}
+
+{-| Logol
+-}
 lof : Language
 lof =
     Language { code = "lof" }
 
-{-| Logo -}
+
+{-| Logo
+-}
 log : Language
 log =
     Language { code = "log" }
 
-{-| Narim -}
+
+{-| Narim
+-}
 loh : Language
 loh =
     Language { code = "loh" }
 
-{-| Loma (Côte d'Ivoire) -}
+
+{-| Loma (Côte d'Ivoire)
+-}
 loi : Language
 loi =
     Language { code = "loi" }
 
-{-| Lou -}
+
+{-| Lou
+-}
 loj : Language
 loj =
     Language { code = "loj" }
 
-{-| Loko -}
+
+{-| Loko
+-}
 lok : Language
 lok =
     Language { code = "lok" }
 
-{-| Mongo -}
+
+{-| Mongo
+-}
 lol : Language
 lol =
     Language { code = "lol" }
 
-{-| Loma (Liberia) -}
+
+{-| Loma (Liberia)
+-}
 lom : Language
 lom =
     Language { code = "lom" }
 
-{-| Malawi Lomwe -}
+
+{-| Malawi Lomwe
+-}
 lon : Language
 lon =
     Language { code = "lon" }
 
-{-| Lombo -}
+
+{-| Lombo
+-}
 loo : Language
 loo =
     Language { code = "loo" }
 
-{-| Lopa -}
+
+{-| Lopa
+-}
 lop : Language
 lop =
     Language { code = "lop" }
 
-{-| Lobala -}
+
+{-| Lobala
+-}
 loq : Language
 loq =
     Language { code = "loq" }
 
-{-| Téén -}
+
+{-| Téén
+-}
 lor : Language
 lor =
     Language { code = "lor" }
 
-{-| Loniu -}
+
+{-| Loniu
+-}
 los : Language
 los =
     Language { code = "los" }
 
-{-| Otuho -}
+
+{-| Otuho
+-}
 lot : Language
 lot =
     Language { code = "lot" }
 
-{-| Louisiana Creole -}
+
+{-| Louisiana Creole
+-}
 lou : Language
 lou =
     Language { code = "lou" }
 
-{-| Lopi -}
+
+{-| Lopi
+-}
 lov : Language
 lov =
     Language { code = "lov" }
 
-{-| Tampias Lobu -}
+
+{-| Tampias Lobu
+-}
 low : Language
 low =
     Language { code = "low" }
 
-{-| Loun -}
+
+{-| Loun
+-}
 lox : Language
 lox =
     Language { code = "lox" }
 
-{-| Loke -}
+
+{-| Loke
+-}
 loy : Language
 loy =
     Language { code = "loy" }
 
-{-| Lozi -}
+
+{-| Lozi
+-}
 loz : Language
 loz =
     Language { code = "loz" }
 
-{-| Lelepa -}
+
+{-| Lelepa
+-}
 lpa : Language
 lpa =
     Language { code = "lpa" }
 
-{-| Lepki -}
+
+{-| Lepki
+-}
 lpe : Language
 lpe =
     Language { code = "lpe" }
 
-{-| Long Phuri Naga -}
+
+{-| Long Phuri Naga
+-}
 lpn : Language
 lpn =
     Language { code = "lpn" }
 
-{-| Lipo -}
+
+{-| Lipo
+-}
 lpo : Language
 lpo =
     Language { code = "lpo" }
 
-{-| Lopit -}
+
+{-| Lopit
+-}
 lpx : Language
 lpx =
     Language { code = "lpx" }
 
-{-| Rara Bakati' -}
+
+{-| Rara Bakati'
+-}
 lra : Language
 lra =
     Language { code = "lra" }
 
-{-| Northern Luri -}
+
+{-| Northern Luri
+-}
 lrc : Language
 lrc =
     Language { code = "lrc" }
 
-{-| Laurentian -}
+
+{-| Laurentian
+-}
 lre : Language
 lre =
     Language { code = "lre" }
 
-{-| Laragia -}
+
+{-| Laragia
+-}
 lrg : Language
 lrg =
     Language { code = "lrg" }
 
+
 {-| Marachi
-Olumarachi -}
+Olumarachi
+-}
 lri : Language
 lri =
     Language { code = "lri" }
 
-{-| Loarki -}
+
+{-| Loarki
+-}
 lrk : Language
 lrk =
     Language { code = "lrk" }
 
-{-| Lari -}
+
+{-| Lari
+-}
 lrl : Language
 lrl =
     Language { code = "lrl" }
 
+
 {-| Marama
-Olumarama -}
+Olumarama
+-}
 lrm : Language
 lrm =
     Language { code = "lrm" }
 
-{-| Lorang -}
+
+{-| Lorang
+-}
 lrn : Language
 lrn =
     Language { code = "lrn" }
 
-{-| Laro -}
+
+{-| Laro
+-}
 lro : Language
 lro =
     Language { code = "lro" }
 
-{-| Southern Yamphu -}
+
+{-| Southern Yamphu
+-}
 lrr : Language
 lrr =
     Language { code = "lrr" }
 
-{-| Larantuka Malay -}
+
+{-| Larantuka Malay
+-}
 lrt : Language
 lrt =
     Language { code = "lrt" }
 
-{-| Larevat -}
+
+{-| Larevat
+-}
 lrv : Language
 lrv =
     Language { code = "lrv" }
 
-{-| Lemerig -}
+
+{-| Lemerig
+-}
 lrz : Language
 lrz =
     Language { code = "lrz" }
 
-{-| Lasgerdi -}
+
+{-| Lasgerdi
+-}
 lsa : Language
 lsa =
     Language { code = "lsa" }
 
-{-| Lishana Deni -}
+
+{-| Lishana Deni
+-}
 lsd : Language
 lsd =
     Language { code = "lsd" }
 
-{-| Lusengo -}
+
+{-| Lusengo
+-}
 lse : Language
 lse =
     Language { code = "lse" }
 
-{-| Lyons Sign Language -}
+
+{-| Lyons Sign Language
+-}
 lsg : Language
 lsg =
     Language { code = "lsg" }
 
-{-| Lish -}
+
+{-| Lish
+-}
 lsh : Language
 lsh =
     Language { code = "lsh" }
 
-{-| Lashi -}
+
+{-| Lashi
+-}
 lsi : Language
 lsi =
     Language { code = "lsi" }
 
-{-| Latvian Sign Language -}
+
+{-| Latvian Sign Language
+-}
 lsl : Language
 lsl =
     Language { code = "lsl" }
 
+
 {-| Saamia
-Olusamia -}
+Olusamia
+-}
 lsm : Language
 lsm =
     Language { code = "lsm" }
 
-{-| Tibetan Sign Language -}
+
+{-| Tibetan Sign Language
+-}
 lsn : Language
 lsn =
     Language { code = "lsn" }
 
-{-| Laos Sign Language -}
+
+{-| Laos Sign Language
+-}
 lso : Language
 lso =
     Language { code = "lso" }
 
+
 {-| Panamanian Sign Language
-Lengua de Señas Panameñas -}
+Lengua de Señas Panameñas
+-}
 lsp : Language
 lsp =
     Language { code = "lsp" }
 
-{-| Aruop -}
+
+{-| Aruop
+-}
 lsr : Language
 lsr =
     Language { code = "lsr" }
 
-{-| Lasi -}
+
+{-| Lasi
+-}
 lss : Language
 lss =
     Language { code = "lss" }
 
-{-| Trinidad and Tobago Sign Language -}
+
+{-| Trinidad and Tobago Sign Language
+-}
 lst : Language
 lst =
     Language { code = "lst" }
 
-{-| Sivia Sign Language -}
+
+{-| Sivia Sign Language
+-}
 lsv : Language
 lsv =
     Language { code = "lsv" }
 
-{-| Mauritian Sign Language -}
+
+{-| Mauritian Sign Language
+-}
 lsy : Language
 lsy =
     Language { code = "lsy" }
 
-{-| Lithuanian -}
+
+{-| Lithuanian
+-}
 lt : Language
 lt =
     Language { code = "lt" }
 
-{-| Late Middle Chinese -}
+
+{-| Late Middle Chinese
+-}
 ltc : Language
 ltc =
     Language { code = "ltc" }
 
-{-| Latgalian -}
+
+{-| Latgalian
+-}
 ltg : Language
 ltg =
     Language { code = "ltg" }
 
-{-| Thur -}
+
+{-| Thur
+-}
 lth : Language
 lth =
     Language { code = "lth" }
 
-{-| Leti (Indonesia) -}
+
+{-| Leti (Indonesia)
+-}
 lti : Language
 lti =
     Language { code = "lti" }
 
-{-| Latundê -}
+
+{-| Latundê
+-}
 ltn : Language
 ltn =
     Language { code = "ltn" }
 
+
 {-| Tsotso
-Olutsotso -}
+Olutsotso
+-}
 lto : Language
 lto =
     Language { code = "lto" }
 
+
 {-| Tachoni
-Lutachoni -}
+Lutachoni
+-}
 lts : Language
 lts =
     Language { code = "lts" }
 
-{-| Latu -}
+
+{-| Latu
+-}
 ltu : Language
 ltu =
     Language { code = "ltu" }
 
-{-| Luba-Katanga -}
+
+{-| Luba-Katanga
+-}
 lu : Language
 lu =
     Language { code = "lu" }
 
-{-| Luba-Lulua -}
+
+{-| Luba-Lulua
+-}
 lua : Language
 lua =
     Language { code = "lua" }
 
-{-| Aringa -}
+
+{-| Aringa
+-}
 luc : Language
 luc =
     Language { code = "luc" }
 
-{-| Ludian -}
+
+{-| Ludian
+-}
 lud : Language
 lud =
     Language { code = "lud" }
 
-{-| Luvale -}
+
+{-| Luvale
+-}
 lue : Language
 lue =
     Language { code = "lue" }
 
-{-| Laua -}
+
+{-| Laua
+-}
 luf : Language
 luf =
     Language { code = "luf" }
 
-{-| Luiseno -}
+
+{-| Luiseno
+-}
 lui : Language
 lui =
     Language { code = "lui" }
 
-{-| Luna -}
+
+{-| Luna
+-}
 luj : Language
 luj =
     Language { code = "luj" }
 
-{-| Lunanakha -}
+
+{-| Lunanakha
+-}
 luk : Language
 luk =
     Language { code = "luk" }
 
-{-| Olu'bo -}
+
+{-| Olu'bo
+-}
 lul : Language
 lul =
     Language { code = "lul" }
 
-{-| Luimbi -}
+
+{-| Luimbi
+-}
 lum : Language
 lum =
     Language { code = "lum" }
 
-{-| Lunda -}
+
+{-| Lunda
+-}
 lun : Language
 lun =
     Language { code = "lun" }
 
+
 {-| Luo (Kenya and Tanzania)
-Dholuo -}
+Dholuo
+-}
 luo : Language
 luo =
     Language { code = "luo" }
 
-{-| Lumbu -}
+
+{-| Lumbu
+-}
 lup : Language
 lup =
     Language { code = "lup" }
 
-{-| Lucumi -}
+
+{-| Lucumi
+-}
 luq : Language
 luq =
     Language { code = "luq" }
 
-{-| Laura -}
+
+{-| Laura
+-}
 lur : Language
 lur =
     Language { code = "lur" }
 
-{-| Lushai -}
+
+{-| Lushai
+-}
 lus : Language
 lus =
     Language { code = "lus" }
 
-{-| Lushootseed -}
+
+{-| Lushootseed
+-}
 lut : Language
 lut =
     Language { code = "lut" }
 
-{-| Lumba-Yakkha -}
+
+{-| Lumba-Yakkha
+-}
 luu : Language
 luu =
     Language { code = "luu" }
 
-{-| Luwati -}
+
+{-| Luwati
+-}
 luv : Language
 luv =
     Language { code = "luv" }
 
-{-| Luo (Cameroon) -}
+
+{-| Luo (Cameroon)
+-}
 luw : Language
 luw =
     Language { code = "luw" }
 
+
 {-| Luyia
-Oluluyia -}
+Oluluyia
+-}
 luy : Language
 luy =
     Language { code = "luy" }
 
-{-| Southern Luri -}
+
+{-| Southern Luri
+-}
 luz : Language
 luz =
     Language { code = "luz" }
 
-{-| Latvian -}
+
+{-| Latvian
+-}
 lv : Language
 lv =
     Language { code = "lv" }
 
-{-| Maku'a -}
+
+{-| Maku'a
+-}
 lva : Language
 lva =
     Language { code = "lva" }
 
-{-| Lavi -}
+
+{-| Lavi
+-}
 lvi : Language
 lvi =
     Language { code = "lvi" }
 
-{-| Lavukaleve -}
+
+{-| Lavukaleve
+-}
 lvk : Language
 lvk =
     Language { code = "lvk" }
 
-{-| Standard Latvian -}
+
+{-| Standard Latvian
+-}
 lvs : Language
 lvs =
     Language { code = "lvs" }
 
-{-| Levuka -}
+
+{-| Levuka
+-}
 lvu : Language
 lvu =
     Language { code = "lvu" }
 
-{-| Lwalu -}
+
+{-| Lwalu
+-}
 lwa : Language
 lwa =
     Language { code = "lwa" }
 
-{-| Lewo Eleng -}
+
+{-| Lewo Eleng
+-}
 lwe : Language
 lwe =
     Language { code = "lwe" }
 
+
 {-| Wanga
-Oluwanga -}
+Oluwanga
+-}
 lwg : Language
 lwg =
     Language { code = "lwg" }
 
-{-| White Lachi -}
+
+{-| White Lachi
+-}
 lwh : Language
 lwh =
     Language { code = "lwh" }
 
-{-| Eastern Lawa -}
+
+{-| Eastern Lawa
+-}
 lwl : Language
 lwl =
     Language { code = "lwl" }
 
-{-| Laomian -}
+
+{-| Laomian
+-}
 lwm : Language
 lwm =
     Language { code = "lwm" }
 
-{-| Luwo -}
+
+{-| Luwo
+-}
 lwo : Language
 lwo =
     Language { code = "lwo" }
 
-{-| Malawian Sign Language -}
+
+{-| Malawian Sign Language
+-}
 lws : Language
 lws =
     Language { code = "lws" }
 
-{-| Lewotobi -}
+
+{-| Lewotobi
+-}
 lwt : Language
 lwt =
     Language { code = "lwt" }
 
-{-| Lawu -}
+
+{-| Lawu
+-}
 lwu : Language
 lwu =
     Language { code = "lwu" }
 
-{-| Lewo -}
+
+{-| Lewo
+-}
 lww : Language
 lww =
     Language { code = "lww" }
 
-{-| Layakha -}
+
+{-| Layakha
+-}
 lya : Language
 lya =
     Language { code = "lya" }
 
-{-| Lyngngam -}
+
+{-| Lyngngam
+-}
 lyg : Language
 lyg =
     Language { code = "lyg" }
 
-{-| Luyana -}
+
+{-| Luyana
+-}
 lyn : Language
 lyn =
     Language { code = "lyn" }
 
-{-| Literary Chinese -}
+
+{-| Literary Chinese
+-}
 lzh : Language
 lzh =
     Language { code = "lzh" }
 
-{-| Litzlitz -}
+
+{-| Litzlitz
+-}
 lzl : Language
 lzl =
     Language { code = "lzl" }
 
-{-| Leinong Naga -}
+
+{-| Leinong Naga
+-}
 lzn : Language
 lzn =
     Language { code = "lzn" }
 
-{-| Laz -}
+
+{-| Laz
+-}
 lzz : Language
 lzz =
     Language { code = "lzz" }
 
-{-| San Jerónimo Tecóatl Mazatec -}
+
+{-| San Jerónimo Tecóatl Mazatec
+-}
 maa : Language
 maa =
     Language { code = "maa" }
 
-{-| Yutanduchi Mixtec -}
+
+{-| Yutanduchi Mixtec
+-}
 mab : Language
 mab =
     Language { code = "mab" }
 
-{-| Madurese -}
+
+{-| Madurese
+-}
 mad : Language
 mad =
     Language { code = "mad" }
 
-{-| Bo-Rukul -}
+
+{-| Bo-Rukul
+-}
 mae : Language
 mae =
     Language { code = "mae" }
 
-{-| Mafa -}
+
+{-| Mafa
+-}
 maf : Language
 maf =
     Language { code = "maf" }
 
-{-| Magahi -}
+
+{-| Magahi
+-}
 mag : Language
 mag =
     Language { code = "mag" }
 
-{-| Maithili -}
+
+{-| Maithili
+-}
 mai : Language
 mai =
     Language { code = "mai" }
 
-{-| Jalapa De Díaz Mazatec -}
+
+{-| Jalapa De Díaz Mazatec
+-}
 maj : Language
 maj =
     Language { code = "maj" }
 
-{-| Makasar -}
+
+{-| Makasar
+-}
 mak : Language
 mak =
     Language { code = "mak" }
 
-{-| Mam -}
+
+{-| Mam
+-}
 mam : Language
 mam =
     Language { code = "mam" }
 
+
 {-| Mandingo
-Manding -}
+Manding
+-}
 man : Language
 man =
     Language { code = "man" }
 
-{-| Austronesian languages -}
+
+{-| Austronesian languages
+-}
 map : Language
 map =
     Language { code = "map" }
 
-{-| Chiquihuitlán Mazatec -}
+
+{-| Chiquihuitlán Mazatec
+-}
 maq : Language
 maq =
     Language { code = "maq" }
 
-{-| Masai -}
+
+{-| Masai
+-}
 mas : Language
 mas =
     Language { code = "mas" }
 
-{-| San Francisco Matlatzinca -}
+
+{-| San Francisco Matlatzinca
+-}
 mat : Language
 mat =
     Language { code = "mat" }
 
-{-| Huautla Mazatec -}
+
+{-| Huautla Mazatec
+-}
 mau : Language
 mau =
     Language { code = "mau" }
 
-{-| Sateré-Mawé -}
+
+{-| Sateré-Mawé
+-}
 mav : Language
 mav =
     Language { code = "mav" }
 
-{-| Mampruli -}
+
+{-| Mampruli
+-}
 maw : Language
 maw =
     Language { code = "maw" }
 
-{-| North Moluccan Malay -}
+
+{-| North Moluccan Malay
+-}
 max : Language
 max =
     Language { code = "max" }
 
-{-| Central Mazahua -}
+
+{-| Central Mazahua
+-}
 maz : Language
 maz =
     Language { code = "maz" }
 
-{-| Higaonon -}
+
+{-| Higaonon
+-}
 mba : Language
 mba =
     Language { code = "mba" }
 
-{-| Western Bukidnon Manobo -}
+
+{-| Western Bukidnon Manobo
+-}
 mbb : Language
 mbb =
     Language { code = "mbb" }
 
-{-| Macushi -}
+
+{-| Macushi
+-}
 mbc : Language
 mbc =
     Language { code = "mbc" }
 
-{-| Dibabawon Manobo -}
+
+{-| Dibabawon Manobo
+-}
 mbd : Language
 mbd =
     Language { code = "mbd" }
 
-{-| Molale -}
+
+{-| Molale
+-}
 mbe : Language
 mbe =
     Language { code = "mbe" }
 
-{-| Baba Malay -}
+
+{-| Baba Malay
+-}
 mbf : Language
 mbf =
     Language { code = "mbf" }
 
-{-| Mangseng -}
+
+{-| Mangseng
+-}
 mbh : Language
 mbh =
     Language { code = "mbh" }
 
-{-| Ilianen Manobo -}
+
+{-| Ilianen Manobo
+-}
 mbi : Language
 mbi =
     Language { code = "mbi" }
 
-{-| Nadëb -}
+
+{-| Nadëb
+-}
 mbj : Language
 mbj =
     Language { code = "mbj" }
 
-{-| Malol -}
+
+{-| Malol
+-}
 mbk : Language
 mbk =
     Language { code = "mbk" }
 
-{-| Maxakalí -}
+
+{-| Maxakalí
+-}
 mbl : Language
 mbl =
     Language { code = "mbl" }
 
-{-| Ombamba -}
+
+{-| Ombamba
+-}
 mbm : Language
 mbm =
     Language { code = "mbm" }
 
-{-| Macaguán -}
+
+{-| Macaguán
+-}
 mbn : Language
 mbn =
     Language { code = "mbn" }
 
-{-| Mbo (Cameroon) -}
+
+{-| Mbo (Cameroon)
+-}
 mbo : Language
 mbo =
     Language { code = "mbo" }
 
-{-| Malayo -}
+
+{-| Malayo
+-}
 mbp : Language
 mbp =
     Language { code = "mbp" }
 
-{-| Maisin -}
+
+{-| Maisin
+-}
 mbq : Language
 mbq =
     Language { code = "mbq" }
 
-{-| Nukak Makú -}
+
+{-| Nukak Makú
+-}
 mbr : Language
 mbr =
     Language { code = "mbr" }
 
-{-| Sarangani Manobo -}
+
+{-| Sarangani Manobo
+-}
 mbs : Language
 mbs =
     Language { code = "mbs" }
 
-{-| Matigsalug Manobo -}
+
+{-| Matigsalug Manobo
+-}
 mbt : Language
 mbt =
     Language { code = "mbt" }
 
-{-| Mbula-Bwazza -}
+
+{-| Mbula-Bwazza
+-}
 mbu : Language
 mbu =
     Language { code = "mbu" }
 
-{-| Mbulungish -}
+
+{-| Mbulungish
+-}
 mbv : Language
 mbv =
     Language { code = "mbv" }
 
-{-| Maring -}
+
+{-| Maring
+-}
 mbw : Language
 mbw =
     Language { code = "mbw" }
 
-{-| Mari (East Sepik Province) -}
+
+{-| Mari (East Sepik Province)
+-}
 mbx : Language
 mbx =
     Language { code = "mbx" }
 
-{-| Memoni -}
+
+{-| Memoni
+-}
 mby : Language
 mby =
     Language { code = "mby" }
 
-{-| Amoltepec Mixtec -}
+
+{-| Amoltepec Mixtec
+-}
 mbz : Language
 mbz =
     Language { code = "mbz" }
 
-{-| Maca -}
+
+{-| Maca
+-}
 mca : Language
 mca =
     Language { code = "mca" }
 
-{-| Machiguenga -}
+
+{-| Machiguenga
+-}
 mcb : Language
 mcb =
     Language { code = "mcb" }
 
-{-| Bitur -}
+
+{-| Bitur
+-}
 mcc : Language
 mcc =
     Language { code = "mcc" }
 
-{-| Sharanahua -}
+
+{-| Sharanahua
+-}
 mcd : Language
 mcd =
     Language { code = "mcd" }
 
-{-| Itundujia Mixtec -}
+
+{-| Itundujia Mixtec
+-}
 mce : Language
 mce =
     Language { code = "mce" }
 
-{-| Matsés -}
+
+{-| Matsés
+-}
 mcf : Language
 mcf =
     Language { code = "mcf" }
 
-{-| Mapoyo -}
+
+{-| Mapoyo
+-}
 mcg : Language
 mcg =
     Language { code = "mcg" }
 
-{-| Maquiritari -}
+
+{-| Maquiritari
+-}
 mch : Language
 mch =
     Language { code = "mch" }
 
-{-| Mese -}
+
+{-| Mese
+-}
 mci : Language
 mci =
     Language { code = "mci" }
 
-{-| Mvanip -}
+
+{-| Mvanip
+-}
 mcj : Language
 mcj =
     Language { code = "mcj" }
 
-{-| Mbunda -}
+
+{-| Mbunda
+-}
 mck : Language
 mck =
     Language { code = "mck" }
 
-{-| Macaguaje -}
+
+{-| Macaguaje
+-}
 mcl : Language
 mcl =
     Language { code = "mcl" }
 
-{-| Malaccan Creole Portuguese -}
+
+{-| Malaccan Creole Portuguese
+-}
 mcm : Language
 mcm =
     Language { code = "mcm" }
 
-{-| Masana -}
+
+{-| Masana
+-}
 mcn : Language
 mcn =
     Language { code = "mcn" }
 
-{-| Coatlán Mixe -}
+
+{-| Coatlán Mixe
+-}
 mco : Language
 mco =
     Language { code = "mco" }
 
-{-| Makaa -}
+
+{-| Makaa
+-}
 mcp : Language
 mcp =
     Language { code = "mcp" }
 
-{-| Ese -}
+
+{-| Ese
+-}
 mcq : Language
 mcq =
     Language { code = "mcq" }
 
-{-| Menya -}
+
+{-| Menya
+-}
 mcr : Language
 mcr =
     Language { code = "mcr" }
 
-{-| Mambai -}
+
+{-| Mambai
+-}
 mcs : Language
 mcs =
     Language { code = "mcs" }
 
-{-| Mengisa -}
+
+{-| Mengisa
+-}
 mct : Language
 mct =
     Language { code = "mct" }
 
-{-| Cameroon Mambila -}
+
+{-| Cameroon Mambila
+-}
 mcu : Language
 mcu =
     Language { code = "mcu" }
 
-{-| Minanibai -}
+
+{-| Minanibai
+-}
 mcv : Language
 mcv =
     Language { code = "mcv" }
 
-{-| Mawa (Chad) -}
+
+{-| Mawa (Chad)
+-}
 mcw : Language
 mcw =
     Language { code = "mcw" }
 
-{-| Mpiemo -}
+
+{-| Mpiemo
+-}
 mcx : Language
 mcx =
     Language { code = "mcx" }
 
-{-| South Watut -}
+
+{-| South Watut
+-}
 mcy : Language
 mcy =
     Language { code = "mcy" }
 
-{-| Mawan -}
+
+{-| Mawan
+-}
 mcz : Language
 mcz =
     Language { code = "mcz" }
 
-{-| Mada (Nigeria) -}
+
+{-| Mada (Nigeria)
+-}
 mda : Language
 mda =
     Language { code = "mda" }
 
-{-| Morigi -}
+
+{-| Morigi
+-}
 mdb : Language
 mdb =
     Language { code = "mdb" }
 
-{-| Male (Papua New Guinea) -}
+
+{-| Male (Papua New Guinea)
+-}
 mdc : Language
 mdc =
     Language { code = "mdc" }
 
-{-| Mbum -}
+
+{-| Mbum
+-}
 mdd : Language
 mdd =
     Language { code = "mdd" }
 
-{-| Maba (Chad) -}
+
+{-| Maba (Chad)
+-}
 mde : Language
 mde =
     Language { code = "mde" }
 
-{-| Moksha -}
+
+{-| Moksha
+-}
 mdf : Language
 mdf =
     Language { code = "mdf" }
 
-{-| Massalat -}
+
+{-| Massalat
+-}
 mdg : Language
 mdg =
     Language { code = "mdg" }
 
-{-| Maguindanaon -}
+
+{-| Maguindanaon
+-}
 mdh : Language
 mdh =
     Language { code = "mdh" }
 
-{-| Mamvu -}
+
+{-| Mamvu
+-}
 mdi : Language
 mdi =
     Language { code = "mdi" }
 
-{-| Mangbetu -}
+
+{-| Mangbetu
+-}
 mdj : Language
 mdj =
     Language { code = "mdj" }
 
-{-| Mangbutu -}
+
+{-| Mangbutu
+-}
 mdk : Language
 mdk =
     Language { code = "mdk" }
 
-{-| Maltese Sign Language -}
+
+{-| Maltese Sign Language
+-}
 mdl : Language
 mdl =
     Language { code = "mdl" }
 
-{-| Mayogo -}
+
+{-| Mayogo
+-}
 mdm : Language
 mdm =
     Language { code = "mdm" }
 
-{-| Mbati -}
+
+{-| Mbati
+-}
 mdn : Language
 mdn =
     Language { code = "mdn" }
 
-{-| Mbala -}
+
+{-| Mbala
+-}
 mdp : Language
 mdp =
     Language { code = "mdp" }
 
-{-| Mbole -}
+
+{-| Mbole
+-}
 mdq : Language
 mdq =
     Language { code = "mdq" }
 
-{-| Mandar -}
+
+{-| Mandar
+-}
 mdr : Language
 mdr =
     Language { code = "mdr" }
 
-{-| Maria (Papua New Guinea) -}
+
+{-| Maria (Papua New Guinea)
+-}
 mds : Language
 mds =
     Language { code = "mds" }
 
-{-| Mbere -}
+
+{-| Mbere
+-}
 mdt : Language
 mdt =
     Language { code = "mdt" }
 
-{-| Mboko -}
+
+{-| Mboko
+-}
 mdu : Language
 mdu =
     Language { code = "mdu" }
 
-{-| Santa Lucía Monteverde Mixtec -}
+
+{-| Santa Lucía Monteverde Mixtec
+-}
 mdv : Language
 mdv =
     Language { code = "mdv" }
 
-{-| Mbosi -}
+
+{-| Mbosi
+-}
 mdw : Language
 mdw =
     Language { code = "mdw" }
 
-{-| Dizin -}
+
+{-| Dizin
+-}
 mdx : Language
 mdx =
     Language { code = "mdx" }
 
-{-| Male (Ethiopia) -}
+
+{-| Male (Ethiopia)
+-}
 mdy : Language
 mdy =
     Language { code = "mdy" }
 
-{-| Suruí Do Pará -}
+
+{-| Suruí Do Pará
+-}
 mdz : Language
 mdz =
     Language { code = "mdz" }
 
-{-| Menka -}
+
+{-| Menka
+-}
 mea : Language
 mea =
     Language { code = "mea" }
 
-{-| Ikobi -}
+
+{-| Ikobi
+-}
 meb : Language
 meb =
     Language { code = "meb" }
 
-{-| Marra -}
+
+{-| Marra
+-}
 mec : Language
 mec =
     Language { code = "mec" }
 
-{-| Melpa -}
+
+{-| Melpa
+-}
 med : Language
 med =
     Language { code = "med" }
 
-{-| Mengen -}
+
+{-| Mengen
+-}
 mee : Language
 mee =
     Language { code = "mee" }
 
-{-| Megam -}
+
+{-| Megam
+-}
 mef : Language
 mef =
     Language { code = "mef" }
 
-{-| Mea -}
+
+{-| Mea
+-}
 meg : Language
 meg =
     Language { code = "meg" }
 
-{-| Southwestern Tlaxiaco Mixtec -}
+
+{-| Southwestern Tlaxiaco Mixtec
+-}
 meh : Language
 meh =
     Language { code = "meh" }
 
-{-| Midob -}
+
+{-| Midob
+-}
 mei : Language
 mei =
     Language { code = "mei" }
 
-{-| Meyah -}
+
+{-| Meyah
+-}
 mej : Language
 mej =
     Language { code = "mej" }
 
-{-| Mekeo -}
+
+{-| Mekeo
+-}
 mek : Language
 mek =
     Language { code = "mek" }
 
-{-| Central Melanau -}
+
+{-| Central Melanau
+-}
 mel : Language
 mel =
     Language { code = "mel" }
 
-{-| Mangala -}
+
+{-| Mangala
+-}
 mem : Language
 mem =
     Language { code = "mem" }
 
-{-| Mende (Sierra Leone) -}
+
+{-| Mende (Sierra Leone)
+-}
 men : Language
 men =
     Language { code = "men" }
 
-{-| Kedah Malay -}
+
+{-| Kedah Malay
+-}
 meo : Language
 meo =
     Language { code = "meo" }
 
-{-| Miriwoong -}
+
+{-| Miriwoong
+-}
 mep : Language
 mep =
     Language { code = "mep" }
 
-{-| Merey -}
+
+{-| Merey
+-}
 meq : Language
 meq =
     Language { code = "meq" }
 
-{-| Meru -}
+
+{-| Meru
+-}
 mer : Language
 mer =
     Language { code = "mer" }
 
-{-| Masmaje -}
+
+{-| Masmaje
+-}
 mes : Language
 mes =
     Language { code = "mes" }
 
-{-| Mato -}
+
+{-| Mato
+-}
 met : Language
 met =
     Language { code = "met" }
 
-{-| Motu -}
+
+{-| Motu
+-}
 meu : Language
 meu =
     Language { code = "meu" }
 
-{-| Mano -}
+
+{-| Mano
+-}
 mev : Language
 mev =
     Language { code = "mev" }
 
-{-| Maaka -}
+
+{-| Maaka
+-}
 mew : Language
 mew =
     Language { code = "mew" }
 
-{-| Hassaniyya -}
+
+{-| Hassaniyya
+-}
 mey : Language
 mey =
     Language { code = "mey" }
 
-{-| Menominee -}
+
+{-| Menominee
+-}
 mez : Language
 mez =
     Language { code = "mez" }
 
-{-| Pattani Malay -}
+
+{-| Pattani Malay
+-}
 mfa : Language
 mfa =
     Language { code = "mfa" }
 
-{-| Bangka -}
+
+{-| Bangka
+-}
 mfb : Language
 mfb =
     Language { code = "mfb" }
 
-{-| Mba -}
+
+{-| Mba
+-}
 mfc : Language
 mfc =
     Language { code = "mfc" }
 
-{-| Mendankwe-Nkwen -}
+
+{-| Mendankwe-Nkwen
+-}
 mfd : Language
 mfd =
     Language { code = "mfd" }
 
-{-| Morisyen -}
+
+{-| Morisyen
+-}
 mfe : Language
 mfe =
     Language { code = "mfe" }
 
-{-| Naki -}
+
+{-| Naki
+-}
 mff : Language
 mff =
     Language { code = "mff" }
 
-{-| Mogofin -}
+
+{-| Mogofin
+-}
 mfg : Language
 mfg =
     Language { code = "mfg" }
 
-{-| Matal -}
+
+{-| Matal
+-}
 mfh : Language
 mfh =
     Language { code = "mfh" }
 
-{-| Wandala -}
+
+{-| Wandala
+-}
 mfi : Language
 mfi =
     Language { code = "mfi" }
 
-{-| Mefele -}
+
+{-| Mefele
+-}
 mfj : Language
 mfj =
     Language { code = "mfj" }
 
-{-| North Mofu -}
+
+{-| North Mofu
+-}
 mfk : Language
 mfk =
     Language { code = "mfk" }
 
-{-| Putai -}
+
+{-| Putai
+-}
 mfl : Language
 mfl =
     Language { code = "mfl" }
 
-{-| Marghi South -}
+
+{-| Marghi South
+-}
 mfm : Language
 mfm =
     Language { code = "mfm" }
 
-{-| Cross River Mbembe -}
+
+{-| Cross River Mbembe
+-}
 mfn : Language
 mfn =
     Language { code = "mfn" }
 
-{-| Mbe -}
+
+{-| Mbe
+-}
 mfo : Language
 mfo =
     Language { code = "mfo" }
 
-{-| Makassar Malay -}
+
+{-| Makassar Malay
+-}
 mfp : Language
 mfp =
     Language { code = "mfp" }
 
-{-| Moba -}
+
+{-| Moba
+-}
 mfq : Language
 mfq =
     Language { code = "mfq" }
 
-{-| Marrithiyel -}
+
+{-| Marrithiyel
+-}
 mfr : Language
 mfr =
     Language { code = "mfr" }
 
-{-| Mexican Sign Language -}
+
+{-| Mexican Sign Language
+-}
 mfs : Language
 mfs =
     Language { code = "mfs" }
 
-{-| Mokerang -}
+
+{-| Mokerang
+-}
 mft : Language
 mft =
     Language { code = "mft" }
 
-{-| Mbwela -}
+
+{-| Mbwela
+-}
 mfu : Language
 mfu =
     Language { code = "mfu" }
 
-{-| Mandjak -}
+
+{-| Mandjak
+-}
 mfv : Language
 mfv =
     Language { code = "mfv" }
 
-{-| Mulaha -}
+
+{-| Mulaha
+-}
 mfw : Language
 mfw =
     Language { code = "mfw" }
 
-{-| Melo -}
+
+{-| Melo
+-}
 mfx : Language
 mfx =
     Language { code = "mfx" }
 
-{-| Mayo -}
+
+{-| Mayo
+-}
 mfy : Language
 mfy =
     Language { code = "mfy" }
 
-{-| Mabaan -}
+
+{-| Mabaan
+-}
 mfz : Language
 mfz =
     Language { code = "mfz" }
 
-{-| Malagasy -}
+
+{-| Malagasy
+-}
 mg : Language
 mg =
     Language { code = "mg" }
 
-{-| Middle Irish (900-1200) -}
+
+{-| Middle Irish (900-1200)
+-}
 mga : Language
 mga =
     Language { code = "mga" }
 
-{-| Mararit -}
+
+{-| Mararit
+-}
 mgb : Language
 mgb =
     Language { code = "mgb" }
 
-{-| Morokodo -}
+
+{-| Morokodo
+-}
 mgc : Language
 mgc =
     Language { code = "mgc" }
 
-{-| Moru -}
+
+{-| Moru
+-}
 mgd : Language
 mgd =
     Language { code = "mgd" }
 
-{-| Mango -}
+
+{-| Mango
+-}
 mge : Language
 mge =
     Language { code = "mge" }
 
-{-| Maklew -}
+
+{-| Maklew
+-}
 mgf : Language
 mgf =
     Language { code = "mgf" }
 
-{-| Mpumpong -}
+
+{-| Mpumpong
+-}
 mgg : Language
 mgg =
     Language { code = "mgg" }
 
-{-| Makhuwa-Meetto -}
+
+{-| Makhuwa-Meetto
+-}
 mgh : Language
 mgh =
     Language { code = "mgh" }
 
-{-| Lijili -}
+
+{-| Lijili
+-}
 mgi : Language
 mgi =
     Language { code = "mgi" }
 
-{-| Abureni -}
+
+{-| Abureni
+-}
 mgj : Language
 mgj =
     Language { code = "mgj" }
 
-{-| Mawes -}
+
+{-| Mawes
+-}
 mgk : Language
 mgk =
     Language { code = "mgk" }
 
-{-| Maleu-Kilenge -}
+
+{-| Maleu-Kilenge
+-}
 mgl : Language
 mgl =
     Language { code = "mgl" }
 
-{-| Mambae -}
+
+{-| Mambae
+-}
 mgm : Language
 mgm =
     Language { code = "mgm" }
 
-{-| Mbangi -}
+
+{-| Mbangi
+-}
 mgn : Language
 mgn =
     Language { code = "mgn" }
 
-{-| Meta' -}
+
+{-| Meta'
+-}
 mgo : Language
 mgo =
     Language { code = "mgo" }
 
-{-| Eastern Magar -}
+
+{-| Eastern Magar
+-}
 mgp : Language
 mgp =
     Language { code = "mgp" }
 
-{-| Malila -}
+
+{-| Malila
+-}
 mgq : Language
 mgq =
     Language { code = "mgq" }
 
-{-| Mambwe-Lungu -}
+
+{-| Mambwe-Lungu
+-}
 mgr : Language
 mgr =
     Language { code = "mgr" }
 
-{-| Manda (Tanzania) -}
+
+{-| Manda (Tanzania)
+-}
 mgs : Language
 mgs =
     Language { code = "mgs" }
 
-{-| Mongol -}
+
+{-| Mongol
+-}
 mgt : Language
 mgt =
     Language { code = "mgt" }
 
-{-| Mailu -}
+
+{-| Mailu
+-}
 mgu : Language
 mgu =
     Language { code = "mgu" }
 
-{-| Matengo -}
+
+{-| Matengo
+-}
 mgv : Language
 mgv =
     Language { code = "mgv" }
 
-{-| Matumbi -}
+
+{-| Matumbi
+-}
 mgw : Language
 mgw =
     Language { code = "mgw" }
 
-{-| Omati -}
+
+{-| Omati
+-}
 mgx : Language
 mgx =
     Language { code = "mgx" }
 
-{-| Mbunga -}
+
+{-| Mbunga
+-}
 mgy : Language
 mgy =
     Language { code = "mgy" }
 
-{-| Mbugwe -}
+
+{-| Mbugwe
+-}
 mgz : Language
 mgz =
     Language { code = "mgz" }
 
-{-| Marshallese -}
+
+{-| Marshallese
+-}
 mh : Language
 mh =
     Language { code = "mh" }
 
-{-| Manda (India) -}
+
+{-| Manda (India)
+-}
 mha : Language
 mha =
     Language { code = "mha" }
 
-{-| Mahongwe -}
+
+{-| Mahongwe
+-}
 mhb : Language
 mhb =
     Language { code = "mhb" }
 
-{-| Mocho -}
+
+{-| Mocho
+-}
 mhc : Language
 mhc =
     Language { code = "mhc" }
 
-{-| Mbugu -}
+
+{-| Mbugu
+-}
 mhd : Language
 mhd =
     Language { code = "mhd" }
 
+
 {-| Besisi
-Mah Meri -}
+Mah Meri
+-}
 mhe : Language
 mhe =
     Language { code = "mhe" }
 
-{-| Mamaa -}
+
+{-| Mamaa
+-}
 mhf : Language
 mhf =
     Language { code = "mhf" }
 
-{-| Margu -}
+
+{-| Margu
+-}
 mhg : Language
 mhg =
     Language { code = "mhg" }
 
-{-| Maskoy Pidgin -}
+
+{-| Maskoy Pidgin
+-}
 mhh : Language
 mhh =
     Language { code = "mhh" }
 
-{-| Ma'di -}
+
+{-| Ma'di
+-}
 mhi : Language
 mhi =
     Language { code = "mhi" }
 
-{-| Mogholi -}
+
+{-| Mogholi
+-}
 mhj : Language
 mhj =
     Language { code = "mhj" }
 
-{-| Mungaka -}
+
+{-| Mungaka
+-}
 mhk : Language
 mhk =
     Language { code = "mhk" }
 
-{-| Mauwake -}
+
+{-| Mauwake
+-}
 mhl : Language
 mhl =
     Language { code = "mhl" }
 
-{-| Makhuwa-Moniga -}
+
+{-| Makhuwa-Moniga
+-}
 mhm : Language
 mhm =
     Language { code = "mhm" }
 
-{-| Mócheno -}
+
+{-| Mócheno
+-}
 mhn : Language
 mhn =
     Language { code = "mhn" }
 
-{-| Mashi (Zambia) -}
+
+{-| Mashi (Zambia)
+-}
 mho : Language
 mho =
     Language { code = "mho" }
 
-{-| Balinese Malay -}
+
+{-| Balinese Malay
+-}
 mhp : Language
 mhp =
     Language { code = "mhp" }
 
-{-| Mandan -}
+
+{-| Mandan
+-}
 mhq : Language
 mhq =
     Language { code = "mhq" }
 
-{-| Eastern Mari -}
+
+{-| Eastern Mari
+-}
 mhr : Language
 mhr =
     Language { code = "mhr" }
 
-{-| Buru (Indonesia) -}
+
+{-| Buru (Indonesia)
+-}
 mhs : Language
 mhs =
     Language { code = "mhs" }
 
-{-| Mandahuaca -}
+
+{-| Mandahuaca
+-}
 mht : Language
 mht =
     Language { code = "mht" }
 
+
 {-| Digaro-Mishmi
-Darang Deng -}
+Darang Deng
+-}
 mhu : Language
 mhu =
     Language { code = "mhu" }
 
-{-| Mbukushu -}
+
+{-| Mbukushu
+-}
 mhw : Language
 mhw =
     Language { code = "mhw" }
 
+
 {-| Maru
-Lhaovo -}
+Lhaovo
+-}
 mhx : Language
 mhx =
     Language { code = "mhx" }
 
-{-| Ma'anyan -}
+
+{-| Ma'anyan
+-}
 mhy : Language
 mhy =
     Language { code = "mhy" }
 
-{-| Mor (Mor Islands) -}
+
+{-| Mor (Mor Islands)
+-}
 mhz : Language
 mhz =
     Language { code = "mhz" }
 
-{-| Maori -}
+
+{-| Maori
+-}
 mi : Language
 mi =
     Language { code = "mi" }
 
-{-| Miami -}
+
+{-| Miami
+-}
 mia : Language
 mia =
     Language { code = "mia" }
 
-{-| Atatláhuca Mixtec -}
+
+{-| Atatláhuca Mixtec
+-}
 mib : Language
 mib =
     Language { code = "mib" }
 
+
 {-| Mi'kmaq
-Micmac -}
+Micmac
+-}
 mic : Language
 mic =
     Language { code = "mic" }
 
-{-| Mandaic -}
+
+{-| Mandaic
+-}
 mid : Language
 mid =
     Language { code = "mid" }
 
-{-| Ocotepec Mixtec -}
+
+{-| Ocotepec Mixtec
+-}
 mie : Language
 mie =
     Language { code = "mie" }
 
-{-| Mofu-Gudur -}
+
+{-| Mofu-Gudur
+-}
 mif : Language
 mif =
     Language { code = "mif" }
 
-{-| San Miguel El Grande Mixtec -}
+
+{-| San Miguel El Grande Mixtec
+-}
 mig : Language
 mig =
     Language { code = "mig" }
 
-{-| Chayuco Mixtec -}
+
+{-| Chayuco Mixtec
+-}
 mih : Language
 mih =
     Language { code = "mih" }
 
-{-| Chigmecatitlán Mixtec -}
+
+{-| Chigmecatitlán Mixtec
+-}
 mii : Language
 mii =
     Language { code = "mii" }
 
+
 {-| Abar
-Mungbam -}
+Mungbam
+-}
 mij : Language
 mij =
     Language { code = "mij" }
 
-{-| Mikasuki -}
+
+{-| Mikasuki
+-}
 mik : Language
 mik =
     Language { code = "mik" }
 
-{-| Peñoles Mixtec -}
+
+{-| Peñoles Mixtec
+-}
 mil : Language
 mil =
     Language { code = "mil" }
 
-{-| Alacatlatzala Mixtec -}
+
+{-| Alacatlatzala Mixtec
+-}
 mim : Language
 mim =
     Language { code = "mim" }
 
-{-| Minangkabau -}
+
+{-| Minangkabau
+-}
 min : Language
 min =
     Language { code = "min" }
 
-{-| Pinotepa Nacional Mixtec -}
+
+{-| Pinotepa Nacional Mixtec
+-}
 mio : Language
 mio =
     Language { code = "mio" }
 
-{-| Apasco-Apoala Mixtec -}
+
+{-| Apasco-Apoala Mixtec
+-}
 mip : Language
 mip =
     Language { code = "mip" }
 
-{-| Mískito -}
+
+{-| Mískito
+-}
 miq : Language
 miq =
     Language { code = "miq" }
 
-{-| Isthmus Mixe -}
+
+{-| Isthmus Mixe
+-}
 mir : Language
 mir =
     Language { code = "mir" }
 
-{-| Uncoded languages -}
+
+{-| Uncoded languages
+-}
 mis : Language
 mis =
     Language { code = "mis" }
 
-{-| Southern Puebla Mixtec -}
+
+{-| Southern Puebla Mixtec
+-}
 mit : Language
 mit =
     Language { code = "mit" }
 
-{-| Cacaloxtepec Mixtec -}
+
+{-| Cacaloxtepec Mixtec
+-}
 miu : Language
 miu =
     Language { code = "miu" }
 
-{-| Akoye -}
+
+{-| Akoye
+-}
 miw : Language
 miw =
     Language { code = "miw" }
 
-{-| Mixtepec Mixtec -}
+
+{-| Mixtepec Mixtec
+-}
 mix : Language
 mix =
     Language { code = "mix" }
 
-{-| Ayutla Mixtec -}
+
+{-| Ayutla Mixtec
+-}
 miy : Language
 miy =
     Language { code = "miy" }
 
-{-| Coatzospan Mixtec -}
+
+{-| Coatzospan Mixtec
+-}
 miz : Language
 miz =
     Language { code = "miz" }
 
-{-| Mahei -}
+
+{-| Mahei
+-}
 mja : Language
 mja =
     Language { code = "mja" }
 
-{-| Makalero -}
+
+{-| Makalero
+-}
 mjb : Language
 mjb =
     Language { code = "mjb" }
 
-{-| San Juan Colorado Mixtec -}
+
+{-| San Juan Colorado Mixtec
+-}
 mjc : Language
 mjc =
     Language { code = "mjc" }
 
-{-| Northwest Maidu -}
+
+{-| Northwest Maidu
+-}
 mjd : Language
 mjd =
     Language { code = "mjd" }
 
-{-| Muskum -}
+
+{-| Muskum
+-}
 mje : Language
 mje =
     Language { code = "mje" }
 
-{-| Tu -}
+
+{-| Tu
+-}
 mjg : Language
 mjg =
     Language { code = "mjg" }
 
-{-| Mwera (Nyasa) -}
+
+{-| Mwera (Nyasa)
+-}
 mjh : Language
 mjh =
     Language { code = "mjh" }
 
-{-| Kim Mun -}
+
+{-| Kim Mun
+-}
 mji : Language
 mji =
     Language { code = "mji" }
 
-{-| Mawak -}
+
+{-| Mawak
+-}
 mjj : Language
 mjj =
     Language { code = "mjj" }
 
-{-| Matukar -}
+
+{-| Matukar
+-}
 mjk : Language
 mjk =
     Language { code = "mjk" }
 
-{-| Mandeali -}
+
+{-| Mandeali
+-}
 mjl : Language
 mjl =
     Language { code = "mjl" }
 
-{-| Medebur -}
+
+{-| Medebur
+-}
 mjm : Language
 mjm =
     Language { code = "mjm" }
 
-{-| Ma (Papua New Guinea) -}
+
+{-| Ma (Papua New Guinea)
+-}
 mjn : Language
 mjn =
     Language { code = "mjn" }
 
-{-| Malankuravan -}
+
+{-| Malankuravan
+-}
 mjo : Language
 mjo =
     Language { code = "mjo" }
 
-{-| Malapandaram -}
+
+{-| Malapandaram
+-}
 mjp : Language
 mjp =
     Language { code = "mjp" }
 
-{-| Malaryan -}
+
+{-| Malaryan
+-}
 mjq : Language
 mjq =
     Language { code = "mjq" }
 
-{-| Malavedan -}
+
+{-| Malavedan
+-}
 mjr : Language
 mjr =
     Language { code = "mjr" }
 
-{-| Miship -}
+
+{-| Miship
+-}
 mjs : Language
 mjs =
     Language { code = "mjs" }
 
-{-| Sauria Paharia -}
+
+{-| Sauria Paharia
+-}
 mjt : Language
 mjt =
     Language { code = "mjt" }
 
-{-| Manna-Dora -}
+
+{-| Manna-Dora
+-}
 mju : Language
 mju =
     Language { code = "mju" }
 
-{-| Mannan -}
+
+{-| Mannan
+-}
 mjv : Language
 mjv =
     Language { code = "mjv" }
 
-{-| Karbi -}
+
+{-| Karbi
+-}
 mjw : Language
 mjw =
     Language { code = "mjw" }
 
-{-| Mahali -}
+
+{-| Mahali
+-}
 mjx : Language
 mjx =
     Language { code = "mjx" }
 
-{-| Mahican -}
+
+{-| Mahican
+-}
 mjy : Language
 mjy =
     Language { code = "mjy" }
 
-{-| Majhi -}
+
+{-| Majhi
+-}
 mjz : Language
 mjz =
     Language { code = "mjz" }
 
-{-| Macedonian -}
+
+{-| Macedonian
+-}
 mk : Language
 mk =
     Language { code = "mk" }
 
-{-| Mbre -}
+
+{-| Mbre
+-}
 mka : Language
 mka =
     Language { code = "mka" }
 
-{-| Mal Paharia -}
+
+{-| Mal Paharia
+-}
 mkb : Language
 mkb =
     Language { code = "mkb" }
 
-{-| Siliput -}
+
+{-| Siliput
+-}
 mkc : Language
 mkc =
     Language { code = "mkc" }
 
-{-| Mawchi -}
+
+{-| Mawchi
+-}
 mke : Language
 mke =
     Language { code = "mke" }
 
-{-| Miya -}
+
+{-| Miya
+-}
 mkf : Language
 mkf =
     Language { code = "mkf" }
 
-{-| Mak (China) -}
+
+{-| Mak (China)
+-}
 mkg : Language
 mkg =
     Language { code = "mkg" }
 
-{-| Mon-Khmer languages -}
+
+{-| Mon-Khmer languages
+-}
 mkh : Language
 mkh =
     Language { code = "mkh" }
 
-{-| Dhatki -}
+
+{-| Dhatki
+-}
 mki : Language
 mki =
     Language { code = "mki" }
 
-{-| Mokilese -}
+
+{-| Mokilese
+-}
 mkj : Language
 mkj =
     Language { code = "mkj" }
 
-{-| Byep -}
+
+{-| Byep
+-}
 mkk : Language
 mkk =
     Language { code = "mkk" }
 
-{-| Mokole -}
+
+{-| Mokole
+-}
 mkl : Language
 mkl =
     Language { code = "mkl" }
 
-{-| Moklen -}
+
+{-| Moklen
+-}
 mkm : Language
 mkm =
     Language { code = "mkm" }
 
-{-| Kupang Malay -}
+
+{-| Kupang Malay
+-}
 mkn : Language
 mkn =
     Language { code = "mkn" }
 
-{-| Mingang Doso -}
+
+{-| Mingang Doso
+-}
 mko : Language
 mko =
     Language { code = "mko" }
 
-{-| Moikodi -}
+
+{-| Moikodi
+-}
 mkp : Language
 mkp =
     Language { code = "mkp" }
 
-{-| Bay Miwok -}
+
+{-| Bay Miwok
+-}
 mkq : Language
 mkq =
     Language { code = "mkq" }
 
-{-| Malas -}
+
+{-| Malas
+-}
 mkr : Language
 mkr =
     Language { code = "mkr" }
 
-{-| Silacayoapan Mixtec -}
+
+{-| Silacayoapan Mixtec
+-}
 mks : Language
 mks =
     Language { code = "mks" }
 
-{-| Vamale -}
+
+{-| Vamale
+-}
 mkt : Language
 mkt =
     Language { code = "mkt" }
 
-{-| Konyanka Maninka -}
+
+{-| Konyanka Maninka
+-}
 mku : Language
 mku =
     Language { code = "mku" }
 
-{-| Mafea -}
+
+{-| Mafea
+-}
 mkv : Language
 mkv =
     Language { code = "mkv" }
 
-{-| Kituba (Congo) -}
+
+{-| Kituba (Congo)
+-}
 mkw : Language
 mkw =
     Language { code = "mkw" }
 
-{-| Kinamiging Manobo -}
+
+{-| Kinamiging Manobo
+-}
 mkx : Language
 mkx =
     Language { code = "mkx" }
 
-{-| East Makian -}
+
+{-| East Makian
+-}
 mky : Language
 mky =
     Language { code = "mky" }
 
-{-| Makasae -}
+
+{-| Makasae
+-}
 mkz : Language
 mkz =
     Language { code = "mkz" }
 
-{-| Malayalam -}
+
+{-| Malayalam
+-}
 ml : Language
 ml =
     Language { code = "ml" }
 
-{-| Malo -}
+
+{-| Malo
+-}
 mla : Language
 mla =
     Language { code = "mla" }
 
-{-| Mbule -}
+
+{-| Mbule
+-}
 mlb : Language
 mlb =
     Language { code = "mlb" }
 
-{-| Cao Lan -}
+
+{-| Cao Lan
+-}
 mlc : Language
 mlc =
     Language { code = "mlc" }
 
-{-| Malakhel -}
+
+{-| Malakhel
+-}
 mld : Language
 mld =
     Language { code = "mld" }
 
-{-| Manambu -}
+
+{-| Manambu
+-}
 mle : Language
 mle =
     Language { code = "mle" }
 
-{-| Mal -}
+
+{-| Mal
+-}
 mlf : Language
 mlf =
     Language { code = "mlf" }
 
-{-| Mape -}
+
+{-| Mape
+-}
 mlh : Language
 mlh =
     Language { code = "mlh" }
 
-{-| Malimpung -}
+
+{-| Malimpung
+-}
 mli : Language
 mli =
     Language { code = "mli" }
 
-{-| Miltu -}
+
+{-| Miltu
+-}
 mlj : Language
 mlj =
     Language { code = "mlj" }
 
+
 {-| Ilwana
-Kiwilwana -}
+Kiwilwana
+-}
 mlk : Language
 mlk =
     Language { code = "mlk" }
 
-{-| Malua Bay -}
+
+{-| Malua Bay
+-}
 mll : Language
 mll =
     Language { code = "mll" }
 
-{-| Mulam -}
+
+{-| Mulam
+-}
 mlm : Language
 mlm =
     Language { code = "mlm" }
 
-{-| Malango -}
+
+{-| Malango
+-}
 mln : Language
 mln =
     Language { code = "mln" }
 
-{-| Mlomp -}
+
+{-| Mlomp
+-}
 mlo : Language
 mlo =
     Language { code = "mlo" }
 
-{-| Bargam -}
+
+{-| Bargam
+-}
 mlp : Language
 mlp =
     Language { code = "mlp" }
 
-{-| Western Maninkakan -}
+
+{-| Western Maninkakan
+-}
 mlq : Language
 mlq =
     Language { code = "mlq" }
 
-{-| Vame -}
+
+{-| Vame
+-}
 mlr : Language
 mlr =
     Language { code = "mlr" }
 
-{-| Masalit -}
+
+{-| Masalit
+-}
 mls : Language
 mls =
     Language { code = "mls" }
 
-{-| To'abaita -}
+
+{-| To'abaita
+-}
 mlu : Language
 mlu =
     Language { code = "mlu" }
 
+
 {-| Motlav
-Mwotlap -}
+Mwotlap
+-}
 mlv : Language
 mlv =
     Language { code = "mlv" }
 
-{-| Moloko -}
+
+{-| Moloko
+-}
 mlw : Language
 mlw =
     Language { code = "mlw" }
 
+
 {-| Malfaxal
-Naha'ai -}
+Naha'ai
+-}
 mlx : Language
 mlx =
     Language { code = "mlx" }
 
-{-| Malaynon -}
+
+{-| Malaynon
+-}
 mlz : Language
 mlz =
     Language { code = "mlz" }
 
-{-| Mama -}
+
+{-| Mama
+-}
 mma : Language
 mma =
     Language { code = "mma" }
 
-{-| Momina -}
+
+{-| Momina
+-}
 mmb : Language
 mmb =
     Language { code = "mmb" }
 
-{-| Michoacán Mazahua -}
+
+{-| Michoacán Mazahua
+-}
 mmc : Language
 mmc =
     Language { code = "mmc" }
 
-{-| Maonan -}
+
+{-| Maonan
+-}
 mmd : Language
 mmd =
     Language { code = "mmd" }
 
-{-| Mae -}
+
+{-| Mae
+-}
 mme : Language
 mme =
     Language { code = "mme" }
 
-{-| Mundat -}
+
+{-| Mundat
+-}
 mmf : Language
 mmf =
     Language { code = "mmf" }
 
-{-| North Ambrym -}
+
+{-| North Ambrym
+-}
 mmg : Language
 mmg =
     Language { code = "mmg" }
 
-{-| Mehináku -}
+
+{-| Mehináku
+-}
 mmh : Language
 mmh =
     Language { code = "mmh" }
 
-{-| Musar -}
+
+{-| Musar
+-}
 mmi : Language
 mmi =
     Language { code = "mmi" }
 
-{-| Majhwar -}
+
+{-| Majhwar
+-}
 mmj : Language
 mmj =
     Language { code = "mmj" }
 
-{-| Mukha-Dora -}
+
+{-| Mukha-Dora
+-}
 mmk : Language
 mmk =
     Language { code = "mmk" }
 
-{-| Man Met -}
+
+{-| Man Met
+-}
 mml : Language
 mml =
     Language { code = "mml" }
 
-{-| Maii -}
+
+{-| Maii
+-}
 mmm : Language
 mmm =
     Language { code = "mmm" }
 
-{-| Mamanwa -}
+
+{-| Mamanwa
+-}
 mmn : Language
 mmn =
     Language { code = "mmn" }
 
-{-| Mangga Buang -}
+
+{-| Mangga Buang
+-}
 mmo : Language
 mmo =
     Language { code = "mmo" }
 
-{-| Siawi -}
+
+{-| Siawi
+-}
 mmp : Language
 mmp =
     Language { code = "mmp" }
 
-{-| Musak -}
+
+{-| Musak
+-}
 mmq : Language
 mmq =
     Language { code = "mmq" }
 
-{-| Western Xiangxi Miao -}
+
+{-| Western Xiangxi Miao
+-}
 mmr : Language
 mmr =
     Language { code = "mmr" }
 
-{-| Malalamai -}
+
+{-| Malalamai
+-}
 mmt : Language
 mmt =
     Language { code = "mmt" }
 
-{-| Mmaala -}
+
+{-| Mmaala
+-}
 mmu : Language
 mmu =
     Language { code = "mmu" }
 
-{-| Miriti -}
+
+{-| Miriti
+-}
 mmv : Language
 mmv =
     Language { code = "mmv" }
 
-{-| Emae -}
+
+{-| Emae
+-}
 mmw : Language
 mmw =
     Language { code = "mmw" }
 
-{-| Madak -}
+
+{-| Madak
+-}
 mmx : Language
 mmx =
     Language { code = "mmx" }
 
-{-| Migaama -}
+
+{-| Migaama
+-}
 mmy : Language
 mmy =
     Language { code = "mmy" }
 
-{-| Mabaale -}
+
+{-| Mabaale
+-}
 mmz : Language
 mmz =
     Language { code = "mmz" }
 
-{-| Mongolian -}
+
+{-| Mongolian
+-}
 mn : Language
 mn =
     Language { code = "mn" }
 
-{-| Mbula -}
+
+{-| Mbula
+-}
 mna : Language
 mna =
     Language { code = "mna" }
 
-{-| Muna -}
+
+{-| Muna
+-}
 mnb : Language
 mnb =
     Language { code = "mnb" }
 
-{-| Manchu -}
+
+{-| Manchu
+-}
 mnc : Language
 mnc =
     Language { code = "mnc" }
 
-{-| Mondé -}
+
+{-| Mondé
+-}
 mnd : Language
 mnd =
     Language { code = "mnd" }
 
-{-| Naba -}
+
+{-| Naba
+-}
 mne : Language
 mne =
     Language { code = "mne" }
 
-{-| Mundani -}
+
+{-| Mundani
+-}
 mnf : Language
 mnf =
     Language { code = "mnf" }
 
-{-| Eastern Mnong -}
+
+{-| Eastern Mnong
+-}
 mng : Language
 mng =
     Language { code = "mng" }
 
-{-| Mono (Democratic Republic of Congo) -}
+
+{-| Mono (Democratic Republic of Congo)
+-}
 mnh : Language
 mnh =
     Language { code = "mnh" }
 
-{-| Manipuri -}
+
+{-| Manipuri
+-}
 mni : Language
 mni =
     Language { code = "mni" }
 
-{-| Munji -}
+
+{-| Munji
+-}
 mnj : Language
 mnj =
     Language { code = "mnj" }
 
-{-| Mandinka -}
+
+{-| Mandinka
+-}
 mnk : Language
 mnk =
     Language { code = "mnk" }
 
-{-| Tiale -}
+
+{-| Tiale
+-}
 mnl : Language
 mnl =
     Language { code = "mnl" }
 
-{-| Mapena -}
+
+{-| Mapena
+-}
 mnm : Language
 mnm =
     Language { code = "mnm" }
 
-{-| Southern Mnong -}
+
+{-| Southern Mnong
+-}
 mnn : Language
 mnn =
     Language { code = "mnn" }
 
-{-| Manobo languages -}
+
+{-| Manobo languages
+-}
 mno : Language
 mno =
     Language { code = "mno" }
 
-{-| Min Bei Chinese -}
+
+{-| Min Bei Chinese
+-}
 mnp : Language
 mnp =
     Language { code = "mnp" }
 
-{-| Minriq -}
+
+{-| Minriq
+-}
 mnq : Language
 mnq =
     Language { code = "mnq" }
 
-{-| Mono (USA) -}
+
+{-| Mono (USA)
+-}
 mnr : Language
 mnr =
     Language { code = "mnr" }
 
-{-| Mansi -}
+
+{-| Mansi
+-}
 mns : Language
 mns =
     Language { code = "mns" }
 
-{-| Maykulan -}
+
+{-| Maykulan
+-}
 mnt : Language
 mnt =
     Language { code = "mnt" }
 
-{-| Mer -}
+
+{-| Mer
+-}
 mnu : Language
 mnu =
     Language { code = "mnu" }
 
-{-| Rennell-Bellona -}
+
+{-| Rennell-Bellona
+-}
 mnv : Language
 mnv =
     Language { code = "mnv" }
 
-{-| Mon -}
+
+{-| Mon
+-}
 mnw : Language
 mnw =
     Language { code = "mnw" }
 
-{-| Manikion -}
+
+{-| Manikion
+-}
 mnx : Language
 mnx =
     Language { code = "mnx" }
 
-{-| Manyawa -}
+
+{-| Manyawa
+-}
 mny : Language
 mny =
     Language { code = "mny" }
 
-{-| Moni -}
+
+{-| Moni
+-}
 mnz : Language
 mnz =
     Language { code = "mnz" }
 
+
 {-| Moldavian
-Moldovan -}
+Moldovan
+-}
 mo : Language
 mo =
     Language { code = "mo" }
 
-{-| Mwan -}
+
+{-| Mwan
+-}
 moa : Language
 moa =
     Language { code = "moa" }
 
-{-| Mocoví -}
+
+{-| Mocoví
+-}
 moc : Language
 moc =
     Language { code = "moc" }
 
-{-| Mobilian -}
+
+{-| Mobilian
+-}
 mod : Language
 mod =
     Language { code = "mod" }
 
+
 {-| Innu
-Montagnais -}
+Montagnais
+-}
 moe : Language
 moe =
     Language { code = "moe" }
 
-{-| Mohegan-Montauk-Narragansett -}
+
+{-| Mohegan-Montauk-Narragansett
+-}
 mof : Language
 mof =
     Language { code = "mof" }
 
-{-| Mongondow -}
+
+{-| Mongondow
+-}
 mog : Language
 mog =
     Language { code = "mog" }
 
-{-| Mohawk -}
+
+{-| Mohawk
+-}
 moh : Language
 moh =
     Language { code = "moh" }
 
-{-| Mboi -}
+
+{-| Mboi
+-}
 moi : Language
 moi =
     Language { code = "moi" }
 
-{-| Monzombo -}
+
+{-| Monzombo
+-}
 moj : Language
 moj =
     Language { code = "moj" }
 
-{-| Morori -}
+
+{-| Morori
+-}
 mok : Language
 mok =
     Language { code = "mok" }
 
-{-| Mangue -}
+
+{-| Mangue
+-}
 mom : Language
 mom =
     Language { code = "mom" }
 
-{-| Monom -}
+
+{-| Monom
+-}
 moo : Language
 moo =
     Language { code = "moo" }
 
-{-| Mopán Maya -}
+
+{-| Mopán Maya
+-}
 mop : Language
 mop =
     Language { code = "mop" }
 
-{-| Mor (Bomberai Peninsula) -}
+
+{-| Mor (Bomberai Peninsula)
+-}
 moq : Language
 moq =
     Language { code = "moq" }
 
-{-| Moro -}
+
+{-| Moro
+-}
 mor : Language
 mor =
     Language { code = "mor" }
 
-{-| Mossi -}
+
+{-| Mossi
+-}
 mos : Language
 mos =
     Language { code = "mos" }
 
-{-| Barí -}
+
+{-| Barí
+-}
 mot : Language
 mot =
     Language { code = "mot" }
 
-{-| Mogum -}
+
+{-| Mogum
+-}
 mou : Language
 mou =
     Language { code = "mou" }
 
-{-| Mohave -}
+
+{-| Mohave
+-}
 mov : Language
 mov =
     Language { code = "mov" }
 
-{-| Moi (Congo) -}
+
+{-| Moi (Congo)
+-}
 mow : Language
 mow =
     Language { code = "mow" }
 
-{-| Molima -}
+
+{-| Molima
+-}
 mox : Language
 mox =
     Language { code = "mox" }
 
-{-| Shekkacho -}
+
+{-| Shekkacho
+-}
 moy : Language
 moy =
     Language { code = "moy" }
 
+
 {-| Mukulu
-Gergiko -}
+Gergiko
+-}
 moz : Language
 moz =
     Language { code = "moz" }
 
-{-| Mpoto -}
+
+{-| Mpoto
+-}
 mpa : Language
 mpa =
     Language { code = "mpa" }
 
+
 {-| Malak Malak
-Mullukmulluk -}
+Mullukmulluk
+-}
 mpb : Language
 mpb =
     Language { code = "mpb" }
 
-{-| Mangarrayi -}
+
+{-| Mangarrayi
+-}
 mpc : Language
 mpc =
     Language { code = "mpc" }
 
-{-| Machinere -}
+
+{-| Machinere
+-}
 mpd : Language
 mpd =
     Language { code = "mpd" }
 
-{-| Majang -}
+
+{-| Majang
+-}
 mpe : Language
 mpe =
     Language { code = "mpe" }
 
-{-| Marba -}
+
+{-| Marba
+-}
 mpg : Language
 mpg =
     Language { code = "mpg" }
 
-{-| Maung -}
+
+{-| Maung
+-}
 mph : Language
 mph =
     Language { code = "mph" }
 
-{-| Mpade -}
+
+{-| Mpade
+-}
 mpi : Language
 mpi =
     Language { code = "mpi" }
 
+
 {-| Martu Wangka
-Wangkajunga -}
+Wangkajunga
+-}
 mpj : Language
 mpj =
     Language { code = "mpj" }
 
-{-| Mbara (Chad) -}
+
+{-| Mbara (Chad)
+-}
 mpk : Language
 mpk =
     Language { code = "mpk" }
 
-{-| Middle Watut -}
+
+{-| Middle Watut
+-}
 mpl : Language
 mpl =
     Language { code = "mpl" }
 
-{-| Yosondúa Mixtec -}
+
+{-| Yosondúa Mixtec
+-}
 mpm : Language
 mpm =
     Language { code = "mpm" }
 
-{-| Mindiri -}
+
+{-| Mindiri
+-}
 mpn : Language
 mpn =
     Language { code = "mpn" }
 
-{-| Miu -}
+
+{-| Miu
+-}
 mpo : Language
 mpo =
     Language { code = "mpo" }
 
-{-| Migabac -}
+
+{-| Migabac
+-}
 mpp : Language
 mpp =
     Language { code = "mpp" }
 
-{-| Matís -}
+
+{-| Matís
+-}
 mpq : Language
 mpq =
     Language { code = "mpq" }
 
-{-| Vangunu -}
+
+{-| Vangunu
+-}
 mpr : Language
 mpr =
     Language { code = "mpr" }
 
-{-| Dadibi -}
+
+{-| Dadibi
+-}
 mps : Language
 mps =
     Language { code = "mps" }
 
-{-| Mian -}
+
+{-| Mian
+-}
 mpt : Language
 mpt =
     Language { code = "mpt" }
 
-{-| Makuráp -}
+
+{-| Makuráp
+-}
 mpu : Language
 mpu =
     Language { code = "mpu" }
 
-{-| Mungkip -}
+
+{-| Mungkip
+-}
 mpv : Language
 mpv =
     Language { code = "mpv" }
 
-{-| Mapidian -}
+
+{-| Mapidian
+-}
 mpw : Language
 mpw =
     Language { code = "mpw" }
 
-{-| Misima-Panaeati -}
+
+{-| Misima-Panaeati
+-}
 mpx : Language
 mpx =
     Language { code = "mpx" }
 
-{-| Mapia -}
+
+{-| Mapia
+-}
 mpy : Language
 mpy =
     Language { code = "mpy" }
 
-{-| Mpi -}
+
+{-| Mpi
+-}
 mpz : Language
 mpz =
     Language { code = "mpz" }
 
-{-| Maba (Indonesia) -}
+
+{-| Maba (Indonesia)
+-}
 mqa : Language
 mqa =
     Language { code = "mqa" }
 
-{-| Mbuko -}
+
+{-| Mbuko
+-}
 mqb : Language
 mqb =
     Language { code = "mqb" }
 
-{-| Mangole -}
+
+{-| Mangole
+-}
 mqc : Language
 mqc =
     Language { code = "mqc" }
 
-{-| Matepi -}
+
+{-| Matepi
+-}
 mqe : Language
 mqe =
     Language { code = "mqe" }
 
-{-| Momuna -}
+
+{-| Momuna
+-}
 mqf : Language
 mqf =
     Language { code = "mqf" }
 
-{-| Kota Bangun Kutai Malay -}
+
+{-| Kota Bangun Kutai Malay
+-}
 mqg : Language
 mqg =
     Language { code = "mqg" }
 
-{-| Tlazoyaltepec Mixtec -}
+
+{-| Tlazoyaltepec Mixtec
+-}
 mqh : Language
 mqh =
     Language { code = "mqh" }
 
-{-| Mariri -}
+
+{-| Mariri
+-}
 mqi : Language
 mqi =
     Language { code = "mqi" }
 
-{-| Mamasa -}
+
+{-| Mamasa
+-}
 mqj : Language
 mqj =
     Language { code = "mqj" }
 
-{-| Rajah Kabunsuwan Manobo -}
+
+{-| Rajah Kabunsuwan Manobo
+-}
 mqk : Language
 mqk =
     Language { code = "mqk" }
 
-{-| Mbelime -}
+
+{-| Mbelime
+-}
 mql : Language
 mql =
     Language { code = "mql" }
 
-{-| South Marquesan -}
+
+{-| South Marquesan
+-}
 mqm : Language
 mqm =
     Language { code = "mqm" }
 
-{-| Moronene -}
+
+{-| Moronene
+-}
 mqn : Language
 mqn =
     Language { code = "mqn" }
 
-{-| Modole -}
+
+{-| Modole
+-}
 mqo : Language
 mqo =
     Language { code = "mqo" }
 
-{-| Manipa -}
+
+{-| Manipa
+-}
 mqp : Language
 mqp =
     Language { code = "mqp" }
 
-{-| Minokok -}
+
+{-| Minokok
+-}
 mqq : Language
 mqq =
     Language { code = "mqq" }
 
-{-| Mander -}
+
+{-| Mander
+-}
 mqr : Language
 mqr =
     Language { code = "mqr" }
 
-{-| West Makian -}
+
+{-| West Makian
+-}
 mqs : Language
 mqs =
     Language { code = "mqs" }
 
-{-| Mok -}
+
+{-| Mok
+-}
 mqt : Language
 mqt =
     Language { code = "mqt" }
 
-{-| Mandari -}
+
+{-| Mandari
+-}
 mqu : Language
 mqu =
     Language { code = "mqu" }
 
-{-| Mosimo -}
+
+{-| Mosimo
+-}
 mqv : Language
 mqv =
     Language { code = "mqv" }
 
-{-| Murupi -}
+
+{-| Murupi
+-}
 mqw : Language
 mqw =
     Language { code = "mqw" }
 
-{-| Mamuju -}
+
+{-| Mamuju
+-}
 mqx : Language
 mqx =
     Language { code = "mqx" }
 
-{-| Manggarai -}
+
+{-| Manggarai
+-}
 mqy : Language
 mqy =
     Language { code = "mqy" }
 
-{-| Pano -}
+
+{-| Pano
+-}
 mqz : Language
 mqz =
     Language { code = "mqz" }
 
-{-| Marathi -}
+
+{-| Marathi
+-}
 mr : Language
 mr =
     Language { code = "mr" }
 
-{-| Mlabri -}
+
+{-| Mlabri
+-}
 mra : Language
 mra =
     Language { code = "mra" }
 
-{-| Marino -}
+
+{-| Marino
+-}
 mrb : Language
 mrb =
     Language { code = "mrb" }
 
-{-| Maricopa -}
+
+{-| Maricopa
+-}
 mrc : Language
 mrc =
     Language { code = "mrc" }
 
-{-| Western Magar -}
+
+{-| Western Magar
+-}
 mrd : Language
 mrd =
     Language { code = "mrd" }
 
-{-| Martha's Vineyard Sign Language -}
+
+{-| Martha's Vineyard Sign Language
+-}
 mre : Language
 mre =
     Language { code = "mre" }
 
-{-| Elseng -}
+
+{-| Elseng
+-}
 mrf : Language
 mrf =
     Language { code = "mrf" }
 
-{-| Mising -}
+
+{-| Mising
+-}
 mrg : Language
 mrg =
     Language { code = "mrg" }
 
-{-| Mara Chin -}
+
+{-| Mara Chin
+-}
 mrh : Language
 mrh =
     Language { code = "mrh" }
 
-{-| Western Mari -}
+
+{-| Western Mari
+-}
 mrj : Language
 mrj =
     Language { code = "mrj" }
 
-{-| Hmwaveke -}
+
+{-| Hmwaveke
+-}
 mrk : Language
 mrk =
     Language { code = "mrk" }
 
-{-| Mortlockese -}
+
+{-| Mortlockese
+-}
 mrl : Language
 mrl =
     Language { code = "mrl" }
 
+
 {-| Merlav
-Mwerlap -}
+Mwerlap
+-}
 mrm : Language
 mrm =
     Language { code = "mrm" }
 
-{-| Cheke Holo -}
+
+{-| Cheke Holo
+-}
 mrn : Language
 mrn =
     Language { code = "mrn" }
 
-{-| Mru -}
+
+{-| Mru
+-}
 mro : Language
 mro =
     Language { code = "mro" }
 
-{-| Morouas -}
+
+{-| Morouas
+-}
 mrp : Language
 mrp =
     Language { code = "mrp" }
 
-{-| North Marquesan -}
+
+{-| North Marquesan
+-}
 mrq : Language
 mrq =
     Language { code = "mrq" }
 
-{-| Maria (India) -}
+
+{-| Maria (India)
+-}
 mrr : Language
 mrr =
     Language { code = "mrr" }
 
-{-| Maragus -}
+
+{-| Maragus
+-}
 mrs : Language
 mrs =
     Language { code = "mrs" }
 
-{-| Marghi Central -}
+
+{-| Marghi Central
+-}
 mrt : Language
 mrt =
     Language { code = "mrt" }
 
-{-| Mono (Cameroon) -}
+
+{-| Mono (Cameroon)
+-}
 mru : Language
 mru =
     Language { code = "mru" }
 
-{-| Mangareva -}
+
+{-| Mangareva
+-}
 mrv : Language
 mrv =
     Language { code = "mrv" }
 
-{-| Maranao -}
+
+{-| Maranao
+-}
 mrw : Language
 mrw =
     Language { code = "mrw" }
 
+
 {-| Maremgi
-Dineor -}
+Dineor
+-}
 mrx : Language
 mrx =
     Language { code = "mrx" }
 
-{-| Mandaya -}
+
+{-| Mandaya
+-}
 mry : Language
 mry =
     Language { code = "mry" }
 
-{-| Marind -}
+
+{-| Marind
+-}
 mrz : Language
 mrz =
     Language { code = "mrz" }
 
-{-| Malay (macrolanguage) -}
+
+{-| Malay (macrolanguage)
+-}
 ms : Language
 ms =
     Language { code = "ms" }
 
-{-| Masbatenyo -}
+
+{-| Masbatenyo
+-}
 msb : Language
 msb =
     Language { code = "msb" }
 
-{-| Sankaran Maninka -}
+
+{-| Sankaran Maninka
+-}
 msc : Language
 msc =
     Language { code = "msc" }
 
-{-| Yucatec Maya Sign Language -}
+
+{-| Yucatec Maya Sign Language
+-}
 msd : Language
 msd =
     Language { code = "msd" }
 
-{-| Musey -}
+
+{-| Musey
+-}
 mse : Language
 mse =
     Language { code = "mse" }
 
-{-| Mekwei -}
+
+{-| Mekwei
+-}
 msf : Language
 msf =
     Language { code = "msf" }
 
-{-| Moraid -}
+
+{-| Moraid
+-}
 msg : Language
 msg =
     Language { code = "msg" }
 
-{-| Masikoro Malagasy -}
+
+{-| Masikoro Malagasy
+-}
 msh : Language
 msh =
     Language { code = "msh" }
 
-{-| Sabah Malay -}
+
+{-| Sabah Malay
+-}
 msi : Language
 msi =
     Language { code = "msi" }
 
-{-| Ma (Democratic Republic of Congo) -}
+
+{-| Ma (Democratic Republic of Congo)
+-}
 msj : Language
 msj =
     Language { code = "msj" }
 
-{-| Mansaka -}
+
+{-| Mansaka
+-}
 msk : Language
 msk =
     Language { code = "msk" }
 
+
 {-| Molof
-Poule -}
+Poule
+-}
 msl : Language
 msl =
     Language { code = "msl" }
 
-{-| Agusan Manobo -}
+
+{-| Agusan Manobo
+-}
 msm : Language
 msm =
     Language { code = "msm" }
 
-{-| Vurës -}
+
+{-| Vurës
+-}
 msn : Language
 msn =
     Language { code = "msn" }
 
-{-| Mombum -}
+
+{-| Mombum
+-}
 mso : Language
 mso =
     Language { code = "mso" }
 
-{-| Maritsauá -}
+
+{-| Maritsauá
+-}
 msp : Language
 msp =
     Language { code = "msp" }
 
-{-| Caac -}
+
+{-| Caac
+-}
 msq : Language
 msq =
     Language { code = "msq" }
 
-{-| Mongolian Sign Language -}
+
+{-| Mongolian Sign Language
+-}
 msr : Language
 msr =
     Language { code = "msr" }
 
-{-| West Masela -}
+
+{-| West Masela
+-}
 mss : Language
 mss =
     Language { code = "mss" }
 
-{-| Cataelano Mandaya -}
+
+{-| Cataelano Mandaya
+-}
 mst : Language
 mst =
     Language { code = "mst" }
 
-{-| Musom -}
+
+{-| Musom
+-}
 msu : Language
 msu =
     Language { code = "msu" }
 
-{-| Maslam -}
+
+{-| Maslam
+-}
 msv : Language
 msv =
     Language { code = "msv" }
 
-{-| Mansoanka -}
+
+{-| Mansoanka
+-}
 msw : Language
 msw =
     Language { code = "msw" }
 
-{-| Moresada -}
+
+{-| Moresada
+-}
 msx : Language
 msx =
     Language { code = "msx" }
 
-{-| Aruamu -}
+
+{-| Aruamu
+-}
 msy : Language
 msy =
     Language { code = "msy" }
 
-{-| Momare -}
+
+{-| Momare
+-}
 msz : Language
 msz =
     Language { code = "msz" }
 
-{-| Maltese -}
+
+{-| Maltese
+-}
 mt : Language
 mt =
     Language { code = "mt" }
 
-{-| Cotabato Manobo -}
+
+{-| Cotabato Manobo
+-}
 mta : Language
 mta =
     Language { code = "mta" }
 
-{-| Anyin Morofo -}
+
+{-| Anyin Morofo
+-}
 mtb : Language
 mtb =
     Language { code = "mtb" }
 
-{-| Munit -}
+
+{-| Munit
+-}
 mtc : Language
 mtc =
     Language { code = "mtc" }
 
-{-| Mualang -}
+
+{-| Mualang
+-}
 mtd : Language
 mtd =
     Language { code = "mtd" }
 
-{-| Mono (Solomon Islands) -}
+
+{-| Mono (Solomon Islands)
+-}
 mte : Language
 mte =
     Language { code = "mte" }
 
-{-| Murik (Papua New Guinea) -}
+
+{-| Murik (Papua New Guinea)
+-}
 mtf : Language
 mtf =
     Language { code = "mtf" }
 
-{-| Una -}
+
+{-| Una
+-}
 mtg : Language
 mtg =
     Language { code = "mtg" }
 
-{-| Munggui -}
+
+{-| Munggui
+-}
 mth : Language
 mth =
     Language { code = "mth" }
 
-{-| Maiwa (Papua New Guinea) -}
+
+{-| Maiwa (Papua New Guinea)
+-}
 mti : Language
 mti =
     Language { code = "mti" }
 
-{-| Moskona -}
+
+{-| Moskona
+-}
 mtj : Language
 mtj =
     Language { code = "mtj" }
 
-{-| Mbe' -}
+
+{-| Mbe'
+-}
 mtk : Language
 mtk =
     Language { code = "mtk" }
 
-{-| Montol -}
+
+{-| Montol
+-}
 mtl : Language
 mtl =
     Language { code = "mtl" }
 
-{-| Mator -}
+
+{-| Mator
+-}
 mtm : Language
 mtm =
     Language { code = "mtm" }
 
-{-| Matagalpa -}
+
+{-| Matagalpa
+-}
 mtn : Language
 mtn =
     Language { code = "mtn" }
 
-{-| Totontepec Mixe -}
+
+{-| Totontepec Mixe
+-}
 mto : Language
 mto =
     Language { code = "mto" }
 
-{-| Wichí Lhamtés Nocten -}
+
+{-| Wichí Lhamtés Nocten
+-}
 mtp : Language
 mtp =
     Language { code = "mtp" }
 
-{-| Muong -}
+
+{-| Muong
+-}
 mtq : Language
 mtq =
     Language { code = "mtq" }
 
-{-| Mewari -}
+
+{-| Mewari
+-}
 mtr : Language
 mtr =
     Language { code = "mtr" }
 
-{-| Yora -}
+
+{-| Yora
+-}
 mts : Language
 mts =
     Language { code = "mts" }
 
-{-| Mota -}
+
+{-| Mota
+-}
 mtt : Language
 mtt =
     Language { code = "mtt" }
 
-{-| Tututepec Mixtec -}
+
+{-| Tututepec Mixtec
+-}
 mtu : Language
 mtu =
     Language { code = "mtu" }
 
-{-| Asaro'o -}
+
+{-| Asaro'o
+-}
 mtv : Language
 mtv =
     Language { code = "mtv" }
 
-{-| Southern Binukidnon -}
+
+{-| Southern Binukidnon
+-}
 mtw : Language
 mtw =
     Language { code = "mtw" }
 
-{-| Tidaá Mixtec -}
+
+{-| Tidaá Mixtec
+-}
 mtx : Language
 mtx =
     Language { code = "mtx" }
 
-{-| Nabi -}
+
+{-| Nabi
+-}
 mty : Language
 mty =
     Language { code = "mty" }
 
-{-| Mundang -}
+
+{-| Mundang
+-}
 mua : Language
 mua =
     Language { code = "mua" }
 
-{-| Mubi -}
+
+{-| Mubi
+-}
 mub : Language
 mub =
     Language { code = "mub" }
 
-{-| Ajumbu -}
+
+{-| Ajumbu
+-}
 muc : Language
 muc =
     Language { code = "muc" }
 
-{-| Mednyj Aleut -}
+
+{-| Mednyj Aleut
+-}
 mud : Language
 mud =
     Language { code = "mud" }
 
-{-| Media Lengua -}
+
+{-| Media Lengua
+-}
 mue : Language
 mue =
     Language { code = "mue" }
 
-{-| Musgu -}
+
+{-| Musgu
+-}
 mug : Language
 mug =
     Language { code = "mug" }
 
-{-| Mündü -}
+
+{-| Mündü
+-}
 muh : Language
 muh =
     Language { code = "muh" }
 
-{-| Musi -}
+
+{-| Musi
+-}
 mui : Language
 mui =
     Language { code = "mui" }
 
-{-| Mabire -}
+
+{-| Mabire
+-}
 muj : Language
 muj =
     Language { code = "muj" }
 
-{-| Mugom -}
+
+{-| Mugom
+-}
 muk : Language
 muk =
     Language { code = "muk" }
 
-{-| Multiple languages -}
+
+{-| Multiple languages
+-}
 mul : Language
 mul =
     Language { code = "mul" }
 
-{-| Maiwala -}
+
+{-| Maiwala
+-}
 mum : Language
 mum =
     Language { code = "mum" }
 
-{-| Munda languages -}
+
+{-| Munda languages
+-}
 mun : Language
 mun =
     Language { code = "mun" }
 
-{-| Nyong -}
+
+{-| Nyong
+-}
 muo : Language
 muo =
     Language { code = "muo" }
 
-{-| Malvi -}
+
+{-| Malvi
+-}
 mup : Language
 mup =
     Language { code = "mup" }
 
-{-| Eastern Xiangxi Miao -}
+
+{-| Eastern Xiangxi Miao
+-}
 muq : Language
 muq =
     Language { code = "muq" }
 
-{-| Murle -}
+
+{-| Murle
+-}
 mur : Language
 mur =
     Language { code = "mur" }
 
-{-| Creek -}
+
+{-| Creek
+-}
 mus : Language
 mus =
     Language { code = "mus" }
 
-{-| Western Muria -}
+
+{-| Western Muria
+-}
 mut : Language
 mut =
     Language { code = "mut" }
 
-{-| Yaaku -}
+
+{-| Yaaku
+-}
 muu : Language
 muu =
     Language { code = "muu" }
 
-{-| Muthuvan -}
+
+{-| Muthuvan
+-}
 muv : Language
 muv =
     Language { code = "muv" }
 
-{-| Bo-Ung -}
+
+{-| Bo-Ung
+-}
 mux : Language
 mux =
     Language { code = "mux" }
 
-{-| Muyang -}
+
+{-| Muyang
+-}
 muy : Language
 muy =
     Language { code = "muy" }
 
-{-| Mursi -}
+
+{-| Mursi
+-}
 muz : Language
 muz =
     Language { code = "muz" }
 
-{-| Manam -}
+
+{-| Manam
+-}
 mva : Language
 mva =
     Language { code = "mva" }
 
-{-| Mattole -}
+
+{-| Mattole
+-}
 mvb : Language
 mvb =
     Language { code = "mvb" }
 
-{-| Mamboru -}
+
+{-| Mamboru
+-}
 mvd : Language
 mvd =
     Language { code = "mvd" }
 
-{-| Marwari (Pakistan) -}
+
+{-| Marwari (Pakistan)
+-}
 mve : Language
 mve =
     Language { code = "mve" }
 
-{-| Peripheral Mongolian -}
+
+{-| Peripheral Mongolian
+-}
 mvf : Language
 mvf =
     Language { code = "mvf" }
 
-{-| Yucuañe Mixtec -}
+
+{-| Yucuañe Mixtec
+-}
 mvg : Language
 mvg =
     Language { code = "mvg" }
 
-{-| Mulgi -}
+
+{-| Mulgi
+-}
 mvh : Language
 mvh =
     Language { code = "mvh" }
 
-{-| Miyako -}
+
+{-| Miyako
+-}
 mvi : Language
 mvi =
     Language { code = "mvi" }
 
-{-| Mekmek -}
+
+{-| Mekmek
+-}
 mvk : Language
 mvk =
     Language { code = "mvk" }
 
-{-| Mbara (Australia) -}
+
+{-| Mbara (Australia)
+-}
 mvl : Language
 mvl =
     Language { code = "mvl" }
 
-{-| Muya -}
+
+{-| Muya
+-}
 mvm : Language
 mvm =
     Language { code = "mvm" }
 
-{-| Minaveha -}
+
+{-| Minaveha
+-}
 mvn : Language
 mvn =
     Language { code = "mvn" }
 
-{-| Marovo -}
+
+{-| Marovo
+-}
 mvo : Language
 mvo =
     Language { code = "mvo" }
 
-{-| Duri -}
+
+{-| Duri
+-}
 mvp : Language
 mvp =
     Language { code = "mvp" }
 
-{-| Moere -}
+
+{-| Moere
+-}
 mvq : Language
 mvq =
     Language { code = "mvq" }
 
-{-| Marau -}
+
+{-| Marau
+-}
 mvr : Language
 mvr =
     Language { code = "mvr" }
 
-{-| Massep -}
+
+{-| Massep
+-}
 mvs : Language
 mvs =
     Language { code = "mvs" }
 
-{-| Mpotovoro -}
+
+{-| Mpotovoro
+-}
 mvt : Language
 mvt =
     Language { code = "mvt" }
 
-{-| Marfa -}
+
+{-| Marfa
+-}
 mvu : Language
 mvu =
     Language { code = "mvu" }
 
-{-| Tagal Murut -}
+
+{-| Tagal Murut
+-}
 mvv : Language
 mvv =
     Language { code = "mvv" }
 
-{-| Machinga -}
+
+{-| Machinga
+-}
 mvw : Language
 mvw =
     Language { code = "mvw" }
 
-{-| Meoswar -}
+
+{-| Meoswar
+-}
 mvx : Language
 mvx =
     Language { code = "mvx" }
 
-{-| Indus Kohistani -}
+
+{-| Indus Kohistani
+-}
 mvy : Language
 mvy =
     Language { code = "mvy" }
 
-{-| Mesqan -}
+
+{-| Mesqan
+-}
 mvz : Language
 mvz =
     Language { code = "mvz" }
 
-{-| Mwatebu -}
+
+{-| Mwatebu
+-}
 mwa : Language
 mwa =
     Language { code = "mwa" }
 
-{-| Juwal -}
+
+{-| Juwal
+-}
 mwb : Language
 mwb =
     Language { code = "mwb" }
 
-{-| Are -}
+
+{-| Are
+-}
 mwc : Language
 mwc =
     Language { code = "mwc" }
 
-{-| Mudbura -}
+
+{-| Mudbura
+-}
 mwd : Language
 mwd =
     Language { code = "mwd" }
 
-{-| Mwera (Chimwera) -}
+
+{-| Mwera (Chimwera)
+-}
 mwe : Language
 mwe =
     Language { code = "mwe" }
 
-{-| Murrinh-Patha -}
+
+{-| Murrinh-Patha
+-}
 mwf : Language
 mwf =
     Language { code = "mwf" }
 
-{-| Aiklep -}
+
+{-| Aiklep
+-}
 mwg : Language
 mwg =
     Language { code = "mwg" }
 
-{-| Mouk-Aria -}
+
+{-| Mouk-Aria
+-}
 mwh : Language
 mwh =
     Language { code = "mwh" }
 
+
 {-| Labo
-Ninde -}
+Ninde
+-}
 mwi : Language
 mwi =
     Language { code = "mwi" }
 
-{-| Maligo -}
+
+{-| Maligo
+-}
 mwj : Language
 mwj =
     Language { code = "mwj" }
 
-{-| Kita Maninkakan -}
+
+{-| Kita Maninkakan
+-}
 mwk : Language
 mwk =
     Language { code = "mwk" }
 
-{-| Mirandese -}
+
+{-| Mirandese
+-}
 mwl : Language
 mwl =
     Language { code = "mwl" }
 
-{-| Sar -}
+
+{-| Sar
+-}
 mwm : Language
 mwm =
     Language { code = "mwm" }
 
-{-| Nyamwanga -}
+
+{-| Nyamwanga
+-}
 mwn : Language
 mwn =
     Language { code = "mwn" }
 
-{-| Central Maewo -}
+
+{-| Central Maewo
+-}
 mwo : Language
 mwo =
     Language { code = "mwo" }
 
-{-| Kala Lagaw Ya -}
+
+{-| Kala Lagaw Ya
+-}
 mwp : Language
 mwp =
     Language { code = "mwp" }
 
-{-| Mün Chin -}
+
+{-| Mün Chin
+-}
 mwq : Language
 mwq =
     Language { code = "mwq" }
 
-{-| Marwari -}
+
+{-| Marwari
+-}
 mwr : Language
 mwr =
     Language { code = "mwr" }
 
-{-| Mwimbi-Muthambi -}
+
+{-| Mwimbi-Muthambi
+-}
 mws : Language
 mws =
     Language { code = "mws" }
 
-{-| Moken -}
+
+{-| Moken
+-}
 mwt : Language
 mwt =
     Language { code = "mwt" }
 
-{-| Mittu -}
+
+{-| Mittu
+-}
 mwu : Language
 mwu =
     Language { code = "mwu" }
 
-{-| Mentawai -}
+
+{-| Mentawai
+-}
 mwv : Language
 mwv =
     Language { code = "mwv" }
 
-{-| Hmong Daw -}
+
+{-| Hmong Daw
+-}
 mww : Language
 mww =
     Language { code = "mww" }
 
-{-| Mediak -}
+
+{-| Mediak
+-}
 mwx : Language
 mwx =
     Language { code = "mwx" }
 
-{-| Mosiro -}
+
+{-| Mosiro
+-}
 mwy : Language
 mwy =
     Language { code = "mwy" }
 
-{-| Moingi -}
+
+{-| Moingi
+-}
 mwz : Language
 mwz =
     Language { code = "mwz" }
 
-{-| Northwest Oaxaca Mixtec -}
+
+{-| Northwest Oaxaca Mixtec
+-}
 mxa : Language
 mxa =
     Language { code = "mxa" }
 
-{-| Tezoatlán Mixtec -}
+
+{-| Tezoatlán Mixtec
+-}
 mxb : Language
 mxb =
     Language { code = "mxb" }
 
-{-| Manyika -}
+
+{-| Manyika
+-}
 mxc : Language
 mxc =
     Language { code = "mxc" }
 
-{-| Modang -}
+
+{-| Modang
+-}
 mxd : Language
 mxd =
     Language { code = "mxd" }
 
-{-| Mele-Fila -}
+
+{-| Mele-Fila
+-}
 mxe : Language
 mxe =
     Language { code = "mxe" }
 
-{-| Malgbe -}
+
+{-| Malgbe
+-}
 mxf : Language
 mxf =
     Language { code = "mxf" }
 
-{-| Mbangala -}
+
+{-| Mbangala
+-}
 mxg : Language
 mxg =
     Language { code = "mxg" }
 
-{-| Mvuba -}
+
+{-| Mvuba
+-}
 mxh : Language
 mxh =
     Language { code = "mxh" }
 
-{-| Mozarabic -}
+
+{-| Mozarabic
+-}
 mxi : Language
 mxi =
     Language { code = "mxi" }
 
+
 {-| Miju-Mishmi
-Geman Deng -}
+Geman Deng
+-}
 mxj : Language
 mxj =
     Language { code = "mxj" }
 
-{-| Monumbo -}
+
+{-| Monumbo
+-}
 mxk : Language
 mxk =
     Language { code = "mxk" }
 
-{-| Maxi Gbe -}
+
+{-| Maxi Gbe
+-}
 mxl : Language
 mxl =
     Language { code = "mxl" }
 
-{-| Meramera -}
+
+{-| Meramera
+-}
 mxm : Language
 mxm =
     Language { code = "mxm" }
 
-{-| Moi (Indonesia) -}
+
+{-| Moi (Indonesia)
+-}
 mxn : Language
 mxn =
     Language { code = "mxn" }
 
-{-| Mbowe -}
+
+{-| Mbowe
+-}
 mxo : Language
 mxo =
     Language { code = "mxo" }
 
-{-| Tlahuitoltepec Mixe -}
+
+{-| Tlahuitoltepec Mixe
+-}
 mxp : Language
 mxp =
     Language { code = "mxp" }
 
-{-| Juquila Mixe -}
+
+{-| Juquila Mixe
+-}
 mxq : Language
 mxq =
     Language { code = "mxq" }
 
-{-| Murik (Malaysia) -}
+
+{-| Murik (Malaysia)
+-}
 mxr : Language
 mxr =
     Language { code = "mxr" }
 
-{-| Huitepec Mixtec -}
+
+{-| Huitepec Mixtec
+-}
 mxs : Language
 mxs =
     Language { code = "mxs" }
 
-{-| Jamiltepec Mixtec -}
+
+{-| Jamiltepec Mixtec
+-}
 mxt : Language
 mxt =
     Language { code = "mxt" }
 
-{-| Mada (Cameroon) -}
+
+{-| Mada (Cameroon)
+-}
 mxu : Language
 mxu =
     Language { code = "mxu" }
 
-{-| Metlatónoc Mixtec -}
+
+{-| Metlatónoc Mixtec
+-}
 mxv : Language
 mxv =
     Language { code = "mxv" }
 
-{-| Namo -}
+
+{-| Namo
+-}
 mxw : Language
 mxw =
     Language { code = "mxw" }
 
+
 {-| Mahou
-Mawukakan -}
+Mawukakan
+-}
 mxx : Language
 mxx =
     Language { code = "mxx" }
 
-{-| Southeastern Nochixtlán Mixtec -}
+
+{-| Southeastern Nochixtlán Mixtec
+-}
 mxy : Language
 mxy =
     Language { code = "mxy" }
 
-{-| Central Masela -}
+
+{-| Central Masela
+-}
 mxz : Language
 mxz =
     Language { code = "mxz" }
 
-{-| Burmese -}
+
+{-| Burmese
+-}
 my : Language
 my =
     Language { code = "my" }
 
-{-| Mbay -}
+
+{-| Mbay
+-}
 myb : Language
 myb =
     Language { code = "myb" }
 
-{-| Mayeka -}
+
+{-| Mayeka
+-}
 myc : Language
 myc =
     Language { code = "myc" }
 
-{-| Maramba -}
+
+{-| Maramba
+-}
 myd : Language
 myd =
     Language { code = "myd" }
 
-{-| Myene -}
+
+{-| Myene
+-}
 mye : Language
 mye =
     Language { code = "mye" }
 
-{-| Bambassi -}
+
+{-| Bambassi
+-}
 myf : Language
 myf =
     Language { code = "myf" }
 
-{-| Manta -}
+
+{-| Manta
+-}
 myg : Language
 myg =
     Language { code = "myg" }
 
-{-| Makah -}
+
+{-| Makah
+-}
 myh : Language
 myh =
     Language { code = "myh" }
 
-{-| Mina (India) -}
+
+{-| Mina (India)
+-}
 myi : Language
 myi =
     Language { code = "myi" }
 
-{-| Mangayat -}
+
+{-| Mangayat
+-}
 myj : Language
 myj =
     Language { code = "myj" }
 
-{-| Mamara Senoufo -}
+
+{-| Mamara Senoufo
+-}
 myk : Language
 myk =
     Language { code = "myk" }
 
-{-| Moma -}
+
+{-| Moma
+-}
 myl : Language
 myl =
     Language { code = "myl" }
 
-{-| Me'en -}
+
+{-| Me'en
+-}
 mym : Language
 mym =
     Language { code = "mym" }
 
-{-| Mayan languages -}
+
+{-| Mayan languages
+-}
 myn : Language
 myn =
     Language { code = "myn" }
 
-{-| Anfillo -}
+
+{-| Anfillo
+-}
 myo : Language
 myo =
     Language { code = "myo" }
 
-{-| Pirahã -}
+
+{-| Pirahã
+-}
 myp : Language
 myp =
     Language { code = "myp" }
 
-{-| Forest Maninka -}
+
+{-| Forest Maninka
+-}
 myq : Language
 myq =
     Language { code = "myq" }
 
-{-| Muniche -}
+
+{-| Muniche
+-}
 myr : Language
 myr =
     Language { code = "myr" }
 
-{-| Mesmes -}
+
+{-| Mesmes
+-}
 mys : Language
 mys =
     Language { code = "mys" }
 
-{-| Sangab Mandaya -}
+
+{-| Sangab Mandaya
+-}
 myt : Language
 myt =
     Language { code = "myt" }
 
-{-| Mundurukú -}
+
+{-| Mundurukú
+-}
 myu : Language
 myu =
     Language { code = "myu" }
 
-{-| Erzya -}
+
+{-| Erzya
+-}
 myv : Language
 myv =
     Language { code = "myv" }
 
-{-| Muyuw -}
+
+{-| Muyuw
+-}
 myw : Language
 myw =
     Language { code = "myw" }
 
-{-| Masaaba -}
+
+{-| Masaaba
+-}
 myx : Language
 myx =
     Language { code = "myx" }
 
-{-| Macuna -}
+
+{-| Macuna
+-}
 myy : Language
 myy =
     Language { code = "myy" }
 
-{-| Classical Mandaic -}
+
+{-| Classical Mandaic
+-}
 myz : Language
 myz =
     Language { code = "myz" }
 
-{-| Santa María Zacatepec Mixtec -}
+
+{-| Santa María Zacatepec Mixtec
+-}
 mza : Language
 mza =
     Language { code = "mza" }
 
-{-| Tumzabt -}
+
+{-| Tumzabt
+-}
 mzb : Language
 mzb =
     Language { code = "mzb" }
 
-{-| Madagascar Sign Language -}
+
+{-| Madagascar Sign Language
+-}
 mzc : Language
 mzc =
     Language { code = "mzc" }
 
-{-| Malimba -}
+
+{-| Malimba
+-}
 mzd : Language
 mzd =
     Language { code = "mzd" }
 
-{-| Morawa -}
+
+{-| Morawa
+-}
 mze : Language
 mze =
     Language { code = "mze" }
 
-{-| Monastic Sign Language -}
+
+{-| Monastic Sign Language
+-}
 mzg : Language
 mzg =
     Language { code = "mzg" }
 
-{-| Wichí Lhamtés Güisnay -}
+
+{-| Wichí Lhamtés Güisnay
+-}
 mzh : Language
 mzh =
     Language { code = "mzh" }
 
-{-| Ixcatlán Mazatec -}
+
+{-| Ixcatlán Mazatec
+-}
 mzi : Language
 mzi =
     Language { code = "mzi" }
 
-{-| Manya -}
+
+{-| Manya
+-}
 mzj : Language
 mzj =
     Language { code = "mzj" }
 
-{-| Nigeria Mambila -}
+
+{-| Nigeria Mambila
+-}
 mzk : Language
 mzk =
     Language { code = "mzk" }
 
-{-| Mazatlán Mixe -}
+
+{-| Mazatlán Mixe
+-}
 mzl : Language
 mzl =
     Language { code = "mzl" }
 
-{-| Mumuye -}
+
+{-| Mumuye
+-}
 mzm : Language
 mzm =
     Language { code = "mzm" }
 
-{-| Mazanderani -}
+
+{-| Mazanderani
+-}
 mzn : Language
 mzn =
     Language { code = "mzn" }
 
-{-| Matipuhy -}
+
+{-| Matipuhy
+-}
 mzo : Language
 mzo =
     Language { code = "mzo" }
 
-{-| Movima -}
+
+{-| Movima
+-}
 mzp : Language
 mzp =
     Language { code = "mzp" }
 
-{-| Mori Atas -}
+
+{-| Mori Atas
+-}
 mzq : Language
 mzq =
     Language { code = "mzq" }
 
-{-| Marúbo -}
+
+{-| Marúbo
+-}
 mzr : Language
 mzr =
     Language { code = "mzr" }
 
-{-| Macanese -}
+
+{-| Macanese
+-}
 mzs : Language
 mzs =
     Language { code = "mzs" }
 
-{-| Mintil -}
+
+{-| Mintil
+-}
 mzt : Language
 mzt =
     Language { code = "mzt" }
 
-{-| Inapang -}
+
+{-| Inapang
+-}
 mzu : Language
 mzu =
     Language { code = "mzu" }
 
-{-| Manza -}
+
+{-| Manza
+-}
 mzv : Language
 mzv =
     Language { code = "mzv" }
 
-{-| Deg -}
+
+{-| Deg
+-}
 mzw : Language
 mzw =
     Language { code = "mzw" }
 
-{-| Mawayana -}
+
+{-| Mawayana
+-}
 mzx : Language
 mzx =
     Language { code = "mzx" }
 
-{-| Mozambican Sign Language -}
+
+{-| Mozambican Sign Language
+-}
 mzy : Language
 mzy =
     Language { code = "mzy" }
 
-{-| Maiadomu -}
+
+{-| Maiadomu
+-}
 mzz : Language
 mzz =
     Language { code = "mzz" }
 
-{-| Nauru -}
+
+{-| Nauru
+-}
 na : Language
 na =
     Language { code = "na" }
 
-{-| Namla -}
+
+{-| Namla
+-}
 naa : Language
 naa =
     Language { code = "naa" }
 
-{-| Southern Nambikuára -}
+
+{-| Southern Nambikuára
+-}
 nab : Language
 nab =
     Language { code = "nab" }
 
-{-| Narak -}
+
+{-| Narak
+-}
 nac : Language
 nac =
     Language { code = "nac" }
 
-{-| Nijadali -}
+
+{-| Nijadali
+-}
 nad : Language
 nad =
     Language { code = "nad" }
 
-{-| Naka'ela -}
+
+{-| Naka'ela
+-}
 nae : Language
 nae =
     Language { code = "nae" }
 
-{-| Nabak -}
+
+{-| Nabak
+-}
 naf : Language
 naf =
     Language { code = "naf" }
 
-{-| Naga Pidgin -}
+
+{-| Naga Pidgin
+-}
 nag : Language
 nag =
     Language { code = "nag" }
 
-{-| Nahuatl languages -}
+
+{-| Nahuatl languages
+-}
 nah : Language
 nah =
     Language { code = "nah" }
 
-{-| North American Indian languages -}
+
+{-| North American Indian languages
+-}
 nai : Language
 nai =
     Language { code = "nai" }
 
-{-| Nalu -}
+
+{-| Nalu
+-}
 naj : Language
 naj =
     Language { code = "naj" }
 
-{-| Nakanai -}
+
+{-| Nakanai
+-}
 nak : Language
 nak =
     Language { code = "nak" }
 
-{-| Nalik -}
+
+{-| Nalik
+-}
 nal : Language
 nal =
     Language { code = "nal" }
 
-{-| Ngan'gityemerri -}
+
+{-| Ngan'gityemerri
+-}
 nam : Language
 nam =
     Language { code = "nam" }
 
-{-| Min Nan Chinese -}
+
+{-| Min Nan Chinese
+-}
 nan : Language
 nan =
     Language { code = "nan" }
 
-{-| Naaba -}
+
+{-| Naaba
+-}
 nao : Language
 nao =
     Language { code = "nao" }
 
-{-| Neapolitan -}
+
+{-| Neapolitan
+-}
 nap : Language
 nap =
     Language { code = "nap" }
 
+
 {-| Khoekhoe
-Nama (Namibia) -}
+Nama (Namibia)
+-}
 naq : Language
 naq =
     Language { code = "naq" }
 
-{-| Iguta -}
+
+{-| Iguta
+-}
 nar : Language
 nar =
     Language { code = "nar" }
 
-{-| Naasioi -}
+
+{-| Naasioi
+-}
 nas : Language
 nas =
     Language { code = "nas" }
 
+
 {-| Ca̱hungwa̱rya̱
-Hungworo -}
+Hungworo
+-}
 nat : Language
 nat =
     Language { code = "nat" }
 
-{-| Nawuri -}
+
+{-| Nawuri
+-}
 naw : Language
 naw =
     Language { code = "naw" }
 
-{-| Nakwi -}
+
+{-| Nakwi
+-}
 nax : Language
 nax =
     Language { code = "nax" }
 
-{-| Ngarrindjeri -}
+
+{-| Ngarrindjeri
+-}
 nay : Language
 nay =
     Language { code = "nay" }
 
-{-| Coatepec Nahuatl -}
+
+{-| Coatepec Nahuatl
+-}
 naz : Language
 naz =
     Language { code = "naz" }
 
-{-| Norwegian Bokmål -}
+
+{-| Norwegian Bokmål
+-}
 nb : Language
 nb =
     Language { code = "nb" }
 
-{-| Nyemba -}
+
+{-| Nyemba
+-}
 nba : Language
 nba =
     Language { code = "nba" }
 
-{-| Ndoe -}
+
+{-| Ndoe
+-}
 nbb : Language
 nbb =
     Language { code = "nbb" }
 
-{-| Chang Naga -}
+
+{-| Chang Naga
+-}
 nbc : Language
 nbc =
     Language { code = "nbc" }
 
-{-| Ngbinda -}
+
+{-| Ngbinda
+-}
 nbd : Language
 nbd =
     Language { code = "nbd" }
 
-{-| Konyak Naga -}
+
+{-| Konyak Naga
+-}
 nbe : Language
 nbe =
     Language { code = "nbe" }
 
-{-| Naxi -}
+
+{-| Naxi
+-}
 nbf : Language
 nbf =
     Language { code = "nbf" }
 
-{-| Nagarchal -}
+
+{-| Nagarchal
+-}
 nbg : Language
 nbg =
     Language { code = "nbg" }
 
-{-| Ngamo -}
+
+{-| Ngamo
+-}
 nbh : Language
 nbh =
     Language { code = "nbh" }
 
-{-| Mao Naga -}
+
+{-| Mao Naga
+-}
 nbi : Language
 nbi =
     Language { code = "nbi" }
 
-{-| Ngarinyman -}
+
+{-| Ngarinyman
+-}
 nbj : Language
 nbj =
     Language { code = "nbj" }
 
-{-| Nake -}
+
+{-| Nake
+-}
 nbk : Language
 nbk =
     Language { code = "nbk" }
 
-{-| Ngbaka Ma'bo -}
+
+{-| Ngbaka Ma'bo
+-}
 nbm : Language
 nbm =
     Language { code = "nbm" }
 
-{-| Kuri -}
+
+{-| Kuri
+-}
 nbn : Language
 nbn =
     Language { code = "nbn" }
 
-{-| Nkukoli -}
+
+{-| Nkukoli
+-}
 nbo : Language
 nbo =
     Language { code = "nbo" }
 
-{-| Nnam -}
+
+{-| Nnam
+-}
 nbp : Language
 nbp =
     Language { code = "nbp" }
 
-{-| Nggem -}
+
+{-| Nggem
+-}
 nbq : Language
 nbq =
     Language { code = "nbq" }
 
-{-| Numana -}
+
+{-| Numana
+-}
 nbr : Language
 nbr =
     Language { code = "nbr" }
 
-{-| Namibian Sign Language -}
+
+{-| Namibian Sign Language
+-}
 nbs : Language
 nbs =
     Language { code = "nbs" }
 
-{-| Na -}
+
+{-| Na
+-}
 nbt : Language
 nbt =
     Language { code = "nbt" }
 
-{-| Rongmei Naga -}
+
+{-| Rongmei Naga
+-}
 nbu : Language
 nbu =
     Language { code = "nbu" }
 
-{-| Ngamambo -}
+
+{-| Ngamambo
+-}
 nbv : Language
 nbv =
     Language { code = "nbv" }
 
-{-| Southern Ngbandi -}
+
+{-| Southern Ngbandi
+-}
 nbw : Language
 nbw =
     Language { code = "nbw" }
 
-{-| Ngura -}
+
+{-| Ngura
+-}
 nbx : Language
 nbx =
     Language { code = "nbx" }
 
-{-| Ningera -}
+
+{-| Ningera
+-}
 nby : Language
 nby =
     Language { code = "nby" }
 
-{-| Iyo -}
+
+{-| Iyo
+-}
 nca : Language
 nca =
     Language { code = "nca" }
 
-{-| Central Nicobarese -}
+
+{-| Central Nicobarese
+-}
 ncb : Language
 ncb =
     Language { code = "ncb" }
 
-{-| Ponam -}
+
+{-| Ponam
+-}
 ncc : Language
 ncc =
     Language { code = "ncc" }
 
-{-| Nachering -}
+
+{-| Nachering
+-}
 ncd : Language
 ncd =
     Language { code = "ncd" }
 
-{-| Yale -}
+
+{-| Yale
+-}
 nce : Language
 nce =
     Language { code = "nce" }
 
-{-| Notsi -}
+
+{-| Notsi
+-}
 ncf : Language
 ncf =
     Language { code = "ncf" }
 
-{-| Nisga'a -}
+
+{-| Nisga'a
+-}
 ncg : Language
 ncg =
     Language { code = "ncg" }
 
-{-| Central Huasteca Nahuatl -}
+
+{-| Central Huasteca Nahuatl
+-}
 nch : Language
 nch =
     Language { code = "nch" }
 
-{-| Classical Nahuatl -}
+
+{-| Classical Nahuatl
+-}
 nci : Language
 nci =
     Language { code = "nci" }
 
-{-| Northern Puebla Nahuatl -}
+
+{-| Northern Puebla Nahuatl
+-}
 ncj : Language
 ncj =
     Language { code = "ncj" }
 
-{-| Na-kara -}
+
+{-| Na-kara
+-}
 nck : Language
 nck =
     Language { code = "nck" }
 
-{-| Michoacán Nahuatl -}
+
+{-| Michoacán Nahuatl
+-}
 ncl : Language
 ncl =
     Language { code = "ncl" }
 
-{-| Nambo -}
+
+{-| Nambo
+-}
 ncm : Language
 ncm =
     Language { code = "ncm" }
 
-{-| Nauna -}
+
+{-| Nauna
+-}
 ncn : Language
 ncn =
     Language { code = "ncn" }
 
-{-| Sibe -}
+
+{-| Sibe
+-}
 nco : Language
 nco =
     Language { code = "nco" }
 
-{-| Ndaktup -}
+
+{-| Ndaktup
+-}
 ncp : Language
 ncp =
     Language { code = "ncp" }
 
-{-| Northern Katang -}
+
+{-| Northern Katang
+-}
 ncq : Language
 ncq =
     Language { code = "ncq" }
 
-{-| Ncane -}
+
+{-| Ncane
+-}
 ncr : Language
 ncr =
     Language { code = "ncr" }
 
-{-| Nicaraguan Sign Language -}
+
+{-| Nicaraguan Sign Language
+-}
 ncs : Language
 ncs =
     Language { code = "ncs" }
 
-{-| Chothe Naga -}
+
+{-| Chothe Naga
+-}
 nct : Language
 nct =
     Language { code = "nct" }
 
-{-| Chumburung -}
+
+{-| Chumburung
+-}
 ncu : Language
 ncu =
     Language { code = "ncu" }
 
-{-| Central Puebla Nahuatl -}
+
+{-| Central Puebla Nahuatl
+-}
 ncx : Language
 ncx =
     Language { code = "ncx" }
 
-{-| Natchez -}
+
+{-| Natchez
+-}
 ncz : Language
 ncz =
     Language { code = "ncz" }
 
-{-| North Ndebele -}
+
+{-| North Ndebele
+-}
 nd : Language
 nd =
     Language { code = "nd" }
 
-{-| Ndasa -}
+
+{-| Ndasa
+-}
 nda : Language
 nda =
     Language { code = "nda" }
 
-{-| Kenswei Nsei -}
+
+{-| Kenswei Nsei
+-}
 ndb : Language
 ndb =
     Language { code = "ndb" }
 
-{-| Ndau -}
+
+{-| Ndau
+-}
 ndc : Language
 ndc =
     Language { code = "ndc" }
 
-{-| Nde-Nsele-Nta -}
+
+{-| Nde-Nsele-Nta
+-}
 ndd : Language
 ndd =
     Language { code = "ndd" }
 
-{-| Nadruvian -}
+
+{-| Nadruvian
+-}
 ndf : Language
 ndf =
     Language { code = "ndf" }
 
-{-| Ndengereko -}
+
+{-| Ndengereko
+-}
 ndg : Language
 ndg =
     Language { code = "ndg" }
 
-{-| Ndali -}
+
+{-| Ndali
+-}
 ndh : Language
 ndh =
     Language { code = "ndh" }
 
-{-| Samba Leko -}
+
+{-| Samba Leko
+-}
 ndi : Language
 ndi =
     Language { code = "ndi" }
 
-{-| Ndamba -}
+
+{-| Ndamba
+-}
 ndj : Language
 ndj =
     Language { code = "ndj" }
 
-{-| Ndaka -}
+
+{-| Ndaka
+-}
 ndk : Language
 ndk =
     Language { code = "ndk" }
 
-{-| Ndolo -}
+
+{-| Ndolo
+-}
 ndl : Language
 ndl =
     Language { code = "ndl" }
 
-{-| Ndam -}
+
+{-| Ndam
+-}
 ndm : Language
 ndm =
     Language { code = "ndm" }
 
-{-| Ngundi -}
+
+{-| Ngundi
+-}
 ndn : Language
 ndn =
     Language { code = "ndn" }
 
-{-| Ndo -}
+
+{-| Ndo
+-}
 ndp : Language
 ndp =
     Language { code = "ndp" }
 
-{-| Ndombe -}
+
+{-| Ndombe
+-}
 ndq : Language
 ndq =
     Language { code = "ndq" }
 
-{-| Ndoola -}
+
+{-| Ndoola
+-}
 ndr : Language
 ndr =
     Language { code = "ndr" }
 
+
 {-| Low German
-Low Saxon -}
+Low Saxon
+-}
 nds : Language
 nds =
     Language { code = "nds" }
 
-{-| Ndunga -}
+
+{-| Ndunga
+-}
 ndt : Language
 ndt =
     Language { code = "ndt" }
 
-{-| Dugun -}
+
+{-| Dugun
+-}
 ndu : Language
 ndu =
     Language { code = "ndu" }
 
-{-| Ndut -}
+
+{-| Ndut
+-}
 ndv : Language
 ndv =
     Language { code = "ndv" }
 
-{-| Ndobo -}
+
+{-| Ndobo
+-}
 ndw : Language
 ndw =
     Language { code = "ndw" }
 
-{-| Nduga -}
+
+{-| Nduga
+-}
 ndx : Language
 ndx =
     Language { code = "ndx" }
 
-{-| Lutos -}
+
+{-| Lutos
+-}
 ndy : Language
 ndy =
     Language { code = "ndy" }
 
-{-| Ndogo -}
+
+{-| Ndogo
+-}
 ndz : Language
 ndz =
     Language { code = "ndz" }
 
-{-| Nepali (macrolanguage) -}
+
+{-| Nepali (macrolanguage)
+-}
 ne : Language
 ne =
     Language { code = "ne" }
 
-{-| Eastern Ngad'a -}
+
+{-| Eastern Ngad'a
+-}
 nea : Language
 nea =
     Language { code = "nea" }
 
-{-| Toura (Côte d'Ivoire) -}
+
+{-| Toura (Côte d'Ivoire)
+-}
 neb : Language
 neb =
     Language { code = "neb" }
 
-{-| Nedebang -}
+
+{-| Nedebang
+-}
 nec : Language
 nec =
     Language { code = "nec" }
 
-{-| Nde-Gbite -}
+
+{-| Nde-Gbite
+-}
 ned : Language
 ned =
     Language { code = "ned" }
 
-{-| Nêlêmwa-Nixumwak -}
+
+{-| Nêlêmwa-Nixumwak
+-}
 nee : Language
 nee =
     Language { code = "nee" }
 
-{-| Nefamese -}
+
+{-| Nefamese
+-}
 nef : Language
 nef =
     Language { code = "nef" }
 
-{-| Negidal -}
+
+{-| Negidal
+-}
 neg : Language
 neg =
     Language { code = "neg" }
 
-{-| Nyenkha -}
+
+{-| Nyenkha
+-}
 neh : Language
 neh =
     Language { code = "neh" }
 
-{-| Neo-Hittite -}
+
+{-| Neo-Hittite
+-}
 nei : Language
 nei =
     Language { code = "nei" }
 
-{-| Neko -}
+
+{-| Neko
+-}
 nej : Language
 nej =
     Language { code = "nej" }
 
-{-| Neku -}
+
+{-| Neku
+-}
 nek : Language
 nek =
     Language { code = "nek" }
 
-{-| Nemi -}
+
+{-| Nemi
+-}
 nem : Language
 nem =
     Language { code = "nem" }
 
-{-| Nengone -}
+
+{-| Nengone
+-}
 nen : Language
 nen =
     Language { code = "nen" }
 
-{-| Ná-Meo -}
+
+{-| Ná-Meo
+-}
 neo : Language
 neo =
     Language { code = "neo" }
 
-{-| North Central Mixe -}
+
+{-| North Central Mixe
+-}
 neq : Language
 neq =
     Language { code = "neq" }
 
-{-| Yahadian -}
+
+{-| Yahadian
+-}
 ner : Language
 ner =
     Language { code = "ner" }
 
-{-| Bhoti Kinnauri -}
+
+{-| Bhoti Kinnauri
+-}
 nes : Language
 nes =
     Language { code = "nes" }
 
-{-| Nete -}
+
+{-| Nete
+-}
 net : Language
 net =
     Language { code = "net" }
 
-{-| Neo -}
+
+{-| Neo
+-}
 neu : Language
 neu =
     Language { code = "neu" }
 
-{-| Nyaheun -}
+
+{-| Nyaheun
+-}
 nev : Language
 nev =
     Language { code = "nev" }
 
+
 {-| Newari
-Nepal Bhasa -}
+Nepal Bhasa
+-}
 new : Language
 new =
     Language { code = "new" }
 
-{-| Neme -}
+
+{-| Neme
+-}
 nex : Language
 nex =
     Language { code = "nex" }
 
-{-| Neyo -}
+
+{-| Neyo
+-}
 ney : Language
 ney =
     Language { code = "ney" }
 
-{-| Nez Perce -}
+
+{-| Nez Perce
+-}
 nez : Language
 nez =
     Language { code = "nez" }
 
-{-| Dhao -}
+
+{-| Dhao
+-}
 nfa : Language
 nfa =
     Language { code = "nfa" }
 
-{-| Ahwai -}
+
+{-| Ahwai
+-}
 nfd : Language
 nfd =
     Language { code = "nfd" }
 
+
 {-| Ayiwo
-Äiwoo -}
+Äiwoo
+-}
 nfl : Language
 nfl =
     Language { code = "nfl" }
 
-{-| Nafaanra -}
+
+{-| Nafaanra
+-}
 nfr : Language
 nfr =
     Language { code = "nfr" }
 
-{-| Mfumte -}
+
+{-| Mfumte
+-}
 nfu : Language
 nfu =
     Language { code = "nfu" }
 
-{-| Ndonga -}
+
+{-| Ndonga
+-}
 ng : Language
 ng =
     Language { code = "ng" }
 
-{-| Ngbaka -}
+
+{-| Ngbaka
+-}
 nga : Language
 nga =
     Language { code = "nga" }
 
-{-| Northern Ngbandi -}
+
+{-| Northern Ngbandi
+-}
 ngb : Language
 ngb =
     Language { code = "ngb" }
 
-{-| Ngombe (Democratic Republic of Congo) -}
+
+{-| Ngombe (Democratic Republic of Congo)
+-}
 ngc : Language
 ngc =
     Language { code = "ngc" }
 
-{-| Ngando (Central African Republic) -}
+
+{-| Ngando (Central African Republic)
+-}
 ngd : Language
 ngd =
     Language { code = "ngd" }
 
-{-| Ngemba -}
+
+{-| Ngemba
+-}
 nge : Language
 nge =
     Language { code = "nge" }
 
-{-| Trans-New Guinea languages -}
+
+{-| Trans-New Guinea languages
+-}
 ngf : Language
 ngf =
     Language { code = "ngf" }
 
-{-| Ngbaka Manza -}
+
+{-| Ngbaka Manza
+-}
 ngg : Language
 ngg =
     Language { code = "ngg" }
 
-{-| Nǁng -}
+
+{-| Nǁng
+-}
 ngh : Language
 ngh =
     Language { code = "ngh" }
 
-{-| Ngizim -}
+
+{-| Ngizim
+-}
 ngi : Language
 ngi =
     Language { code = "ngi" }
 
-{-| Ngie -}
+
+{-| Ngie
+-}
 ngj : Language
 ngj =
     Language { code = "ngj" }
 
-{-| Dalabon -}
+
+{-| Dalabon
+-}
 ngk : Language
 ngk =
     Language { code = "ngk" }
 
-{-| Lomwe -}
+
+{-| Lomwe
+-}
 ngl : Language
 ngl =
     Language { code = "ngl" }
 
-{-| Ngatik Men's Creole -}
+
+{-| Ngatik Men's Creole
+-}
 ngm : Language
 ngm =
     Language { code = "ngm" }
 
-{-| Ngwo -}
+
+{-| Ngwo
+-}
 ngn : Language
 ngn =
     Language { code = "ngn" }
 
-{-| Ngoni -}
+
+{-| Ngoni
+-}
 ngo : Language
 ngo =
     Language { code = "ngo" }
 
-{-| Ngulu -}
+
+{-| Ngulu
+-}
 ngp : Language
 ngp =
     Language { code = "ngp" }
 
+
 {-| Ngurimi
-Ngoreme -}
+Ngoreme
+-}
 ngq : Language
 ngq =
     Language { code = "ngq" }
 
-{-| Engdewu -}
+
+{-| Engdewu
+-}
 ngr : Language
 ngr =
     Language { code = "ngr" }
 
-{-| Gvoko -}
+
+{-| Gvoko
+-}
 ngs : Language
 ngs =
     Language { code = "ngs" }
 
+
 {-| Kriang
-Ngeq -}
+Ngeq
+-}
 ngt : Language
 ngt =
     Language { code = "ngt" }
 
-{-| Guerrero Nahuatl -}
+
+{-| Guerrero Nahuatl
+-}
 ngu : Language
 ngu =
     Language { code = "ngu" }
 
-{-| Nagumi -}
+
+{-| Nagumi
+-}
 ngv : Language
 ngv =
     Language { code = "ngv" }
 
-{-| Ngwaba -}
+
+{-| Ngwaba
+-}
 ngw : Language
 ngw =
     Language { code = "ngw" }
 
-{-| Nggwahyi -}
+
+{-| Nggwahyi
+-}
 ngx : Language
 ngx =
     Language { code = "ngx" }
 
-{-| Tibea -}
+
+{-| Tibea
+-}
 ngy : Language
 ngy =
     Language { code = "ngy" }
 
-{-| Ngungwel -}
+
+{-| Ngungwel
+-}
 ngz : Language
 ngz =
     Language { code = "ngz" }
 
-{-| Nhanda -}
+
+{-| Nhanda
+-}
 nha : Language
 nha =
     Language { code = "nha" }
 
-{-| Beng -}
+
+{-| Beng
+-}
 nhb : Language
 nhb =
     Language { code = "nhb" }
 
-{-| Tabasco Nahuatl -}
+
+{-| Tabasco Nahuatl
+-}
 nhc : Language
 nhc =
     Language { code = "nhc" }
 
+
 {-| Chiripá
-Ava Guaraní -}
+Ava Guaraní
+-}
 nhd : Language
 nhd =
     Language { code = "nhd" }
 
-{-| Eastern Huasteca Nahuatl -}
+
+{-| Eastern Huasteca Nahuatl
+-}
 nhe : Language
 nhe =
     Language { code = "nhe" }
 
-{-| Nhuwala -}
+
+{-| Nhuwala
+-}
 nhf : Language
 nhf =
     Language { code = "nhf" }
 
-{-| Tetelcingo Nahuatl -}
+
+{-| Tetelcingo Nahuatl
+-}
 nhg : Language
 nhg =
     Language { code = "nhg" }
 
-{-| Nahari -}
+
+{-| Nahari
+-}
 nhh : Language
 nhh =
     Language { code = "nhh" }
 
-{-| Zacatlán-Ahuacatlán-Tepetzintla Nahuatl -}
+
+{-| Zacatlán-Ahuacatlán-Tepetzintla Nahuatl
+-}
 nhi : Language
 nhi =
     Language { code = "nhi" }
 
-{-| Isthmus-Cosoleacaque Nahuatl -}
+
+{-| Isthmus-Cosoleacaque Nahuatl
+-}
 nhk : Language
 nhk =
     Language { code = "nhk" }
 
-{-| Morelos Nahuatl -}
+
+{-| Morelos Nahuatl
+-}
 nhm : Language
 nhm =
     Language { code = "nhm" }
 
-{-| Central Nahuatl -}
+
+{-| Central Nahuatl
+-}
 nhn : Language
 nhn =
     Language { code = "nhn" }
 
-{-| Takuu -}
+
+{-| Takuu
+-}
 nho : Language
 nho =
     Language { code = "nho" }
 
-{-| Isthmus-Pajapan Nahuatl -}
+
+{-| Isthmus-Pajapan Nahuatl
+-}
 nhp : Language
 nhp =
     Language { code = "nhp" }
 
-{-| Huaxcaleca Nahuatl -}
+
+{-| Huaxcaleca Nahuatl
+-}
 nhq : Language
 nhq =
     Language { code = "nhq" }
 
-{-| Naro -}
+
+{-| Naro
+-}
 nhr : Language
 nhr =
     Language { code = "nhr" }
 
-{-| Ometepec Nahuatl -}
+
+{-| Ometepec Nahuatl
+-}
 nht : Language
 nht =
     Language { code = "nht" }
 
-{-| Noone -}
+
+{-| Noone
+-}
 nhu : Language
 nhu =
     Language { code = "nhu" }
 
-{-| Temascaltepec Nahuatl -}
+
+{-| Temascaltepec Nahuatl
+-}
 nhv : Language
 nhv =
     Language { code = "nhv" }
 
-{-| Western Huasteca Nahuatl -}
+
+{-| Western Huasteca Nahuatl
+-}
 nhw : Language
 nhw =
     Language { code = "nhw" }
 
-{-| Isthmus-Mecayapan Nahuatl -}
+
+{-| Isthmus-Mecayapan Nahuatl
+-}
 nhx : Language
 nhx =
     Language { code = "nhx" }
 
-{-| Northern Oaxaca Nahuatl -}
+
+{-| Northern Oaxaca Nahuatl
+-}
 nhy : Language
 nhy =
     Language { code = "nhy" }
 
-{-| Santa María La Alta Nahuatl -}
+
+{-| Santa María La Alta Nahuatl
+-}
 nhz : Language
 nhz =
     Language { code = "nhz" }
 
-{-| Nias -}
+
+{-| Nias
+-}
 nia : Language
 nia =
     Language { code = "nia" }
 
-{-| Nakame -}
+
+{-| Nakame
+-}
 nib : Language
 nib =
     Language { code = "nib" }
 
-{-| Niger-Kordofanian languages -}
+
+{-| Niger-Kordofanian languages
+-}
 nic : Language
 nic =
     Language { code = "nic" }
 
-{-| Ngandi -}
+
+{-| Ngandi
+-}
 nid : Language
 nid =
     Language { code = "nid" }
 
-{-| Niellim -}
+
+{-| Niellim
+-}
 nie : Language
 nie =
     Language { code = "nie" }
 
-{-| Nek -}
+
+{-| Nek
+-}
 nif : Language
 nif =
     Language { code = "nif" }
 
-{-| Ngalakgan -}
+
+{-| Ngalakgan
+-}
 nig : Language
 nig =
     Language { code = "nig" }
 
-{-| Nyiha (Tanzania) -}
+
+{-| Nyiha (Tanzania)
+-}
 nih : Language
 nih =
     Language { code = "nih" }
 
-{-| Nii -}
+
+{-| Nii
+-}
 nii : Language
 nii =
     Language { code = "nii" }
 
-{-| Ngaju -}
+
+{-| Ngaju
+-}
 nij : Language
 nij =
     Language { code = "nij" }
 
-{-| Southern Nicobarese -}
+
+{-| Southern Nicobarese
+-}
 nik : Language
 nik =
     Language { code = "nik" }
 
-{-| Nila -}
+
+{-| Nila
+-}
 nil : Language
 nil =
     Language { code = "nil" }
 
-{-| Nilamba -}
+
+{-| Nilamba
+-}
 nim : Language
 nim =
     Language { code = "nim" }
 
-{-| Ninzo -}
+
+{-| Ninzo
+-}
 nin : Language
 nin =
     Language { code = "nin" }
 
-{-| Nganasan -}
+
+{-| Nganasan
+-}
 nio : Language
 nio =
     Language { code = "nio" }
 
-{-| Nandi -}
+
+{-| Nandi
+-}
 niq : Language
 niq =
     Language { code = "niq" }
 
-{-| Nimboran -}
+
+{-| Nimboran
+-}
 nir : Language
 nir =
     Language { code = "nir" }
 
-{-| Nimi -}
+
+{-| Nimi
+-}
 nis : Language
 nis =
     Language { code = "nis" }
 
-{-| Southeastern Kolami -}
+
+{-| Southeastern Kolami
+-}
 nit : Language
 nit =
     Language { code = "nit" }
 
-{-| Niuean -}
+
+{-| Niuean
+-}
 niu : Language
 niu =
     Language { code = "niu" }
 
-{-| Gilyak -}
+
+{-| Gilyak
+-}
 niv : Language
 niv =
     Language { code = "niv" }
 
-{-| Nimo -}
+
+{-| Nimo
+-}
 niw : Language
 niw =
     Language { code = "niw" }
 
-{-| Hema -}
+
+{-| Hema
+-}
 nix : Language
 nix =
     Language { code = "nix" }
 
-{-| Ngiti -}
+
+{-| Ngiti
+-}
 niy : Language
 niy =
     Language { code = "niy" }
 
-{-| Ningil -}
+
+{-| Ningil
+-}
 niz : Language
 niz =
     Language { code = "niz" }
 
-{-| Nzanyi -}
+
+{-| Nzanyi
+-}
 nja : Language
 nja =
     Language { code = "nja" }
 
-{-| Nocte Naga -}
+
+{-| Nocte Naga
+-}
 njb : Language
 njb =
     Language { code = "njb" }
 
-{-| Ndonde Hamba -}
+
+{-| Ndonde Hamba
+-}
 njd : Language
 njd =
     Language { code = "njd" }
 
-{-| Lotha Naga -}
+
+{-| Lotha Naga
+-}
 njh : Language
 njh =
     Language { code = "njh" }
 
-{-| Gudanji -}
+
+{-| Gudanji
+-}
 nji : Language
 nji =
     Language { code = "nji" }
 
-{-| Njen -}
+
+{-| Njen
+-}
 njj : Language
 njj =
     Language { code = "njj" }
 
-{-| Njalgulgule -}
+
+{-| Njalgulgule
+-}
 njl : Language
 njl =
     Language { code = "njl" }
 
-{-| Angami Naga -}
+
+{-| Angami Naga
+-}
 njm : Language
 njm =
     Language { code = "njm" }
 
-{-| Liangmai Naga -}
+
+{-| Liangmai Naga
+-}
 njn : Language
 njn =
     Language { code = "njn" }
 
-{-| Ao Naga -}
+
+{-| Ao Naga
+-}
 njo : Language
 njo =
     Language { code = "njo" }
 
-{-| Njerep -}
+
+{-| Njerep
+-}
 njr : Language
 njr =
     Language { code = "njr" }
 
-{-| Nisa -}
+
+{-| Nisa
+-}
 njs : Language
 njs =
     Language { code = "njs" }
 
-{-| Ndyuka-Trio Pidgin -}
+
+{-| Ndyuka-Trio Pidgin
+-}
 njt : Language
 njt =
     Language { code = "njt" }
 
-{-| Ngadjunmaya -}
+
+{-| Ngadjunmaya
+-}
 nju : Language
 nju =
     Language { code = "nju" }
 
-{-| Kunyi -}
+
+{-| Kunyi
+-}
 njx : Language
 njx =
     Language { code = "njx" }
 
-{-| Njyem -}
+
+{-| Njyem
+-}
 njy : Language
 njy =
     Language { code = "njy" }
 
-{-| Nyishi -}
+
+{-| Nyishi
+-}
 njz : Language
 njz =
     Language { code = "njz" }
 
-{-| Nkoya -}
+
+{-| Nkoya
+-}
 nka : Language
 nka =
     Language { code = "nka" }
 
-{-| Khoibu Naga -}
+
+{-| Khoibu Naga
+-}
 nkb : Language
 nkb =
     Language { code = "nkb" }
 
-{-| Nkongho -}
+
+{-| Nkongho
+-}
 nkc : Language
 nkc =
     Language { code = "nkc" }
 
-{-| Koireng -}
+
+{-| Koireng
+-}
 nkd : Language
 nkd =
     Language { code = "nkd" }
 
-{-| Duke -}
+
+{-| Duke
+-}
 nke : Language
 nke =
     Language { code = "nke" }
 
-{-| Inpui Naga -}
+
+{-| Inpui Naga
+-}
 nkf : Language
 nkf =
     Language { code = "nkf" }
 
-{-| Nekgini -}
+
+{-| Nekgini
+-}
 nkg : Language
 nkg =
     Language { code = "nkg" }
 
-{-| Khezha Naga -}
+
+{-| Khezha Naga
+-}
 nkh : Language
 nkh =
     Language { code = "nkh" }
 
-{-| Thangal Naga -}
+
+{-| Thangal Naga
+-}
 nki : Language
 nki =
     Language { code = "nki" }
 
-{-| Nakai -}
+
+{-| Nakai
+-}
 nkj : Language
 nkj =
     Language { code = "nkj" }
 
-{-| Nokuku -}
+
+{-| Nokuku
+-}
 nkk : Language
 nkk =
     Language { code = "nkk" }
 
-{-| Namat -}
+
+{-| Namat
+-}
 nkm : Language
 nkm =
     Language { code = "nkm" }
 
-{-| Nkangala -}
+
+{-| Nkangala
+-}
 nkn : Language
 nkn =
     Language { code = "nkn" }
 
-{-| Nkonya -}
+
+{-| Nkonya
+-}
 nko : Language
 nko =
     Language { code = "nko" }
 
-{-| Niuatoputapu -}
+
+{-| Niuatoputapu
+-}
 nkp : Language
 nkp =
     Language { code = "nkp" }
 
-{-| Nkami -}
+
+{-| Nkami
+-}
 nkq : Language
 nkq =
     Language { code = "nkq" }
 
-{-| Nukuoro -}
+
+{-| Nukuoro
+-}
 nkr : Language
 nkr =
     Language { code = "nkr" }
 
-{-| North Asmat -}
+
+{-| North Asmat
+-}
 nks : Language
 nks =
     Language { code = "nks" }
 
-{-| Nyika (Tanzania) -}
+
+{-| Nyika (Tanzania)
+-}
 nkt : Language
 nkt =
     Language { code = "nkt" }
 
-{-| Bouna Kulango -}
+
+{-| Bouna Kulango
+-}
 nku : Language
 nku =
     Language { code = "nku" }
 
-{-| Nyika (Malawi and Zambia) -}
+
+{-| Nyika (Malawi and Zambia)
+-}
 nkv : Language
 nkv =
     Language { code = "nkv" }
 
-{-| Nkutu -}
+
+{-| Nkutu
+-}
 nkw : Language
 nkw =
     Language { code = "nkw" }
 
-{-| Nkoroo -}
+
+{-| Nkoroo
+-}
 nkx : Language
 nkx =
     Language { code = "nkx" }
 
-{-| Nkari -}
+
+{-| Nkari
+-}
 nkz : Language
 nkz =
     Language { code = "nkz" }
 
+
 {-| Dutch
-Flemish -}
+Flemish
+-}
 nl : Language
 nl =
     Language { code = "nl" }
 
-{-| Ngombale -}
+
+{-| Ngombale
+-}
 nla : Language
 nla =
     Language { code = "nla" }
 
-{-| Nalca -}
+
+{-| Nalca
+-}
 nlc : Language
 nlc =
     Language { code = "nlc" }
 
-{-| East Nyala -}
+
+{-| East Nyala
+-}
 nle : Language
 nle =
     Language { code = "nle" }
 
-{-| Gela -}
+
+{-| Gela
+-}
 nlg : Language
 nlg =
     Language { code = "nlg" }
 
-{-| Grangali -}
+
+{-| Grangali
+-}
 nli : Language
 nli =
     Language { code = "nli" }
 
-{-| Nyali -}
+
+{-| Nyali
+-}
 nlj : Language
 nlj =
     Language { code = "nlj" }
 
-{-| Ninia Yali -}
+
+{-| Ninia Yali
+-}
 nlk : Language
 nlk =
     Language { code = "nlk" }
 
-{-| Nihali -}
+
+{-| Nihali
+-}
 nll : Language
 nll =
     Language { code = "nll" }
 
-{-| Mankiyali -}
+
+{-| Mankiyali
+-}
 nlm : Language
 nlm =
     Language { code = "nlm" }
 
-{-| Durango Nahuatl -}
+
+{-| Durango Nahuatl
+-}
 nln : Language
 nln =
     Language { code = "nln" }
 
-{-| Ngul -}
+
+{-| Ngul
+-}
 nlo : Language
 nlo =
     Language { code = "nlo" }
 
-{-| Lao Naga -}
+
+{-| Lao Naga
+-}
 nlq : Language
 nlq =
     Language { code = "nlq" }
 
-{-| Ngarla -}
+
+{-| Ngarla
+-}
 nlr : Language
 nlr =
     Language { code = "nlr" }
 
-{-| Nchumbulu -}
+
+{-| Nchumbulu
+-}
 nlu : Language
 nlu =
     Language { code = "nlu" }
 
-{-| Orizaba Nahuatl -}
+
+{-| Orizaba Nahuatl
+-}
 nlv : Language
 nlv =
     Language { code = "nlv" }
 
-{-| Walangama -}
+
+{-| Walangama
+-}
 nlw : Language
 nlw =
     Language { code = "nlw" }
 
-{-| Nahali -}
+
+{-| Nahali
+-}
 nlx : Language
 nlx =
     Language { code = "nlx" }
 
-{-| Nyamal -}
+
+{-| Nyamal
+-}
 nly : Language
 nly =
     Language { code = "nly" }
 
-{-| Nalögo -}
+
+{-| Nalögo
+-}
 nlz : Language
 nlz =
     Language { code = "nlz" }
 
-{-| Maram Naga -}
+
+{-| Maram Naga
+-}
 nma : Language
 nma =
     Language { code = "nma" }
 
+
 {-| Big Nambas
-V'ënen Taut -}
+V'ënen Taut
+-}
 nmb : Language
 nmb =
     Language { code = "nmb" }
 
-{-| Ngam -}
+
+{-| Ngam
+-}
 nmc : Language
 nmc =
     Language { code = "nmc" }
 
-{-| Ndumu -}
+
+{-| Ndumu
+-}
 nmd : Language
 nmd =
     Language { code = "nmd" }
 
-{-| Mzieme Naga -}
+
+{-| Mzieme Naga
+-}
 nme : Language
 nme =
     Language { code = "nme" }
 
-{-| Tangkhul Naga (India) -}
+
+{-| Tangkhul Naga (India)
+-}
 nmf : Language
 nmf =
     Language { code = "nmf" }
 
-{-| Kwasio -}
+
+{-| Kwasio
+-}
 nmg : Language
 nmg =
     Language { code = "nmg" }
 
-{-| Monsang Naga -}
+
+{-| Monsang Naga
+-}
 nmh : Language
 nmh =
     Language { code = "nmh" }
 
-{-| Nyam -}
+
+{-| Nyam
+-}
 nmi : Language
 nmi =
     Language { code = "nmi" }
 
-{-| Ngombe (Central African Republic) -}
+
+{-| Ngombe (Central African Republic)
+-}
 nmj : Language
 nmj =
     Language { code = "nmj" }
 
-{-| Namakura -}
+
+{-| Namakura
+-}
 nmk : Language
 nmk =
     Language { code = "nmk" }
 
-{-| Ndemli -}
+
+{-| Ndemli
+-}
 nml : Language
 nml =
     Language { code = "nml" }
 
-{-| Manangba -}
+
+{-| Manangba
+-}
 nmm : Language
 nmm =
     Language { code = "nmm" }
 
-{-| ǃXóõ -}
+
+{-| ǃXóõ
+-}
 nmn : Language
 nmn =
     Language { code = "nmn" }
 
-{-| Moyon Naga -}
+
+{-| Moyon Naga
+-}
 nmo : Language
 nmo =
     Language { code = "nmo" }
 
-{-| Nimanbur -}
+
+{-| Nimanbur
+-}
 nmp : Language
 nmp =
     Language { code = "nmp" }
 
-{-| Nambya -}
+
+{-| Nambya
+-}
 nmq : Language
 nmq =
     Language { code = "nmq" }
 
-{-| Nimbari -}
+
+{-| Nimbari
+-}
 nmr : Language
 nmr =
     Language { code = "nmr" }
 
-{-| Letemboi -}
+
+{-| Letemboi
+-}
 nms : Language
 nms =
     Language { code = "nms" }
 
-{-| Namonuito -}
+
+{-| Namonuito
+-}
 nmt : Language
 nmt =
     Language { code = "nmt" }
 
-{-| Northeast Maidu -}
+
+{-| Northeast Maidu
+-}
 nmu : Language
 nmu =
     Language { code = "nmu" }
 
-{-| Ngamini -}
+
+{-| Ngamini
+-}
 nmv : Language
 nmv =
     Language { code = "nmv" }
 
+
 {-| Nimoa
-Rifao -}
+Rifao
+-}
 nmw : Language
 nmw =
     Language { code = "nmw" }
 
-{-| Nama (Papua New Guinea) -}
+
+{-| Nama (Papua New Guinea)
+-}
 nmx : Language
 nmx =
     Language { code = "nmx" }
 
-{-| Namuyi -}
+
+{-| Namuyi
+-}
 nmy : Language
 nmy =
     Language { code = "nmy" }
 
-{-| Nawdm -}
+
+{-| Nawdm
+-}
 nmz : Language
 nmz =
     Language { code = "nmz" }
 
-{-| Norwegian Nynorsk -}
+
+{-| Norwegian Nynorsk
+-}
 nn : Language
 nn =
     Language { code = "nn" }
 
-{-| Nyangumarta -}
+
+{-| Nyangumarta
+-}
 nna : Language
 nna =
     Language { code = "nna" }
 
-{-| Nande -}
+
+{-| Nande
+-}
 nnb : Language
 nnb =
     Language { code = "nnb" }
 
-{-| Nancere -}
+
+{-| Nancere
+-}
 nnc : Language
 nnc =
     Language { code = "nnc" }
 
-{-| West Ambae -}
+
+{-| West Ambae
+-}
 nnd : Language
 nnd =
     Language { code = "nnd" }
 
-{-| Ngandyera -}
+
+{-| Ngandyera
+-}
 nne : Language
 nne =
     Language { code = "nne" }
 
-{-| Ngaing -}
+
+{-| Ngaing
+-}
 nnf : Language
 nnf =
     Language { code = "nnf" }
 
-{-| Maring Naga -}
+
+{-| Maring Naga
+-}
 nng : Language
 nng =
     Language { code = "nng" }
 
-{-| Ngiemboon -}
+
+{-| Ngiemboon
+-}
 nnh : Language
 nnh =
     Language { code = "nnh" }
 
-{-| North Nuaulu -}
+
+{-| North Nuaulu
+-}
 nni : Language
 nni =
     Language { code = "nni" }
 
-{-| Nyangatom -}
+
+{-| Nyangatom
+-}
 nnj : Language
 nnj =
     Language { code = "nnj" }
 
-{-| Nankina -}
+
+{-| Nankina
+-}
 nnk : Language
 nnk =
     Language { code = "nnk" }
 
-{-| Northern Rengma Naga -}
+
+{-| Northern Rengma Naga
+-}
 nnl : Language
 nnl =
     Language { code = "nnl" }
 
-{-| Namia -}
+
+{-| Namia
+-}
 nnm : Language
 nnm =
     Language { code = "nnm" }
 
-{-| Ngete -}
+
+{-| Ngete
+-}
 nnn : Language
 nnn =
     Language { code = "nnn" }
 
-{-| Wancho Naga -}
+
+{-| Wancho Naga
+-}
 nnp : Language
 nnp =
     Language { code = "nnp" }
 
-{-| Ngindo -}
+
+{-| Ngindo
+-}
 nnq : Language
 nnq =
     Language { code = "nnq" }
 
-{-| Narungga -}
+
+{-| Narungga
+-}
 nnr : Language
 nnr =
     Language { code = "nnr" }
 
-{-| Ningye -}
+
+{-| Ningye
+-}
 nns : Language
 nns =
     Language { code = "nns" }
 
-{-| Nanticoke -}
+
+{-| Nanticoke
+-}
 nnt : Language
 nnt =
     Language { code = "nnt" }
 
-{-| Dwang -}
+
+{-| Dwang
+-}
 nnu : Language
 nnu =
     Language { code = "nnu" }
 
-{-| Nugunu (Australia) -}
+
+{-| Nugunu (Australia)
+-}
 nnv : Language
 nnv =
     Language { code = "nnv" }
 
-{-| Southern Nuni -}
+
+{-| Southern Nuni
+-}
 nnw : Language
 nnw =
     Language { code = "nnw" }
 
-{-| Ngong -}
+
+{-| Ngong
+-}
 nnx : Language
 nnx =
     Language { code = "nnx" }
 
-{-| Nyangga -}
+
+{-| Nyangga
+-}
 nny : Language
 nny =
     Language { code = "nny" }
 
-{-| Nda'nda' -}
+
+{-| Nda'nda'
+-}
 nnz : Language
 nnz =
     Language { code = "nnz" }
 
-{-| Norwegian -}
+
+{-| Norwegian
+-}
 no : Language
 no =
     Language { code = "no" }
 
-{-| Woun Meu -}
+
+{-| Woun Meu
+-}
 noa : Language
 noa =
     Language { code = "noa" }
 
-{-| Nuk -}
+
+{-| Nuk
+-}
 noc : Language
 noc =
     Language { code = "noc" }
 
-{-| Northern Thai -}
+
+{-| Northern Thai
+-}
 nod : Language
 nod =
     Language { code = "nod" }
 
-{-| Nimadi -}
+
+{-| Nimadi
+-}
 noe : Language
 noe =
     Language { code = "noe" }
 
-{-| Nomane -}
+
+{-| Nomane
+-}
 nof : Language
 nof =
     Language { code = "nof" }
 
-{-| Nogai -}
+
+{-| Nogai
+-}
 nog : Language
 nog =
     Language { code = "nog" }
 
-{-| Nomu -}
+
+{-| Nomu
+-}
 noh : Language
 noh =
     Language { code = "noh" }
 
-{-| Noiri -}
+
+{-| Noiri
+-}
 noi : Language
 noi =
     Language { code = "noi" }
 
-{-| Nonuya -}
+
+{-| Nonuya
+-}
 noj : Language
 noj =
     Language { code = "noj" }
 
-{-| Nooksack -}
+
+{-| Nooksack
+-}
 nok : Language
 nok =
     Language { code = "nok" }
 
-{-| Nomlaki -}
+
+{-| Nomlaki
+-}
 nol : Language
 nol =
     Language { code = "nol" }
 
-{-| Nocamán -}
+
+{-| Nocamán
+-}
 nom : Language
 nom =
     Language { code = "nom" }
 
-{-| Old Norse -}
+
+{-| Old Norse
+-}
 non : Language
 non =
     Language { code = "non" }
 
-{-| Nootka -}
+
+{-| Nootka
+-}
 noo : Language
 noo =
     Language { code = "noo" }
 
-{-| Numanggang -}
+
+{-| Numanggang
+-}
 nop : Language
 nop =
     Language { code = "nop" }
 
-{-| Ngongo -}
+
+{-| Ngongo
+-}
 noq : Language
 noq =
     Language { code = "noq" }
 
-{-| Eastern Nisu -}
+
+{-| Eastern Nisu
+-}
 nos : Language
 nos =
     Language { code = "nos" }
 
-{-| Nomatsiguenga -}
+
+{-| Nomatsiguenga
+-}
 not : Language
 not =
     Language { code = "not" }
 
-{-| Ewage-Notu -}
+
+{-| Ewage-Notu
+-}
 nou : Language
 nou =
     Language { code = "nou" }
 
-{-| Novial -}
+
+{-| Novial
+-}
 nov : Language
 nov =
     Language { code = "nov" }
 
-{-| Nyambo -}
+
+{-| Nyambo
+-}
 now : Language
 now =
     Language { code = "now" }
 
-{-| Noy -}
+
+{-| Noy
+-}
 noy : Language
 noy =
     Language { code = "noy" }
 
-{-| Nayi -}
+
+{-| Nayi
+-}
 noz : Language
 noz =
     Language { code = "noz" }
 
-{-| Nar Phu -}
+
+{-| Nar Phu
+-}
 npa : Language
 npa =
     Language { code = "npa" }
 
-{-| Nupbikha -}
+
+{-| Nupbikha
+-}
 npb : Language
 npb =
     Language { code = "npb" }
 
-{-| Ponyo-Gongwang Naga -}
+
+{-| Ponyo-Gongwang Naga
+-}
 npg : Language
 npg =
     Language { code = "npg" }
 
-{-| Phom Naga -}
+
+{-| Phom Naga
+-}
 nph : Language
 nph =
     Language { code = "nph" }
 
-{-| Nepali (individual language) -}
+
+{-| Nepali (individual language)
+-}
 npi : Language
 npi =
     Language { code = "npi" }
 
-{-| Southeastern Puebla Nahuatl -}
+
+{-| Southeastern Puebla Nahuatl
+-}
 npl : Language
 npl =
     Language { code = "npl" }
 
-{-| Mondropolon -}
+
+{-| Mondropolon
+-}
 npn : Language
 npn =
     Language { code = "npn" }
 
-{-| Pochuri Naga -}
+
+{-| Pochuri Naga
+-}
 npo : Language
 npo =
     Language { code = "npo" }
 
-{-| Nipsan -}
+
+{-| Nipsan
+-}
 nps : Language
 nps =
     Language { code = "nps" }
 
-{-| Puimei Naga -}
+
+{-| Puimei Naga
+-}
 npu : Language
 npu =
     Language { code = "npu" }
 
-{-| Noipx -}
+
+{-| Noipx
+-}
 npx : Language
 npx =
     Language { code = "npx" }
 
-{-| Napu -}
+
+{-| Napu
+-}
 npy : Language
 npy =
     Language { code = "npy" }
 
-{-| Southern Nago -}
+
+{-| Southern Nago
+-}
 nqg : Language
 nqg =
     Language { code = "nqg" }
 
-{-| Kura Ede Nago -}
+
+{-| Kura Ede Nago
+-}
 nqk : Language
 nqk =
     Language { code = "nqk" }
 
-{-| Ngendelengo -}
+
+{-| Ngendelengo
+-}
 nql : Language
 nql =
     Language { code = "nql" }
 
-{-| Ndom -}
+
+{-| Ndom
+-}
 nqm : Language
 nqm =
     Language { code = "nqm" }
 
-{-| Nen -}
+
+{-| Nen
+-}
 nqn : Language
 nqn =
     Language { code = "nqn" }
 
+
 {-| N'Ko
-N’Ko -}
+N’Ko
+-}
 nqo : Language
 nqo =
     Language { code = "nqo" }
 
-{-| Kyan-Karyaw Naga -}
+
+{-| Kyan-Karyaw Naga
+-}
 nqq : Language
 nqq =
     Language { code = "nqq" }
 
-{-| Akyaung Ari Naga -}
+
+{-| Akyaung Ari Naga
+-}
 nqy : Language
 nqy =
     Language { code = "nqy" }
 
-{-| South Ndebele -}
+
+{-| South Ndebele
+-}
 nr : Language
 nr =
     Language { code = "nr" }
 
-{-| Ngom -}
+
+{-| Ngom
+-}
 nra : Language
 nra =
     Language { code = "nra" }
 
-{-| Nara -}
+
+{-| Nara
+-}
 nrb : Language
 nrb =
     Language { code = "nrb" }
 
-{-| Noric -}
+
+{-| Noric
+-}
 nrc : Language
 nrc =
     Language { code = "nrc" }
 
-{-| Southern Rengma Naga -}
+
+{-| Southern Rengma Naga
+-}
 nre : Language
 nre =
     Language { code = "nre" }
 
+
 {-| Jèrriais
-Guernésiais -}
+Guernésiais
+-}
 nrf : Language
 nrf =
     Language { code = "nrf" }
 
-{-| Narango -}
+
+{-| Narango
+-}
 nrg : Language
 nrg =
     Language { code = "nrg" }
 
-{-| Chokri Naga -}
+
+{-| Chokri Naga
+-}
 nri : Language
 nri =
     Language { code = "nri" }
 
-{-| Ngarla -}
+
+{-| Ngarla
+-}
 nrk : Language
 nrk =
     Language { code = "nrk" }
 
-{-| Ngarluma -}
+
+{-| Ngarluma
+-}
 nrl : Language
 nrl =
     Language { code = "nrl" }
 
-{-| Narom -}
+
+{-| Narom
+-}
 nrm : Language
 nrm =
     Language { code = "nrm" }
 
-{-| Norn -}
+
+{-| Norn
+-}
 nrn : Language
 nrn =
     Language { code = "nrn" }
 
-{-| North Picene -}
+
+{-| North Picene
+-}
 nrp : Language
 nrp =
     Language { code = "nrp" }
 
+
 {-| Norra
-Nora -}
+Nora
+-}
 nrr : Language
 nrr =
     Language { code = "nrr" }
 
-{-| Northern Kalapuya -}
+
+{-| Northern Kalapuya
+-}
 nrt : Language
 nrt =
     Language { code = "nrt" }
 
-{-| Narua -}
+
+{-| Narua
+-}
 nru : Language
 nru =
     Language { code = "nru" }
 
-{-| Ngurmbur -}
+
+{-| Ngurmbur
+-}
 nrx : Language
 nrx =
     Language { code = "nrx" }
 
-{-| Lala -}
+
+{-| Lala
+-}
 nrz : Language
 nrz =
     Language { code = "nrz" }
 
-{-| Sangtam Naga -}
+
+{-| Sangtam Naga
+-}
 nsa : Language
 nsa =
     Language { code = "nsa" }
 
-{-| Lower Nossob -}
+
+{-| Lower Nossob
+-}
 nsb : Language
 nsb =
     Language { code = "nsb" }
 
-{-| Nshi -}
+
+{-| Nshi
+-}
 nsc : Language
 nsc =
     Language { code = "nsc" }
 
-{-| Southern Nisu -}
+
+{-| Southern Nisu
+-}
 nsd : Language
 nsd =
     Language { code = "nsd" }
 
-{-| Nsenga -}
+
+{-| Nsenga
+-}
 nse : Language
 nse =
     Language { code = "nse" }
 
-{-| Northwestern Nisu -}
+
+{-| Northwestern Nisu
+-}
 nsf : Language
 nsf =
     Language { code = "nsf" }
 
-{-| Ngasa -}
+
+{-| Ngasa
+-}
 nsg : Language
 nsg =
     Language { code = "nsg" }
 
-{-| Ngoshie -}
+
+{-| Ngoshie
+-}
 nsh : Language
 nsh =
     Language { code = "nsh" }
 
-{-| Nigerian Sign Language -}
+
+{-| Nigerian Sign Language
+-}
 nsi : Language
 nsi =
     Language { code = "nsi" }
 
-{-| Naskapi -}
+
+{-| Naskapi
+-}
 nsk : Language
 nsk =
     Language { code = "nsk" }
 
-{-| Norwegian Sign Language -}
+
+{-| Norwegian Sign Language
+-}
 nsl : Language
 nsl =
     Language { code = "nsl" }
 
-{-| Sumi Naga -}
+
+{-| Sumi Naga
+-}
 nsm : Language
 nsm =
     Language { code = "nsm" }
 
-{-| Nehan -}
+
+{-| Nehan
+-}
 nsn : Language
 nsn =
     Language { code = "nsn" }
 
+
 {-| Pedi
 Northern Sotho
-Sepedi -}
+Sepedi
+-}
 nso : Language
 nso =
     Language { code = "nso" }
 
-{-| Nepalese Sign Language -}
+
+{-| Nepalese Sign Language
+-}
 nsp : Language
 nsp =
     Language { code = "nsp" }
 
-{-| Northern Sierra Miwok -}
+
+{-| Northern Sierra Miwok
+-}
 nsq : Language
 nsq =
     Language { code = "nsq" }
 
-{-| Maritime Sign Language -}
+
+{-| Maritime Sign Language
+-}
 nsr : Language
 nsr =
     Language { code = "nsr" }
 
-{-| Nali -}
+
+{-| Nali
+-}
 nss : Language
 nss =
     Language { code = "nss" }
 
-{-| Tase Naga -}
+
+{-| Tase Naga
+-}
 nst : Language
 nst =
     Language { code = "nst" }
 
-{-| Sierra Negra Nahuatl -}
+
+{-| Sierra Negra Nahuatl
+-}
 nsu : Language
 nsu =
     Language { code = "nsu" }
 
-{-| Southwestern Nisu -}
+
+{-| Southwestern Nisu
+-}
 nsv : Language
 nsv =
     Language { code = "nsv" }
 
-{-| Navut -}
+
+{-| Navut
+-}
 nsw : Language
 nsw =
     Language { code = "nsw" }
 
-{-| Nsongo -}
+
+{-| Nsongo
+-}
 nsx : Language
 nsx =
     Language { code = "nsx" }
 
-{-| Nasal -}
+
+{-| Nasal
+-}
 nsy : Language
 nsy =
     Language { code = "nsy" }
 
-{-| Nisenan -}
+
+{-| Nisenan
+-}
 nsz : Language
 nsz =
     Language { code = "nsz" }
 
-{-| Northern Tidung -}
+
+{-| Northern Tidung
+-}
 ntd : Language
 ntd =
     Language { code = "ntd" }
 
-{-| Nathembo -}
+
+{-| Nathembo
+-}
 nte : Language
 nte =
     Language { code = "nte" }
 
-{-| Ngantangarra -}
+
+{-| Ngantangarra
+-}
 ntg : Language
 ntg =
     Language { code = "ntg" }
 
-{-| Natioro -}
+
+{-| Natioro
+-}
 nti : Language
 nti =
     Language { code = "nti" }
 
-{-| Ngaanyatjarra -}
+
+{-| Ngaanyatjarra
+-}
 ntj : Language
 ntj =
     Language { code = "ntj" }
 
-{-| Ikoma-Nata-Isenye -}
+
+{-| Ikoma-Nata-Isenye
+-}
 ntk : Language
 ntk =
     Language { code = "ntk" }
 
-{-| Nateni -}
+
+{-| Nateni
+-}
 ntm : Language
 ntm =
     Language { code = "ntm" }
 
-{-| Ntomba -}
+
+{-| Ntomba
+-}
 nto : Language
 nto =
     Language { code = "nto" }
 
-{-| Northern Tepehuan -}
+
+{-| Northern Tepehuan
+-}
 ntp : Language
 ntp =
     Language { code = "ntp" }
 
-{-| Delo -}
+
+{-| Delo
+-}
 ntr : Language
 ntr =
     Language { code = "ntr" }
 
-{-| Natagaimas -}
+
+{-| Natagaimas
+-}
 nts : Language
 nts =
     Language { code = "nts" }
 
-{-| Natügu -}
+
+{-| Natügu
+-}
 ntu : Language
 ntu =
     Language { code = "ntu" }
 
-{-| Nottoway -}
+
+{-| Nottoway
+-}
 ntw : Language
 ntw =
     Language { code = "ntw" }
 
-{-| Tangkhul Naga (Myanmar) -}
+
+{-| Tangkhul Naga (Myanmar)
+-}
 ntx : Language
 ntx =
     Language { code = "ntx" }
 
-{-| Mantsi -}
+
+{-| Mantsi
+-}
 nty : Language
 nty =
     Language { code = "nty" }
 
-{-| Natanzi -}
+
+{-| Natanzi
+-}
 ntz : Language
 ntz =
     Language { code = "ntz" }
 
-{-| Yuanga -}
+
+{-| Yuanga
+-}
 nua : Language
 nua =
     Language { code = "nua" }
 
-{-| Nubian languages -}
+
+{-| Nubian languages
+-}
 nub : Language
 nub =
     Language { code = "nub" }
 
-{-| Nukuini -}
+
+{-| Nukuini
+-}
 nuc : Language
 nuc =
     Language { code = "nuc" }
 
-{-| Ngala -}
+
+{-| Ngala
+-}
 nud : Language
 nud =
     Language { code = "nud" }
 
-{-| Ngundu -}
+
+{-| Ngundu
+-}
 nue : Language
 nue =
     Language { code = "nue" }
 
-{-| Nusu -}
+
+{-| Nusu
+-}
 nuf : Language
 nuf =
     Language { code = "nuf" }
 
-{-| Nungali -}
+
+{-| Nungali
+-}
 nug : Language
 nug =
     Language { code = "nug" }
 
-{-| Ndunda -}
+
+{-| Ndunda
+-}
 nuh : Language
 nuh =
     Language { code = "nuh" }
 
-{-| Ngumbi -}
+
+{-| Ngumbi
+-}
 nui : Language
 nui =
     Language { code = "nui" }
 
-{-| Nyole -}
+
+{-| Nyole
+-}
 nuj : Language
 nuj =
     Language { code = "nuj" }
 
+
 {-| Nuu-chah-nulth
-Nuuchahnulth -}
+Nuuchahnulth
+-}
 nuk : Language
 nuk =
     Language { code = "nuk" }
 
-{-| Nusa Laut -}
+
+{-| Nusa Laut
+-}
 nul : Language
 nul =
     Language { code = "nul" }
 
-{-| Niuafo'ou -}
+
+{-| Niuafo'ou
+-}
 num : Language
 num =
     Language { code = "num" }
 
-{-| Anong -}
+
+{-| Anong
+-}
 nun : Language
 nun =
     Language { code = "nun" }
 
-{-| Nguôn -}
+
+{-| Nguôn
+-}
 nuo : Language
 nuo =
     Language { code = "nuo" }
 
-{-| Nupe-Nupe-Tako -}
+
+{-| Nupe-Nupe-Tako
+-}
 nup : Language
 nup =
     Language { code = "nup" }
 
-{-| Nukumanu -}
+
+{-| Nukumanu
+-}
 nuq : Language
 nuq =
     Language { code = "nuq" }
 
-{-| Nukuria -}
+
+{-| Nukuria
+-}
 nur : Language
 nur =
     Language { code = "nur" }
 
-{-| Nuer -}
+
+{-| Nuer
+-}
 nus : Language
 nus =
     Language { code = "nus" }
 
-{-| Nung (Viet Nam) -}
+
+{-| Nung (Viet Nam)
+-}
 nut : Language
 nut =
     Language { code = "nut" }
 
-{-| Ngbundu -}
+
+{-| Ngbundu
+-}
 nuu : Language
 nuu =
     Language { code = "nuu" }
 
-{-| Northern Nuni -}
+
+{-| Northern Nuni
+-}
 nuv : Language
 nuv =
     Language { code = "nuv" }
 
-{-| Nguluwan -}
+
+{-| Nguluwan
+-}
 nuw : Language
 nuw =
     Language { code = "nuw" }
 
-{-| Mehek -}
+
+{-| Mehek
+-}
 nux : Language
 nux =
     Language { code = "nux" }
 
-{-| Nunggubuyu -}
+
+{-| Nunggubuyu
+-}
 nuy : Language
 nuy =
     Language { code = "nuy" }
 
-{-| Tlamacazapa Nahuatl -}
+
+{-| Tlamacazapa Nahuatl
+-}
 nuz : Language
 nuz =
     Language { code = "nuz" }
 
+
 {-| Navajo
-Navaho -}
+Navaho
+-}
 nv : Language
 nv =
     Language { code = "nv" }
 
-{-| Nasarian -}
+
+{-| Nasarian
+-}
 nvh : Language
 nvh =
     Language { code = "nvh" }
 
-{-| Namiae -}
+
+{-| Namiae
+-}
 nvm : Language
 nvm =
     Language { code = "nvm" }
 
-{-| Nyokon -}
+
+{-| Nyokon
+-}
 nvo : Language
 nvo =
     Language { code = "nvo" }
 
-{-| Nawathinehena -}
+
+{-| Nawathinehena
+-}
 nwa : Language
 nwa =
     Language { code = "nwa" }
 
-{-| Nyabwa -}
+
+{-| Nyabwa
+-}
 nwb : Language
 nwb =
     Language { code = "nwb" }
 
+
 {-| Classical Newari
 Classical Nepal Bhasa
-Old Newari -}
+Old Newari
+-}
 nwc : Language
 nwc =
     Language { code = "nwc" }
 
-{-| Ngwe -}
+
+{-| Ngwe
+-}
 nwe : Language
 nwe =
     Language { code = "nwe" }
 
-{-| Ngayawung -}
+
+{-| Ngayawung
+-}
 nwg : Language
 nwg =
     Language { code = "nwg" }
 
-{-| Southwest Tanna -}
+
+{-| Southwest Tanna
+-}
 nwi : Language
 nwi =
     Language { code = "nwi" }
 
-{-| Nyamusa-Molo -}
+
+{-| Nyamusa-Molo
+-}
 nwm : Language
 nwm =
     Language { code = "nwm" }
 
-{-| Nauo -}
+
+{-| Nauo
+-}
 nwo : Language
 nwo =
     Language { code = "nwo" }
 
-{-| Nawaru -}
+
+{-| Nawaru
+-}
 nwr : Language
 nwr =
     Language { code = "nwr" }
 
-{-| Middle Newar -}
+
+{-| Middle Newar
+-}
 nwx : Language
 nwx =
     Language { code = "nwx" }
 
-{-| Nottoway-Meherrin -}
+
+{-| Nottoway-Meherrin
+-}
 nwy : Language
 nwy =
     Language { code = "nwy" }
 
-{-| Nauete -}
+
+{-| Nauete
+-}
 nxa : Language
 nxa =
     Language { code = "nxa" }
 
-{-| Ngando (Democratic Republic of Congo) -}
+
+{-| Ngando (Democratic Republic of Congo)
+-}
 nxd : Language
 nxd =
     Language { code = "nxd" }
 
-{-| Nage -}
+
+{-| Nage
+-}
 nxe : Language
 nxe =
     Language { code = "nxe" }
 
-{-| Ngad'a -}
+
+{-| Ngad'a
+-}
 nxg : Language
 nxg =
     Language { code = "nxg" }
 
-{-| Nindi -}
+
+{-| Nindi
+-}
 nxi : Language
 nxi =
     Language { code = "nxi" }
 
-{-| Koki Naga -}
+
+{-| Koki Naga
+-}
 nxk : Language
 nxk =
     Language { code = "nxk" }
 
-{-| South Nuaulu -}
+
+{-| South Nuaulu
+-}
 nxl : Language
 nxl =
     Language { code = "nxl" }
 
-{-| Numidian -}
+
+{-| Numidian
+-}
 nxm : Language
 nxm =
     Language { code = "nxm" }
 
-{-| Ngawun -}
+
+{-| Ngawun
+-}
 nxn : Language
 nxn =
     Language { code = "nxn" }
 
-{-| Ndambomo -}
+
+{-| Ndambomo
+-}
 nxo : Language
 nxo =
     Language { code = "nxo" }
 
-{-| Naxi -}
+
+{-| Naxi
+-}
 nxq : Language
 nxq =
     Language { code = "nxq" }
 
-{-| Ninggerum -}
+
+{-| Ninggerum
+-}
 nxr : Language
 nxr =
     Language { code = "nxr" }
 
-{-| Narau -}
+
+{-| Narau
+-}
 nxu : Language
 nxu =
     Language { code = "nxu" }
 
-{-| Nafri -}
+
+{-| Nafri
+-}
 nxx : Language
 nxx =
     Language { code = "nxx" }
 
+
 {-| Nyanja
 Chewa
-Chichewa -}
+Chichewa
+-}
 ny : Language
 ny =
     Language { code = "ny" }
 
-{-| Nyangbo -}
+
+{-| Nyangbo
+-}
 nyb : Language
 nyb =
     Language { code = "nyb" }
 
-{-| Nyanga-li -}
+
+{-| Nyanga-li
+-}
 nyc : Language
 nyc =
     Language { code = "nyc" }
 
+
 {-| Nyore
-Olunyole -}
+Olunyole
+-}
 nyd : Language
 nyd =
     Language { code = "nyd" }
 
-{-| Nyengo -}
+
+{-| Nyengo
+-}
 nye : Language
 nye =
     Language { code = "nye" }
 
+
 {-| Giryama
-Kigiryama -}
+Kigiryama
+-}
 nyf : Language
 nyf =
     Language { code = "nyf" }
 
-{-| Nyindu -}
+
+{-| Nyindu
+-}
 nyg : Language
 nyg =
     Language { code = "nyg" }
 
-{-| Nyikina -}
+
+{-| Nyikina
+-}
 nyh : Language
 nyh =
     Language { code = "nyh" }
 
-{-| Ama (Sudan) -}
+
+{-| Ama (Sudan)
+-}
 nyi : Language
 nyi =
     Language { code = "nyi" }
 
-{-| Nyanga -}
+
+{-| Nyanga
+-}
 nyj : Language
 nyj =
     Language { code = "nyj" }
 
-{-| Nyaneka -}
+
+{-| Nyaneka
+-}
 nyk : Language
 nyk =
     Language { code = "nyk" }
 
-{-| Nyeu -}
+
+{-| Nyeu
+-}
 nyl : Language
 nyl =
     Language { code = "nyl" }
 
-{-| Nyamwezi -}
+
+{-| Nyamwezi
+-}
 nym : Language
 nym =
     Language { code = "nym" }
 
-{-| Nyankole -}
+
+{-| Nyankole
+-}
 nyn : Language
 nyn =
     Language { code = "nyn" }
 
-{-| Nyoro -}
+
+{-| Nyoro
+-}
 nyo : Language
 nyo =
     Language { code = "nyo" }
 
-{-| Nyang'i -}
+
+{-| Nyang'i
+-}
 nyp : Language
 nyp =
     Language { code = "nyp" }
 
-{-| Nayini -}
+
+{-| Nayini
+-}
 nyq : Language
 nyq =
     Language { code = "nyq" }
 
-{-| Nyiha (Malawi) -}
+
+{-| Nyiha (Malawi)
+-}
 nyr : Language
 nyr =
     Language { code = "nyr" }
 
-{-| Nyungar -}
+
+{-| Nyungar
+-}
 nys : Language
 nys =
     Language { code = "nys" }
 
-{-| Nyawaygi -}
+
+{-| Nyawaygi
+-}
 nyt : Language
 nyt =
     Language { code = "nyt" }
 
-{-| Nyungwe -}
+
+{-| Nyungwe
+-}
 nyu : Language
 nyu =
     Language { code = "nyu" }
 
-{-| Nyulnyul -}
+
+{-| Nyulnyul
+-}
 nyv : Language
 nyv =
     Language { code = "nyv" }
 
-{-| Nyaw -}
+
+{-| Nyaw
+-}
 nyw : Language
 nyw =
     Language { code = "nyw" }
 
-{-| Nganyaywana -}
+
+{-| Nganyaywana
+-}
 nyx : Language
 nyx =
     Language { code = "nyx" }
 
-{-| Nyakyusa-Ngonde -}
+
+{-| Nyakyusa-Ngonde
+-}
 nyy : Language
 nyy =
     Language { code = "nyy" }
 
-{-| Tigon Mbembe -}
+
+{-| Tigon Mbembe
+-}
 nza : Language
 nza =
     Language { code = "nza" }
 
-{-| Njebi -}
+
+{-| Njebi
+-}
 nzb : Language
 nzb =
     Language { code = "nzb" }
 
-{-| Nzadi -}
+
+{-| Nzadi
+-}
 nzd : Language
 nzd =
     Language { code = "nzd" }
 
-{-| Nzima -}
+
+{-| Nzima
+-}
 nzi : Language
 nzi =
     Language { code = "nzi" }
 
-{-| Nzakara -}
+
+{-| Nzakara
+-}
 nzk : Language
 nzk =
     Language { code = "nzk" }
 
-{-| Zeme Naga -}
+
+{-| Zeme Naga
+-}
 nzm : Language
 nzm =
     Language { code = "nzm" }
 
-{-| New Zealand Sign Language -}
+
+{-| New Zealand Sign Language
+-}
 nzs : Language
 nzs =
     Language { code = "nzs" }
 
-{-| Teke-Nzikou -}
+
+{-| Teke-Nzikou
+-}
 nzu : Language
 nzu =
     Language { code = "nzu" }
 
-{-| Nzakambay -}
+
+{-| Nzakambay
+-}
 nzy : Language
 nzy =
     Language { code = "nzy" }
 
-{-| Nanga Dama Dogon -}
+
+{-| Nanga Dama Dogon
+-}
 nzz : Language
 nzz =
     Language { code = "nzz" }
 
-{-| Orok -}
+
+{-| Orok
+-}
 oaa : Language
 oaa =
     Language { code = "oaa" }
 
-{-| Oroch -}
+
+{-| Oroch
+-}
 oac : Language
 oac =
     Language { code = "oac" }
 
+
 {-| Old Aramaic (up to 700 BCE)
-Ancient Aramaic (up to 700 BCE) -}
+Ancient Aramaic (up to 700 BCE)
+-}
 oar : Language
 oar =
     Language { code = "oar" }
 
-{-| Old Avar -}
+
+{-| Old Avar
+-}
 oav : Language
 oav =
     Language { code = "oav" }
 
-{-| Obispeño -}
+
+{-| Obispeño
+-}
 obi : Language
 obi =
     Language { code = "obi" }
 
-{-| Southern Bontok -}
+
+{-| Southern Bontok
+-}
 obk : Language
 obk =
     Language { code = "obk" }
 
-{-| Oblo -}
+
+{-| Oblo
+-}
 obl : Language
 obl =
     Language { code = "obl" }
 
-{-| Moabite -}
+
+{-| Moabite
+-}
 obm : Language
 obm =
     Language { code = "obm" }
 
-{-| Obo Manobo -}
+
+{-| Obo Manobo
+-}
 obo : Language
 obo =
     Language { code = "obo" }
 
-{-| Old Burmese -}
+
+{-| Old Burmese
+-}
 obr : Language
 obr =
     Language { code = "obr" }
 
-{-| Old Breton -}
+
+{-| Old Breton
+-}
 obt : Language
 obt =
     Language { code = "obt" }
 
-{-| Obulom -}
+
+{-| Obulom
+-}
 obu : Language
 obu =
     Language { code = "obu" }
 
-{-| Occitan (post 1500) -}
+
+{-| Occitan (post 1500)
+-}
 oc : Language
 oc =
     Language { code = "oc" }
 
-{-| Ocaina -}
+
+{-| Ocaina
+-}
 oca : Language
 oca =
     Language { code = "oca" }
 
-{-| Old Chinese -}
+
+{-| Old Chinese
+-}
 och : Language
 och =
     Language { code = "och" }
 
-{-| Old Cornish -}
+
+{-| Old Cornish
+-}
 oco : Language
 oco =
     Language { code = "oco" }
 
-{-| Atzingo Matlatzinca -}
+
+{-| Atzingo Matlatzinca
+-}
 ocu : Language
 ocu =
     Language { code = "ocu" }
 
-{-| Odut -}
+
+{-| Odut
+-}
 oda : Language
 oda =
     Language { code = "oda" }
 
-{-| Od -}
+
+{-| Od
+-}
 odk : Language
 odk =
     Language { code = "odk" }
 
-{-| Old Dutch -}
+
+{-| Old Dutch
+-}
 odt : Language
 odt =
     Language { code = "odt" }
 
-{-| Odual -}
+
+{-| Odual
+-}
 odu : Language
 odu =
     Language { code = "odu" }
 
-{-| Ofo -}
+
+{-| Ofo
+-}
 ofo : Language
 ofo =
     Language { code = "ofo" }
 
-{-| Old Frisian -}
+
+{-| Old Frisian
+-}
 ofs : Language
 ofs =
     Language { code = "ofs" }
 
-{-| Efutop -}
+
+{-| Efutop
+-}
 ofu : Language
 ofu =
     Language { code = "ofu" }
 
-{-| Ogbia -}
+
+{-| Ogbia
+-}
 ogb : Language
 ogb =
     Language { code = "ogb" }
 
-{-| Ogbah -}
+
+{-| Ogbah
+-}
 ogc : Language
 ogc =
     Language { code = "ogc" }
 
-{-| Old Georgian -}
+
+{-| Old Georgian
+-}
 oge : Language
 oge =
     Language { code = "oge" }
 
-{-| Ogbogolo -}
+
+{-| Ogbogolo
+-}
 ogg : Language
 ogg =
     Language { code = "ogg" }
 
-{-| Khana -}
+
+{-| Khana
+-}
 ogo : Language
 ogo =
     Language { code = "ogo" }
 
-{-| Ogbronuagum -}
+
+{-| Ogbronuagum
+-}
 ogu : Language
 ogu =
     Language { code = "ogu" }
 
-{-| Old Hittite -}
+
+{-| Old Hittite
+-}
 oht : Language
 oht =
     Language { code = "oht" }
 
-{-| Old Hungarian -}
+
+{-| Old Hungarian
+-}
 ohu : Language
 ohu =
     Language { code = "ohu" }
 
-{-| Oirata -}
+
+{-| Oirata
+-}
 oia : Language
 oia =
     Language { code = "oia" }
 
-{-| Inebu One -}
+
+{-| Inebu One
+-}
 oin : Language
 oin =
     Language { code = "oin" }
 
-{-| Ojibwa -}
+
+{-| Ojibwa
+-}
 oj : Language
 oj =
     Language { code = "oj" }
 
-{-| Northwestern Ojibwa -}
+
+{-| Northwestern Ojibwa
+-}
 ojb : Language
 ojb =
     Language { code = "ojb" }
 
-{-| Central Ojibwa -}
+
+{-| Central Ojibwa
+-}
 ojc : Language
 ojc =
     Language { code = "ojc" }
 
-{-| Eastern Ojibwa -}
+
+{-| Eastern Ojibwa
+-}
 ojg : Language
 ojg =
     Language { code = "ojg" }
 
-{-| Old Japanese -}
+
+{-| Old Japanese
+-}
 ojp : Language
 ojp =
     Language { code = "ojp" }
 
-{-| Severn Ojibwa -}
+
+{-| Severn Ojibwa
+-}
 ojs : Language
 ojs =
     Language { code = "ojs" }
 
-{-| Ontong Java -}
+
+{-| Ontong Java
+-}
 ojv : Language
 ojv =
     Language { code = "ojv" }
 
-{-| Western Ojibwa -}
+
+{-| Western Ojibwa
+-}
 ojw : Language
 ojw =
     Language { code = "ojw" }
 
-{-| Okanagan -}
+
+{-| Okanagan
+-}
 oka : Language
 oka =
     Language { code = "oka" }
 
-{-| Okobo -}
+
+{-| Okobo
+-}
 okb : Language
 okb =
     Language { code = "okb" }
 
-{-| Okodia -}
+
+{-| Okodia
+-}
 okd : Language
 okd =
     Language { code = "okd" }
 
-{-| Okpe (Southwestern Edo) -}
+
+{-| Okpe (Southwestern Edo)
+-}
 oke : Language
 oke =
     Language { code = "oke" }
 
-{-| Koko Babangk -}
+
+{-| Koko Babangk
+-}
 okg : Language
 okg =
     Language { code = "okg" }
 
-{-| Koresh-e Rostam -}
+
+{-| Koresh-e Rostam
+-}
 okh : Language
 okh =
     Language { code = "okh" }
 
-{-| Okiek -}
+
+{-| Okiek
+-}
 oki : Language
 oki =
     Language { code = "oki" }
 
-{-| Oko-Juwoi -}
+
+{-| Oko-Juwoi
+-}
 okj : Language
 okj =
     Language { code = "okj" }
 
-{-| Kwamtim One -}
+
+{-| Kwamtim One
+-}
 okk : Language
 okk =
     Language { code = "okk" }
 
-{-| Old Kentish Sign Language -}
+
+{-| Old Kentish Sign Language
+-}
 okl : Language
 okl =
     Language { code = "okl" }
 
-{-| Middle Korean (10th-16th cent.) -}
+
+{-| Middle Korean (10th-16th cent.)
+-}
 okm : Language
 okm =
     Language { code = "okm" }
 
-{-| Oki-No-Erabu -}
+
+{-| Oki-No-Erabu
+-}
 okn : Language
 okn =
     Language { code = "okn" }
 
-{-| Old Korean (3rd-9th cent.) -}
+
+{-| Old Korean (3rd-9th cent.)
+-}
 oko : Language
 oko =
     Language { code = "oko" }
 
-{-| Kirike -}
+
+{-| Kirike
+-}
 okr : Language
 okr =
     Language { code = "okr" }
 
-{-| Oko-Eni-Osayen -}
+
+{-| Oko-Eni-Osayen
+-}
 oks : Language
 oks =
     Language { code = "oks" }
 
-{-| Oku -}
+
+{-| Oku
+-}
 oku : Language
 oku =
     Language { code = "oku" }
 
-{-| Orokaiva -}
+
+{-| Orokaiva
+-}
 okv : Language
 okv =
     Language { code = "okv" }
 
-{-| Okpe (Northwestern Edo) -}
+
+{-| Okpe (Northwestern Edo)
+-}
 okx : Language
 okx =
     Language { code = "okx" }
 
-{-| Walungge -}
+
+{-| Walungge
+-}
 ola : Language
 ola =
     Language { code = "ola" }
 
-{-| Mochi -}
+
+{-| Mochi
+-}
 old : Language
 old =
     Language { code = "old" }
 
-{-| Olekha -}
+
+{-| Olekha
+-}
 ole : Language
 ole =
     Language { code = "ole" }
 
-{-| Olkol -}
+
+{-| Olkol
+-}
 olk : Language
 olk =
     Language { code = "olk" }
 
-{-| Oloma -}
+
+{-| Oloma
+-}
 olm : Language
 olm =
     Language { code = "olm" }
 
-{-| Livvi -}
+
+{-| Livvi
+-}
 olo : Language
 olo =
     Language { code = "olo" }
 
-{-| Olrat -}
+
+{-| Olrat
+-}
 olr : Language
 olr =
     Language { code = "olr" }
 
-{-| Old Lithuanian -}
+
+{-| Old Lithuanian
+-}
 olt : Language
 olt =
     Language { code = "olt" }
 
-{-| Kuvale -}
+
+{-| Kuvale
+-}
 olu : Language
 olu =
     Language { code = "olu" }
 
-{-| Oromo -}
+
+{-| Oromo
+-}
 om : Language
 om =
     Language { code = "om" }
 
-{-| Omaha-Ponca -}
+
+{-| Omaha-Ponca
+-}
 oma : Language
 oma =
     Language { code = "oma" }
 
-{-| East Ambae -}
+
+{-| East Ambae
+-}
 omb : Language
 omb =
     Language { code = "omb" }
 
-{-| Mochica -}
+
+{-| Mochica
+-}
 omc : Language
 omc =
     Language { code = "omc" }
 
-{-| Omejes -}
+
+{-| Omejes
+-}
 ome : Language
 ome =
     Language { code = "ome" }
 
-{-| Omagua -}
+
+{-| Omagua
+-}
 omg : Language
 omg =
     Language { code = "omg" }
 
-{-| Omi -}
+
+{-| Omi
+-}
 omi : Language
 omi =
     Language { code = "omi" }
 
-{-| Omok -}
+
+{-| Omok
+-}
 omk : Language
 omk =
     Language { code = "omk" }
 
-{-| Ombo -}
+
+{-| Ombo
+-}
 oml : Language
 oml =
     Language { code = "oml" }
 
-{-| Minoan -}
+
+{-| Minoan
+-}
 omn : Language
 omn =
     Language { code = "omn" }
 
-{-| Utarmbung -}
+
+{-| Utarmbung
+-}
 omo : Language
 omo =
     Language { code = "omo" }
 
-{-| Old Manipuri -}
+
+{-| Old Manipuri
+-}
 omp : Language
 omp =
     Language { code = "omp" }
 
-{-| Oto-Manguean languages -}
+
+{-| Oto-Manguean languages
+-}
 omq : Language
 omq =
     Language { code = "omq" }
 
-{-| Old Marathi -}
+
+{-| Old Marathi
+-}
 omr : Language
 omr =
     Language { code = "omr" }
 
-{-| Omotik -}
+
+{-| Omotik
+-}
 omt : Language
 omt =
     Language { code = "omt" }
 
-{-| Omurano -}
+
+{-| Omurano
+-}
 omu : Language
 omu =
     Language { code = "omu" }
 
-{-| Omotic languages -}
+
+{-| Omotic languages
+-}
 omv : Language
 omv =
     Language { code = "omv" }
 
-{-| South Tairora -}
+
+{-| South Tairora
+-}
 omw : Language
 omw =
     Language { code = "omw" }
 
-{-| Old Mon -}
+
+{-| Old Mon
+-}
 omx : Language
 omx =
     Language { code = "omx" }
 
-{-| Ona -}
+
+{-| Ona
+-}
 ona : Language
 ona =
     Language { code = "ona" }
 
-{-| Lingao -}
+
+{-| Lingao
+-}
 onb : Language
 onb =
     Language { code = "onb" }
 
-{-| Oneida -}
+
+{-| Oneida
+-}
 one : Language
 one =
     Language { code = "one" }
 
-{-| Olo -}
+
+{-| Olo
+-}
 ong : Language
 ong =
     Language { code = "ong" }
 
-{-| Onin -}
+
+{-| Onin
+-}
 oni : Language
 oni =
     Language { code = "oni" }
 
-{-| Onjob -}
+
+{-| Onjob
+-}
 onj : Language
 onj =
     Language { code = "onj" }
 
-{-| Kabore One -}
+
+{-| Kabore One
+-}
 onk : Language
 onk =
     Language { code = "onk" }
 
-{-| Onobasulu -}
+
+{-| Onobasulu
+-}
 onn : Language
 onn =
     Language { code = "onn" }
 
-{-| Onondaga -}
+
+{-| Onondaga
+-}
 ono : Language
 ono =
     Language { code = "ono" }
 
-{-| Sartang -}
+
+{-| Sartang
+-}
 onp : Language
 onp =
     Language { code = "onp" }
 
-{-| Northern One -}
+
+{-| Northern One
+-}
 onr : Language
 onr =
     Language { code = "onr" }
 
-{-| Ono -}
+
+{-| Ono
+-}
 ons : Language
 ons =
     Language { code = "ons" }
 
-{-| Ontenu -}
+
+{-| Ontenu
+-}
 ont : Language
 ont =
     Language { code = "ont" }
 
-{-| Unua -}
+
+{-| Unua
+-}
 onu : Language
 onu =
     Language { code = "onu" }
 
-{-| Old Nubian -}
+
+{-| Old Nubian
+-}
 onw : Language
 onw =
     Language { code = "onw" }
 
-{-| Onin Based Pidgin -}
+
+{-| Onin Based Pidgin
+-}
 onx : Language
 onx =
     Language { code = "onx" }
 
-{-| Tohono O'odham -}
+
+{-| Tohono O'odham
+-}
 ood : Language
 ood =
     Language { code = "ood" }
 
-{-| Ong -}
+
+{-| Ong
+-}
 oog : Language
 oog =
     Language { code = "oog" }
 
-{-| Önge -}
+
+{-| Önge
+-}
 oon : Language
 oon =
     Language { code = "oon" }
 
-{-| Oorlams -}
+
+{-| Oorlams
+-}
 oor : Language
 oor =
     Language { code = "oor" }
 
-{-| Old Ossetic -}
+
+{-| Old Ossetic
+-}
 oos : Language
 oos =
     Language { code = "oos" }
 
-{-| Okpamheri -}
+
+{-| Okpamheri
+-}
 opa : Language
 opa =
     Language { code = "opa" }
 
-{-| Kopkaka -}
+
+{-| Kopkaka
+-}
 opk : Language
 opk =
     Language { code = "opk" }
 
-{-| Oksapmin -}
+
+{-| Oksapmin
+-}
 opm : Language
 opm =
     Language { code = "opm" }
 
-{-| Opao -}
+
+{-| Opao
+-}
 opo : Language
 opo =
     Language { code = "opo" }
 
-{-| Opata -}
+
+{-| Opata
+-}
 opt : Language
 opt =
     Language { code = "opt" }
 
-{-| Ofayé -}
+
+{-| Ofayé
+-}
 opy : Language
 opy =
     Language { code = "opy" }
 
+
 {-| Oriya (macrolanguage)
-Odia (macrolanguage) -}
+Odia (macrolanguage)
+-}
 or : Language
 or =
     Language { code = "or" }
 
-{-| Oroha -}
+
+{-| Oroha
+-}
 ora : Language
 ora =
     Language { code = "ora" }
 
-{-| Orma -}
+
+{-| Orma
+-}
 orc : Language
 orc =
     Language { code = "orc" }
 
-{-| Orejón -}
+
+{-| Orejón
+-}
 ore : Language
 ore =
     Language { code = "ore" }
 
-{-| Oring -}
+
+{-| Oring
+-}
 org : Language
 org =
     Language { code = "org" }
 
-{-| Oroqen -}
+
+{-| Oroqen
+-}
 orh : Language
 orh =
     Language { code = "orh" }
 
-{-| Orang Kanaq -}
+
+{-| Orang Kanaq
+-}
 orn : Language
 orn =
     Language { code = "orn" }
 
-{-| Orokolo -}
+
+{-| Orokolo
+-}
 oro : Language
 oro =
     Language { code = "oro" }
 
-{-| Oruma -}
+
+{-| Oruma
+-}
 orr : Language
 orr =
     Language { code = "orr" }
 
-{-| Orang Seletar -}
+
+{-| Orang Seletar
+-}
 ors : Language
 ors =
     Language { code = "ors" }
 
-{-| Adivasi Oriya -}
+
+{-| Adivasi Oriya
+-}
 ort : Language
 ort =
     Language { code = "ort" }
 
-{-| Ormuri -}
+
+{-| Ormuri
+-}
 oru : Language
 oru =
     Language { code = "oru" }
 
-{-| Old Russian -}
+
+{-| Old Russian
+-}
 orv : Language
 orv =
     Language { code = "orv" }
 
-{-| Oro Win -}
+
+{-| Oro Win
+-}
 orw : Language
 orw =
     Language { code = "orw" }
 
-{-| Oro -}
+
+{-| Oro
+-}
 orx : Language
 orx =
     Language { code = "orx" }
 
+
 {-| Odia (individual language)
-Oriya (individual language) -}
+Oriya (individual language)
+-}
 ory : Language
 ory =
     Language { code = "ory" }
 
-{-| Ormu -}
+
+{-| Ormu
+-}
 orz : Language
 orz =
     Language { code = "orz" }
 
+
 {-| Ossetian
-Ossetic -}
+Ossetic
+-}
 os : Language
 os =
     Language { code = "os" }
 
-{-| Osage -}
+
+{-| Osage
+-}
 osa : Language
 osa =
     Language { code = "osa" }
 
-{-| Oscan -}
+
+{-| Oscan
+-}
 osc : Language
 osc =
     Language { code = "osc" }
 
-{-| Osing -}
+
+{-| Osing
+-}
 osi : Language
 osi =
     Language { code = "osi" }
 
-{-| Ososo -}
+
+{-| Ososo
+-}
 oso : Language
 oso =
     Language { code = "oso" }
 
-{-| Old Spanish -}
+
+{-| Old Spanish
+-}
 osp : Language
 osp =
     Language { code = "osp" }
 
-{-| Osatu -}
+
+{-| Osatu
+-}
 ost : Language
 ost =
     Language { code = "ost" }
 
-{-| Southern One -}
+
+{-| Southern One
+-}
 osu : Language
 osu =
     Language { code = "osu" }
 
-{-| Old Saxon -}
+
+{-| Old Saxon
+-}
 osx : Language
 osx =
     Language { code = "osx" }
 
-{-| Ottoman Turkish (1500-1928) -}
+
+{-| Ottoman Turkish (1500-1928)
+-}
 ota : Language
 ota =
     Language { code = "ota" }
 
-{-| Old Tibetan -}
+
+{-| Old Tibetan
+-}
 otb : Language
 otb =
     Language { code = "otb" }
 
-{-| Ot Danum -}
+
+{-| Ot Danum
+-}
 otd : Language
 otd =
     Language { code = "otd" }
 
-{-| Mezquital Otomi -}
+
+{-| Mezquital Otomi
+-}
 ote : Language
 ote =
     Language { code = "ote" }
 
-{-| Oti -}
+
+{-| Oti
+-}
 oti : Language
 oti =
     Language { code = "oti" }
 
-{-| Old Turkish -}
+
+{-| Old Turkish
+-}
 otk : Language
 otk =
     Language { code = "otk" }
 
-{-| Tilapa Otomi -}
+
+{-| Tilapa Otomi
+-}
 otl : Language
 otl =
     Language { code = "otl" }
 
-{-| Eastern Highland Otomi -}
+
+{-| Eastern Highland Otomi
+-}
 otm : Language
 otm =
     Language { code = "otm" }
 
-{-| Tenango Otomi -}
+
+{-| Tenango Otomi
+-}
 otn : Language
 otn =
     Language { code = "otn" }
 
-{-| Otomian languages -}
+
+{-| Otomian languages
+-}
 oto : Language
 oto =
     Language { code = "oto" }
 
-{-| Querétaro Otomi -}
+
+{-| Querétaro Otomi
+-}
 otq : Language
 otq =
     Language { code = "otq" }
 
-{-| Otoro -}
+
+{-| Otoro
+-}
 otr : Language
 otr =
     Language { code = "otr" }
 
-{-| Estado de México Otomi -}
+
+{-| Estado de México Otomi
+-}
 ots : Language
 ots =
     Language { code = "ots" }
 
-{-| Temoaya Otomi -}
+
+{-| Temoaya Otomi
+-}
 ott : Language
 ott =
     Language { code = "ott" }
 
-{-| Otuke -}
+
+{-| Otuke
+-}
 otu : Language
 otu =
     Language { code = "otu" }
 
-{-| Ottawa -}
+
+{-| Ottawa
+-}
 otw : Language
 otw =
     Language { code = "otw" }
 
-{-| Texcatepec Otomi -}
+
+{-| Texcatepec Otomi
+-}
 otx : Language
 otx =
     Language { code = "otx" }
 
-{-| Old Tamil -}
+
+{-| Old Tamil
+-}
 oty : Language
 oty =
     Language { code = "oty" }
 
-{-| Ixtenco Otomi -}
+
+{-| Ixtenco Otomi
+-}
 otz : Language
 otz =
     Language { code = "otz" }
 
-{-| Tagargrent -}
+
+{-| Tagargrent
+-}
 oua : Language
 oua =
     Language { code = "oua" }
 
-{-| Glio-Oubi -}
+
+{-| Glio-Oubi
+-}
 oub : Language
 oub =
     Language { code = "oub" }
 
-{-| Oune -}
+
+{-| Oune
+-}
 oue : Language
 oue =
     Language { code = "oue" }
 
-{-| Old Uighur -}
+
+{-| Old Uighur
+-}
 oui : Language
 oui =
     Language { code = "oui" }
 
-{-| Ouma -}
+
+{-| Ouma
+-}
 oum : Language
 oum =
     Language { code = "oum" }
 
-{-| ǃOǃung -}
+
+{-| ǃOǃung
+-}
 oun : Language
 oun =
     Language { code = "oun" }
 
+
 {-| Elfdalian
-Övdalian -}
+Övdalian
+-}
 ovd : Language
 ovd =
     Language { code = "ovd" }
 
-{-| Owiniga -}
+
+{-| Owiniga
+-}
 owi : Language
 owi =
     Language { code = "owi" }
 
-{-| Old Welsh -}
+
+{-| Old Welsh
+-}
 owl : Language
 owl =
     Language { code = "owl" }
 
-{-| Oy -}
+
+{-| Oy
+-}
 oyb : Language
 oyb =
     Language { code = "oyb" }
 
-{-| Oyda -}
+
+{-| Oyda
+-}
 oyd : Language
 oyd =
     Language { code = "oyd" }
 
-{-| Wayampi -}
+
+{-| Wayampi
+-}
 oym : Language
 oym =
     Language { code = "oym" }
 
-{-| Oya'oya -}
+
+{-| Oya'oya
+-}
 oyy : Language
 oyy =
     Language { code = "oyy" }
 
-{-| Koonzime -}
+
+{-| Koonzime
+-}
 ozm : Language
 ozm =
     Language { code = "ozm" }
 
+
 {-| Panjabi
-Punjabi -}
+Punjabi
+-}
 pa : Language
 pa =
     Language { code = "pa" }
 
-{-| Papuan languages -}
+
+{-| Papuan languages
+-}
 paa : Language
 paa =
     Language { code = "paa" }
 
-{-| Parecís -}
+
+{-| Parecís
+-}
 pab : Language
 pab =
     Language { code = "pab" }
 
-{-| Pacoh -}
+
+{-| Pacoh
+-}
 pac : Language
 pac =
     Language { code = "pac" }
 
-{-| Paumarí -}
+
+{-| Paumarí
+-}
 pad : Language
 pad =
     Language { code = "pad" }
 
-{-| Pagibete -}
+
+{-| Pagibete
+-}
 pae : Language
 pae =
     Language { code = "pae" }
 
-{-| Paranawát -}
+
+{-| Paranawát
+-}
 paf : Language
 paf =
     Language { code = "paf" }
 
-{-| Pangasinan -}
+
+{-| Pangasinan
+-}
 pag : Language
 pag =
     Language { code = "pag" }
 
-{-| Tenharim -}
+
+{-| Tenharim
+-}
 pah : Language
 pah =
     Language { code = "pah" }
 
-{-| Pe -}
+
+{-| Pe
+-}
 pai : Language
 pai =
     Language { code = "pai" }
 
-{-| Parakanã -}
+
+{-| Parakanã
+-}
 pak : Language
 pak =
     Language { code = "pak" }
 
-{-| Pahlavi -}
+
+{-| Pahlavi
+-}
 pal : Language
 pal =
     Language { code = "pal" }
 
+
 {-| Pampanga
-Kapampangan -}
+Kapampangan
+-}
 pam : Language
 pam =
     Language { code = "pam" }
 
-{-| Northern Paiute -}
+
+{-| Northern Paiute
+-}
 pao : Language
 pao =
     Language { code = "pao" }
 
-{-| Papiamento -}
+
+{-| Papiamento
+-}
 pap : Language
 pap =
     Language { code = "pap" }
 
-{-| Parya -}
+
+{-| Parya
+-}
 paq : Language
 paq =
     Language { code = "paq" }
 
+
 {-| Panamint
-Timbisha -}
+Timbisha
+-}
 par : Language
 par =
     Language { code = "par" }
 
-{-| Papasena -}
+
+{-| Papasena
+-}
 pas : Language
 pas =
     Language { code = "pas" }
 
-{-| Papitalai -}
+
+{-| Papitalai
+-}
 pat : Language
 pat =
     Language { code = "pat" }
 
-{-| Palauan -}
+
+{-| Palauan
+-}
 pau : Language
 pau =
     Language { code = "pau" }
 
-{-| Pakaásnovos -}
+
+{-| Pakaásnovos
+-}
 pav : Language
 pav =
     Language { code = "pav" }
 
-{-| Pawnee -}
+
+{-| Pawnee
+-}
 paw : Language
 paw =
     Language { code = "paw" }
 
-{-| Pankararé -}
+
+{-| Pankararé
+-}
 pax : Language
 pax =
     Language { code = "pax" }
 
-{-| Pech -}
+
+{-| Pech
+-}
 pay : Language
 pay =
     Language { code = "pay" }
 
-{-| Pankararú -}
+
+{-| Pankararú
+-}
 paz : Language
 paz =
     Language { code = "paz" }
 
-{-| Páez -}
+
+{-| Páez
+-}
 pbb : Language
 pbb =
     Language { code = "pbb" }
 
-{-| Patamona -}
+
+{-| Patamona
+-}
 pbc : Language
 pbc =
     Language { code = "pbc" }
 
-{-| Mezontla Popoloca -}
+
+{-| Mezontla Popoloca
+-}
 pbe : Language
 pbe =
     Language { code = "pbe" }
 
-{-| Coyotepec Popoloca -}
+
+{-| Coyotepec Popoloca
+-}
 pbf : Language
 pbf =
     Language { code = "pbf" }
 
-{-| Paraujano -}
+
+{-| Paraujano
+-}
 pbg : Language
 pbg =
     Language { code = "pbg" }
 
-{-| E'ñapa Woromaipu -}
+
+{-| E'ñapa Woromaipu
+-}
 pbh : Language
 pbh =
     Language { code = "pbh" }
 
-{-| Parkwa -}
+
+{-| Parkwa
+-}
 pbi : Language
 pbi =
     Language { code = "pbi" }
 
-{-| Mak (Nigeria) -}
+
+{-| Mak (Nigeria)
+-}
 pbl : Language
 pbl =
     Language { code = "pbl" }
 
-{-| Puebla Mazatec -}
+
+{-| Puebla Mazatec
+-}
 pbm : Language
 pbm =
     Language { code = "pbm" }
 
-{-| Kpasam -}
+
+{-| Kpasam
+-}
 pbn : Language
 pbn =
     Language { code = "pbn" }
 
-{-| Papel -}
+
+{-| Papel
+-}
 pbo : Language
 pbo =
     Language { code = "pbo" }
 
-{-| Badyara -}
+
+{-| Badyara
+-}
 pbp : Language
 pbp =
     Language { code = "pbp" }
 
-{-| Pangwa -}
+
+{-| Pangwa
+-}
 pbr : Language
 pbr =
     Language { code = "pbr" }
 
-{-| Central Pame -}
+
+{-| Central Pame
+-}
 pbs : Language
 pbs =
     Language { code = "pbs" }
 
-{-| Southern Pashto -}
+
+{-| Southern Pashto
+-}
 pbt : Language
 pbt =
     Language { code = "pbt" }
 
-{-| Northern Pashto -}
+
+{-| Northern Pashto
+-}
 pbu : Language
 pbu =
     Language { code = "pbu" }
 
-{-| Pnar -}
+
+{-| Pnar
+-}
 pbv : Language
 pbv =
     Language { code = "pbv" }
 
-{-| Pyu (Papua New Guinea) -}
+
+{-| Pyu (Papua New Guinea)
+-}
 pby : Language
 pby =
     Language { code = "pby" }
 
-{-| Palu -}
+
+{-| Palu
+-}
 pbz : Language
 pbz =
     Language { code = "pbz" }
 
-{-| Santa Inés Ahuatempan Popoloca -}
+
+{-| Santa Inés Ahuatempan Popoloca
+-}
 pca : Language
 pca =
     Language { code = "pca" }
 
-{-| Pear -}
+
+{-| Pear
+-}
 pcb : Language
 pcb =
     Language { code = "pcb" }
 
-{-| Bouyei -}
+
+{-| Bouyei
+-}
 pcc : Language
 pcc =
     Language { code = "pcc" }
 
-{-| Picard -}
+
+{-| Picard
+-}
 pcd : Language
 pcd =
     Language { code = "pcd" }
 
-{-| Ruching Palaung -}
+
+{-| Ruching Palaung
+-}
 pce : Language
 pce =
     Language { code = "pce" }
 
-{-| Paliyan -}
+
+{-| Paliyan
+-}
 pcf : Language
 pcf =
     Language { code = "pcf" }
 
-{-| Paniya -}
+
+{-| Paniya
+-}
 pcg : Language
 pcg =
     Language { code = "pcg" }
 
-{-| Pardhan -}
+
+{-| Pardhan
+-}
 pch : Language
 pch =
     Language { code = "pch" }
 
-{-| Duruwa -}
+
+{-| Duruwa
+-}
 pci : Language
 pci =
     Language { code = "pci" }
 
-{-| Parenga -}
+
+{-| Parenga
+-}
 pcj : Language
 pcj =
     Language { code = "pcj" }
 
-{-| Paite Chin -}
+
+{-| Paite Chin
+-}
 pck : Language
 pck =
     Language { code = "pck" }
 
-{-| Pardhi -}
+
+{-| Pardhi
+-}
 pcl : Language
 pcl =
     Language { code = "pcl" }
 
-{-| Nigerian Pidgin -}
+
+{-| Nigerian Pidgin
+-}
 pcm : Language
 pcm =
     Language { code = "pcm" }
 
-{-| Piti -}
+
+{-| Piti
+-}
 pcn : Language
 pcn =
     Language { code = "pcn" }
 
-{-| Pacahuara -}
+
+{-| Pacahuara
+-}
 pcp : Language
 pcp =
     Language { code = "pcp" }
 
-{-| Panang -}
+
+{-| Panang
+-}
 pcr : Language
 pcr =
     Language { code = "pcr" }
 
-{-| Pyapun -}
+
+{-| Pyapun
+-}
 pcw : Language
 pcw =
     Language { code = "pcw" }
 
-{-| Anam -}
+
+{-| Anam
+-}
 pda : Language
 pda =
     Language { code = "pda" }
 
-{-| Pennsylvania German -}
+
+{-| Pennsylvania German
+-}
 pdc : Language
 pdc =
     Language { code = "pdc" }
 
-{-| Pa Di -}
+
+{-| Pa Di
+-}
 pdi : Language
 pdi =
     Language { code = "pdi" }
 
+
 {-| Podena
-Fedan -}
+Fedan
+-}
 pdn : Language
 pdn =
     Language { code = "pdn" }
 
-{-| Padoe -}
+
+{-| Padoe
+-}
 pdo : Language
 pdo =
     Language { code = "pdo" }
 
-{-| Plautdietsch -}
+
+{-| Plautdietsch
+-}
 pdt : Language
 pdt =
     Language { code = "pdt" }
 
-{-| Kayan -}
+
+{-| Kayan
+-}
 pdu : Language
 pdu =
     Language { code = "pdu" }
 
-{-| Peranakan Indonesian -}
+
+{-| Peranakan Indonesian
+-}
 pea : Language
 pea =
     Language { code = "pea" }
 
-{-| Eastern Pomo -}
+
+{-| Eastern Pomo
+-}
 peb : Language
 peb =
     Language { code = "peb" }
 
-{-| Mala (Papua New Guinea) -}
+
+{-| Mala (Papua New Guinea)
+-}
 ped : Language
 ped =
     Language { code = "ped" }
 
-{-| Taje -}
+
+{-| Taje
+-}
 pee : Language
 pee =
     Language { code = "pee" }
 
-{-| Northeastern Pomo -}
+
+{-| Northeastern Pomo
+-}
 pef : Language
 pef =
     Language { code = "pef" }
 
-{-| Pengo -}
+
+{-| Pengo
+-}
 peg : Language
 peg =
     Language { code = "peg" }
 
-{-| Bonan -}
+
+{-| Bonan
+-}
 peh : Language
 peh =
     Language { code = "peh" }
 
-{-| Chichimeca-Jonaz -}
+
+{-| Chichimeca-Jonaz
+-}
 pei : Language
 pei =
     Language { code = "pei" }
 
-{-| Northern Pomo -}
+
+{-| Northern Pomo
+-}
 pej : Language
 pej =
     Language { code = "pej" }
 
-{-| Penchal -}
+
+{-| Penchal
+-}
 pek : Language
 pek =
     Language { code = "pek" }
 
-{-| Pekal -}
+
+{-| Pekal
+-}
 pel : Language
 pel =
     Language { code = "pel" }
 
-{-| Phende -}
+
+{-| Phende
+-}
 pem : Language
 pem =
     Language { code = "pem" }
 
-{-| Old Persian (ca. 600-400 B.C.) -}
+
+{-| Old Persian (ca. 600-400 B.C.)
+-}
 peo : Language
 peo =
     Language { code = "peo" }
 
-{-| Kunja -}
+
+{-| Kunja
+-}
 pep : Language
 pep =
     Language { code = "pep" }
 
-{-| Southern Pomo -}
+
+{-| Southern Pomo
+-}
 peq : Language
 peq =
     Language { code = "peq" }
 
-{-| Iranian Persian -}
+
+{-| Iranian Persian
+-}
 pes : Language
 pes =
     Language { code = "pes" }
 
-{-| Pémono -}
+
+{-| Pémono
+-}
 pev : Language
 pev =
     Language { code = "pev" }
 
-{-| Petats -}
+
+{-| Petats
+-}
 pex : Language
 pex =
     Language { code = "pex" }
 
-{-| Petjo -}
+
+{-| Petjo
+-}
 pey : Language
 pey =
     Language { code = "pey" }
 
-{-| Eastern Penan -}
+
+{-| Eastern Penan
+-}
 pez : Language
 pez =
     Language { code = "pez" }
 
-{-| Pááfang -}
+
+{-| Pááfang
+-}
 pfa : Language
 pfa =
     Language { code = "pfa" }
 
-{-| Pere -}
+
+{-| Pere
+-}
 pfe : Language
 pfe =
     Language { code = "pfe" }
 
-{-| Pfaelzisch -}
+
+{-| Pfaelzisch
+-}
 pfl : Language
 pfl =
     Language { code = "pfl" }
 
-{-| Sudanese Creole Arabic -}
+
+{-| Sudanese Creole Arabic
+-}
 pga : Language
 pga =
     Language { code = "pga" }
 
-{-| Gāndhārī -}
+
+{-| Gāndhārī
+-}
 pgd : Language
 pgd =
     Language { code = "pgd" }
 
-{-| Pangwali -}
+
+{-| Pangwali
+-}
 pgg : Language
 pgg =
     Language { code = "pgg" }
 
-{-| Pagi -}
+
+{-| Pagi
+-}
 pgi : Language
 pgi =
     Language { code = "pgi" }
 
-{-| Rerep -}
+
+{-| Rerep
+-}
 pgk : Language
 pgk =
     Language { code = "pgk" }
 
-{-| Primitive Irish -}
+
+{-| Primitive Irish
+-}
 pgl : Language
 pgl =
     Language { code = "pgl" }
 
-{-| Paelignian -}
+
+{-| Paelignian
+-}
 pgn : Language
 pgn =
     Language { code = "pgn" }
 
-{-| Pangseng -}
+
+{-| Pangseng
+-}
 pgs : Language
 pgs =
     Language { code = "pgs" }
 
-{-| Pagu -}
+
+{-| Pagu
+-}
 pgu : Language
 pgu =
     Language { code = "pgu" }
 
-{-| Pongyong -}
+
+{-| Pongyong
+-}
 pgy : Language
 pgy =
     Language { code = "pgy" }
 
-{-| Papua New Guinean Sign Language -}
+
+{-| Papua New Guinean Sign Language
+-}
 pgz : Language
 pgz =
     Language { code = "pgz" }
 
-{-| Pa-Hng -}
+
+{-| Pa-Hng
+-}
 pha : Language
 pha =
     Language { code = "pha" }
 
-{-| Phudagi -}
+
+{-| Phudagi
+-}
 phd : Language
 phd =
     Language { code = "phd" }
 
-{-| Phuong -}
+
+{-| Phuong
+-}
 phg : Language
 phg =
     Language { code = "phg" }
 
-{-| Phukha -}
+
+{-| Phukha
+-}
 phh : Language
 phh =
     Language { code = "phh" }
 
-{-| Philippine languages -}
+
+{-| Philippine languages
+-}
 phi : Language
 phi =
     Language { code = "phi" }
 
-{-| Phake -}
+
+{-| Phake
+-}
 phk : Language
 phk =
     Language { code = "phk" }
 
+
 {-| Phalura
-Palula -}
+Palula
+-}
 phl : Language
 phl =
     Language { code = "phl" }
 
-{-| Phimbi -}
+
+{-| Phimbi
+-}
 phm : Language
 phm =
     Language { code = "phm" }
 
-{-| Phoenician -}
+
+{-| Phoenician
+-}
 phn : Language
 phn =
     Language { code = "phn" }
 
-{-| Phunoi -}
+
+{-| Phunoi
+-}
 pho : Language
 pho =
     Language { code = "pho" }
 
-{-| Phana' -}
+
+{-| Phana'
+-}
 phq : Language
 phq =
     Language { code = "phq" }
 
-{-| Pahari-Potwari -}
+
+{-| Pahari-Potwari
+-}
 phr : Language
 phr =
     Language { code = "phr" }
 
-{-| Phu Thai -}
+
+{-| Phu Thai
+-}
 pht : Language
 pht =
     Language { code = "pht" }
 
-{-| Phuan -}
+
+{-| Phuan
+-}
 phu : Language
 phu =
     Language { code = "phu" }
 
-{-| Pahlavani -}
+
+{-| Pahlavani
+-}
 phv : Language
 phv =
     Language { code = "phv" }
 
-{-| Phangduwali -}
+
+{-| Phangduwali
+-}
 phw : Language
 phw =
     Language { code = "phw" }
 
-{-| Pali -}
+
+{-| Pali
+-}
 pi : Language
 pi =
     Language { code = "pi" }
 
-{-| Pima Bajo -}
+
+{-| Pima Bajo
+-}
 pia : Language
 pia =
     Language { code = "pia" }
 
-{-| Yine -}
+
+{-| Yine
+-}
 pib : Language
 pib =
     Language { code = "pib" }
 
-{-| Pinji -}
+
+{-| Pinji
+-}
 pic : Language
 pic =
     Language { code = "pic" }
 
-{-| Piaroa -}
+
+{-| Piaroa
+-}
 pid : Language
 pid =
     Language { code = "pid" }
 
-{-| Piro -}
+
+{-| Piro
+-}
 pie : Language
 pie =
     Language { code = "pie" }
 
-{-| Pingelapese -}
+
+{-| Pingelapese
+-}
 pif : Language
 pif =
     Language { code = "pif" }
 
-{-| Pisabo -}
+
+{-| Pisabo
+-}
 pig : Language
 pig =
     Language { code = "pig" }
 
-{-| Pitcairn-Norfolk -}
+
+{-| Pitcairn-Norfolk
+-}
 pih : Language
 pih =
     Language { code = "pih" }
 
-{-| Pini -}
+
+{-| Pini
+-}
 pii : Language
 pii =
     Language { code = "pii" }
 
-{-| Pijao -}
+
+{-| Pijao
+-}
 pij : Language
 pij =
     Language { code = "pij" }
 
-{-| Yom -}
+
+{-| Yom
+-}
 pil : Language
 pil =
     Language { code = "pil" }
 
-{-| Powhatan -}
+
+{-| Powhatan
+-}
 pim : Language
 pim =
     Language { code = "pim" }
 
-{-| Piame -}
+
+{-| Piame
+-}
 pin : Language
 pin =
     Language { code = "pin" }
 
-{-| Piapoco -}
+
+{-| Piapoco
+-}
 pio : Language
 pio =
     Language { code = "pio" }
 
-{-| Pero -}
+
+{-| Pero
+-}
 pip : Language
 pip =
     Language { code = "pip" }
 
-{-| Piratapuyo -}
+
+{-| Piratapuyo
+-}
 pir : Language
 pir =
     Language { code = "pir" }
 
-{-| Pijin -}
+
+{-| Pijin
+-}
 pis : Language
 pis =
     Language { code = "pis" }
 
-{-| Pitta Pitta -}
+
+{-| Pitta Pitta
+-}
 pit : Language
 pit =
     Language { code = "pit" }
 
-{-| Pintupi-Luritja -}
+
+{-| Pintupi-Luritja
+-}
 piu : Language
 piu =
     Language { code = "piu" }
 
+
 {-| Pileni
-Vaeakau-Taumako -}
+Vaeakau-Taumako
+-}
 piv : Language
 piv =
     Language { code = "piv" }
 
-{-| Pimbwe -}
+
+{-| Pimbwe
+-}
 piw : Language
 piw =
     Language { code = "piw" }
 
-{-| Piu -}
+
+{-| Piu
+-}
 pix : Language
 pix =
     Language { code = "pix" }
 
-{-| Piya-Kwonci -}
+
+{-| Piya-Kwonci
+-}
 piy : Language
 piy =
     Language { code = "piy" }
 
-{-| Pije -}
+
+{-| Pije
+-}
 piz : Language
 piz =
     Language { code = "piz" }
 
-{-| Pitjantjatjara -}
+
+{-| Pitjantjatjara
+-}
 pjt : Language
 pjt =
     Language { code = "pjt" }
 
-{-| Ardhamāgadhī Prākrit -}
+
+{-| Ardhamāgadhī Prākrit
+-}
 pka : Language
 pka =
     Language { code = "pka" }
 
+
 {-| Pokomo
-Kipfokomo -}
+Kipfokomo
+-}
 pkb : Language
 pkb =
     Language { code = "pkb" }
 
-{-| Paekche -}
+
+{-| Paekche
+-}
 pkc : Language
 pkc =
     Language { code = "pkc" }
 
-{-| Pak-Tong -}
+
+{-| Pak-Tong
+-}
 pkg : Language
 pkg =
     Language { code = "pkg" }
 
-{-| Pankhu -}
+
+{-| Pankhu
+-}
 pkh : Language
 pkh =
     Language { code = "pkh" }
 
-{-| Pakanha -}
+
+{-| Pakanha
+-}
 pkn : Language
 pkn =
     Language { code = "pkn" }
 
-{-| Pökoot -}
+
+{-| Pökoot
+-}
 pko : Language
 pko =
     Language { code = "pko" }
 
-{-| Pukapuka -}
+
+{-| Pukapuka
+-}
 pkp : Language
 pkp =
     Language { code = "pkp" }
 
-{-| Attapady Kurumba -}
+
+{-| Attapady Kurumba
+-}
 pkr : Language
 pkr =
     Language { code = "pkr" }
 
-{-| Pakistan Sign Language -}
+
+{-| Pakistan Sign Language
+-}
 pks : Language
 pks =
     Language { code = "pks" }
 
-{-| Maleng -}
+
+{-| Maleng
+-}
 pkt : Language
 pkt =
     Language { code = "pkt" }
 
-{-| Paku -}
+
+{-| Paku
+-}
 pku : Language
 pku =
     Language { code = "pku" }
 
-{-| Polish -}
+
+{-| Polish
+-}
 pl : Language
 pl =
     Language { code = "pl" }
 
-{-| Miani -}
+
+{-| Miani
+-}
 pla : Language
 pla =
     Language { code = "pla" }
 
-{-| Polonombauk -}
+
+{-| Polonombauk
+-}
 plb : Language
 plb =
     Language { code = "plb" }
 
-{-| Central Palawano -}
+
+{-| Central Palawano
+-}
 plc : Language
 plc =
     Language { code = "plc" }
 
-{-| Polari -}
+
+{-| Polari
+-}
 pld : Language
 pld =
     Language { code = "pld" }
 
-{-| Palu'e -}
+
+{-| Palu'e
+-}
 ple : Language
 ple =
     Language { code = "ple" }
 
-{-| Central Malayo-Polynesian languages -}
+
+{-| Central Malayo-Polynesian languages
+-}
 plf : Language
 plf =
     Language { code = "plf" }
 
-{-| Pilagá -}
+
+{-| Pilagá
+-}
 plg : Language
 plg =
     Language { code = "plg" }
 
-{-| Paulohi -}
+
+{-| Paulohi
+-}
 plh : Language
 plh =
     Language { code = "plh" }
 
-{-| Polci -}
+
+{-| Polci
+-}
 plj : Language
 plj =
     Language { code = "plj" }
 
-{-| Kohistani Shina -}
+
+{-| Kohistani Shina
+-}
 plk : Language
 plk =
     Language { code = "plk" }
 
-{-| Shwe Palaung -}
+
+{-| Shwe Palaung
+-}
 pll : Language
 pll =
     Language { code = "pll" }
 
-{-| Palenquero -}
+
+{-| Palenquero
+-}
 pln : Language
 pln =
     Language { code = "pln" }
 
-{-| Oluta Popoluca -}
+
+{-| Oluta Popoluca
+-}
 plo : Language
 plo =
     Language { code = "plo" }
 
-{-| Palpa -}
+
+{-| Palpa
+-}
 plp : Language
 plp =
     Language { code = "plp" }
 
-{-| Palaic -}
+
+{-| Palaic
+-}
 plq : Language
 plq =
     Language { code = "plq" }
 
-{-| Palaka Senoufo -}
+
+{-| Palaka Senoufo
+-}
 plr : Language
 plr =
     Language { code = "plr" }
 
+
 {-| San Marcos Tlacoyalco Popoloca
-San Marcos Tlalcoyalco Popoloca -}
+San Marcos Tlalcoyalco Popoloca
+-}
 pls : Language
 pls =
     Language { code = "pls" }
 
-{-| Plateau Malagasy -}
+
+{-| Plateau Malagasy
+-}
 plt : Language
 plt =
     Language { code = "plt" }
 
-{-| Palikúr -}
+
+{-| Palikúr
+-}
 plu : Language
 plu =
     Language { code = "plu" }
 
-{-| Southwest Palawano -}
+
+{-| Southwest Palawano
+-}
 plv : Language
 plv =
     Language { code = "plv" }
 
-{-| Brooke's Point Palawano -}
+
+{-| Brooke's Point Palawano
+-}
 plw : Language
 plw =
     Language { code = "plw" }
 
-{-| Bolyu -}
+
+{-| Bolyu
+-}
 ply : Language
 ply =
     Language { code = "ply" }
 
-{-| Paluan -}
+
+{-| Paluan
+-}
 plz : Language
 plz =
     Language { code = "plz" }
 
-{-| Paama -}
+
+{-| Paama
+-}
 pma : Language
 pma =
     Language { code = "pma" }
 
-{-| Pambia -}
+
+{-| Pambia
+-}
 pmb : Language
 pmb =
     Language { code = "pmb" }
 
-{-| Palumata -}
+
+{-| Palumata
+-}
 pmc : Language
 pmc =
     Language { code = "pmc" }
 
-{-| Pallanganmiddang -}
+
+{-| Pallanganmiddang
+-}
 pmd : Language
 pmd =
     Language { code = "pmd" }
 
-{-| Pwaamei -}
+
+{-| Pwaamei
+-}
 pme : Language
 pme =
     Language { code = "pme" }
 
-{-| Pamona -}
+
+{-| Pamona
+-}
 pmf : Language
 pmf =
     Language { code = "pmf" }
 
-{-| Māhārāṣṭri Prākrit -}
+
+{-| Māhārāṣṭri Prākrit
+-}
 pmh : Language
 pmh =
     Language { code = "pmh" }
 
-{-| Northern Pumi -}
+
+{-| Northern Pumi
+-}
 pmi : Language
 pmi =
     Language { code = "pmi" }
 
-{-| Southern Pumi -}
+
+{-| Southern Pumi
+-}
 pmj : Language
 pmj =
     Language { code = "pmj" }
 
-{-| Pamlico -}
+
+{-| Pamlico
+-}
 pmk : Language
 pmk =
     Language { code = "pmk" }
 
-{-| Lingua Franca -}
+
+{-| Lingua Franca
+-}
 pml : Language
 pml =
     Language { code = "pml" }
 
-{-| Pomo -}
+
+{-| Pomo
+-}
 pmm : Language
 pmm =
     Language { code = "pmm" }
 
-{-| Pam -}
+
+{-| Pam
+-}
 pmn : Language
 pmn =
     Language { code = "pmn" }
 
-{-| Pom -}
+
+{-| Pom
+-}
 pmo : Language
 pmo =
     Language { code = "pmo" }
 
-{-| Northern Pame -}
+
+{-| Northern Pame
+-}
 pmq : Language
 pmq =
     Language { code = "pmq" }
 
-{-| Paynamar -}
+
+{-| Paynamar
+-}
 pmr : Language
 pmr =
     Language { code = "pmr" }
 
-{-| Piemontese -}
+
+{-| Piemontese
+-}
 pms : Language
 pms =
     Language { code = "pms" }
 
-{-| Tuamotuan -}
+
+{-| Tuamotuan
+-}
 pmt : Language
 pmt =
     Language { code = "pmt" }
 
-{-| Mirpur Panjabi -}
+
+{-| Mirpur Panjabi
+-}
 pmu : Language
 pmu =
     Language { code = "pmu" }
 
-{-| Plains Miwok -}
+
+{-| Plains Miwok
+-}
 pmw : Language
 pmw =
     Language { code = "pmw" }
 
-{-| Poumei Naga -}
+
+{-| Poumei Naga
+-}
 pmx : Language
 pmx =
     Language { code = "pmx" }
 
-{-| Papuan Malay -}
+
+{-| Papuan Malay
+-}
 pmy : Language
 pmy =
     Language { code = "pmy" }
 
-{-| Southern Pame -}
+
+{-| Southern Pame
+-}
 pmz : Language
 pmz =
     Language { code = "pmz" }
 
-{-| Punan Bah-Biau -}
+
+{-| Punan Bah-Biau
+-}
 pna : Language
 pna =
     Language { code = "pna" }
 
-{-| Western Panjabi -}
+
+{-| Western Panjabi
+-}
 pnb : Language
 pnb =
     Language { code = "pnb" }
 
-{-| Pannei -}
+
+{-| Pannei
+-}
 pnc : Language
 pnc =
     Language { code = "pnc" }
 
-{-| Mpinda -}
+
+{-| Mpinda
+-}
 pnd : Language
 pnd =
     Language { code = "pnd" }
 
-{-| Western Penan -}
+
+{-| Western Penan
+-}
 pne : Language
 pne =
     Language { code = "pne" }
 
-{-| Pongu -}
+
+{-| Pongu
+-}
 png : Language
 png =
     Language { code = "png" }
 
-{-| Penrhyn -}
+
+{-| Penrhyn
+-}
 pnh : Language
 pnh =
     Language { code = "pnh" }
 
-{-| Aoheng -}
+
+{-| Aoheng
+-}
 pni : Language
 pni =
     Language { code = "pni" }
 
-{-| Pinjarup -}
+
+{-| Pinjarup
+-}
 pnj : Language
 pnj =
     Language { code = "pnj" }
 
-{-| Paunaka -}
+
+{-| Paunaka
+-}
 pnk : Language
 pnk =
     Language { code = "pnk" }
 
-{-| Paleni -}
+
+{-| Paleni
+-}
 pnl : Language
 pnl =
     Language { code = "pnl" }
 
-{-| Punan Batu 1 -}
+
+{-| Punan Batu 1
+-}
 pnm : Language
 pnm =
     Language { code = "pnm" }
 
-{-| Pinai-Hagahai -}
+
+{-| Pinai-Hagahai
+-}
 pnn : Language
 pnn =
     Language { code = "pnn" }
 
-{-| Panobo -}
+
+{-| Panobo
+-}
 pno : Language
 pno =
     Language { code = "pno" }
 
-{-| Pancana -}
+
+{-| Pancana
+-}
 pnp : Language
 pnp =
     Language { code = "pnp" }
 
-{-| Pana (Burkina Faso) -}
+
+{-| Pana (Burkina Faso)
+-}
 pnq : Language
 pnq =
     Language { code = "pnq" }
 
-{-| Panim -}
+
+{-| Panim
+-}
 pnr : Language
 pnr =
     Language { code = "pnr" }
 
-{-| Ponosakan -}
+
+{-| Ponosakan
+-}
 pns : Language
 pns =
     Language { code = "pns" }
 
-{-| Pontic -}
+
+{-| Pontic
+-}
 pnt : Language
 pnt =
     Language { code = "pnt" }
 
-{-| Jiongnai Bunu -}
+
+{-| Jiongnai Bunu
+-}
 pnu : Language
 pnu =
     Language { code = "pnu" }
 
-{-| Pinigura -}
+
+{-| Pinigura
+-}
 pnv : Language
 pnv =
     Language { code = "pnv" }
 
+
 {-| Banyjima
-Panytyima -}
+Panytyima
+-}
 pnw : Language
 pnw =
     Language { code = "pnw" }
 
-{-| Phong-Kniang -}
+
+{-| Phong-Kniang
+-}
 pnx : Language
 pnx =
     Language { code = "pnx" }
 
-{-| Pinyin -}
+
+{-| Pinyin
+-}
 pny : Language
 pny =
     Language { code = "pny" }
 
-{-| Pana (Central African Republic) -}
+
+{-| Pana (Central African Republic)
+-}
 pnz : Language
 pnz =
     Language { code = "pnz" }
 
-{-| Poqomam -}
+
+{-| Poqomam
+-}
 poc : Language
 poc =
     Language { code = "poc" }
 
-{-| Ponares -}
+
+{-| Ponares
+-}
 pod : Language
 pod =
     Language { code = "pod" }
 
-{-| San Juan Atzingo Popoloca -}
+
+{-| San Juan Atzingo Popoloca
+-}
 poe : Language
 poe =
     Language { code = "poe" }
 
-{-| Poke -}
+
+{-| Poke
+-}
 pof : Language
 pof =
     Language { code = "pof" }
 
-{-| Potiguára -}
+
+{-| Potiguára
+-}
 pog : Language
 pog =
     Language { code = "pog" }
 
-{-| Poqomchi' -}
+
+{-| Poqomchi'
+-}
 poh : Language
 poh =
     Language { code = "poh" }
 
-{-| Highland Popoluca -}
+
+{-| Highland Popoluca
+-}
 poi : Language
 poi =
     Language { code = "poi" }
 
-{-| Pokangá -}
+
+{-| Pokangá
+-}
 pok : Language
 pok =
     Language { code = "pok" }
 
-{-| Southeastern Pomo -}
+
+{-| Southeastern Pomo
+-}
 pom : Language
 pom =
     Language { code = "pom" }
 
-{-| Pohnpeian -}
+
+{-| Pohnpeian
+-}
 pon : Language
 pon =
     Language { code = "pon" }
 
-{-| Central Pomo -}
+
+{-| Central Pomo
+-}
 poo : Language
 poo =
     Language { code = "poo" }
 
-{-| Pwapwâ -}
+
+{-| Pwapwâ
+-}
 pop : Language
 pop =
     Language { code = "pop" }
 
-{-| Texistepec Popoluca -}
+
+{-| Texistepec Popoluca
+-}
 poq : Language
 poq =
     Language { code = "poq" }
 
-{-| Sayula Popoluca -}
+
+{-| Sayula Popoluca
+-}
 pos : Language
 pos =
     Language { code = "pos" }
 
-{-| Potawatomi -}
+
+{-| Potawatomi
+-}
 pot : Language
 pot =
     Language { code = "pot" }
 
-{-| Upper Guinea Crioulo -}
+
+{-| Upper Guinea Crioulo
+-}
 pov : Language
 pov =
     Language { code = "pov" }
 
-{-| San Felipe Otlaltepec Popoloca -}
+
+{-| San Felipe Otlaltepec Popoloca
+-}
 pow : Language
 pow =
     Language { code = "pow" }
 
-{-| Polabian -}
+
+{-| Polabian
+-}
 pox : Language
 pox =
     Language { code = "pox" }
 
-{-| Pogolo -}
+
+{-| Pogolo
+-}
 poy : Language
 poy =
     Language { code = "poy" }
 
-{-| Malayo-Polynesian languages -}
+
+{-| Malayo-Polynesian languages
+-}
 poz : Language
 poz =
     Language { code = "poz" }
 
-{-| Pao -}
+
+{-| Pao
+-}
 ppa : Language
 ppa =
     Language { code = "ppa" }
 
-{-| Papi -}
+
+{-| Papi
+-}
 ppe : Language
 ppe =
     Language { code = "ppe" }
 
-{-| Paipai -}
+
+{-| Paipai
+-}
 ppi : Language
 ppi =
     Language { code = "ppi" }
 
-{-| Uma -}
+
+{-| Uma
+-}
 ppk : Language
 ppk =
     Language { code = "ppk" }
 
+
 {-| Pipil
-Nicarao -}
+Nicarao
+-}
 ppl : Language
 ppl =
     Language { code = "ppl" }
 
-{-| Papuma -}
+
+{-| Papuma
+-}
 ppm : Language
 ppm =
     Language { code = "ppm" }
 
-{-| Papapana -}
+
+{-| Papapana
+-}
 ppn : Language
 ppn =
     Language { code = "ppn" }
 
-{-| Folopa -}
+
+{-| Folopa
+-}
 ppo : Language
 ppo =
     Language { code = "ppo" }
 
-{-| Pelende -}
+
+{-| Pelende
+-}
 ppp : Language
 ppp =
     Language { code = "ppp" }
 
-{-| Pei -}
+
+{-| Pei
+-}
 ppq : Language
 ppq =
     Language { code = "ppq" }
 
-{-| Piru -}
+
+{-| Piru
+-}
 ppr : Language
 ppr =
     Language { code = "ppr" }
 
-{-| San Luís Temalacayuca Popoloca -}
+
+{-| San Luís Temalacayuca Popoloca
+-}
 pps : Language
 pps =
     Language { code = "pps" }
 
-{-| Pare -}
+
+{-| Pare
+-}
 ppt : Language
 ppt =
     Language { code = "ppt" }
 
-{-| Papora -}
+
+{-| Papora
+-}
 ppu : Language
 ppu =
     Language { code = "ppu" }
 
-{-| Pa'a -}
+
+{-| Pa'a
+-}
 pqa : Language
 pqa =
     Language { code = "pqa" }
 
-{-| Eastern Malayo-Polynesian languages -}
+
+{-| Eastern Malayo-Polynesian languages
+-}
 pqe : Language
 pqe =
     Language { code = "pqe" }
 
-{-| Malecite-Passamaquoddy -}
+
+{-| Malecite-Passamaquoddy
+-}
 pqm : Language
 pqm =
     Language { code = "pqm" }
 
-{-| Western Malayo-Polynesian languages -}
+
+{-| Western Malayo-Polynesian languages
+-}
 pqw : Language
 pqw =
     Language { code = "pqw" }
 
-{-| Prakrit languages -}
+
+{-| Prakrit languages
+-}
 pra : Language
 pra =
     Language { code = "pra" }
 
-{-| Lua' -}
+
+{-| Lua'
+-}
 prb : Language
 prb =
     Language { code = "prb" }
 
-{-| Parachi -}
+
+{-| Parachi
+-}
 prc : Language
 prc =
     Language { code = "prc" }
 
-{-| Parsi-Dari -}
+
+{-| Parsi-Dari
+-}
 prd : Language
 prd =
     Language { code = "prd" }
 
-{-| Principense -}
+
+{-| Principense
+-}
 pre : Language
 pre =
     Language { code = "pre" }
 
-{-| Paranan -}
+
+{-| Paranan
+-}
 prf : Language
 prf =
     Language { code = "prf" }
 
-{-| Prussian -}
+
+{-| Prussian
+-}
 prg : Language
 prg =
     Language { code = "prg" }
 
-{-| Porohanon -}
+
+{-| Porohanon
+-}
 prh : Language
 prh =
     Language { code = "prh" }
 
-{-| Paicî -}
+
+{-| Paicî
+-}
 pri : Language
 pri =
     Language { code = "pri" }
 
-{-| Parauk -}
+
+{-| Parauk
+-}
 prk : Language
 prk =
     Language { code = "prk" }
 
-{-| Peruvian Sign Language -}
+
+{-| Peruvian Sign Language
+-}
 prl : Language
 prl =
     Language { code = "prl" }
 
-{-| Kibiri -}
+
+{-| Kibiri
+-}
 prm : Language
 prm =
     Language { code = "prm" }
 
-{-| Prasuni -}
+
+{-| Prasuni
+-}
 prn : Language
 prn =
     Language { code = "prn" }
 
+
 {-| Old Provençal (to 1500)
-Old Occitan (to 1500) -}
+Old Occitan (to 1500)
+-}
 pro : Language
 pro =
     Language { code = "pro" }
 
-{-| Parsi -}
+
+{-| Parsi
+-}
 prp : Language
 prp =
     Language { code = "prp" }
 
-{-| Ashéninka Perené -}
+
+{-| Ashéninka Perené
+-}
 prq : Language
 prq =
     Language { code = "prq" }
 
-{-| Puri -}
+
+{-| Puri
+-}
 prr : Language
 prr =
     Language { code = "prr" }
 
+
 {-| Dari
-Afghan Persian -}
+Afghan Persian
+-}
 prs : Language
 prs =
     Language { code = "prs" }
 
-{-| Phai -}
+
+{-| Phai
+-}
 prt : Language
 prt =
     Language { code = "prt" }
 
-{-| Puragi -}
+
+{-| Puragi
+-}
 pru : Language
 pru =
     Language { code = "pru" }
 
-{-| Parawen -}
+
+{-| Parawen
+-}
 prw : Language
 prw =
     Language { code = "prw" }
 
-{-| Purik -}
+
+{-| Purik
+-}
 prx : Language
 prx =
     Language { code = "prx" }
 
-{-| Pray 3 -}
+
+{-| Pray 3
+-}
 pry : Language
 pry =
     Language { code = "pry" }
 
-{-| Providencia Sign Language -}
+
+{-| Providencia Sign Language
+-}
 prz : Language
 prz =
     Language { code = "prz" }
 
+
 {-| Pushto
-Pashto -}
+Pashto
+-}
 ps : Language
 ps =
     Language { code = "ps" }
 
-{-| Asue Awyu -}
+
+{-| Asue Awyu
+-}
 psa : Language
 psa =
     Language { code = "psa" }
 
-{-| Persian Sign Language -}
+
+{-| Persian Sign Language
+-}
 psc : Language
 psc =
     Language { code = "psc" }
 
-{-| Plains Indian Sign Language -}
+
+{-| Plains Indian Sign Language
+-}
 psd : Language
 psd =
     Language { code = "psd" }
 
-{-| Central Malay -}
+
+{-| Central Malay
+-}
 pse : Language
 pse =
     Language { code = "pse" }
 
-{-| Penang Sign Language -}
+
+{-| Penang Sign Language
+-}
 psg : Language
 psg =
     Language { code = "psg" }
 
+
 {-| Southwest Pashai
-Southwest Pashayi -}
+Southwest Pashayi
+-}
 psh : Language
 psh =
     Language { code = "psh" }
 
+
 {-| Southeast Pashai
-Southeast Pashayi -}
+Southeast Pashayi
+-}
 psi : Language
 psi =
     Language { code = "psi" }
 
-{-| Puerto Rican Sign Language -}
+
+{-| Puerto Rican Sign Language
+-}
 psl : Language
 psl =
     Language { code = "psl" }
 
-{-| Pauserna -}
+
+{-| Pauserna
+-}
 psm : Language
 psm =
     Language { code = "psm" }
 
-{-| Panasuan -}
+
+{-| Panasuan
+-}
 psn : Language
 psn =
     Language { code = "psn" }
 
-{-| Polish Sign Language -}
+
+{-| Polish Sign Language
+-}
 pso : Language
 pso =
     Language { code = "pso" }
 
-{-| Philippine Sign Language -}
+
+{-| Philippine Sign Language
+-}
 psp : Language
 psp =
     Language { code = "psp" }
 
-{-| Pasi -}
+
+{-| Pasi
+-}
 psq : Language
 psq =
     Language { code = "psq" }
 
-{-| Portuguese Sign Language -}
+
+{-| Portuguese Sign Language
+-}
 psr : Language
 psr =
     Language { code = "psr" }
 
-{-| Kaulong -}
+
+{-| Kaulong
+-}
 pss : Language
 pss =
     Language { code = "pss" }
 
-{-| Central Pashto -}
+
+{-| Central Pashto
+-}
 pst : Language
 pst =
     Language { code = "pst" }
 
-{-| Sauraseni Prākrit -}
+
+{-| Sauraseni Prākrit
+-}
 psu : Language
 psu =
     Language { code = "psu" }
 
-{-| Port Sandwich -}
+
+{-| Port Sandwich
+-}
 psw : Language
 psw =
     Language { code = "psw" }
 
-{-| Piscataway -}
+
+{-| Piscataway
+-}
 psy : Language
 psy =
     Language { code = "psy" }
 
-{-| Portuguese -}
+
+{-| Portuguese
+-}
 pt : Language
 pt =
     Language { code = "pt" }
 
-{-| Pai Tavytera -}
+
+{-| Pai Tavytera
+-}
 pta : Language
 pta =
     Language { code = "pta" }
 
-{-| Pataxó Hã-Ha-Hãe -}
+
+{-| Pataxó Hã-Ha-Hãe
+-}
 pth : Language
 pth =
     Language { code = "pth" }
 
+
 {-| Pindiini
-Wangkatha -}
+Wangkatha
+-}
 pti : Language
 pti =
     Language { code = "pti" }
 
-{-| Patani -}
+
+{-| Patani
+-}
 ptn : Language
 ptn =
     Language { code = "ptn" }
 
-{-| Zo'é -}
+
+{-| Zo'é
+-}
 pto : Language
 pto =
     Language { code = "pto" }
 
-{-| Patep -}
+
+{-| Patep
+-}
 ptp : Language
 ptp =
     Language { code = "ptp" }
 
-{-| Pattapu -}
+
+{-| Pattapu
+-}
 ptq : Language
 ptq =
     Language { code = "ptq" }
 
-{-| Piamatsina -}
+
+{-| Piamatsina
+-}
 ptr : Language
 ptr =
     Language { code = "ptr" }
 
-{-| Enrekang -}
+
+{-| Enrekang
+-}
 ptt : Language
 ptt =
     Language { code = "ptt" }
 
-{-| Bambam -}
+
+{-| Bambam
+-}
 ptu : Language
 ptu =
     Language { code = "ptu" }
 
-{-| Port Vato -}
+
+{-| Port Vato
+-}
 ptv : Language
 ptv =
     Language { code = "ptv" }
 
-{-| Pentlatch -}
+
+{-| Pentlatch
+-}
 ptw : Language
 ptw =
     Language { code = "ptw" }
 
-{-| Pathiya -}
+
+{-| Pathiya
+-}
 pty : Language
 pty =
     Language { code = "pty" }
 
-{-| Western Highland Purepecha -}
+
+{-| Western Highland Purepecha
+-}
 pua : Language
 pua =
     Language { code = "pua" }
 
-{-| Purum -}
+
+{-| Purum
+-}
 pub : Language
 pub =
     Language { code = "pub" }
 
-{-| Punan Merap -}
+
+{-| Punan Merap
+-}
 puc : Language
 puc =
     Language { code = "puc" }
 
-{-| Punan Aput -}
+
+{-| Punan Aput
+-}
 pud : Language
 pud =
     Language { code = "pud" }
 
-{-| Puelche -}
+
+{-| Puelche
+-}
 pue : Language
 pue =
     Language { code = "pue" }
 
-{-| Punan Merah -}
+
+{-| Punan Merah
+-}
 puf : Language
 puf =
     Language { code = "puf" }
 
-{-| Phuie -}
+
+{-| Phuie
+-}
 pug : Language
 pug =
     Language { code = "pug" }
 
-{-| Puinave -}
+
+{-| Puinave
+-}
 pui : Language
 pui =
     Language { code = "pui" }
 
-{-| Punan Tubu -}
+
+{-| Punan Tubu
+-}
 puj : Language
 puj =
     Language { code = "puj" }
 
-{-| Pu Ko -}
+
+{-| Pu Ko
+-}
 puk : Language
 puk =
     Language { code = "puk" }
 
-{-| Puma -}
+
+{-| Puma
+-}
 pum : Language
 pum =
     Language { code = "pum" }
 
-{-| Puoc -}
+
+{-| Puoc
+-}
 puo : Language
 puo =
     Language { code = "puo" }
 
-{-| Pulabu -}
+
+{-| Pulabu
+-}
 pup : Language
 pup =
     Language { code = "pup" }
 
-{-| Puquina -}
+
+{-| Puquina
+-}
 puq : Language
 puq =
     Language { code = "puq" }
 
-{-| Puruborá -}
+
+{-| Puruborá
+-}
 pur : Language
 pur =
     Language { code = "pur" }
 
-{-| Putoh -}
+
+{-| Putoh
+-}
 put : Language
 put =
     Language { code = "put" }
 
-{-| Punu -}
+
+{-| Punu
+-}
 puu : Language
 puu =
     Language { code = "puu" }
 
-{-| Puluwatese -}
+
+{-| Puluwatese
+-}
 puw : Language
 puw =
     Language { code = "puw" }
 
-{-| Puare -}
+
+{-| Puare
+-}
 pux : Language
 pux =
     Language { code = "pux" }
 
-{-| Purisimeño -}
+
+{-| Purisimeño
+-}
 puy : Language
 puy =
     Language { code = "puy" }
 
-{-| Purum Naga -}
+
+{-| Purum Naga
+-}
 puz : Language
 puz =
     Language { code = "puz" }
 
-{-| Pawaia -}
+
+{-| Pawaia
+-}
 pwa : Language
 pwa =
     Language { code = "pwa" }
 
-{-| Panawa -}
+
+{-| Panawa
+-}
 pwb : Language
 pwb =
     Language { code = "pwb" }
 
-{-| Gapapaiwa -}
+
+{-| Gapapaiwa
+-}
 pwg : Language
 pwg =
     Language { code = "pwg" }
 
-{-| Patwin -}
+
+{-| Patwin
+-}
 pwi : Language
 pwi =
     Language { code = "pwi" }
 
-{-| Molbog -}
+
+{-| Molbog
+-}
 pwm : Language
 pwm =
     Language { code = "pwm" }
 
-{-| Paiwan -}
+
+{-| Paiwan
+-}
 pwn : Language
 pwn =
     Language { code = "pwn" }
 
-{-| Pwo Western Karen -}
+
+{-| Pwo Western Karen
+-}
 pwo : Language
 pwo =
     Language { code = "pwo" }
 
-{-| Powari -}
+
+{-| Powari
+-}
 pwr : Language
 pwr =
     Language { code = "pwr" }
 
-{-| Pwo Northern Karen -}
+
+{-| Pwo Northern Karen
+-}
 pww : Language
 pww =
     Language { code = "pww" }
 
-{-| Quetzaltepec Mixe -}
+
+{-| Quetzaltepec Mixe
+-}
 pxm : Language
 pxm =
     Language { code = "pxm" }
 
-{-| Pye Krumen -}
+
+{-| Pye Krumen
+-}
 pye : Language
 pye =
     Language { code = "pye" }
 
-{-| Fyam -}
+
+{-| Fyam
+-}
 pym : Language
 pym =
     Language { code = "pym" }
 
-{-| Poyanáwa -}
+
+{-| Poyanáwa
+-}
 pyn : Language
 pyn =
     Language { code = "pyn" }
 
+
 {-| Paraguayan Sign Language
-Lengua de Señas del Paraguay -}
+Lengua de Señas del Paraguay
+-}
 pys : Language
 pys =
     Language { code = "pys" }
 
-{-| Puyuma -}
+
+{-| Puyuma
+-}
 pyu : Language
 pyu =
     Language { code = "pyu" }
 
-{-| Pyu (Myanmar) -}
+
+{-| Pyu (Myanmar)
+-}
 pyx : Language
 pyx =
     Language { code = "pyx" }
 
-{-| Pyen -}
+
+{-| Pyen
+-}
 pyy : Language
 pyy =
     Language { code = "pyy" }
 
-{-| Para Naga -}
+
+{-| Para Naga
+-}
 pzn : Language
 pzn =
     Language { code = "pzn" }
 
-{-| Quechua -}
+
+{-| Quechua
+-}
 qu : Language
 qu =
     Language { code = "qu" }
 
-{-| Quapaw -}
+
+{-| Quapaw
+-}
 qua : Language
 qua =
     Language { code = "qua" }
 
-{-| Huallaga Huánuco Quechua -}
+
+{-| Huallaga Huánuco Quechua
+-}
 qub : Language
 qub =
     Language { code = "qub" }
 
+
 {-| K'iche'
-Quiché -}
+Quiché
+-}
 quc : Language
 quc =
     Language { code = "quc" }
 
-{-| Calderón Highland Quichua -}
+
+{-| Calderón Highland Quichua
+-}
 qud : Language
 qud =
     Language { code = "qud" }
 
-{-| Lambayeque Quechua -}
+
+{-| Lambayeque Quechua
+-}
 quf : Language
 quf =
     Language { code = "quf" }
 
-{-| Chimborazo Highland Quichua -}
+
+{-| Chimborazo Highland Quichua
+-}
 qug : Language
 qug =
     Language { code = "qug" }
 
-{-| South Bolivian Quechua -}
+
+{-| South Bolivian Quechua
+-}
 quh : Language
 quh =
     Language { code = "quh" }
 
-{-| Quileute -}
+
+{-| Quileute
+-}
 qui : Language
 qui =
     Language { code = "qui" }
 
-{-| Chachapoyas Quechua -}
+
+{-| Chachapoyas Quechua
+-}
 quk : Language
 quk =
     Language { code = "quk" }
 
-{-| North Bolivian Quechua -}
+
+{-| North Bolivian Quechua
+-}
 qul : Language
 qul =
     Language { code = "qul" }
 
-{-| Sipacapense -}
+
+{-| Sipacapense
+-}
 qum : Language
 qum =
     Language { code = "qum" }
 
-{-| Quinault -}
+
+{-| Quinault
+-}
 qun : Language
 qun =
     Language { code = "qun" }
 
-{-| Southern Pastaza Quechua -}
+
+{-| Southern Pastaza Quechua
+-}
 qup : Language
 qup =
     Language { code = "qup" }
 
-{-| Quinqui -}
+
+{-| Quinqui
+-}
 quq : Language
 quq =
     Language { code = "quq" }
 
-{-| Yanahuanca Pasco Quechua -}
+
+{-| Yanahuanca Pasco Quechua
+-}
 qur : Language
 qur =
     Language { code = "qur" }
 
-{-| Santiago del Estero Quichua -}
+
+{-| Santiago del Estero Quichua
+-}
 qus : Language
 qus =
     Language { code = "qus" }
 
-{-| Sacapulteco -}
+
+{-| Sacapulteco
+-}
 quv : Language
 quv =
     Language { code = "quv" }
 
-{-| Tena Lowland Quichua -}
+
+{-| Tena Lowland Quichua
+-}
 quw : Language
 quw =
     Language { code = "quw" }
 
-{-| Yauyos Quechua -}
+
+{-| Yauyos Quechua
+-}
 qux : Language
 qux =
     Language { code = "qux" }
 
-{-| Ayacucho Quechua -}
+
+{-| Ayacucho Quechua
+-}
 quy : Language
 quy =
     Language { code = "quy" }
 
-{-| Cusco Quechua -}
+
+{-| Cusco Quechua
+-}
 quz : Language
 quz =
     Language { code = "quz" }
 
-{-| Ambo-Pasco Quechua -}
+
+{-| Ambo-Pasco Quechua
+-}
 qva : Language
 qva =
     Language { code = "qva" }
 
-{-| Cajamarca Quechua -}
+
+{-| Cajamarca Quechua
+-}
 qvc : Language
 qvc =
     Language { code = "qvc" }
 
-{-| Eastern Apurímac Quechua -}
+
+{-| Eastern Apurímac Quechua
+-}
 qve : Language
 qve =
     Language { code = "qve" }
 
-{-| Huamalíes-Dos de Mayo Huánuco Quechua -}
+
+{-| Huamalíes-Dos de Mayo Huánuco Quechua
+-}
 qvh : Language
 qvh =
     Language { code = "qvh" }
 
-{-| Imbabura Highland Quichua -}
+
+{-| Imbabura Highland Quichua
+-}
 qvi : Language
 qvi =
     Language { code = "qvi" }
 
-{-| Loja Highland Quichua -}
+
+{-| Loja Highland Quichua
+-}
 qvj : Language
 qvj =
     Language { code = "qvj" }
 
-{-| Cajatambo North Lima Quechua -}
+
+{-| Cajatambo North Lima Quechua
+-}
 qvl : Language
 qvl =
     Language { code = "qvl" }
 
-{-| Margos-Yarowilca-Lauricocha Quechua -}
+
+{-| Margos-Yarowilca-Lauricocha Quechua
+-}
 qvm : Language
 qvm =
     Language { code = "qvm" }
 
-{-| North Junín Quechua -}
+
+{-| North Junín Quechua
+-}
 qvn : Language
 qvn =
     Language { code = "qvn" }
 
-{-| Napo Lowland Quechua -}
+
+{-| Napo Lowland Quechua
+-}
 qvo : Language
 qvo =
     Language { code = "qvo" }
 
-{-| Pacaraos Quechua -}
+
+{-| Pacaraos Quechua
+-}
 qvp : Language
 qvp =
     Language { code = "qvp" }
 
-{-| San Martín Quechua -}
+
+{-| San Martín Quechua
+-}
 qvs : Language
 qvs =
     Language { code = "qvs" }
 
-{-| Huaylla Wanca Quechua -}
+
+{-| Huaylla Wanca Quechua
+-}
 qvw : Language
 qvw =
     Language { code = "qvw" }
 
-{-| Queyu -}
+
+{-| Queyu
+-}
 qvy : Language
 qvy =
     Language { code = "qvy" }
 
-{-| Northern Pastaza Quichua -}
+
+{-| Northern Pastaza Quichua
+-}
 qvz : Language
 qvz =
     Language { code = "qvz" }
 
-{-| Corongo Ancash Quechua -}
+
+{-| Corongo Ancash Quechua
+-}
 qwa : Language
 qwa =
     Language { code = "qwa" }
 
-{-| Classical Quechua -}
+
+{-| Classical Quechua
+-}
 qwc : Language
 qwc =
     Language { code = "qwc" }
 
-{-| Quechuan (family) -}
+
+{-| Quechuan (family)
+-}
 qwe : Language
 qwe =
     Language { code = "qwe" }
 
-{-| Huaylas Ancash Quechua -}
+
+{-| Huaylas Ancash Quechua
+-}
 qwh : Language
 qwh =
     Language { code = "qwh" }
 
-{-| Kuman (Russia) -}
+
+{-| Kuman (Russia)
+-}
 qwm : Language
 qwm =
     Language { code = "qwm" }
 
-{-| Sihuas Ancash Quechua -}
+
+{-| Sihuas Ancash Quechua
+-}
 qws : Language
 qws =
     Language { code = "qws" }
 
-{-| Kwalhioqua-Tlatskanai -}
+
+{-| Kwalhioqua-Tlatskanai
+-}
 qwt : Language
 qwt =
     Language { code = "qwt" }
 
-{-| Chiquián Ancash Quechua -}
+
+{-| Chiquián Ancash Quechua
+-}
 qxa : Language
 qxa =
     Language { code = "qxa" }
 
-{-| Chincha Quechua -}
+
+{-| Chincha Quechua
+-}
 qxc : Language
 qxc =
     Language { code = "qxc" }
 
-{-| Panao Huánuco Quechua -}
+
+{-| Panao Huánuco Quechua
+-}
 qxh : Language
 qxh =
     Language { code = "qxh" }
 
-{-| Salasaca Highland Quichua -}
+
+{-| Salasaca Highland Quichua
+-}
 qxl : Language
 qxl =
     Language { code = "qxl" }
 
-{-| Northern Conchucos Ancash Quechua -}
+
+{-| Northern Conchucos Ancash Quechua
+-}
 qxn : Language
 qxn =
     Language { code = "qxn" }
 
-{-| Southern Conchucos Ancash Quechua -}
+
+{-| Southern Conchucos Ancash Quechua
+-}
 qxo : Language
 qxo =
     Language { code = "qxo" }
 
-{-| Puno Quechua -}
+
+{-| Puno Quechua
+-}
 qxp : Language
 qxp =
     Language { code = "qxp" }
 
-{-| Qashqa'i -}
+
+{-| Qashqa'i
+-}
 qxq : Language
 qxq =
     Language { code = "qxq" }
 
-{-| Cañar Highland Quichua -}
+
+{-| Cañar Highland Quichua
+-}
 qxr : Language
 qxr =
     Language { code = "qxr" }
 
-{-| Southern Qiang -}
+
+{-| Southern Qiang
+-}
 qxs : Language
 qxs =
     Language { code = "qxs" }
 
-{-| Santa Ana de Tusi Pasco Quechua -}
+
+{-| Santa Ana de Tusi Pasco Quechua
+-}
 qxt : Language
 qxt =
     Language { code = "qxt" }
 
-{-| Arequipa-La Unión Quechua -}
+
+{-| Arequipa-La Unión Quechua
+-}
 qxu : Language
 qxu =
     Language { code = "qxu" }
 
-{-| Jauja Wanca Quechua -}
+
+{-| Jauja Wanca Quechua
+-}
 qxw : Language
 qxw =
     Language { code = "qxw" }
 
-{-| Quenya -}
+
+{-| Quenya
+-}
 qya : Language
 qya =
     Language { code = "qya" }
 
-{-| Quiripi -}
+
+{-| Quiripi
+-}
 qyp : Language
 qyp =
     Language { code = "qyp" }
 
-{-| Dungmali -}
+
+{-| Dungmali
+-}
 raa : Language
 raa =
     Language { code = "raa" }
 
-{-| Camling -}
+
+{-| Camling
+-}
 rab : Language
 rab =
     Language { code = "rab" }
 
-{-| Rasawa -}
+
+{-| Rasawa
+-}
 rac : Language
 rac =
     Language { code = "rac" }
 
-{-| Rade -}
+
+{-| Rade
+-}
 rad : Language
 rad =
     Language { code = "rad" }
 
-{-| Western Meohang -}
+
+{-| Western Meohang
+-}
 raf : Language
 raf =
     Language { code = "raf" }
 
+
 {-| Logooli
-Lulogooli -}
+Lulogooli
+-}
 rag : Language
 rag =
     Language { code = "rag" }
 
-{-| Rabha -}
+
+{-| Rabha
+-}
 rah : Language
 rah =
     Language { code = "rah" }
 
-{-| Ramoaaina -}
+
+{-| Ramoaaina
+-}
 rai : Language
 rai =
     Language { code = "rai" }
 
-{-| Rajasthani -}
+
+{-| Rajasthani
+-}
 raj : Language
 raj =
     Language { code = "raj" }
 
-{-| Tulu-Bohuai -}
+
+{-| Tulu-Bohuai
+-}
 rak : Language
 rak =
     Language { code = "rak" }
 
-{-| Ralte -}
+
+{-| Ralte
+-}
 ral : Language
 ral =
     Language { code = "ral" }
 
-{-| Canela -}
+
+{-| Canela
+-}
 ram : Language
 ram =
     Language { code = "ram" }
 
-{-| Riantana -}
+
+{-| Riantana
+-}
 ran : Language
 ran =
     Language { code = "ran" }
 
-{-| Rao -}
+
+{-| Rao
+-}
 rao : Language
 rao =
     Language { code = "rao" }
 
-{-| Rapanui -}
+
+{-| Rapanui
+-}
 rap : Language
 rap =
     Language { code = "rap" }
 
-{-| Saam -}
+
+{-| Saam
+-}
 raq : Language
 raq =
     Language { code = "raq" }
 
+
 {-| Rarotongan
-Cook Islands Maori -}
+Cook Islands Maori
+-}
 rar : Language
 rar =
     Language { code = "rar" }
 
-{-| Tegali -}
+
+{-| Tegali
+-}
 ras : Language
 ras =
     Language { code = "ras" }
 
-{-| Razajerdi -}
+
+{-| Razajerdi
+-}
 rat : Language
 rat =
     Language { code = "rat" }
 
-{-| Raute -}
+
+{-| Raute
+-}
 rau : Language
 rau =
     Language { code = "rau" }
 
-{-| Sampang -}
+
+{-| Sampang
+-}
 rav : Language
 rav =
     Language { code = "rav" }
 
-{-| Rawang -}
+
+{-| Rawang
+-}
 raw : Language
 raw =
     Language { code = "raw" }
 
-{-| Rang -}
+
+{-| Rang
+-}
 rax : Language
 rax =
     Language { code = "rax" }
 
-{-| Rapa -}
+
+{-| Rapa
+-}
 ray : Language
 ray =
     Language { code = "ray" }
 
-{-| Rahambuu -}
+
+{-| Rahambuu
+-}
 raz : Language
 raz =
     Language { code = "raz" }
 
-{-| Rumai Palaung -}
+
+{-| Rumai Palaung
+-}
 rbb : Language
 rbb =
     Language { code = "rbb" }
 
-{-| Northern Bontok -}
+
+{-| Northern Bontok
+-}
 rbk : Language
 rbk =
     Language { code = "rbk" }
 
-{-| Miraya Bikol -}
+
+{-| Miraya Bikol
+-}
 rbl : Language
 rbl =
     Language { code = "rbl" }
 
-{-| Barababaraba -}
+
+{-| Barababaraba
+-}
 rbp : Language
 rbp =
     Language { code = "rbp" }
 
-{-| Réunion Creole French -}
+
+{-| Réunion Creole French
+-}
 rcf : Language
 rcf =
     Language { code = "rcf" }
 
-{-| Rudbari -}
+
+{-| Rudbari
+-}
 rdb : Language
 rdb =
     Language { code = "rdb" }
 
-{-| Rerau -}
+
+{-| Rerau
+-}
 rea : Language
 rea =
     Language { code = "rea" }
 
-{-| Rembong -}
+
+{-| Rembong
+-}
 reb : Language
 reb =
     Language { code = "reb" }
 
-{-| Rejang Kayan -}
+
+{-| Rejang Kayan
+-}
 ree : Language
 ree =
     Language { code = "ree" }
 
-{-| Kara (Tanzania) -}
+
+{-| Kara (Tanzania)
+-}
 reg : Language
 reg =
     Language { code = "reg" }
 
-{-| Reli -}
+
+{-| Reli
+-}
 rei : Language
 rei =
     Language { code = "rei" }
 
-{-| Rejang -}
+
+{-| Rejang
+-}
 rej : Language
 rej =
     Language { code = "rej" }
 
-{-| Rendille -}
+
+{-| Rendille
+-}
 rel : Language
 rel =
     Language { code = "rel" }
 
-{-| Remo -}
+
+{-| Remo
+-}
 rem : Language
 rem =
     Language { code = "rem" }
 
-{-| Rengao -}
+
+{-| Rengao
+-}
 ren : Language
 ren =
     Language { code = "ren" }
 
-{-| Rer Bare -}
+
+{-| Rer Bare
+-}
 rer : Language
 rer =
     Language { code = "rer" }
 
-{-| Reshe -}
+
+{-| Reshe
+-}
 res : Language
 res =
     Language { code = "res" }
 
-{-| Retta -}
+
+{-| Retta
+-}
 ret : Language
 ret =
     Language { code = "ret" }
 
-{-| Reyesano -}
+
+{-| Reyesano
+-}
 rey : Language
 rey =
     Language { code = "rey" }
 
-{-| Roria -}
+
+{-| Roria
+-}
 rga : Language
 rga =
     Language { code = "rga" }
 
-{-| Romano-Greek -}
+
+{-| Romano-Greek
+-}
 rge : Language
 rge =
     Language { code = "rge" }
 
-{-| Rangkas -}
+
+{-| Rangkas
+-}
 rgk : Language
 rgk =
     Language { code = "rgk" }
 
-{-| Romagnol -}
+
+{-| Romagnol
+-}
 rgn : Language
 rgn =
     Language { code = "rgn" }
 
-{-| Resígaro -}
+
+{-| Resígaro
+-}
 rgr : Language
 rgr =
     Language { code = "rgr" }
 
-{-| Southern Roglai -}
+
+{-| Southern Roglai
+-}
 rgs : Language
 rgs =
     Language { code = "rgs" }
 
-{-| Ringgou -}
+
+{-| Ringgou
+-}
 rgu : Language
 rgu =
     Language { code = "rgu" }
 
-{-| Rohingya -}
+
+{-| Rohingya
+-}
 rhg : Language
 rhg =
     Language { code = "rhg" }
 
-{-| Yahang -}
+
+{-| Yahang
+-}
 rhp : Language
 rhp =
     Language { code = "rhp" }
 
-{-| Riang (India) -}
+
+{-| Riang (India)
+-}
 ria : Language
 ria =
     Language { code = "ria" }
 
-{-| Rien -}
+
+{-| Rien
+-}
 rie : Language
 rie =
     Language { code = "rie" }
 
-{-| Tarifit -}
+
+{-| Tarifit
+-}
 rif : Language
 rif =
     Language { code = "rif" }
 
+
 {-| Riang Lang
-Riang (Myanmar) -}
+Riang (Myanmar)
+-}
 ril : Language
 ril =
     Language { code = "ril" }
 
-{-| Nyaturu -}
+
+{-| Nyaturu
+-}
 rim : Language
 rim =
     Language { code = "rim" }
 
-{-| Nungu -}
+
+{-| Nungu
+-}
 rin : Language
 rin =
     Language { code = "rin" }
 
-{-| Ribun -}
+
+{-| Ribun
+-}
 rir : Language
 rir =
     Language { code = "rir" }
 
-{-| Ritharrngu -}
+
+{-| Ritharrngu
+-}
 rit : Language
 rit =
     Language { code = "rit" }
 
-{-| Riung -}
+
+{-| Riung
+-}
 riu : Language
 riu =
     Language { code = "riu" }
 
-{-| Rajong -}
+
+{-| Rajong
+-}
 rjg : Language
 rjg =
     Language { code = "rjg" }
 
-{-| Raji -}
+
+{-| Raji
+-}
 rji : Language
 rji =
     Language { code = "rji" }
 
-{-| Rajbanshi -}
+
+{-| Rajbanshi
+-}
 rjs : Language
 rjs =
     Language { code = "rjs" }
 
-{-| Kraol -}
+
+{-| Kraol
+-}
 rka : Language
 rka =
     Language { code = "rka" }
 
-{-| Rikbaktsa -}
+
+{-| Rikbaktsa
+-}
 rkb : Language
 rkb =
     Language { code = "rkb" }
 
-{-| Rakahanga-Manihiki -}
+
+{-| Rakahanga-Manihiki
+-}
 rkh : Language
 rkh =
     Language { code = "rkh" }
 
-{-| Rakhine -}
+
+{-| Rakhine
+-}
 rki : Language
 rki =
     Language { code = "rki" }
 
-{-| Marka -}
+
+{-| Marka
+-}
 rkm : Language
 rkm =
     Language { code = "rkm" }
 
+
 {-| Rangpuri
-Kamta -}
+Kamta
+-}
 rkt : Language
 rkt =
     Language { code = "rkt" }
 
-{-| Arakwal -}
+
+{-| Arakwal
+-}
 rkw : Language
 rkw =
     Language { code = "rkw" }
 
-{-| Romansh -}
+
+{-| Romansh
+-}
 rm : Language
 rm =
     Language { code = "rm" }
 
-{-| Rama -}
+
+{-| Rama
+-}
 rma : Language
 rma =
     Language { code = "rma" }
 
-{-| Rembarrnga -}
+
+{-| Rembarrnga
+-}
 rmb : Language
 rmb =
     Language { code = "rmb" }
 
-{-| Carpathian Romani -}
+
+{-| Carpathian Romani
+-}
 rmc : Language
 rmc =
     Language { code = "rmc" }
 
-{-| Traveller Danish -}
+
+{-| Traveller Danish
+-}
 rmd : Language
 rmd =
     Language { code = "rmd" }
 
-{-| Angloromani -}
+
+{-| Angloromani
+-}
 rme : Language
 rme =
     Language { code = "rme" }
 
-{-| Kalo Finnish Romani -}
+
+{-| Kalo Finnish Romani
+-}
 rmf : Language
 rmf =
     Language { code = "rmf" }
 
-{-| Traveller Norwegian -}
+
+{-| Traveller Norwegian
+-}
 rmg : Language
 rmg =
     Language { code = "rmg" }
 
-{-| Murkim -}
+
+{-| Murkim
+-}
 rmh : Language
 rmh =
     Language { code = "rmh" }
 
-{-| Lomavren -}
+
+{-| Lomavren
+-}
 rmi : Language
 rmi =
     Language { code = "rmi" }
 
-{-| Romkun -}
+
+{-| Romkun
+-}
 rmk : Language
 rmk =
     Language { code = "rmk" }
 
-{-| Baltic Romani -}
+
+{-| Baltic Romani
+-}
 rml : Language
 rml =
     Language { code = "rml" }
 
-{-| Roma -}
+
+{-| Roma
+-}
 rmm : Language
 rmm =
     Language { code = "rmm" }
 
-{-| Balkan Romani -}
+
+{-| Balkan Romani
+-}
 rmn : Language
 rmn =
     Language { code = "rmn" }
 
-{-| Sinte Romani -}
+
+{-| Sinte Romani
+-}
 rmo : Language
 rmo =
     Language { code = "rmo" }
 
-{-| Rempi -}
+
+{-| Rempi
+-}
 rmp : Language
 rmp =
     Language { code = "rmp" }
 
-{-| Caló -}
+
+{-| Caló
+-}
 rmq : Language
 rmq =
     Language { code = "rmq" }
 
-{-| Caló -}
+
+{-| Caló
+-}
 rmr : Language
 rmr =
     Language { code = "rmr" }
 
-{-| Romanian Sign Language -}
+
+{-| Romanian Sign Language
+-}
 rms : Language
 rms =
     Language { code = "rms" }
 
-{-| Domari -}
+
+{-| Domari
+-}
 rmt : Language
 rmt =
     Language { code = "rmt" }
 
-{-| Tavringer Romani -}
+
+{-| Tavringer Romani
+-}
 rmu : Language
 rmu =
     Language { code = "rmu" }
 
-{-| Romanova -}
+
+{-| Romanova
+-}
 rmv : Language
 rmv =
     Language { code = "rmv" }
 
-{-| Welsh Romani -}
+
+{-| Welsh Romani
+-}
 rmw : Language
 rmw =
     Language { code = "rmw" }
 
-{-| Romam -}
+
+{-| Romam
+-}
 rmx : Language
 rmx =
     Language { code = "rmx" }
 
-{-| Vlax Romani -}
+
+{-| Vlax Romani
+-}
 rmy : Language
 rmy =
     Language { code = "rmy" }
 
-{-| Marma -}
+
+{-| Marma
+-}
 rmz : Language
 rmz =
     Language { code = "rmz" }
 
-{-| Rundi -}
+
+{-| Rundi
+-}
 rn : Language
 rn =
     Language { code = "rn" }
 
-{-| Runa -}
+
+{-| Runa
+-}
 rna : Language
 rna =
     Language { code = "rna" }
 
-{-| Ruund -}
+
+{-| Ruund
+-}
 rnd : Language
 rnd =
     Language { code = "rnd" }
 
-{-| Ronga -}
+
+{-| Ronga
+-}
 rng : Language
 rng =
     Language { code = "rng" }
 
-{-| Ranglong -}
+
+{-| Ranglong
+-}
 rnl : Language
 rnl =
     Language { code = "rnl" }
 
-{-| Roon -}
+
+{-| Roon
+-}
 rnn : Language
 rnn =
     Language { code = "rnn" }
 
-{-| Rongpo -}
+
+{-| Rongpo
+-}
 rnp : Language
 rnp =
     Language { code = "rnp" }
 
-{-| Nari Nari -}
+
+{-| Nari Nari
+-}
 rnr : Language
 rnr =
     Language { code = "rnr" }
 
-{-| Rungwa -}
+
+{-| Rungwa
+-}
 rnw : Language
 rnw =
     Language { code = "rnw" }
 
+
 {-| Romanian
 Moldavian
-Moldovan -}
+Moldovan
+-}
 ro : Language
 ro =
     Language { code = "ro" }
 
-{-| Romance languages -}
+
+{-| Romance languages
+-}
 roa : Language
 roa =
     Language { code = "roa" }
 
-{-| Tae' -}
+
+{-| Tae'
+-}
 rob : Language
 rob =
     Language { code = "rob" }
 
-{-| Cacgia Roglai -}
+
+{-| Cacgia Roglai
+-}
 roc : Language
 roc =
     Language { code = "roc" }
 
-{-| Rogo -}
+
+{-| Rogo
+-}
 rod : Language
 rod =
     Language { code = "rod" }
 
-{-| Ronji -}
+
+{-| Ronji
+-}
 roe : Language
 roe =
     Language { code = "roe" }
 
-{-| Rombo -}
+
+{-| Rombo
+-}
 rof : Language
 rof =
     Language { code = "rof" }
 
-{-| Northern Roglai -}
+
+{-| Northern Roglai
+-}
 rog : Language
 rog =
     Language { code = "rog" }
 
-{-| Romblomanon -}
+
+{-| Romblomanon
+-}
 rol : Language
 rol =
     Language { code = "rol" }
 
-{-| Romany -}
+
+{-| Romany
+-}
 rom : Language
 rom =
     Language { code = "rom" }
 
-{-| Rotokas -}
+
+{-| Rotokas
+-}
 roo : Language
 roo =
     Language { code = "roo" }
 
-{-| Kriol -}
+
+{-| Kriol
+-}
 rop : Language
 rop =
     Language { code = "rop" }
 
-{-| Rongga -}
+
+{-| Rongga
+-}
 ror : Language
 ror =
     Language { code = "ror" }
 
-{-| Runga -}
+
+{-| Runga
+-}
 rou : Language
 rou =
     Language { code = "rou" }
 
-{-| Dela-Oenale -}
+
+{-| Dela-Oenale
+-}
 row : Language
 row =
     Language { code = "row" }
 
-{-| Repanbitip -}
+
+{-| Repanbitip
+-}
 rpn : Language
 rpn =
     Language { code = "rpn" }
 
-{-| Rapting -}
+
+{-| Rapting
+-}
 rpt : Language
 rpt =
     Language { code = "rpt" }
 
-{-| Ririo -}
+
+{-| Ririo
+-}
 rri : Language
 rri =
     Language { code = "rri" }
 
-{-| Waima -}
+
+{-| Waima
+-}
 rro : Language
 rro =
     Language { code = "rro" }
 
-{-| Arritinngithigh -}
+
+{-| Arritinngithigh
+-}
 rrt : Language
 rrt =
     Language { code = "rrt" }
 
-{-| Romano-Serbian -}
+
+{-| Romano-Serbian
+-}
 rsb : Language
 rsb =
     Language { code = "rsb" }
 
-{-| Rennellese Sign Language -}
+
+{-| Rennellese Sign Language
+-}
 rsi : Language
 rsi =
     Language { code = "rsi" }
 
-{-| Russian Sign Language -}
+
+{-| Russian Sign Language
+-}
 rsl : Language
 rsl =
     Language { code = "rsl" }
 
-{-| Miriwoong Sign Language -}
+
+{-| Miriwoong Sign Language
+-}
 rsm : Language
 rsm =
     Language { code = "rsm" }
 
-{-| Rungtu Chin -}
+
+{-| Rungtu Chin
+-}
 rtc : Language
 rtc =
     Language { code = "rtc" }
 
-{-| Ratahan -}
+
+{-| Ratahan
+-}
 rth : Language
 rth =
     Language { code = "rth" }
 
-{-| Rotuman -}
+
+{-| Rotuman
+-}
 rtm : Language
 rtm =
     Language { code = "rtm" }
 
-{-| Yurats -}
+
+{-| Yurats
+-}
 rts : Language
 rts =
     Language { code = "rts" }
 
-{-| Rathawi -}
+
+{-| Rathawi
+-}
 rtw : Language
 rtw =
     Language { code = "rtw" }
 
-{-| Russian -}
+
+{-| Russian
+-}
 ru : Language
 ru =
     Language { code = "ru" }
 
-{-| Gungu -}
+
+{-| Gungu
+-}
 rub : Language
 rub =
     Language { code = "rub" }
 
-{-| Ruuli -}
+
+{-| Ruuli
+-}
 ruc : Language
 ruc =
     Language { code = "ruc" }
 
-{-| Rusyn -}
+
+{-| Rusyn
+-}
 rue : Language
 rue =
     Language { code = "rue" }
 
-{-| Luguru -}
+
+{-| Luguru
+-}
 ruf : Language
 ruf =
     Language { code = "ruf" }
 
-{-| Roviana -}
+
+{-| Roviana
+-}
 rug : Language
 rug =
     Language { code = "rug" }
 
-{-| Ruga -}
+
+{-| Ruga
+-}
 ruh : Language
 ruh =
     Language { code = "ruh" }
 
-{-| Rufiji -}
+
+{-| Rufiji
+-}
 rui : Language
 rui =
     Language { code = "rui" }
 
-{-| Che -}
+
+{-| Che
+-}
 ruk : Language
 ruk =
     Language { code = "ruk" }
 
-{-| Istro Romanian -}
+
+{-| Istro Romanian
+-}
 ruo : Language
 ruo =
     Language { code = "ruo" }
 
+
 {-| Macedo-Romanian
 Aromanian
-Arumanian -}
+Arumanian
+-}
 rup : Language
 rup =
     Language { code = "rup" }
 
-{-| Megleno Romanian -}
+
+{-| Megleno Romanian
+-}
 ruq : Language
 ruq =
     Language { code = "ruq" }
 
-{-| Rutul -}
+
+{-| Rutul
+-}
 rut : Language
 rut =
     Language { code = "rut" }
 
-{-| Lanas Lobu -}
+
+{-| Lanas Lobu
+-}
 ruu : Language
 ruu =
     Language { code = "ruu" }
 
-{-| Mala (Nigeria) -}
+
+{-| Mala (Nigeria)
+-}
 ruy : Language
 ruy =
     Language { code = "ruy" }
 
-{-| Ruma -}
+
+{-| Ruma
+-}
 ruz : Language
 ruz =
     Language { code = "ruz" }
 
-{-| Kinyarwanda -}
+
+{-| Kinyarwanda
+-}
 rw : Language
 rw =
     Language { code = "rw" }
 
-{-| Rawo -}
+
+{-| Rawo
+-}
 rwa : Language
 rwa =
     Language { code = "rwa" }
 
-{-| Rwa -}
+
+{-| Rwa
+-}
 rwk : Language
 rwk =
     Language { code = "rwk" }
 
-{-| Amba (Uganda) -}
+
+{-| Amba (Uganda)
+-}
 rwm : Language
 rwm =
     Language { code = "rwm" }
 
-{-| Rawa -}
+
+{-| Rawa
+-}
 rwo : Language
 rwo =
     Language { code = "rwo" }
 
-{-| Marwari (India) -}
+
+{-| Marwari (India)
+-}
 rwr : Language
 rwr =
     Language { code = "rwr" }
 
-{-| Ngardi -}
+
+{-| Ngardi
+-}
 rxd : Language
 rxd =
     Language { code = "rxd" }
 
+
 {-| Karuwali
-Garuwali -}
+Garuwali
+-}
 rxw : Language
 rxw =
     Language { code = "rxw" }
 
-{-| Northern Amami-Oshima -}
+
+{-| Northern Amami-Oshima
+-}
 ryn : Language
 ryn =
     Language { code = "ryn" }
 
-{-| Yaeyama -}
+
+{-| Yaeyama
+-}
 rys : Language
 rys =
     Language { code = "rys" }
 
-{-| Central Okinawan -}
+
+{-| Central Okinawan
+-}
 ryu : Language
 ryu =
     Language { code = "ryu" }
 
-{-| Rāziḥī -}
+
+{-| Rāziḥī
+-}
 rzh : Language
 rzh =
     Language { code = "rzh" }
 
-{-| Sanskrit -}
+
+{-| Sanskrit
+-}
 sa : Language
 sa =
     Language { code = "sa" }
 
-{-| Saba -}
+
+{-| Saba
+-}
 saa : Language
 saa =
     Language { code = "saa" }
 
-{-| Buglere -}
+
+{-| Buglere
+-}
 sab : Language
 sab =
     Language { code = "sab" }
 
-{-| Meskwaki -}
+
+{-| Meskwaki
+-}
 sac : Language
 sac =
     Language { code = "sac" }
 
-{-| Sandawe -}
+
+{-| Sandawe
+-}
 sad : Language
 sad =
     Language { code = "sad" }
 
-{-| Sabanê -}
+
+{-| Sabanê
+-}
 sae : Language
 sae =
     Language { code = "sae" }
 
-{-| Safaliba -}
+
+{-| Safaliba
+-}
 saf : Language
 saf =
     Language { code = "saf" }
 
-{-| Yakut -}
+
+{-| Yakut
+-}
 sah : Language
 sah =
     Language { code = "sah" }
 
-{-| South American Indian languages -}
+
+{-| South American Indian languages
+-}
 sai : Language
 sai =
     Language { code = "sai" }
 
-{-| Sahu -}
+
+{-| Sahu
+-}
 saj : Language
 saj =
     Language { code = "saj" }
 
-{-| Sake -}
+
+{-| Sake
+-}
 sak : Language
 sak =
     Language { code = "sak" }
 
-{-| Salishan languages -}
+
+{-| Salishan languages
+-}
 sal : Language
 sal =
     Language { code = "sal" }
 
-{-| Samaritan Aramaic -}
+
+{-| Samaritan Aramaic
+-}
 sam : Language
 sam =
     Language { code = "sam" }
 
-{-| Sause -}
+
+{-| Sause
+-}
 sao : Language
 sao =
     Language { code = "sao" }
 
-{-| Sanapaná -}
+
+{-| Sanapaná
+-}
 sap : Language
 sap =
     Language { code = "sap" }
 
-{-| Samburu -}
+
+{-| Samburu
+-}
 saq : Language
 saq =
     Language { code = "saq" }
 
-{-| Saraveca -}
+
+{-| Saraveca
+-}
 sar : Language
 sar =
     Language { code = "sar" }
 
-{-| Sasak -}
+
+{-| Sasak
+-}
 sas : Language
 sas =
     Language { code = "sas" }
 
-{-| Santali -}
+
+{-| Santali
+-}
 sat : Language
 sat =
     Language { code = "sat" }
 
-{-| Saleman -}
+
+{-| Saleman
+-}
 sau : Language
 sau =
     Language { code = "sau" }
 
-{-| Saafi-Saafi -}
+
+{-| Saafi-Saafi
+-}
 sav : Language
 sav =
     Language { code = "sav" }
 
-{-| Sawi -}
+
+{-| Sawi
+-}
 saw : Language
 saw =
     Language { code = "saw" }
 
-{-| Sa -}
+
+{-| Sa
+-}
 sax : Language
 sax =
     Language { code = "sax" }
 
-{-| Saya -}
+
+{-| Saya
+-}
 say : Language
 say =
     Language { code = "say" }
 
-{-| Saurashtra -}
+
+{-| Saurashtra
+-}
 saz : Language
 saz =
     Language { code = "saz" }
 
-{-| Ngambay -}
+
+{-| Ngambay
+-}
 sba : Language
 sba =
     Language { code = "sba" }
 
-{-| Simbo -}
+
+{-| Simbo
+-}
 sbb : Language
 sbb =
     Language { code = "sbb" }
 
-{-| Kele (Papua New Guinea) -}
+
+{-| Kele (Papua New Guinea)
+-}
 sbc : Language
 sbc =
     Language { code = "sbc" }
 
-{-| Southern Samo -}
+
+{-| Southern Samo
+-}
 sbd : Language
 sbd =
     Language { code = "sbd" }
 
-{-| Saliba -}
+
+{-| Saliba
+-}
 sbe : Language
 sbe =
     Language { code = "sbe" }
 
+
 {-| Chabu
-Shabo -}
+Shabo
+-}
 sbf : Language
 sbf =
     Language { code = "sbf" }
 
-{-| Seget -}
+
+{-| Seget
+-}
 sbg : Language
 sbg =
     Language { code = "sbg" }
 
-{-| Sori-Harengan -}
+
+{-| Sori-Harengan
+-}
 sbh : Language
 sbh =
     Language { code = "sbh" }
 
-{-| Seti -}
+
+{-| Seti
+-}
 sbi : Language
 sbi =
     Language { code = "sbi" }
 
-{-| Surbakhal -}
+
+{-| Surbakhal
+-}
 sbj : Language
 sbj =
     Language { code = "sbj" }
 
-{-| Safwa -}
+
+{-| Safwa
+-}
 sbk : Language
 sbk =
     Language { code = "sbk" }
 
-{-| Botolan Sambal -}
+
+{-| Botolan Sambal
+-}
 sbl : Language
 sbl =
     Language { code = "sbl" }
 
-{-| Sagala -}
+
+{-| Sagala
+-}
 sbm : Language
 sbm =
     Language { code = "sbm" }
 
-{-| Sindhi Bhil -}
+
+{-| Sindhi Bhil
+-}
 sbn : Language
 sbn =
     Language { code = "sbn" }
 
-{-| Sabüm -}
+
+{-| Sabüm
+-}
 sbo : Language
 sbo =
     Language { code = "sbo" }
 
-{-| Sangu (Tanzania) -}
+
+{-| Sangu (Tanzania)
+-}
 sbp : Language
 sbp =
     Language { code = "sbp" }
 
-{-| Sileibi -}
+
+{-| Sileibi
+-}
 sbq : Language
 sbq =
     Language { code = "sbq" }
 
-{-| Sembakung Murut -}
+
+{-| Sembakung Murut
+-}
 sbr : Language
 sbr =
     Language { code = "sbr" }
 
-{-| Subiya -}
+
+{-| Subiya
+-}
 sbs : Language
 sbs =
     Language { code = "sbs" }
 
-{-| Kimki -}
+
+{-| Kimki
+-}
 sbt : Language
 sbt =
     Language { code = "sbt" }
 
-{-| Stod Bhoti -}
+
+{-| Stod Bhoti
+-}
 sbu : Language
 sbu =
     Language { code = "sbu" }
 
-{-| Sabine -}
+
+{-| Sabine
+-}
 sbv : Language
 sbv =
     Language { code = "sbv" }
 
-{-| Simba -}
+
+{-| Simba
+-}
 sbw : Language
 sbw =
     Language { code = "sbw" }
 
-{-| Seberuang -}
+
+{-| Seberuang
+-}
 sbx : Language
 sbx =
     Language { code = "sbx" }
 
-{-| Soli -}
+
+{-| Soli
+-}
 sby : Language
 sby =
     Language { code = "sby" }
 
-{-| Sara Kaba -}
+
+{-| Sara Kaba
+-}
 sbz : Language
 sbz =
     Language { code = "sbz" }
 
-{-| Sardinian -}
+
+{-| Sardinian
+-}
 sc : Language
 sc =
     Language { code = "sc" }
 
-{-| Sansu -}
+
+{-| Sansu
+-}
 sca : Language
 sca =
     Language { code = "sca" }
 
-{-| Chut -}
+
+{-| Chut
+-}
 scb : Language
 scb =
     Language { code = "scb" }
 
-{-| Dongxiang -}
+
+{-| Dongxiang
+-}
 sce : Language
 sce =
     Language { code = "sce" }
 
-{-| San Miguel Creole French -}
+
+{-| San Miguel Creole French
+-}
 scf : Language
 scf =
     Language { code = "scf" }
 
-{-| Sanggau -}
+
+{-| Sanggau
+-}
 scg : Language
 scg =
     Language { code = "scg" }
 
-{-| Sakachep -}
+
+{-| Sakachep
+-}
 sch : Language
 sch =
     Language { code = "sch" }
 
-{-| Sri Lankan Creole Malay -}
+
+{-| Sri Lankan Creole Malay
+-}
 sci : Language
 sci =
     Language { code = "sci" }
 
-{-| Sadri -}
+
+{-| Sadri
+-}
 sck : Language
 sck =
     Language { code = "sck" }
 
-{-| Shina -}
+
+{-| Shina
+-}
 scl : Language
 scl =
     Language { code = "scl" }
 
-{-| Sicilian -}
+
+{-| Sicilian
+-}
 scn : Language
 scn =
     Language { code = "scn" }
 
-{-| Scots -}
+
+{-| Scots
+-}
 sco : Language
 sco =
     Language { code = "sco" }
 
+
 {-| Hyolmo
-Helambu Sherpa -}
+Helambu Sherpa
+-}
 scp : Language
 scp =
     Language { code = "scp" }
 
-{-| Sa'och -}
+
+{-| Sa'och
+-}
 scq : Language
 scq =
     Language { code = "scq" }
 
-{-| North Slavey -}
+
+{-| North Slavey
+-}
 scs : Language
 scs =
     Language { code = "scs" }
 
-{-| Southern Katang -}
+
+{-| Southern Katang
+-}
 sct : Language
 sct =
     Language { code = "sct" }
 
-{-| Shumcho -}
+
+{-| Shumcho
+-}
 scu : Language
 scu =
     Language { code = "scu" }
 
-{-| Sheni -}
+
+{-| Sheni
+-}
 scv : Language
 scv =
     Language { code = "scv" }
 
-{-| Sha -}
+
+{-| Sha
+-}
 scw : Language
 scw =
     Language { code = "scw" }
 
-{-| Sicel -}
+
+{-| Sicel
+-}
 scx : Language
 scx =
     Language { code = "scx" }
 
-{-| Sindhi -}
+
+{-| Sindhi
+-}
 sd : Language
 sd =
     Language { code = "sd" }
 
-{-| Toraja-Sa'dan -}
+
+{-| Toraja-Sa'dan
+-}
 sda : Language
 sda =
     Language { code = "sda" }
 
-{-| Shabak -}
+
+{-| Shabak
+-}
 sdb : Language
 sdb =
     Language { code = "sdb" }
 
-{-| Sassarese Sardinian -}
+
+{-| Sassarese Sardinian
+-}
 sdc : Language
 sdc =
     Language { code = "sdc" }
 
-{-| Surubu -}
+
+{-| Surubu
+-}
 sde : Language
 sde =
     Language { code = "sde" }
 
-{-| Sarli -}
+
+{-| Sarli
+-}
 sdf : Language
 sdf =
     Language { code = "sdf" }
 
-{-| Savi -}
+
+{-| Savi
+-}
 sdg : Language
 sdg =
     Language { code = "sdg" }
 
-{-| Southern Kurdish -}
+
+{-| Southern Kurdish
+-}
 sdh : Language
 sdh =
     Language { code = "sdh" }
 
-{-| Suundi -}
+
+{-| Suundi
+-}
 sdj : Language
 sdj =
     Language { code = "sdj" }
 
-{-| Sos Kundi -}
+
+{-| Sos Kundi
+-}
 sdk : Language
 sdk =
     Language { code = "sdk" }
 
-{-| Saudi Arabian Sign Language -}
+
+{-| Saudi Arabian Sign Language
+-}
 sdl : Language
 sdl =
     Language { code = "sdl" }
 
-{-| Semandang -}
+
+{-| Semandang
+-}
 sdm : Language
 sdm =
     Language { code = "sdm" }
 
-{-| Gallurese Sardinian -}
+
+{-| Gallurese Sardinian
+-}
 sdn : Language
 sdn =
     Language { code = "sdn" }
 
-{-| Bukar-Sadung Bidayuh -}
+
+{-| Bukar-Sadung Bidayuh
+-}
 sdo : Language
 sdo =
     Language { code = "sdo" }
 
-{-| Sherdukpen -}
+
+{-| Sherdukpen
+-}
 sdp : Language
 sdp =
     Language { code = "sdp" }
 
-{-| Semandang -}
+
+{-| Semandang
+-}
 sdq : Language
 sdq =
     Language { code = "sdq" }
 
-{-| Oraon Sadri -}
+
+{-| Oraon Sadri
+-}
 sdr : Language
 sdr =
     Language { code = "sdr" }
 
-{-| Sened -}
+
+{-| Sened
+-}
 sds : Language
 sds =
     Language { code = "sds" }
 
-{-| Shuadit -}
+
+{-| Shuadit
+-}
 sdt : Language
 sdt =
     Language { code = "sdt" }
 
-{-| Sarudu -}
+
+{-| Sarudu
+-}
 sdu : Language
 sdu =
     Language { code = "sdu" }
 
-{-| Eastern Sudanic languages -}
+
+{-| Eastern Sudanic languages
+-}
 sdv : Language
 sdv =
     Language { code = "sdv" }
 
-{-| Sibu Melanau -}
+
+{-| Sibu Melanau
+-}
 sdx : Language
 sdx =
     Language { code = "sdx" }
 
-{-| Sallands -}
+
+{-| Sallands
+-}
 sdz : Language
 sdz =
     Language { code = "sdz" }
 
-{-| Northern Sami -}
+
+{-| Northern Sami
+-}
 se : Language
 se =
     Language { code = "se" }
 
-{-| Semai -}
+
+{-| Semai
+-}
 sea : Language
 sea =
     Language { code = "sea" }
 
-{-| Shempire Senoufo -}
+
+{-| Shempire Senoufo
+-}
 seb : Language
 seb =
     Language { code = "seb" }
 
-{-| Sechelt -}
+
+{-| Sechelt
+-}
 sec : Language
 sec =
     Language { code = "sec" }
 
-{-| Sedang -}
+
+{-| Sedang
+-}
 sed : Language
 sed =
     Language { code = "sed" }
 
-{-| Seneca -}
+
+{-| Seneca
+-}
 see : Language
 see =
     Language { code = "see" }
 
-{-| Cebaara Senoufo -}
+
+{-| Cebaara Senoufo
+-}
 sef : Language
 sef =
     Language { code = "sef" }
 
-{-| Segeju -}
+
+{-| Segeju
+-}
 seg : Language
 seg =
     Language { code = "seg" }
 
-{-| Sena -}
+
+{-| Sena
+-}
 seh : Language
 seh =
     Language { code = "seh" }
 
-{-| Seri -}
+
+{-| Seri
+-}
 sei : Language
 sei =
     Language { code = "sei" }
 
-{-| Sene -}
+
+{-| Sene
+-}
 sej : Language
 sej =
     Language { code = "sej" }
 
-{-| Sekani -}
+
+{-| Sekani
+-}
 sek : Language
 sek =
     Language { code = "sek" }
 
-{-| Selkup -}
+
+{-| Selkup
+-}
 sel : Language
 sel =
     Language { code = "sel" }
 
-{-| Semitic languages -}
+
+{-| Semitic languages
+-}
 sem : Language
 sem =
     Language { code = "sem" }
 
-{-| Nanerigé Sénoufo -}
+
+{-| Nanerigé Sénoufo
+-}
 sen : Language
 sen =
     Language { code = "sen" }
 
-{-| Suarmin -}
+
+{-| Suarmin
+-}
 seo : Language
 seo =
     Language { code = "seo" }
 
-{-| Sìcìté Sénoufo -}
+
+{-| Sìcìté Sénoufo
+-}
 sep : Language
 sep =
     Language { code = "sep" }
 
-{-| Senara Sénoufo -}
+
+{-| Senara Sénoufo
+-}
 seq : Language
 seq =
     Language { code = "seq" }
 
-{-| Serrano -}
+
+{-| Serrano
+-}
 ser : Language
 ser =
     Language { code = "ser" }
 
-{-| Koyraboro Senni Songhai -}
+
+{-| Koyraboro Senni Songhai
+-}
 ses : Language
 ses =
     Language { code = "ses" }
 
-{-| Sentani -}
+
+{-| Sentani
+-}
 set : Language
 set =
     Language { code = "set" }
 
-{-| Serui-Laut -}
+
+{-| Serui-Laut
+-}
 seu : Language
 seu =
     Language { code = "seu" }
 
-{-| Nyarafolo Senoufo -}
+
+{-| Nyarafolo Senoufo
+-}
 sev : Language
 sev =
     Language { code = "sev" }
 
-{-| Sewa Bay -}
+
+{-| Sewa Bay
+-}
 sew : Language
 sew =
     Language { code = "sew" }
 
-{-| Secoya -}
+
+{-| Secoya
+-}
 sey : Language
 sey =
     Language { code = "sey" }
 
-{-| Senthang Chin -}
+
+{-| Senthang Chin
+-}
 sez : Language
 sez =
     Language { code = "sez" }
 
+
 {-| Langue des signes de Belgique Francophone
-French Belgian Sign Language -}
+French Belgian Sign Language
+-}
 sfb : Language
 sfb =
     Language { code = "sfb" }
 
-{-| Eastern Subanen -}
+
+{-| Eastern Subanen
+-}
 sfe : Language
 sfe =
     Language { code = "sfe" }
 
-{-| Small Flowery Miao -}
+
+{-| Small Flowery Miao
+-}
 sfm : Language
 sfm =
     Language { code = "sfm" }
 
-{-| South African Sign Language -}
+
+{-| South African Sign Language
+-}
 sfs : Language
 sfs =
     Language { code = "sfs" }
 
-{-| Sehwi -}
+
+{-| Sehwi
+-}
 sfw : Language
 sfw =
     Language { code = "sfw" }
 
-{-| Sango -}
+
+{-| Sango
+-}
 sg : Language
 sg =
     Language { code = "sg" }
 
-{-| Old Irish (to 900) -}
+
+{-| Old Irish (to 900)
+-}
 sga : Language
 sga =
     Language { code = "sga" }
 
-{-| Mag-antsi Ayta -}
+
+{-| Mag-antsi Ayta
+-}
 sgb : Language
 sgb =
     Language { code = "sgb" }
 
-{-| Kipsigis -}
+
+{-| Kipsigis
+-}
 sgc : Language
 sgc =
     Language { code = "sgc" }
 
-{-| Surigaonon -}
+
+{-| Surigaonon
+-}
 sgd : Language
 sgd =
     Language { code = "sgd" }
 
-{-| Segai -}
+
+{-| Segai
+-}
 sge : Language
 sge =
     Language { code = "sge" }
 
-{-| Swiss-German Sign Language -}
+
+{-| Swiss-German Sign Language
+-}
 sgg : Language
 sgg =
     Language { code = "sgg" }
 
-{-| Shughni -}
+
+{-| Shughni
+-}
 sgh : Language
 sgh =
     Language { code = "sgh" }
 
-{-| Suga -}
+
+{-| Suga
+-}
 sgi : Language
 sgi =
     Language { code = "sgi" }
 
-{-| Surgujia -}
+
+{-| Surgujia
+-}
 sgj : Language
 sgj =
     Language { code = "sgj" }
 
-{-| Sangkong -}
+
+{-| Sangkong
+-}
 sgk : Language
 sgk =
     Language { code = "sgk" }
 
-{-| Sanglechi-Ishkashimi -}
+
+{-| Sanglechi-Ishkashimi
+-}
 sgl : Language
 sgl =
     Language { code = "sgl" }
 
-{-| Singa -}
+
+{-| Singa
+-}
 sgm : Language
 sgm =
     Language { code = "sgm" }
 
-{-| Sign languages -}
+
+{-| Sign languages
+-}
 sgn : Language
 sgn =
     Language { code = "sgn" }
 
-{-| Songa -}
+
+{-| Songa
+-}
 sgo : Language
 sgo =
     Language { code = "sgo" }
 
-{-| Singpho -}
+
+{-| Singpho
+-}
 sgp : Language
 sgp =
     Language { code = "sgp" }
 
-{-| Sangisari -}
+
+{-| Sangisari
+-}
 sgr : Language
 sgr =
     Language { code = "sgr" }
 
-{-| Samogitian -}
+
+{-| Samogitian
+-}
 sgs : Language
 sgs =
     Language { code = "sgs" }
 
-{-| Brokpake -}
+
+{-| Brokpake
+-}
 sgt : Language
 sgt =
     Language { code = "sgt" }
 
-{-| Salas -}
+
+{-| Salas
+-}
 sgu : Language
 sgu =
     Language { code = "sgu" }
 
-{-| Sebat Bet Gurage -}
+
+{-| Sebat Bet Gurage
+-}
 sgw : Language
 sgw =
     Language { code = "sgw" }
 
-{-| Sierra Leone Sign Language -}
+
+{-| Sierra Leone Sign Language
+-}
 sgx : Language
 sgx =
     Language { code = "sgx" }
 
-{-| Sanglechi -}
+
+{-| Sanglechi
+-}
 sgy : Language
 sgy =
     Language { code = "sgy" }
 
-{-| Sursurunga -}
+
+{-| Sursurunga
+-}
 sgz : Language
 sgz =
     Language { code = "sgz" }
 
-{-| Serbo-Croatian -}
+
+{-| Serbo-Croatian
+-}
 sh : Language
 sh =
     Language { code = "sh" }
 
-{-| Shall-Zwall -}
+
+{-| Shall-Zwall
+-}
 sha : Language
 sha =
     Language { code = "sha" }
 
-{-| Ninam -}
+
+{-| Ninam
+-}
 shb : Language
 shb =
     Language { code = "shb" }
 
-{-| Sonde -}
+
+{-| Sonde
+-}
 shc : Language
 shc =
     Language { code = "shc" }
 
-{-| Kundal Shahi -}
+
+{-| Kundal Shahi
+-}
 shd : Language
 shd =
     Language { code = "shd" }
 
-{-| Sheko -}
+
+{-| Sheko
+-}
 she : Language
 she =
     Language { code = "she" }
 
-{-| Shua -}
+
+{-| Shua
+-}
 shg : Language
 shg =
     Language { code = "shg" }
 
-{-| Shoshoni -}
+
+{-| Shoshoni
+-}
 shh : Language
 shh =
     Language { code = "shh" }
 
-{-| Tachelhit -}
+
+{-| Tachelhit
+-}
 shi : Language
 shi =
     Language { code = "shi" }
 
-{-| Shatt -}
+
+{-| Shatt
+-}
 shj : Language
 shj =
     Language { code = "shj" }
 
-{-| Shilluk -}
+
+{-| Shilluk
+-}
 shk : Language
 shk =
     Language { code = "shk" }
 
-{-| Shendu -}
+
+{-| Shendu
+-}
 shl : Language
 shl =
     Language { code = "shl" }
 
-{-| Shahrudi -}
+
+{-| Shahrudi
+-}
 shm : Language
 shm =
     Language { code = "shm" }
 
-{-| Shan -}
+
+{-| Shan
+-}
 shn : Language
 shn =
     Language { code = "shn" }
 
-{-| Shanga -}
+
+{-| Shanga
+-}
 sho : Language
 sho =
     Language { code = "sho" }
 
-{-| Shipibo-Conibo -}
+
+{-| Shipibo-Conibo
+-}
 shp : Language
 shp =
     Language { code = "shp" }
 
-{-| Sala -}
+
+{-| Sala
+-}
 shq : Language
 shq =
     Language { code = "shq" }
 
-{-| Shi -}
+
+{-| Shi
+-}
 shr : Language
 shr =
     Language { code = "shr" }
 
-{-| Shuswap -}
+
+{-| Shuswap
+-}
 shs : Language
 shs =
     Language { code = "shs" }
 
-{-| Shasta -}
+
+{-| Shasta
+-}
 sht : Language
 sht =
     Language { code = "sht" }
 
-{-| Chadian Arabic -}
+
+{-| Chadian Arabic
+-}
 shu : Language
 shu =
     Language { code = "shu" }
 
-{-| Shehri -}
+
+{-| Shehri
+-}
 shv : Language
 shv =
     Language { code = "shv" }
 
-{-| Shwai -}
+
+{-| Shwai
+-}
 shw : Language
 shw =
     Language { code = "shw" }
 
-{-| She -}
+
+{-| She
+-}
 shx : Language
 shx =
     Language { code = "shx" }
 
-{-| Tachawit -}
+
+{-| Tachawit
+-}
 shy : Language
 shy =
     Language { code = "shy" }
 
-{-| Syenara Senoufo -}
+
+{-| Syenara Senoufo
+-}
 shz : Language
 shz =
     Language { code = "shz" }
 
+
 {-| Sinhala
-Sinhalese -}
+Sinhalese
+-}
 si : Language
 si =
     Language { code = "si" }
 
-{-| Akkala Sami -}
+
+{-| Akkala Sami
+-}
 sia : Language
 sia =
     Language { code = "sia" }
 
-{-| Sebop -}
+
+{-| Sebop
+-}
 sib : Language
 sib =
     Language { code = "sib" }
 
-{-| Sidamo -}
+
+{-| Sidamo
+-}
 sid : Language
 sid =
     Language { code = "sid" }
 
-{-| Simaa -}
+
+{-| Simaa
+-}
 sie : Language
 sie =
     Language { code = "sie" }
 
-{-| Siamou -}
+
+{-| Siamou
+-}
 sif : Language
 sif =
     Language { code = "sif" }
 
-{-| Paasaal -}
+
+{-| Paasaal
+-}
 sig : Language
 sig =
     Language { code = "sig" }
 
+
 {-| Zire
-Sîshëë -}
+Sîshëë
+-}
 sih : Language
 sih =
     Language { code = "sih" }
 
-{-| Shom Peng -}
+
+{-| Shom Peng
+-}
 sii : Language
 sii =
     Language { code = "sii" }
 
-{-| Numbami -}
+
+{-| Numbami
+-}
 sij : Language
 sij =
     Language { code = "sij" }
 
-{-| Sikiana -}
+
+{-| Sikiana
+-}
 sik : Language
 sik =
     Language { code = "sik" }
 
-{-| Tumulung Sisaala -}
+
+{-| Tumulung Sisaala
+-}
 sil : Language
 sil =
     Language { code = "sil" }
 
-{-| Mende (Papua New Guinea) -}
+
+{-| Mende (Papua New Guinea)
+-}
 sim : Language
 sim =
     Language { code = "sim" }
 
-{-| Siouan languages -}
+
+{-| Siouan languages
+-}
 sio : Language
 sio =
     Language { code = "sio" }
 
-{-| Sikkimese -}
+
+{-| Sikkimese
+-}
 sip : Language
 sip =
     Language { code = "sip" }
 
-{-| Sonia -}
+
+{-| Sonia
+-}
 siq : Language
 siq =
     Language { code = "siq" }
 
-{-| Siri -}
+
+{-| Siri
+-}
 sir : Language
 sir =
     Language { code = "sir" }
 
-{-| Siuslaw -}
+
+{-| Siuslaw
+-}
 sis : Language
 sis =
     Language { code = "sis" }
 
-{-| Sino-Tibetan languages -}
+
+{-| Sino-Tibetan languages
+-}
 sit : Language
 sit =
     Language { code = "sit" }
 
-{-| Sinagen -}
+
+{-| Sinagen
+-}
 siu : Language
 siu =
     Language { code = "siu" }
 
-{-| Sumariup -}
+
+{-| Sumariup
+-}
 siv : Language
 siv =
     Language { code = "siv" }
 
-{-| Siwai -}
+
+{-| Siwai
+-}
 siw : Language
 siw =
     Language { code = "siw" }
 
-{-| Sumau -}
+
+{-| Sumau
+-}
 six : Language
 six =
     Language { code = "six" }
 
-{-| Sivandi -}
+
+{-| Sivandi
+-}
 siy : Language
 siy =
     Language { code = "siy" }
 
-{-| Siwi -}
+
+{-| Siwi
+-}
 siz : Language
 siz =
     Language { code = "siz" }
 
-{-| Epena -}
+
+{-| Epena
+-}
 sja : Language
 sja =
     Language { code = "sja" }
 
-{-| Sajau Basap -}
+
+{-| Sajau Basap
+-}
 sjb : Language
 sjb =
     Language { code = "sjb" }
 
-{-| Kildin Sami -}
+
+{-| Kildin Sami
+-}
 sjd : Language
 sjd =
     Language { code = "sjd" }
 
-{-| Pite Sami -}
+
+{-| Pite Sami
+-}
 sje : Language
 sje =
     Language { code = "sje" }
 
-{-| Assangori -}
+
+{-| Assangori
+-}
 sjg : Language
 sjg =
     Language { code = "sjg" }
 
-{-| Kemi Sami -}
+
+{-| Kemi Sami
+-}
 sjk : Language
 sjk =
     Language { code = "sjk" }
 
+
 {-| Sajalong
-Miji -}
+Miji
+-}
 sjl : Language
 sjl =
     Language { code = "sjl" }
 
-{-| Mapun -}
+
+{-| Mapun
+-}
 sjm : Language
 sjm =
     Language { code = "sjm" }
 
-{-| Sindarin -}
+
+{-| Sindarin
+-}
 sjn : Language
 sjn =
     Language { code = "sjn" }
 
-{-| Xibe -}
+
+{-| Xibe
+-}
 sjo : Language
 sjo =
     Language { code = "sjo" }
 
-{-| Surjapuri -}
+
+{-| Surjapuri
+-}
 sjp : Language
 sjp =
     Language { code = "sjp" }
 
-{-| Siar-Lak -}
+
+{-| Siar-Lak
+-}
 sjr : Language
 sjr =
     Language { code = "sjr" }
 
-{-| Senhaja De Srair -}
+
+{-| Senhaja De Srair
+-}
 sjs : Language
 sjs =
     Language { code = "sjs" }
 
-{-| Ter Sami -}
+
+{-| Ter Sami
+-}
 sjt : Language
 sjt =
     Language { code = "sjt" }
 
-{-| Ume Sami -}
+
+{-| Ume Sami
+-}
 sju : Language
 sju =
     Language { code = "sju" }
 
-{-| Shawnee -}
+
+{-| Shawnee
+-}
 sjw : Language
 sjw =
     Language { code = "sjw" }
 
-{-| Slovak -}
+
+{-| Slovak
+-}
 sk : Language
 sk =
     Language { code = "sk" }
 
-{-| Skagit -}
+
+{-| Skagit
+-}
 ska : Language
 ska =
     Language { code = "ska" }
 
-{-| Saek -}
+
+{-| Saek
+-}
 skb : Language
 skb =
     Language { code = "skb" }
 
-{-| Ma Manda -}
+
+{-| Ma Manda
+-}
 skc : Language
 skc =
     Language { code = "skc" }
 
-{-| Southern Sierra Miwok -}
+
+{-| Southern Sierra Miwok
+-}
 skd : Language
 skd =
     Language { code = "skd" }
 
-{-| Seke (Vanuatu) -}
+
+{-| Seke (Vanuatu)
+-}
 ske : Language
 ske =
     Language { code = "ske" }
 
-{-| Sakirabiá -}
+
+{-| Sakirabiá
+-}
 skf : Language
 skf =
     Language { code = "skf" }
 
-{-| Sakalava Malagasy -}
+
+{-| Sakalava Malagasy
+-}
 skg : Language
 skg =
     Language { code = "skg" }
 
-{-| Sikule -}
+
+{-| Sikule
+-}
 skh : Language
 skh =
     Language { code = "skh" }
 
-{-| Sika -}
+
+{-| Sika
+-}
 ski : Language
 ski =
     Language { code = "ski" }
 
-{-| Seke (Nepal) -}
+
+{-| Seke (Nepal)
+-}
 skj : Language
 skj =
     Language { code = "skj" }
 
-{-| Sok -}
+
+{-| Sok
+-}
 skk : Language
 skk =
     Language { code = "skk" }
 
-{-| Kutong -}
+
+{-| Kutong
+-}
 skm : Language
 skm =
     Language { code = "skm" }
 
-{-| Kolibugan Subanon -}
+
+{-| Kolibugan Subanon
+-}
 skn : Language
 skn =
     Language { code = "skn" }
 
-{-| Seko Tengah -}
+
+{-| Seko Tengah
+-}
 sko : Language
 sko =
     Language { code = "sko" }
 
-{-| Sekapan -}
+
+{-| Sekapan
+-}
 skp : Language
 skp =
     Language { code = "skp" }
 
-{-| Sininkere -}
+
+{-| Sininkere
+-}
 skq : Language
 skq =
     Language { code = "skq" }
 
+
 {-| Saraiki
-Seraiki -}
+Seraiki
+-}
 skr : Language
 skr =
     Language { code = "skr" }
 
-{-| Maia -}
+
+{-| Maia
+-}
 sks : Language
 sks =
     Language { code = "sks" }
 
-{-| Sakata -}
+
+{-| Sakata
+-}
 skt : Language
 skt =
     Language { code = "skt" }
 
-{-| Sakao -}
+
+{-| Sakao
+-}
 sku : Language
 sku =
     Language { code = "sku" }
 
-{-| Skou -}
+
+{-| Skou
+-}
 skv : Language
 skv =
     Language { code = "skv" }
 
-{-| Skepi Creole Dutch -}
+
+{-| Skepi Creole Dutch
+-}
 skw : Language
 skw =
     Language { code = "skw" }
 
-{-| Seko Padang -}
+
+{-| Seko Padang
+-}
 skx : Language
 skx =
     Language { code = "skx" }
 
-{-| Sikaiana -}
+
+{-| Sikaiana
+-}
 sky : Language
 sky =
     Language { code = "sky" }
 
-{-| Sekar -}
+
+{-| Sekar
+-}
 skz : Language
 skz =
     Language { code = "skz" }
 
-{-| Slovenian -}
+
+{-| Slovenian
+-}
 sl : Language
 sl =
     Language { code = "sl" }
 
-{-| Slavic languages -}
+
+{-| Slavic languages
+-}
 sla : Language
 sla =
     Language { code = "sla" }
 
-{-| Sáliba -}
+
+{-| Sáliba
+-}
 slc : Language
 slc =
     Language { code = "slc" }
 
-{-| Sissala -}
+
+{-| Sissala
+-}
 sld : Language
 sld =
     Language { code = "sld" }
 
-{-| Sholaga -}
+
+{-| Sholaga
+-}
 sle : Language
 sle =
     Language { code = "sle" }
 
-{-| Swiss-Italian Sign Language -}
+
+{-| Swiss-Italian Sign Language
+-}
 slf : Language
 slf =
     Language { code = "slf" }
 
-{-| Selungai Murut -}
+
+{-| Selungai Murut
+-}
 slg : Language
 slg =
     Language { code = "slg" }
 
-{-| Southern Puget Sound Salish -}
+
+{-| Southern Puget Sound Salish
+-}
 slh : Language
 slh =
     Language { code = "slh" }
 
-{-| Lower Silesian -}
+
+{-| Lower Silesian
+-}
 sli : Language
 sli =
     Language { code = "sli" }
 
-{-| Salumá -}
+
+{-| Salumá
+-}
 slj : Language
 slj =
     Language { code = "slj" }
 
-{-| Salt-Yui -}
+
+{-| Salt-Yui
+-}
 sll : Language
 sll =
     Language { code = "sll" }
 
-{-| Pangutaran Sama -}
+
+{-| Pangutaran Sama
+-}
 slm : Language
 slm =
     Language { code = "slm" }
 
-{-| Salinan -}
+
+{-| Salinan
+-}
 sln : Language
 sln =
     Language { code = "sln" }
 
-{-| Lamaholot -}
+
+{-| Lamaholot
+-}
 slp : Language
 slp =
     Language { code = "slp" }
 
-{-| Salchuq -}
+
+{-| Salchuq
+-}
 slq : Language
 slq =
     Language { code = "slq" }
 
-{-| Salar -}
+
+{-| Salar
+-}
 slr : Language
 slr =
     Language { code = "slr" }
 
-{-| Singapore Sign Language -}
+
+{-| Singapore Sign Language
+-}
 sls : Language
 sls =
     Language { code = "sls" }
 
-{-| Sila -}
+
+{-| Sila
+-}
 slt : Language
 slt =
     Language { code = "slt" }
 
-{-| Selaru -}
+
+{-| Selaru
+-}
 slu : Language
 slu =
     Language { code = "slu" }
 
-{-| Sialum -}
+
+{-| Sialum
+-}
 slw : Language
 slw =
     Language { code = "slw" }
 
-{-| Salampasu -}
+
+{-| Salampasu
+-}
 slx : Language
 slx =
     Language { code = "slx" }
 
-{-| Selayar -}
+
+{-| Selayar
+-}
 sly : Language
 sly =
     Language { code = "sly" }
 
-{-| Ma'ya -}
+
+{-| Ma'ya
+-}
 slz : Language
 slz =
     Language { code = "slz" }
 
-{-| Samoan -}
+
+{-| Samoan
+-}
 sm : Language
 sm =
     Language { code = "sm" }
 
-{-| Southern Sami -}
+
+{-| Southern Sami
+-}
 sma : Language
 sma =
     Language { code = "sma" }
 
-{-| Simbari -}
+
+{-| Simbari
+-}
 smb : Language
 smb =
     Language { code = "smb" }
 
-{-| Som -}
+
+{-| Som
+-}
 smc : Language
 smc =
     Language { code = "smc" }
 
-{-| Sama -}
+
+{-| Sama
+-}
 smd : Language
 smd =
     Language { code = "smd" }
 
-{-| Auwe -}
+
+{-| Auwe
+-}
 smf : Language
 smf =
     Language { code = "smf" }
 
-{-| Simbali -}
+
+{-| Simbali
+-}
 smg : Language
 smg =
     Language { code = "smg" }
 
-{-| Samei -}
+
+{-| Samei
+-}
 smh : Language
 smh =
     Language { code = "smh" }
 
-{-| Sami languages -}
+
+{-| Sami languages
+-}
 smi : Language
 smi =
     Language { code = "smi" }
 
-{-| Lule Sami -}
+
+{-| Lule Sami
+-}
 smj : Language
 smj =
     Language { code = "smj" }
 
-{-| Bolinao -}
+
+{-| Bolinao
+-}
 smk : Language
 smk =
     Language { code = "smk" }
 
-{-| Central Sama -}
+
+{-| Central Sama
+-}
 sml : Language
 sml =
     Language { code = "sml" }
 
-{-| Musasa -}
+
+{-| Musasa
+-}
 smm : Language
 smm =
     Language { code = "smm" }
 
-{-| Inari Sami -}
+
+{-| Inari Sami
+-}
 smn : Language
 smn =
     Language { code = "smn" }
 
-{-| Samaritan -}
+
+{-| Samaritan
+-}
 smp : Language
 smp =
     Language { code = "smp" }
 
-{-| Samo -}
+
+{-| Samo
+-}
 smq : Language
 smq =
     Language { code = "smq" }
 
-{-| Simeulue -}
+
+{-| Simeulue
+-}
 smr : Language
 smr =
     Language { code = "smr" }
 
-{-| Skolt Sami -}
+
+{-| Skolt Sami
+-}
 sms : Language
 sms =
     Language { code = "sms" }
 
-{-| Simte -}
+
+{-| Simte
+-}
 smt : Language
 smt =
     Language { code = "smt" }
 
-{-| Somray -}
+
+{-| Somray
+-}
 smu : Language
 smu =
     Language { code = "smu" }
 
-{-| Samvedi -}
+
+{-| Samvedi
+-}
 smv : Language
 smv =
     Language { code = "smv" }
 
-{-| Sumbawa -}
+
+{-| Sumbawa
+-}
 smw : Language
 smw =
     Language { code = "smw" }
 
-{-| Samba -}
+
+{-| Samba
+-}
 smx : Language
 smx =
     Language { code = "smx" }
 
-{-| Semnani -}
+
+{-| Semnani
+-}
 smy : Language
 smy =
     Language { code = "smy" }
 
-{-| Simeku -}
+
+{-| Simeku
+-}
 smz : Language
 smz =
     Language { code = "smz" }
 
-{-| Shona -}
+
+{-| Shona
+-}
 sn : Language
 sn =
     Language { code = "sn" }
 
-{-| Sebuyau -}
+
+{-| Sebuyau
+-}
 snb : Language
 snb =
     Language { code = "snb" }
 
-{-| Sinaugoro -}
+
+{-| Sinaugoro
+-}
 snc : Language
 snc =
     Language { code = "snc" }
 
-{-| Bau Bidayuh -}
+
+{-| Bau Bidayuh
+-}
 sne : Language
 sne =
     Language { code = "sne" }
 
-{-| Noon -}
+
+{-| Noon
+-}
 snf : Language
 snf =
     Language { code = "snf" }
 
-{-| Sanga (Democratic Republic of Congo) -}
+
+{-| Sanga (Democratic Republic of Congo)
+-}
 sng : Language
 sng =
     Language { code = "sng" }
 
-{-| Shinabo -}
+
+{-| Shinabo
+-}
 snh : Language
 snh =
     Language { code = "snh" }
 
-{-| Sensi -}
+
+{-| Sensi
+-}
 sni : Language
 sni =
     Language { code = "sni" }
 
-{-| Riverain Sango -}
+
+{-| Riverain Sango
+-}
 snj : Language
 snj =
     Language { code = "snj" }
 
-{-| Soninke -}
+
+{-| Soninke
+-}
 snk : Language
 snk =
     Language { code = "snk" }
 
-{-| Sangil -}
+
+{-| Sangil
+-}
 snl : Language
 snl =
     Language { code = "snl" }
 
-{-| Southern Ma'di -}
+
+{-| Southern Ma'di
+-}
 snm : Language
 snm =
     Language { code = "snm" }
 
-{-| Siona -}
+
+{-| Siona
+-}
 snn : Language
 snn =
     Language { code = "snn" }
 
-{-| Snohomish -}
+
+{-| Snohomish
+-}
 sno : Language
 sno =
     Language { code = "sno" }
 
-{-| Siane -}
+
+{-| Siane
+-}
 snp : Language
 snp =
     Language { code = "snp" }
 
-{-| Sangu (Gabon) -}
+
+{-| Sangu (Gabon)
+-}
 snq : Language
 snq =
     Language { code = "snq" }
 
-{-| Sihan -}
+
+{-| Sihan
+-}
 snr : Language
 snr =
     Language { code = "snr" }
 
+
 {-| South West Bay
-Nahavaq -}
+Nahavaq
+-}
 sns : Language
 sns =
     Language { code = "sns" }
 
+
 {-| Senggi
-Viid -}
+Viid
+-}
 snu : Language
 snu =
     Language { code = "snu" }
 
-{-| Sa'ban -}
+
+{-| Sa'ban
+-}
 snv : Language
 snv =
     Language { code = "snv" }
 
-{-| Selee -}
+
+{-| Selee
+-}
 snw : Language
 snw =
     Language { code = "snw" }
 
-{-| Sam -}
+
+{-| Sam
+-}
 snx : Language
 snx =
     Language { code = "snx" }
 
-{-| Saniyo-Hiyewe -}
+
+{-| Saniyo-Hiyewe
+-}
 sny : Language
 sny =
     Language { code = "sny" }
 
-{-| Kou -}
+
+{-| Kou
+-}
 snz : Language
 snz =
     Language { code = "snz" }
 
-{-| Somali -}
+
+{-| Somali
+-}
 so : Language
 so =
     Language { code = "so" }
 
-{-| Thai Song -}
+
+{-| Thai Song
+-}
 soa : Language
 soa =
     Language { code = "soa" }
 
-{-| Sobei -}
+
+{-| Sobei
+-}
 sob : Language
 sob =
     Language { code = "sob" }
 
-{-| So (Democratic Republic of Congo) -}
+
+{-| So (Democratic Republic of Congo)
+-}
 soc : Language
 soc =
     Language { code = "soc" }
 
-{-| Songoora -}
+
+{-| Songoora
+-}
 sod : Language
 sod =
     Language { code = "sod" }
 
-{-| Songomeno -}
+
+{-| Songomeno
+-}
 soe : Language
 soe =
     Language { code = "soe" }
 
-{-| Sogdian -}
+
+{-| Sogdian
+-}
 sog : Language
 sog =
     Language { code = "sog" }
 
-{-| Aka -}
+
+{-| Aka
+-}
 soh : Language
 soh =
     Language { code = "soh" }
 
-{-| Sonha -}
+
+{-| Sonha
+-}
 soi : Language
 soi =
     Language { code = "soi" }
 
-{-| Soi -}
+
+{-| Soi
+-}
 soj : Language
 soj =
     Language { code = "soj" }
 
-{-| Sokoro -}
+
+{-| Sokoro
+-}
 sok : Language
 sok =
     Language { code = "sok" }
 
-{-| Solos -}
+
+{-| Solos
+-}
 sol : Language
 sol =
     Language { code = "sol" }
 
-{-| Songhai languages -}
+
+{-| Songhai languages
+-}
 son : Language
 son =
     Language { code = "son" }
 
-{-| Songo -}
+
+{-| Songo
+-}
 soo : Language
 soo =
     Language { code = "soo" }
 
-{-| Songe -}
+
+{-| Songe
+-}
 sop : Language
 sop =
     Language { code = "sop" }
 
-{-| Kanasi -}
+
+{-| Kanasi
+-}
 soq : Language
 soq =
     Language { code = "soq" }
 
-{-| Somrai -}
+
+{-| Somrai
+-}
 sor : Language
 sor =
     Language { code = "sor" }
 
-{-| Seeku -}
+
+{-| Seeku
+-}
 sos : Language
 sos =
     Language { code = "sos" }
 
-{-| Southern Thai -}
+
+{-| Southern Thai
+-}
 sou : Language
 sou =
     Language { code = "sou" }
 
-{-| Sonsorol -}
+
+{-| Sonsorol
+-}
 sov : Language
 sov =
     Language { code = "sov" }
 
-{-| Sowanda -}
+
+{-| Sowanda
+-}
 sow : Language
 sow =
     Language { code = "sow" }
 
-{-| Swo -}
+
+{-| Swo
+-}
 sox : Language
 sox =
     Language { code = "sox" }
 
-{-| Miyobe -}
+
+{-| Miyobe
+-}
 soy : Language
 soy =
     Language { code = "soy" }
 
-{-| Temi -}
+
+{-| Temi
+-}
 soz : Language
 soz =
     Language { code = "soz" }
 
-{-| Sepa (Indonesia) -}
+
+{-| Sepa (Indonesia)
+-}
 spb : Language
 spb =
     Language { code = "spb" }
 
-{-| Sapé -}
+
+{-| Sapé
+-}
 spc : Language
 spc =
     Language { code = "spc" }
 
-{-| Saep -}
+
+{-| Saep
+-}
 spd : Language
 spd =
     Language { code = "spd" }
 
-{-| Sepa (Papua New Guinea) -}
+
+{-| Sepa (Papua New Guinea)
+-}
 spe : Language
 spe =
     Language { code = "spe" }
 
-{-| Sian -}
+
+{-| Sian
+-}
 spg : Language
 spg =
     Language { code = "spg" }
 
-{-| Saponi -}
+
+{-| Saponi
+-}
 spi : Language
 spi =
     Language { code = "spi" }
 
-{-| Sengo -}
+
+{-| Sengo
+-}
 spk : Language
 spk =
     Language { code = "spk" }
 
-{-| Selepet -}
+
+{-| Selepet
+-}
 spl : Language
 spl =
     Language { code = "spl" }
 
-{-| Akukem -}
+
+{-| Akukem
+-}
 spm : Language
 spm =
     Language { code = "spm" }
 
-{-| Sanapaná -}
+
+{-| Sanapaná
+-}
 spn : Language
 spn =
     Language { code = "spn" }
 
-{-| Spokane -}
+
+{-| Spokane
+-}
 spo : Language
 spo =
     Language { code = "spo" }
 
-{-| Supyire Senoufo -}
+
+{-| Supyire Senoufo
+-}
 spp : Language
 spp =
     Language { code = "spp" }
 
-{-| Loreto-Ucayali Spanish -}
+
+{-| Loreto-Ucayali Spanish
+-}
 spq : Language
 spq =
     Language { code = "spq" }
 
-{-| Saparua -}
+
+{-| Saparua
+-}
 spr : Language
 spr =
     Language { code = "spr" }
 
-{-| Saposa -}
+
+{-| Saposa
+-}
 sps : Language
 sps =
     Language { code = "sps" }
 
-{-| Spiti Bhoti -}
+
+{-| Spiti Bhoti
+-}
 spt : Language
 spt =
     Language { code = "spt" }
 
-{-| Sapuan -}
+
+{-| Sapuan
+-}
 spu : Language
 spu =
     Language { code = "spu" }
 
+
 {-| Sambalpuri
-Kosli -}
+Kosli
+-}
 spv : Language
 spv =
     Language { code = "spv" }
 
-{-| South Picene -}
+
+{-| South Picene
+-}
 spx : Language
 spx =
     Language { code = "spx" }
 
-{-| Sabaot -}
+
+{-| Sabaot
+-}
 spy : Language
 spy =
     Language { code = "spy" }
 
-{-| Albanian -}
+
+{-| Albanian
+-}
 sq : Language
 sq =
     Language { code = "sq" }
 
-{-| Shama-Sambuga -}
+
+{-| Shama-Sambuga
+-}
 sqa : Language
 sqa =
     Language { code = "sqa" }
 
-{-| Shau -}
+
+{-| Shau
+-}
 sqh : Language
 sqh =
     Language { code = "sqh" }
 
-{-| Albanian languages -}
+
+{-| Albanian languages
+-}
 sqj : Language
 sqj =
     Language { code = "sqj" }
 
-{-| Albanian Sign Language -}
+
+{-| Albanian Sign Language
+-}
 sqk : Language
 sqk =
     Language { code = "sqk" }
 
-{-| Suma -}
+
+{-| Suma
+-}
 sqm : Language
 sqm =
     Language { code = "sqm" }
 
-{-| Susquehannock -}
+
+{-| Susquehannock
+-}
 sqn : Language
 sqn =
     Language { code = "sqn" }
 
-{-| Sorkhei -}
+
+{-| Sorkhei
+-}
 sqo : Language
 sqo =
     Language { code = "sqo" }
 
-{-| Sou -}
+
+{-| Sou
+-}
 sqq : Language
 sqq =
     Language { code = "sqq" }
 
-{-| Siculo Arabic -}
+
+{-| Siculo Arabic
+-}
 sqr : Language
 sqr =
     Language { code = "sqr" }
 
-{-| Sri Lankan Sign Language -}
+
+{-| Sri Lankan Sign Language
+-}
 sqs : Language
 sqs =
     Language { code = "sqs" }
 
-{-| Soqotri -}
+
+{-| Soqotri
+-}
 sqt : Language
 sqt =
     Language { code = "sqt" }
 
-{-| Squamish -}
+
+{-| Squamish
+-}
 squ : Language
 squ =
     Language { code = "squ" }
 
-{-| Serbian -}
+
+{-| Serbian
+-}
 sr : Language
 sr =
     Language { code = "sr" }
 
-{-| Saruga -}
+
+{-| Saruga
+-}
 sra : Language
 sra =
     Language { code = "sra" }
 
-{-| Sora -}
+
+{-| Sora
+-}
 srb : Language
 srb =
     Language { code = "srb" }
 
-{-| Logudorese Sardinian -}
+
+{-| Logudorese Sardinian
+-}
 src : Language
 src =
     Language { code = "src" }
 
-{-| Sara -}
+
+{-| Sara
+-}
 sre : Language
 sre =
     Language { code = "sre" }
 
-{-| Nafi -}
+
+{-| Nafi
+-}
 srf : Language
 srf =
     Language { code = "srf" }
 
-{-| Sulod -}
+
+{-| Sulod
+-}
 srg : Language
 srg =
     Language { code = "srg" }
 
-{-| Sarikoli -}
+
+{-| Sarikoli
+-}
 srh : Language
 srh =
     Language { code = "srh" }
 
-{-| Siriano -}
+
+{-| Siriano
+-}
 sri : Language
 sri =
     Language { code = "sri" }
 
-{-| Serudung Murut -}
+
+{-| Serudung Murut
+-}
 srk : Language
 srk =
     Language { code = "srk" }
 
-{-| Isirawa -}
+
+{-| Isirawa
+-}
 srl : Language
 srl =
     Language { code = "srl" }
 
-{-| Saramaccan -}
+
+{-| Saramaccan
+-}
 srm : Language
 srm =
     Language { code = "srm" }
 
-{-| Sranan Tongo -}
+
+{-| Sranan Tongo
+-}
 srn : Language
 srn =
     Language { code = "srn" }
 
-{-| Campidanese Sardinian -}
+
+{-| Campidanese Sardinian
+-}
 sro : Language
 sro =
     Language { code = "sro" }
 
-{-| Sirionó -}
+
+{-| Sirionó
+-}
 srq : Language
 srq =
     Language { code = "srq" }
 
-{-| Serer -}
+
+{-| Serer
+-}
 srr : Language
 srr =
     Language { code = "srr" }
 
-{-| Sarsi -}
+
+{-| Sarsi
+-}
 srs : Language
 srs =
     Language { code = "srs" }
 
-{-| Sauri -}
+
+{-| Sauri
+-}
 srt : Language
 srt =
     Language { code = "srt" }
 
-{-| Suruí -}
+
+{-| Suruí
+-}
 sru : Language
 sru =
     Language { code = "sru" }
 
-{-| Southern Sorsoganon -}
+
+{-| Southern Sorsoganon
+-}
 srv : Language
 srv =
     Language { code = "srv" }
 
-{-| Serua -}
+
+{-| Serua
+-}
 srw : Language
 srw =
     Language { code = "srw" }
 
-{-| Sirmauri -}
+
+{-| Sirmauri
+-}
 srx : Language
 srx =
     Language { code = "srx" }
 
-{-| Sera -}
+
+{-| Sera
+-}
 sry : Language
 sry =
     Language { code = "sry" }
 
-{-| Shahmirzadi -}
+
+{-| Shahmirzadi
+-}
 srz : Language
 srz =
     Language { code = "srz" }
 
-{-| Swati -}
+
+{-| Swati
+-}
 ss : Language
 ss =
     Language { code = "ss" }
 
-{-| Nilo-Saharan languages -}
+
+{-| Nilo-Saharan languages
+-}
 ssa : Language
 ssa =
     Language { code = "ssa" }
 
-{-| Southern Sama -}
+
+{-| Southern Sama
+-}
 ssb : Language
 ssb =
     Language { code = "ssb" }
 
-{-| Suba-Simbiti -}
+
+{-| Suba-Simbiti
+-}
 ssc : Language
 ssc =
     Language { code = "ssc" }
 
-{-| Siroi -}
+
+{-| Siroi
+-}
 ssd : Language
 ssd =
     Language { code = "ssd" }
 
+
 {-| Balangingi
-Bangingih Sama -}
+Bangingih Sama
+-}
 sse : Language
 sse =
     Language { code = "sse" }
 
-{-| Thao -}
+
+{-| Thao
+-}
 ssf : Language
 ssf =
     Language { code = "ssf" }
 
-{-| Seimat -}
+
+{-| Seimat
+-}
 ssg : Language
 ssg =
     Language { code = "ssg" }
 
-{-| Shihhi Arabic -}
+
+{-| Shihhi Arabic
+-}
 ssh : Language
 ssh =
     Language { code = "ssh" }
 
-{-| Sansi -}
+
+{-| Sansi
+-}
 ssi : Language
 ssi =
     Language { code = "ssi" }
 
-{-| Sausi -}
+
+{-| Sausi
+-}
 ssj : Language
 ssj =
     Language { code = "ssj" }
 
-{-| Sunam -}
+
+{-| Sunam
+-}
 ssk : Language
 ssk =
     Language { code = "ssk" }
 
-{-| Western Sisaala -}
+
+{-| Western Sisaala
+-}
 ssl : Language
 ssl =
     Language { code = "ssl" }
 
-{-| Semnam -}
+
+{-| Semnam
+-}
 ssm : Language
 ssm =
     Language { code = "ssm" }
 
-{-| Waata -}
+
+{-| Waata
+-}
 ssn : Language
 ssn =
     Language { code = "ssn" }
 
-{-| Sissano -}
+
+{-| Sissano
+-}
 sso : Language
 sso =
     Language { code = "sso" }
 
-{-| Spanish Sign Language -}
+
+{-| Spanish Sign Language
+-}
 ssp : Language
 ssp =
     Language { code = "ssp" }
 
-{-| So'a -}
+
+{-| So'a
+-}
 ssq : Language
 ssq =
     Language { code = "ssq" }
 
-{-| Swiss-French Sign Language -}
+
+{-| Swiss-French Sign Language
+-}
 ssr : Language
 ssr =
     Language { code = "ssr" }
 
-{-| Sô -}
+
+{-| Sô
+-}
 sss : Language
 sss =
     Language { code = "sss" }
 
-{-| Sinasina -}
+
+{-| Sinasina
+-}
 sst : Language
 sst =
     Language { code = "sst" }
 
-{-| Susuami -}
+
+{-| Susuami
+-}
 ssu : Language
 ssu =
     Language { code = "ssu" }
 
-{-| Shark Bay -}
+
+{-| Shark Bay
+-}
 ssv : Language
 ssv =
     Language { code = "ssv" }
 
-{-| Samberigi -}
+
+{-| Samberigi
+-}
 ssx : Language
 ssx =
     Language { code = "ssx" }
 
-{-| Saho -}
+
+{-| Saho
+-}
 ssy : Language
 ssy =
     Language { code = "ssy" }
 
-{-| Sengseng -}
+
+{-| Sengseng
+-}
 ssz : Language
 ssz =
     Language { code = "ssz" }
 
-{-| Southern Sotho -}
+
+{-| Southern Sotho
+-}
 st : Language
 st =
     Language { code = "st" }
 
-{-| Settla -}
+
+{-| Settla
+-}
 sta : Language
 sta =
     Language { code = "sta" }
 
-{-| Northern Subanen -}
+
+{-| Northern Subanen
+-}
 stb : Language
 stb =
     Language { code = "stb" }
 
-{-| Sentinel -}
+
+{-| Sentinel
+-}
 std : Language
 std =
     Language { code = "std" }
 
-{-| Liana-Seti -}
+
+{-| Liana-Seti
+-}
 ste : Language
 ste =
     Language { code = "ste" }
 
-{-| Seta -}
+
+{-| Seta
+-}
 stf : Language
 stf =
     Language { code = "stf" }
 
-{-| Trieng -}
+
+{-| Trieng
+-}
 stg : Language
 stg =
     Language { code = "stg" }
 
-{-| Shelta -}
+
+{-| Shelta
+-}
 sth : Language
 sth =
     Language { code = "sth" }
 
-{-| Bulo Stieng -}
+
+{-| Bulo Stieng
+-}
 sti : Language
 sti =
     Language { code = "sti" }
 
-{-| Matya Samo -}
+
+{-| Matya Samo
+-}
 stj : Language
 stj =
     Language { code = "stj" }
 
-{-| Arammba -}
+
+{-| Arammba
+-}
 stk : Language
 stk =
     Language { code = "stk" }
 
-{-| Stellingwerfs -}
+
+{-| Stellingwerfs
+-}
 stl : Language
 stl =
     Language { code = "stl" }
 
-{-| Setaman -}
+
+{-| Setaman
+-}
 stm : Language
 stm =
     Language { code = "stm" }
 
-{-| Owa -}
+
+{-| Owa
+-}
 stn : Language
 stn =
     Language { code = "stn" }
 
-{-| Stoney -}
+
+{-| Stoney
+-}
 sto : Language
 sto =
     Language { code = "sto" }
 
-{-| Southeastern Tepehuan -}
+
+{-| Southeastern Tepehuan
+-}
 stp : Language
 stp =
     Language { code = "stp" }
 
-{-| Saterfriesisch -}
+
+{-| Saterfriesisch
+-}
 stq : Language
 stq =
     Language { code = "stq" }
 
-{-| Straits Salish -}
+
+{-| Straits Salish
+-}
 str : Language
 str =
     Language { code = "str" }
 
-{-| Shumashti -}
+
+{-| Shumashti
+-}
 sts : Language
 sts =
     Language { code = "sts" }
 
-{-| Budeh Stieng -}
+
+{-| Budeh Stieng
+-}
 stt : Language
 stt =
     Language { code = "stt" }
 
-{-| Samtao -}
+
+{-| Samtao
+-}
 stu : Language
 stu =
     Language { code = "stu" }
 
-{-| Silt'e -}
+
+{-| Silt'e
+-}
 stv : Language
 stv =
     Language { code = "stv" }
 
-{-| Satawalese -}
+
+{-| Satawalese
+-}
 stw : Language
 stw =
     Language { code = "stw" }
 
-{-| Siberian Tatar -}
+
+{-| Siberian Tatar
+-}
 sty : Language
 sty =
     Language { code = "sty" }
 
-{-| Sundanese -}
+
+{-| Sundanese
+-}
 su : Language
 su =
     Language { code = "su" }
 
-{-| Sulka -}
+
+{-| Sulka
+-}
 sua : Language
 sua =
     Language { code = "sua" }
 
-{-| Suku -}
+
+{-| Suku
+-}
 sub : Language
 sub =
     Language { code = "sub" }
 
-{-| Western Subanon -}
+
+{-| Western Subanon
+-}
 suc : Language
 suc =
     Language { code = "suc" }
 
-{-| Suena -}
+
+{-| Suena
+-}
 sue : Language
 sue =
     Language { code = "sue" }
 
-{-| Suganga -}
+
+{-| Suganga
+-}
 sug : Language
 sug =
     Language { code = "sug" }
 
-{-| Suki -}
+
+{-| Suki
+-}
 sui : Language
 sui =
     Language { code = "sui" }
 
-{-| Shubi -}
+
+{-| Shubi
+-}
 suj : Language
 suj =
     Language { code = "suj" }
 
-{-| Sukuma -}
+
+{-| Sukuma
+-}
 suk : Language
 suk =
     Language { code = "suk" }
 
-{-| Surigaonon -}
+
+{-| Surigaonon
+-}
 sul : Language
 sul =
     Language { code = "sul" }
 
-{-| Sumo-Mayangna -}
+
+{-| Sumo-Mayangna
+-}
 sum : Language
 sum =
     Language { code = "sum" }
 
-{-| Suri -}
+
+{-| Suri
+-}
 suq : Language
 suq =
     Language { code = "suq" }
 
-{-| Mwaghavul -}
+
+{-| Mwaghavul
+-}
 sur : Language
 sur =
     Language { code = "sur" }
 
-{-| Susu -}
+
+{-| Susu
+-}
 sus : Language
 sus =
     Language { code = "sus" }
 
-{-| Subtiaba -}
+
+{-| Subtiaba
+-}
 sut : Language
 sut =
     Language { code = "sut" }
 
-{-| Puroik -}
+
+{-| Puroik
+-}
 suv : Language
 suv =
     Language { code = "suv" }
 
-{-| Sumbwa -}
+
+{-| Sumbwa
+-}
 suw : Language
 suw =
     Language { code = "suw" }
 
-{-| Sumerian -}
+
+{-| Sumerian
+-}
 sux : Language
 sux =
     Language { code = "sux" }
 
-{-| Suyá -}
+
+{-| Suyá
+-}
 suy : Language
 suy =
     Language { code = "suy" }
 
-{-| Sunwar -}
+
+{-| Sunwar
+-}
 suz : Language
 suz =
     Language { code = "suz" }
 
-{-| Swedish -}
+
+{-| Swedish
+-}
 sv : Language
 sv =
     Language { code = "sv" }
 
-{-| Svan -}
+
+{-| Svan
+-}
 sva : Language
 sva =
     Language { code = "sva" }
 
-{-| Ulau-Suain -}
+
+{-| Ulau-Suain
+-}
 svb : Language
 svb =
     Language { code = "svb" }
 
-{-| Vincentian Creole English -}
+
+{-| Vincentian Creole English
+-}
 svc : Language
 svc =
     Language { code = "svc" }
 
-{-| Serili -}
+
+{-| Serili
+-}
 sve : Language
 sve =
     Language { code = "sve" }
 
-{-| Slovakian Sign Language -}
+
+{-| Slovakian Sign Language
+-}
 svk : Language
 svk =
     Language { code = "svk" }
 
-{-| Slavomolisano -}
+
+{-| Slavomolisano
+-}
 svm : Language
 svm =
     Language { code = "svm" }
 
-{-| Savara -}
+
+{-| Savara
+-}
 svr : Language
 svr =
     Language { code = "svr" }
 
-{-| Savosavo -}
+
+{-| Savosavo
+-}
 svs : Language
 svs =
     Language { code = "svs" }
 
-{-| Skalvian -}
+
+{-| Skalvian
+-}
 svx : Language
 svx =
     Language { code = "svx" }
 
-{-| Swahili (macrolanguage) -}
+
+{-| Swahili (macrolanguage)
+-}
 sw : Language
 sw =
     Language { code = "sw" }
 
-{-| Maore Comorian -}
+
+{-| Maore Comorian
+-}
 swb : Language
 swb =
     Language { code = "swb" }
 
-{-| Congo Swahili -}
+
+{-| Congo Swahili
+-}
 swc : Language
 swc =
     Language { code = "swc" }
 
-{-| Sere -}
+
+{-| Sere
+-}
 swf : Language
 swf =
     Language { code = "swf" }
 
-{-| Swabian -}
+
+{-| Swabian
+-}
 swg : Language
 swg =
     Language { code = "swg" }
 
+
 {-| Swahili (individual language)
-Kiswahili -}
+Kiswahili
+-}
 swh : Language
 swh =
     Language { code = "swh" }
 
-{-| Sui -}
+
+{-| Sui
+-}
 swi : Language
 swi =
     Language { code = "swi" }
 
-{-| Sira -}
+
+{-| Sira
+-}
 swj : Language
 swj =
     Language { code = "swj" }
 
-{-| Malawi Sena -}
+
+{-| Malawi Sena
+-}
 swk : Language
 swk =
     Language { code = "swk" }
 
-{-| Swedish Sign Language -}
+
+{-| Swedish Sign Language
+-}
 swl : Language
 swl =
     Language { code = "swl" }
 
-{-| Samosa -}
+
+{-| Samosa
+-}
 swm : Language
 swm =
     Language { code = "swm" }
 
-{-| Sawknah -}
+
+{-| Sawknah
+-}
 swn : Language
 swn =
     Language { code = "swn" }
 
-{-| Shanenawa -}
+
+{-| Shanenawa
+-}
 swo : Language
 swo =
     Language { code = "swo" }
 
-{-| Suau -}
+
+{-| Suau
+-}
 swp : Language
 swp =
     Language { code = "swp" }
 
-{-| Sharwa -}
+
+{-| Sharwa
+-}
 swq : Language
 swq =
     Language { code = "swq" }
 
-{-| Saweru -}
+
+{-| Saweru
+-}
 swr : Language
 swr =
     Language { code = "swr" }
 
-{-| Seluwasan -}
+
+{-| Seluwasan
+-}
 sws : Language
 sws =
     Language { code = "sws" }
 
-{-| Sawila -}
+
+{-| Sawila
+-}
 swt : Language
 swt =
     Language { code = "swt" }
 
-{-| Suwawa -}
+
+{-| Suwawa
+-}
 swu : Language
 swu =
     Language { code = "swu" }
 
-{-| Shekhawati -}
+
+{-| Shekhawati
+-}
 swv : Language
 swv =
     Language { code = "swv" }
 
-{-| Sowa -}
+
+{-| Sowa
+-}
 sww : Language
 sww =
     Language { code = "sww" }
 
-{-| Suruahá -}
+
+{-| Suruahá
+-}
 swx : Language
 swx =
     Language { code = "swx" }
 
-{-| Sarua -}
+
+{-| Sarua
+-}
 swy : Language
 swy =
     Language { code = "swy" }
 
-{-| Suba -}
+
+{-| Suba
+-}
 sxb : Language
 sxb =
     Language { code = "sxb" }
 
-{-| Sicanian -}
+
+{-| Sicanian
+-}
 sxc : Language
 sxc =
     Language { code = "sxc" }
 
-{-| Sighu -}
+
+{-| Sighu
+-}
 sxe : Language
 sxe =
     Language { code = "sxe" }
 
+
 {-| Shuhi
-Shixing -}
+Shixing
+-}
 sxg : Language
 sxg =
     Language { code = "sxg" }
 
-{-| Southern Kalapuya -}
+
+{-| Southern Kalapuya
+-}
 sxk : Language
 sxk =
     Language { code = "sxk" }
 
-{-| Selian -}
+
+{-| Selian
+-}
 sxl : Language
 sxl =
     Language { code = "sxl" }
 
-{-| Samre -}
+
+{-| Samre
+-}
 sxm : Language
 sxm =
     Language { code = "sxm" }
 
-{-| Sangir -}
+
+{-| Sangir
+-}
 sxn : Language
 sxn =
     Language { code = "sxn" }
 
-{-| Sorothaptic -}
+
+{-| Sorothaptic
+-}
 sxo : Language
 sxo =
     Language { code = "sxo" }
 
-{-| Saaroa -}
+
+{-| Saaroa
+-}
 sxr : Language
 sxr =
     Language { code = "sxr" }
 
-{-| Sasaru -}
+
+{-| Sasaru
+-}
 sxs : Language
 sxs =
     Language { code = "sxs" }
 
-{-| Upper Saxon -}
+
+{-| Upper Saxon
+-}
 sxu : Language
 sxu =
     Language { code = "sxu" }
 
-{-| Saxwe Gbe -}
+
+{-| Saxwe Gbe
+-}
 sxw : Language
 sxw =
     Language { code = "sxw" }
 
-{-| Siang -}
+
+{-| Siang
+-}
 sya : Language
 sya =
     Language { code = "sya" }
 
-{-| Central Subanen -}
+
+{-| Central Subanen
+-}
 syb : Language
 syb =
     Language { code = "syb" }
 
-{-| Classical Syriac -}
+
+{-| Classical Syriac
+-}
 syc : Language
 syc =
     Language { code = "syc" }
 
-{-| Samoyedic languages -}
+
+{-| Samoyedic languages
+-}
 syd : Language
 syd =
     Language { code = "syd" }
 
-{-| Seki -}
+
+{-| Seki
+-}
 syi : Language
 syi =
     Language { code = "syi" }
 
-{-| Sukur -}
+
+{-| Sukur
+-}
 syk : Language
 syk =
     Language { code = "syk" }
 
-{-| Sylheti -}
+
+{-| Sylheti
+-}
 syl : Language
 syl =
     Language { code = "syl" }
 
-{-| Maya Samo -}
+
+{-| Maya Samo
+-}
 sym : Language
 sym =
     Language { code = "sym" }
 
-{-| Senaya -}
+
+{-| Senaya
+-}
 syn : Language
 syn =
     Language { code = "syn" }
 
-{-| Suoy -}
+
+{-| Suoy
+-}
 syo : Language
 syo =
     Language { code = "syo" }
 
-{-| Syriac -}
+
+{-| Syriac
+-}
 syr : Language
 syr =
     Language { code = "syr" }
 
-{-| Sinyar -}
+
+{-| Sinyar
+-}
 sys : Language
 sys =
     Language { code = "sys" }
 
-{-| Kagate -}
+
+{-| Kagate
+-}
 syw : Language
 syw =
     Language { code = "syw" }
 
-{-| Samay -}
+
+{-| Samay
+-}
 syx : Language
 syx =
     Language { code = "syx" }
 
-{-| Al-Sayyid Bedouin Sign Language -}
+
+{-| Al-Sayyid Bedouin Sign Language
+-}
 syy : Language
 syy =
     Language { code = "syy" }
 
-{-| Semelai -}
+
+{-| Semelai
+-}
 sza : Language
 sza =
     Language { code = "sza" }
 
-{-| Ngalum -}
+
+{-| Ngalum
+-}
 szb : Language
 szb =
     Language { code = "szb" }
 
-{-| Semaq Beri -}
+
+{-| Semaq Beri
+-}
 szc : Language
 szc =
     Language { code = "szc" }
 
-{-| Seru -}
+
+{-| Seru
+-}
 szd : Language
 szd =
     Language { code = "szd" }
 
-{-| Seze -}
+
+{-| Seze
+-}
 sze : Language
 sze =
     Language { code = "sze" }
 
-{-| Sengele -}
+
+{-| Sengele
+-}
 szg : Language
 szg =
     Language { code = "szg" }
 
-{-| Silesian -}
+
+{-| Silesian
+-}
 szl : Language
 szl =
     Language { code = "szl" }
 
-{-| Sula -}
+
+{-| Sula
+-}
 szn : Language
 szn =
     Language { code = "szn" }
 
-{-| Suabo -}
+
+{-| Suabo
+-}
 szp : Language
 szp =
     Language { code = "szp" }
 
-{-| Solomon Islands Sign Language -}
+
+{-| Solomon Islands Sign Language
+-}
 szs : Language
 szs =
     Language { code = "szs" }
 
-{-| Isu (Fako Division) -}
+
+{-| Isu (Fako Division)
+-}
 szv : Language
 szv =
     Language { code = "szv" }
 
-{-| Sawai -}
+
+{-| Sawai
+-}
 szw : Language
 szw =
     Language { code = "szw" }
 
-{-| Sakizaya -}
+
+{-| Sakizaya
+-}
 szy : Language
 szy =
     Language { code = "szy" }
 
-{-| Tamil -}
+
+{-| Tamil
+-}
 ta : Language
 ta =
     Language { code = "ta" }
 
-{-| Lower Tanana -}
+
+{-| Lower Tanana
+-}
 taa : Language
 taa =
     Language { code = "taa" }
 
-{-| Tabassaran -}
+
+{-| Tabassaran
+-}
 tab : Language
 tab =
     Language { code = "tab" }
 
-{-| Lowland Tarahumara -}
+
+{-| Lowland Tarahumara
+-}
 tac : Language
 tac =
     Language { code = "tac" }
 
-{-| Tause -}
+
+{-| Tause
+-}
 tad : Language
 tad =
     Language { code = "tad" }
 
-{-| Tariana -}
+
+{-| Tariana
+-}
 tae : Language
 tae =
     Language { code = "tae" }
 
-{-| Tapirapé -}
+
+{-| Tapirapé
+-}
 taf : Language
 taf =
     Language { code = "taf" }
 
-{-| Tagoi -}
+
+{-| Tagoi
+-}
 tag : Language
 tag =
     Language { code = "tag" }
 
-{-| Tai languages -}
+
+{-| Tai languages
+-}
 tai : Language
 tai =
     Language { code = "tai" }
 
-{-| Eastern Tamang -}
+
+{-| Eastern Tamang
+-}
 taj : Language
 taj =
     Language { code = "taj" }
 
-{-| Tala -}
+
+{-| Tala
+-}
 tak : Language
 tak =
     Language { code = "tak" }
 
-{-| Tal -}
+
+{-| Tal
+-}
 tal : Language
 tal =
     Language { code = "tal" }
 
-{-| Tangale -}
+
+{-| Tangale
+-}
 tan : Language
 tan =
     Language { code = "tan" }
 
-{-| Yami -}
+
+{-| Yami
+-}
 tao : Language
 tao =
     Language { code = "tao" }
 
-{-| Taabwa -}
+
+{-| Taabwa
+-}
 tap : Language
 tap =
     Language { code = "tap" }
 
-{-| Tamasheq -}
+
+{-| Tamasheq
+-}
 taq : Language
 taq =
     Language { code = "taq" }
 
-{-| Central Tarahumara -}
+
+{-| Central Tarahumara
+-}
 tar : Language
 tar =
     Language { code = "tar" }
 
-{-| Tay Boi -}
+
+{-| Tay Boi
+-}
 tas : Language
 tas =
     Language { code = "tas" }
 
-{-| Upper Tanana -}
+
+{-| Upper Tanana
+-}
 tau : Language
 tau =
     Language { code = "tau" }
 
-{-| Tatuyo -}
+
+{-| Tatuyo
+-}
 tav : Language
 tav =
     Language { code = "tav" }
 
-{-| Tai -}
+
+{-| Tai
+-}
 taw : Language
 taw =
     Language { code = "taw" }
 
-{-| Tamki -}
+
+{-| Tamki
+-}
 tax : Language
 tax =
     Language { code = "tax" }
 
-{-| Atayal -}
+
+{-| Atayal
+-}
 tay : Language
 tay =
     Language { code = "tay" }
 
-{-| Tocho -}
+
+{-| Tocho
+-}
 taz : Language
 taz =
     Language { code = "taz" }
 
-{-| Aikanã -}
+
+{-| Aikanã
+-}
 tba : Language
 tba =
     Language { code = "tba" }
 
-{-| Tapeba -}
+
+{-| Tapeba
+-}
 tbb : Language
 tbb =
     Language { code = "tbb" }
 
-{-| Takia -}
+
+{-| Takia
+-}
 tbc : Language
 tbc =
     Language { code = "tbc" }
 
-{-| Kaki Ae -}
+
+{-| Kaki Ae
+-}
 tbd : Language
 tbd =
     Language { code = "tbd" }
 
-{-| Tanimbili -}
+
+{-| Tanimbili
+-}
 tbe : Language
 tbe =
     Language { code = "tbe" }
 
-{-| Mandara -}
+
+{-| Mandara
+-}
 tbf : Language
 tbf =
     Language { code = "tbf" }
 
-{-| North Tairora -}
+
+{-| North Tairora
+-}
 tbg : Language
 tbg =
     Language { code = "tbg" }
 
+
 {-| Dharawal
-Thurawal -}
+Thurawal
+-}
 tbh : Language
 tbh =
     Language { code = "tbh" }
 
-{-| Gaam -}
+
+{-| Gaam
+-}
 tbi : Language
 tbi =
     Language { code = "tbi" }
 
-{-| Tiang -}
+
+{-| Tiang
+-}
 tbj : Language
 tbj =
     Language { code = "tbj" }
 
-{-| Calamian Tagbanwa -}
+
+{-| Calamian Tagbanwa
+-}
 tbk : Language
 tbk =
     Language { code = "tbk" }
 
-{-| Tboli -}
+
+{-| Tboli
+-}
 tbl : Language
 tbl =
     Language { code = "tbl" }
 
-{-| Tagbu -}
+
+{-| Tagbu
+-}
 tbm : Language
 tbm =
     Language { code = "tbm" }
 
-{-| Barro Negro Tunebo -}
+
+{-| Barro Negro Tunebo
+-}
 tbn : Language
 tbn =
     Language { code = "tbn" }
 
-{-| Tawala -}
+
+{-| Tawala
+-}
 tbo : Language
 tbo =
     Language { code = "tbo" }
 
+
 {-| Taworta
-Diebroud -}
+Diebroud
+-}
 tbp : Language
 tbp =
     Language { code = "tbp" }
 
-{-| Tibeto-Burman languages -}
+
+{-| Tibeto-Burman languages
+-}
 tbq : Language
 tbq =
     Language { code = "tbq" }
 
-{-| Tumtum -}
+
+{-| Tumtum
+-}
 tbr : Language
 tbr =
     Language { code = "tbr" }
 
-{-| Tanguat -}
+
+{-| Tanguat
+-}
 tbs : Language
 tbs =
     Language { code = "tbs" }
 
-{-| Tembo (Kitembo) -}
+
+{-| Tembo (Kitembo)
+-}
 tbt : Language
 tbt =
     Language { code = "tbt" }
 
-{-| Tubar -}
+
+{-| Tubar
+-}
 tbu : Language
 tbu =
     Language { code = "tbu" }
 
-{-| Tobo -}
+
+{-| Tobo
+-}
 tbv : Language
 tbv =
     Language { code = "tbv" }
 
-{-| Tagbanwa -}
+
+{-| Tagbanwa
+-}
 tbw : Language
 tbw =
     Language { code = "tbw" }
 
-{-| Kapin -}
+
+{-| Kapin
+-}
 tbx : Language
 tbx =
     Language { code = "tbx" }
 
-{-| Tabaru -}
+
+{-| Tabaru
+-}
 tby : Language
 tby =
     Language { code = "tby" }
 
-{-| Ditammari -}
+
+{-| Ditammari
+-}
 tbz : Language
 tbz =
     Language { code = "tbz" }
 
-{-| Ticuna -}
+
+{-| Ticuna
+-}
 tca : Language
 tca =
     Language { code = "tca" }
 
-{-| Tanacross -}
+
+{-| Tanacross
+-}
 tcb : Language
 tcb =
     Language { code = "tcb" }
 
-{-| Datooga -}
+
+{-| Datooga
+-}
 tcc : Language
 tcc =
     Language { code = "tcc" }
 
-{-| Tafi -}
+
+{-| Tafi
+-}
 tcd : Language
 tcd =
     Language { code = "tcd" }
 
-{-| Southern Tutchone -}
+
+{-| Southern Tutchone
+-}
 tce : Language
 tce =
     Language { code = "tce" }
 
+
 {-| Malinaltepec Me'phaa
-Malinaltepec Tlapanec -}
+Malinaltepec Tlapanec
+-}
 tcf : Language
 tcf =
     Language { code = "tcf" }
 
-{-| Tamagario -}
+
+{-| Tamagario
+-}
 tcg : Language
 tcg =
     Language { code = "tcg" }
 
-{-| Turks And Caicos Creole English -}
+
+{-| Turks And Caicos Creole English
+-}
 tch : Language
 tch =
     Language { code = "tch" }
 
-{-| Wára -}
+
+{-| Wára
+-}
 tci : Language
 tci =
     Language { code = "tci" }
 
-{-| Tchitchege -}
+
+{-| Tchitchege
+-}
 tck : Language
 tck =
     Language { code = "tck" }
 
-{-| Taman (Myanmar) -}
+
+{-| Taman (Myanmar)
+-}
 tcl : Language
 tcl =
     Language { code = "tcl" }
 
-{-| Tanahmerah -}
+
+{-| Tanahmerah
+-}
 tcm : Language
 tcm =
     Language { code = "tcm" }
 
-{-| Tichurong -}
+
+{-| Tichurong
+-}
 tcn : Language
 tcn =
     Language { code = "tcn" }
 
-{-| Taungyo -}
+
+{-| Taungyo
+-}
 tco : Language
 tco =
     Language { code = "tco" }
 
-{-| Tawr Chin -}
+
+{-| Tawr Chin
+-}
 tcp : Language
 tcp =
     Language { code = "tcp" }
 
-{-| Kaiy -}
+
+{-| Kaiy
+-}
 tcq : Language
 tcq =
     Language { code = "tcq" }
 
+
 {-| Torres Strait Creole
-Yumplatok -}
+Yumplatok
+-}
 tcs : Language
 tcs =
     Language { code = "tcs" }
 
-{-| T'en -}
+
+{-| T'en
+-}
 tct : Language
 tct =
     Language { code = "tct" }
 
-{-| Southeastern Tarahumara -}
+
+{-| Southeastern Tarahumara
+-}
 tcu : Language
 tcu =
     Language { code = "tcu" }
 
-{-| Tecpatlán Totonac -}
+
+{-| Tecpatlán Totonac
+-}
 tcw : Language
 tcw =
     Language { code = "tcw" }
 
-{-| Toda -}
+
+{-| Toda
+-}
 tcx : Language
 tcx =
     Language { code = "tcx" }
 
-{-| Tulu -}
+
+{-| Tulu
+-}
 tcy : Language
 tcy =
     Language { code = "tcy" }
 
-{-| Thado Chin -}
+
+{-| Thado Chin
+-}
 tcz : Language
 tcz =
     Language { code = "tcz" }
 
-{-| Tagdal -}
+
+{-| Tagdal
+-}
 tda : Language
 tda =
     Language { code = "tda" }
 
-{-| Panchpargania -}
+
+{-| Panchpargania
+-}
 tdb : Language
 tdb =
     Language { code = "tdb" }
 
-{-| Emberá-Tadó -}
+
+{-| Emberá-Tadó
+-}
 tdc : Language
 tdc =
     Language { code = "tdc" }
 
-{-| Tai Nüa -}
+
+{-| Tai Nüa
+-}
 tdd : Language
 tdd =
     Language { code = "tdd" }
 
-{-| Tiranige Diga Dogon -}
+
+{-| Tiranige Diga Dogon
+-}
 tde : Language
 tde =
     Language { code = "tde" }
 
-{-| Talieng -}
+
+{-| Talieng
+-}
 tdf : Language
 tdf =
     Language { code = "tdf" }
 
-{-| Western Tamang -}
+
+{-| Western Tamang
+-}
 tdg : Language
 tdg =
     Language { code = "tdg" }
 
-{-| Thulung -}
+
+{-| Thulung
+-}
 tdh : Language
 tdh =
     Language { code = "tdh" }
 
-{-| Tomadino -}
+
+{-| Tomadino
+-}
 tdi : Language
 tdi =
     Language { code = "tdi" }
 
-{-| Tajio -}
+
+{-| Tajio
+-}
 tdj : Language
 tdj =
     Language { code = "tdj" }
 
-{-| Tambas -}
+
+{-| Tambas
+-}
 tdk : Language
 tdk =
     Language { code = "tdk" }
 
-{-| Sur -}
+
+{-| Sur
+-}
 tdl : Language
 tdl =
     Language { code = "tdl" }
 
-{-| Taruma -}
+
+{-| Taruma
+-}
 tdm : Language
 tdm =
     Language { code = "tdm" }
 
-{-| Tondano -}
+
+{-| Tondano
+-}
 tdn : Language
 tdn =
     Language { code = "tdn" }
 
-{-| Teme -}
+
+{-| Teme
+-}
 tdo : Language
 tdo =
     Language { code = "tdo" }
 
-{-| Tita -}
+
+{-| Tita
+-}
 tdq : Language
 tdq =
     Language { code = "tdq" }
 
-{-| Todrah -}
+
+{-| Todrah
+-}
 tdr : Language
 tdr =
     Language { code = "tdr" }
 
-{-| Doutai -}
+
+{-| Doutai
+-}
 tds : Language
 tds =
     Language { code = "tds" }
 
-{-| Tetun Dili -}
+
+{-| Tetun Dili
+-}
 tdt : Language
 tdt =
     Language { code = "tdt" }
 
-{-| Tempasuk Dusun -}
+
+{-| Tempasuk Dusun
+-}
 tdu : Language
 tdu =
     Language { code = "tdu" }
 
-{-| Toro -}
+
+{-| Toro
+-}
 tdv : Language
 tdv =
     Language { code = "tdv" }
 
-{-| Tandroy-Mahafaly Malagasy -}
+
+{-| Tandroy-Mahafaly Malagasy
+-}
 tdx : Language
 tdx =
     Language { code = "tdx" }
 
-{-| Tadyawan -}
+
+{-| Tadyawan
+-}
 tdy : Language
 tdy =
     Language { code = "tdy" }
 
-{-| Telugu -}
+
+{-| Telugu
+-}
 te : Language
 te =
     Language { code = "te" }
 
-{-| Temiar -}
+
+{-| Temiar
+-}
 tea : Language
 tea =
     Language { code = "tea" }
 
-{-| Tetete -}
+
+{-| Tetete
+-}
 teb : Language
 teb =
     Language { code = "teb" }
 
-{-| Terik -}
+
+{-| Terik
+-}
 tec : Language
 tec =
     Language { code = "tec" }
 
-{-| Tepo Krumen -}
+
+{-| Tepo Krumen
+-}
 ted : Language
 ted =
     Language { code = "ted" }
 
-{-| Huehuetla Tepehua -}
+
+{-| Huehuetla Tepehua
+-}
 tee : Language
 tee =
     Language { code = "tee" }
 
-{-| Teressa -}
+
+{-| Teressa
+-}
 tef : Language
 tef =
     Language { code = "tef" }
 
-{-| Teke-Tege -}
+
+{-| Teke-Tege
+-}
 teg : Language
 teg =
     Language { code = "teg" }
 
-{-| Tehuelche -}
+
+{-| Tehuelche
+-}
 teh : Language
 teh =
     Language { code = "teh" }
 
-{-| Torricelli -}
+
+{-| Torricelli
+-}
 tei : Language
 tei =
     Language { code = "tei" }
 
-{-| Ibali Teke -}
+
+{-| Ibali Teke
+-}
 tek : Language
 tek =
     Language { code = "tek" }
 
-{-| Timne -}
+
+{-| Timne
+-}
 tem : Language
 tem =
     Language { code = "tem" }
 
-{-| Tama (Colombia) -}
+
+{-| Tama (Colombia)
+-}
 ten : Language
 ten =
     Language { code = "ten" }
 
-{-| Teso -}
+
+{-| Teso
+-}
 teo : Language
 teo =
     Language { code = "teo" }
 
-{-| Tepecano -}
+
+{-| Tepecano
+-}
 tep : Language
 tep =
     Language { code = "tep" }
 
-{-| Temein -}
+
+{-| Temein
+-}
 teq : Language
 teq =
     Language { code = "teq" }
 
-{-| Tereno -}
+
+{-| Tereno
+-}
 ter : Language
 ter =
     Language { code = "ter" }
 
-{-| Tengger -}
+
+{-| Tengger
+-}
 tes : Language
 tes =
     Language { code = "tes" }
 
-{-| Tetum -}
+
+{-| Tetum
+-}
 tet : Language
 tet =
     Language { code = "tet" }
 
-{-| Soo -}
+
+{-| Soo
+-}
 teu : Language
 teu =
     Language { code = "teu" }
 
-{-| Teor -}
+
+{-| Teor
+-}
 tev : Language
 tev =
     Language { code = "tev" }
 
-{-| Tewa (USA) -}
+
+{-| Tewa (USA)
+-}
 tew : Language
 tew =
     Language { code = "tew" }
 
-{-| Tennet -}
+
+{-| Tennet
+-}
 tex : Language
 tex =
     Language { code = "tex" }
 
-{-| Tulishi -}
+
+{-| Tulishi
+-}
 tey : Language
 tey =
     Language { code = "tey" }
 
-{-| Tetserret -}
+
+{-| Tetserret
+-}
 tez : Language
 tez =
     Language { code = "tez" }
 
-{-| Tofin Gbe -}
+
+{-| Tofin Gbe
+-}
 tfi : Language
 tfi =
     Language { code = "tfi" }
 
-{-| Tanaina -}
+
+{-| Tanaina
+-}
 tfn : Language
 tfn =
     Language { code = "tfn" }
 
-{-| Tefaro -}
+
+{-| Tefaro
+-}
 tfo : Language
 tfo =
     Language { code = "tfo" }
 
-{-| Teribe -}
+
+{-| Teribe
+-}
 tfr : Language
 tfr =
     Language { code = "tfr" }
 
-{-| Ternate -}
+
+{-| Ternate
+-}
 tft : Language
 tft =
     Language { code = "tft" }
 
-{-| Tajik -}
+
+{-| Tajik
+-}
 tg : Language
 tg =
     Language { code = "tg" }
 
-{-| Sagalla -}
+
+{-| Sagalla
+-}
 tga : Language
 tga =
     Language { code = "tga" }
 
-{-| Tobilung -}
+
+{-| Tobilung
+-}
 tgb : Language
 tgb =
     Language { code = "tgb" }
 
-{-| Tigak -}
+
+{-| Tigak
+-}
 tgc : Language
 tgc =
     Language { code = "tgc" }
 
-{-| Ciwogai -}
+
+{-| Ciwogai
+-}
 tgd : Language
 tgd =
     Language { code = "tgd" }
 
-{-| Eastern Gorkha Tamang -}
+
+{-| Eastern Gorkha Tamang
+-}
 tge : Language
 tge =
     Language { code = "tge" }
 
-{-| Chalikha -}
+
+{-| Chalikha
+-}
 tgf : Language
 tgf =
     Language { code = "tgf" }
 
-{-| Tangga -}
+
+{-| Tangga
+-}
 tgg : Language
 tgg =
     Language { code = "tgg" }
 
-{-| Tobagonian Creole English -}
+
+{-| Tobagonian Creole English
+-}
 tgh : Language
 tgh =
     Language { code = "tgh" }
 
-{-| Lawunuia -}
+
+{-| Lawunuia
+-}
 tgi : Language
 tgi =
     Language { code = "tgi" }
 
-{-| Tagin -}
+
+{-| Tagin
+-}
 tgj : Language
 tgj =
     Language { code = "tgj" }
 
-{-| Tandaganon -}
+
+{-| Tandaganon
+-}
 tgn : Language
 tgn =
     Language { code = "tgn" }
 
-{-| Sudest -}
+
+{-| Sudest
+-}
 tgo : Language
 tgo =
     Language { code = "tgo" }
 
-{-| Tangoa -}
+
+{-| Tangoa
+-}
 tgp : Language
 tgp =
     Language { code = "tgp" }
 
-{-| Tring -}
+
+{-| Tring
+-}
 tgq : Language
 tgq =
     Language { code = "tgq" }
 
-{-| Tareng -}
+
+{-| Tareng
+-}
 tgr : Language
 tgr =
     Language { code = "tgr" }
 
-{-| Nume -}
+
+{-| Nume
+-}
 tgs : Language
 tgs =
     Language { code = "tgs" }
 
-{-| Central Tagbanwa -}
+
+{-| Central Tagbanwa
+-}
 tgt : Language
 tgt =
     Language { code = "tgt" }
 
-{-| Tanggu -}
+
+{-| Tanggu
+-}
 tgu : Language
 tgu =
     Language { code = "tgu" }
 
-{-| Tingui-Boto -}
+
+{-| Tingui-Boto
+-}
 tgv : Language
 tgv =
     Language { code = "tgv" }
 
-{-| Tagwana Senoufo -}
+
+{-| Tagwana Senoufo
+-}
 tgw : Language
 tgw =
     Language { code = "tgw" }
 
-{-| Tagish -}
+
+{-| Tagish
+-}
 tgx : Language
 tgx =
     Language { code = "tgx" }
 
-{-| Togoyo -}
+
+{-| Togoyo
+-}
 tgy : Language
 tgy =
     Language { code = "tgy" }
 
-{-| Tagalaka -}
+
+{-| Tagalaka
+-}
 tgz : Language
 tgz =
     Language { code = "tgz" }
 
-{-| Thai -}
+
+{-| Thai
+-}
 th : Language
 th =
     Language { code = "th" }
 
-{-| Tai Hang Tong -}
+
+{-| Tai Hang Tong
+-}
 thc : Language
 thc =
     Language { code = "thc" }
 
+
 {-| Kuuk Thaayorre
-Thayore -}
+Thayore
+-}
 thd : Language
 thd =
     Language { code = "thd" }
 
-{-| Chitwania Tharu -}
+
+{-| Chitwania Tharu
+-}
 the : Language
 the =
     Language { code = "the" }
 
-{-| Thangmi -}
+
+{-| Thangmi
+-}
 thf : Language
 thf =
     Language { code = "thf" }
 
-{-| Northern Tarahumara -}
+
+{-| Northern Tarahumara
+-}
 thh : Language
 thh =
     Language { code = "thh" }
 
-{-| Tai Long -}
+
+{-| Tai Long
+-}
 thi : Language
 thi =
     Language { code = "thi" }
 
+
 {-| Tharaka
-Kitharaka -}
+Kitharaka
+-}
 thk : Language
 thk =
     Language { code = "thk" }
 
-{-| Dangaura Tharu -}
+
+{-| Dangaura Tharu
+-}
 thl : Language
 thl =
     Language { code = "thl" }
 
-{-| Aheu -}
+
+{-| Aheu
+-}
 thm : Language
 thm =
     Language { code = "thm" }
 
-{-| Thachanadan -}
+
+{-| Thachanadan
+-}
 thn : Language
 thn =
     Language { code = "thn" }
 
-{-| Thompson -}
+
+{-| Thompson
+-}
 thp : Language
 thp =
     Language { code = "thp" }
 
-{-| Kochila Tharu -}
+
+{-| Kochila Tharu
+-}
 thq : Language
 thq =
     Language { code = "thq" }
 
-{-| Rana Tharu -}
+
+{-| Rana Tharu
+-}
 thr : Language
 thr =
     Language { code = "thr" }
 
-{-| Thakali -}
+
+{-| Thakali
+-}
 ths : Language
 ths =
     Language { code = "ths" }
 
-{-| Tahltan -}
+
+{-| Tahltan
+-}
 tht : Language
 tht =
     Language { code = "tht" }
 
-{-| Thuri -}
+
+{-| Thuri
+-}
 thu : Language
 thu =
     Language { code = "thu" }
 
-{-| Tahaggart Tamahaq -}
+
+{-| Tahaggart Tamahaq
+-}
 thv : Language
 thv =
     Language { code = "thv" }
 
-{-| Thudam -}
+
+{-| Thudam
+-}
 thw : Language
 thw =
     Language { code = "thw" }
 
-{-| The -}
+
+{-| The
+-}
 thx : Language
 thx =
     Language { code = "thx" }
 
-{-| Tha -}
+
+{-| Tha
+-}
 thy : Language
 thy =
     Language { code = "thy" }
 
-{-| Tayart Tamajeq -}
+
+{-| Tayart Tamajeq
+-}
 thz : Language
 thz =
     Language { code = "thz" }
 
-{-| Tigrinya -}
+
+{-| Tigrinya
+-}
 ti : Language
 ti =
     Language { code = "ti" }
 
-{-| Tidikelt Tamazight -}
+
+{-| Tidikelt Tamazight
+-}
 tia : Language
 tia =
     Language { code = "tia" }
 
-{-| Tira -}
+
+{-| Tira
+-}
 tic : Language
 tic =
     Language { code = "tic" }
 
-{-| Tidong -}
+
+{-| Tidong
+-}
 tid : Language
 tid =
     Language { code = "tid" }
 
-{-| Tingal -}
+
+{-| Tingal
+-}
 tie : Language
 tie =
     Language { code = "tie" }
 
-{-| Tifal -}
+
+{-| Tifal
+-}
 tif : Language
 tif =
     Language { code = "tif" }
 
-{-| Tigre -}
+
+{-| Tigre
+-}
 tig : Language
 tig =
     Language { code = "tig" }
 
-{-| Timugon Murut -}
+
+{-| Timugon Murut
+-}
 tih : Language
 tih =
     Language { code = "tih" }
 
-{-| Tiene -}
+
+{-| Tiene
+-}
 tii : Language
 tii =
     Language { code = "tii" }
 
-{-| Tilung -}
+
+{-| Tilung
+-}
 tij : Language
 tij =
     Language { code = "tij" }
 
-{-| Tikar -}
+
+{-| Tikar
+-}
 tik : Language
 tik =
     Language { code = "tik" }
 
-{-| Tillamook -}
+
+{-| Tillamook
+-}
 til : Language
 til =
     Language { code = "til" }
 
-{-| Timbe -}
+
+{-| Timbe
+-}
 tim : Language
 tim =
     Language { code = "tim" }
 
-{-| Tindi -}
+
+{-| Tindi
+-}
 tin : Language
 tin =
     Language { code = "tin" }
 
-{-| Teop -}
+
+{-| Teop
+-}
 tio : Language
 tio =
     Language { code = "tio" }
 
-{-| Trimuris -}
+
+{-| Trimuris
+-}
 tip : Language
 tip =
     Language { code = "tip" }
 
-{-| Tiéfo -}
+
+{-| Tiéfo
+-}
 tiq : Language
 tiq =
     Language { code = "tiq" }
 
-{-| Masadiit Itneg -}
+
+{-| Masadiit Itneg
+-}
 tis : Language
 tis =
     Language { code = "tis" }
 
-{-| Tinigua -}
+
+{-| Tinigua
+-}
 tit : Language
 tit =
     Language { code = "tit" }
 
-{-| Adasen -}
+
+{-| Adasen
+-}
 tiu : Language
 tiu =
     Language { code = "tiu" }
 
-{-| Tiv -}
+
+{-| Tiv
+-}
 tiv : Language
 tiv =
     Language { code = "tiv" }
 
-{-| Tiwi -}
+
+{-| Tiwi
+-}
 tiw : Language
 tiw =
     Language { code = "tiw" }
 
-{-| Southern Tiwa -}
+
+{-| Southern Tiwa
+-}
 tix : Language
 tix =
     Language { code = "tix" }
 
-{-| Tiruray -}
+
+{-| Tiruray
+-}
 tiy : Language
 tiy =
     Language { code = "tiy" }
 
-{-| Tai Hongjin -}
+
+{-| Tai Hongjin
+-}
 tiz : Language
 tiz =
     Language { code = "tiz" }
 
-{-| Tajuasohn -}
+
+{-| Tajuasohn
+-}
 tja : Language
 tja =
     Language { code = "tja" }
 
-{-| Tunjung -}
+
+{-| Tunjung
+-}
 tjg : Language
 tjg =
     Language { code = "tjg" }
 
-{-| Northern Tujia -}
+
+{-| Northern Tujia
+-}
 tji : Language
 tji =
     Language { code = "tji" }
 
-{-| Tjungundji -}
+
+{-| Tjungundji
+-}
 tjj : Language
 tjj =
     Language { code = "tjj" }
 
-{-| Tai Laing -}
+
+{-| Tai Laing
+-}
 tjl : Language
 tjl =
     Language { code = "tjl" }
 
-{-| Timucua -}
+
+{-| Timucua
+-}
 tjm : Language
 tjm =
     Language { code = "tjm" }
 
-{-| Tonjon -}
+
+{-| Tonjon
+-}
 tjn : Language
 tjn =
     Language { code = "tjn" }
 
-{-| Temacine Tamazight -}
+
+{-| Temacine Tamazight
+-}
 tjo : Language
 tjo =
     Language { code = "tjo" }
 
-{-| Tjupany -}
+
+{-| Tjupany
+-}
 tjp : Language
 tjp =
     Language { code = "tjp" }
 
-{-| Southern Tujia -}
+
+{-| Southern Tujia
+-}
 tjs : Language
 tjs =
     Language { code = "tjs" }
 
-{-| Tjurruru -}
+
+{-| Tjurruru
+-}
 tju : Language
 tju =
     Language { code = "tju" }
 
-{-| Djabwurrung -}
+
+{-| Djabwurrung
+-}
 tjw : Language
 tjw =
     Language { code = "tjw" }
 
-{-| Turkmen -}
+
+{-| Turkmen
+-}
 tk : Language
 tk =
     Language { code = "tk" }
 
-{-| Truká -}
+
+{-| Truká
+-}
 tka : Language
 tka =
     Language { code = "tka" }
 
-{-| Buksa -}
+
+{-| Buksa
+-}
 tkb : Language
 tkb =
     Language { code = "tkb" }
 
-{-| Tukudede -}
+
+{-| Tukudede
+-}
 tkd : Language
 tkd =
     Language { code = "tkd" }
 
-{-| Takwane -}
+
+{-| Takwane
+-}
 tke : Language
 tke =
     Language { code = "tke" }
 
-{-| Tukumanféd -}
+
+{-| Tukumanféd
+-}
 tkf : Language
 tkf =
     Language { code = "tkf" }
 
-{-| Tesaka Malagasy -}
+
+{-| Tesaka Malagasy
+-}
 tkg : Language
 tkg =
     Language { code = "tkg" }
 
-{-| Takpa -}
+
+{-| Takpa
+-}
 tkk : Language
 tkk =
     Language { code = "tkk" }
 
-{-| Tokelau -}
+
+{-| Tokelau
+-}
 tkl : Language
 tkl =
     Language { code = "tkl" }
 
-{-| Takelma -}
+
+{-| Takelma
+-}
 tkm : Language
 tkm =
     Language { code = "tkm" }
 
-{-| Toku-No-Shima -}
+
+{-| Toku-No-Shima
+-}
 tkn : Language
 tkn =
     Language { code = "tkn" }
 
-{-| Tikopia -}
+
+{-| Tikopia
+-}
 tkp : Language
 tkp =
     Language { code = "tkp" }
 
-{-| Tee -}
+
+{-| Tee
+-}
 tkq : Language
 tkq =
     Language { code = "tkq" }
 
-{-| Tsakhur -}
+
+{-| Tsakhur
+-}
 tkr : Language
 tkr =
     Language { code = "tkr" }
 
-{-| Takestani -}
+
+{-| Takestani
+-}
 tks : Language
 tks =
     Language { code = "tks" }
 
-{-| Kathoriya Tharu -}
+
+{-| Kathoriya Tharu
+-}
 tkt : Language
 tkt =
     Language { code = "tkt" }
 
-{-| Upper Necaxa Totonac -}
+
+{-| Upper Necaxa Totonac
+-}
 tku : Language
 tku =
     Language { code = "tku" }
 
-{-| Mur Pano -}
+
+{-| Mur Pano
+-}
 tkv : Language
 tkv =
     Language { code = "tkv" }
 
-{-| Teanu -}
+
+{-| Teanu
+-}
 tkw : Language
 tkw =
     Language { code = "tkw" }
 
-{-| Tangko -}
+
+{-| Tangko
+-}
 tkx : Language
 tkx =
     Language { code = "tkx" }
 
-{-| Takua -}
+
+{-| Takua
+-}
 tkz : Language
 tkz =
     Language { code = "tkz" }
 
-{-| Tagalog -}
+
+{-| Tagalog
+-}
 tl : Language
 tl =
     Language { code = "tl" }
 
-{-| Southwestern Tepehuan -}
+
+{-| Southwestern Tepehuan
+-}
 tla : Language
 tla =
     Language { code = "tla" }
 
-{-| Tobelo -}
+
+{-| Tobelo
+-}
 tlb : Language
 tlb =
     Language { code = "tlb" }
 
-{-| Yecuatla Totonac -}
+
+{-| Yecuatla Totonac
+-}
 tlc : Language
 tlc =
     Language { code = "tlc" }
 
-{-| Talaud -}
+
+{-| Talaud
+-}
 tld : Language
 tld =
     Language { code = "tld" }
 
-{-| Telefol -}
+
+{-| Telefol
+-}
 tlf : Language
 tlf =
     Language { code = "tlf" }
 
-{-| Tofanma -}
+
+{-| Tofanma
+-}
 tlg : Language
 tlg =
     Language { code = "tlg" }
 
+
 {-| Klingon
-tlhIngan Hol -}
+tlhIngan Hol
+-}
 tlh : Language
 tlh =
     Language { code = "tlh" }
 
-{-| Tlingit -}
+
+{-| Tlingit
+-}
 tli : Language
 tli =
     Language { code = "tli" }
 
-{-| Talinga-Bwisi -}
+
+{-| Talinga-Bwisi
+-}
 tlj : Language
 tlj =
     Language { code = "tlj" }
 
-{-| Taloki -}
+
+{-| Taloki
+-}
 tlk : Language
 tlk =
     Language { code = "tlk" }
 
-{-| Tetela -}
+
+{-| Tetela
+-}
 tll : Language
 tll =
     Language { code = "tll" }
 
-{-| Tolomako -}
+
+{-| Tolomako
+-}
 tlm : Language
 tlm =
     Language { code = "tlm" }
 
-{-| Talondo' -}
+
+{-| Talondo'
+-}
 tln : Language
 tln =
     Language { code = "tln" }
 
-{-| Talodi -}
+
+{-| Talodi
+-}
 tlo : Language
 tlo =
     Language { code = "tlo" }
 
-{-| Filomena Mata-Coahuitlán Totonac -}
+
+{-| Filomena Mata-Coahuitlán Totonac
+-}
 tlp : Language
 tlp =
     Language { code = "tlp" }
 
-{-| Tai Loi -}
+
+{-| Tai Loi
+-}
 tlq : Language
 tlq =
     Language { code = "tlq" }
 
-{-| Talise -}
+
+{-| Talise
+-}
 tlr : Language
 tlr =
     Language { code = "tlr" }
 
-{-| Tambotalo -}
+
+{-| Tambotalo
+-}
 tls : Language
 tls =
     Language { code = "tls" }
 
+
 {-| Sou Nama
-Teluti -}
+Teluti
+-}
 tlt : Language
 tlt =
     Language { code = "tlt" }
 
-{-| Tulehu -}
+
+{-| Tulehu
+-}
 tlu : Language
 tlu =
     Language { code = "tlu" }
 
-{-| Taliabu -}
+
+{-| Taliabu
+-}
 tlv : Language
 tlv =
     Language { code = "tlv" }
 
-{-| South Wemale -}
+
+{-| South Wemale
+-}
 tlw : Language
 tlw =
     Language { code = "tlw" }
 
-{-| Khehek -}
+
+{-| Khehek
+-}
 tlx : Language
 tlx =
     Language { code = "tlx" }
 
-{-| Talysh -}
+
+{-| Talysh
+-}
 tly : Language
 tly =
     Language { code = "tly" }
 
-{-| Tama (Chad) -}
+
+{-| Tama (Chad)
+-}
 tma : Language
 tma =
     Language { code = "tma" }
 
+
 {-| Katbol
-Avava -}
+Avava
+-}
 tmb : Language
 tmb =
     Language { code = "tmb" }
 
-{-| Tumak -}
+
+{-| Tumak
+-}
 tmc : Language
 tmc =
     Language { code = "tmc" }
 
-{-| Haruai -}
+
+{-| Haruai
+-}
 tmd : Language
 tmd =
     Language { code = "tmd" }
 
-{-| Tremembé -}
+
+{-| Tremembé
+-}
 tme : Language
 tme =
     Language { code = "tme" }
 
-{-| Toba-Maskoy -}
+
+{-| Toba-Maskoy
+-}
 tmf : Language
 tmf =
     Language { code = "tmf" }
 
-{-| Ternateño -}
+
+{-| Ternateño
+-}
 tmg : Language
 tmg =
     Language { code = "tmg" }
 
-{-| Tamashek -}
+
+{-| Tamashek
+-}
 tmh : Language
 tmh =
     Language { code = "tmh" }
 
-{-| Tutuba -}
+
+{-| Tutuba
+-}
 tmi : Language
 tmi =
     Language { code = "tmi" }
 
-{-| Samarokena -}
+
+{-| Samarokena
+-}
 tmj : Language
 tmj =
     Language { code = "tmj" }
 
-{-| Northwestern Tamang -}
+
+{-| Northwestern Tamang
+-}
 tmk : Language
 tmk =
     Language { code = "tmk" }
 
-{-| Tamnim Citak -}
+
+{-| Tamnim Citak
+-}
 tml : Language
 tml =
     Language { code = "tml" }
 
-{-| Tai Thanh -}
+
+{-| Tai Thanh
+-}
 tmm : Language
 tmm =
     Language { code = "tmm" }
 
-{-| Taman (Indonesia) -}
+
+{-| Taman (Indonesia)
+-}
 tmn : Language
 tmn =
     Language { code = "tmn" }
 
-{-| Temoq -}
+
+{-| Temoq
+-}
 tmo : Language
 tmo =
     Language { code = "tmo" }
 
-{-| Tai Mène -}
+
+{-| Tai Mène
+-}
 tmp : Language
 tmp =
     Language { code = "tmp" }
 
-{-| Tumleo -}
+
+{-| Tumleo
+-}
 tmq : Language
 tmq =
     Language { code = "tmq" }
 
-{-| Jewish Babylonian Aramaic (ca. 200-1200 CE) -}
+
+{-| Jewish Babylonian Aramaic (ca. 200-1200 CE)
+-}
 tmr : Language
 tmr =
     Language { code = "tmr" }
 
-{-| Tima -}
+
+{-| Tima
+-}
 tms : Language
 tms =
     Language { code = "tms" }
 
-{-| Tasmate -}
+
+{-| Tasmate
+-}
 tmt : Language
 tmt =
     Language { code = "tmt" }
 
-{-| Iau -}
+
+{-| Iau
+-}
 tmu : Language
 tmu =
     Language { code = "tmu" }
 
-{-| Tembo (Motembo) -}
+
+{-| Tembo (Motembo)
+-}
 tmv : Language
 tmv =
     Language { code = "tmv" }
 
-{-| Temuan -}
+
+{-| Temuan
+-}
 tmw : Language
 tmw =
     Language { code = "tmw" }
 
-{-| Tami -}
+
+{-| Tami
+-}
 tmy : Language
 tmy =
     Language { code = "tmy" }
 
-{-| Tamanaku -}
+
+{-| Tamanaku
+-}
 tmz : Language
 tmz =
     Language { code = "tmz" }
 
-{-| Tswana -}
+
+{-| Tswana
+-}
 tn : Language
 tn =
     Language { code = "tn" }
 
-{-| Tacana -}
+
+{-| Tacana
+-}
 tna : Language
 tna =
     Language { code = "tna" }
 
-{-| Western Tunebo -}
+
+{-| Western Tunebo
+-}
 tnb : Language
 tnb =
     Language { code = "tnb" }
 
-{-| Tanimuca-Retuarã -}
+
+{-| Tanimuca-Retuarã
+-}
 tnc : Language
 tnc =
     Language { code = "tnc" }
 
-{-| Angosturas Tunebo -}
+
+{-| Angosturas Tunebo
+-}
 tnd : Language
 tnd =
     Language { code = "tnd" }
 
-{-| Tinoc Kallahan -}
+
+{-| Tinoc Kallahan
+-}
 tne : Language
 tne =
     Language { code = "tne" }
 
-{-| Tangshewi -}
+
+{-| Tangshewi
+-}
 tnf : Language
 tnf =
     Language { code = "tnf" }
 
-{-| Tobanga -}
+
+{-| Tobanga
+-}
 tng : Language
 tng =
     Language { code = "tng" }
 
-{-| Maiani -}
+
+{-| Maiani
+-}
 tnh : Language
 tnh =
     Language { code = "tnh" }
 
-{-| Tandia -}
+
+{-| Tandia
+-}
 tni : Language
 tni =
     Language { code = "tni" }
 
-{-| Kwamera -}
+
+{-| Kwamera
+-}
 tnk : Language
 tnk =
     Language { code = "tnk" }
 
-{-| Lenakel -}
+
+{-| Lenakel
+-}
 tnl : Language
 tnl =
     Language { code = "tnl" }
 
-{-| Tabla -}
+
+{-| Tabla
+-}
 tnm : Language
 tnm =
     Language { code = "tnm" }
 
-{-| North Tanna -}
+
+{-| North Tanna
+-}
 tnn : Language
 tnn =
     Language { code = "tnn" }
 
-{-| Toromono -}
+
+{-| Toromono
+-}
 tno : Language
 tno =
     Language { code = "tno" }
 
-{-| Whitesands -}
+
+{-| Whitesands
+-}
 tnp : Language
 tnp =
     Language { code = "tnp" }
 
-{-| Taino -}
+
+{-| Taino
+-}
 tnq : Language
 tnq =
     Language { code = "tnq" }
 
-{-| Ménik -}
+
+{-| Ménik
+-}
 tnr : Language
 tnr =
     Language { code = "tnr" }
 
-{-| Tenis -}
+
+{-| Tenis
+-}
 tns : Language
 tns =
     Language { code = "tns" }
 
-{-| Tontemboan -}
+
+{-| Tontemboan
+-}
 tnt : Language
 tnt =
     Language { code = "tnt" }
 
-{-| Tay Khang -}
+
+{-| Tay Khang
+-}
 tnu : Language
 tnu =
     Language { code = "tnu" }
 
-{-| Tangchangya -}
+
+{-| Tangchangya
+-}
 tnv : Language
 tnv =
     Language { code = "tnv" }
 
-{-| Tonsawang -}
+
+{-| Tonsawang
+-}
 tnw : Language
 tnw =
     Language { code = "tnw" }
 
-{-| Tanema -}
+
+{-| Tanema
+-}
 tnx : Language
 tnx =
     Language { code = "tnx" }
 
-{-| Tongwe -}
+
+{-| Tongwe
+-}
 tny : Language
 tny =
     Language { code = "tny" }
 
-{-| Ten'edn -}
+
+{-| Ten'edn
+-}
 tnz : Language
 tnz =
     Language { code = "tnz" }
 
-{-| Tonga (Tonga Islands) -}
+
+{-| Tonga (Tonga Islands)
+-}
 to : Language
 to =
     Language { code = "to" }
 
-{-| Toba -}
+
+{-| Toba
+-}
 tob : Language
 tob =
     Language { code = "tob" }
 
-{-| Coyutla Totonac -}
+
+{-| Coyutla Totonac
+-}
 toc : Language
 toc =
     Language { code = "toc" }
 
-{-| Toma -}
+
+{-| Toma
+-}
 tod : Language
 tod =
     Language { code = "tod" }
 
-{-| Tomedes -}
+
+{-| Tomedes
+-}
 toe : Language
 toe =
     Language { code = "toe" }
 
-{-| Gizrra -}
+
+{-| Gizrra
+-}
 tof : Language
 tof =
     Language { code = "tof" }
 
-{-| Tonga (Nyasa) -}
+
+{-| Tonga (Nyasa)
+-}
 tog : Language
 tog =
     Language { code = "tog" }
 
-{-| Gitonga -}
+
+{-| Gitonga
+-}
 toh : Language
 toh =
     Language { code = "toh" }
 
-{-| Tonga (Zambia) -}
+
+{-| Tonga (Zambia)
+-}
 toi : Language
 toi =
     Language { code = "toi" }
 
-{-| Tojolabal -}
+
+{-| Tojolabal
+-}
 toj : Language
 toj =
     Language { code = "toj" }
 
-{-| Tolowa -}
+
+{-| Tolowa
+-}
 tol : Language
 tol =
     Language { code = "tol" }
 
-{-| Tombulu -}
+
+{-| Tombulu
+-}
 tom : Language
 tom =
     Language { code = "tom" }
 
-{-| Xicotepec De Juárez Totonac -}
+
+{-| Xicotepec De Juárez Totonac
+-}
 too : Language
 too =
     Language { code = "too" }
 
-{-| Papantla Totonac -}
+
+{-| Papantla Totonac
+-}
 top : Language
 top =
     Language { code = "top" }
 
-{-| Toposa -}
+
+{-| Toposa
+-}
 toq : Language
 toq =
     Language { code = "toq" }
 
-{-| Togbo-Vara Banda -}
+
+{-| Togbo-Vara Banda
+-}
 tor : Language
 tor =
     Language { code = "tor" }
 
-{-| Highland Totonac -}
+
+{-| Highland Totonac
+-}
 tos : Language
 tos =
     Language { code = "tos" }
 
-{-| Tho -}
+
+{-| Tho
+-}
 tou : Language
 tou =
     Language { code = "tou" }
 
-{-| Upper Taromi -}
+
+{-| Upper Taromi
+-}
 tov : Language
 tov =
     Language { code = "tov" }
 
-{-| Jemez -}
+
+{-| Jemez
+-}
 tow : Language
 tow =
     Language { code = "tow" }
 
-{-| Tobian -}
+
+{-| Tobian
+-}
 tox : Language
 tox =
     Language { code = "tox" }
 
-{-| Topoiyo -}
+
+{-| Topoiyo
+-}
 toy : Language
 toy =
     Language { code = "toy" }
 
-{-| To -}
+
+{-| To
+-}
 toz : Language
 toz =
     Language { code = "toz" }
 
-{-| Taupota -}
+
+{-| Taupota
+-}
 tpa : Language
 tpa =
     Language { code = "tpa" }
 
+
 {-| Azoyú Me'phaa
-Azoyú Tlapanec -}
+Azoyú Tlapanec
+-}
 tpc : Language
 tpc =
     Language { code = "tpc" }
 
-{-| Tippera -}
+
+{-| Tippera
+-}
 tpe : Language
 tpe =
     Language { code = "tpe" }
 
-{-| Tarpia -}
+
+{-| Tarpia
+-}
 tpf : Language
 tpf =
     Language { code = "tpf" }
 
-{-| Kula -}
+
+{-| Kula
+-}
 tpg : Language
 tpg =
     Language { code = "tpg" }
 
-{-| Tok Pisin -}
+
+{-| Tok Pisin
+-}
 tpi : Language
 tpi =
     Language { code = "tpi" }
 
-{-| Tapieté -}
+
+{-| Tapieté
+-}
 tpj : Language
 tpj =
     Language { code = "tpj" }
 
-{-| Tupinikin -}
+
+{-| Tupinikin
+-}
 tpk : Language
 tpk =
     Language { code = "tpk" }
 
+
 {-| Tlacoapa Me'phaa
-Tlacoapa Tlapanec -}
+Tlacoapa Tlapanec
+-}
 tpl : Language
 tpl =
     Language { code = "tpl" }
 
-{-| Tampulma -}
+
+{-| Tampulma
+-}
 tpm : Language
 tpm =
     Language { code = "tpm" }
 
-{-| Tupinambá -}
+
+{-| Tupinambá
+-}
 tpn : Language
 tpn =
     Language { code = "tpn" }
 
-{-| Tai Pao -}
+
+{-| Tai Pao
+-}
 tpo : Language
 tpo =
     Language { code = "tpo" }
 
-{-| Pisaflores Tepehua -}
+
+{-| Pisaflores Tepehua
+-}
 tpp : Language
 tpp =
     Language { code = "tpp" }
 
-{-| Tukpa -}
+
+{-| Tukpa
+-}
 tpq : Language
 tpq =
     Language { code = "tpq" }
 
-{-| Tuparí -}
+
+{-| Tuparí
+-}
 tpr : Language
 tpr =
     Language { code = "tpr" }
 
-{-| Tlachichilco Tepehua -}
+
+{-| Tlachichilco Tepehua
+-}
 tpt : Language
 tpt =
     Language { code = "tpt" }
 
-{-| Tampuan -}
+
+{-| Tampuan
+-}
 tpu : Language
 tpu =
     Language { code = "tpu" }
 
-{-| Tanapag -}
+
+{-| Tanapag
+-}
 tpv : Language
 tpv =
     Language { code = "tpv" }
 
-{-| Tupí -}
+
+{-| Tupí
+-}
 tpw : Language
 tpw =
     Language { code = "tpw" }
 
+
 {-| Acatepec Me'phaa
-Acatepec Tlapanec -}
+Acatepec Tlapanec
+-}
 tpx : Language
 tpx =
     Language { code = "tpx" }
 
-{-| Trumai -}
+
+{-| Trumai
+-}
 tpy : Language
 tpy =
     Language { code = "tpy" }
 
-{-| Tinputz -}
+
+{-| Tinputz
+-}
 tpz : Language
 tpz =
     Language { code = "tpz" }
 
-{-| Tembé -}
+
+{-| Tembé
+-}
 tqb : Language
 tqb =
     Language { code = "tqb" }
 
-{-| Lehali -}
+
+{-| Lehali
+-}
 tql : Language
 tql =
     Language { code = "tql" }
 
-{-| Turumsa -}
+
+{-| Turumsa
+-}
 tqm : Language
 tqm =
     Language { code = "tqm" }
 
-{-| Tenino -}
+
+{-| Tenino
+-}
 tqn : Language
 tqn =
     Language { code = "tqn" }
 
-{-| Toaripi -}
+
+{-| Toaripi
+-}
 tqo : Language
 tqo =
     Language { code = "tqo" }
 
-{-| Tomoip -}
+
+{-| Tomoip
+-}
 tqp : Language
 tqp =
     Language { code = "tqp" }
 
-{-| Tunni -}
+
+{-| Tunni
+-}
 tqq : Language
 tqq =
     Language { code = "tqq" }
 
-{-| Torona -}
+
+{-| Torona
+-}
 tqr : Language
 tqr =
     Language { code = "tqr" }
 
-{-| Western Totonac -}
+
+{-| Western Totonac
+-}
 tqt : Language
 tqt =
     Language { code = "tqt" }
 
-{-| Touo -}
+
+{-| Touo
+-}
 tqu : Language
 tqu =
     Language { code = "tqu" }
 
-{-| Tonkawa -}
+
+{-| Tonkawa
+-}
 tqw : Language
 tqw =
     Language { code = "tqw" }
 
-{-| Turkish -}
+
+{-| Turkish
+-}
 tr : Language
 tr =
     Language { code = "tr" }
 
-{-| Tirahi -}
+
+{-| Tirahi
+-}
 tra : Language
 tra =
     Language { code = "tra" }
 
-{-| Terebu -}
+
+{-| Terebu
+-}
 trb : Language
 trb =
     Language { code = "trb" }
 
-{-| Copala Triqui -}
+
+{-| Copala Triqui
+-}
 trc : Language
 trc =
     Language { code = "trc" }
 
-{-| Turi -}
+
+{-| Turi
+-}
 trd : Language
 trd =
     Language { code = "trd" }
 
-{-| East Tarangan -}
+
+{-| East Tarangan
+-}
 tre : Language
 tre =
     Language { code = "tre" }
 
-{-| Trinidadian Creole English -}
+
+{-| Trinidadian Creole English
+-}
 trf : Language
 trf =
     Language { code = "trf" }
 
-{-| Lishán Didán -}
+
+{-| Lishán Didán
+-}
 trg : Language
 trg =
     Language { code = "trg" }
 
-{-| Turaka -}
+
+{-| Turaka
+-}
 trh : Language
 trh =
     Language { code = "trh" }
 
-{-| Trió -}
+
+{-| Trió
+-}
 tri : Language
 tri =
     Language { code = "tri" }
 
-{-| Toram -}
+
+{-| Toram
+-}
 trj : Language
 trj =
     Language { code = "trj" }
 
-{-| Turkic languages -}
+
+{-| Turkic languages
+-}
 trk : Language
 trk =
     Language { code = "trk" }
 
-{-| Traveller Scottish -}
+
+{-| Traveller Scottish
+-}
 trl : Language
 trl =
     Language { code = "trl" }
 
-{-| Tregami -}
+
+{-| Tregami
+-}
 trm : Language
 trm =
     Language { code = "trm" }
 
-{-| Trinitario -}
+
+{-| Trinitario
+-}
 trn : Language
 trn =
     Language { code = "trn" }
 
-{-| Tarao Naga -}
+
+{-| Tarao Naga
+-}
 tro : Language
 tro =
     Language { code = "tro" }
 
-{-| Kok Borok -}
+
+{-| Kok Borok
+-}
 trp : Language
 trp =
     Language { code = "trp" }
 
-{-| San Martín Itunyoso Triqui -}
+
+{-| San Martín Itunyoso Triqui
+-}
 trq : Language
 trq =
     Language { code = "trq" }
 
-{-| Taushiro -}
+
+{-| Taushiro
+-}
 trr : Language
 trr =
     Language { code = "trr" }
 
-{-| Chicahuaxtla Triqui -}
+
+{-| Chicahuaxtla Triqui
+-}
 trs : Language
 trs =
     Language { code = "trs" }
 
-{-| Tunggare -}
+
+{-| Tunggare
+-}
 trt : Language
 trt =
     Language { code = "trt" }
 
+
 {-| Turoyo
-Surayt -}
+Surayt
+-}
 tru : Language
 tru =
     Language { code = "tru" }
 
-{-| Taroko -}
+
+{-| Taroko
+-}
 trv : Language
 trv =
     Language { code = "trv" }
 
-{-| Torwali -}
+
+{-| Torwali
+-}
 trw : Language
 trw =
     Language { code = "trw" }
 
-{-| Tringgus-Sembaan Bidayuh -}
+
+{-| Tringgus-Sembaan Bidayuh
+-}
 trx : Language
 trx =
     Language { code = "trx" }
 
-{-| Turung -}
+
+{-| Turung
+-}
 try : Language
 try =
     Language { code = "try" }
 
-{-| Torá -}
+
+{-| Torá
+-}
 trz : Language
 trz =
     Language { code = "trz" }
 
-{-| Tsonga -}
+
+{-| Tsonga
+-}
 ts : Language
 ts =
     Language { code = "ts" }
 
-{-| Tsaangi -}
+
+{-| Tsaangi
+-}
 tsa : Language
 tsa =
     Language { code = "tsa" }
 
-{-| Tsamai -}
+
+{-| Tsamai
+-}
 tsb : Language
 tsb =
     Language { code = "tsb" }
 
-{-| Tswa -}
+
+{-| Tswa
+-}
 tsc : Language
 tsc =
     Language { code = "tsc" }
 
-{-| Tsakonian -}
+
+{-| Tsakonian
+-}
 tsd : Language
 tsd =
     Language { code = "tsd" }
 
-{-| Tunisian Sign Language -}
+
+{-| Tunisian Sign Language
+-}
 tse : Language
 tse =
     Language { code = "tse" }
 
-{-| Southwestern Tamang -}
+
+{-| Southwestern Tamang
+-}
 tsf : Language
 tsf =
     Language { code = "tsf" }
 
-{-| Tausug -}
+
+{-| Tausug
+-}
 tsg : Language
 tsg =
     Language { code = "tsg" }
 
-{-| Tsuvan -}
+
+{-| Tsuvan
+-}
 tsh : Language
 tsh =
     Language { code = "tsh" }
 
-{-| Tsimshian -}
+
+{-| Tsimshian
+-}
 tsi : Language
 tsi =
     Language { code = "tsi" }
 
-{-| Tshangla -}
+
+{-| Tshangla
+-}
 tsj : Language
 tsj =
     Language { code = "tsj" }
 
-{-| Tseku -}
+
+{-| Tseku
+-}
 tsk : Language
 tsk =
     Language { code = "tsk" }
 
-{-| Ts'ün-Lao -}
+
+{-| Ts'ün-Lao
+-}
 tsl : Language
 tsl =
     Language { code = "tsl" }
 
+
 {-| Turkish Sign Language
-Türk İşaret Dili -}
+Türk İşaret Dili
+-}
 tsm : Language
 tsm =
     Language { code = "tsm" }
 
-{-| Northern Toussian -}
+
+{-| Northern Toussian
+-}
 tsp : Language
 tsp =
     Language { code = "tsp" }
 
-{-| Thai Sign Language -}
+
+{-| Thai Sign Language
+-}
 tsq : Language
 tsq =
     Language { code = "tsq" }
 
-{-| Akei -}
+
+{-| Akei
+-}
 tsr : Language
 tsr =
     Language { code = "tsr" }
 
-{-| Taiwan Sign Language -}
+
+{-| Taiwan Sign Language
+-}
 tss : Language
 tss =
     Language { code = "tss" }
 
-{-| Tondi Songway Kiini -}
+
+{-| Tondi Songway Kiini
+-}
 tst : Language
 tst =
     Language { code = "tst" }
 
-{-| Tsou -}
+
+{-| Tsou
+-}
 tsu : Language
 tsu =
     Language { code = "tsu" }
 
-{-| Tsogo -}
+
+{-| Tsogo
+-}
 tsv : Language
 tsv =
     Language { code = "tsv" }
 
-{-| Tsishingini -}
+
+{-| Tsishingini
+-}
 tsw : Language
 tsw =
     Language { code = "tsw" }
 
-{-| Mubami -}
+
+{-| Mubami
+-}
 tsx : Language
 tsx =
     Language { code = "tsx" }
 
-{-| Tebul Sign Language -}
+
+{-| Tebul Sign Language
+-}
 tsy : Language
 tsy =
     Language { code = "tsy" }
 
-{-| Purepecha -}
+
+{-| Purepecha
+-}
 tsz : Language
 tsz =
     Language { code = "tsz" }
 
-{-| Tatar -}
+
+{-| Tatar
+-}
 tt : Language
 tt =
     Language { code = "tt" }
 
-{-| Tutelo -}
+
+{-| Tutelo
+-}
 tta : Language
 tta =
     Language { code = "tta" }
 
-{-| Gaa -}
+
+{-| Gaa
+-}
 ttb : Language
 ttb =
     Language { code = "ttb" }
 
-{-| Tektiteko -}
+
+{-| Tektiteko
+-}
 ttc : Language
 ttc =
     Language { code = "ttc" }
 
-{-| Tauade -}
+
+{-| Tauade
+-}
 ttd : Language
 ttd =
     Language { code = "ttd" }
 
-{-| Bwanabwana -}
+
+{-| Bwanabwana
+-}
 tte : Language
 tte =
     Language { code = "tte" }
 
-{-| Tuotomb -}
+
+{-| Tuotomb
+-}
 ttf : Language
 ttf =
     Language { code = "ttf" }
 
-{-| Tutong -}
+
+{-| Tutong
+-}
 ttg : Language
 ttg =
     Language { code = "ttg" }
 
-{-| Upper Ta'oih -}
+
+{-| Upper Ta'oih
+-}
 tth : Language
 tth =
     Language { code = "tth" }
 
-{-| Tobati -}
+
+{-| Tobati
+-}
 tti : Language
 tti =
     Language { code = "tti" }
 
-{-| Tooro -}
+
+{-| Tooro
+-}
 ttj : Language
 ttj =
     Language { code = "ttj" }
 
-{-| Totoro -}
+
+{-| Totoro
+-}
 ttk : Language
 ttk =
     Language { code = "ttk" }
 
-{-| Totela -}
+
+{-| Totela
+-}
 ttl : Language
 ttl =
     Language { code = "ttl" }
 
-{-| Northern Tutchone -}
+
+{-| Northern Tutchone
+-}
 ttm : Language
 ttm =
     Language { code = "ttm" }
 
-{-| Towei -}
+
+{-| Towei
+-}
 ttn : Language
 ttn =
     Language { code = "ttn" }
 
-{-| Lower Ta'oih -}
+
+{-| Lower Ta'oih
+-}
 tto : Language
 tto =
     Language { code = "tto" }
 
-{-| Tombelala -}
+
+{-| Tombelala
+-}
 ttp : Language
 ttp =
     Language { code = "ttp" }
 
-{-| Tawallammat Tamajaq -}
+
+{-| Tawallammat Tamajaq
+-}
 ttq : Language
 ttq =
     Language { code = "ttq" }
 
-{-| Tera -}
+
+{-| Tera
+-}
 ttr : Language
 ttr =
     Language { code = "ttr" }
 
-{-| Northeastern Thai -}
+
+{-| Northeastern Thai
+-}
 tts : Language
 tts =
     Language { code = "tts" }
 
-{-| Muslim Tat -}
+
+{-| Muslim Tat
+-}
 ttt : Language
 ttt =
     Language { code = "ttt" }
 
-{-| Torau -}
+
+{-| Torau
+-}
 ttu : Language
 ttu =
     Language { code = "ttu" }
 
-{-| Titan -}
+
+{-| Titan
+-}
 ttv : Language
 ttv =
     Language { code = "ttv" }
 
-{-| Long Wat -}
+
+{-| Long Wat
+-}
 ttw : Language
 ttw =
     Language { code = "ttw" }
 
-{-| Sikaritai -}
+
+{-| Sikaritai
+-}
 tty : Language
 tty =
     Language { code = "tty" }
 
-{-| Tsum -}
+
+{-| Tsum
+-}
 ttz : Language
 ttz =
     Language { code = "ttz" }
 
-{-| Wiarumus -}
+
+{-| Wiarumus
+-}
 tua : Language
 tua =
     Language { code = "tua" }
 
-{-| Tübatulabal -}
+
+{-| Tübatulabal
+-}
 tub : Language
 tub =
     Language { code = "tub" }
 
-{-| Mutu -}
+
+{-| Mutu
+-}
 tuc : Language
 tuc =
     Language { code = "tuc" }
 
-{-| Tuxá -}
+
+{-| Tuxá
+-}
 tud : Language
 tud =
     Language { code = "tud" }
 
-{-| Tuyuca -}
+
+{-| Tuyuca
+-}
 tue : Language
 tue =
     Language { code = "tue" }
 
-{-| Central Tunebo -}
+
+{-| Central Tunebo
+-}
 tuf : Language
 tuf =
     Language { code = "tuf" }
 
-{-| Tunia -}
+
+{-| Tunia
+-}
 tug : Language
 tug =
     Language { code = "tug" }
 
-{-| Taulil -}
+
+{-| Taulil
+-}
 tuh : Language
 tuh =
     Language { code = "tuh" }
 
-{-| Tupuri -}
+
+{-| Tupuri
+-}
 tui : Language
 tui =
     Language { code = "tui" }
 
-{-| Tugutil -}
+
+{-| Tugutil
+-}
 tuj : Language
 tuj =
     Language { code = "tuj" }
 
-{-| Tula -}
+
+{-| Tula
+-}
 tul : Language
 tul =
     Language { code = "tul" }
 
-{-| Tumbuka -}
+
+{-| Tumbuka
+-}
 tum : Language
 tum =
     Language { code = "tum" }
 
-{-| Tunica -}
+
+{-| Tunica
+-}
 tun : Language
 tun =
     Language { code = "tun" }
 
-{-| Tucano -}
+
+{-| Tucano
+-}
 tuo : Language
 tuo =
     Language { code = "tuo" }
 
-{-| Tupi languages -}
+
+{-| Tupi languages
+-}
 tup : Language
 tup =
     Language { code = "tup" }
 
-{-| Tedaga -}
+
+{-| Tedaga
+-}
 tuq : Language
 tuq =
     Language { code = "tuq" }
 
-{-| Tuscarora -}
+
+{-| Tuscarora
+-}
 tus : Language
 tus =
     Language { code = "tus" }
 
-{-| Altaic languages -}
+
+{-| Altaic languages
+-}
 tut : Language
 tut =
     Language { code = "tut" }
 
-{-| Tututni -}
+
+{-| Tututni
+-}
 tuu : Language
 tuu =
     Language { code = "tuu" }
 
-{-| Turkana -}
+
+{-| Turkana
+-}
 tuv : Language
 tuv =
     Language { code = "tuv" }
 
-{-| Tungus languages -}
+
+{-| Tungus languages
+-}
 tuw : Language
 tuw =
     Language { code = "tuw" }
 
-{-| Tuxináwa -}
+
+{-| Tuxináwa
+-}
 tux : Language
 tux =
     Language { code = "tux" }
 
-{-| Tugen -}
+
+{-| Tugen
+-}
 tuy : Language
 tuy =
     Language { code = "tuy" }
 
-{-| Turka -}
+
+{-| Turka
+-}
 tuz : Language
 tuz =
     Language { code = "tuz" }
 
-{-| Vaghua -}
+
+{-| Vaghua
+-}
 tva : Language
 tva =
     Language { code = "tva" }
 
-{-| Tsuvadi -}
+
+{-| Tsuvadi
+-}
 tvd : Language
 tvd =
     Language { code = "tvd" }
 
-{-| Te'un -}
+
+{-| Te'un
+-}
 tve : Language
 tve =
     Language { code = "tve" }
 
-{-| Southeast Ambrym -}
+
+{-| Southeast Ambrym
+-}
 tvk : Language
 tvk =
     Language { code = "tvk" }
 
-{-| Tuvalu -}
+
+{-| Tuvalu
+-}
 tvl : Language
 tvl =
     Language { code = "tvl" }
 
-{-| Tela-Masbuar -}
+
+{-| Tela-Masbuar
+-}
 tvm : Language
 tvm =
     Language { code = "tvm" }
 
-{-| Tavoyan -}
+
+{-| Tavoyan
+-}
 tvn : Language
 tvn =
     Language { code = "tvn" }
 
-{-| Tidore -}
+
+{-| Tidore
+-}
 tvo : Language
 tvo =
     Language { code = "tvo" }
 
-{-| Taveta -}
+
+{-| Taveta
+-}
 tvs : Language
 tvs =
     Language { code = "tvs" }
 
-{-| Tutsa Naga -}
+
+{-| Tutsa Naga
+-}
 tvt : Language
 tvt =
     Language { code = "tvt" }
 
-{-| Tunen -}
+
+{-| Tunen
+-}
 tvu : Language
 tvu =
     Language { code = "tvu" }
 
-{-| Sedoa -}
+
+{-| Sedoa
+-}
 tvw : Language
 tvw =
     Language { code = "tvw" }
 
-{-| Taivoan -}
+
+{-| Taivoan
+-}
 tvx : Language
 tvx =
     Language { code = "tvx" }
 
-{-| Timor Pidgin -}
+
+{-| Timor Pidgin
+-}
 tvy : Language
 tvy =
     Language { code = "tvy" }
 
-{-| Twi -}
+
+{-| Twi
+-}
 tw : Language
 tw =
     Language { code = "tw" }
 
-{-| Twana -}
+
+{-| Twana
+-}
 twa : Language
 twa =
     Language { code = "twa" }
 
-{-| Western Tawbuid -}
+
+{-| Western Tawbuid
+-}
 twb : Language
 twb =
     Language { code = "twb" }
 
-{-| Teshenawa -}
+
+{-| Teshenawa
+-}
 twc : Language
 twc =
     Language { code = "twc" }
 
-{-| Twents -}
+
+{-| Twents
+-}
 twd : Language
 twd =
     Language { code = "twd" }
 
-{-| Tewa (Indonesia) -}
+
+{-| Tewa (Indonesia)
+-}
 twe : Language
 twe =
     Language { code = "twe" }
 
-{-| Northern Tiwa -}
+
+{-| Northern Tiwa
+-}
 twf : Language
 twf =
     Language { code = "twf" }
 
-{-| Tereweng -}
+
+{-| Tereweng
+-}
 twg : Language
 twg =
     Language { code = "twg" }
 
-{-| Tai Dón -}
+
+{-| Tai Dón
+-}
 twh : Language
 twh =
     Language { code = "twh" }
 
-{-| Tawara -}
+
+{-| Tawara
+-}
 twl : Language
 twl =
     Language { code = "twl" }
 
-{-| Tawang Monpa -}
+
+{-| Tawang Monpa
+-}
 twm : Language
 twm =
     Language { code = "twm" }
 
-{-| Twendi -}
+
+{-| Twendi
+-}
 twn : Language
 twn =
     Language { code = "twn" }
 
-{-| Tswapong -}
+
+{-| Tswapong
+-}
 two : Language
 two =
     Language { code = "two" }
 
-{-| Ere -}
+
+{-| Ere
+-}
 twp : Language
 twp =
     Language { code = "twp" }
 
-{-| Tasawaq -}
+
+{-| Tasawaq
+-}
 twq : Language
 twq =
     Language { code = "twq" }
 
-{-| Southwestern Tarahumara -}
+
+{-| Southwestern Tarahumara
+-}
 twr : Language
 twr =
     Language { code = "twr" }
 
-{-| Turiwára -}
+
+{-| Turiwára
+-}
 twt : Language
 twt =
     Language { code = "twt" }
 
-{-| Termanu -}
+
+{-| Termanu
+-}
 twu : Language
 twu =
     Language { code = "twu" }
 
-{-| Tuwari -}
+
+{-| Tuwari
+-}
 tww : Language
 tww =
     Language { code = "tww" }
 
-{-| Tewe -}
+
+{-| Tewe
+-}
 twx : Language
 twx =
     Language { code = "twx" }
 
-{-| Tawoyan -}
+
+{-| Tawoyan
+-}
 twy : Language
 twy =
     Language { code = "twy" }
 
-{-| Tombonuo -}
+
+{-| Tombonuo
+-}
 txa : Language
 txa =
     Language { code = "txa" }
 
-{-| Tokharian B -}
+
+{-| Tokharian B
+-}
 txb : Language
 txb =
     Language { code = "txb" }
 
-{-| Tsetsaut -}
+
+{-| Tsetsaut
+-}
 txc : Language
 txc =
     Language { code = "txc" }
 
-{-| Totoli -}
+
+{-| Totoli
+-}
 txe : Language
 txe =
     Language { code = "txe" }
 
-{-| Tangut -}
+
+{-| Tangut
+-}
 txg : Language
 txg =
     Language { code = "txg" }
 
-{-| Thracian -}
+
+{-| Thracian
+-}
 txh : Language
 txh =
     Language { code = "txh" }
 
-{-| Ikpeng -}
+
+{-| Ikpeng
+-}
 txi : Language
 txi =
     Language { code = "txi" }
 
-{-| Tarjumo -}
+
+{-| Tarjumo
+-}
 txj : Language
 txj =
     Language { code = "txj" }
 
-{-| Tomini -}
+
+{-| Tomini
+-}
 txm : Language
 txm =
     Language { code = "txm" }
 
-{-| West Tarangan -}
+
+{-| West Tarangan
+-}
 txn : Language
 txn =
     Language { code = "txn" }
 
-{-| Toto -}
+
+{-| Toto
+-}
 txo : Language
 txo =
     Language { code = "txo" }
 
-{-| Tii -}
+
+{-| Tii
+-}
 txq : Language
 txq =
     Language { code = "txq" }
 
-{-| Tartessian -}
+
+{-| Tartessian
+-}
 txr : Language
 txr =
     Language { code = "txr" }
 
-{-| Tonsea -}
+
+{-| Tonsea
+-}
 txs : Language
 txs =
     Language { code = "txs" }
 
-{-| Citak -}
+
+{-| Citak
+-}
 txt : Language
 txt =
     Language { code = "txt" }
 
-{-| Kayapó -}
+
+{-| Kayapó
+-}
 txu : Language
 txu =
     Language { code = "txu" }
 
-{-| Tatana -}
+
+{-| Tatana
+-}
 txx : Language
 txx =
     Language { code = "txx" }
 
-{-| Tanosy Malagasy -}
+
+{-| Tanosy Malagasy
+-}
 txy : Language
 txy =
     Language { code = "txy" }
 
-{-| Tahitian -}
+
+{-| Tahitian
+-}
 ty : Language
 ty =
     Language { code = "ty" }
 
-{-| Tauya -}
+
+{-| Tauya
+-}
 tya : Language
 tya =
     Language { code = "tya" }
 
-{-| Kyanga -}
+
+{-| Kyanga
+-}
 tye : Language
 tye =
     Language { code = "tye" }
 
-{-| O'du -}
+
+{-| O'du
+-}
 tyh : Language
 tyh =
     Language { code = "tyh" }
 
-{-| Teke-Tsaayi -}
+
+{-| Teke-Tsaayi
+-}
 tyi : Language
 tyi =
     Language { code = "tyi" }
 
+
 {-| Tai Do
-Tai Yo -}
+Tai Yo
+-}
 tyj : Language
 tyj =
     Language { code = "tyj" }
 
-{-| Thu Lao -}
+
+{-| Thu Lao
+-}
 tyl : Language
 tyl =
     Language { code = "tyl" }
 
-{-| Kombai -}
+
+{-| Kombai
+-}
 tyn : Language
 tyn =
     Language { code = "tyn" }
 
-{-| Thaypan -}
+
+{-| Thaypan
+-}
 typ : Language
 typ =
     Language { code = "typ" }
 
-{-| Tai Daeng -}
+
+{-| Tai Daeng
+-}
 tyr : Language
 tyr =
     Language { code = "tyr" }
 
-{-| Tày Sa Pa -}
+
+{-| Tày Sa Pa
+-}
 tys : Language
 tys =
     Language { code = "tys" }
 
-{-| Tày Tac -}
+
+{-| Tày Tac
+-}
 tyt : Language
 tyt =
     Language { code = "tyt" }
 
-{-| Kua -}
+
+{-| Kua
+-}
 tyu : Language
 tyu =
     Language { code = "tyu" }
 
-{-| Tuvinian -}
+
+{-| Tuvinian
+-}
 tyv : Language
 tyv =
     Language { code = "tyv" }
 
-{-| Teke-Tyee -}
+
+{-| Teke-Tyee
+-}
 tyx : Language
 tyx =
     Language { code = "tyx" }
 
-{-| Tày -}
+
+{-| Tày
+-}
 tyz : Language
 tyz =
     Language { code = "tyz" }
 
-{-| Tanzanian Sign Language -}
+
+{-| Tanzanian Sign Language
+-}
 tza : Language
 tza =
     Language { code = "tza" }
 
-{-| Tzeltal -}
+
+{-| Tzeltal
+-}
 tzh : Language
 tzh =
     Language { code = "tzh" }
 
-{-| Tz'utujil -}
+
+{-| Tz'utujil
+-}
 tzj : Language
 tzj =
     Language { code = "tzj" }
 
-{-| Talossan -}
+
+{-| Talossan
+-}
 tzl : Language
 tzl =
     Language { code = "tzl" }
 
-{-| Central Atlas Tamazight -}
+
+{-| Central Atlas Tamazight
+-}
 tzm : Language
 tzm =
     Language { code = "tzm" }
 
-{-| Tugun -}
+
+{-| Tugun
+-}
 tzn : Language
 tzn =
     Language { code = "tzn" }
 
-{-| Tzotzil -}
+
+{-| Tzotzil
+-}
 tzo : Language
 tzo =
     Language { code = "tzo" }
 
-{-| Tabriak -}
+
+{-| Tabriak
+-}
 tzx : Language
 tzx =
     Language { code = "tzx" }
 
-{-| Uamué -}
+
+{-| Uamué
+-}
 uam : Language
 uam =
     Language { code = "uam" }
 
-{-| Kuan -}
+
+{-| Kuan
+-}
 uan : Language
 uan =
     Language { code = "uan" }
 
-{-| Tairuma -}
+
+{-| Tairuma
+-}
 uar : Language
 uar =
     Language { code = "uar" }
 
-{-| Ubang -}
+
+{-| Ubang
+-}
 uba : Language
 uba =
     Language { code = "uba" }
 
-{-| Ubi -}
+
+{-| Ubi
+-}
 ubi : Language
 ubi =
     Language { code = "ubi" }
 
-{-| Buhi'non Bikol -}
+
+{-| Buhi'non Bikol
+-}
 ubl : Language
 ubl =
     Language { code = "ubl" }
 
-{-| Ubir -}
+
+{-| Ubir
+-}
 ubr : Language
 ubr =
     Language { code = "ubr" }
 
-{-| Umbu-Ungu -}
+
+{-| Umbu-Ungu
+-}
 ubu : Language
 ubu =
     Language { code = "ubu" }
 
-{-| Ubykh -}
+
+{-| Ubykh
+-}
 uby : Language
 uby =
     Language { code = "uby" }
 
-{-| Uda -}
+
+{-| Uda
+-}
 uda : Language
 uda =
     Language { code = "uda" }
 
-{-| Udihe -}
+
+{-| Udihe
+-}
 ude : Language
 ude =
     Language { code = "ude" }
 
-{-| Muduga -}
+
+{-| Muduga
+-}
 udg : Language
 udg =
     Language { code = "udg" }
 
-{-| Udi -}
+
+{-| Udi
+-}
 udi : Language
 udi =
     Language { code = "udi" }
 
-{-| Ujir -}
+
+{-| Ujir
+-}
 udj : Language
 udj =
     Language { code = "udj" }
 
-{-| Wuzlam -}
+
+{-| Wuzlam
+-}
 udl : Language
 udl =
     Language { code = "udl" }
 
-{-| Udmurt -}
+
+{-| Udmurt
+-}
 udm : Language
 udm =
     Language { code = "udm" }
 
-{-| Uduk -}
+
+{-| Uduk
+-}
 udu : Language
 udu =
     Language { code = "udu" }
 
-{-| Kioko -}
+
+{-| Kioko
+-}
 ues : Language
 ues =
     Language { code = "ues" }
 
-{-| Ufim -}
+
+{-| Ufim
+-}
 ufi : Language
 ufi =
     Language { code = "ufi" }
 
+
 {-| Uighur
-Uyghur -}
+Uyghur
+-}
 ug : Language
 ug =
     Language { code = "ug" }
 
-{-| Ugaritic -}
+
+{-| Ugaritic
+-}
 uga : Language
 uga =
     Language { code = "uga" }
 
-{-| Kuku-Ugbanh -}
+
+{-| Kuku-Ugbanh
+-}
 ugb : Language
 ugb =
     Language { code = "ugb" }
 
-{-| Ughele -}
+
+{-| Ughele
+-}
 uge : Language
 uge =
     Language { code = "uge" }
 
-{-| Ugandan Sign Language -}
+
+{-| Ugandan Sign Language
+-}
 ugn : Language
 ugn =
     Language { code = "ugn" }
 
-{-| Ugong -}
+
+{-| Ugong
+-}
 ugo : Language
 ugo =
     Language { code = "ugo" }
 
-{-| Uruguayan Sign Language -}
+
+{-| Uruguayan Sign Language
+-}
 ugy : Language
 ugy =
     Language { code = "ugy" }
 
-{-| Uhami -}
+
+{-| Uhami
+-}
 uha : Language
 uha =
     Language { code = "uha" }
 
-{-| Damal -}
+
+{-| Damal
+-}
 uhn : Language
 uhn =
     Language { code = "uhn" }
 
-{-| Uisai -}
+
+{-| Uisai
+-}
 uis : Language
 uis =
     Language { code = "uis" }
 
-{-| Iyive -}
+
+{-| Iyive
+-}
 uiv : Language
 uiv =
     Language { code = "uiv" }
 
-{-| Tanjijili -}
+
+{-| Tanjijili
+-}
 uji : Language
 uji =
     Language { code = "uji" }
 
-{-| Ukrainian -}
+
+{-| Ukrainian
+-}
 uk : Language
 uk =
     Language { code = "uk" }
 
-{-| Kaburi -}
+
+{-| Kaburi
+-}
 uka : Language
 uka =
     Language { code = "uka" }
 
-{-| Ukuriguma -}
+
+{-| Ukuriguma
+-}
 ukg : Language
 ukg =
     Language { code = "ukg" }
 
-{-| Ukhwejo -}
+
+{-| Ukhwejo
+-}
 ukh : Language
 ukh =
     Language { code = "ukh" }
 
-{-| Kui (India) -}
+
+{-| Kui (India)
+-}
 uki : Language
 uki =
     Language { code = "uki" }
 
-{-| Muak Sa-aak -}
+
+{-| Muak Sa-aak
+-}
 ukk : Language
 ukk =
     Language { code = "ukk" }
 
-{-| Ukrainian Sign Language -}
+
+{-| Ukrainian Sign Language
+-}
 ukl : Language
 ukl =
     Language { code = "ukl" }
 
-{-| Ukpe-Bayobiri -}
+
+{-| Ukpe-Bayobiri
+-}
 ukp : Language
 ukp =
     Language { code = "ukp" }
 
-{-| Ukwa -}
+
+{-| Ukwa
+-}
 ukq : Language
 ukq =
     Language { code = "ukq" }
 
+
 {-| Urubú-Kaapor Sign Language
-Kaapor Sign Language -}
+Kaapor Sign Language
+-}
 uks : Language
 uks =
     Language { code = "uks" }
 
-{-| Ukue -}
+
+{-| Ukue
+-}
 uku : Language
 uku =
     Language { code = "uku" }
 
-{-| Kuku -}
+
+{-| Kuku
+-}
 ukv : Language
 ukv =
     Language { code = "ukv" }
 
-{-| Ukwuani-Aboh-Ndoni -}
+
+{-| Ukwuani-Aboh-Ndoni
+-}
 ukw : Language
 ukw =
     Language { code = "ukw" }
 
-{-| Kuuk-Yak -}
+
+{-| Kuuk-Yak
+-}
 uky : Language
 uky =
     Language { code = "uky" }
 
-{-| Fungwa -}
+
+{-| Fungwa
+-}
 ula : Language
 ula =
     Language { code = "ula" }
 
-{-| Ulukwumi -}
+
+{-| Ulukwumi
+-}
 ulb : Language
 ulb =
     Language { code = "ulb" }
 
-{-| Ulch -}
+
+{-| Ulch
+-}
 ulc : Language
 ulc =
     Language { code = "ulc" }
 
-{-| Lule -}
+
+{-| Lule
+-}
 ule : Language
 ule =
     Language { code = "ule" }
 
+
 {-| Usku
-Afra -}
+Afra
+-}
 ulf : Language
 ulf =
     Language { code = "ulf" }
 
-{-| Ulithian -}
+
+{-| Ulithian
+-}
 uli : Language
 uli =
     Language { code = "uli" }
 
-{-| Meriam Mir -}
+
+{-| Meriam Mir
+-}
 ulk : Language
 ulk =
     Language { code = "ulk" }
 
-{-| Ullatan -}
+
+{-| Ullatan
+-}
 ull : Language
 ull =
     Language { code = "ull" }
 
-{-| Ulumanda' -}
+
+{-| Ulumanda'
+-}
 ulm : Language
 ulm =
     Language { code = "ulm" }
 
-{-| Unserdeutsch -}
+
+{-| Unserdeutsch
+-}
 uln : Language
 uln =
     Language { code = "uln" }
 
-{-| Uma' Lung -}
+
+{-| Uma' Lung
+-}
 ulu : Language
 ulu =
     Language { code = "ulu" }
 
-{-| Ulwa -}
+
+{-| Ulwa
+-}
 ulw : Language
 ulw =
     Language { code = "ulw" }
 
-{-| Umatilla -}
+
+{-| Umatilla
+-}
 uma : Language
 uma =
     Language { code = "uma" }
 
-{-| Umbundu -}
+
+{-| Umbundu
+-}
 umb : Language
 umb =
     Language { code = "umb" }
 
-{-| Marrucinian -}
+
+{-| Marrucinian
+-}
 umc : Language
 umc =
     Language { code = "umc" }
 
-{-| Umbindhamu -}
+
+{-| Umbindhamu
+-}
 umd : Language
 umd =
     Language { code = "umd" }
 
+
 {-| Morrobalama
-Umbuygamu -}
+Umbuygamu
+-}
 umg : Language
 umg =
     Language { code = "umg" }
 
-{-| Ukit -}
+
+{-| Ukit
+-}
 umi : Language
 umi =
     Language { code = "umi" }
 
-{-| Umon -}
+
+{-| Umon
+-}
 umm : Language
 umm =
     Language { code = "umm" }
 
-{-| Makyan Naga -}
+
+{-| Makyan Naga
+-}
 umn : Language
 umn =
     Language { code = "umn" }
 
-{-| Umotína -}
+
+{-| Umotína
+-}
 umo : Language
 umo =
     Language { code = "umo" }
 
-{-| Umpila -}
+
+{-| Umpila
+-}
 ump : Language
 ump =
     Language { code = "ump" }
 
-{-| Umbugarla -}
+
+{-| Umbugarla
+-}
 umr : Language
 umr =
     Language { code = "umr" }
 
-{-| Pendau -}
+
+{-| Pendau
+-}
 ums : Language
 ums =
     Language { code = "ums" }
 
-{-| Munsee -}
+
+{-| Munsee
+-}
 umu : Language
 umu =
     Language { code = "umu" }
 
-{-| North Watut -}
+
+{-| North Watut
+-}
 una : Language
 una =
     Language { code = "una" }
 
-{-| Undetermined -}
+
+{-| Undetermined
+-}
 und : Language
 und =
     Language { code = "und" }
 
-{-| Uneme -}
+
+{-| Uneme
+-}
 une : Language
 une =
     Language { code = "une" }
 
-{-| Ngarinyin -}
+
+{-| Ngarinyin
+-}
 ung : Language
 ung =
     Language { code = "ung" }
 
-{-| Enawené-Nawé -}
+
+{-| Enawené-Nawé
+-}
 unk : Language
 unk =
     Language { code = "unk" }
 
-{-| Unami -}
+
+{-| Unami
+-}
 unm : Language
 unm =
     Language { code = "unm" }
 
-{-| Kurnai -}
+
+{-| Kurnai
+-}
 unn : Language
 unn =
     Language { code = "unn" }
 
-{-| Worora -}
+
+{-| Worora
+-}
 unp : Language
 unp =
     Language { code = "unp" }
 
-{-| Mundari -}
+
+{-| Mundari
+-}
 unr : Language
 unr =
     Language { code = "unr" }
 
-{-| Unubahe -}
+
+{-| Unubahe
+-}
 unu : Language
 unu =
     Language { code = "unu" }
 
-{-| Munda -}
+
+{-| Munda
+-}
 unx : Language
 unx =
     Language { code = "unx" }
 
-{-| Unde Kaili -}
+
+{-| Unde Kaili
+-}
 unz : Language
 unz =
     Language { code = "unz" }
 
-{-| Uokha -}
+
+{-| Uokha
+-}
 uok : Language
 uok =
     Language { code = "uok" }
 
-{-| Umeda -}
+
+{-| Umeda
+-}
 upi : Language
 upi =
     Language { code = "upi" }
 
-{-| Uripiv-Wala-Rano-Atchin -}
+
+{-| Uripiv-Wala-Rano-Atchin
+-}
 upv : Language
 upv =
     Language { code = "upv" }
 
-{-| Urdu -}
+
+{-| Urdu
+-}
 ur : Language
 ur =
     Language { code = "ur" }
 
-{-| Urarina -}
+
+{-| Urarina
+-}
 ura : Language
 ura =
     Language { code = "ura" }
 
+
 {-| Urubú-Kaapor
-Kaapor -}
+Kaapor
+-}
 urb : Language
 urb =
     Language { code = "urb" }
 
-{-| Urningangg -}
+
+{-| Urningangg
+-}
 urc : Language
 urc =
     Language { code = "urc" }
 
-{-| Uru -}
+
+{-| Uru
+-}
 ure : Language
 ure =
     Language { code = "ure" }
 
-{-| Uradhi -}
+
+{-| Uradhi
+-}
 urf : Language
 urf =
     Language { code = "urf" }
 
-{-| Urigina -}
+
+{-| Urigina
+-}
 urg : Language
 urg =
     Language { code = "urg" }
 
-{-| Urhobo -}
+
+{-| Urhobo
+-}
 urh : Language
 urh =
     Language { code = "urh" }
 
-{-| Urim -}
+
+{-| Urim
+-}
 uri : Language
 uri =
     Language { code = "uri" }
 
-{-| Uralic languages -}
+
+{-| Uralic languages
+-}
 urj : Language
 urj =
     Language { code = "urj" }
 
-{-| Urak Lawoi' -}
+
+{-| Urak Lawoi'
+-}
 urk : Language
 urk =
     Language { code = "urk" }
 
-{-| Urali -}
+
+{-| Urali
+-}
 url : Language
 url =
     Language { code = "url" }
 
-{-| Urapmin -}
+
+{-| Urapmin
+-}
 urm : Language
 urm =
     Language { code = "urm" }
 
-{-| Uruangnirin -}
+
+{-| Uruangnirin
+-}
 urn : Language
 urn =
     Language { code = "urn" }
 
-{-| Ura (Papua New Guinea) -}
+
+{-| Ura (Papua New Guinea)
+-}
 uro : Language
 uro =
     Language { code = "uro" }
 
-{-| Uru-Pa-In -}
+
+{-| Uru-Pa-In
+-}
 urp : Language
 urp =
     Language { code = "urp" }
 
+
 {-| Lehalurup
-Löyöp -}
+Löyöp
+-}
 urr : Language
 urr =
     Language { code = "urr" }
 
-{-| Urat -}
+
+{-| Urat
+-}
 urt : Language
 urt =
     Language { code = "urt" }
 
-{-| Urumi -}
+
+{-| Urumi
+-}
 uru : Language
 uru =
     Language { code = "uru" }
 
-{-| Uruava -}
+
+{-| Uruava
+-}
 urv : Language
 urv =
     Language { code = "urv" }
 
-{-| Sop -}
+
+{-| Sop
+-}
 urw : Language
 urw =
     Language { code = "urw" }
 
-{-| Urimo -}
+
+{-| Urimo
+-}
 urx : Language
 urx =
     Language { code = "urx" }
 
-{-| Orya -}
+
+{-| Orya
+-}
 ury : Language
 ury =
     Language { code = "ury" }
 
-{-| Uru-Eu-Wau-Wau -}
+
+{-| Uru-Eu-Wau-Wau
+-}
 urz : Language
 urz =
     Language { code = "urz" }
 
-{-| Usarufa -}
+
+{-| Usarufa
+-}
 usa : Language
 usa =
     Language { code = "usa" }
 
-{-| Ushojo -}
+
+{-| Ushojo
+-}
 ush : Language
 ush =
     Language { code = "ush" }
 
-{-| Usui -}
+
+{-| Usui
+-}
 usi : Language
 usi =
     Language { code = "usi" }
 
-{-| Usaghade -}
+
+{-| Usaghade
+-}
 usk : Language
 usk =
     Language { code = "usk" }
 
-{-| Uspanteco -}
+
+{-| Uspanteco
+-}
 usp : Language
 usp =
     Language { code = "usp" }
 
-{-| us-Saare -}
+
+{-| us-Saare
+-}
 uss : Language
 uss =
     Language { code = "uss" }
 
-{-| Uya -}
+
+{-| Uya
+-}
 usu : Language
 usu =
     Language { code = "usu" }
 
-{-| Otank -}
+
+{-| Otank
+-}
 uta : Language
 uta =
     Language { code = "uta" }
 
-{-| Ute-Southern Paiute -}
+
+{-| Ute-Southern Paiute
+-}
 ute : Language
 ute =
     Language { code = "ute" }
 
-{-| ut-Hun -}
+
+{-| ut-Hun
+-}
 uth : Language
 uth =
     Language { code = "uth" }
 
-{-| Amba (Solomon Islands) -}
+
+{-| Amba (Solomon Islands)
+-}
 utp : Language
 utp =
     Language { code = "utp" }
 
-{-| Etulo -}
+
+{-| Etulo
+-}
 utr : Language
 utr =
     Language { code = "utr" }
 
-{-| Utu -}
+
+{-| Utu
+-}
 utu : Language
 utu =
     Language { code = "utu" }
 
-{-| Urum -}
+
+{-| Urum
+-}
 uum : Language
 uum =
     Language { code = "uum" }
 
-{-| Kulon-Pazeh -}
+
+{-| Kulon-Pazeh
+-}
 uun : Language
 uun =
     Language { code = "uun" }
 
-{-| Ura (Vanuatu) -}
+
+{-| Ura (Vanuatu)
+-}
 uur : Language
 uur =
     Language { code = "uur" }
 
-{-| U -}
+
+{-| U
+-}
 uuu : Language
 uuu =
     Language { code = "uuu" }
 
+
 {-| West Uvean
-Fagauvea -}
+Fagauvea
+-}
 uve : Language
 uve =
     Language { code = "uve" }
 
-{-| Uri -}
+
+{-| Uri
+-}
 uvh : Language
 uvh =
     Language { code = "uvh" }
 
-{-| Lote -}
+
+{-| Lote
+-}
 uvl : Language
 uvl =
     Language { code = "uvl" }
 
-{-| Kuku-Uwanh -}
+
+{-| Kuku-Uwanh
+-}
 uwa : Language
 uwa =
     Language { code = "uwa" }
 
-{-| Doko-Uyanga -}
+
+{-| Doko-Uyanga
+-}
 uya : Language
 uya =
     Language { code = "uya" }
 
-{-| Uzbek -}
+
+{-| Uzbek
+-}
 uz : Language
 uz =
     Language { code = "uz" }
 
-{-| Northern Uzbek -}
+
+{-| Northern Uzbek
+-}
 uzn : Language
 uzn =
     Language { code = "uzn" }
 
-{-| Southern Uzbek -}
+
+{-| Southern Uzbek
+-}
 uzs : Language
 uzs =
     Language { code = "uzs" }
 
-{-| Vaagri Booli -}
+
+{-| Vaagri Booli
+-}
 vaa : Language
 vaa =
     Language { code = "vaa" }
 
-{-| Vale -}
+
+{-| Vale
+-}
 vae : Language
 vae =
     Language { code = "vae" }
 
-{-| Vafsi -}
+
+{-| Vafsi
+-}
 vaf : Language
 vaf =
     Language { code = "vaf" }
 
-{-| Vagla -}
+
+{-| Vagla
+-}
 vag : Language
 vag =
     Language { code = "vag" }
 
-{-| Varhadi-Nagpuri -}
+
+{-| Varhadi-Nagpuri
+-}
 vah : Language
 vah =
     Language { code = "vah" }
 
-{-| Vai -}
+
+{-| Vai
+-}
 vai : Language
 vai =
     Language { code = "vai" }
 
+
 {-| Sekele
 Northwestern ǃKung
-Vasekele -}
+Vasekele
+-}
 vaj : Language
 vaj =
     Language { code = "vaj" }
 
-{-| Vehes -}
+
+{-| Vehes
+-}
 val : Language
 val =
     Language { code = "val" }
 
-{-| Vanimo -}
+
+{-| Vanimo
+-}
 vam : Language
 vam =
     Language { code = "vam" }
 
-{-| Valman -}
+
+{-| Valman
+-}
 van : Language
 van =
     Language { code = "van" }
 
-{-| Vao -}
+
+{-| Vao
+-}
 vao : Language
 vao =
     Language { code = "vao" }
 
-{-| Vaiphei -}
+
+{-| Vaiphei
+-}
 vap : Language
 vap =
     Language { code = "vap" }
 
-{-| Huarijio -}
+
+{-| Huarijio
+-}
 var : Language
 var =
     Language { code = "var" }
 
-{-| Vasavi -}
+
+{-| Vasavi
+-}
 vas : Language
 vas =
     Language { code = "vas" }
 
-{-| Vanuma -}
+
+{-| Vanuma
+-}
 vau : Language
 vau =
     Language { code = "vau" }
 
-{-| Varli -}
+
+{-| Varli
+-}
 vav : Language
 vav =
     Language { code = "vav" }
 
-{-| Wayu -}
+
+{-| Wayu
+-}
 vay : Language
 vay =
     Language { code = "vay" }
 
-{-| Southeast Babar -}
+
+{-| Southeast Babar
+-}
 vbb : Language
 vbb =
     Language { code = "vbb" }
 
-{-| Southwestern Bontok -}
+
+{-| Southwestern Bontok
+-}
 vbk : Language
 vbk =
     Language { code = "vbk" }
 
-{-| Venda -}
+
+{-| Venda
+-}
 ve : Language
 ve =
     Language { code = "ve" }
 
-{-| Venetian -}
+
+{-| Venetian
+-}
 vec : Language
 vec =
     Language { code = "vec" }
 
-{-| Veddah -}
+
+{-| Veddah
+-}
 ved : Language
 ved =
     Language { code = "ved" }
 
-{-| Veluws -}
+
+{-| Veluws
+-}
 vel : Language
 vel =
     Language { code = "vel" }
 
-{-| Vemgo-Mabas -}
+
+{-| Vemgo-Mabas
+-}
 vem : Language
 vem =
     Language { code = "vem" }
 
-{-| Ventureño -}
+
+{-| Ventureño
+-}
 veo : Language
 veo =
     Language { code = "veo" }
 
-{-| Veps -}
+
+{-| Veps
+-}
 vep : Language
 vep =
     Language { code = "vep" }
 
-{-| Mom Jango -}
+
+{-| Mom Jango
+-}
 ver : Language
 ver =
     Language { code = "ver" }
 
-{-| Vaghri -}
+
+{-| Vaghri
+-}
 vgr : Language
 vgr =
     Language { code = "vgr" }
 
+
 {-| Vlaamse Gebarentaal
-Flemish Sign Language -}
+Flemish Sign Language
+-}
 vgt : Language
 vgt =
     Language { code = "vgt" }
 
-{-| Vietnamese -}
+
+{-| Vietnamese
+-}
 vi : Language
 vi =
     Language { code = "vi" }
 
-{-| Virgin Islands Creole English -}
+
+{-| Virgin Islands Creole English
+-}
 vic : Language
 vic =
     Language { code = "vic" }
 
-{-| Vidunda -}
+
+{-| Vidunda
+-}
 vid : Language
 vid =
     Language { code = "vid" }
 
-{-| Vili -}
+
+{-| Vili
+-}
 vif : Language
 vif =
     Language { code = "vif" }
 
-{-| Viemo -}
+
+{-| Viemo
+-}
 vig : Language
 vig =
     Language { code = "vig" }
 
-{-| Vilela -}
+
+{-| Vilela
+-}
 vil : Language
 vil =
     Language { code = "vil" }
 
-{-| Vinza -}
+
+{-| Vinza
+-}
 vin : Language
 vin =
     Language { code = "vin" }
 
-{-| Vishavan -}
+
+{-| Vishavan
+-}
 vis : Language
 vis =
     Language { code = "vis" }
 
-{-| Viti -}
+
+{-| Viti
+-}
 vit : Language
 vit =
     Language { code = "vit" }
 
-{-| Iduna -}
+
+{-| Iduna
+-}
 viv : Language
 viv =
     Language { code = "viv" }
 
-{-| Kariyarra -}
+
+{-| Kariyarra
+-}
 vka : Language
 vka =
     Language { code = "vka" }
 
-{-| Ija-Zuba -}
+
+{-| Ija-Zuba
+-}
 vki : Language
 vki =
     Language { code = "vki" }
 
-{-| Kujarge -}
+
+{-| Kujarge
+-}
 vkj : Language
 vkj =
     Language { code = "vkj" }
 
-{-| Kaur -}
+
+{-| Kaur
+-}
 vkk : Language
 vkk =
     Language { code = "vkk" }
 
-{-| Kulisusu -}
+
+{-| Kulisusu
+-}
 vkl : Language
 vkl =
     Language { code = "vkl" }
 
-{-| Kamakan -}
+
+{-| Kamakan
+-}
 vkm : Language
 vkm =
     Language { code = "vkm" }
 
-{-| Kodeoha -}
+
+{-| Kodeoha
+-}
 vko : Language
 vko =
     Language { code = "vko" }
 
-{-| Korlai Creole Portuguese -}
+
+{-| Korlai Creole Portuguese
+-}
 vkp : Language
 vkp =
     Language { code = "vkp" }
 
-{-| Tenggarong Kutai Malay -}
+
+{-| Tenggarong Kutai Malay
+-}
 vkt : Language
 vkt =
     Language { code = "vkt" }
 
-{-| Kurrama -}
+
+{-| Kurrama
+-}
 vku : Language
 vku =
     Language { code = "vku" }
 
-{-| Valpei -}
+
+{-| Valpei
+-}
 vlp : Language
 vlp =
     Language { code = "vlp" }
 
-{-| Vlaams -}
+
+{-| Vlaams
+-}
 vls : Language
 vls =
     Language { code = "vls" }
 
-{-| Martuyhunira -}
+
+{-| Martuyhunira
+-}
 vma : Language
 vma =
     Language { code = "vma" }
 
-{-| Barbaram -}
+
+{-| Barbaram
+-}
 vmb : Language
 vmb =
     Language { code = "vmb" }
 
-{-| Juxtlahuaca Mixtec -}
+
+{-| Juxtlahuaca Mixtec
+-}
 vmc : Language
 vmc =
     Language { code = "vmc" }
 
-{-| Mudu Koraga -}
+
+{-| Mudu Koraga
+-}
 vmd : Language
 vmd =
     Language { code = "vmd" }
 
-{-| East Masela -}
+
+{-| East Masela
+-}
 vme : Language
 vme =
     Language { code = "vme" }
 
-{-| Mainfränkisch -}
+
+{-| Mainfränkisch
+-}
 vmf : Language
 vmf =
     Language { code = "vmf" }
 
-{-| Lungalunga -}
+
+{-| Lungalunga
+-}
 vmg : Language
 vmg =
     Language { code = "vmg" }
 
-{-| Maraghei -}
+
+{-| Maraghei
+-}
 vmh : Language
 vmh =
     Language { code = "vmh" }
 
-{-| Miwa -}
+
+{-| Miwa
+-}
 vmi : Language
 vmi =
     Language { code = "vmi" }
 
-{-| Ixtayutla Mixtec -}
+
+{-| Ixtayutla Mixtec
+-}
 vmj : Language
 vmj =
     Language { code = "vmj" }
 
-{-| Makhuwa-Shirima -}
+
+{-| Makhuwa-Shirima
+-}
 vmk : Language
 vmk =
     Language { code = "vmk" }
 
-{-| Malgana -}
+
+{-| Malgana
+-}
 vml : Language
 vml =
     Language { code = "vml" }
 
-{-| Mitlatongo Mixtec -}
+
+{-| Mitlatongo Mixtec
+-}
 vmm : Language
 vmm =
     Language { code = "vmm" }
 
-{-| Soyaltepec Mazatec -}
+
+{-| Soyaltepec Mazatec
+-}
 vmp : Language
 vmp =
     Language { code = "vmp" }
 
-{-| Soyaltepec Mixtec -}
+
+{-| Soyaltepec Mixtec
+-}
 vmq : Language
 vmq =
     Language { code = "vmq" }
 
-{-| Marenje -}
+
+{-| Marenje
+-}
 vmr : Language
 vmr =
     Language { code = "vmr" }
 
-{-| Moksela -}
+
+{-| Moksela
+-}
 vms : Language
 vms =
     Language { code = "vms" }
 
-{-| Muluridyi -}
+
+{-| Muluridyi
+-}
 vmu : Language
 vmu =
     Language { code = "vmu" }
 
-{-| Valley Maidu -}
+
+{-| Valley Maidu
+-}
 vmv : Language
 vmv =
     Language { code = "vmv" }
 
-{-| Makhuwa -}
+
+{-| Makhuwa
+-}
 vmw : Language
 vmw =
     Language { code = "vmw" }
 
-{-| Tamazola Mixtec -}
+
+{-| Tamazola Mixtec
+-}
 vmx : Language
 vmx =
     Language { code = "vmx" }
 
-{-| Ayautla Mazatec -}
+
+{-| Ayautla Mazatec
+-}
 vmy : Language
 vmy =
     Language { code = "vmy" }
 
-{-| Mazatlán Mazatec -}
+
+{-| Mazatlán Mazatec
+-}
 vmz : Language
 vmz =
     Language { code = "vmz" }
 
+
 {-| Vano
-Lovono -}
+Lovono
+-}
 vnk : Language
 vnk =
     Language { code = "vnk" }
 
+
 {-| Vinmavis
-Neve'ei -}
+Neve'ei
+-}
 vnm : Language
 vnm =
     Language { code = "vnm" }
 
-{-| Vunapu -}
+
+{-| Vunapu
+-}
 vnp : Language
 vnp =
     Language { code = "vnp" }
 
-{-| Volapük -}
+
+{-| Volapük
+-}
 vo : Language
 vo =
     Language { code = "vo" }
 
-{-| Voro -}
+
+{-| Voro
+-}
 vor : Language
 vor =
     Language { code = "vor" }
 
-{-| Votic -}
+
+{-| Votic
+-}
 vot : Language
 vot =
     Language { code = "vot" }
 
-{-| Vera'a -}
+
+{-| Vera'a
+-}
 vra : Language
 vra =
     Language { code = "vra" }
 
-{-| Võro -}
+
+{-| Võro
+-}
 vro : Language
 vro =
     Language { code = "vro" }
 
-{-| Varisi -}
+
+{-| Varisi
+-}
 vrs : Language
 vrs =
     Language { code = "vrs" }
 
+
 {-| Burmbar
-Banam Bay -}
+Banam Bay
+-}
 vrt : Language
 vrt =
     Language { code = "vrt" }
 
-{-| Moldova Sign Language -}
+
+{-| Moldova Sign Language
+-}
 vsi : Language
 vsi =
     Language { code = "vsi" }
 
-{-| Venezuelan Sign Language -}
+
+{-| Venezuelan Sign Language
+-}
 vsl : Language
 vsl =
     Language { code = "vsl" }
 
+
 {-| Valencian Sign Language
-Llengua de signes valenciana -}
+Llengua de signes valenciana
+-}
 vsv : Language
 vsv =
     Language { code = "vsv" }
 
-{-| Vitou -}
+
+{-| Vitou
+-}
 vto : Language
 vto =
     Language { code = "vto" }
 
-{-| Vumbu -}
+
+{-| Vumbu
+-}
 vum : Language
 vum =
     Language { code = "vum" }
 
-{-| Vunjo -}
+
+{-| Vunjo
+-}
 vun : Language
 vun =
     Language { code = "vun" }
 
-{-| Vute -}
+
+{-| Vute
+-}
 vut : Language
 vut =
     Language { code = "vut" }
 
-{-| Awa (China) -}
+
+{-| Awa (China)
+-}
 vwa : Language
 vwa =
     Language { code = "vwa" }
 
-{-| Walloon -}
+
+{-| Walloon
+-}
 wa : Language
 wa =
     Language { code = "wa" }
 
-{-| Walla Walla -}
+
+{-| Walla Walla
+-}
 waa : Language
 waa =
     Language { code = "waa" }
 
-{-| Wab -}
+
+{-| Wab
+-}
 wab : Language
 wab =
     Language { code = "wab" }
 
-{-| Wasco-Wishram -}
+
+{-| Wasco-Wishram
+-}
 wac : Language
 wac =
     Language { code = "wac" }
 
-{-| Wandamen -}
+
+{-| Wandamen
+-}
 wad : Language
 wad =
     Language { code = "wad" }
 
-{-| Walser -}
+
+{-| Walser
+-}
 wae : Language
 wae =
     Language { code = "wae" }
 
-{-| Wakoná -}
+
+{-| Wakoná
+-}
 waf : Language
 waf =
     Language { code = "waf" }
 
-{-| Wa'ema -}
+
+{-| Wa'ema
+-}
 wag : Language
 wag =
     Language { code = "wag" }
 
-{-| Watubela -}
+
+{-| Watubela
+-}
 wah : Language
 wah =
     Language { code = "wah" }
 
-{-| Wares -}
+
+{-| Wares
+-}
 wai : Language
 wai =
     Language { code = "wai" }
 
-{-| Waffa -}
+
+{-| Waffa
+-}
 waj : Language
 waj =
     Language { code = "waj" }
 
-{-| Wakashan languages -}
+
+{-| Wakashan languages
+-}
 wak : Language
 wak =
     Language { code = "wak" }
 
+
 {-| Wolaytta
-Wolaitta -}
+Wolaitta
+-}
 wal : Language
 wal =
     Language { code = "wal" }
 
-{-| Wampanoag -}
+
+{-| Wampanoag
+-}
 wam : Language
 wam =
     Language { code = "wam" }
 
-{-| Wan -}
+
+{-| Wan
+-}
 wan : Language
 wan =
     Language { code = "wan" }
 
-{-| Wappo -}
+
+{-| Wappo
+-}
 wao : Language
 wao =
     Language { code = "wao" }
 
-{-| Wapishana -}
+
+{-| Wapishana
+-}
 wap : Language
 wap =
     Language { code = "wap" }
 
-{-| Wagiman -}
+
+{-| Wagiman
+-}
 waq : Language
 waq =
     Language { code = "waq" }
 
-{-| Waray (Philippines) -}
+
+{-| Waray (Philippines)
+-}
 war : Language
 war =
     Language { code = "war" }
 
-{-| Washo -}
+
+{-| Washo
+-}
 was : Language
 was =
     Language { code = "was" }
 
-{-| Kaninuwa -}
+
+{-| Kaninuwa
+-}
 wat : Language
 wat =
     Language { code = "wat" }
 
-{-| Waurá -}
+
+{-| Waurá
+-}
 wau : Language
 wau =
     Language { code = "wau" }
 
-{-| Waka -}
+
+{-| Waka
+-}
 wav : Language
 wav =
     Language { code = "wav" }
 
-{-| Waiwai -}
+
+{-| Waiwai
+-}
 waw : Language
 waw =
     Language { code = "waw" }
 
+
 {-| Watam
-Marangis -}
+Marangis
+-}
 wax : Language
 wax =
     Language { code = "wax" }
 
-{-| Wayana -}
+
+{-| Wayana
+-}
 way : Language
 way =
     Language { code = "way" }
 
-{-| Wampur -}
+
+{-| Wampur
+-}
 waz : Language
 waz =
     Language { code = "waz" }
 
-{-| Warao -}
+
+{-| Warao
+-}
 wba : Language
 wba =
     Language { code = "wba" }
 
-{-| Wabo -}
+
+{-| Wabo
+-}
 wbb : Language
 wbb =
     Language { code = "wbb" }
 
-{-| Waritai -}
+
+{-| Waritai
+-}
 wbe : Language
 wbe =
     Language { code = "wbe" }
 
-{-| Wara -}
+
+{-| Wara
+-}
 wbf : Language
 wbf =
     Language { code = "wbf" }
 
-{-| Wanda -}
+
+{-| Wanda
+-}
 wbh : Language
 wbh =
     Language { code = "wbh" }
 
-{-| Vwanji -}
+
+{-| Vwanji
+-}
 wbi : Language
 wbi =
     Language { code = "wbi" }
 
-{-| Alagwa -}
+
+{-| Alagwa
+-}
 wbj : Language
 wbj =
     Language { code = "wbj" }
 
-{-| Waigali -}
+
+{-| Waigali
+-}
 wbk : Language
 wbk =
     Language { code = "wbk" }
 
-{-| Wakhi -}
+
+{-| Wakhi
+-}
 wbl : Language
 wbl =
     Language { code = "wbl" }
 
-{-| Wa -}
+
+{-| Wa
+-}
 wbm : Language
 wbm =
     Language { code = "wbm" }
 
-{-| Warlpiri -}
+
+{-| Warlpiri
+-}
 wbp : Language
 wbp =
     Language { code = "wbp" }
 
-{-| Waddar -}
+
+{-| Waddar
+-}
 wbq : Language
 wbq =
     Language { code = "wbq" }
 
-{-| Wagdi -}
+
+{-| Wagdi
+-}
 wbr : Language
 wbr =
     Language { code = "wbr" }
 
-{-| West Bengal Sign Language -}
+
+{-| West Bengal Sign Language
+-}
 wbs : Language
 wbs =
     Language { code = "wbs" }
 
-{-| Warnman -}
+
+{-| Warnman
+-}
 wbt : Language
 wbt =
     Language { code = "wbt" }
 
-{-| Wajarri -}
+
+{-| Wajarri
+-}
 wbv : Language
 wbv =
     Language { code = "wbv" }
 
-{-| Woi -}
+
+{-| Woi
+-}
 wbw : Language
 wbw =
     Language { code = "wbw" }
 
-{-| Yanomámi -}
+
+{-| Yanomámi
+-}
 wca : Language
 wca =
     Language { code = "wca" }
 
-{-| Waci Gbe -}
+
+{-| Waci Gbe
+-}
 wci : Language
 wci =
     Language { code = "wci" }
 
-{-| Wandji -}
+
+{-| Wandji
+-}
 wdd : Language
 wdd =
     Language { code = "wdd" }
 
-{-| Wadaginam -}
+
+{-| Wadaginam
+-}
 wdg : Language
 wdg =
     Language { code = "wdg" }
 
-{-| Wadjiginy -}
+
+{-| Wadjiginy
+-}
 wdj : Language
 wdj =
     Language { code = "wdj" }
 
-{-| Wadikali -}
+
+{-| Wadikali
+-}
 wdk : Language
 wdk =
     Language { code = "wdk" }
 
-{-| Wadjigu -}
+
+{-| Wadjigu
+-}
 wdu : Language
 wdu =
     Language { code = "wdu" }
 
-{-| Wadjabangayi -}
+
+{-| Wadjabangayi
+-}
 wdy : Language
 wdy =
     Language { code = "wdy" }
 
-{-| Wewaw -}
+
+{-| Wewaw
+-}
 wea : Language
 wea =
     Language { code = "wea" }
 
-{-| Wè Western -}
+
+{-| Wè Western
+-}
 wec : Language
 wec =
     Language { code = "wec" }
 
-{-| Wedau -}
+
+{-| Wedau
+-}
 wed : Language
 wed =
     Language { code = "wed" }
 
-{-| Wergaia -}
+
+{-| Wergaia
+-}
 weg : Language
 weg =
     Language { code = "weg" }
 
-{-| Weh -}
+
+{-| Weh
+-}
 weh : Language
 weh =
     Language { code = "weh" }
 
-{-| Kiunum -}
+
+{-| Kiunum
+-}
 wei : Language
 wei =
     Language { code = "wei" }
 
-{-| Weme Gbe -}
+
+{-| Weme Gbe
+-}
 wem : Language
 wem =
     Language { code = "wem" }
 
-{-| Sorbian languages -}
+
+{-| Sorbian languages
+-}
 wen : Language
 wen =
     Language { code = "wen" }
 
-{-| Wemale -}
+
+{-| Wemale
+-}
 weo : Language
 weo =
     Language { code = "weo" }
 
-{-| Westphalien -}
+
+{-| Westphalien
+-}
 wep : Language
 wep =
     Language { code = "wep" }
 
-{-| Weri -}
+
+{-| Weri
+-}
 wer : Language
 wer =
     Language { code = "wer" }
 
-{-| Cameroon Pidgin -}
+
+{-| Cameroon Pidgin
+-}
 wes : Language
 wes =
     Language { code = "wes" }
 
-{-| Perai -}
+
+{-| Perai
+-}
 wet : Language
 wet =
     Language { code = "wet" }
 
-{-| Rawngtu Chin -}
+
+{-| Rawngtu Chin
+-}
 weu : Language
 weu =
     Language { code = "weu" }
 
-{-| Wejewa -}
+
+{-| Wejewa
+-}
 wew : Language
 wew =
     Language { code = "wew" }
 
+
 {-| Yafi
-Zorop -}
+Zorop
+-}
 wfg : Language
 wfg =
     Language { code = "wfg" }
 
-{-| Wagaya -}
+
+{-| Wagaya
+-}
 wga : Language
 wga =
     Language { code = "wga" }
 
-{-| Wagawaga -}
+
+{-| Wagawaga
+-}
 wgb : Language
 wgb =
     Language { code = "wgb" }
 
+
 {-| Wangkangurru
-Wangganguru -}
+Wangganguru
+-}
 wgg : Language
 wgg =
     Language { code = "wgg" }
 
-{-| Wahgi -}
+
+{-| Wahgi
+-}
 wgi : Language
 wgi =
     Language { code = "wgi" }
 
-{-| Waigeo -}
+
+{-| Waigeo
+-}
 wgo : Language
 wgo =
     Language { code = "wgo" }
 
-{-| Wirangu -}
+
+{-| Wirangu
+-}
 wgu : Language
 wgu =
     Language { code = "wgu" }
 
-{-| Wagawaga -}
+
+{-| Wagawaga
+-}
 wgw : Language
 wgw =
     Language { code = "wgw" }
 
-{-| Warrgamay -}
+
+{-| Warrgamay
+-}
 wgy : Language
 wgy =
     Language { code = "wgy" }
 
+
 {-| Sou Upaa
-Manusela -}
+Manusela
+-}
 wha : Language
 wha =
     Language { code = "wha" }
 
-{-| North Wahgi -}
+
+{-| North Wahgi
+-}
 whg : Language
 whg =
     Language { code = "whg" }
 
-{-| Wahau Kenyah -}
+
+{-| Wahau Kenyah
+-}
 whk : Language
 whk =
     Language { code = "whk" }
 
-{-| Wahau Kayan -}
+
+{-| Wahau Kayan
+-}
 whu : Language
 whu =
     Language { code = "whu" }
 
-{-| Southern Toussian -}
+
+{-| Southern Toussian
+-}
 wib : Language
 wib =
     Language { code = "wib" }
 
-{-| Wichita -}
+
+{-| Wichita
+-}
 wic : Language
 wic =
     Language { code = "wic" }
 
-{-| Wik-Epa -}
+
+{-| Wik-Epa
+-}
 wie : Language
 wie =
     Language { code = "wie" }
 
-{-| Wik-Keyangan -}
+
+{-| Wik-Keyangan
+-}
 wif : Language
 wif =
     Language { code = "wif" }
 
-{-| Wik Ngathan -}
+
+{-| Wik Ngathan
+-}
 wig : Language
 wig =
     Language { code = "wig" }
 
-{-| Wik-Me'anha -}
+
+{-| Wik-Me'anha
+-}
 wih : Language
 wih =
     Language { code = "wih" }
 
-{-| Minidien -}
+
+{-| Minidien
+-}
 wii : Language
 wii =
     Language { code = "wii" }
 
-{-| Wik-Iiyanh -}
+
+{-| Wik-Iiyanh
+-}
 wij : Language
 wij =
     Language { code = "wij" }
 
-{-| Wikalkan -}
+
+{-| Wikalkan
+-}
 wik : Language
 wik =
     Language { code = "wik" }
 
-{-| Wilawila -}
+
+{-| Wilawila
+-}
 wil : Language
 wil =
     Language { code = "wil" }
 
-{-| Wik-Mungkan -}
+
+{-| Wik-Mungkan
+-}
 wim : Language
 wim =
     Language { code = "wim" }
 
-{-| Ho-Chunk -}
+
+{-| Ho-Chunk
+-}
 win : Language
 win =
     Language { code = "win" }
 
-{-| Wiraféd -}
+
+{-| Wiraféd
+-}
 wir : Language
 wir =
     Language { code = "wir" }
 
-{-| Wintu -}
+
+{-| Wintu
+-}
 wit : Language
 wit =
     Language { code = "wit" }
 
-{-| Wiru -}
+
+{-| Wiru
+-}
 wiu : Language
 wiu =
     Language { code = "wiu" }
 
-{-| Vitu -}
+
+{-| Vitu
+-}
 wiv : Language
 wiv =
     Language { code = "wiv" }
 
-{-| Wirangu -}
+
+{-| Wirangu
+-}
 wiw : Language
 wiw =
     Language { code = "wiw" }
 
-{-| Wiyot -}
+
+{-| Wiyot
+-}
 wiy : Language
 wiy =
     Language { code = "wiy" }
 
-{-| Waja -}
+
+{-| Waja
+-}
 wja : Language
 wja =
     Language { code = "wja" }
 
-{-| Warji -}
+
+{-| Warji
+-}
 wji : Language
 wji =
     Language { code = "wji" }
 
-{-| Kw'adza -}
+
+{-| Kw'adza
+-}
 wka : Language
 wka =
     Language { code = "wka" }
 
-{-| Kumbaran -}
+
+{-| Kumbaran
+-}
 wkb : Language
 wkb =
     Language { code = "wkb" }
 
+
 {-| Wakde
-Mo -}
+Mo
+-}
 wkd : Language
 wkd =
     Language { code = "wkd" }
 
-{-| Kalanadi -}
+
+{-| Kalanadi
+-}
 wkl : Language
 wkl =
     Language { code = "wkl" }
 
-{-| Keerray-Woorroong -}
+
+{-| Keerray-Woorroong
+-}
 wkr : Language
 wkr =
     Language { code = "wkr" }
 
-{-| Kunduvadi -}
+
+{-| Kunduvadi
+-}
 wku : Language
 wku =
     Language { code = "wku" }
 
-{-| Wakawaka -}
+
+{-| Wakawaka
+-}
 wkw : Language
 wkw =
     Language { code = "wkw" }
 
-{-| Wangkayutyuru -}
+
+{-| Wangkayutyuru
+-}
 wky : Language
 wky =
     Language { code = "wky" }
 
-{-| Walio -}
+
+{-| Walio
+-}
 wla : Language
 wla =
     Language { code = "wla" }
 
-{-| Mwali Comorian -}
+
+{-| Mwali Comorian
+-}
 wlc : Language
 wlc =
     Language { code = "wlc" }
 
-{-| Wolane -}
+
+{-| Wolane
+-}
 wle : Language
 wle =
     Language { code = "wle" }
 
-{-| Kunbarlang -}
+
+{-| Kunbarlang
+-}
 wlg : Language
 wlg =
     Language { code = "wlg" }
 
-{-| Welaun -}
+
+{-| Welaun
+-}
 wlh : Language
 wlh =
     Language { code = "wlh" }
 
-{-| Waioli -}
+
+{-| Waioli
+-}
 wli : Language
 wli =
     Language { code = "wli" }
 
-{-| Wailaki -}
+
+{-| Wailaki
+-}
 wlk : Language
 wlk =
     Language { code = "wlk" }
 
-{-| Wali (Sudan) -}
+
+{-| Wali (Sudan)
+-}
 wll : Language
 wll =
     Language { code = "wll" }
 
-{-| Middle Welsh -}
+
+{-| Middle Welsh
+-}
 wlm : Language
 wlm =
     Language { code = "wlm" }
 
-{-| Wolio -}
+
+{-| Wolio
+-}
 wlo : Language
 wlo =
     Language { code = "wlo" }
 
-{-| Wailapa -}
+
+{-| Wailapa
+-}
 wlr : Language
 wlr =
     Language { code = "wlr" }
 
-{-| Wallisian -}
+
+{-| Wallisian
+-}
 wls : Language
 wls =
     Language { code = "wls" }
 
-{-| Wuliwuli -}
+
+{-| Wuliwuli
+-}
 wlu : Language
 wlu =
     Language { code = "wlu" }
 
-{-| Wichí Lhamtés Vejoz -}
+
+{-| Wichí Lhamtés Vejoz
+-}
 wlv : Language
 wlv =
     Language { code = "wlv" }
 
-{-| Walak -}
+
+{-| Walak
+-}
 wlw : Language
 wlw =
     Language { code = "wlw" }
 
-{-| Wali (Ghana) -}
+
+{-| Wali (Ghana)
+-}
 wlx : Language
 wlx =
     Language { code = "wlx" }
 
-{-| Waling -}
+
+{-| Waling
+-}
 wly : Language
 wly =
     Language { code = "wly" }
 
-{-| Mawa (Nigeria) -}
+
+{-| Mawa (Nigeria)
+-}
 wma : Language
 wma =
     Language { code = "wma" }
 
-{-| Wambaya -}
+
+{-| Wambaya
+-}
 wmb : Language
 wmb =
     Language { code = "wmb" }
 
-{-| Wamas -}
+
+{-| Wamas
+-}
 wmc : Language
 wmc =
     Language { code = "wmc" }
 
-{-| Mamaindé -}
+
+{-| Mamaindé
+-}
 wmd : Language
 wmd =
     Language { code = "wmd" }
 
-{-| Wambule -}
+
+{-| Wambule
+-}
 wme : Language
 wme =
     Language { code = "wme" }
 
-{-| Waima'a -}
+
+{-| Waima'a
+-}
 wmh : Language
 wmh =
     Language { code = "wmh" }
 
-{-| Wamin -}
+
+{-| Wamin
+-}
 wmi : Language
 wmi =
     Language { code = "wmi" }
 
-{-| Maiwa (Indonesia) -}
+
+{-| Maiwa (Indonesia)
+-}
 wmm : Language
 wmm =
     Language { code = "wmm" }
 
-{-| Waamwang -}
+
+{-| Waamwang
+-}
 wmn : Language
 wmn =
     Language { code = "wmn" }
 
-{-| Wom (Papua New Guinea) -}
+
+{-| Wom (Papua New Guinea)
+-}
 wmo : Language
 wmo =
     Language { code = "wmo" }
 
-{-| Wambon -}
+
+{-| Wambon
+-}
 wms : Language
 wms =
     Language { code = "wms" }
 
-{-| Walmajarri -}
+
+{-| Walmajarri
+-}
 wmt : Language
 wmt =
     Language { code = "wmt" }
 
-{-| Mwani -}
+
+{-| Mwani
+-}
 wmw : Language
 wmw =
     Language { code = "wmw" }
 
-{-| Womo -}
+
+{-| Womo
+-}
 wmx : Language
 wmx =
     Language { code = "wmx" }
 
-{-| Wanambre -}
+
+{-| Wanambre
+-}
 wnb : Language
 wnb =
     Language { code = "wnb" }
 
-{-| Wantoat -}
+
+{-| Wantoat
+-}
 wnc : Language
 wnc =
     Language { code = "wnc" }
 
-{-| Wandarang -}
+
+{-| Wandarang
+-}
 wnd : Language
 wnd =
     Language { code = "wnd" }
 
-{-| Waneci -}
+
+{-| Waneci
+-}
 wne : Language
 wne =
     Language { code = "wne" }
 
-{-| Wanggom -}
+
+{-| Wanggom
+-}
 wng : Language
 wng =
     Language { code = "wng" }
 
-{-| Ndzwani Comorian -}
+
+{-| Ndzwani Comorian
+-}
 wni : Language
 wni =
     Language { code = "wni" }
 
-{-| Wanukaka -}
+
+{-| Wanukaka
+-}
 wnk : Language
 wnk =
     Language { code = "wnk" }
 
-{-| Wanggamala -}
+
+{-| Wanggamala
+-}
 wnm : Language
 wnm =
     Language { code = "wnm" }
 
-{-| Wunumara -}
+
+{-| Wunumara
+-}
 wnn : Language
 wnn =
     Language { code = "wnn" }
 
-{-| Wano -}
+
+{-| Wano
+-}
 wno : Language
 wno =
     Language { code = "wno" }
 
-{-| Wanap -}
+
+{-| Wanap
+-}
 wnp : Language
 wnp =
     Language { code = "wnp" }
 
-{-| Usan -}
+
+{-| Usan
+-}
 wnu : Language
 wnu =
     Language { code = "wnu" }
 
-{-| Wintu -}
+
+{-| Wintu
+-}
 wnw : Language
 wnw =
     Language { code = "wnw" }
 
+
 {-| Wanyi
-Waanyi -}
+Waanyi
+-}
 wny : Language
 wny =
     Language { code = "wny" }
 
-{-| Wolof -}
+
+{-| Wolof
+-}
 wo : Language
 wo =
     Language { code = "wo" }
 
+
 {-| Kuwema
-Tyaraity -}
+Tyaraity
+-}
 woa : Language
 woa =
     Language { code = "woa" }
 
-{-| Wè Northern -}
+
+{-| Wè Northern
+-}
 wob : Language
 wob =
     Language { code = "wob" }
 
-{-| Wogeo -}
+
+{-| Wogeo
+-}
 woc : Language
 woc =
     Language { code = "woc" }
 
-{-| Wolani -}
+
+{-| Wolani
+-}
 wod : Language
 wod =
     Language { code = "wod" }
 
-{-| Woleaian -}
+
+{-| Woleaian
+-}
 woe : Language
 woe =
     Language { code = "woe" }
 
-{-| Gambian Wolof -}
+
+{-| Gambian Wolof
+-}
 wof : Language
 wof =
     Language { code = "wof" }
 
-{-| Wogamusin -}
+
+{-| Wogamusin
+-}
 wog : Language
 wog =
     Language { code = "wog" }
 
-{-| Kamang -}
+
+{-| Kamang
+-}
 woi : Language
 woi =
     Language { code = "woi" }
 
-{-| Longto -}
+
+{-| Longto
+-}
 wok : Language
 wok =
     Language { code = "wok" }
 
-{-| Wom (Nigeria) -}
+
+{-| Wom (Nigeria)
+-}
 wom : Language
 wom =
     Language { code = "wom" }
 
-{-| Wongo -}
+
+{-| Wongo
+-}
 won : Language
 won =
     Language { code = "won" }
 
-{-| Manombai -}
+
+{-| Manombai
+-}
 woo : Language
 woo =
     Language { code = "woo" }
 
-{-| Woria -}
+
+{-| Woria
+-}
 wor : Language
 wor =
     Language { code = "wor" }
 
-{-| Hanga Hundi -}
+
+{-| Hanga Hundi
+-}
 wos : Language
 wos =
     Language { code = "wos" }
 
-{-| Wawonii -}
+
+{-| Wawonii
+-}
 wow : Language
 wow =
     Language { code = "wow" }
 
-{-| Weyto -}
+
+{-| Weyto
+-}
 woy : Language
 woy =
     Language { code = "woy" }
 
-{-| Maco -}
+
+{-| Maco
+-}
 wpc : Language
 wpc =
     Language { code = "wpc" }
 
-{-| Warapu -}
+
+{-| Warapu
+-}
 wra : Language
 wra =
     Language { code = "wra" }
 
+
 {-| Waluwarra
-Warluwara -}
+Warluwara
+-}
 wrb : Language
 wrb =
     Language { code = "wrb" }
 
-{-| Warduji -}
+
+{-| Warduji
+-}
 wrd : Language
 wrd =
     Language { code = "wrd" }
 
+
 {-| Warungu
-Gudjal -}
+Gudjal
+-}
 wrg : Language
 wrg =
     Language { code = "wrg" }
 
-{-| Wiradjuri -}
+
+{-| Wiradjuri
+-}
 wrh : Language
 wrh =
     Language { code = "wrh" }
 
-{-| Wariyangga -}
+
+{-| Wariyangga
+-}
 wri : Language
 wri =
     Language { code = "wri" }
 
-{-| Garrwa -}
+
+{-| Garrwa
+-}
 wrk : Language
 wrk =
     Language { code = "wrk" }
 
-{-| Warlmanpa -}
+
+{-| Warlmanpa
+-}
 wrl : Language
 wrl =
     Language { code = "wrl" }
 
-{-| Warumungu -}
+
+{-| Warumungu
+-}
 wrm : Language
 wrm =
     Language { code = "wrm" }
 
-{-| Warnang -}
+
+{-| Warnang
+-}
 wrn : Language
 wrn =
     Language { code = "wrn" }
 
-{-| Worrorra -}
+
+{-| Worrorra
+-}
 wro : Language
 wro =
     Language { code = "wro" }
 
-{-| Waropen -}
+
+{-| Waropen
+-}
 wrp : Language
 wrp =
     Language { code = "wrp" }
 
-{-| Wardaman -}
+
+{-| Wardaman
+-}
 wrr : Language
 wrr =
     Language { code = "wrr" }
 
-{-| Waris -}
+
+{-| Waris
+-}
 wrs : Language
 wrs =
     Language { code = "wrs" }
 
-{-| Waru -}
+
+{-| Waru
+-}
 wru : Language
 wru =
     Language { code = "wru" }
 
-{-| Waruna -}
+
+{-| Waruna
+-}
 wrv : Language
 wrv =
     Language { code = "wrv" }
 
-{-| Gugu Warra -}
+
+{-| Gugu Warra
+-}
 wrw : Language
 wrw =
     Language { code = "wrw" }
 
-{-| Wae Rana -}
+
+{-| Wae Rana
+-}
 wrx : Language
 wrx =
     Language { code = "wrx" }
 
-{-| Merwari -}
+
+{-| Merwari
+-}
 wry : Language
 wry =
     Language { code = "wry" }
 
-{-| Waray (Australia) -}
+
+{-| Waray (Australia)
+-}
 wrz : Language
 wrz =
     Language { code = "wrz" }
 
-{-| Warembori -}
+
+{-| Warembori
+-}
 wsa : Language
 wsa =
     Language { code = "wsa" }
 
-{-| Adilabad Gondi -}
+
+{-| Adilabad Gondi
+-}
 wsg : Language
 wsg =
     Language { code = "wsg" }
 
-{-| Wusi -}
+
+{-| Wusi
+-}
 wsi : Language
 wsi =
     Language { code = "wsi" }
 
-{-| Waskia -}
+
+{-| Waskia
+-}
 wsk : Language
 wsk =
     Language { code = "wsk" }
 
-{-| Owenia -}
+
+{-| Owenia
+-}
 wsr : Language
 wsr =
     Language { code = "wsr" }
 
-{-| Wasa -}
+
+{-| Wasa
+-}
 wss : Language
 wss =
     Language { code = "wss" }
 
-{-| Wasu -}
+
+{-| Wasu
+-}
 wsu : Language
 wsu =
     Language { code = "wsu" }
 
-{-| Wotapuri-Katarqalai -}
+
+{-| Wotapuri-Katarqalai
+-}
 wsv : Language
 wsv =
     Language { code = "wsv" }
 
-{-| Watiwa -}
+
+{-| Watiwa
+-}
 wtf : Language
 wtf =
     Language { code = "wtf" }
 
-{-| Wathawurrung -}
+
+{-| Wathawurrung
+-}
 wth : Language
 wth =
     Language { code = "wth" }
 
-{-| Berta -}
+
+{-| Berta
+-}
 wti : Language
 wti =
     Language { code = "wti" }
 
-{-| Watakataui -}
+
+{-| Watakataui
+-}
 wtk : Language
 wtk =
     Language { code = "wtk" }
 
-{-| Mewati -}
+
+{-| Mewati
+-}
 wtm : Language
 wtm =
     Language { code = "wtm" }
 
-{-| Wotu -}
+
+{-| Wotu
+-}
 wtw : Language
 wtw =
     Language { code = "wtw" }
 
-{-| Wikngenchera -}
+
+{-| Wikngenchera
+-}
 wua : Language
 wua =
     Language { code = "wua" }
 
-{-| Wunambal -}
+
+{-| Wunambal
+-}
 wub : Language
 wub =
     Language { code = "wub" }
 
-{-| Wudu -}
+
+{-| Wudu
+-}
 wud : Language
 wud =
     Language { code = "wud" }
 
-{-| Wutunhua -}
+
+{-| Wutunhua
+-}
 wuh : Language
 wuh =
     Language { code = "wuh" }
 
-{-| Silimo -}
+
+{-| Silimo
+-}
 wul : Language
 wul =
     Language { code = "wul" }
 
-{-| Wumbvu -}
+
+{-| Wumbvu
+-}
 wum : Language
 wum =
     Language { code = "wum" }
 
-{-| Bungu -}
+
+{-| Bungu
+-}
 wun : Language
 wun =
     Language { code = "wun" }
 
-{-| Wurrugu -}
+
+{-| Wurrugu
+-}
 wur : Language
 wur =
     Language { code = "wur" }
 
-{-| Wutung -}
+
+{-| Wutung
+-}
 wut : Language
 wut =
     Language { code = "wut" }
 
-{-| Wu Chinese -}
+
+{-| Wu Chinese
+-}
 wuu : Language
 wuu =
     Language { code = "wuu" }
 
-{-| Wuvulu-Aua -}
+
+{-| Wuvulu-Aua
+-}
 wuv : Language
 wuv =
     Language { code = "wuv" }
 
-{-| Wulna -}
+
+{-| Wulna
+-}
 wux : Language
 wux =
     Language { code = "wux" }
 
-{-| Wauyai -}
+
+{-| Wauyai
+-}
 wuy : Language
 wuy =
     Language { code = "wuy" }
 
-{-| Waama -}
+
+{-| Waama
+-}
 wwa : Language
 wwa =
     Language { code = "wwa" }
 
-{-| Wakabunga -}
+
+{-| Wakabunga
+-}
 wwb : Language
 wwb =
     Language { code = "wwb" }
 
+
 {-| Wetamut
-Dorig -}
+Dorig
+-}
 wwo : Language
 wwo =
     Language { code = "wwo" }
 
-{-| Warrwa -}
+
+{-| Warrwa
+-}
 wwr : Language
 wwr =
     Language { code = "wwr" }
 
-{-| Wawa -}
+
+{-| Wawa
+-}
 www : Language
 www =
     Language { code = "www" }
 
-{-| Waxianghua -}
+
+{-| Waxianghua
+-}
 wxa : Language
 wxa =
     Language { code = "wxa" }
 
-{-| Wardandi -}
+
+{-| Wardandi
+-}
 wxw : Language
 wxw =
     Language { code = "wxw" }
 
-{-| Wyandot -}
+
+{-| Wyandot
+-}
 wya : Language
 wya =
     Language { code = "wya" }
 
-{-| Wangaaybuwan-Ngiyambaa -}
+
+{-| Wangaaybuwan-Ngiyambaa
+-}
 wyb : Language
 wyb =
     Language { code = "wyb" }
 
-{-| Woiwurrung -}
+
+{-| Woiwurrung
+-}
 wyi : Language
 wyi =
     Language { code = "wyi" }
 
-{-| Wymysorys -}
+
+{-| Wymysorys
+-}
 wym : Language
 wym =
     Language { code = "wym" }
 
-{-| Wayoró -}
+
+{-| Wayoró
+-}
 wyr : Language
 wyr =
     Language { code = "wyr" }
 
-{-| Western Fijian -}
+
+{-| Western Fijian
+-}
 wyy : Language
 wyy =
     Language { code = "wyy" }
 
-{-| Andalusian Arabic -}
+
+{-| Andalusian Arabic
+-}
 xaa : Language
 xaa =
     Language { code = "xaa" }
 
-{-| Sambe -}
+
+{-| Sambe
+-}
 xab : Language
 xab =
     Language { code = "xab" }
 
-{-| Kachari -}
+
+{-| Kachari
+-}
 xac : Language
 xac =
     Language { code = "xac" }
 
-{-| Adai -}
+
+{-| Adai
+-}
 xad : Language
 xad =
     Language { code = "xad" }
 
-{-| Aequian -}
+
+{-| Aequian
+-}
 xae : Language
 xae =
     Language { code = "xae" }
 
-{-| Aghwan -}
+
+{-| Aghwan
+-}
 xag : Language
 xag =
     Language { code = "xag" }
 
-{-| Kaimbé -}
+
+{-| Kaimbé
+-}
 xai : Language
 xai =
     Language { code = "xai" }
 
-{-| Ararandewára -}
+
+{-| Ararandewára
+-}
 xaj : Language
 xaj =
     Language { code = "xaj" }
 
-{-| Máku -}
+
+{-| Máku
+-}
 xak : Language
 xak =
     Language { code = "xak" }
 
+
 {-| Kalmyk
-Oirat -}
+Oirat
+-}
 xal : Language
 xal =
     Language { code = "xal" }
 
-{-| ǀXam -}
+
+{-| ǀXam
+-}
 xam : Language
 xam =
     Language { code = "xam" }
 
-{-| Xamtanga -}
+
+{-| Xamtanga
+-}
 xan : Language
 xan =
     Language { code = "xan" }
 
-{-| Khao -}
+
+{-| Khao
+-}
 xao : Language
 xao =
     Language { code = "xao" }
 
-{-| Apalachee -}
+
+{-| Apalachee
+-}
 xap : Language
 xap =
     Language { code = "xap" }
 
-{-| Aquitanian -}
+
+{-| Aquitanian
+-}
 xaq : Language
 xaq =
     Language { code = "xaq" }
 
-{-| Karami -}
+
+{-| Karami
+-}
 xar : Language
 xar =
     Language { code = "xar" }
 
-{-| Kamas -}
+
+{-| Kamas
+-}
 xas : Language
 xas =
     Language { code = "xas" }
 
-{-| Katawixi -}
+
+{-| Katawixi
+-}
 xat : Language
 xat =
     Language { code = "xat" }
 
-{-| Kauwera -}
+
+{-| Kauwera
+-}
 xau : Language
 xau =
     Language { code = "xau" }
 
-{-| Xavánte -}
+
+{-| Xavánte
+-}
 xav : Language
 xav =
     Language { code = "xav" }
 
-{-| Kawaiisu -}
+
+{-| Kawaiisu
+-}
 xaw : Language
 xaw =
     Language { code = "xaw" }
 
-{-| Kayan Mahakam -}
+
+{-| Kayan Mahakam
+-}
 xay : Language
 xay =
     Language { code = "xay" }
 
-{-| Kamba (Brazil) -}
+
+{-| Kamba (Brazil)
+-}
 xba : Language
 xba =
     Language { code = "xba" }
 
-{-| Lower Burdekin -}
+
+{-| Lower Burdekin
+-}
 xbb : Language
 xbb =
     Language { code = "xbb" }
 
-{-| Bactrian -}
+
+{-| Bactrian
+-}
 xbc : Language
 xbc =
     Language { code = "xbc" }
 
-{-| Bindal -}
+
+{-| Bindal
+-}
 xbd : Language
 xbd =
     Language { code = "xbd" }
 
-{-| Bigambal -}
+
+{-| Bigambal
+-}
 xbe : Language
 xbe =
     Language { code = "xbe" }
 
-{-| Bunganditj -}
+
+{-| Bunganditj
+-}
 xbg : Language
 xbg =
     Language { code = "xbg" }
 
-{-| Kombio -}
+
+{-| Kombio
+-}
 xbi : Language
 xbi =
     Language { code = "xbi" }
 
-{-| Birrpayi -}
+
+{-| Birrpayi
+-}
 xbj : Language
 xbj =
     Language { code = "xbj" }
 
-{-| Middle Breton -}
+
+{-| Middle Breton
+-}
 xbm : Language
 xbm =
     Language { code = "xbm" }
 
-{-| Kenaboi -}
+
+{-| Kenaboi
+-}
 xbn : Language
 xbn =
     Language { code = "xbn" }
 
-{-| Bolgarian -}
+
+{-| Bolgarian
+-}
 xbo : Language
 xbo =
     Language { code = "xbo" }
 
-{-| Bibbulman -}
+
+{-| Bibbulman
+-}
 xbp : Language
 xbp =
     Language { code = "xbp" }
 
-{-| Kambera -}
+
+{-| Kambera
+-}
 xbr : Language
 xbr =
     Language { code = "xbr" }
 
-{-| Kambiwá -}
+
+{-| Kambiwá
+-}
 xbw : Language
 xbw =
     Language { code = "xbw" }
 
-{-| Kabixí -}
+
+{-| Kabixí
+-}
 xbx : Language
 xbx =
     Language { code = "xbx" }
 
+
 {-| Batjala
-Batyala -}
+Batyala
+-}
 xby : Language
 xby =
     Language { code = "xby" }
 
-{-| Cumbric -}
+
+{-| Cumbric
+-}
 xcb : Language
 xcb =
     Language { code = "xcb" }
 
-{-| Camunic -}
+
+{-| Camunic
+-}
 xcc : Language
 xcc =
     Language { code = "xcc" }
 
-{-| Celtiberian -}
+
+{-| Celtiberian
+-}
 xce : Language
 xce =
     Language { code = "xce" }
 
-{-| Cisalpine Gaulish -}
+
+{-| Cisalpine Gaulish
+-}
 xcg : Language
 xcg =
     Language { code = "xcg" }
 
+
 {-| Chemakum
-Chimakum -}
+Chimakum
+-}
 xch : Language
 xch =
     Language { code = "xch" }
 
-{-| Classical Armenian -}
+
+{-| Classical Armenian
+-}
 xcl : Language
 xcl =
     Language { code = "xcl" }
 
-{-| Comecrudo -}
+
+{-| Comecrudo
+-}
 xcm : Language
 xcm =
     Language { code = "xcm" }
 
-{-| Cotoname -}
+
+{-| Cotoname
+-}
 xcn : Language
 xcn =
     Language { code = "xcn" }
 
-{-| Chorasmian -}
+
+{-| Chorasmian
+-}
 xco : Language
 xco =
     Language { code = "xco" }
 
-{-| Carian -}
+
+{-| Carian
+-}
 xcr : Language
 xcr =
     Language { code = "xcr" }
 
-{-| Classical Tibetan -}
+
+{-| Classical Tibetan
+-}
 xct : Language
 xct =
     Language { code = "xct" }
 
-{-| Curonian -}
+
+{-| Curonian
+-}
 xcu : Language
 xcu =
     Language { code = "xcu" }
 
-{-| Chuvantsy -}
+
+{-| Chuvantsy
+-}
 xcv : Language
 xcv =
     Language { code = "xcv" }
 
-{-| Coahuilteco -}
+
+{-| Coahuilteco
+-}
 xcw : Language
 xcw =
     Language { code = "xcw" }
 
-{-| Cayuse -}
+
+{-| Cayuse
+-}
 xcy : Language
 xcy =
     Language { code = "xcy" }
 
-{-| Darkinyung -}
+
+{-| Darkinyung
+-}
 xda : Language
 xda =
     Language { code = "xda" }
 
-{-| Dacian -}
+
+{-| Dacian
+-}
 xdc : Language
 xdc =
     Language { code = "xdc" }
 
-{-| Dharuk -}
+
+{-| Dharuk
+-}
 xdk : Language
 xdk =
     Language { code = "xdk" }
 
-{-| Edomite -}
+
+{-| Edomite
+-}
 xdm : Language
 xdm =
     Language { code = "xdm" }
 
-{-| Kwandu -}
+
+{-| Kwandu
+-}
 xdo : Language
 xdo =
     Language { code = "xdo" }
 
-{-| Malayic Dayak -}
+
+{-| Malayic Dayak
+-}
 xdy : Language
 xdy =
     Language { code = "xdy" }
 
-{-| Eblan -}
+
+{-| Eblan
+-}
 xeb : Language
 xeb =
     Language { code = "xeb" }
 
-{-| Hdi -}
+
+{-| Hdi
+-}
 xed : Language
 xed =
     Language { code = "xed" }
 
-{-| ǁXegwi -}
+
+{-| ǁXegwi
+-}
 xeg : Language
 xeg =
     Language { code = "xeg" }
 
-{-| Kelo -}
+
+{-| Kelo
+-}
 xel : Language
 xel =
     Language { code = "xel" }
 
-{-| Kembayan -}
+
+{-| Kembayan
+-}
 xem : Language
 xem =
     Language { code = "xem" }
 
-{-| Epi-Olmec -}
+
+{-| Epi-Olmec
+-}
 xep : Language
 xep =
     Language { code = "xep" }
 
-{-| Xerénte -}
+
+{-| Xerénte
+-}
 xer : Language
 xer =
     Language { code = "xer" }
 
-{-| Kesawai -}
+
+{-| Kesawai
+-}
 xes : Language
 xes =
     Language { code = "xes" }
 
-{-| Xetá -}
+
+{-| Xetá
+-}
 xet : Language
 xet =
     Language { code = "xet" }
 
-{-| Keoru-Ahia -}
+
+{-| Keoru-Ahia
+-}
 xeu : Language
 xeu =
     Language { code = "xeu" }
 
-{-| Faliscan -}
+
+{-| Faliscan
+-}
 xfa : Language
 xfa =
     Language { code = "xfa" }
 
-{-| Galatian -}
+
+{-| Galatian
+-}
 xga : Language
 xga =
     Language { code = "xga" }
 
-{-| Gbin -}
+
+{-| Gbin
+-}
 xgb : Language
 xgb =
     Language { code = "xgb" }
 
-{-| Gudang -}
+
+{-| Gudang
+-}
 xgd : Language
 xgd =
     Language { code = "xgd" }
 
-{-| Gabrielino-Fernandeño -}
+
+{-| Gabrielino-Fernandeño
+-}
 xgf : Language
 xgf =
     Language { code = "xgf" }
 
-{-| Goreng -}
+
+{-| Goreng
+-}
 xgg : Language
 xgg =
     Language { code = "xgg" }
 
-{-| Garingbal -}
+
+{-| Garingbal
+-}
 xgi : Language
 xgi =
     Language { code = "xgi" }
 
-{-| Galindan -}
+
+{-| Galindan
+-}
 xgl : Language
 xgl =
     Language { code = "xgl" }
 
+
 {-| Dharumbal
-Guwinmal -}
+Guwinmal
+-}
 xgm : Language
 xgm =
     Language { code = "xgm" }
 
-{-| Mongolian languages -}
+
+{-| Mongolian languages
+-}
 xgn : Language
 xgn =
     Language { code = "xgn" }
 
-{-| Garza -}
+
+{-| Garza
+-}
 xgr : Language
 xgr =
     Language { code = "xgr" }
 
-{-| Unggumi -}
+
+{-| Unggumi
+-}
 xgu : Language
 xgu =
     Language { code = "xgu" }
 
-{-| Guwa -}
+
+{-| Guwa
+-}
 xgw : Language
 xgw =
     Language { code = "xgw" }
 
-{-| Xhosa -}
+
+{-| Xhosa
+-}
 xh : Language
 xh =
     Language { code = "xh" }
 
-{-| Harami -}
+
+{-| Harami
+-}
 xha : Language
 xha =
     Language { code = "xha" }
 
-{-| Hunnic -}
+
+{-| Hunnic
+-}
 xhc : Language
 xhc =
     Language { code = "xhc" }
 
-{-| Hadrami -}
+
+{-| Hadrami
+-}
 xhd : Language
 xhd =
     Language { code = "xhd" }
 
-{-| Khetrani -}
+
+{-| Khetrani
+-}
 xhe : Language
 xhe =
     Language { code = "xhe" }
 
-{-| Hernican -}
+
+{-| Hernican
+-}
 xhr : Language
 xhr =
     Language { code = "xhr" }
 
-{-| Hattic -}
+
+{-| Hattic
+-}
 xht : Language
 xht =
     Language { code = "xht" }
 
-{-| Hurrian -}
+
+{-| Hurrian
+-}
 xhu : Language
 xhu =
     Language { code = "xhu" }
 
-{-| Khua -}
+
+{-| Khua
+-}
 xhv : Language
 xhv =
     Language { code = "xhv" }
 
-{-| Xiandao -}
+
+{-| Xiandao
+-}
 xia : Language
 xia =
     Language { code = "xia" }
 
-{-| Iberian -}
+
+{-| Iberian
+-}
 xib : Language
 xib =
     Language { code = "xib" }
 
-{-| Xiri -}
+
+{-| Xiri
+-}
 xii : Language
 xii =
     Language { code = "xii" }
 
-{-| Illyrian -}
+
+{-| Illyrian
+-}
 xil : Language
 xil =
     Language { code = "xil" }
 
-{-| Xinca -}
+
+{-| Xinca
+-}
 xin : Language
 xin =
     Language { code = "xin" }
 
-{-| Xipináwa -}
+
+{-| Xipináwa
+-}
 xip : Language
 xip =
     Language { code = "xip" }
 
-{-| Xiriâna -}
+
+{-| Xiriâna
+-}
 xir : Language
 xir =
     Language { code = "xir" }
 
-{-| Kisan -}
+
+{-| Kisan
+-}
 xis : Language
 xis =
     Language { code = "xis" }
 
-{-| Indus Valley Language -}
+
+{-| Indus Valley Language
+-}
 xiv : Language
 xiv =
     Language { code = "xiv" }
 
-{-| Xipaya -}
+
+{-| Xipaya
+-}
 xiy : Language
 xiy =
     Language { code = "xiy" }
 
-{-| Minjungbal -}
+
+{-| Minjungbal
+-}
 xjb : Language
 xjb =
     Language { code = "xjb" }
 
-{-| Jaitmatang -}
+
+{-| Jaitmatang
+-}
 xjt : Language
 xjt =
     Language { code = "xjt" }
 
-{-| Kalkoti -}
+
+{-| Kalkoti
+-}
 xka : Language
 xka =
     Language { code = "xka" }
 
-{-| Northern Nago -}
+
+{-| Northern Nago
+-}
 xkb : Language
 xkb =
     Language { code = "xkb" }
 
-{-| Kho'ini -}
+
+{-| Kho'ini
+-}
 xkc : Language
 xkc =
     Language { code = "xkc" }
 
-{-| Mendalam Kayan -}
+
+{-| Mendalam Kayan
+-}
 xkd : Language
 xkd =
     Language { code = "xkd" }
 
-{-| Kereho -}
+
+{-| Kereho
+-}
 xke : Language
 xke =
     Language { code = "xke" }
 
-{-| Khengkha -}
+
+{-| Khengkha
+-}
 xkf : Language
 xkf =
     Language { code = "xkf" }
 
-{-| Kagoro -}
+
+{-| Kagoro
+-}
 xkg : Language
 xkg =
     Language { code = "xkg" }
 
-{-| Karahawyana -}
+
+{-| Karahawyana
+-}
 xkh : Language
 xkh =
     Language { code = "xkh" }
 
-{-| Kenyan Sign Language -}
+
+{-| Kenyan Sign Language
+-}
 xki : Language
 xki =
     Language { code = "xki" }
 
-{-| Kajali -}
+
+{-| Kajali
+-}
 xkj : Language
 xkj =
     Language { code = "xkj" }
 
-{-| Kaco' -}
+
+{-| Kaco'
+-}
 xkk : Language
 xkk =
     Language { code = "xkk" }
 
-{-| Mainstream Kenyah -}
+
+{-| Mainstream Kenyah
+-}
 xkl : Language
 xkl =
     Language { code = "xkl" }
 
-{-| Kayan River Kayan -}
+
+{-| Kayan River Kayan
+-}
 xkn : Language
 xkn =
     Language { code = "xkn" }
 
-{-| Kiorr -}
+
+{-| Kiorr
+-}
 xko : Language
 xko =
     Language { code = "xko" }
 
-{-| Kabatei -}
+
+{-| Kabatei
+-}
 xkp : Language
 xkp =
     Language { code = "xkp" }
 
-{-| Koroni -}
+
+{-| Koroni
+-}
 xkq : Language
 xkq =
     Language { code = "xkq" }
 
-{-| Xakriabá -}
+
+{-| Xakriabá
+-}
 xkr : Language
 xkr =
     Language { code = "xkr" }
 
-{-| Kumbewaha -}
+
+{-| Kumbewaha
+-}
 xks : Language
 xks =
     Language { code = "xks" }
 
-{-| Kantosi -}
+
+{-| Kantosi
+-}
 xkt : Language
 xkt =
     Language { code = "xkt" }
 
-{-| Kaamba -}
+
+{-| Kaamba
+-}
 xku : Language
 xku =
     Language { code = "xku" }
 
-{-| Kgalagadi -}
+
+{-| Kgalagadi
+-}
 xkv : Language
 xkv =
     Language { code = "xkv" }
 
-{-| Kembra -}
+
+{-| Kembra
+-}
 xkw : Language
 xkw =
     Language { code = "xkw" }
 
-{-| Karore -}
+
+{-| Karore
+-}
 xkx : Language
 xkx =
     Language { code = "xkx" }
 
-{-| Uma' Lasan -}
+
+{-| Uma' Lasan
+-}
 xky : Language
 xky =
     Language { code = "xky" }
 
-{-| Kurtokha -}
+
+{-| Kurtokha
+-}
 xkz : Language
 xkz =
     Language { code = "xkz" }
 
-{-| Kamula -}
+
+{-| Kamula
+-}
 xla : Language
 xla =
     Language { code = "xla" }
 
-{-| Loup B -}
+
+{-| Loup B
+-}
 xlb : Language
 xlb =
     Language { code = "xlb" }
 
-{-| Lycian -}
+
+{-| Lycian
+-}
 xlc : Language
 xlc =
     Language { code = "xlc" }
 
-{-| Lydian -}
+
+{-| Lydian
+-}
 xld : Language
 xld =
     Language { code = "xld" }
 
-{-| Lemnian -}
+
+{-| Lemnian
+-}
 xle : Language
 xle =
     Language { code = "xle" }
 
-{-| Ligurian (Ancient) -}
+
+{-| Ligurian (Ancient)
+-}
 xlg : Language
 xlg =
     Language { code = "xlg" }
 
-{-| Liburnian -}
+
+{-| Liburnian
+-}
 xli : Language
 xli =
     Language { code = "xli" }
 
-{-| Alanic -}
+
+{-| Alanic
+-}
 xln : Language
 xln =
     Language { code = "xln" }
 
-{-| Loup A -}
+
+{-| Loup A
+-}
 xlo : Language
 xlo =
     Language { code = "xlo" }
 
-{-| Lepontic -}
+
+{-| Lepontic
+-}
 xlp : Language
 xlp =
     Language { code = "xlp" }
 
-{-| Lusitanian -}
+
+{-| Lusitanian
+-}
 xls : Language
 xls =
     Language { code = "xls" }
 
-{-| Cuneiform Luwian -}
+
+{-| Cuneiform Luwian
+-}
 xlu : Language
 xlu =
     Language { code = "xlu" }
 
-{-| Elymian -}
+
+{-| Elymian
+-}
 xly : Language
 xly =
     Language { code = "xly" }
 
-{-| Mushungulu -}
+
+{-| Mushungulu
+-}
 xma : Language
 xma =
     Language { code = "xma" }
 
-{-| Mbonga -}
+
+{-| Mbonga
+-}
 xmb : Language
 xmb =
     Language { code = "xmb" }
 
-{-| Makhuwa-Marrevone -}
+
+{-| Makhuwa-Marrevone
+-}
 xmc : Language
 xmc =
     Language { code = "xmc" }
 
-{-| Mbudum -}
+
+{-| Mbudum
+-}
 xmd : Language
 xmd =
     Language { code = "xmd" }
 
-{-| Median -}
+
+{-| Median
+-}
 xme : Language
 xme =
     Language { code = "xme" }
 
-{-| Mingrelian -}
+
+{-| Mingrelian
+-}
 xmf : Language
 xmf =
     Language { code = "xmf" }
 
-{-| Mengaka -}
+
+{-| Mengaka
+-}
 xmg : Language
 xmg =
     Language { code = "xmg" }
 
-{-| Kugu-Muminh -}
+
+{-| Kugu-Muminh
+-}
 xmh : Language
 xmh =
     Language { code = "xmh" }
 
-{-| Majera -}
+
+{-| Majera
+-}
 xmj : Language
 xmj =
     Language { code = "xmj" }
 
-{-| Ancient Macedonian -}
+
+{-| Ancient Macedonian
+-}
 xmk : Language
 xmk =
     Language { code = "xmk" }
 
-{-| Malaysian Sign Language -}
+
+{-| Malaysian Sign Language
+-}
 xml : Language
 xml =
     Language { code = "xml" }
 
-{-| Manado Malay -}
+
+{-| Manado Malay
+-}
 xmm : Language
 xmm =
     Language { code = "xmm" }
 
-{-| Manichaean Middle Persian -}
+
+{-| Manichaean Middle Persian
+-}
 xmn : Language
 xmn =
     Language { code = "xmn" }
 
-{-| Morerebi -}
+
+{-| Morerebi
+-}
 xmo : Language
 xmo =
     Language { code = "xmo" }
 
-{-| Kuku-Mu'inh -}
+
+{-| Kuku-Mu'inh
+-}
 xmp : Language
 xmp =
     Language { code = "xmp" }
 
-{-| Kuku-Mangk -}
+
+{-| Kuku-Mangk
+-}
 xmq : Language
 xmq =
     Language { code = "xmq" }
 
-{-| Meroitic -}
+
+{-| Meroitic
+-}
 xmr : Language
 xmr =
     Language { code = "xmr" }
 
-{-| Moroccan Sign Language -}
+
+{-| Moroccan Sign Language
+-}
 xms : Language
 xms =
     Language { code = "xms" }
 
-{-| Matbat -}
+
+{-| Matbat
+-}
 xmt : Language
 xmt =
     Language { code = "xmt" }
 
-{-| Kamu -}
+
+{-| Kamu
+-}
 xmu : Language
 xmu =
     Language { code = "xmu" }
 
+
 {-| Antankarana Malagasy
-Tankarana Malagasy -}
+Tankarana Malagasy
+-}
 xmv : Language
 xmv =
     Language { code = "xmv" }
 
-{-| Tsimihety Malagasy -}
+
+{-| Tsimihety Malagasy
+-}
 xmw : Language
 xmw =
     Language { code = "xmw" }
 
-{-| Maden -}
+
+{-| Maden
+-}
 xmx : Language
 xmx =
     Language { code = "xmx" }
 
-{-| Mayaguduna -}
+
+{-| Mayaguduna
+-}
 xmy : Language
 xmy =
     Language { code = "xmy" }
 
-{-| Mori Bawah -}
+
+{-| Mori Bawah
+-}
 xmz : Language
 xmz =
     Language { code = "xmz" }
 
-{-| Ancient North Arabian -}
+
+{-| Ancient North Arabian
+-}
 xna : Language
 xna =
     Language { code = "xna" }
 
-{-| Kanakanabu -}
+
+{-| Kanakanabu
+-}
 xnb : Language
 xnb =
     Language { code = "xnb" }
 
-{-| Na-Dene languages -}
+
+{-| Na-Dene languages
+-}
 xnd : Language
 xnd =
     Language { code = "xnd" }
 
-{-| Middle Mongolian -}
+
+{-| Middle Mongolian
+-}
 xng : Language
 xng =
     Language { code = "xng" }
 
-{-| Kuanhua -}
+
+{-| Kuanhua
+-}
 xnh : Language
 xnh =
     Language { code = "xnh" }
 
-{-| Ngarigu -}
+
+{-| Ngarigu
+-}
 xni : Language
 xni =
     Language { code = "xni" }
 
-{-| Nganakarti -}
+
+{-| Nganakarti
+-}
 xnk : Language
 xnk =
     Language { code = "xnk" }
 
-{-| Ngumbarl -}
+
+{-| Ngumbarl
+-}
 xnm : Language
 xnm =
     Language { code = "xnm" }
 
-{-| Northern Kankanay -}
+
+{-| Northern Kankanay
+-}
 xnn : Language
 xnn =
     Language { code = "xnn" }
 
-{-| Anglo-Norman -}
+
+{-| Anglo-Norman
+-}
 xno : Language
 xno =
     Language { code = "xno" }
 
-{-| Kangri -}
+
+{-| Kangri
+-}
 xnr : Language
 xnr =
     Language { code = "xnr" }
 
-{-| Kanashi -}
+
+{-| Kanashi
+-}
 xns : Language
 xns =
     Language { code = "xns" }
 
-{-| Narragansett -}
+
+{-| Narragansett
+-}
 xnt : Language
 xnt =
     Language { code = "xnt" }
 
-{-| Nukunul -}
+
+{-| Nukunul
+-}
 xnu : Language
 xnu =
     Language { code = "xnu" }
 
-{-| Nyiyaparli -}
+
+{-| Nyiyaparli
+-}
 xny : Language
 xny =
     Language { code = "xny" }
 
+
 {-| Kenzi
-Mattoki -}
+Mattoki
+-}
 xnz : Language
 xnz =
     Language { code = "xnz" }
 
-{-| O'chi'chi' -}
+
+{-| O'chi'chi'
+-}
 xoc : Language
 xoc =
     Language { code = "xoc" }
 
-{-| Kokoda -}
+
+{-| Kokoda
+-}
 xod : Language
 xod =
     Language { code = "xod" }
 
-{-| Soga -}
+
+{-| Soga
+-}
 xog : Language
 xog =
     Language { code = "xog" }
 
-{-| Kominimung -}
+
+{-| Kominimung
+-}
 xoi : Language
 xoi =
     Language { code = "xoi" }
 
-{-| Xokleng -}
+
+{-| Xokleng
+-}
 xok : Language
 xok =
     Language { code = "xok" }
 
-{-| Komo (Sudan) -}
+
+{-| Komo (Sudan)
+-}
 xom : Language
 xom =
     Language { code = "xom" }
 
-{-| Konkomba -}
+
+{-| Konkomba
+-}
 xon : Language
 xon =
     Language { code = "xon" }
 
-{-| Xukurú -}
+
+{-| Xukurú
+-}
 xoo : Language
 xoo =
     Language { code = "xoo" }
 
-{-| Kopar -}
+
+{-| Kopar
+-}
 xop : Language
 xop =
     Language { code = "xop" }
 
-{-| Korubo -}
+
+{-| Korubo
+-}
 xor : Language
 xor =
     Language { code = "xor" }
 
-{-| Kowaki -}
+
+{-| Kowaki
+-}
 xow : Language
 xow =
     Language { code = "xow" }
 
-{-| Pirriya -}
+
+{-| Pirriya
+-}
 xpa : Language
 xpa =
     Language { code = "xpa" }
 
+
 {-| Northeastern Tasmanian
-Pyemmairrener -}
+Pyemmairrener
+-}
 xpb : Language
 xpb =
     Language { code = "xpb" }
 
-{-| Pecheneg -}
+
+{-| Pecheneg
+-}
 xpc : Language
 xpc =
     Language { code = "xpc" }
 
-{-| Oyster Bay Tasmanian -}
+
+{-| Oyster Bay Tasmanian
+-}
 xpd : Language
 xpd =
     Language { code = "xpd" }
 
-{-| Liberia Kpelle -}
+
+{-| Liberia Kpelle
+-}
 xpe : Language
 xpe =
     Language { code = "xpe" }
 
+
 {-| Southeast Tasmanian
-Nuenonne -}
+Nuenonne
+-}
 xpf : Language
 xpf =
     Language { code = "xpf" }
 
-{-| Phrygian -}
+
+{-| Phrygian
+-}
 xpg : Language
 xpg =
     Language { code = "xpg" }
 
+
 {-| North Midlands Tasmanian
-Tyerrenoterpanner -}
+Tyerrenoterpanner
+-}
 xph : Language
 xph =
     Language { code = "xph" }
 
-{-| Pictish -}
+
+{-| Pictish
+-}
 xpi : Language
 xpi =
     Language { code = "xpi" }
 
-{-| Mpalitjanh -}
+
+{-| Mpalitjanh
+-}
 xpj : Language
 xpj =
     Language { code = "xpj" }
 
-{-| Kulina Pano -}
+
+{-| Kulina Pano
+-}
 xpk : Language
 xpk =
     Language { code = "xpk" }
 
-{-| Port Sorell Tasmanian -}
+
+{-| Port Sorell Tasmanian
+-}
 xpl : Language
 xpl =
     Language { code = "xpl" }
 
-{-| Pumpokol -}
+
+{-| Pumpokol
+-}
 xpm : Language
 xpm =
     Language { code = "xpm" }
 
-{-| Kapinawá -}
+
+{-| Kapinawá
+-}
 xpn : Language
 xpn =
     Language { code = "xpn" }
 
-{-| Pochutec -}
+
+{-| Pochutec
+-}
 xpo : Language
 xpo =
     Language { code = "xpo" }
 
-{-| Puyo-Paekche -}
+
+{-| Puyo-Paekche
+-}
 xpp : Language
 xpp =
     Language { code = "xpp" }
 
-{-| Mohegan-Pequot -}
+
+{-| Mohegan-Pequot
+-}
 xpq : Language
 xpq =
     Language { code = "xpq" }
 
-{-| Parthian -}
+
+{-| Parthian
+-}
 xpr : Language
 xpr =
     Language { code = "xpr" }
 
-{-| Pisidian -}
+
+{-| Pisidian
+-}
 xps : Language
 xps =
     Language { code = "xps" }
 
-{-| Punthamara -}
+
+{-| Punthamara
+-}
 xpt : Language
 xpt =
     Language { code = "xpt" }
 
-{-| Punic -}
+
+{-| Punic
+-}
 xpu : Language
 xpu =
     Language { code = "xpu" }
 
+
 {-| Northern Tasmanian
-Tommeginne -}
+Tommeginne
+-}
 xpv : Language
 xpv =
     Language { code = "xpv" }
 
+
 {-| Northwestern Tasmanian
-Peerapper -}
+Peerapper
+-}
 xpw : Language
 xpw =
     Language { code = "xpw" }
 
+
 {-| Southwestern Tasmanian
-Toogee -}
+Toogee
+-}
 xpx : Language
 xpx =
     Language { code = "xpx" }
 
-{-| Puyo -}
+
+{-| Puyo
+-}
 xpy : Language
 xpy =
     Language { code = "xpy" }
 
-{-| Bruny Island Tasmanian -}
+
+{-| Bruny Island Tasmanian
+-}
 xpz : Language
 xpz =
     Language { code = "xpz" }
 
-{-| Karakhanid -}
+
+{-| Karakhanid
+-}
 xqa : Language
 xqa =
     Language { code = "xqa" }
 
-{-| Qatabanian -}
+
+{-| Qatabanian
+-}
 xqt : Language
 xqt =
     Language { code = "xqt" }
 
-{-| Krahô -}
+
+{-| Krahô
+-}
 xra : Language
 xra =
     Language { code = "xra" }
 
-{-| Eastern Karaboro -}
+
+{-| Eastern Karaboro
+-}
 xrb : Language
 xrb =
     Language { code = "xrb" }
 
-{-| Gundungurra -}
+
+{-| Gundungurra
+-}
 xrd : Language
 xrd =
     Language { code = "xrd" }
 
-{-| Kreye -}
+
+{-| Kreye
+-}
 xre : Language
 xre =
     Language { code = "xre" }
 
-{-| Minang -}
+
+{-| Minang
+-}
 xrg : Language
 xrg =
     Language { code = "xrg" }
 
-{-| Krikati-Timbira -}
+
+{-| Krikati-Timbira
+-}
 xri : Language
 xri =
     Language { code = "xri" }
 
-{-| Armazic -}
+
+{-| Armazic
+-}
 xrm : Language
 xrm =
     Language { code = "xrm" }
 
-{-| Arin -}
+
+{-| Arin
+-}
 xrn : Language
 xrn =
     Language { code = "xrn" }
 
-{-| Karranga -}
+
+{-| Karranga
+-}
 xrq : Language
 xrq =
     Language { code = "xrq" }
 
-{-| Raetic -}
+
+{-| Raetic
+-}
 xrr : Language
 xrr =
     Language { code = "xrr" }
 
-{-| Aranama-Tamique -}
+
+{-| Aranama-Tamique
+-}
 xrt : Language
 xrt =
     Language { code = "xrt" }
 
-{-| Marriammu -}
+
+{-| Marriammu
+-}
 xru : Language
 xru =
     Language { code = "xru" }
 
-{-| Karawa -}
+
+{-| Karawa
+-}
 xrw : Language
 xrw =
     Language { code = "xrw" }
 
-{-| Sabaean -}
+
+{-| Sabaean
+-}
 xsa : Language
 xsa =
     Language { code = "xsa" }
 
-{-| Sambal -}
+
+{-| Sambal
+-}
 xsb : Language
 xsb =
     Language { code = "xsb" }
 
-{-| Scythian -}
+
+{-| Scythian
+-}
 xsc : Language
 xsc =
     Language { code = "xsc" }
 
-{-| Sidetic -}
+
+{-| Sidetic
+-}
 xsd : Language
 xsd =
     Language { code = "xsd" }
 
-{-| Sempan -}
+
+{-| Sempan
+-}
 xse : Language
 xse =
     Language { code = "xse" }
 
-{-| Shamang -}
+
+{-| Shamang
+-}
 xsh : Language
 xsh =
     Language { code = "xsh" }
 
-{-| Sio -}
+
+{-| Sio
+-}
 xsi : Language
 xsi =
     Language { code = "xsi" }
 
-{-| Subi -}
+
+{-| Subi
+-}
 xsj : Language
 xsj =
     Language { code = "xsj" }
 
-{-| South Slavey -}
+
+{-| South Slavey
+-}
 xsl : Language
 xsl =
     Language { code = "xsl" }
 
-{-| Kasem -}
+
+{-| Kasem
+-}
 xsm : Language
 xsm =
     Language { code = "xsm" }
 
-{-| Sanga (Nigeria) -}
+
+{-| Sanga (Nigeria)
+-}
 xsn : Language
 xsn =
     Language { code = "xsn" }
 
-{-| Solano -}
+
+{-| Solano
+-}
 xso : Language
 xso =
     Language { code = "xso" }
 
-{-| Silopi -}
+
+{-| Silopi
+-}
 xsp : Language
 xsp =
     Language { code = "xsp" }
 
-{-| Makhuwa-Saka -}
+
+{-| Makhuwa-Saka
+-}
 xsq : Language
 xsq =
     Language { code = "xsq" }
 
-{-| Sherpa -}
+
+{-| Sherpa
+-}
 xsr : Language
 xsr =
     Language { code = "xsr" }
 
-{-| Assan -}
+
+{-| Assan
+-}
 xss : Language
 xss =
     Language { code = "xss" }
 
-{-| Sanumá -}
+
+{-| Sanumá
+-}
 xsu : Language
 xsu =
     Language { code = "xsu" }
 
-{-| Sudovian -}
+
+{-| Sudovian
+-}
 xsv : Language
 xsv =
     Language { code = "xsv" }
 
-{-| Saisiyat -}
+
+{-| Saisiyat
+-}
 xsy : Language
 xsy =
     Language { code = "xsy" }
 
-{-| Alcozauca Mixtec -}
+
+{-| Alcozauca Mixtec
+-}
 xta : Language
 xta =
     Language { code = "xta" }
 
-{-| Chazumba Mixtec -}
+
+{-| Chazumba Mixtec
+-}
 xtb : Language
 xtb =
     Language { code = "xtb" }
 
-{-| Katcha-Kadugli-Miri -}
+
+{-| Katcha-Kadugli-Miri
+-}
 xtc : Language
 xtc =
     Language { code = "xtc" }
 
-{-| Diuxi-Tilantongo Mixtec -}
+
+{-| Diuxi-Tilantongo Mixtec
+-}
 xtd : Language
 xtd =
     Language { code = "xtd" }
 
-{-| Ketengban -}
+
+{-| Ketengban
+-}
 xte : Language
 xte =
     Language { code = "xte" }
 
-{-| Transalpine Gaulish -}
+
+{-| Transalpine Gaulish
+-}
 xtg : Language
 xtg =
     Language { code = "xtg" }
 
-{-| Yitha Yitha -}
+
+{-| Yitha Yitha
+-}
 xth : Language
 xth =
     Language { code = "xth" }
 
-{-| Sinicahua Mixtec -}
+
+{-| Sinicahua Mixtec
+-}
 xti : Language
 xti =
     Language { code = "xti" }
 
-{-| San Juan Teita Mixtec -}
+
+{-| San Juan Teita Mixtec
+-}
 xtj : Language
 xtj =
     Language { code = "xtj" }
 
-{-| Tijaltepec Mixtec -}
+
+{-| Tijaltepec Mixtec
+-}
 xtl : Language
 xtl =
     Language { code = "xtl" }
 
-{-| Magdalena Peñasco Mixtec -}
+
+{-| Magdalena Peñasco Mixtec
+-}
 xtm : Language
 xtm =
     Language { code = "xtm" }
 
-{-| Northern Tlaxiaco Mixtec -}
+
+{-| Northern Tlaxiaco Mixtec
+-}
 xtn : Language
 xtn =
     Language { code = "xtn" }
 
-{-| Tokharian A -}
+
+{-| Tokharian A
+-}
 xto : Language
 xto =
     Language { code = "xto" }
 
-{-| San Miguel Piedras Mixtec -}
+
+{-| San Miguel Piedras Mixtec
+-}
 xtp : Language
 xtp =
     Language { code = "xtp" }
 
-{-| Tumshuqese -}
+
+{-| Tumshuqese
+-}
 xtq : Language
 xtq =
     Language { code = "xtq" }
 
-{-| Early Tripuri -}
+
+{-| Early Tripuri
+-}
 xtr : Language
 xtr =
     Language { code = "xtr" }
 
-{-| Sindihui Mixtec -}
+
+{-| Sindihui Mixtec
+-}
 xts : Language
 xts =
     Language { code = "xts" }
 
-{-| Tacahua Mixtec -}
+
+{-| Tacahua Mixtec
+-}
 xtt : Language
 xtt =
     Language { code = "xtt" }
 
-{-| Cuyamecalco Mixtec -}
+
+{-| Cuyamecalco Mixtec
+-}
 xtu : Language
 xtu =
     Language { code = "xtu" }
 
-{-| Thawa -}
+
+{-| Thawa
+-}
 xtv : Language
 xtv =
     Language { code = "xtv" }
 
-{-| Tawandê -}
+
+{-| Tawandê
+-}
 xtw : Language
 xtw =
     Language { code = "xtw" }
 
-{-| Yoloxochitl Mixtec -}
+
+{-| Yoloxochitl Mixtec
+-}
 xty : Language
 xty =
     Language { code = "xty" }
 
-{-| Tasmanian -}
+
+{-| Tasmanian
+-}
 xtz : Language
 xtz =
     Language { code = "xtz" }
 
-{-| Alu Kurumba -}
+
+{-| Alu Kurumba
+-}
 xua : Language
 xua =
     Language { code = "xua" }
 
-{-| Betta Kurumba -}
+
+{-| Betta Kurumba
+-}
 xub : Language
 xub =
     Language { code = "xub" }
 
-{-| Umiida -}
+
+{-| Umiida
+-}
 xud : Language
 xud =
     Language { code = "xud" }
 
-{-| Kunigami -}
+
+{-| Kunigami
+-}
 xug : Language
 xug =
     Language { code = "xug" }
 
-{-| Jennu Kurumba -}
+
+{-| Jennu Kurumba
+-}
 xuj : Language
 xuj =
     Language { code = "xuj" }
 
+
 {-| Ngunawal
-Nunukul -}
+Nunukul
+-}
 xul : Language
 xul =
     Language { code = "xul" }
 
-{-| Umbrian -}
+
+{-| Umbrian
+-}
 xum : Language
 xum =
     Language { code = "xum" }
 
-{-| Unggaranggu -}
+
+{-| Unggaranggu
+-}
 xun : Language
 xun =
     Language { code = "xun" }
 
-{-| Kuo -}
+
+{-| Kuo
+-}
 xuo : Language
 xuo =
     Language { code = "xuo" }
 
-{-| Upper Umpqua -}
+
+{-| Upper Umpqua
+-}
 xup : Language
 xup =
     Language { code = "xup" }
 
-{-| Urartian -}
+
+{-| Urartian
+-}
 xur : Language
 xur =
     Language { code = "xur" }
 
-{-| Kuthant -}
+
+{-| Kuthant
+-}
 xut : Language
 xut =
     Language { code = "xut" }
 
+
 {-| Kxoe
-Khwedam -}
+Khwedam
+-}
 xuu : Language
 xuu =
     Language { code = "xuu" }
 
-{-| Venetic -}
+
+{-| Venetic
+-}
 xve : Language
 xve =
     Language { code = "xve" }
 
-{-| Kamviri -}
+
+{-| Kamviri
+-}
 xvi : Language
 xvi =
     Language { code = "xvi" }
 
-{-| Vandalic -}
+
+{-| Vandalic
+-}
 xvn : Language
 xvn =
     Language { code = "xvn" }
 
-{-| Volscian -}
+
+{-| Volscian
+-}
 xvo : Language
 xvo =
     Language { code = "xvo" }
 
-{-| Vestinian -}
+
+{-| Vestinian
+-}
 xvs : Language
 xvs =
     Language { code = "xvs" }
 
-{-| Kwaza -}
+
+{-| Kwaza
+-}
 xwa : Language
 xwa =
     Language { code = "xwa" }
 
-{-| Woccon -}
+
+{-| Woccon
+-}
 xwc : Language
 xwc =
     Language { code = "xwc" }
 
-{-| Wadi Wadi -}
+
+{-| Wadi Wadi
+-}
 xwd : Language
 xwd =
     Language { code = "xwd" }
 
-{-| Xwela Gbe -}
+
+{-| Xwela Gbe
+-}
 xwe : Language
 xwe =
     Language { code = "xwe" }
 
-{-| Kwegu -}
+
+{-| Kwegu
+-}
 xwg : Language
 xwg =
     Language { code = "xwg" }
 
-{-| Wajuk -}
+
+{-| Wajuk
+-}
 xwj : Language
 xwj =
     Language { code = "xwj" }
 
-{-| Wangkumara -}
+
+{-| Wangkumara
+-}
 xwk : Language
 xwk =
     Language { code = "xwk" }
 
-{-| Western Xwla Gbe -}
+
+{-| Western Xwla Gbe
+-}
 xwl : Language
 xwl =
     Language { code = "xwl" }
 
-{-| Written Oirat -}
+
+{-| Written Oirat
+-}
 xwo : Language
 xwo =
     Language { code = "xwo" }
 
-{-| Kwerba Mamberamo -}
+
+{-| Kwerba Mamberamo
+-}
 xwr : Language
 xwr =
     Language { code = "xwr" }
 
-{-| Wotjobaluk -}
+
+{-| Wotjobaluk
+-}
 xwt : Language
 xwt =
     Language { code = "xwt" }
 
-{-| Wemba Wemba -}
+
+{-| Wemba Wemba
+-}
 xww : Language
 xww =
     Language { code = "xww" }
 
-{-| Boro (Ghana) -}
+
+{-| Boro (Ghana)
+-}
 xxb : Language
 xxb =
     Language { code = "xxb" }
 
-{-| Ke'o -}
+
+{-| Ke'o
+-}
 xxk : Language
 xxk =
     Language { code = "xxk" }
 
-{-| Minkin -}
+
+{-| Minkin
+-}
 xxm : Language
 xxm =
     Language { code = "xxm" }
 
-{-| Koropó -}
+
+{-| Koropó
+-}
 xxr : Language
 xxr =
     Language { code = "xxr" }
 
-{-| Tambora -}
+
+{-| Tambora
+-}
 xxt : Language
 xxt =
     Language { code = "xxt" }
 
-{-| Yaygir -}
+
+{-| Yaygir
+-}
 xya : Language
 xya =
     Language { code = "xya" }
 
-{-| Yandjibara -}
+
+{-| Yandjibara
+-}
 xyb : Language
 xyb =
     Language { code = "xyb" }
 
-{-| Mayi-Yapi -}
+
+{-| Mayi-Yapi
+-}
 xyj : Language
 xyj =
     Language { code = "xyj" }
 
-{-| Mayi-Kulan -}
+
+{-| Mayi-Kulan
+-}
 xyk : Language
 xyk =
     Language { code = "xyk" }
 
-{-| Yalakalore -}
+
+{-| Yalakalore
+-}
 xyl : Language
 xyl =
     Language { code = "xyl" }
 
-{-| Mayi-Thakurti -}
+
+{-| Mayi-Thakurti
+-}
 xyt : Language
 xyt =
     Language { code = "xyt" }
 
-{-| Yorta Yorta -}
+
+{-| Yorta Yorta
+-}
 xyy : Language
 xyy =
     Language { code = "xyy" }
 
-{-| Zhang-Zhung -}
+
+{-| Zhang-Zhung
+-}
 xzh : Language
 xzh =
     Language { code = "xzh" }
 
-{-| Zemgalian -}
+
+{-| Zemgalian
+-}
 xzm : Language
 xzm =
     Language { code = "xzm" }
 
-{-| Ancient Zapotec -}
+
+{-| Ancient Zapotec
+-}
 xzp : Language
 xzp =
     Language { code = "xzp" }
 
-{-| Yaminahua -}
+
+{-| Yaminahua
+-}
 yaa : Language
 yaa =
     Language { code = "yaa" }
 
-{-| Yuhup -}
+
+{-| Yuhup
+-}
 yab : Language
 yab =
     Language { code = "yab" }
 
-{-| Pass Valley Yali -}
+
+{-| Pass Valley Yali
+-}
 yac : Language
 yac =
     Language { code = "yac" }
 
-{-| Yagua -}
+
+{-| Yagua
+-}
 yad : Language
 yad =
     Language { code = "yad" }
 
-{-| Pumé -}
+
+{-| Pumé
+-}
 yae : Language
 yae =
     Language { code = "yae" }
 
-{-| Yaka (Democratic Republic of Congo) -}
+
+{-| Yaka (Democratic Republic of Congo)
+-}
 yaf : Language
 yaf =
     Language { code = "yaf" }
 
-{-| Yámana -}
+
+{-| Yámana
+-}
 yag : Language
 yag =
     Language { code = "yag" }
 
-{-| Yazgulyam -}
+
+{-| Yazgulyam
+-}
 yah : Language
 yah =
     Language { code = "yah" }
 
-{-| Yagnobi -}
+
+{-| Yagnobi
+-}
 yai : Language
 yai =
     Language { code = "yai" }
 
-{-| Banda-Yangere -}
+
+{-| Banda-Yangere
+-}
 yaj : Language
 yaj =
     Language { code = "yaj" }
 
-{-| Yakama -}
+
+{-| Yakama
+-}
 yak : Language
 yak =
     Language { code = "yak" }
 
-{-| Yalunka -}
+
+{-| Yalunka
+-}
 yal : Language
 yal =
     Language { code = "yal" }
 
-{-| Yamba -}
+
+{-| Yamba
+-}
 yam : Language
 yam =
     Language { code = "yam" }
 
-{-| Mayangna -}
+
+{-| Mayangna
+-}
 yan : Language
 yan =
     Language { code = "yan" }
 
-{-| Yao -}
+
+{-| Yao
+-}
 yao : Language
 yao =
     Language { code = "yao" }
 
-{-| Yapese -}
+
+{-| Yapese
+-}
 yap : Language
 yap =
     Language { code = "yap" }
 
-{-| Yaqui -}
+
+{-| Yaqui
+-}
 yaq : Language
 yaq =
     Language { code = "yaq" }
 
-{-| Yabarana -}
+
+{-| Yabarana
+-}
 yar : Language
 yar =
     Language { code = "yar" }
 
-{-| Nugunu (Cameroon) -}
+
+{-| Nugunu (Cameroon)
+-}
 yas : Language
 yas =
     Language { code = "yas" }
 
-{-| Yambeta -}
+
+{-| Yambeta
+-}
 yat : Language
 yat =
     Language { code = "yat" }
 
-{-| Yuwana -}
+
+{-| Yuwana
+-}
 yau : Language
 yau =
     Language { code = "yau" }
 
-{-| Yangben -}
+
+{-| Yangben
+-}
 yav : Language
 yav =
     Language { code = "yav" }
 
-{-| Yawalapití -}
+
+{-| Yawalapití
+-}
 yaw : Language
 yaw =
     Language { code = "yaw" }
 
-{-| Yauma -}
+
+{-| Yauma
+-}
 yax : Language
 yax =
     Language { code = "yax" }
 
-{-| Agwagwune -}
+
+{-| Agwagwune
+-}
 yay : Language
 yay =
     Language { code = "yay" }
 
-{-| Lokaa -}
+
+{-| Lokaa
+-}
 yaz : Language
 yaz =
     Language { code = "yaz" }
 
-{-| Yala -}
+
+{-| Yala
+-}
 yba : Language
 yba =
     Language { code = "yba" }
 
-{-| Yemba -}
+
+{-| Yemba
+-}
 ybb : Language
 ybb =
     Language { code = "ybb" }
 
-{-| Yangbye -}
+
+{-| Yangbye
+-}
 ybd : Language
 ybd =
     Language { code = "ybd" }
 
-{-| West Yugur -}
+
+{-| West Yugur
+-}
 ybe : Language
 ybe =
     Language { code = "ybe" }
 
-{-| Yakha -}
+
+{-| Yakha
+-}
 ybh : Language
 ybh =
     Language { code = "ybh" }
 
-{-| Yamphu -}
+
+{-| Yamphu
+-}
 ybi : Language
 ybi =
     Language { code = "ybi" }
 
-{-| Hasha -}
+
+{-| Hasha
+-}
 ybj : Language
 ybj =
     Language { code = "ybj" }
 
-{-| Bokha -}
+
+{-| Bokha
+-}
 ybk : Language
 ybk =
     Language { code = "ybk" }
 
-{-| Yukuben -}
+
+{-| Yukuben
+-}
 ybl : Language
 ybl =
     Language { code = "ybl" }
 
-{-| Yaben -}
+
+{-| Yaben
+-}
 ybm : Language
 ybm =
     Language { code = "ybm" }
 
-{-| Yabaâna -}
+
+{-| Yabaâna
+-}
 ybn : Language
 ybn =
     Language { code = "ybn" }
 
-{-| Yabong -}
+
+{-| Yabong
+-}
 ybo : Language
 ybo =
     Language { code = "ybo" }
 
-{-| Yawiyo -}
+
+{-| Yawiyo
+-}
 ybx : Language
 ybx =
     Language { code = "ybx" }
 
-{-| Yaweyuha -}
+
+{-| Yaweyuha
+-}
 yby : Language
 yby =
     Language { code = "yby" }
 
-{-| Chesu -}
+
+{-| Chesu
+-}
 ych : Language
 ych =
     Language { code = "ych" }
 
-{-| Lolopo -}
+
+{-| Lolopo
+-}
 ycl : Language
 ycl =
     Language { code = "ycl" }
 
-{-| Yucuna -}
+
+{-| Yucuna
+-}
 ycn : Language
 ycn =
     Language { code = "ycn" }
 
-{-| Chepya -}
+
+{-| Chepya
+-}
 ycp : Language
 ycp =
     Language { code = "ycp" }
 
-{-| Yanda -}
+
+{-| Yanda
+-}
 yda : Language
 yda =
     Language { code = "yda" }
 
-{-| Eastern Yiddish -}
+
+{-| Eastern Yiddish
+-}
 ydd : Language
 ydd =
     Language { code = "ydd" }
 
-{-| Yangum Dey -}
+
+{-| Yangum Dey
+-}
 yde : Language
 yde =
     Language { code = "yde" }
 
-{-| Yidgha -}
+
+{-| Yidgha
+-}
 ydg : Language
 ydg =
     Language { code = "ydg" }
 
-{-| Yoidik -}
+
+{-| Yoidik
+-}
 ydk : Language
 ydk =
     Language { code = "ydk" }
 
-{-| Yiddish Sign Language -}
+
+{-| Yiddish Sign Language
+-}
 yds : Language
 yds =
     Language { code = "yds" }
 
-{-| Ravula -}
+
+{-| Ravula
+-}
 yea : Language
 yea =
     Language { code = "yea" }
 
-{-| Yeniche -}
+
+{-| Yeniche
+-}
 yec : Language
 yec =
     Language { code = "yec" }
 
-{-| Yimas -}
+
+{-| Yimas
+-}
 yee : Language
 yee =
     Language { code = "yee" }
 
-{-| Yeni -}
+
+{-| Yeni
+-}
 yei : Language
 yei =
     Language { code = "yei" }
 
-{-| Yevanic -}
+
+{-| Yevanic
+-}
 yej : Language
 yej =
     Language { code = "yej" }
 
-{-| Yela -}
+
+{-| Yela
+-}
 yel : Language
 yel =
     Language { code = "yel" }
 
-{-| Yendang -}
+
+{-| Yendang
+-}
 yen : Language
 yen =
     Language { code = "yen" }
 
-{-| Tarok -}
+
+{-| Tarok
+-}
 yer : Language
 yer =
     Language { code = "yer" }
 
-{-| Nyankpa -}
+
+{-| Nyankpa
+-}
 yes : Language
 yes =
     Language { code = "yes" }
 
-{-| Yetfa -}
+
+{-| Yetfa
+-}
 yet : Language
 yet =
     Language { code = "yet" }
 
-{-| Yerukula -}
+
+{-| Yerukula
+-}
 yeu : Language
 yeu =
     Language { code = "yeu" }
 
-{-| Yapunda -}
+
+{-| Yapunda
+-}
 yev : Language
 yev =
     Language { code = "yev" }
 
-{-| Yeyi -}
+
+{-| Yeyi
+-}
 yey : Language
 yey =
     Language { code = "yey" }
 
-{-| Malyangapa -}
+
+{-| Malyangapa
+-}
 yga : Language
 yga =
     Language { code = "yga" }
 
-{-| Yiningayi -}
+
+{-| Yiningayi
+-}
 ygi : Language
 ygi =
     Language { code = "ygi" }
 
-{-| Yangum Gel -}
+
+{-| Yangum Gel
+-}
 ygl : Language
 ygl =
     Language { code = "ygl" }
 
-{-| Yagomi -}
+
+{-| Yagomi
+-}
 ygm : Language
 ygm =
     Language { code = "ygm" }
 
-{-| Gepo -}
+
+{-| Gepo
+-}
 ygp : Language
 ygp =
     Language { code = "ygp" }
 
-{-| Yagaria -}
+
+{-| Yagaria
+-}
 ygr : Language
 ygr =
     Language { code = "ygr" }
 
-{-| Yolŋu Sign Language -}
+
+{-| Yolŋu Sign Language
+-}
 ygs : Language
 ygs =
     Language { code = "ygs" }
 
-{-| Yugul -}
+
+{-| Yugul
+-}
 ygu : Language
 ygu =
     Language { code = "ygu" }
 
-{-| Yagwoia -}
+
+{-| Yagwoia
+-}
 ygw : Language
 ygw =
     Language { code = "ygw" }
 
-{-| Baha Buyang -}
+
+{-| Baha Buyang
+-}
 yha : Language
 yha =
     Language { code = "yha" }
 
-{-| Judeo-Iraqi Arabic -}
+
+{-| Judeo-Iraqi Arabic
+-}
 yhd : Language
 yhd =
     Language { code = "yhd" }
 
-{-| Hlepho Phowa -}
+
+{-| Hlepho Phowa
+-}
 yhl : Language
 yhl =
     Language { code = "yhl" }
 
-{-| Yan-nhaŋu Sign Language -}
+
+{-| Yan-nhaŋu Sign Language
+-}
 yhs : Language
 yhs =
     Language { code = "yhs" }
 
-{-| Yiddish -}
+
+{-| Yiddish
+-}
 yi : Language
 yi =
     Language { code = "yi" }
 
-{-| Yinggarda -}
+
+{-| Yinggarda
+-}
 yia : Language
 yia =
     Language { code = "yia" }
 
-{-| Ache -}
+
+{-| Ache
+-}
 yif : Language
 yif =
     Language { code = "yif" }
 
-{-| Wusa Nasu -}
+
+{-| Wusa Nasu
+-}
 yig : Language
 yig =
     Language { code = "yig" }
 
-{-| Western Yiddish -}
+
+{-| Western Yiddish
+-}
 yih : Language
 yih =
     Language { code = "yih" }
 
-{-| Yidiny -}
+
+{-| Yidiny
+-}
 yii : Language
 yii =
     Language { code = "yii" }
 
-{-| Yindjibarndi -}
+
+{-| Yindjibarndi
+-}
 yij : Language
 yij =
     Language { code = "yij" }
 
-{-| Dongshanba Lalo -}
+
+{-| Dongshanba Lalo
+-}
 yik : Language
 yik =
     Language { code = "yik" }
 
-{-| Yindjilandji -}
+
+{-| Yindjilandji
+-}
 yil : Language
 yil =
     Language { code = "yil" }
 
-{-| Yimchungru Naga -}
+
+{-| Yimchungru Naga
+-}
 yim : Language
 yim =
     Language { code = "yim" }
 
+
 {-| Riang Lai
-Yinchia -}
+Yinchia
+-}
 yin : Language
 yin =
     Language { code = "yin" }
 
-{-| Pholo -}
+
+{-| Pholo
+-}
 yip : Language
 yip =
     Language { code = "yip" }
 
-{-| Miqie -}
+
+{-| Miqie
+-}
 yiq : Language
 yiq =
     Language { code = "yiq" }
 
-{-| North Awyu -}
+
+{-| North Awyu
+-}
 yir : Language
 yir =
     Language { code = "yir" }
 
-{-| Yis -}
+
+{-| Yis
+-}
 yis : Language
 yis =
     Language { code = "yis" }
 
-{-| Eastern Lalu -}
+
+{-| Eastern Lalu
+-}
 yit : Language
 yit =
     Language { code = "yit" }
 
-{-| Awu -}
+
+{-| Awu
+-}
 yiu : Language
 yiu =
     Language { code = "yiu" }
 
-{-| Northern Nisu -}
+
+{-| Northern Nisu
+-}
 yiv : Language
 yiv =
     Language { code = "yiv" }
 
-{-| Axi Yi -}
+
+{-| Axi Yi
+-}
 yix : Language
 yix =
     Language { code = "yix" }
 
-{-| Yir Yoront -}
+
+{-| Yir Yoront
+-}
 yiy : Language
 yiy =
     Language { code = "yiy" }
 
-{-| Azhe -}
+
+{-| Azhe
+-}
 yiz : Language
 yiz =
     Language { code = "yiz" }
 
-{-| Yakan -}
+
+{-| Yakan
+-}
 yka : Language
 yka =
     Language { code = "yka" }
 
-{-| Northern Yukaghir -}
+
+{-| Northern Yukaghir
+-}
 ykg : Language
 ykg =
     Language { code = "ykg" }
 
-{-| Yoke -}
+
+{-| Yoke
+-}
 yki : Language
 yki =
     Language { code = "yki" }
 
-{-| Yakaikeke -}
+
+{-| Yakaikeke
+-}
 ykk : Language
 ykk =
     Language { code = "ykk" }
 
-{-| Khlula -}
+
+{-| Khlula
+-}
 ykl : Language
 ykl =
     Language { code = "ykl" }
 
-{-| Kap -}
+
+{-| Kap
+-}
 ykm : Language
 ykm =
     Language { code = "ykm" }
 
-{-| Kua-nsi -}
+
+{-| Kua-nsi
+-}
 ykn : Language
 ykn =
     Language { code = "ykn" }
 
-{-| Yasa -}
+
+{-| Yasa
+-}
 yko : Language
 yko =
     Language { code = "yko" }
 
-{-| Yekora -}
+
+{-| Yekora
+-}
 ykr : Language
 ykr =
     Language { code = "ykr" }
 
-{-| Kathu -}
+
+{-| Kathu
+-}
 ykt : Language
 ykt =
     Language { code = "ykt" }
 
-{-| Kuamasi -}
+
+{-| Kuamasi
+-}
 yku : Language
 yku =
     Language { code = "yku" }
 
-{-| Yakoma -}
+
+{-| Yakoma
+-}
 yky : Language
 yky =
     Language { code = "yky" }
 
-{-| Yaul -}
+
+{-| Yaul
+-}
 yla : Language
 yla =
     Language { code = "yla" }
 
-{-| Yaleba -}
+
+{-| Yaleba
+-}
 ylb : Language
 ylb =
     Language { code = "ylb" }
 
-{-| Yele -}
+
+{-| Yele
+-}
 yle : Language
 yle =
     Language { code = "yle" }
 
-{-| Yelogu -}
+
+{-| Yelogu
+-}
 ylg : Language
 ylg =
     Language { code = "ylg" }
 
-{-| Angguruk Yali -}
+
+{-| Angguruk Yali
+-}
 yli : Language
 yli =
     Language { code = "yli" }
 
-{-| Yil -}
+
+{-| Yil
+-}
 yll : Language
 yll =
     Language { code = "yll" }
 
-{-| Limi -}
+
+{-| Limi
+-}
 ylm : Language
 ylm =
     Language { code = "ylm" }
 
-{-| Langnian Buyang -}
+
+{-| Langnian Buyang
+-}
 yln : Language
 yln =
     Language { code = "yln" }
 
-{-| Naluo Yi -}
+
+{-| Naluo Yi
+-}
 ylo : Language
 ylo =
     Language { code = "ylo" }
 
-{-| Yalarnnga -}
+
+{-| Yalarnnga
+-}
 ylr : Language
 ylr =
     Language { code = "ylr" }
 
-{-| Aribwaung -}
+
+{-| Aribwaung
+-}
 ylu : Language
 ylu =
     Language { code = "ylu" }
 
+
 {-| Nyâlayu
-Nyelâyu -}
+Nyelâyu
+-}
 yly : Language
 yly =
     Language { code = "yly" }
 
-{-| Yamphe -}
+
+{-| Yamphe
+-}
 yma : Language
 yma =
     Language { code = "yma" }
 
-{-| Yambes -}
+
+{-| Yambes
+-}
 ymb : Language
 ymb =
     Language { code = "ymb" }
 
-{-| Southern Muji -}
+
+{-| Southern Muji
+-}
 ymc : Language
 ymc =
     Language { code = "ymc" }
 
-{-| Muda -}
+
+{-| Muda
+-}
 ymd : Language
 ymd =
     Language { code = "ymd" }
 
-{-| Yameo -}
+
+{-| Yameo
+-}
 yme : Language
 yme =
     Language { code = "yme" }
 
-{-| Yamongeri -}
+
+{-| Yamongeri
+-}
 ymg : Language
 ymg =
     Language { code = "ymg" }
 
-{-| Mili -}
+
+{-| Mili
+-}
 ymh : Language
 ymh =
     Language { code = "ymh" }
 
-{-| Moji -}
+
+{-| Moji
+-}
 ymi : Language
 ymi =
     Language { code = "ymi" }
 
-{-| Makwe -}
+
+{-| Makwe
+-}
 ymk : Language
 ymk =
     Language { code = "ymk" }
 
-{-| Iamalele -}
+
+{-| Iamalele
+-}
 yml : Language
 yml =
     Language { code = "yml" }
 
-{-| Maay -}
+
+{-| Maay
+-}
 ymm : Language
 ymm =
     Language { code = "ymm" }
 
+
 {-| Yamna
-Sunum -}
+Sunum
+-}
 ymn : Language
 ymn =
     Language { code = "ymn" }
 
-{-| Yangum Mon -}
+
+{-| Yangum Mon
+-}
 ymo : Language
 ymo =
     Language { code = "ymo" }
 
-{-| Yamap -}
+
+{-| Yamap
+-}
 ymp : Language
 ymp =
     Language { code = "ymp" }
 
-{-| Qila Muji -}
+
+{-| Qila Muji
+-}
 ymq : Language
 ymq =
     Language { code = "ymq" }
 
-{-| Malasar -}
+
+{-| Malasar
+-}
 ymr : Language
 ymr =
     Language { code = "ymr" }
 
-{-| Mysian -}
+
+{-| Mysian
+-}
 yms : Language
 yms =
     Language { code = "yms" }
 
-{-| Mator-Taygi-Karagas -}
+
+{-| Mator-Taygi-Karagas
+-}
 ymt : Language
 ymt =
     Language { code = "ymt" }
 
-{-| Northern Muji -}
+
+{-| Northern Muji
+-}
 ymx : Language
 ymx =
     Language { code = "ymx" }
 
-{-| Muzi -}
+
+{-| Muzi
+-}
 ymz : Language
 ymz =
     Language { code = "ymz" }
 
-{-| Aluo -}
+
+{-| Aluo
+-}
 yna : Language
 yna =
     Language { code = "yna" }
 
-{-| Yandruwandha -}
+
+{-| Yandruwandha
+-}
 ynd : Language
 ynd =
     Language { code = "ynd" }
 
-{-| Lang'e -}
+
+{-| Lang'e
+-}
 yne : Language
 yne =
     Language { code = "yne" }
 
-{-| Yango -}
+
+{-| Yango
+-}
 yng : Language
 yng =
     Language { code = "yng" }
 
-{-| Yangho -}
+
+{-| Yangho
+-}
 ynh : Language
 ynh =
     Language { code = "ynh" }
 
-{-| Naukan Yupik -}
+
+{-| Naukan Yupik
+-}
 ynk : Language
 ynk =
     Language { code = "ynk" }
 
-{-| Yangulam -}
+
+{-| Yangulam
+-}
 ynl : Language
 ynl =
     Language { code = "ynl" }
 
-{-| Yana -}
+
+{-| Yana
+-}
 ynn : Language
 ynn =
     Language { code = "ynn" }
 
-{-| Yong -}
+
+{-| Yong
+-}
 yno : Language
 yno =
     Language { code = "yno" }
 
-{-| Yendang -}
+
+{-| Yendang
+-}
 ynq : Language
 ynq =
     Language { code = "ynq" }
 
-{-| Yansi -}
+
+{-| Yansi
+-}
 yns : Language
 yns =
     Language { code = "yns" }
 
-{-| Yahuna -}
+
+{-| Yahuna
+-}
 ynu : Language
 ynu =
     Language { code = "ynu" }
 
-{-| Yoruba -}
+
+{-| Yoruba
+-}
 yo : Language
 yo =
     Language { code = "yo" }
 
-{-| Yoba -}
+
+{-| Yoba
+-}
 yob : Language
 yob =
     Language { code = "yob" }
 
-{-| Yogad -}
+
+{-| Yogad
+-}
 yog : Language
 yog =
     Language { code = "yog" }
 
-{-| Yonaguni -}
+
+{-| Yonaguni
+-}
 yoi : Language
 yoi =
     Language { code = "yoi" }
 
-{-| Yokuts -}
+
+{-| Yokuts
+-}
 yok : Language
 yok =
     Language { code = "yok" }
 
-{-| Yola -}
+
+{-| Yola
+-}
 yol : Language
 yol =
     Language { code = "yol" }
 
-{-| Yombe -}
+
+{-| Yombe
+-}
 yom : Language
 yom =
     Language { code = "yom" }
 
-{-| Yongkom -}
+
+{-| Yongkom
+-}
 yon : Language
 yon =
     Language { code = "yon" }
 
-{-| Yos -}
+
+{-| Yos
+-}
 yos : Language
 yos =
     Language { code = "yos" }
 
-{-| Yotti -}
+
+{-| Yotti
+-}
 yot : Language
 yot =
     Language { code = "yot" }
 
-{-| Yoron -}
+
+{-| Yoron
+-}
 yox : Language
 yox =
     Language { code = "yox" }
 
-{-| Yoy -}
+
+{-| Yoy
+-}
 yoy : Language
 yoy =
     Language { code = "yoy" }
 
-{-| Phala -}
+
+{-| Phala
+-}
 ypa : Language
 ypa =
     Language { code = "ypa" }
 
-{-| Labo Phowa -}
+
+{-| Labo Phowa
+-}
 ypb : Language
 ypb =
     Language { code = "ypb" }
 
-{-| Phola -}
+
+{-| Phola
+-}
 ypg : Language
 ypg =
     Language { code = "ypg" }
 
-{-| Phupha -}
+
+{-| Phupha
+-}
 yph : Language
 yph =
     Language { code = "yph" }
 
-{-| Yupik languages -}
+
+{-| Yupik languages
+-}
 ypk : Language
 ypk =
     Language { code = "ypk" }
 
-{-| Phuma -}
+
+{-| Phuma
+-}
 ypm : Language
 ypm =
     Language { code = "ypm" }
 
-{-| Ani Phowa -}
+
+{-| Ani Phowa
+-}
 ypn : Language
 ypn =
     Language { code = "ypn" }
 
-{-| Alo Phola -}
+
+{-| Alo Phola
+-}
 ypo : Language
 ypo =
     Language { code = "ypo" }
 
-{-| Phupa -}
+
+{-| Phupa
+-}
 ypp : Language
 ypp =
     Language { code = "ypp" }
 
-{-| Phuza -}
+
+{-| Phuza
+-}
 ypz : Language
 ypz =
     Language { code = "ypz" }
 
-{-| Yerakai -}
+
+{-| Yerakai
+-}
 yra : Language
 yra =
     Language { code = "yra" }
 
-{-| Yareba -}
+
+{-| Yareba
+-}
 yrb : Language
 yrb =
     Language { code = "yrb" }
 
-{-| Yaouré -}
+
+{-| Yaouré
+-}
 yre : Language
 yre =
     Language { code = "yre" }
 
-{-| Yarí -}
+
+{-| Yarí
+-}
 yri : Language
 yri =
     Language { code = "yri" }
 
-{-| Nenets -}
+
+{-| Nenets
+-}
 yrk : Language
 yrk =
     Language { code = "yrk" }
 
-{-| Nhengatu -}
+
+{-| Nhengatu
+-}
 yrl : Language
 yrl =
     Language { code = "yrl" }
 
-{-| Yirrk-Mel -}
+
+{-| Yirrk-Mel
+-}
 yrm : Language
 yrm =
     Language { code = "yrm" }
 
-{-| Yerong -}
+
+{-| Yerong
+-}
 yrn : Language
 yrn =
     Language { code = "yrn" }
 
-{-| Yaroamë -}
+
+{-| Yaroamë
+-}
 yro : Language
 yro =
     Language { code = "yro" }
 
-{-| Yarsun -}
+
+{-| Yarsun
+-}
 yrs : Language
 yrs =
     Language { code = "yrs" }
 
-{-| Yarawata -}
+
+{-| Yarawata
+-}
 yrw : Language
 yrw =
     Language { code = "yrw" }
 
-{-| Yarluyandi -}
+
+{-| Yarluyandi
+-}
 yry : Language
 yry =
     Language { code = "yry" }
 
-{-| Yassic -}
+
+{-| Yassic
+-}
 ysc : Language
 ysc =
     Language { code = "ysc" }
 
-{-| Samatao -}
+
+{-| Samatao
+-}
 ysd : Language
 ysd =
     Language { code = "ysd" }
 
-{-| Sonaga -}
+
+{-| Sonaga
+-}
 ysg : Language
 ysg =
     Language { code = "ysg" }
 
-{-| Yugoslavian Sign Language -}
+
+{-| Yugoslavian Sign Language
+-}
 ysl : Language
 ysl =
     Language { code = "ysl" }
 
-{-| Sani -}
+
+{-| Sani
+-}
 ysn : Language
 ysn =
     Language { code = "ysn" }
 
-{-| Nisi (China) -}
+
+{-| Nisi (China)
+-}
 yso : Language
 yso =
     Language { code = "yso" }
 
-{-| Southern Lolopo -}
+
+{-| Southern Lolopo
+-}
 ysp : Language
 ysp =
     Language { code = "ysp" }
 
-{-| Sirenik Yupik -}
+
+{-| Sirenik Yupik
+-}
 ysr : Language
 ysr =
     Language { code = "ysr" }
 
-{-| Yessan-Mayo -}
+
+{-| Yessan-Mayo
+-}
 yss : Language
 yss =
     Language { code = "yss" }
 
-{-| Sanie -}
+
+{-| Sanie
+-}
 ysy : Language
 ysy =
     Language { code = "ysy" }
 
-{-| Talu -}
+
+{-| Talu
+-}
 yta : Language
 yta =
     Language { code = "yta" }
 
-{-| Tanglang -}
+
+{-| Tanglang
+-}
 ytl : Language
 ytl =
     Language { code = "ytl" }
 
-{-| Thopho -}
+
+{-| Thopho
+-}
 ytp : Language
 ytp =
     Language { code = "ytp" }
 
-{-| Yout Wam -}
+
+{-| Yout Wam
+-}
 ytw : Language
 ytw =
     Language { code = "ytw" }
 
-{-| Yatay -}
+
+{-| Yatay
+-}
 yty : Language
 yty =
     Language { code = "yty" }
 
+
 {-| Yucateco
-Yucatec Maya -}
+Yucatec Maya
+-}
 yua : Language
 yua =
     Language { code = "yua" }
 
-{-| Yugambal -}
+
+{-| Yugambal
+-}
 yub : Language
 yub =
     Language { code = "yub" }
 
-{-| Yuchi -}
+
+{-| Yuchi
+-}
 yuc : Language
 yuc =
     Language { code = "yuc" }
 
-{-| Judeo-Tripolitanian Arabic -}
+
+{-| Judeo-Tripolitanian Arabic
+-}
 yud : Language
 yud =
     Language { code = "yud" }
 
+
 {-| Yue Chinese
-Cantonese -}
+Cantonese
+-}
 yue : Language
 yue =
     Language { code = "yue" }
 
-{-| Havasupai-Walapai-Yavapai -}
+
+{-| Havasupai-Walapai-Yavapai
+-}
 yuf : Language
 yuf =
     Language { code = "yuf" }
 
-{-| Yug -}
+
+{-| Yug
+-}
 yug : Language
 yug =
     Language { code = "yug" }
 
-{-| Yurutí -}
+
+{-| Yurutí
+-}
 yui : Language
 yui =
     Language { code = "yui" }
 
-{-| Karkar-Yuri -}
+
+{-| Karkar-Yuri
+-}
 yuj : Language
 yuj =
     Language { code = "yuj" }
 
-{-| Yuki -}
+
+{-| Yuki
+-}
 yuk : Language
 yuk =
     Language { code = "yuk" }
 
-{-| Yulu -}
+
+{-| Yulu
+-}
 yul : Language
 yul =
     Language { code = "yul" }
 
-{-| Quechan -}
+
+{-| Quechan
+-}
 yum : Language
 yum =
     Language { code = "yum" }
 
-{-| Bena (Nigeria) -}
+
+{-| Bena (Nigeria)
+-}
 yun : Language
 yun =
     Language { code = "yun" }
 
-{-| Yukpa -}
+
+{-| Yukpa
+-}
 yup : Language
 yup =
     Language { code = "yup" }
 
-{-| Yuqui -}
+
+{-| Yuqui
+-}
 yuq : Language
 yuq =
     Language { code = "yuq" }
 
-{-| Yurok -}
+
+{-| Yurok
+-}
 yur : Language
 yur =
     Language { code = "yur" }
 
-{-| Yopno -}
+
+{-| Yopno
+-}
 yut : Language
 yut =
     Language { code = "yut" }
 
-{-| Yugh -}
+
+{-| Yugh
+-}
 yuu : Language
 yuu =
     Language { code = "yuu" }
 
-{-| Yau (Morobe Province) -}
+
+{-| Yau (Morobe Province)
+-}
 yuw : Language
 yuw =
     Language { code = "yuw" }
 
-{-| Southern Yukaghir -}
+
+{-| Southern Yukaghir
+-}
 yux : Language
 yux =
     Language { code = "yux" }
 
-{-| East Yugur -}
+
+{-| East Yugur
+-}
 yuy : Language
 yuy =
     Language { code = "yuy" }
 
-{-| Yuracare -}
+
+{-| Yuracare
+-}
 yuz : Language
 yuz =
     Language { code = "yuz" }
 
-{-| Yawa -}
+
+{-| Yawa
+-}
 yva : Language
 yva =
     Language { code = "yva" }
 
-{-| Yavitero -}
+
+{-| Yavitero
+-}
 yvt : Language
 yvt =
     Language { code = "yvt" }
 
-{-| Kalou -}
+
+{-| Kalou
+-}
 ywa : Language
 ywa =
     Language { code = "ywa" }
 
-{-| Yinhawangka -}
+
+{-| Yinhawangka
+-}
 ywg : Language
 ywg =
     Language { code = "ywg" }
 
-{-| Western Lalu -}
+
+{-| Western Lalu
+-}
 ywl : Language
 ywl =
     Language { code = "ywl" }
 
-{-| Yawanawa -}
+
+{-| Yawanawa
+-}
 ywn : Language
 ywn =
     Language { code = "ywn" }
 
-{-| Wuding-Luquan Yi -}
+
+{-| Wuding-Luquan Yi
+-}
 ywq : Language
 ywq =
     Language { code = "ywq" }
 
-{-| Yawuru -}
+
+{-| Yawuru
+-}
 ywr : Language
 ywr =
     Language { code = "ywr" }
 
+
 {-| Xishanba Lalo
-Central Lalo -}
+Central Lalo
+-}
 ywt : Language
 ywt =
     Language { code = "ywt" }
 
-{-| Wumeng Nasu -}
+
+{-| Wumeng Nasu
+-}
 ywu : Language
 ywu =
     Language { code = "ywu" }
 
-{-| Yawarawarga -}
+
+{-| Yawarawarga
+-}
 yww : Language
 yww =
     Language { code = "yww" }
 
-{-| Mayawali -}
+
+{-| Mayawali
+-}
 yxa : Language
 yxa =
     Language { code = "yxa" }
 
-{-| Yagara -}
+
+{-| Yagara
+-}
 yxg : Language
 yxg =
     Language { code = "yxg" }
 
-{-| Yardliyawarra -}
+
+{-| Yardliyawarra
+-}
 yxl : Language
 yxl =
     Language { code = "yxl" }
 
-{-| Yinwum -}
+
+{-| Yinwum
+-}
 yxm : Language
 yxm =
     Language { code = "yxm" }
 
-{-| Yuyu -}
+
+{-| Yuyu
+-}
 yxu : Language
 yxu =
     Language { code = "yxu" }
 
-{-| Yabula Yabula -}
+
+{-| Yabula Yabula
+-}
 yxy : Language
 yxy =
     Language { code = "yxy" }
 
-{-| Yir Yoront -}
+
+{-| Yir Yoront
+-}
 yyr : Language
 yyr =
     Language { code = "yyr" }
 
-{-| Yau (Sandaun Province) -}
+
+{-| Yau (Sandaun Province)
+-}
 yyu : Language
 yyu =
     Language { code = "yyu" }
 
-{-| Ayizi -}
+
+{-| Ayizi
+-}
 yyz : Language
 yyz =
     Language { code = "yyz" }
 
-{-| E'ma Buyang -}
+
+{-| E'ma Buyang
+-}
 yzg : Language
 yzg =
     Language { code = "yzg" }
 
-{-| Zokhuo -}
+
+{-| Zokhuo
+-}
 yzk : Language
 yzk =
     Language { code = "yzk" }
 
+
 {-| Zhuang
-Chuang -}
+Chuang
+-}
 za : Language
 za =
     Language { code = "za" }
 
-{-| Sierra de Juárez Zapotec -}
+
+{-| Sierra de Juárez Zapotec
+-}
 zaa : Language
 zaa =
     Language { code = "zaa" }
 
+
 {-| Western Tlacolula Valley Zapotec
-San Juan Guelavía Zapotec -}
+San Juan Guelavía Zapotec
+-}
 zab : Language
 zab =
     Language { code = "zab" }
 
-{-| Ocotlán Zapotec -}
+
+{-| Ocotlán Zapotec
+-}
 zac : Language
 zac =
     Language { code = "zac" }
 
-{-| Cajonos Zapotec -}
+
+{-| Cajonos Zapotec
+-}
 zad : Language
 zad =
     Language { code = "zad" }
 
-{-| Yareni Zapotec -}
+
+{-| Yareni Zapotec
+-}
 zae : Language
 zae =
     Language { code = "zae" }
 
-{-| Ayoquesco Zapotec -}
+
+{-| Ayoquesco Zapotec
+-}
 zaf : Language
 zaf =
     Language { code = "zaf" }
 
-{-| Zaghawa -}
+
+{-| Zaghawa
+-}
 zag : Language
 zag =
     Language { code = "zag" }
 
-{-| Zangwal -}
+
+{-| Zangwal
+-}
 zah : Language
 zah =
     Language { code = "zah" }
 
-{-| Isthmus Zapotec -}
+
+{-| Isthmus Zapotec
+-}
 zai : Language
 zai =
     Language { code = "zai" }
 
-{-| Zaramo -}
+
+{-| Zaramo
+-}
 zaj : Language
 zaj =
     Language { code = "zaj" }
 
-{-| Zanaki -}
+
+{-| Zanaki
+-}
 zak : Language
 zak =
     Language { code = "zak" }
 
-{-| Zauzou -}
+
+{-| Zauzou
+-}
 zal : Language
 zal =
     Language { code = "zal" }
 
-{-| Miahuatlán Zapotec -}
+
+{-| Miahuatlán Zapotec
+-}
 zam : Language
 zam =
     Language { code = "zam" }
 
-{-| Ozolotepec Zapotec -}
+
+{-| Ozolotepec Zapotec
+-}
 zao : Language
 zao =
     Language { code = "zao" }
 
-{-| Zapotec -}
+
+{-| Zapotec
+-}
 zap : Language
 zap =
     Language { code = "zap" }
 
-{-| Aloápam Zapotec -}
+
+{-| Aloápam Zapotec
+-}
 zaq : Language
 zaq =
     Language { code = "zaq" }
 
-{-| Rincón Zapotec -}
+
+{-| Rincón Zapotec
+-}
 zar : Language
 zar =
     Language { code = "zar" }
 
-{-| Santo Domingo Albarradas Zapotec -}
+
+{-| Santo Domingo Albarradas Zapotec
+-}
 zas : Language
 zas =
     Language { code = "zas" }
 
-{-| Tabaa Zapotec -}
+
+{-| Tabaa Zapotec
+-}
 zat : Language
 zat =
     Language { code = "zat" }
 
-{-| Zangskari -}
+
+{-| Zangskari
+-}
 zau : Language
 zau =
     Language { code = "zau" }
 
-{-| Yatzachi Zapotec -}
+
+{-| Yatzachi Zapotec
+-}
 zav : Language
 zav =
     Language { code = "zav" }
 
-{-| Mitla Zapotec -}
+
+{-| Mitla Zapotec
+-}
 zaw : Language
 zaw =
     Language { code = "zaw" }
 
-{-| Xadani Zapotec -}
+
+{-| Xadani Zapotec
+-}
 zax : Language
 zax =
     Language { code = "zax" }
 
+
 {-| Zayse-Zergulla
-Zaysete -}
+Zaysete
+-}
 zay : Language
 zay =
     Language { code = "zay" }
 
-{-| Zari -}
+
+{-| Zari
+-}
 zaz : Language
 zaz =
     Language { code = "zaz" }
 
-{-| Balaibalan -}
+
+{-| Balaibalan
+-}
 zba : Language
 zba =
     Language { code = "zba" }
 
-{-| Central Berawan -}
+
+{-| Central Berawan
+-}
 zbc : Language
 zbc =
     Language { code = "zbc" }
 
-{-| East Berawan -}
+
+{-| East Berawan
+-}
 zbe : Language
 zbe =
     Language { code = "zbe" }
 
+
 {-| Blissymbols
 Bliss
-Blissymbolics -}
+Blissymbolics
+-}
 zbl : Language
 zbl =
     Language { code = "zbl" }
 
-{-| Batui -}
+
+{-| Batui
+-}
 zbt : Language
 zbt =
     Language { code = "zbt" }
 
-{-| West Berawan -}
+
+{-| West Berawan
+-}
 zbw : Language
 zbw =
     Language { code = "zbw" }
 
-{-| Coatecas Altas Zapotec -}
+
+{-| Coatecas Altas Zapotec
+-}
 zca : Language
 zca =
     Language { code = "zca" }
 
-{-| Central Hongshuihe Zhuang -}
+
+{-| Central Hongshuihe Zhuang
+-}
 zch : Language
 zch =
     Language { code = "zch" }
 
-{-| Ngazidja Comorian -}
+
+{-| Ngazidja Comorian
+-}
 zdj : Language
 zdj =
     Language { code = "zdj" }
 
-{-| Zeeuws -}
+
+{-| Zeeuws
+-}
 zea : Language
 zea =
     Language { code = "zea" }
 
-{-| Zenag -}
+
+{-| Zenag
+-}
 zeg : Language
 zeg =
     Language { code = "zeg" }
 
-{-| Eastern Hongshuihe Zhuang -}
+
+{-| Eastern Hongshuihe Zhuang
+-}
 zeh : Language
 zeh =
     Language { code = "zeh" }
 
-{-| Zenaga -}
+
+{-| Zenaga
+-}
 zen : Language
 zen =
     Language { code = "zen" }
 
-{-| Kinga -}
+
+{-| Kinga
+-}
 zga : Language
 zga =
     Language { code = "zga" }
 
-{-| Guibei Zhuang -}
+
+{-| Guibei Zhuang
+-}
 zgb : Language
 zgb =
     Language { code = "zgb" }
 
-{-| Standard Moroccan Tamazight -}
+
+{-| Standard Moroccan Tamazight
+-}
 zgh : Language
 zgh =
     Language { code = "zgh" }
 
-{-| Minz Zhuang -}
+
+{-| Minz Zhuang
+-}
 zgm : Language
 zgm =
     Language { code = "zgm" }
 
-{-| Guibian Zhuang -}
+
+{-| Guibian Zhuang
+-}
 zgn : Language
 zgn =
     Language { code = "zgn" }
 
-{-| Magori -}
+
+{-| Magori
+-}
 zgr : Language
 zgr =
     Language { code = "zgr" }
 
-{-| Chinese -}
+
+{-| Chinese
+-}
 zh : Language
 zh =
     Language { code = "zh" }
 
-{-| Zhaba -}
+
+{-| Zhaba
+-}
 zhb : Language
 zhb =
     Language { code = "zhb" }
 
-{-| Dai Zhuang -}
+
+{-| Dai Zhuang
+-}
 zhd : Language
 zhd =
     Language { code = "zhd" }
 
-{-| Zhire -}
+
+{-| Zhire
+-}
 zhi : Language
 zhi =
     Language { code = "zhi" }
 
-{-| Nong Zhuang -}
+
+{-| Nong Zhuang
+-}
 zhn : Language
 zhn =
     Language { code = "zhn" }
 
-{-| Zhoa -}
+
+{-| Zhoa
+-}
 zhw : Language
 zhw =
     Language { code = "zhw" }
 
-{-| Chinese (family) -}
+
+{-| Chinese (family)
+-}
 zhx : Language
 zhx =
     Language { code = "zhx" }
 
-{-| Zia -}
+
+{-| Zia
+-}
 zia : Language
 zia =
     Language { code = "zia" }
 
-{-| Zimbabwe Sign Language -}
+
+{-| Zimbabwe Sign Language
+-}
 zib : Language
 zib =
     Language { code = "zib" }
 
-{-| Zimakani -}
+
+{-| Zimakani
+-}
 zik : Language
 zik =
     Language { code = "zik" }
 
-{-| Zialo -}
+
+{-| Zialo
+-}
 zil : Language
 zil =
     Language { code = "zil" }
 
-{-| Mesme -}
+
+{-| Mesme
+-}
 zim : Language
 zim =
     Language { code = "zim" }
 
-{-| Zinza -}
+
+{-| Zinza
+-}
 zin : Language
 zin =
     Language { code = "zin" }
 
-{-| Ziriya -}
+
+{-| Ziriya
+-}
 zir : Language
 zir =
     Language { code = "zir" }
 
-{-| Zigula -}
+
+{-| Zigula
+-}
 ziw : Language
 ziw =
     Language { code = "ziw" }
 
-{-| Zizilivakan -}
+
+{-| Zizilivakan
+-}
 ziz : Language
 ziz =
     Language { code = "ziz" }
 
-{-| Kaimbulawa -}
+
+{-| Kaimbulawa
+-}
 zka : Language
 zka =
     Language { code = "zka" }
 
-{-| Koibal -}
+
+{-| Koibal
+-}
 zkb : Language
 zkb =
     Language { code = "zkb" }
 
-{-| Kadu -}
+
+{-| Kadu
+-}
 zkd : Language
 zkd =
     Language { code = "zkd" }
 
-{-| Koguryo -}
+
+{-| Koguryo
+-}
 zkg : Language
 zkg =
     Language { code = "zkg" }
 
-{-| Khorezmian -}
+
+{-| Khorezmian
+-}
 zkh : Language
 zkh =
     Language { code = "zkh" }
 
-{-| Karankawa -}
+
+{-| Karankawa
+-}
 zkk : Language
 zkk =
     Language { code = "zkk" }
 
-{-| Kanan -}
+
+{-| Kanan
+-}
 zkn : Language
 zkn =
     Language { code = "zkn" }
 
-{-| Kott -}
+
+{-| Kott
+-}
 zko : Language
 zko =
     Language { code = "zko" }
 
-{-| São Paulo Kaingáng -}
+
+{-| São Paulo Kaingáng
+-}
 zkp : Language
 zkp =
     Language { code = "zkp" }
 
-{-| Zakhring -}
+
+{-| Zakhring
+-}
 zkr : Language
 zkr =
     Language { code = "zkr" }
 
-{-| Kitan -}
+
+{-| Kitan
+-}
 zkt : Language
 zkt =
     Language { code = "zkt" }
 
-{-| Kaurna -}
+
+{-| Kaurna
+-}
 zku : Language
 zku =
     Language { code = "zku" }
 
-{-| Krevinian -}
+
+{-| Krevinian
+-}
 zkv : Language
 zkv =
     Language { code = "zkv" }
 
-{-| Khazar -}
+
+{-| Khazar
+-}
 zkz : Language
 zkz =
     Language { code = "zkz" }
 
-{-| East Slavic languages -}
+
+{-| East Slavic languages
+-}
 zle : Language
 zle =
     Language { code = "zle" }
 
-{-| Liujiang Zhuang -}
+
+{-| Liujiang Zhuang
+-}
 zlj : Language
 zlj =
     Language { code = "zlj" }
 
-{-| Malay (individual language) -}
+
+{-| Malay (individual language)
+-}
 zlm : Language
 zlm =
     Language { code = "zlm" }
 
-{-| Lianshan Zhuang -}
+
+{-| Lianshan Zhuang
+-}
 zln : Language
 zln =
     Language { code = "zln" }
 
-{-| Liuqian Zhuang -}
+
+{-| Liuqian Zhuang
+-}
 zlq : Language
 zlq =
     Language { code = "zlq" }
 
-{-| South Slavic languages -}
+
+{-| South Slavic languages
+-}
 zls : Language
 zls =
     Language { code = "zls" }
 
-{-| West Slavic languages -}
+
+{-| West Slavic languages
+-}
 zlw : Language
 zlw =
     Language { code = "zlw" }
 
-{-| Manda (Australia) -}
+
+{-| Manda (Australia)
+-}
 zma : Language
 zma =
     Language { code = "zma" }
 
-{-| Zimba -}
+
+{-| Zimba
+-}
 zmb : Language
 zmb =
     Language { code = "zmb" }
 
-{-| Margany -}
+
+{-| Margany
+-}
 zmc : Language
 zmc =
     Language { code = "zmc" }
 
-{-| Maridan -}
+
+{-| Maridan
+-}
 zmd : Language
 zmd =
     Language { code = "zmd" }
 
-{-| Mangerr -}
+
+{-| Mangerr
+-}
 zme : Language
 zme =
     Language { code = "zme" }
 
-{-| Mfinu -}
+
+{-| Mfinu
+-}
 zmf : Language
 zmf =
     Language { code = "zmf" }
 
-{-| Marti Ke -}
+
+{-| Marti Ke
+-}
 zmg : Language
 zmg =
     Language { code = "zmg" }
 
-{-| Makolkol -}
+
+{-| Makolkol
+-}
 zmh : Language
 zmh =
     Language { code = "zmh" }
 
-{-| Negeri Sembilan Malay -}
+
+{-| Negeri Sembilan Malay
+-}
 zmi : Language
 zmi =
     Language { code = "zmi" }
 
-{-| Maridjabin -}
+
+{-| Maridjabin
+-}
 zmj : Language
 zmj =
     Language { code = "zmj" }
 
-{-| Mandandanyi -}
+
+{-| Mandandanyi
+-}
 zmk : Language
 zmk =
     Language { code = "zmk" }
 
-{-| Matngala -}
+
+{-| Matngala
+-}
 zml : Language
 zml =
     Language { code = "zml" }
 
+
 {-| Marimanindji
-Marramaninyshi -}
+Marramaninyshi
+-}
 zmm : Language
 zmm =
     Language { code = "zmm" }
 
-{-| Mbangwe -}
+
+{-| Mbangwe
+-}
 zmn : Language
 zmn =
     Language { code = "zmn" }
 
-{-| Molo -}
+
+{-| Molo
+-}
 zmo : Language
 zmo =
     Language { code = "zmo" }
 
-{-| Mpuono -}
+
+{-| Mpuono
+-}
 zmp : Language
 zmp =
     Language { code = "zmp" }
 
-{-| Mituku -}
+
+{-| Mituku
+-}
 zmq : Language
 zmq =
     Language { code = "zmq" }
 
-{-| Maranunggu -}
+
+{-| Maranunggu
+-}
 zmr : Language
 zmr =
     Language { code = "zmr" }
 
-{-| Mbesa -}
+
+{-| Mbesa
+-}
 zms : Language
 zms =
     Language { code = "zms" }
 
-{-| Maringarr -}
+
+{-| Maringarr
+-}
 zmt : Language
 zmt =
     Language { code = "zmt" }
 
-{-| Muruwari -}
+
+{-| Muruwari
+-}
 zmu : Language
 zmu =
     Language { code = "zmu" }
 
-{-| Mbariman-Gudhinma -}
+
+{-| Mbariman-Gudhinma
+-}
 zmv : Language
 zmv =
     Language { code = "zmv" }
 
-{-| Mbo (Democratic Republic of Congo) -}
+
+{-| Mbo (Democratic Republic of Congo)
+-}
 zmw : Language
 zmw =
     Language { code = "zmw" }
 
-{-| Bomitaba -}
+
+{-| Bomitaba
+-}
 zmx : Language
 zmx =
     Language { code = "zmx" }
 
-{-| Mariyedi -}
+
+{-| Mariyedi
+-}
 zmy : Language
 zmy =
     Language { code = "zmy" }
 
-{-| Mbandja -}
+
+{-| Mbandja
+-}
 zmz : Language
 zmz =
     Language { code = "zmz" }
 
-{-| Zan Gula -}
+
+{-| Zan Gula
+-}
 zna : Language
 zna =
     Language { code = "zna" }
 
-{-| Zande languages -}
+
+{-| Zande languages
+-}
 znd : Language
 znd =
     Language { code = "znd" }
 
-{-| Zande (individual language) -}
+
+{-| Zande (individual language)
+-}
 zne : Language
 zne =
     Language { code = "zne" }
 
-{-| Mang -}
+
+{-| Mang
+-}
 zng : Language
 zng =
     Language { code = "zng" }
 
-{-| Manangkari -}
+
+{-| Manangkari
+-}
 znk : Language
 znk =
     Language { code = "znk" }
 
-{-| Mangas -}
+
+{-| Mangas
+-}
 zns : Language
 zns =
     Language { code = "zns" }
 
-{-| Copainalá Zoque -}
+
+{-| Copainalá Zoque
+-}
 zoc : Language
 zoc =
     Language { code = "zoc" }
 
-{-| Chimalapa Zoque -}
+
+{-| Chimalapa Zoque
+-}
 zoh : Language
 zoh =
     Language { code = "zoh" }
 
-{-| Zou -}
+
+{-| Zou
+-}
 zom : Language
 zom =
     Language { code = "zom" }
 
-{-| Asunción Mixtepec Zapotec -}
+
+{-| Asunción Mixtepec Zapotec
+-}
 zoo : Language
 zoo =
     Language { code = "zoo" }
 
-{-| Tabasco Zoque -}
+
+{-| Tabasco Zoque
+-}
 zoq : Language
 zoq =
     Language { code = "zoq" }
 
-{-| Rayón Zoque -}
+
+{-| Rayón Zoque
+-}
 zor : Language
 zor =
     Language { code = "zor" }
 
-{-| Francisco León Zoque -}
+
+{-| Francisco León Zoque
+-}
 zos : Language
 zos =
     Language { code = "zos" }
 
-{-| Lachiguiri Zapotec -}
+
+{-| Lachiguiri Zapotec
+-}
 zpa : Language
 zpa =
     Language { code = "zpa" }
 
-{-| Yautepec Zapotec -}
+
+{-| Yautepec Zapotec
+-}
 zpb : Language
 zpb =
     Language { code = "zpb" }
 
-{-| Choapan Zapotec -}
+
+{-| Choapan Zapotec
+-}
 zpc : Language
 zpc =
     Language { code = "zpc" }
 
-{-| Southeastern Ixtlán Zapotec -}
+
+{-| Southeastern Ixtlán Zapotec
+-}
 zpd : Language
 zpd =
     Language { code = "zpd" }
 
-{-| Petapa Zapotec -}
+
+{-| Petapa Zapotec
+-}
 zpe : Language
 zpe =
     Language { code = "zpe" }
 
-{-| San Pedro Quiatoni Zapotec -}
+
+{-| San Pedro Quiatoni Zapotec
+-}
 zpf : Language
 zpf =
     Language { code = "zpf" }
 
-{-| Guevea De Humboldt Zapotec -}
+
+{-| Guevea De Humboldt Zapotec
+-}
 zpg : Language
 zpg =
     Language { code = "zpg" }
 
-{-| Totomachapan Zapotec -}
+
+{-| Totomachapan Zapotec
+-}
 zph : Language
 zph =
     Language { code = "zph" }
 
-{-| Santa María Quiegolani Zapotec -}
+
+{-| Santa María Quiegolani Zapotec
+-}
 zpi : Language
 zpi =
     Language { code = "zpi" }
 
-{-| Quiavicuzas Zapotec -}
+
+{-| Quiavicuzas Zapotec
+-}
 zpj : Language
 zpj =
     Language { code = "zpj" }
 
-{-| Tlacolulita Zapotec -}
+
+{-| Tlacolulita Zapotec
+-}
 zpk : Language
 zpk =
     Language { code = "zpk" }
 
-{-| Lachixío Zapotec -}
+
+{-| Lachixío Zapotec
+-}
 zpl : Language
 zpl =
     Language { code = "zpl" }
 
-{-| Mixtepec Zapotec -}
+
+{-| Mixtepec Zapotec
+-}
 zpm : Language
 zpm =
     Language { code = "zpm" }
 
-{-| Santa Inés Yatzechi Zapotec -}
+
+{-| Santa Inés Yatzechi Zapotec
+-}
 zpn : Language
 zpn =
     Language { code = "zpn" }
 
-{-| Amatlán Zapotec -}
+
+{-| Amatlán Zapotec
+-}
 zpo : Language
 zpo =
     Language { code = "zpo" }
 
-{-| El Alto Zapotec -}
+
+{-| El Alto Zapotec
+-}
 zpp : Language
 zpp =
     Language { code = "zpp" }
 
-{-| Zoogocho Zapotec -}
+
+{-| Zoogocho Zapotec
+-}
 zpq : Language
 zpq =
     Language { code = "zpq" }
 
-{-| Santiago Xanica Zapotec -}
+
+{-| Santiago Xanica Zapotec
+-}
 zpr : Language
 zpr =
     Language { code = "zpr" }
 
-{-| Coatlán Zapotec -}
+
+{-| Coatlán Zapotec
+-}
 zps : Language
 zps =
     Language { code = "zps" }
 
-{-| San Vicente Coatlán Zapotec -}
+
+{-| San Vicente Coatlán Zapotec
+-}
 zpt : Language
 zpt =
     Language { code = "zpt" }
 
-{-| Yalálag Zapotec -}
+
+{-| Yalálag Zapotec
+-}
 zpu : Language
 zpu =
     Language { code = "zpu" }
 
-{-| Chichicapan Zapotec -}
+
+{-| Chichicapan Zapotec
+-}
 zpv : Language
 zpv =
     Language { code = "zpv" }
 
-{-| Zaniza Zapotec -}
+
+{-| Zaniza Zapotec
+-}
 zpw : Language
 zpw =
     Language { code = "zpw" }
 
-{-| San Baltazar Loxicha Zapotec -}
+
+{-| San Baltazar Loxicha Zapotec
+-}
 zpx : Language
 zpx =
     Language { code = "zpx" }
 
-{-| Mazaltepec Zapotec -}
+
+{-| Mazaltepec Zapotec
+-}
 zpy : Language
 zpy =
     Language { code = "zpy" }
 
-{-| Texmelucan Zapotec -}
+
+{-| Texmelucan Zapotec
+-}
 zpz : Language
 zpz =
     Language { code = "zpz" }
 
-{-| Qiubei Zhuang -}
+
+{-| Qiubei Zhuang
+-}
 zqe : Language
 zqe =
     Language { code = "zqe" }
 
-{-| Kara (Korea) -}
+
+{-| Kara (Korea)
+-}
 zra : Language
 zra =
     Language { code = "zra" }
 
-{-| Mirgan -}
+
+{-| Mirgan
+-}
 zrg : Language
 zrg =
     Language { code = "zrg" }
 
-{-| Zerenkel -}
+
+{-| Zerenkel
+-}
 zrn : Language
 zrn =
     Language { code = "zrn" }
 
-{-| Záparo -}
+
+{-| Záparo
+-}
 zro : Language
 zro =
     Language { code = "zro" }
 
-{-| Zarphatic -}
+
+{-| Zarphatic
+-}
 zrp : Language
 zrp =
     Language { code = "zrp" }
 
-{-| Mairasi -}
+
+{-| Mairasi
+-}
 zrs : Language
 zrs =
     Language { code = "zrs" }
 
-{-| Sarasira -}
+
+{-| Sarasira
+-}
 zsa : Language
 zsa =
     Language { code = "zsa" }
 
-{-| Kaskean -}
+
+{-| Kaskean
+-}
 zsk : Language
 zsk =
     Language { code = "zsk" }
 
-{-| Zambian Sign Language -}
+
+{-| Zambian Sign Language
+-}
 zsl : Language
 zsl =
     Language { code = "zsl" }
 
-{-| Standard Malay -}
+
+{-| Standard Malay
+-}
 zsm : Language
 zsm =
     Language { code = "zsm" }
 
-{-| Southern Rincon Zapotec -}
+
+{-| Southern Rincon Zapotec
+-}
 zsr : Language
 zsr =
     Language { code = "zsr" }
 
-{-| Sukurum -}
+
+{-| Sukurum
+-}
 zsu : Language
 zsu =
     Language { code = "zsu" }
 
-{-| Elotepec Zapotec -}
+
+{-| Elotepec Zapotec
+-}
 zte : Language
 zte =
     Language { code = "zte" }
 
-{-| Xanaguía Zapotec -}
+
+{-| Xanaguía Zapotec
+-}
 ztg : Language
 ztg =
     Language { code = "ztg" }
 
-{-| Lapaguía-Guivini Zapotec -}
+
+{-| Lapaguía-Guivini Zapotec
+-}
 ztl : Language
 ztl =
     Language { code = "ztl" }
 
-{-| San Agustín Mixtepec Zapotec -}
+
+{-| San Agustín Mixtepec Zapotec
+-}
 ztm : Language
 ztm =
     Language { code = "ztm" }
 
-{-| Santa Catarina Albarradas Zapotec -}
+
+{-| Santa Catarina Albarradas Zapotec
+-}
 ztn : Language
 ztn =
     Language { code = "ztn" }
 
-{-| Loxicha Zapotec -}
+
+{-| Loxicha Zapotec
+-}
 ztp : Language
 ztp =
     Language { code = "ztp" }
 
-{-| Quioquitani-Quierí Zapotec -}
+
+{-| Quioquitani-Quierí Zapotec
+-}
 ztq : Language
 ztq =
     Language { code = "ztq" }
 
-{-| Tilquiapan Zapotec -}
+
+{-| Tilquiapan Zapotec
+-}
 zts : Language
 zts =
     Language { code = "zts" }
 
-{-| Tejalapan Zapotec -}
+
+{-| Tejalapan Zapotec
+-}
 ztt : Language
 ztt =
     Language { code = "ztt" }
 
-{-| Güilá Zapotec -}
+
+{-| Güilá Zapotec
+-}
 ztu : Language
 ztu =
     Language { code = "ztu" }
 
-{-| Zaachila Zapotec -}
+
+{-| Zaachila Zapotec
+-}
 ztx : Language
 ztx =
     Language { code = "ztx" }
 
-{-| Yatee Zapotec -}
+
+{-| Yatee Zapotec
+-}
 zty : Language
 zty =
     Language { code = "zty" }
 
-{-| Zulu -}
+
+{-| Zulu
+-}
 zu : Language
 zu =
     Language { code = "zu" }
 
-{-| Zeem -}
+
+{-| Zeem
+-}
 zua : Language
 zua =
     Language { code = "zua" }
 
-{-| Tokano -}
+
+{-| Tokano
+-}
 zuh : Language
 zuh =
     Language { code = "zuh" }
 
-{-| Kumzari -}
+
+{-| Kumzari
+-}
 zum : Language
 zum =
     Language { code = "zum" }
 
-{-| Zuni -}
+
+{-| Zuni
+-}
 zun : Language
 zun =
     Language { code = "zun" }
 
-{-| Zumaya -}
+
+{-| Zumaya
+-}
 zuy : Language
 zuy =
     Language { code = "zuy" }
 
-{-| Zay -}
+
+{-| Zay
+-}
 zwa : Language
 zwa =
     Language { code = "zwa" }
 
+
 {-| No linguistic content
-Not applicable -}
+Not applicable
+-}
 zxx : Language
 zxx =
     Language { code = "zxx" }
 
-{-| Yongbei Zhuang -}
+
+{-| Yongbei Zhuang
+-}
 zyb : Language
 zyb =
     Language { code = "zyb" }
 
-{-| Yang Zhuang -}
+
+{-| Yang Zhuang
+-}
 zyg : Language
 zyg =
     Language { code = "zyg" }
 
-{-| Youjiang Zhuang -}
+
+{-| Youjiang Zhuang
+-}
 zyj : Language
 zyj =
     Language { code = "zyj" }
 
-{-| Yongnan Zhuang -}
+
+{-| Yongnan Zhuang
+-}
 zyn : Language
 zyn =
     Language { code = "zyn" }
 
-{-| Zyphe Chin -}
+
+{-| Zyphe Chin
+-}
 zyp : Language
 zyp =
     Language { code = "zyp" }
+
 
 {-| Zaza
 Dimili
 Dimli (macrolanguage)
 Kirdki
 Kirmanjki (macrolanguage)
-Zazaki -}
+Zazaki
+-}
 zza : Language
 zza =
     Language { code = "zza" }
 
-{-| Zuojiang Zhuang -}
+
+{-| Zuojiang Zhuang
+-}
 zzj : Language
 zzj =
     Language { code = "zzj" }
