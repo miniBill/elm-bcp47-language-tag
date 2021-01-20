@@ -1,5 +1,3 @@
-// @ts-check
-
 const fs = require("fs");
 const tag = require("language-tags");
 
