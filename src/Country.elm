@@ -1,2017 +1,2128 @@
 module Country exposing
     ( Country, details
-    , ad, ae, af, ag, ai, al, am, ao, aq, ar, as_, at, au, aw, ax, az, ba, bb, bd, be, bf, bg, bh, bi, bj, bl, bm, bn, bo, bq, br, bs, bt, bv, bw, by, bz, ca, cc, cd, cf, cg, ch, ci, ck, cl, cm, cn, co, cr, cu, cv, cw, cx, cy, cz, de, dj, dk, dm, do, dz, ec, ee, eg, eh, er, es, et, fi, fj, fk, fm, fo, fr, ga, gb, gd, ge, gf, gg, gh, gi, gl, gm, gn, gp, gq, gr, gs, gt, gu, gw, gy, hk, hm, hn, hr, ht, hu, id, ie, il, im, in_, io, iq, ir, is, it, je, jm, jo, jp, ke, kg, kh, ki, km, kn, kp, kr, kw, ky, kz, la, lb, lc, li, lk, lr, ls, lt, lu, lv, ly, ma, mc, md, me, mf, mg, mh, mk, ml, mm, mn, mo, mp, mq, mr, ms, mt, mu, mv, mw, mx, my, mz, na, nc, ne, nf, ng, ni, nl, no, np, nr, nu, nz, om, pa, pe, pf, pg, ph, pk, pl, pm, pn, pr, ps, pt, pw, py, qa, re, ro, rs, ru, rw, sa, sb, sc, sd, se, sg, sh, si, sj, sk, sl, sm, sn, so, sr, ss, st, sv, sx, sy, sz, tc, td, tf, tg, th, tj, tk, tl, tm, tn, to, tr, tt, tv, tw, tz, ua, ug, um, us, uy, uz, va, vc, ve, vg, vi, vn, vu, wf, ws, ye, yt, za, zm, zw
+    , n_001, n_002, n_003, n_005, n_009, n_011, n_013, n_014, n_015, n_017, n_018, n_019, n_021, n_029, n_030, n_034, n_035, n_039, n_053, n_054, n_057, n_061, n_142, n_143, n_145, n_150, n_151, n_154, n_155, n_202, n_419, ac, ad, ae, af, ag, ai, al, am, an, ao, aq, ar, as_, at, au, aw, ax, az, ba, bb, bd, be, bf, bg, bh, bi, bj, bl, bm, bn, bo, bq, br, bs, bt, bu, bv, bw, by, bz, ca, cc, cd, cf, cg, ch, ci, ck, cl, cm, cn, co, cp, cr, cs, cu, cv, cw, cx, cy, cz, dd, de, dg, dj, dk, dm, do, dz, ea, ec, ee, eg, eh, er, es, et, eu, ez, fi, fj, fk, fm, fo, fr, fx, ga, gb, gd, ge, gf, gg, gh, gi, gl, gm, gn, gp, gq, gr, gs, gt, gu, gw, gy, hk, hm, hn, hr, ht, hu, ic, id, ie, il, im, in_, io, iq, ir, is, it, je, jm, jo, jp, ke, kg, kh, ki, km, kn, kp, kr, kw, ky, kz, la, lb, lc, li, lk, lr, ls, lt, lu, lv, ly, ma, mc, md, me, mf, mg, mh, mk, ml, mm, mn, mo, mp, mq, mr, ms, mt, mu, mv, mw, mx, my, mz, na, nc, ne, nf, ng, ni, nl, no, np, nr, nt, nu, nz, om, pa, pe, pf, pg, ph, pk, pl, pm, pn, pr, ps, pt, pw, py, qa, re, ro, rs, ru, rw, sa, sb, sc, sd, se, sg, sh, si, sj, sk, sl, sm, sn, so, sr, ss, st, su, sv, sx, sy, sz, ta, tc, td, tf, tg, th, tj, tk, tl, tm, tn, to, tp, tr, tt, tv, tw, tz, ua, ug, um, un, us, uy, uz, va, vc, ve, vg, vi, vn, vu, wf, ws, yd, ye, yt, yu, za, zm, zr, zw
     )
 
 {-| ISO 3166-1 country codes. See <https://en.wikipedia.org/wiki/ISO_3166-1>.
 
 @docs Country, details
 
-@docs ad, ae, af, ag, ai, al, am, ao, aq, ar, as_, at, au, aw, ax, az, ba, bb, bd, be, bf, bg, bh, bi, bj, bl, bm, bn, bo, bq, br, bs, bt, bv, bw, by, bz, ca, cc, cd, cf, cg, ch, ci, ck, cl, cm, cn, co, cr, cu, cv, cw, cx, cy, cz, de, dj, dk, dm, do, dz, ec, ee, eg, eh, er, es, et, fi, fj, fk, fm, fo, fr, ga, gb, gd, ge, gf, gg, gh, gi, gl, gm, gn, gp, gq, gr, gs, gt, gu, gw, gy, hk, hm, hn, hr, ht, hu, id, ie, il, im, in_, io, iq, ir, is, it, je, jm, jo, jp, ke, kg, kh, ki, km, kn, kp, kr, kw, ky, kz, la, lb, lc, li, lk, lr, ls, lt, lu, lv, ly, ma, mc, md, me, mf, mg, mh, mk, ml, mm, mn, mo, mp, mq, mr, ms, mt, mu, mv, mw, mx, my, mz, na, nc, ne, nf, ng, ni, nl, no, np, nr, nu, nz, om, pa, pe, pf, pg, ph, pk, pl, pm, pn, pr, ps, pt, pw, py, qa, re, ro, rs, ru, rw, sa, sb, sc, sd, se, sg, sh, si, sj, sk, sl, sm, sn, so, sr, ss, st, sv, sx, sy, sz, tc, td, tf, tg, th, tj, tk, tl, tm, tn, to, tr, tt, tv, tw, tz, ua, ug, um, us, uy, uz, va, vc, ve, vg, vi, vn, vu, wf, ws, ye, yt, za, zm, zw
+@docs n_001, n_002, n_003, n_005, n_009, n_011, n_013, n_014, n_015, n_017, n_018, n_019, n_021, n_029, n_030, n_034, n_035, n_039, n_053, n_054, n_057, n_061, n_142, n_143, n_145, n_150, n_151, n_154, n_155, n_202, n_419, ac, ad, ae, af, ag, ai, al, am, an, ao, aq, ar, as_, at, au, aw, ax, az, ba, bb, bd, be, bf, bg, bh, bi, bj, bl, bm, bn, bo, bq, br, bs, bt, bu, bv, bw, by, bz, ca, cc, cd, cf, cg, ch, ci, ck, cl, cm, cn, co, cp, cr, cs, cu, cv, cw, cx, cy, cz, dd, de, dg, dj, dk, dm, do, dz, ea, ec, ee, eg, eh, er, es, et, eu, ez, fi, fj, fk, fm, fo, fr, fx, ga, gb, gd, ge, gf, gg, gh, gi, gl, gm, gn, gp, gq, gr, gs, gt, gu, gw, gy, hk, hm, hn, hr, ht, hu, ic, id, ie, il, im, in_, io, iq, ir, is, it, je, jm, jo, jp, ke, kg, kh, ki, km, kn, kp, kr, kw, ky, kz, la, lb, lc, li, lk, lr, ls, lt, lu, lv, ly, ma, mc, md, me, mf, mg, mh, mk, ml, mm, mn, mo, mp, mq, mr, ms, mt, mu, mv, mw, mx, my, mz, na, nc, ne, nf, ng, ni, nl, no, np, nr, nt, nu, nz, om, pa, pe, pf, pg, ph, pk, pl, pm, pn, pr, ps, pt, pw, py, qa, re, ro, rs, ru, rw, sa, sb, sc, sd, se, sg, sh, si, sj, sk, sl, sm, sn, so, sr, ss, st, su, sv, sx, sy, sz, ta, tc, td, tf, tg, th, tj, tk, tl, tm, tn, to, tp, tr, tt, tv, tw, tz, ua, ug, um, un, us, uy, uz, va, vc, ve, vg, vi, vn, vu, wf, ws, yd, ye, yt, yu, za, zm, zr, zw
 
 -}
 
 
-{-| Country
--}
+{-| -}
 type Country
-    = Country { alpha2 : String, alpha3 : String }
+    = Country { code : String }
 
 
-{-| Get the 2-digit and 3-digit versions of the ISO 3166 country code.
+{-| Get the details for an ExtendedLanguage, including the `code` which represents the 639 language code.
 -}
-details : Country -> { alpha2 : String, alpha3 : String }
+details : Country -> { code : String }
 details (Country record) =
     record
+
+
+{-| World
+-}
+n_001 : Country
+n_001 =
+    Country { code = "001" }
+
+
+{-| Africa
+-}
+n_002 : Country
+n_002 =
+    Country { code = "002" }
+
+
+{-| North America
+-}
+n_003 : Country
+n_003 =
+    Country { code = "003" }
+
+
+{-| South America
+-}
+n_005 : Country
+n_005 =
+    Country { code = "005" }
+
+
+{-| Oceania
+-}
+n_009 : Country
+n_009 =
+    Country { code = "009" }
+
+
+{-| Western Africa
+-}
+n_011 : Country
+n_011 =
+    Country { code = "011" }
+
+
+{-| Central America
+-}
+n_013 : Country
+n_013 =
+    Country { code = "013" }
+
+
+{-| Eastern Africa
+-}
+n_014 : Country
+n_014 =
+    Country { code = "014" }
+
+
+{-| Northern Africa
+-}
+n_015 : Country
+n_015 =
+    Country { code = "015" }
+
+
+{-| Middle Africa
+-}
+n_017 : Country
+n_017 =
+    Country { code = "017" }
+
+
+{-| Southern Africa
+-}
+n_018 : Country
+n_018 =
+    Country { code = "018" }
+
+
+{-| Americas
+-}
+n_019 : Country
+n_019 =
+    Country { code = "019" }
+
+
+{-| Northern America
+-}
+n_021 : Country
+n_021 =
+    Country { code = "021" }
+
+
+{-| Caribbean
+-}
+n_029 : Country
+n_029 =
+    Country { code = "029" }
+
+
+{-| Eastern Asia
+-}
+n_030 : Country
+n_030 =
+    Country { code = "030" }
+
+
+{-| Southern Asia
+-}
+n_034 : Country
+n_034 =
+    Country { code = "034" }
+
+
+{-| South-Eastern Asia
+-}
+n_035 : Country
+n_035 =
+    Country { code = "035" }
+
+
+{-| Southern Europe
+-}
+n_039 : Country
+n_039 =
+    Country { code = "039" }
+
+
+{-| Australia and New Zealand
+-}
+n_053 : Country
+n_053 =
+    Country { code = "053" }
+
+
+{-| Melanesia
+-}
+n_054 : Country
+n_054 =
+    Country { code = "054" }
+
+
+{-| Micronesia
+-}
+n_057 : Country
+n_057 =
+    Country { code = "057" }
+
+
+{-| Polynesia
+-}
+n_061 : Country
+n_061 =
+    Country { code = "061" }
+
+
+{-| Asia
+-}
+n_142 : Country
+n_142 =
+    Country { code = "142" }
+
+
+{-| Central Asia
+-}
+n_143 : Country
+n_143 =
+    Country { code = "143" }
+
+
+{-| Western Asia
+-}
+n_145 : Country
+n_145 =
+    Country { code = "145" }
+
+
+{-| Europe
+-}
+n_150 : Country
+n_150 =
+    Country { code = "150" }
+
+
+{-| Eastern Europe
+-}
+n_151 : Country
+n_151 =
+    Country { code = "151" }
+
+
+{-| Northern Europe
+-}
+n_154 : Country
+n_154 =
+    Country { code = "154" }
+
+
+{-| Western Europe
+-}
+n_155 : Country
+n_155 =
+    Country { code = "155" }
+
+
+{-| Sub-Saharan Africa
+-}
+n_202 : Country
+n_202 =
+    Country { code = "202" }
+
+
+{-| Latin America and the Caribbean
+-}
+n_419 : Country
+n_419 =
+    Country { code = "419" }
+
+
+{-| Ascension Island
+-}
+ac : Country
+ac =
+    Country { code = "ac" }
 
 
 {-| Andorra
 -}
 ad : Country
 ad =
-    Country
-        { alpha2 = "AD", alpha3 = "AND" }
+    Country { code = "ad" }
 
 
 {-| United Arab Emirates
 -}
 ae : Country
 ae =
-    Country
-        { alpha2 = "AE", alpha3 = "ARE" }
+    Country { code = "ae" }
 
 
 {-| Afghanistan
 -}
 af : Country
 af =
-    Country
-        { alpha2 = "AF", alpha3 = "AFG" }
+    Country { code = "af" }
 
 
 {-| Antigua and Barbuda
 -}
 ag : Country
 ag =
-    Country
-        { alpha2 = "AG", alpha3 = "ATG" }
+    Country { code = "ag" }
 
 
 {-| Anguilla
 -}
 ai : Country
 ai =
-    Country
-        { alpha2 = "AI", alpha3 = "AIA" }
+    Country { code = "ai" }
 
 
 {-| Albania
 -}
 al : Country
 al =
-    Country
-        { alpha2 = "AL", alpha3 = "ALB" }
+    Country { code = "al" }
 
 
 {-| Armenia
 -}
 am : Country
 am =
-    Country
-        { alpha2 = "AM", alpha3 = "ARM" }
+    Country { code = "am" }
+
+
+{-| Netherlands Antilles
+-}
+an : Country
+an =
+    Country { code = "an" }
 
 
 {-| Angola
 -}
 ao : Country
 ao =
-    Country
-        { alpha2 = "AO", alpha3 = "AGO" }
+    Country { code = "ao" }
 
 
 {-| Antarctica
 -}
 aq : Country
 aq =
-    Country
-        { alpha2 = "AQ", alpha3 = "ATA" }
+    Country { code = "aq" }
 
 
 {-| Argentina
 -}
 ar : Country
 ar =
-    Country
-        { alpha2 = "AR", alpha3 = "ARG" }
+    Country { code = "ar" }
 
 
 {-| American Samoa
 -}
 as_ : Country
 as_ =
-    Country
-        { alpha2 = "AS", alpha3 = "ASM" }
+    Country { code = "as" }
 
 
 {-| Austria
 -}
 at : Country
 at =
-    Country
-        { alpha2 = "AT", alpha3 = "AUT" }
+    Country { code = "at" }
 
 
 {-| Australia
 -}
 au : Country
 au =
-    Country
-        { alpha2 = "AU", alpha3 = "AUS" }
+    Country { code = "au" }
 
 
 {-| Aruba
 -}
 aw : Country
 aw =
-    Country
-        { alpha2 = "AW", alpha3 = "ABW" }
+    Country { code = "aw" }
 
 
 {-| Åland Islands
 -}
 ax : Country
 ax =
-    Country
-        { alpha2 = "AX", alpha3 = "ALA" }
+    Country { code = "ax" }
 
 
 {-| Azerbaijan
 -}
 az : Country
 az =
-    Country
-        { alpha2 = "AZ", alpha3 = "AZE" }
+    Country { code = "az" }
 
 
 {-| Bosnia and Herzegovina
 -}
 ba : Country
 ba =
-    Country
-        { alpha2 = "BA", alpha3 = "BIH" }
+    Country { code = "ba" }
 
 
 {-| Barbados
 -}
 bb : Country
 bb =
-    Country
-        { alpha2 = "BB", alpha3 = "BRB" }
+    Country { code = "bb" }
 
 
 {-| Bangladesh
 -}
 bd : Country
 bd =
-    Country
-        { alpha2 = "BD", alpha3 = "BGD" }
+    Country { code = "bd" }
 
 
 {-| Belgium
 -}
 be : Country
 be =
-    Country
-        { alpha2 = "BE", alpha3 = "BEL" }
+    Country { code = "be" }
 
 
 {-| Burkina Faso
 -}
 bf : Country
 bf =
-    Country
-        { alpha2 = "BF", alpha3 = "BFA" }
+    Country { code = "bf" }
 
 
 {-| Bulgaria
 -}
 bg : Country
 bg =
-    Country
-        { alpha2 = "BG", alpha3 = "BGR" }
+    Country { code = "bg" }
 
 
 {-| Bahrain
 -}
 bh : Country
 bh =
-    Country
-        { alpha2 = "BH", alpha3 = "BHR" }
+    Country { code = "bh" }
 
 
 {-| Burundi
 -}
 bi : Country
 bi =
-    Country
-        { alpha2 = "BI", alpha3 = "BDI" }
+    Country { code = "bi" }
 
 
 {-| Benin
 -}
 bj : Country
 bj =
-    Country
-        { alpha2 = "BJ", alpha3 = "BEN" }
+    Country { code = "bj" }
 
 
 {-| Saint Barthélemy
 -}
 bl : Country
 bl =
-    Country
-        { alpha2 = "BL", alpha3 = "BLM" }
+    Country { code = "bl" }
 
 
 {-| Bermuda
 -}
 bm : Country
 bm =
-    Country
-        { alpha2 = "BM", alpha3 = "BMU" }
+    Country { code = "bm" }
 
 
 {-| Brunei Darussalam
 -}
 bn : Country
 bn =
-    Country
-        { alpha2 = "BN", alpha3 = "BRN" }
+    Country { code = "bn" }
 
 
-{-| Bolivia (Plurinational State of)
+{-| Bolivia
 -}
 bo : Country
 bo =
-    Country
-        { alpha2 = "BO", alpha3 = "BOL" }
+    Country { code = "bo" }
 
 
 {-| Bonaire, Sint Eustatius and Saba
 -}
 bq : Country
 bq =
-    Country
-        { alpha2 = "BQ", alpha3 = "BES" }
+    Country { code = "bq" }
 
 
 {-| Brazil
 -}
 br : Country
 br =
-    Country
-        { alpha2 = "BR", alpha3 = "BRA" }
+    Country { code = "br" }
 
 
 {-| Bahamas
 -}
 bs : Country
 bs =
-    Country
-        { alpha2 = "BS", alpha3 = "BHS" }
+    Country { code = "bs" }
 
 
 {-| Bhutan
 -}
 bt : Country
 bt =
-    Country
-        { alpha2 = "BT", alpha3 = "BTN" }
+    Country { code = "bt" }
+
+
+{-| Burma
+-}
+bu : Country
+bu =
+    Country { code = "bu" }
 
 
 {-| Bouvet Island
 -}
 bv : Country
 bv =
-    Country
-        { alpha2 = "BV", alpha3 = "BVT" }
+    Country { code = "bv" }
 
 
 {-| Botswana
 -}
 bw : Country
 bw =
-    Country
-        { alpha2 = "BW", alpha3 = "BWA" }
+    Country { code = "bw" }
 
 
 {-| Belarus
 -}
 by : Country
 by =
-    Country
-        { alpha2 = "BY", alpha3 = "BLR" }
+    Country { code = "by" }
 
 
 {-| Belize
 -}
 bz : Country
 bz =
-    Country
-        { alpha2 = "BZ", alpha3 = "BLZ" }
+    Country { code = "bz" }
 
 
 {-| Canada
 -}
 ca : Country
 ca =
-    Country
-        { alpha2 = "CA", alpha3 = "CAN" }
+    Country { code = "ca" }
 
 
 {-| Cocos (Keeling) Islands
 -}
 cc : Country
 cc =
-    Country
-        { alpha2 = "CC", alpha3 = "CCK" }
+    Country { code = "cc" }
 
 
-{-| Congo, Democratic Republic of the
+{-| The Democratic Republic of the Congo
 -}
 cd : Country
 cd =
-    Country
-        { alpha2 = "CD", alpha3 = "COD" }
+    Country { code = "cd" }
 
 
 {-| Central African Republic
 -}
 cf : Country
 cf =
-    Country
-        { alpha2 = "CF", alpha3 = "CAF" }
+    Country { code = "cf" }
 
 
 {-| Congo
 -}
 cg : Country
 cg =
-    Country
-        { alpha2 = "CG", alpha3 = "COG" }
+    Country { code = "cg" }
 
 
 {-| Switzerland
 -}
 ch : Country
 ch =
-    Country
-        { alpha2 = "CH", alpha3 = "CHE" }
+    Country { code = "ch" }
 
 
 {-| Côte d'Ivoire
 -}
 ci : Country
 ci =
-    Country
-        { alpha2 = "CI", alpha3 = "CIV" }
+    Country { code = "ci" }
 
 
 {-| Cook Islands
 -}
 ck : Country
 ck =
-    Country
-        { alpha2 = "CK", alpha3 = "COK" }
+    Country { code = "ck" }
 
 
 {-| Chile
 -}
 cl : Country
 cl =
-    Country
-        { alpha2 = "CL", alpha3 = "CHL" }
+    Country { code = "cl" }
 
 
 {-| Cameroon
 -}
 cm : Country
 cm =
-    Country
-        { alpha2 = "CM", alpha3 = "CMR" }
+    Country { code = "cm" }
 
 
 {-| China
 -}
 cn : Country
 cn =
-    Country
-        { alpha2 = "CN", alpha3 = "CHN" }
+    Country { code = "cn" }
 
 
 {-| Colombia
 -}
 co : Country
 co =
-    Country
-        { alpha2 = "CO", alpha3 = "COL" }
+    Country { code = "co" }
+
+
+{-| Clipperton Island
+-}
+cp : Country
+cp =
+    Country { code = "cp" }
 
 
 {-| Costa Rica
 -}
 cr : Country
 cr =
-    Country
-        { alpha2 = "CR", alpha3 = "CRI" }
+    Country { code = "cr" }
+
+
+{-| Serbia and Montenegro
+-}
+cs : Country
+cs =
+    Country { code = "cs" }
 
 
 {-| Cuba
 -}
 cu : Country
 cu =
-    Country
-        { alpha2 = "CU", alpha3 = "CUB" }
+    Country { code = "cu" }
 
 
 {-| Cabo Verde
+Cape Verde
 -}
 cv : Country
 cv =
-    Country
-        { alpha2 = "CV", alpha3 = "CPV" }
+    Country { code = "cv" }
 
 
 {-| Curaçao
 -}
 cw : Country
 cw =
-    Country
-        { alpha2 = "CW", alpha3 = "CUW" }
+    Country { code = "cw" }
 
 
 {-| Christmas Island
 -}
 cx : Country
 cx =
-    Country
-        { alpha2 = "CX", alpha3 = "CXR" }
+    Country { code = "cx" }
 
 
 {-| Cyprus
 -}
 cy : Country
 cy =
-    Country
-        { alpha2 = "CY", alpha3 = "CYP" }
+    Country { code = "cy" }
 
 
 {-| Czechia
+Czech Republic
 -}
 cz : Country
 cz =
-    Country
-        { alpha2 = "CZ", alpha3 = "CZE" }
+    Country { code = "cz" }
+
+
+{-| German Democratic Republic
+-}
+dd : Country
+dd =
+    Country { code = "dd" }
 
 
 {-| Germany
 -}
 de : Country
 de =
-    Country
-        { alpha2 = "DE", alpha3 = "DEU" }
+    Country { code = "de" }
+
+
+{-| Diego Garcia
+-}
+dg : Country
+dg =
+    Country { code = "dg" }
 
 
 {-| Djibouti
 -}
 dj : Country
 dj =
-    Country
-        { alpha2 = "DJ", alpha3 = "DJI" }
+    Country { code = "dj" }
 
 
 {-| Denmark
 -}
 dk : Country
 dk =
-    Country
-        { alpha2 = "DK", alpha3 = "DNK" }
+    Country { code = "dk" }
 
 
 {-| Dominica
 -}
 dm : Country
 dm =
-    Country
-        { alpha2 = "DM", alpha3 = "DMA" }
+    Country { code = "dm" }
 
 
 {-| Dominican Republic
 -}
 do : Country
 do =
-    Country
-        { alpha2 = "DO", alpha3 = "DOM" }
+    Country { code = "do" }
 
 
 {-| Algeria
 -}
 dz : Country
 dz =
-    Country
-        { alpha2 = "DZ", alpha3 = "DZA" }
+    Country { code = "dz" }
+
+
+{-| Ceuta, Melilla
+-}
+ea : Country
+ea =
+    Country { code = "ea" }
 
 
 {-| Ecuador
 -}
 ec : Country
 ec =
-    Country
-        { alpha2 = "EC", alpha3 = "ECU" }
+    Country { code = "ec" }
 
 
 {-| Estonia
 -}
 ee : Country
 ee =
-    Country
-        { alpha2 = "EE", alpha3 = "EST" }
+    Country { code = "ee" }
 
 
 {-| Egypt
 -}
 eg : Country
 eg =
-    Country
-        { alpha2 = "EG", alpha3 = "EGY" }
+    Country { code = "eg" }
 
 
 {-| Western Sahara
 -}
 eh : Country
 eh =
-    Country
-        { alpha2 = "EH", alpha3 = "ESH" }
+    Country { code = "eh" }
 
 
 {-| Eritrea
 -}
 er : Country
 er =
-    Country
-        { alpha2 = "ER", alpha3 = "ERI" }
+    Country { code = "er" }
 
 
 {-| Spain
 -}
 es : Country
 es =
-    Country
-        { alpha2 = "ES", alpha3 = "ESP" }
+    Country { code = "es" }
 
 
 {-| Ethiopia
 -}
 et : Country
 et =
-    Country
-        { alpha2 = "ET", alpha3 = "ETH" }
+    Country { code = "et" }
+
+
+{-| European Union
+-}
+eu : Country
+eu =
+    Country { code = "eu" }
+
+
+{-| Eurozone
+-}
+ez : Country
+ez =
+    Country { code = "ez" }
 
 
 {-| Finland
 -}
 fi : Country
 fi =
-    Country
-        { alpha2 = "FI", alpha3 = "FIN" }
+    Country { code = "fi" }
 
 
 {-| Fiji
 -}
 fj : Country
 fj =
-    Country
-        { alpha2 = "FJ", alpha3 = "FJI" }
+    Country { code = "fj" }
 
 
 {-| Falkland Islands (Malvinas)
 -}
 fk : Country
 fk =
-    Country
-        { alpha2 = "FK", alpha3 = "FLK" }
+    Country { code = "fk" }
 
 
-{-| Micronesia (Federated States of)
+{-| Federated States of Micronesia
 -}
 fm : Country
 fm =
-    Country
-        { alpha2 = "FM", alpha3 = "FSM" }
+    Country { code = "fm" }
 
 
 {-| Faroe Islands
 -}
 fo : Country
 fo =
-    Country
-        { alpha2 = "FO", alpha3 = "FRO" }
+    Country { code = "fo" }
 
 
 {-| France
 -}
 fr : Country
 fr =
-    Country
-        { alpha2 = "FR", alpha3 = "FRA" }
+    Country { code = "fr" }
+
+
+{-| Metropolitan France
+-}
+fx : Country
+fx =
+    Country { code = "fx" }
 
 
 {-| Gabon
 -}
 ga : Country
 ga =
-    Country
-        { alpha2 = "GA", alpha3 = "GAB" }
+    Country { code = "ga" }
 
 
-{-| United Kingdom of Great Britain and Northern Ireland
+{-| United Kingdom
 -}
 gb : Country
 gb =
-    Country
-        { alpha2 = "GB", alpha3 = "GBR" }
+    Country { code = "gb" }
 
 
 {-| Grenada
 -}
 gd : Country
 gd =
-    Country
-        { alpha2 = "GD", alpha3 = "GRD" }
+    Country { code = "gd" }
 
 
 {-| Georgia
 -}
 ge : Country
 ge =
-    Country
-        { alpha2 = "GE", alpha3 = "GEO" }
+    Country { code = "ge" }
 
 
 {-| French Guiana
 -}
 gf : Country
 gf =
-    Country
-        { alpha2 = "GF", alpha3 = "GUF" }
+    Country { code = "gf" }
 
 
 {-| Guernsey
 -}
 gg : Country
 gg =
-    Country
-        { alpha2 = "GG", alpha3 = "GGY" }
+    Country { code = "gg" }
 
 
 {-| Ghana
 -}
 gh : Country
 gh =
-    Country
-        { alpha2 = "GH", alpha3 = "GHA" }
+    Country { code = "gh" }
 
 
 {-| Gibraltar
 -}
 gi : Country
 gi =
-    Country
-        { alpha2 = "GI", alpha3 = "GIB" }
+    Country { code = "gi" }
 
 
 {-| Greenland
 -}
 gl : Country
 gl =
-    Country
-        { alpha2 = "GL", alpha3 = "GRL" }
+    Country { code = "gl" }
 
 
 {-| Gambia
 -}
 gm : Country
 gm =
-    Country
-        { alpha2 = "GM", alpha3 = "GMB" }
+    Country { code = "gm" }
 
 
 {-| Guinea
 -}
 gn : Country
 gn =
-    Country
-        { alpha2 = "GN", alpha3 = "GIN" }
+    Country { code = "gn" }
 
 
 {-| Guadeloupe
 -}
 gp : Country
 gp =
-    Country
-        { alpha2 = "GP", alpha3 = "GLP" }
+    Country { code = "gp" }
 
 
 {-| Equatorial Guinea
 -}
 gq : Country
 gq =
-    Country
-        { alpha2 = "GQ", alpha3 = "GNQ" }
+    Country { code = "gq" }
 
 
 {-| Greece
 -}
 gr : Country
 gr =
-    Country
-        { alpha2 = "GR", alpha3 = "GRC" }
+    Country { code = "gr" }
 
 
 {-| South Georgia and the South Sandwich Islands
 -}
 gs : Country
 gs =
-    Country
-        { alpha2 = "GS", alpha3 = "SGS" }
+    Country { code = "gs" }
 
 
 {-| Guatemala
 -}
 gt : Country
 gt =
-    Country
-        { alpha2 = "GT", alpha3 = "GTM" }
+    Country { code = "gt" }
 
 
 {-| Guam
 -}
 gu : Country
 gu =
-    Country
-        { alpha2 = "GU", alpha3 = "GUM" }
+    Country { code = "gu" }
 
 
 {-| Guinea-Bissau
 -}
 gw : Country
 gw =
-    Country
-        { alpha2 = "GW", alpha3 = "GNB" }
+    Country { code = "gw" }
 
 
 {-| Guyana
 -}
 gy : Country
 gy =
-    Country
-        { alpha2 = "GY", alpha3 = "GUY" }
+    Country { code = "gy" }
 
 
 {-| Hong Kong
 -}
 hk : Country
 hk =
-    Country
-        { alpha2 = "HK", alpha3 = "HKG" }
+    Country { code = "hk" }
 
 
 {-| Heard Island and McDonald Islands
 -}
 hm : Country
 hm =
-    Country
-        { alpha2 = "HM", alpha3 = "HMD" }
+    Country { code = "hm" }
 
 
 {-| Honduras
 -}
 hn : Country
 hn =
-    Country
-        { alpha2 = "HN", alpha3 = "HND" }
+    Country { code = "hn" }
 
 
 {-| Croatia
 -}
 hr : Country
 hr =
-    Country
-        { alpha2 = "HR", alpha3 = "HRV" }
+    Country { code = "hr" }
 
 
 {-| Haiti
 -}
 ht : Country
 ht =
-    Country
-        { alpha2 = "HT", alpha3 = "HTI" }
+    Country { code = "ht" }
 
 
 {-| Hungary
 -}
 hu : Country
 hu =
-    Country
-        { alpha2 = "HU", alpha3 = "HUN" }
+    Country { code = "hu" }
+
+
+{-| Canary Islands
+-}
+ic : Country
+ic =
+    Country { code = "ic" }
 
 
 {-| Indonesia
 -}
 id : Country
 id =
-    Country
-        { alpha2 = "ID", alpha3 = "IDN" }
+    Country { code = "id" }
 
 
 {-| Ireland
 -}
 ie : Country
 ie =
-    Country
-        { alpha2 = "IE", alpha3 = "IRL" }
+    Country { code = "ie" }
 
 
 {-| Israel
 -}
 il : Country
 il =
-    Country
-        { alpha2 = "IL", alpha3 = "ISR" }
+    Country { code = "il" }
 
 
 {-| Isle of Man
 -}
 im : Country
 im =
-    Country
-        { alpha2 = "IM", alpha3 = "IMN" }
+    Country { code = "im" }
 
 
 {-| India
 -}
 in_ : Country
 in_ =
-    Country
-        { alpha2 = "IN", alpha3 = "IND" }
+    Country { code = "in" }
 
 
 {-| British Indian Ocean Territory
 -}
 io : Country
 io =
-    Country
-        { alpha2 = "IO", alpha3 = "IOT" }
+    Country { code = "io" }
 
 
 {-| Iraq
 -}
 iq : Country
 iq =
-    Country
-        { alpha2 = "IQ", alpha3 = "IRQ" }
+    Country { code = "iq" }
 
 
-{-| Iran (Islamic Republic of)
+{-| Islamic Republic of Iran
 -}
 ir : Country
 ir =
-    Country
-        { alpha2 = "IR", alpha3 = "IRN" }
+    Country { code = "ir" }
 
 
 {-| Iceland
 -}
 is : Country
 is =
-    Country
-        { alpha2 = "IS", alpha3 = "ISL" }
+    Country { code = "is" }
 
 
 {-| Italy
 -}
 it : Country
 it =
-    Country
-        { alpha2 = "IT", alpha3 = "ITA" }
+    Country { code = "it" }
 
 
 {-| Jersey
 -}
 je : Country
 je =
-    Country
-        { alpha2 = "JE", alpha3 = "JEY" }
+    Country { code = "je" }
 
 
 {-| Jamaica
 -}
 jm : Country
 jm =
-    Country
-        { alpha2 = "JM", alpha3 = "JAM" }
+    Country { code = "jm" }
 
 
 {-| Jordan
 -}
 jo : Country
 jo =
-    Country
-        { alpha2 = "JO", alpha3 = "JOR" }
+    Country { code = "jo" }
 
 
 {-| Japan
 -}
 jp : Country
 jp =
-    Country
-        { alpha2 = "JP", alpha3 = "JPN" }
+    Country { code = "jp" }
 
 
 {-| Kenya
 -}
 ke : Country
 ke =
-    Country
-        { alpha2 = "KE", alpha3 = "KEN" }
+    Country { code = "ke" }
 
 
 {-| Kyrgyzstan
 -}
 kg : Country
 kg =
-    Country
-        { alpha2 = "KG", alpha3 = "KGZ" }
+    Country { code = "kg" }
 
 
 {-| Cambodia
 -}
 kh : Country
 kh =
-    Country
-        { alpha2 = "KH", alpha3 = "KHM" }
+    Country { code = "kh" }
 
 
 {-| Kiribati
 -}
 ki : Country
 ki =
-    Country
-        { alpha2 = "KI", alpha3 = "KIR" }
+    Country { code = "ki" }
 
 
 {-| Comoros
 -}
 km : Country
 km =
-    Country
-        { alpha2 = "KM", alpha3 = "COM" }
+    Country { code = "km" }
 
 
 {-| Saint Kitts and Nevis
 -}
 kn : Country
 kn =
-    Country
-        { alpha2 = "KN", alpha3 = "KNA" }
+    Country { code = "kn" }
 
 
-{-| Korea (Democratic People's Republic of)
+{-| Democratic People's Republic of Korea
 -}
 kp : Country
 kp =
-    Country
-        { alpha2 = "KP", alpha3 = "PRK" }
+    Country { code = "kp" }
 
 
-{-| Korea, Republic of
+{-| Republic of Korea
 -}
 kr : Country
 kr =
-    Country
-        { alpha2 = "KR", alpha3 = "KOR" }
+    Country { code = "kr" }
 
 
 {-| Kuwait
 -}
 kw : Country
 kw =
-    Country
-        { alpha2 = "KW", alpha3 = "KWT" }
+    Country { code = "kw" }
 
 
 {-| Cayman Islands
 -}
 ky : Country
 ky =
-    Country
-        { alpha2 = "KY", alpha3 = "CYM" }
+    Country { code = "ky" }
 
 
 {-| Kazakhstan
 -}
 kz : Country
 kz =
-    Country
-        { alpha2 = "KZ", alpha3 = "KAZ" }
+    Country { code = "kz" }
 
 
 {-| Lao People's Democratic Republic
 -}
 la : Country
 la =
-    Country
-        { alpha2 = "LA", alpha3 = "LAO" }
+    Country { code = "la" }
 
 
 {-| Lebanon
 -}
 lb : Country
 lb =
-    Country
-        { alpha2 = "LB", alpha3 = "LBN" }
+    Country { code = "lb" }
 
 
 {-| Saint Lucia
 -}
 lc : Country
 lc =
-    Country
-        { alpha2 = "LC", alpha3 = "LCA" }
+    Country { code = "lc" }
 
 
 {-| Liechtenstein
 -}
 li : Country
 li =
-    Country
-        { alpha2 = "LI", alpha3 = "LIE" }
+    Country { code = "li" }
 
 
 {-| Sri Lanka
 -}
 lk : Country
 lk =
-    Country
-        { alpha2 = "LK", alpha3 = "LKA" }
+    Country { code = "lk" }
 
 
 {-| Liberia
 -}
 lr : Country
 lr =
-    Country
-        { alpha2 = "LR", alpha3 = "LBR" }
+    Country { code = "lr" }
 
 
 {-| Lesotho
 -}
 ls : Country
 ls =
-    Country
-        { alpha2 = "LS", alpha3 = "LSO" }
+    Country { code = "ls" }
 
 
 {-| Lithuania
 -}
 lt : Country
 lt =
-    Country
-        { alpha2 = "LT", alpha3 = "LTU" }
+    Country { code = "lt" }
 
 
 {-| Luxembourg
 -}
 lu : Country
 lu =
-    Country
-        { alpha2 = "LU", alpha3 = "LUX" }
+    Country { code = "lu" }
 
 
 {-| Latvia
 -}
 lv : Country
 lv =
-    Country
-        { alpha2 = "LV", alpha3 = "LVA" }
+    Country { code = "lv" }
 
 
 {-| Libya
 -}
 ly : Country
 ly =
-    Country
-        { alpha2 = "LY", alpha3 = "LBY" }
+    Country { code = "ly" }
 
 
 {-| Morocco
 -}
 ma : Country
 ma =
-    Country
-        { alpha2 = "MA", alpha3 = "MAR" }
+    Country { code = "ma" }
 
 
 {-| Monaco
 -}
 mc : Country
 mc =
-    Country
-        { alpha2 = "MC", alpha3 = "MCO" }
+    Country { code = "mc" }
 
 
-{-| Moldova, Republic of
+{-| Moldova
 -}
 md : Country
 md =
-    Country
-        { alpha2 = "MD", alpha3 = "MDA" }
+    Country { code = "md" }
 
 
 {-| Montenegro
 -}
 me : Country
 me =
-    Country
-        { alpha2 = "ME", alpha3 = "MNE" }
+    Country { code = "me" }
 
 
 {-| Saint Martin (French part)
 -}
 mf : Country
 mf =
-    Country
-        { alpha2 = "MF", alpha3 = "MAF" }
+    Country { code = "mf" }
 
 
 {-| Madagascar
 -}
 mg : Country
 mg =
-    Country
-        { alpha2 = "MG", alpha3 = "MDG" }
+    Country { code = "mg" }
 
 
 {-| Marshall Islands
 -}
 mh : Country
 mh =
-    Country
-        { alpha2 = "MH", alpha3 = "MHL" }
+    Country { code = "mh" }
 
 
 {-| North Macedonia
 -}
 mk : Country
 mk =
-    Country
-        { alpha2 = "MK", alpha3 = "MKD" }
+    Country { code = "mk" }
 
 
 {-| Mali
 -}
 ml : Country
 ml =
-    Country
-        { alpha2 = "ML", alpha3 = "MLI" }
+    Country { code = "ml" }
 
 
 {-| Myanmar
 -}
 mm : Country
 mm =
-    Country
-        { alpha2 = "MM", alpha3 = "MMR" }
+    Country { code = "mm" }
 
 
 {-| Mongolia
 -}
 mn : Country
 mn =
-    Country
-        { alpha2 = "MN", alpha3 = "MNG" }
+    Country { code = "mn" }
 
 
 {-| Macao
 -}
 mo : Country
 mo =
-    Country
-        { alpha2 = "MO", alpha3 = "MAC" }
+    Country { code = "mo" }
 
 
 {-| Northern Mariana Islands
 -}
 mp : Country
 mp =
-    Country
-        { alpha2 = "MP", alpha3 = "MNP" }
+    Country { code = "mp" }
 
 
 {-| Martinique
 -}
 mq : Country
 mq =
-    Country
-        { alpha2 = "MQ", alpha3 = "MTQ" }
+    Country { code = "mq" }
 
 
 {-| Mauritania
 -}
 mr : Country
 mr =
-    Country
-        { alpha2 = "MR", alpha3 = "MRT" }
+    Country { code = "mr" }
 
 
 {-| Montserrat
 -}
 ms : Country
 ms =
-    Country
-        { alpha2 = "MS", alpha3 = "MSR" }
+    Country { code = "ms" }
 
 
 {-| Malta
 -}
 mt : Country
 mt =
-    Country
-        { alpha2 = "MT", alpha3 = "MLT" }
+    Country { code = "mt" }
 
 
 {-| Mauritius
 -}
 mu : Country
 mu =
-    Country
-        { alpha2 = "MU", alpha3 = "MUS" }
+    Country { code = "mu" }
 
 
 {-| Maldives
 -}
 mv : Country
 mv =
-    Country
-        { alpha2 = "MV", alpha3 = "MDV" }
+    Country { code = "mv" }
 
 
 {-| Malawi
 -}
 mw : Country
 mw =
-    Country
-        { alpha2 = "MW", alpha3 = "MWI" }
+    Country { code = "mw" }
 
 
 {-| Mexico
 -}
 mx : Country
 mx =
-    Country
-        { alpha2 = "MX", alpha3 = "MEX" }
+    Country { code = "mx" }
 
 
 {-| Malaysia
 -}
 my : Country
 my =
-    Country
-        { alpha2 = "MY", alpha3 = "MYS" }
+    Country { code = "my" }
 
 
 {-| Mozambique
 -}
 mz : Country
 mz =
-    Country
-        { alpha2 = "MZ", alpha3 = "MOZ" }
+    Country { code = "mz" }
 
 
 {-| Namibia
 -}
 na : Country
 na =
-    Country
-        { alpha2 = "NA", alpha3 = "NAM" }
+    Country { code = "na" }
 
 
 {-| New Caledonia
 -}
 nc : Country
 nc =
-    Country
-        { alpha2 = "NC", alpha3 = "NCL" }
+    Country { code = "nc" }
 
 
 {-| Niger
 -}
 ne : Country
 ne =
-    Country
-        { alpha2 = "NE", alpha3 = "NER" }
+    Country { code = "ne" }
 
 
 {-| Norfolk Island
 -}
 nf : Country
 nf =
-    Country
-        { alpha2 = "NF", alpha3 = "NFK" }
+    Country { code = "nf" }
 
 
 {-| Nigeria
 -}
 ng : Country
 ng =
-    Country
-        { alpha2 = "NG", alpha3 = "NGA" }
+    Country { code = "ng" }
 
 
 {-| Nicaragua
 -}
 ni : Country
 ni =
-    Country
-        { alpha2 = "NI", alpha3 = "NIC" }
+    Country { code = "ni" }
 
 
 {-| Netherlands
 -}
 nl : Country
 nl =
-    Country
-        { alpha2 = "NL", alpha3 = "NLD" }
+    Country { code = "nl" }
 
 
 {-| Norway
 -}
 no : Country
 no =
-    Country
-        { alpha2 = "NO", alpha3 = "NOR" }
+    Country { code = "no" }
 
 
 {-| Nepal
 -}
 np : Country
 np =
-    Country
-        { alpha2 = "NP", alpha3 = "NPL" }
+    Country { code = "np" }
 
 
 {-| Nauru
 -}
 nr : Country
 nr =
-    Country
-        { alpha2 = "NR", alpha3 = "NRU" }
+    Country { code = "nr" }
+
+
+{-| Neutral Zone
+-}
+nt : Country
+nt =
+    Country { code = "nt" }
 
 
 {-| Niue
 -}
 nu : Country
 nu =
-    Country
-        { alpha2 = "NU", alpha3 = "NIU" }
+    Country { code = "nu" }
 
 
 {-| New Zealand
 -}
 nz : Country
 nz =
-    Country
-        { alpha2 = "NZ", alpha3 = "NZL" }
+    Country { code = "nz" }
 
 
 {-| Oman
 -}
 om : Country
 om =
-    Country
-        { alpha2 = "OM", alpha3 = "OMN" }
+    Country { code = "om" }
 
 
 {-| Panama
 -}
 pa : Country
 pa =
-    Country
-        { alpha2 = "PA", alpha3 = "PAN" }
+    Country { code = "pa" }
 
 
 {-| Peru
 -}
 pe : Country
 pe =
-    Country
-        { alpha2 = "PE", alpha3 = "PER" }
+    Country { code = "pe" }
 
 
 {-| French Polynesia
 -}
 pf : Country
 pf =
-    Country
-        { alpha2 = "PF", alpha3 = "PYF" }
+    Country { code = "pf" }
 
 
 {-| Papua New Guinea
 -}
 pg : Country
 pg =
-    Country
-        { alpha2 = "PG", alpha3 = "PNG" }
+    Country { code = "pg" }
 
 
 {-| Philippines
 -}
 ph : Country
 ph =
-    Country
-        { alpha2 = "PH", alpha3 = "PHL" }
+    Country { code = "ph" }
 
 
 {-| Pakistan
 -}
 pk : Country
 pk =
-    Country
-        { alpha2 = "PK", alpha3 = "PAK" }
+    Country { code = "pk" }
 
 
 {-| Poland
 -}
 pl : Country
 pl =
-    Country
-        { alpha2 = "PL", alpha3 = "POL" }
+    Country { code = "pl" }
 
 
 {-| Saint Pierre and Miquelon
 -}
 pm : Country
 pm =
-    Country
-        { alpha2 = "PM", alpha3 = "SPM" }
+    Country { code = "pm" }
 
 
 {-| Pitcairn
 -}
 pn : Country
 pn =
-    Country
-        { alpha2 = "PN", alpha3 = "PCN" }
+    Country { code = "pn" }
 
 
 {-| Puerto Rico
 -}
 pr : Country
 pr =
-    Country
-        { alpha2 = "PR", alpha3 = "PRI" }
+    Country { code = "pr" }
 
 
-{-| Palestine, State of
+{-| State of Palestine
 -}
 ps : Country
 ps =
-    Country
-        { alpha2 = "PS", alpha3 = "PSE" }
+    Country { code = "ps" }
 
 
 {-| Portugal
 -}
 pt : Country
 pt =
-    Country
-        { alpha2 = "PT", alpha3 = "PRT" }
+    Country { code = "pt" }
 
 
 {-| Palau
 -}
 pw : Country
 pw =
-    Country
-        { alpha2 = "PW", alpha3 = "PLW" }
+    Country { code = "pw" }
 
 
 {-| Paraguay
 -}
 py : Country
 py =
-    Country
-        { alpha2 = "PY", alpha3 = "PRY" }
+    Country { code = "py" }
 
 
 {-| Qatar
 -}
 qa : Country
 qa =
-    Country
-        { alpha2 = "QA", alpha3 = "QAT" }
+    Country { code = "qa" }
 
 
 {-| Réunion
 -}
 re : Country
 re =
-    Country
-        { alpha2 = "RE", alpha3 = "REU" }
+    Country { code = "re" }
 
 
 {-| Romania
 -}
 ro : Country
 ro =
-    Country
-        { alpha2 = "RO", alpha3 = "ROU" }
+    Country { code = "ro" }
 
 
 {-| Serbia
 -}
 rs : Country
 rs =
-    Country
-        { alpha2 = "RS", alpha3 = "SRB" }
+    Country { code = "rs" }
 
 
 {-| Russian Federation
 -}
 ru : Country
 ru =
-    Country
-        { alpha2 = "RU", alpha3 = "RUS" }
+    Country { code = "ru" }
 
 
 {-| Rwanda
 -}
 rw : Country
 rw =
-    Country
-        { alpha2 = "RW", alpha3 = "RWA" }
+    Country { code = "rw" }
 
 
 {-| Saudi Arabia
 -}
 sa : Country
 sa =
-    Country
-        { alpha2 = "SA", alpha3 = "SAU" }
+    Country { code = "sa" }
 
 
 {-| Solomon Islands
 -}
 sb : Country
 sb =
-    Country
-        { alpha2 = "SB", alpha3 = "SLB" }
+    Country { code = "sb" }
 
 
 {-| Seychelles
 -}
 sc : Country
 sc =
-    Country
-        { alpha2 = "SC", alpha3 = "SYC" }
+    Country { code = "sc" }
 
 
 {-| Sudan
 -}
 sd : Country
 sd =
-    Country
-        { alpha2 = "SD", alpha3 = "SDN" }
+    Country { code = "sd" }
 
 
 {-| Sweden
 -}
 se : Country
 se =
-    Country
-        { alpha2 = "SE", alpha3 = "SWE" }
+    Country { code = "se" }
 
 
 {-| Singapore
 -}
 sg : Country
 sg =
-    Country
-        { alpha2 = "SG", alpha3 = "SGP" }
+    Country { code = "sg" }
 
 
 {-| Saint Helena, Ascension and Tristan da Cunha
 -}
 sh : Country
 sh =
-    Country
-        { alpha2 = "SH", alpha3 = "SHN" }
+    Country { code = "sh" }
 
 
 {-| Slovenia
 -}
 si : Country
 si =
-    Country
-        { alpha2 = "SI", alpha3 = "SVN" }
+    Country { code = "si" }
 
 
 {-| Svalbard and Jan Mayen
 -}
 sj : Country
 sj =
-    Country
-        { alpha2 = "SJ", alpha3 = "SJM" }
+    Country { code = "sj" }
 
 
 {-| Slovakia
 -}
 sk : Country
 sk =
-    Country
-        { alpha2 = "SK", alpha3 = "SVK" }
+    Country { code = "sk" }
 
 
 {-| Sierra Leone
 -}
 sl : Country
 sl =
-    Country
-        { alpha2 = "SL", alpha3 = "SLE" }
+    Country { code = "sl" }
 
 
 {-| San Marino
 -}
 sm : Country
 sm =
-    Country
-        { alpha2 = "SM", alpha3 = "SMR" }
+    Country { code = "sm" }
 
 
 {-| Senegal
 -}
 sn : Country
 sn =
-    Country
-        { alpha2 = "SN", alpha3 = "SEN" }
+    Country { code = "sn" }
 
 
 {-| Somalia
 -}
 so : Country
 so =
-    Country
-        { alpha2 = "SO", alpha3 = "SOM" }
+    Country { code = "so" }
 
 
 {-| Suriname
 -}
 sr : Country
 sr =
-    Country
-        { alpha2 = "SR", alpha3 = "SUR" }
+    Country { code = "sr" }
 
 
 {-| South Sudan
 -}
 ss : Country
 ss =
-    Country
-        { alpha2 = "SS", alpha3 = "SSD" }
+    Country { code = "ss" }
 
 
 {-| Sao Tome and Principe
 -}
 st : Country
 st =
-    Country
-        { alpha2 = "ST", alpha3 = "STP" }
+    Country { code = "st" }
+
+
+{-| Union of Soviet Socialist Republics
+-}
+su : Country
+su =
+    Country { code = "su" }
 
 
 {-| El Salvador
 -}
 sv : Country
 sv =
-    Country
-        { alpha2 = "SV", alpha3 = "SLV" }
+    Country { code = "sv" }
 
 
 {-| Sint Maarten (Dutch part)
 -}
 sx : Country
 sx =
-    Country
-        { alpha2 = "SX", alpha3 = "SXM" }
+    Country { code = "sx" }
 
 
 {-| Syrian Arab Republic
 -}
 sy : Country
 sy =
-    Country
-        { alpha2 = "SY", alpha3 = "SYR" }
+    Country { code = "sy" }
 
 
 {-| Eswatini
+eSwatini
+Swaziland
 -}
 sz : Country
 sz =
-    Country
-        { alpha2 = "SZ", alpha3 = "SWZ" }
+    Country { code = "sz" }
+
+
+{-| Tristan da Cunha
+-}
+ta : Country
+ta =
+    Country { code = "ta" }
 
 
 {-| Turks and Caicos Islands
 -}
 tc : Country
 tc =
-    Country
-        { alpha2 = "TC", alpha3 = "TCA" }
+    Country { code = "tc" }
 
 
 {-| Chad
 -}
 td : Country
 td =
-    Country
-        { alpha2 = "TD", alpha3 = "TCD" }
+    Country { code = "td" }
 
 
 {-| French Southern Territories
 -}
 tf : Country
 tf =
-    Country
-        { alpha2 = "TF", alpha3 = "ATF" }
+    Country { code = "tf" }
 
 
 {-| Togo
 -}
 tg : Country
 tg =
-    Country
-        { alpha2 = "TG", alpha3 = "TGO" }
+    Country { code = "tg" }
 
 
 {-| Thailand
 -}
 th : Country
 th =
-    Country
-        { alpha2 = "TH", alpha3 = "THA" }
+    Country { code = "th" }
 
 
 {-| Tajikistan
 -}
 tj : Country
 tj =
-    Country
-        { alpha2 = "TJ", alpha3 = "TJK" }
+    Country { code = "tj" }
 
 
 {-| Tokelau
 -}
 tk : Country
 tk =
-    Country
-        { alpha2 = "TK", alpha3 = "TKL" }
+    Country { code = "tk" }
 
 
 {-| Timor-Leste
 -}
 tl : Country
 tl =
-    Country
-        { alpha2 = "TL", alpha3 = "TLS" }
+    Country { code = "tl" }
 
 
 {-| Turkmenistan
 -}
 tm : Country
 tm =
-    Country
-        { alpha2 = "TM", alpha3 = "TKM" }
+    Country { code = "tm" }
 
 
 {-| Tunisia
 -}
 tn : Country
 tn =
-    Country
-        { alpha2 = "TN", alpha3 = "TUN" }
+    Country { code = "tn" }
 
 
 {-| Tonga
 -}
 to : Country
 to =
-    Country
-        { alpha2 = "TO", alpha3 = "TON" }
+    Country { code = "to" }
+
+
+{-| East Timor
+-}
+tp : Country
+tp =
+    Country { code = "tp" }
 
 
 {-| Turkey
 -}
 tr : Country
 tr =
-    Country
-        { alpha2 = "TR", alpha3 = "TUR" }
+    Country { code = "tr" }
 
 
 {-| Trinidad and Tobago
 -}
 tt : Country
 tt =
-    Country
-        { alpha2 = "TT", alpha3 = "TTO" }
+    Country { code = "tt" }
 
 
 {-| Tuvalu
 -}
 tv : Country
 tv =
-    Country
-        { alpha2 = "TV", alpha3 = "TUV" }
+    Country { code = "tv" }
 
 
 {-| Taiwan, Province of China
 -}
 tw : Country
 tw =
-    Country
-        { alpha2 = "TW", alpha3 = "TWN" }
+    Country { code = "tw" }
 
 
-{-| Tanzania, United Republic of
+{-| United Republic of Tanzania
 -}
 tz : Country
 tz =
-    Country
-        { alpha2 = "TZ", alpha3 = "TZA" }
+    Country { code = "tz" }
 
 
 {-| Ukraine
 -}
 ua : Country
 ua =
-    Country
-        { alpha2 = "UA", alpha3 = "UKR" }
+    Country { code = "ua" }
 
 
 {-| Uganda
 -}
 ug : Country
 ug =
-    Country
-        { alpha2 = "UG", alpha3 = "UGA" }
+    Country { code = "ug" }
 
 
 {-| United States Minor Outlying Islands
 -}
 um : Country
 um =
-    Country
-        { alpha2 = "UM", alpha3 = "UMI" }
+    Country { code = "um" }
 
 
-{-| United States of America
+{-| United Nations
+-}
+un : Country
+un =
+    Country { code = "un" }
+
+
+{-| United States
 -}
 us : Country
 us =
-    Country
-        { alpha2 = "US", alpha3 = "USA" }
+    Country { code = "us" }
 
 
 {-| Uruguay
 -}
 uy : Country
 uy =
-    Country
-        { alpha2 = "UY", alpha3 = "URY" }
+    Country { code = "uy" }
 
 
 {-| Uzbekistan
 -}
 uz : Country
 uz =
-    Country
-        { alpha2 = "UZ", alpha3 = "UZB" }
+    Country { code = "uz" }
 
 
-{-| Holy See
+{-| Holy See (Vatican City State)
 -}
 va : Country
 va =
-    Country
-        { alpha2 = "VA", alpha3 = "VAT" }
+    Country { code = "va" }
 
 
 {-| Saint Vincent and the Grenadines
 -}
 vc : Country
 vc =
-    Country
-        { alpha2 = "VC", alpha3 = "VCT" }
+    Country { code = "vc" }
 
 
-{-| Venezuela (Bolivarian Republic of)
+{-| Venezuela
 -}
 ve : Country
 ve =
-    Country
-        { alpha2 = "VE", alpha3 = "VEN" }
+    Country { code = "ve" }
 
 
-{-| Virgin Islands (British)
+{-| British Virgin Islands
 -}
 vg : Country
 vg =
-    Country
-        { alpha2 = "VG", alpha3 = "VGB" }
+    Country { code = "vg" }
 
 
-{-| Virgin Islands (U.S.)
+{-| U.S. Virgin Islands
 -}
 vi : Country
 vi =
-    Country
-        { alpha2 = "VI", alpha3 = "VIR" }
+    Country { code = "vi" }
 
 
 {-| Viet Nam
 -}
 vn : Country
 vn =
-    Country
-        { alpha2 = "VN", alpha3 = "VNM" }
+    Country { code = "vn" }
 
 
 {-| Vanuatu
 -}
 vu : Country
 vu =
-    Country
-        { alpha2 = "VU", alpha3 = "VUT" }
+    Country { code = "vu" }
 
 
 {-| Wallis and Futuna
 -}
 wf : Country
 wf =
-    Country
-        { alpha2 = "WF", alpha3 = "WLF" }
+    Country { code = "wf" }
 
 
 {-| Samoa
 -}
 ws : Country
 ws =
-    Country
-        { alpha2 = "WS", alpha3 = "WSM" }
+    Country { code = "ws" }
+
+
+{-| Democratic Yemen
+-}
+yd : Country
+yd =
+    Country { code = "yd" }
 
 
 {-| Yemen
 -}
 ye : Country
 ye =
-    Country
-        { alpha2 = "YE", alpha3 = "YEM" }
+    Country { code = "ye" }
 
 
 {-| Mayotte
 -}
 yt : Country
 yt =
-    Country
-        { alpha2 = "YT", alpha3 = "MYT" }
+    Country { code = "yt" }
+
+
+{-| Yugoslavia
+-}
+yu : Country
+yu =
+    Country { code = "yu" }
 
 
 {-| South Africa
 -}
 za : Country
 za =
-    Country
-        { alpha2 = "ZA", alpha3 = "ZAF" }
+    Country { code = "za" }
 
 
 {-| Zambia
 -}
 zm : Country
 zm =
-    Country
-        { alpha2 = "ZM", alpha3 = "ZMB" }
+    Country { code = "zm" }
+
+
+{-| Zaire
+-}
+zr : Country
+zr =
+    Country { code = "zr" }
 
 
 {-| Zimbabwe
 -}
 zw : Country
 zw =
-    Country
-        { alpha2 = "ZW", alpha3 = "ZWE" }
+    Country { code = "zw" }

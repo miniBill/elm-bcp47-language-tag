@@ -15,7 +15,14 @@ export default function (config) {
   const extlangs = tags
     .search("")
     .filter((value) => {
-      return value.type() === config.tagType;
+      return (
+        value.type() === config.tagType &&
+        value.Scope !== "private-use" &&
+        value.data.record.Scope !== "private-use" &&
+        value.data.record.Description.every(
+          (description) => !description.match(/private/i)
+        )
+      );
     })
     .sort((langA, langB) =>
       config.entryToTopLevelDefinition(langA) >
@@ -28,9 +35,7 @@ export default function (config) {
     .map((language) => {
       const key = config.entryToTopLevelDefinition(language);
       // console.log(language.data.record);
-      return `{-| ${config.definitionComment(language)} ${
-        language.data.record.Macrolanguage
-      } -}
+      return `{-| ${config.definitionComment(language)} -}
 ${normalizeCode(key)} : ${config.typeName}
 ${normalizeCode(key)} =
     ${config.typeName} { code = "${key}" }`;
@@ -65,10 +70,15 @@ ${languageEntriesCode}
   fs.writeFileSync(`src/${config.typeName}.elm`, languageModule);
 }
 
+/**
+ * @param {string} languageCode
+ */
 function normalizeCode(languageCode) {
   const reservedWords = ["as", "let", "in"];
   if (reservedWords.includes(languageCode)) {
     return languageCode + "_";
+  } else if (languageCode.match(/^\d/)) {
+    return "n_" + languageCode;
   } else {
     return languageCode;
   }

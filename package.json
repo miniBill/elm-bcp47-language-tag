@@ -2,7 +2,6 @@
   "name": "elm-bcp47-language-tag",
   "version": "0.0.1",
   "description": "BCP47 language tags, ISO 639-1 language codes, and ISO 3166-1 country codes.",
-  "type": "module",
   "devDependencies": {
     "elm-review": "^2.3.3",
     "elm-test": "^0.19.1-revision4",

@@ -21,7 +21,9 @@ See <https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang>.
 -}
 
 import Country exposing (Country)
+import ExtendedLanguage exposing (ExtendedLanguage)
 import Language exposing (Language)
+import List.Extra
 import Script exposing (Script)
 
 
@@ -51,13 +53,13 @@ unknown =
 
 {-| -}
 type alias Options =
-    { region : Maybe Country, script : Maybe Script, variants : List String }
+    { extendedLanguage : Maybe ExtendedLanguage, region : Maybe Country, script : Maybe Script, variants : List String }
 
 
 {-| -}
 noOptions : Options
 noOptions =
-    { region = Nothing, script = Nothing, variants = [] }
+    { extendedLanguage = Nothing, region = Nothing, script = Nothing, variants = [] }
 
 
 {-| -}
@@ -84,13 +86,16 @@ toString languageTag =
                     |> Language.details
                     |> .code
                     |> Just
+              , options.extendedLanguage |> Maybe.map ExtendedLanguage.details |> Maybe.map .code
               , options.script |> Maybe.map Script.details |> Maybe.map .code
-              , options.region |> Maybe.map Country.details |> Maybe.map .alpha2
+              , options.region |> Maybe.map Country.details |> Maybe.map .code
               ]
                 |> List.filterMap identity
+                |> List.Extra.unique
              )
                 ++ options.variants
             )
+
                 |> String.join "-"
 
 

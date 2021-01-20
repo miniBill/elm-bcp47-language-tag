@@ -16,3 +16,23 @@ generate({
   tag is precise, specific tools may depend on it being written in a specific way and may not interpret all correct
   variations.`,
 });
+
+generate({
+  tagType: "language",
+  entryToTopLevelDefinition: (lang) => lang.data.subtag,
+  definitionComment: (language) => {
+    return language.data.record.Description.filter((value) => value).join("\n");
+  },
+  typeName: "Language",
+  comment: `ISO 639-1 language codes. See <https://en.wikipedia.org/wiki/ISO_639>.`,
+});
+
+generate({
+  tagType: "region",
+  entryToTopLevelDefinition: (lang) => lang.data.subtag,
+  definitionComment: (country) => {
+    return country.data.record.Description.filter((value) => value).join("\n");
+  },
+  typeName: "Country",
+  comment: `ISO 3166-1 country codes. See <https://en.wikipedia.org/wiki/ISO_3166-1>.`,
+});
