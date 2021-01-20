@@ -1,7 +1,8 @@
 // @ts-check
 
-import fs from "fs";
-import tags from "language-tags";
+const fs = require("fs");
+const tag = require("language-tags");
+
 
 /**
  * @param {object} config
@@ -11,8 +12,8 @@ import tags from "language-tags";
  * @param {string} config.typeName
  * @param {string} config.comment
  */
-export default function (config) {
-  const extlangs = tags
+module.exports = function generate(config) {
+  const extlangs = tag
     .search("")
     .filter((value) => {
       return (

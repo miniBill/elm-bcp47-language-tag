@@ -1,4 +1,4 @@
-import generate from "./generate-module.js";
+const generate = require("./generate-module.js");
 
 generate({
   tagType: "extlang",
