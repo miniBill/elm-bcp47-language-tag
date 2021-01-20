@@ -1,26 +1,25 @@
 module Script exposing
     ( Script, details
-    , adlm, afak, aghb, ahom, arab, aran, armi, armn, avst, bali, bamu, bass, batk, beng, bhks, blis, bopo, brah, brai, bugi, buhd, cakm, cans, cari, cham, cher, chrs, cirt, copt, cpmn, cprt, cyrl, cyrs, deva, diak, dogr, dsrt, dupl, egyd, egyh, egyp, elba, elym, ethi, geok, geor, glag, gong, gonm, goth, gran, grek, gujr, guru, hanb, hang, hani, hano, hans, hant, hatr, hebr, hira, hluw, hmng, hmnp, hrkt, hung, inds, ital, jamo, java, jpan, jurc, kali, kana, khar, khmr, khoj, kitl, kits, knda, kore, kpel, kthi, lana, laoo, latf, latg, latn, leke, lepc, limb, lina, linb, lisu, loma, lyci, lydi, mahj, maka, mand, mani, marc, maya, medf, mend, merc, mero, mlym, modi, mong, moon, mroo, mtei, mult, mymr, nand, narb, nbat, newa, nkdb, nkgb, nkoo, nshu, ogam, olck, orkh, orya, osge, osma, palm, pauc, perm, phag, phli, phlp, phlv, phnx, plrd, piqd, prti, qaaa, qabx, rjng, rohg, roro, runr, samr, sara, sarb, saur, sgnw, shaw, shrd, shui, sidd, sind, sinh, sogd, sogo, sora, soyo, sund, sylo, syrc, syre, syrj, syrn, tagb, takr, tale, talu, taml, tang, tavt, telu, teng, tfng, tglg, thaa, thai, tibt, tirh, toto, ugar, vaii, visp, wara, wcho, wole, xpeo, xsux, yezi, yiii, zanb, zinh, zmth, zsye, zsym, zxxx, zyyy, zzzz
+    , adlm, afak, aghb, ahom, arab, aran, armi, armn, avst, bali, bamu, bass, batk, beng, bhks, blis, bopo, brah, brai, bugi, buhd, cakm, cans, cari, cham, cher, chrs, cirt, copt, cpmn, cprt, cyrl, cyrs, deva, diak, dogr, dsrt, dupl, egyd, egyh, egyp, elba, elym, ethi, geok, geor, glag, gong, gonm, goth, gran, grek, gujr, guru, hanb, hang, hani, hano, hans, hant, hatr, hebr, hira, hluw, hmng, hmnp, hrkt, hung, inds, ital, jamo, java, jpan, jurc, kali, kana, khar, khmr, khoj, kitl, kits, knda, kore, kpel, kthi, lana, laoo, latf, latg, latn, leke, lepc, limb, lina, linb, lisu, loma, lyci, lydi, mahj, maka, mand, mani, marc, maya, medf, mend, merc, mero, mlym, modi, mong, moon, mroo, mtei, mult, mymr, nand, narb, nbat, newa, nkdb, nkgb, nkoo, nshu, ogam, olck, orkh, orya, osge, osma, palm, pauc, perm, phag, phli, phlp, phlv, phnx, piqd, plrd, prti, rjng, rohg, roro, runr, samr, sara, sarb, saur, sgnw, shaw, shrd, shui, sidd, sind, sinh, sogd, sogo, sora, soyo, sund, sylo, syrc, syre, syrj, syrn, tagb, takr, tale, talu, taml, tang, tavt, telu, teng, tfng, tglg, thaa, thai, tibt, tirh, toto, ugar, vaii, visp, wara, wcho, wole, xpeo, xsux, yezi, yiii, zanb, zinh, zmth, zsye, zsym, zxxx, zyyy, zzzz
     )
 
 {-| ISO 15924 language script codes. See <https://en.wikipedia.org/wiki/ISO_15924>.
 
 @docs Script, details
 
-@docs adlm, afak, aghb, ahom, arab, aran, armi, armn, avst, bali, bamu, bass, batk, beng, bhks, blis, bopo, brah, brai, bugi, buhd, cakm, cans, cari, cham, cher, chrs, cirt, copt, cpmn, cprt, cyrl, cyrs, deva, diak, dogr, dsrt, dupl, egyd, egyh, egyp, elba, elym, ethi, geok, geor, glag, gong, gonm, goth, gran, grek, gujr, guru, hanb, hang, hani, hano, hans, hant, hatr, hebr, hira, hluw, hmng, hmnp, hrkt, hung, inds, ital, jamo, java, jpan, jurc, kali, kana, khar, khmr, khoj, kitl, kits, knda, kore, kpel, kthi, lana, laoo, latf, latg, latn, leke, lepc, limb, lina, linb, lisu, loma, lyci, lydi, mahj, maka, mand, mani, marc, maya, medf, mend, merc, mero, mlym, modi, mong, moon, mroo, mtei, mult, mymr, nand, narb, nbat, newa, nkdb, nkgb, nkoo, nshu, ogam, olck, orkh, orya, osge, osma, palm, pauc, perm, phag, phli, phlp, phlv, phnx, plrd, piqd, prti, qaaa, qabx, rjng, rohg, roro, runr, samr, sara, sarb, saur, sgnw, shaw, shrd, shui, sidd, sind, sinh, sogd, sogo, sora, soyo, sund, sylo, syrc, syre, syrj, syrn, tagb, takr, tale, talu, taml, tang, tavt, telu, teng, tfng, tglg, thaa, thai, tibt, tirh, toto, ugar, vaii, visp, wara, wcho, wole, xpeo, xsux, yezi, yiii, zanb, zinh, zmth, zsye, zsym, zxxx, zyyy, zzzz
+@docs adlm, afak, aghb, ahom, arab, aran, armi, armn, avst, bali, bamu, bass, batk, beng, bhks, blis, bopo, brah, brai, bugi, buhd, cakm, cans, cari, cham, cher, chrs, cirt, copt, cpmn, cprt, cyrl, cyrs, deva, diak, dogr, dsrt, dupl, egyd, egyh, egyp, elba, elym, ethi, geok, geor, glag, gong, gonm, goth, gran, grek, gujr, guru, hanb, hang, hani, hano, hans, hant, hatr, hebr, hira, hluw, hmng, hmnp, hrkt, hung, inds, ital, jamo, java, jpan, jurc, kali, kana, khar, khmr, khoj, kitl, kits, knda, kore, kpel, kthi, lana, laoo, latf, latg, latn, leke, lepc, limb, lina, linb, lisu, loma, lyci, lydi, mahj, maka, mand, mani, marc, maya, medf, mend, merc, mero, mlym, modi, mong, moon, mroo, mtei, mult, mymr, nand, narb, nbat, newa, nkdb, nkgb, nkoo, nshu, ogam, olck, orkh, orya, osge, osma, palm, pauc, perm, phag, phli, phlp, phlv, phnx, piqd, plrd, prti, rjng, rohg, roro, runr, samr, sara, sarb, saur, sgnw, shaw, shrd, shui, sidd, sind, sinh, sogd, sogo, sora, soyo, sund, sylo, syrc, syre, syrj, syrn, tagb, takr, tale, talu, taml, tang, tavt, telu, teng, tfng, tglg, thaa, thai, tibt, tirh, toto, ugar, vaii, visp, wara, wcho, wole, xpeo, xsux, yezi, yiii, zanb, zinh, zmth, zsye, zsym, zxxx, zyyy, zzzz
 
 -}
 
 
-{-| Script
--}
+{-| -}
 type Script
-    = Script { code : String, name : String }
+    = Script { code : String }
 
 
-{-| Get the code and other info for the ISO 15924 script code.
+{-| Get the details for an ExtendedLanguage, including the `code` which represents the 639 language code.
 -}
-details : Script -> { code : String, name : String }
+details : Script -> { code : String }
 details (Script record) =
     record
 
@@ -29,1621 +28,1467 @@ details (Script record) =
 -}
 adlm : Script
 adlm =
-    Script
-        { code = "Adlm", name = "Adlam" }
+    Script { code = "adlm" }
 
 
 {-| Afaka
 -}
 afak : Script
 afak =
-    Script
-        { code = "Afak", name = "Afaka" }
+    Script { code = "afak" }
 
 
 {-| Caucasian Albanian
 -}
 aghb : Script
 aghb =
-    Script
-        { code = "Aghb", name = "Caucasian Albanian" }
+    Script { code = "aghb" }
 
 
-{-| Ahom, Tai Ahom
+{-| Ahom
+Tai Ahom
 -}
 ahom : Script
 ahom =
-    Script
-        { code = "Ahom", name = "Ahom, Tai Ahom" }
+    Script { code = "ahom" }
 
 
 {-| Arabic
 -}
 arab : Script
 arab =
-    Script
-        { code = "Arab", name = "Arabic" }
+    Script { code = "arab" }
 
 
 {-| Arabic (Nastaliq variant)
 -}
 aran : Script
 aran =
-    Script
-        { code = "Aran", name = "Arabic (Nastaliq variant)" }
+    Script { code = "aran" }
 
 
 {-| Imperial Aramaic
 -}
 armi : Script
 armi =
-    Script
-        { code = "Armi", name = "Imperial Aramaic" }
+    Script { code = "armi" }
 
 
 {-| Armenian
 -}
 armn : Script
 armn =
-    Script
-        { code = "Armn", name = "Armenian" }
+    Script { code = "armn" }
 
 
 {-| Avestan
 -}
 avst : Script
 avst =
-    Script
-        { code = "Avst", name = "Avestan" }
+    Script { code = "avst" }
 
 
 {-| Balinese
 -}
 bali : Script
 bali =
-    Script
-        { code = "Bali", name = "Balinese" }
+    Script { code = "bali" }
 
 
 {-| Bamum
 -}
 bamu : Script
 bamu =
-    Script
-        { code = "Bamu", name = "Bamum" }
+    Script { code = "bamu" }
 
 
 {-| Bassa Vah
 -}
 bass : Script
 bass =
-    Script
-        { code = "Bass", name = "Bassa Vah" }
+    Script { code = "bass" }
 
 
 {-| Batak
 -}
 batk : Script
 batk =
-    Script
-        { code = "Batk", name = "Batak" }
+    Script { code = "batk" }
 
 
-{-| Bengali (Bangla)
+{-| Bengali
+Bangla
 -}
 beng : Script
 beng =
-    Script
-        { code = "Beng", name = "Bengali (Bangla)" }
+    Script { code = "beng" }
 
 
 {-| Bhaiksuki
 -}
 bhks : Script
 bhks =
-    Script
-        { code = "Bhks", name = "Bhaiksuki" }
+    Script { code = "bhks" }
 
 
 {-| Blissymbols
 -}
 blis : Script
 blis =
-    Script
-        { code = "Blis", name = "Blissymbols" }
+    Script { code = "blis" }
 
 
 {-| Bopomofo
 -}
 bopo : Script
 bopo =
-    Script
-        { code = "Bopo", name = "Bopomofo" }
+    Script { code = "bopo" }
 
 
 {-| Brahmi
 -}
 brah : Script
 brah =
-    Script
-        { code = "Brah", name = "Brahmi" }
+    Script { code = "brah" }
 
 
 {-| Braille
 -}
 brai : Script
 brai =
-    Script
-        { code = "Brai", name = "Braille" }
+    Script { code = "brai" }
 
 
 {-| Buginese
 -}
 bugi : Script
 bugi =
-    Script
-        { code = "Bugi", name = "Buginese" }
+    Script { code = "bugi" }
 
 
 {-| Buhid
 -}
 buhd : Script
 buhd =
-    Script
-        { code = "Buhd", name = "Buhid" }
+    Script { code = "buhd" }
 
 
 {-| Chakma
 -}
 cakm : Script
 cakm =
-    Script
-        { code = "Cakm", name = "Chakma" }
+    Script { code = "cakm" }
 
 
 {-| Unified Canadian Aboriginal Syllabics
 -}
 cans : Script
 cans =
-    Script
-        { code = "Cans", name = "Unified Canadian Aboriginal Syllabics" }
+    Script { code = "cans" }
 
 
 {-| Carian
 -}
 cari : Script
 cari =
-    Script
-        { code = "Cari", name = "Carian" }
+    Script { code = "cari" }
 
 
 {-| Cham
 -}
 cham : Script
 cham =
-    Script
-        { code = "Cham", name = "Cham" }
+    Script { code = "cham" }
 
 
 {-| Cherokee
 -}
 cher : Script
 cher =
-    Script
-        { code = "Cher", name = "Cherokee" }
+    Script { code = "cher" }
 
 
 {-| Chorasmian
 -}
 chrs : Script
 chrs =
-    Script
-        { code = "Chrs", name = "Chorasmian" }
+    Script { code = "chrs" }
 
 
 {-| Cirth
 -}
 cirt : Script
 cirt =
-    Script
-        { code = "Cirt", name = "Cirth" }
+    Script { code = "cirt" }
 
 
 {-| Coptic
 -}
 copt : Script
 copt =
-    Script
-        { code = "Copt", name = "Coptic" }
+    Script { code = "copt" }
 
 
 {-| Cypro-Minoan
 -}
 cpmn : Script
 cpmn =
-    Script
-        { code = "Cpmn", name = "Cypro-Minoan" }
+    Script { code = "cpmn" }
 
 
 {-| Cypriot syllabary
 -}
 cprt : Script
 cprt =
-    Script
-        { code = "Cprt", name = "Cypriot syllabary" }
+    Script { code = "cprt" }
 
 
 {-| Cyrillic
 -}
 cyrl : Script
 cyrl =
-    Script
-        { code = "Cyrl", name = "Cyrillic" }
+    Script { code = "cyrl" }
 
 
 {-| Cyrillic (Old Church Slavonic variant)
 -}
 cyrs : Script
 cyrs =
-    Script
-        { code = "Cyrs", name = "Cyrillic (Old Church Slavonic variant)" }
+    Script { code = "cyrs" }
 
 
-{-| Devanagari (Nagari)
+{-| Devanagari
+Nagari
 -}
 deva : Script
 deva =
-    Script
-        { code = "Deva", name = "Devanagari (Nagari)" }
+    Script { code = "deva" }
 
 
 {-| Dives Akuru
 -}
 diak : Script
 diak =
-    Script
-        { code = "Diak", name = "Dives Akuru" }
+    Script { code = "diak" }
 
 
 {-| Dogra
 -}
 dogr : Script
 dogr =
-    Script
-        { code = "Dogr", name = "Dogra" }
+    Script { code = "dogr" }
 
 
-{-| Deseret (Mormon)
+{-| Deseret
+Mormon
 -}
 dsrt : Script
 dsrt =
-    Script
-        { code = "Dsrt", name = "Deseret (Mormon)" }
+    Script { code = "dsrt" }
 
 
-{-| Duployan shorthand, Duployan stenography
+{-| Duployan shorthand
+Duployan stenography
 -}
 dupl : Script
 dupl =
-    Script
-        { code = "Dupl", name = "Duployan shorthand, Duployan stenography" }
+    Script { code = "dupl" }
 
 
 {-| Egyptian demotic
 -}
 egyd : Script
 egyd =
-    Script
-        { code = "Egyd", name = "Egyptian demotic" }
+    Script { code = "egyd" }
 
 
 {-| Egyptian hieratic
 -}
 egyh : Script
 egyh =
-    Script
-        { code = "Egyh", name = "Egyptian hieratic" }
+    Script { code = "egyh" }
 
 
 {-| Egyptian hieroglyphs
 -}
 egyp : Script
 egyp =
-    Script
-        { code = "Egyp", name = "Egyptian hieroglyphs" }
+    Script { code = "egyp" }
 
 
 {-| Elbasan
 -}
 elba : Script
 elba =
-    Script
-        { code = "Elba", name = "Elbasan" }
+    Script { code = "elba" }
 
 
 {-| Elymaic
 -}
 elym : Script
 elym =
-    Script
-        { code = "Elym", name = "Elymaic" }
+    Script { code = "elym" }
 
 
-{-| Ethiopic (Geʻez)
+{-| Ethiopic
+Geʻez
+Ge'ez
 -}
 ethi : Script
 ethi =
-    Script
-        { code = "Ethi", name = "Ethiopic (Geʻez)" }
+    Script { code = "ethi" }
 
 
 {-| Khutsuri (Asomtavruli and Nuskhuri)
 -}
 geok : Script
 geok =
-    Script
-        { code = "Geok", name = "Khutsuri (Asomtavruli and Nuskhuri)" }
+    Script { code = "geok" }
 
 
 {-| Georgian (Mkhedruli and Mtavruli)
 -}
 geor : Script
 geor =
-    Script
-        { code = "Geor", name = "Georgian (Mkhedruli and Mtavruli)" }
+    Script { code = "geor" }
 
 
 {-| Glagolitic
 -}
 glag : Script
 glag =
-    Script
-        { code = "Glag", name = "Glagolitic" }
+    Script { code = "glag" }
 
 
 {-| Gunjala Gondi
 -}
 gong : Script
 gong =
-    Script
-        { code = "Gong", name = "Gunjala Gondi" }
+    Script { code = "gong" }
 
 
 {-| Masaram Gondi
 -}
 gonm : Script
 gonm =
-    Script
-        { code = "Gonm", name = "Masaram Gondi" }
+    Script { code = "gonm" }
 
 
 {-| Gothic
 -}
 goth : Script
 goth =
-    Script
-        { code = "Goth", name = "Gothic" }
+    Script { code = "goth" }
 
 
 {-| Grantha
 -}
 gran : Script
 gran =
-    Script
-        { code = "Gran", name = "Grantha" }
+    Script { code = "gran" }
 
 
 {-| Greek
 -}
 grek : Script
 grek =
-    Script
-        { code = "Grek", name = "Greek" }
+    Script { code = "grek" }
 
 
 {-| Gujarati
 -}
 gujr : Script
 gujr =
-    Script
-        { code = "Gujr", name = "Gujarati" }
+    Script { code = "gujr" }
 
 
 {-| Gurmukhi
 -}
 guru : Script
 guru =
-    Script
-        { code = "Guru", name = "Gurmukhi" }
+    Script { code = "guru" }
 
 
 {-| Han with Bopomofo (alias for Han + Bopomofo)
 -}
 hanb : Script
 hanb =
-    Script
-        { code = "Hanb", name = "Han with Bopomofo (alias for Han + Bopomofo)" }
+    Script { code = "hanb" }
 
 
-{-| Hangul (Hangŭl, Hangeul)
+{-| Hangul
+Hangŭl
+Hangeul
 -}
 hang : Script
 hang =
-    Script
-        { code = "Hang", name = "Hangul (Hangŭl, Hangeul)" }
+    Script { code = "hang" }
 
 
-{-| Han (Hanzi, Kanji, Hanja)
+{-| Han
+Hanzi
+Kanji
+Hanja
 -}
 hani : Script
 hani =
-    Script
-        { code = "Hani", name = "Han (Hanzi, Kanji, Hanja)" }
+    Script { code = "hani" }
 
 
-{-| Hanunoo (Hanunóo)
+{-| Hanunoo
+Hanunóo
 -}
 hano : Script
 hano =
-    Script
-        { code = "Hano", name = "Hanunoo (Hanunóo)" }
+    Script { code = "hano" }
 
 
 {-| Han (Simplified variant)
 -}
 hans : Script
 hans =
-    Script
-        { code = "Hans", name = "Han (Simplified variant)" }
+    Script { code = "hans" }
 
 
 {-| Han (Traditional variant)
 -}
 hant : Script
 hant =
-    Script
-        { code = "Hant", name = "Han (Traditional variant)" }
+    Script { code = "hant" }
 
 
 {-| Hatran
 -}
 hatr : Script
 hatr =
-    Script
-        { code = "Hatr", name = "Hatran" }
+    Script { code = "hatr" }
 
 
 {-| Hebrew
 -}
 hebr : Script
 hebr =
-    Script
-        { code = "Hebr", name = "Hebrew" }
+    Script { code = "hebr" }
 
 
 {-| Hiragana
 -}
 hira : Script
 hira =
-    Script
-        { code = "Hira", name = "Hiragana" }
+    Script { code = "hira" }
 
 
-{-| Anatolian Hieroglyphs (Luwian Hieroglyphs, Hittite Hieroglyphs)
+{-| Anatolian Hieroglyphs
+Luwian Hieroglyphs
+Hittite Hieroglyphs
 -}
 hluw : Script
 hluw =
-    Script
-        { code = "Hluw", name = "Anatolian Hieroglyphs (Luwian Hieroglyphs, Hittite Hieroglyphs)" }
+    Script { code = "hluw" }
 
 
 {-| Pahawh Hmong
 -}
 hmng : Script
 hmng =
-    Script
-        { code = "Hmng", name = "Pahawh Hmong" }
+    Script { code = "hmng" }
 
 
 {-| Nyiakeng Puachue Hmong
 -}
 hmnp : Script
 hmnp =
-    Script
-        { code = "Hmnp", name = "Nyiakeng Puachue Hmong" }
+    Script { code = "hmnp" }
 
 
 {-| Japanese syllabaries (alias for Hiragana + Katakana)
 -}
 hrkt : Script
 hrkt =
-    Script
-        { code = "Hrkt", name = "Japanese syllabaries (alias for Hiragana + Katakana)" }
+    Script { code = "hrkt" }
 
 
-{-| Old Hungarian (Hungarian Runic)
+{-| Old Hungarian
+Hungarian Runic
 -}
 hung : Script
 hung =
-    Script
-        { code = "Hung", name = "Old Hungarian (Hungarian Runic)" }
+    Script { code = "hung" }
 
 
-{-| Indus (Harappan)
+{-| Indus
+Harappan
 -}
 inds : Script
 inds =
-    Script
-        { code = "Inds", name = "Indus (Harappan)" }
+    Script { code = "inds" }
 
 
 {-| Old Italic (Etruscan, Oscan, etc.)
 -}
 ital : Script
 ital =
-    Script
-        { code = "Ital", name = "Old Italic (Etruscan, Oscan, etc.)" }
+    Script { code = "ital" }
 
 
 {-| Jamo (alias for Jamo subset of Hangul)
 -}
 jamo : Script
 jamo =
-    Script
-        { code = "Jamo", name = "Jamo (alias for Jamo subset of Hangul)" }
+    Script { code = "jamo" }
 
 
 {-| Javanese
 -}
 java : Script
 java =
-    Script
-        { code = "Java", name = "Javanese" }
+    Script { code = "java" }
 
 
 {-| Japanese (alias for Han + Hiragana + Katakana)
 -}
 jpan : Script
 jpan =
-    Script
-        { code = "Jpan", name = "Japanese (alias for Han + Hiragana + Katakana)" }
+    Script { code = "jpan" }
 
 
 {-| Jurchen
 -}
 jurc : Script
 jurc =
-    Script
-        { code = "Jurc", name = "Jurchen" }
+    Script { code = "jurc" }
 
 
 {-| Kayah Li
 -}
 kali : Script
 kali =
-    Script
-        { code = "Kali", name = "Kayah Li" }
+    Script { code = "kali" }
 
 
 {-| Katakana
 -}
 kana : Script
 kana =
-    Script
-        { code = "Kana", name = "Katakana" }
+    Script { code = "kana" }
 
 
 {-| Kharoshthi
 -}
 khar : Script
 khar =
-    Script
-        { code = "Khar", name = "Kharoshthi" }
+    Script { code = "khar" }
 
 
 {-| Khmer
 -}
 khmr : Script
 khmr =
-    Script
-        { code = "Khmr", name = "Khmer" }
+    Script { code = "khmr" }
 
 
 {-| Khojki
 -}
 khoj : Script
 khoj =
-    Script
-        { code = "Khoj", name = "Khojki" }
+    Script { code = "khoj" }
 
 
 {-| Khitan large script
 -}
 kitl : Script
 kitl =
-    Script
-        { code = "Kitl", name = "Khitan large script" }
+    Script { code = "kitl" }
 
 
 {-| Khitan small script
 -}
 kits : Script
 kits =
-    Script
-        { code = "Kits", name = "Khitan small script" }
+    Script { code = "kits" }
 
 
 {-| Kannada
 -}
 knda : Script
 knda =
-    Script
-        { code = "Knda", name = "Kannada" }
+    Script { code = "knda" }
 
 
 {-| Korean (alias for Hangul + Han)
 -}
 kore : Script
 kore =
-    Script
-        { code = "Kore", name = "Korean (alias for Hangul + Han)" }
+    Script { code = "kore" }
 
 
 {-| Kpelle
 -}
 kpel : Script
 kpel =
-    Script
-        { code = "Kpel", name = "Kpelle" }
+    Script { code = "kpel" }
 
 
 {-| Kaithi
 -}
 kthi : Script
 kthi =
-    Script
-        { code = "Kthi", name = "Kaithi" }
+    Script { code = "kthi" }
 
 
-{-| Tai Tham (Lanna)
+{-| Tai Tham
+Lanna
 -}
 lana : Script
 lana =
-    Script
-        { code = "Lana", name = "Tai Tham (Lanna)" }
+    Script { code = "lana" }
 
 
 {-| Lao
 -}
 laoo : Script
 laoo =
-    Script
-        { code = "Laoo", name = "Lao" }
+    Script { code = "laoo" }
 
 
 {-| Latin (Fraktur variant)
 -}
 latf : Script
 latf =
-    Script
-        { code = "Latf", name = "Latin (Fraktur variant)" }
+    Script { code = "latf" }
 
 
 {-| Latin (Gaelic variant)
 -}
 latg : Script
 latg =
-    Script
-        { code = "Latg", name = "Latin (Gaelic variant)" }
+    Script { code = "latg" }
 
 
 {-| Latin
 -}
 latn : Script
 latn =
-    Script
-        { code = "Latn", name = "Latin" }
+    Script { code = "latn" }
 
 
 {-| Leke
 -}
 leke : Script
 leke =
-    Script
-        { code = "Leke", name = "Leke" }
+    Script { code = "leke" }
 
 
-{-| Lepcha (Róng)
+{-| Lepcha
+Róng
 -}
 lepc : Script
 lepc =
-    Script
-        { code = "Lepc", name = "Lepcha (Róng)" }
+    Script { code = "lepc" }
 
 
 {-| Limbu
 -}
 limb : Script
 limb =
-    Script
-        { code = "Limb", name = "Limbu" }
+    Script { code = "limb" }
 
 
 {-| Linear A
 -}
 lina : Script
 lina =
-    Script
-        { code = "Lina", name = "Linear A" }
+    Script { code = "lina" }
 
 
 {-| Linear B
 -}
 linb : Script
 linb =
-    Script
-        { code = "Linb", name = "Linear B" }
+    Script { code = "linb" }
 
 
-{-| Lisu (Fraser)
+{-| Lisu
+Fraser
 -}
 lisu : Script
 lisu =
-    Script
-        { code = "Lisu", name = "Lisu (Fraser)" }
+    Script { code = "lisu" }
 
 
 {-| Loma
 -}
 loma : Script
 loma =
-    Script
-        { code = "Loma", name = "Loma" }
+    Script { code = "loma" }
 
 
 {-| Lycian
 -}
 lyci : Script
 lyci =
-    Script
-        { code = "Lyci", name = "Lycian" }
+    Script { code = "lyci" }
 
 
 {-| Lydian
 -}
 lydi : Script
 lydi =
-    Script
-        { code = "Lydi", name = "Lydian" }
+    Script { code = "lydi" }
 
 
 {-| Mahajani
 -}
 mahj : Script
 mahj =
-    Script
-        { code = "Mahj", name = "Mahajani" }
+    Script { code = "mahj" }
 
 
 {-| Makasar
 -}
 maka : Script
 maka =
-    Script
-        { code = "Maka", name = "Makasar" }
+    Script { code = "maka" }
 
 
-{-| Mandaic, Mandaean
+{-| Mandaic
+Mandaean
 -}
 mand : Script
 mand =
-    Script
-        { code = "Mand", name = "Mandaic, Mandaean" }
+    Script { code = "mand" }
 
 
 {-| Manichaean
 -}
 mani : Script
 mani =
-    Script
-        { code = "Mani", name = "Manichaean" }
+    Script { code = "mani" }
 
 
 {-| Marchen
 -}
 marc : Script
 marc =
-    Script
-        { code = "Marc", name = "Marchen" }
+    Script { code = "marc" }
 
 
 {-| Mayan hieroglyphs
 -}
 maya : Script
 maya =
-    Script
-        { code = "Maya", name = "Mayan hieroglyphs" }
+    Script { code = "maya" }
 
 
-{-| Medefaidrin (Oberi Okaime, Oberi Ɔkaimɛ)
+{-| Medefaidrin
+Oberi Okaime
+Oberi Ɔkaimɛ
 -}
 medf : Script
 medf =
-    Script
-        { code = "Medf", name = "Medefaidrin (Oberi Okaime, Oberi Ɔkaimɛ)" }
+    Script { code = "medf" }
 
 
 {-| Mende Kikakui
 -}
 mend : Script
 mend =
-    Script
-        { code = "Mend", name = "Mende Kikakui" }
+    Script { code = "mend" }
 
 
 {-| Meroitic Cursive
 -}
 merc : Script
 merc =
-    Script
-        { code = "Merc", name = "Meroitic Cursive" }
+    Script { code = "merc" }
 
 
 {-| Meroitic Hieroglyphs
 -}
 mero : Script
 mero =
-    Script
-        { code = "Mero", name = "Meroitic Hieroglyphs" }
+    Script { code = "mero" }
 
 
 {-| Malayalam
 -}
 mlym : Script
 mlym =
-    Script
-        { code = "Mlym", name = "Malayalam" }
+    Script { code = "mlym" }
 
 
-{-| Modi, Moḍī
+{-| Modi
+Moḍī
 -}
 modi : Script
 modi =
-    Script
-        { code = "Modi", name = "Modi, Moḍī" }
+    Script { code = "modi" }
 
 
 {-| Mongolian
 -}
 mong : Script
 mong =
-    Script
-        { code = "Mong", name = "Mongolian" }
+    Script { code = "mong" }
 
 
-{-| Moon (Moon code, Moon script, Moon type)
+{-| Moon
+Moon code
+Moon script
+Moon type
 -}
 moon : Script
 moon =
-    Script
-        { code = "Moon", name = "Moon (Moon code, Moon script, Moon type)" }
+    Script { code = "moon" }
 
 
-{-| Mro, Mru
+{-| Mro
+Mru
 -}
 mroo : Script
 mroo =
-    Script
-        { code = "Mroo", name = "Mro, Mru" }
+    Script { code = "mroo" }
 
 
-{-| Meitei Mayek (Meithei, Meetei)
+{-| Meitei Mayek
+Meithei
+Meetei
 -}
 mtei : Script
 mtei =
-    Script
-        { code = "Mtei", name = "Meitei Mayek (Meithei, Meetei)" }
+    Script { code = "mtei" }
 
 
 {-| Multani
 -}
 mult : Script
 mult =
-    Script
-        { code = "Mult", name = "Multani" }
+    Script { code = "mult" }
 
 
-{-| Myanmar (Burmese)
+{-| Myanmar
+Burmese
 -}
 mymr : Script
 mymr =
-    Script
-        { code = "Mymr", name = "Myanmar (Burmese)" }
+    Script { code = "mymr" }
 
 
 {-| Nandinagari
 -}
 nand : Script
 nand =
-    Script
-        { code = "Nand", name = "Nandinagari" }
+    Script { code = "nand" }
 
 
-{-| Old North Arabian (Ancient North Arabian)
+{-| Old North Arabian
+Ancient North Arabian
 -}
 narb : Script
 narb =
-    Script
-        { code = "Narb", name = "Old North Arabian (Ancient North Arabian)" }
+    Script { code = "narb" }
 
 
 {-| Nabataean
 -}
 nbat : Script
 nbat =
-    Script
-        { code = "Nbat", name = "Nabataean" }
+    Script { code = "nbat" }
 
 
-{-| Newa, Newar, Newari, Nepāla lipi
+{-| Newa
+Newar
+Newari
+Nepāla lipi
 -}
 newa : Script
 newa =
-    Script
-        { code = "Newa", name = "Newa, Newar, Newari, Nepāla lipi" }
+    Script { code = "newa" }
 
 
-{-| Naxi Dongba (na²¹ɕi³³ to³³ba²¹, Nakhi Tomba)
+{-| Naxi Dongba
+na²¹ɕi³³ to³³ba²¹
+Nakhi Tomba
 -}
 nkdb : Script
 nkdb =
-    Script
-        { code = "Nkdb", name = "Naxi Dongba (na²¹ɕi³³ to³³ba²¹, Nakhi Tomba)" }
+    Script { code = "nkdb" }
 
 
-{-| Naxi Geba (na²¹ɕi³³ gʌ²¹ba²¹, 'Na-'Khi ²Ggŏ-¹baw, Nakhi Geba)
+{-| Naxi Geba
+na²¹ɕi³³ gʌ²¹ba²¹
+'Na-'Khi ²Ggŏ-¹baw
+Nakhi Geba
 -}
 nkgb : Script
 nkgb =
-    Script
-        { code = "Nkgb", name = "Naxi Geba (na²¹ɕi³³ gʌ²¹ba²¹, 'Na-'Khi ²Ggŏ-¹baw, Nakhi Geba)" }
+    Script { code = "nkgb" }
 
 
 {-| N’Ko
+N'Ko
 -}
 nkoo : Script
 nkoo =
-    Script
-        { code = "Nkoo", name = "N’Ko" }
+    Script { code = "nkoo" }
 
 
 {-| Nüshu
 -}
 nshu : Script
 nshu =
-    Script
-        { code = "Nshu", name = "Nüshu" }
+    Script { code = "nshu" }
 
 
 {-| Ogham
 -}
 ogam : Script
 ogam =
-    Script
-        { code = "Ogam", name = "Ogham" }
+    Script { code = "ogam" }
 
 
-{-| Ol Chiki (Ol Cemet’, Ol, Santali)
+{-| Ol Chiki
+Ol Cemet'
+Ol
+Santali
 -}
 olck : Script
 olck =
-    Script
-        { code = "Olck", name = "Ol Chiki (Ol Cemet’, Ol, Santali)" }
+    Script { code = "olck" }
 
 
-{-| Old Turkic, Orkhon Runic
+{-| Old Turkic
+Orkhon Runic
 -}
 orkh : Script
 orkh =
-    Script
-        { code = "Orkh", name = "Old Turkic, Orkhon Runic" }
+    Script { code = "orkh" }
 
 
-{-| Oriya (Odia)
+{-| Oriya
+Odia
 -}
 orya : Script
 orya =
-    Script
-        { code = "Orya", name = "Oriya (Odia)" }
+    Script { code = "orya" }
 
 
 {-| Osage
 -}
 osge : Script
 osge =
-    Script
-        { code = "Osge", name = "Osage" }
+    Script { code = "osge" }
 
 
 {-| Osmanya
 -}
 osma : Script
 osma =
-    Script
-        { code = "Osma", name = "Osmanya" }
+    Script { code = "osma" }
 
 
 {-| Palmyrene
 -}
 palm : Script
 palm =
-    Script
-        { code = "Palm", name = "Palmyrene" }
+    Script { code = "palm" }
 
 
 {-| Pau Cin Hau
 -}
 pauc : Script
 pauc =
-    Script
-        { code = "Pauc", name = "Pau Cin Hau" }
+    Script { code = "pauc" }
 
 
 {-| Old Permic
 -}
 perm : Script
 perm =
-    Script
-        { code = "Perm", name = "Old Permic" }
+    Script { code = "perm" }
 
 
 {-| Phags-pa
 -}
 phag : Script
 phag =
-    Script
-        { code = "Phag", name = "Phags-pa" }
+    Script { code = "phag" }
 
 
 {-| Inscriptional Pahlavi
 -}
 phli : Script
 phli =
-    Script
-        { code = "Phli", name = "Inscriptional Pahlavi" }
+    Script { code = "phli" }
 
 
 {-| Psalter Pahlavi
 -}
 phlp : Script
 phlp =
-    Script
-        { code = "Phlp", name = "Psalter Pahlavi" }
+    Script { code = "phlp" }
 
 
 {-| Book Pahlavi
 -}
 phlv : Script
 phlv =
-    Script
-        { code = "Phlv", name = "Book Pahlavi" }
+    Script { code = "phlv" }
 
 
 {-| Phoenician
 -}
 phnx : Script
 phnx =
-    Script
-        { code = "Phnx", name = "Phoenician" }
-
-
-{-| Miao (Pollard)
--}
-plrd : Script
-plrd =
-    Script
-        { code = "Plrd", name = "Miao (Pollard)" }
+    Script { code = "phnx" }
 
 
 {-| Klingon (KLI pIqaD)
 -}
 piqd : Script
 piqd =
-    Script
-        { code = "Piqd", name = "Klingon (KLI pIqaD)" }
+    Script { code = "piqd" }
+
+
+{-| Miao
+Pollard
+-}
+plrd : Script
+plrd =
+    Script { code = "plrd" }
 
 
 {-| Inscriptional Parthian
 -}
 prti : Script
 prti =
-    Script
-        { code = "Prti", name = "Inscriptional Parthian" }
+    Script { code = "prti" }
 
 
-{-| Reserved for private use (start)
--}
-qaaa : Script
-qaaa =
-    Script
-        { code = "Qaaa", name = "Reserved for private use (start)" }
-
-
-{-| Reserved for private use (end)
--}
-qabx : Script
-qabx =
-    Script
-        { code = "Qabx", name = "Reserved for private use (end)" }
-
-
-{-| Rejang (Redjang, Kaganga)
+{-| Rejang
+Redjang
+Kaganga
 -}
 rjng : Script
 rjng =
-    Script
-        { code = "Rjng", name = "Rejang (Redjang, Kaganga)" }
+    Script { code = "rjng" }
 
 
 {-| Hanifi Rohingya
 -}
 rohg : Script
 rohg =
-    Script
-        { code = "Rohg", name = "Hanifi Rohingya" }
+    Script { code = "rohg" }
 
 
 {-| Rongorongo
 -}
 roro : Script
 roro =
-    Script
-        { code = "Roro", name = "Rongorongo" }
+    Script { code = "roro" }
 
 
 {-| Runic
 -}
 runr : Script
 runr =
-    Script
-        { code = "Runr", name = "Runic" }
+    Script { code = "runr" }
 
 
 {-| Samaritan
 -}
 samr : Script
 samr =
-    Script
-        { code = "Samr", name = "Samaritan" }
+    Script { code = "samr" }
 
 
 {-| Sarati
 -}
 sara : Script
 sara =
-    Script
-        { code = "Sara", name = "Sarati" }
+    Script { code = "sara" }
 
 
 {-| Old South Arabian
 -}
 sarb : Script
 sarb =
-    Script
-        { code = "Sarb", name = "Old South Arabian" }
+    Script { code = "sarb" }
 
 
 {-| Saurashtra
 -}
 saur : Script
 saur =
-    Script
-        { code = "Saur", name = "Saurashtra" }
+    Script { code = "saur" }
 
 
 {-| SignWriting
 -}
 sgnw : Script
 sgnw =
-    Script
-        { code = "Sgnw", name = "SignWriting" }
+    Script { code = "sgnw" }
 
 
-{-| Shavian (Shaw)
+{-| Shavian
+Shaw
 -}
 shaw : Script
 shaw =
-    Script
-        { code = "Shaw", name = "Shavian (Shaw)" }
+    Script { code = "shaw" }
 
 
-{-| Sharada, Śāradā
+{-| Sharada
+Śāradā
 -}
 shrd : Script
 shrd =
-    Script
-        { code = "Shrd", name = "Sharada, Śāradā" }
+    Script { code = "shrd" }
 
 
 {-| Shuishu
 -}
 shui : Script
 shui =
-    Script
-        { code = "Shui", name = "Shuishu" }
+    Script { code = "shui" }
 
 
-{-| Siddham, Siddhaṃ, Siddhamātṛkā
+{-| Siddham
+Siddhaṃ
+Siddhamātṛkā
 -}
 sidd : Script
 sidd =
-    Script
-        { code = "Sidd", name = "Siddham, Siddhaṃ, Siddhamātṛkā" }
+    Script { code = "sidd" }
 
 
-{-| Khudawadi, Sindhi
+{-| Khudawadi
+Sindhi
 -}
 sind : Script
 sind =
-    Script
-        { code = "Sind", name = "Khudawadi, Sindhi" }
+    Script { code = "sind" }
 
 
 {-| Sinhala
 -}
 sinh : Script
 sinh =
-    Script
-        { code = "Sinh", name = "Sinhala" }
+    Script { code = "sinh" }
 
 
 {-| Sogdian
 -}
 sogd : Script
 sogd =
-    Script
-        { code = "Sogd", name = "Sogdian" }
+    Script { code = "sogd" }
 
 
 {-| Old Sogdian
 -}
 sogo : Script
 sogo =
-    Script
-        { code = "Sogo", name = "Old Sogdian" }
+    Script { code = "sogo" }
 
 
 {-| Sora Sompeng
 -}
 sora : Script
 sora =
-    Script
-        { code = "Sora", name = "Sora Sompeng" }
+    Script { code = "sora" }
 
 
 {-| Soyombo
 -}
 soyo : Script
 soyo =
-    Script
-        { code = "Soyo", name = "Soyombo" }
+    Script { code = "soyo" }
 
 
 {-| Sundanese
 -}
 sund : Script
 sund =
-    Script
-        { code = "Sund", name = "Sundanese" }
+    Script { code = "sund" }
 
 
 {-| Syloti Nagri
 -}
 sylo : Script
 sylo =
-    Script
-        { code = "Sylo", name = "Syloti Nagri" }
+    Script { code = "sylo" }
 
 
 {-| Syriac
 -}
 syrc : Script
 syrc =
-    Script
-        { code = "Syrc", name = "Syriac" }
+    Script { code = "syrc" }
 
 
 {-| Syriac (Estrangelo variant)
 -}
 syre : Script
 syre =
-    Script
-        { code = "Syre", name = "Syriac (Estrangelo variant)" }
+    Script { code = "syre" }
 
 
 {-| Syriac (Western variant)
 -}
 syrj : Script
 syrj =
-    Script
-        { code = "Syrj", name = "Syriac (Western variant)" }
+    Script { code = "syrj" }
 
 
 {-| Syriac (Eastern variant)
 -}
 syrn : Script
 syrn =
-    Script
-        { code = "Syrn", name = "Syriac (Eastern variant)" }
+    Script { code = "syrn" }
 
 
 {-| Tagbanwa
 -}
 tagb : Script
 tagb =
-    Script
-        { code = "Tagb", name = "Tagbanwa" }
+    Script { code = "tagb" }
 
 
-{-| Takri, Ṭākrī, Ṭāṅkrī
+{-| Takri
+Ṭākrī
+Ṭāṅkrī
 -}
 takr : Script
 takr =
-    Script
-        { code = "Takr", name = "Takri, Ṭākrī, Ṭāṅkrī" }
+    Script { code = "takr" }
 
 
 {-| Tai Le
 -}
 tale : Script
 tale =
-    Script
-        { code = "Tale", name = "Tai Le" }
+    Script { code = "tale" }
 
 
 {-| New Tai Lue
 -}
 talu : Script
 talu =
-    Script
-        { code = "Talu", name = "New Tai Lue" }
+    Script { code = "talu" }
 
 
 {-| Tamil
 -}
 taml : Script
 taml =
-    Script
-        { code = "Taml", name = "Tamil" }
+    Script { code = "taml" }
 
 
 {-| Tangut
 -}
 tang : Script
 tang =
-    Script
-        { code = "Tang", name = "Tangut" }
+    Script { code = "tang" }
 
 
 {-| Tai Viet
 -}
 tavt : Script
 tavt =
-    Script
-        { code = "Tavt", name = "Tai Viet" }
+    Script { code = "tavt" }
 
 
 {-| Telugu
 -}
 telu : Script
 telu =
-    Script
-        { code = "Telu", name = "Telugu" }
+    Script { code = "telu" }
 
 
 {-| Tengwar
 -}
 teng : Script
 teng =
-    Script
-        { code = "Teng", name = "Tengwar" }
+    Script { code = "teng" }
 
 
-{-| Tifinagh (Berber)
+{-| Tifinagh
+Berber
 -}
 tfng : Script
 tfng =
-    Script
-        { code = "Tfng", name = "Tifinagh (Berber)" }
+    Script { code = "tfng" }
 
 
-{-| Tagalog (Baybayin, Alibata)
+{-| Tagalog
+Baybayin
+Alibata
 -}
 tglg : Script
 tglg =
-    Script
-        { code = "Tglg", name = "Tagalog (Baybayin, Alibata)" }
+    Script { code = "tglg" }
 
 
 {-| Thaana
 -}
 thaa : Script
 thaa =
-    Script
-        { code = "Thaa", name = "Thaana" }
+    Script { code = "thaa" }
 
 
 {-| Thai
 -}
 thai : Script
 thai =
-    Script
-        { code = "Thai", name = "Thai" }
+    Script { code = "thai" }
 
 
 {-| Tibetan
 -}
 tibt : Script
 tibt =
-    Script
-        { code = "Tibt", name = "Tibetan" }
+    Script { code = "tibt" }
 
 
 {-| Tirhuta
 -}
 tirh : Script
 tirh =
-    Script
-        { code = "Tirh", name = "Tirhuta" }
+    Script { code = "tirh" }
 
 
 {-| Toto
 -}
 toto : Script
 toto =
-    Script
-        { code = "Toto", name = "Toto" }
+    Script { code = "toto" }
 
 
 {-| Ugaritic
 -}
 ugar : Script
 ugar =
-    Script
-        { code = "Ugar", name = "Ugaritic" }
+    Script { code = "ugar" }
 
 
 {-| Vai
 -}
 vaii : Script
 vaii =
-    Script
-        { code = "Vaii", name = "Vai" }
+    Script { code = "vaii" }
 
 
 {-| Visible Speech
 -}
 visp : Script
 visp =
-    Script
-        { code = "Visp", name = "Visible Speech" }
+    Script { code = "visp" }
 
 
-{-| Warang Citi (Varang Kshiti)
+{-| Warang Citi
+Varang Kshiti
 -}
 wara : Script
 wara =
-    Script
-        { code = "Wara", name = "Warang Citi (Varang Kshiti)" }
+    Script { code = "wara" }
 
 
 {-| Wancho
 -}
 wcho : Script
 wcho =
-    Script
-        { code = "Wcho", name = "Wancho" }
+    Script { code = "wcho" }
 
 
 {-| Woleai
 -}
 wole : Script
 wole =
-    Script
-        { code = "Wole", name = "Woleai" }
+    Script { code = "wole" }
 
 
 {-| Old Persian
 -}
 xpeo : Script
 xpeo =
-    Script
-        { code = "Xpeo", name = "Old Persian" }
+    Script { code = "xpeo" }
 
 
-{-| Cuneiform, Sumero-Akkadian
+{-| Sumero-Akkadian cuneiform
 -}
 xsux : Script
 xsux =
-    Script
-        { code = "Xsux", name = "Cuneiform, Sumero-Akkadian" }
+    Script { code = "xsux" }
 
 
 {-| Yezidi
 -}
 yezi : Script
 yezi =
-    Script
-        { code = "Yezi", name = "Yezidi" }
+    Script { code = "yezi" }
 
 
 {-| Yi
 -}
 yiii : Script
 yiii =
-    Script
-        { code = "Yiii", name = "Yi" }
+    Script { code = "yiii" }
 
 
-{-| Zanabazar Square (Zanabazarin Dörböljin Useg, Xewtee Dörböljin Bicig, Horizontal Square Script)
+{-| Zanabazar Square
+Zanabazarin Dörböljin Useg
+Xewtee Dörböljin Bicig
+Horizontal Square Script
 -}
 zanb : Script
 zanb =
-    Script
-        { code = "Zanb", name = "Zanabazar Square (Zanabazarin Dörböljin Useg, Xewtee Dörböljin Bicig, Horizontal Square Script)" }
+    Script { code = "zanb" }
 
 
 {-| Code for inherited script
 -}
 zinh : Script
 zinh =
-    Script
-        { code = "Zinh", name = "Code for inherited script" }
+    Script { code = "zinh" }
 
 
 {-| Mathematical notation
 -}
 zmth : Script
 zmth =
-    Script
-        { code = "Zmth", name = "Mathematical notation" }
+    Script { code = "zmth" }
 
 
 {-| Symbols (Emoji variant)
 -}
 zsye : Script
 zsye =
-    Script
-        { code = "Zsye", name = "Symbols (Emoji variant)" }
+    Script { code = "zsye" }
 
 
 {-| Symbols
 -}
 zsym : Script
 zsym =
-    Script
-        { code = "Zsym", name = "Symbols" }
+    Script { code = "zsym" }
 
 
 {-| Code for unwritten documents
 -}
 zxxx : Script
 zxxx =
-    Script
-        { code = "Zxxx", name = "Code for unwritten documents" }
+    Script { code = "zxxx" }
 
 
 {-| Code for undetermined script
 -}
 zyyy : Script
 zyyy =
-    Script
-        { code = "Zyyy", name = "Code for undetermined script" }
+    Script { code = "zyyy" }
 
 
 {-| Code for uncoded script
 -}
 zzzz : Script
 zzzz =
-    Script
-        { code = "Zzzz", name = "Code for uncoded script" }
+    Script { code = "zzzz" }

@@ -36,3 +36,13 @@ generate({
   typeName: "Country",
   comment: `ISO 3166-1 country codes. See <https://en.wikipedia.org/wiki/ISO_3166-1>.`,
 });
+
+generate({
+  tagType: "script",
+  entryToTopLevelDefinition: (lang) => lang.data.subtag,
+  definitionComment: (country) => {
+    return country.data.record.Description.join("\n");
+  },
+  typeName: "Script",
+  comment: `ISO 15924 language script codes. See <https://en.wikipedia.org/wiki/ISO_15924>.`,
+});
