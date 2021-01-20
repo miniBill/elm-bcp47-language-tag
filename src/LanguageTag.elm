@@ -2,7 +2,7 @@ module LanguageTag exposing
     ( LanguageTag
     , Options, emptySubtags
     , build, custom, unknown
-    , toString
+    , toString, toHtmlAttribute
     )
 
 {-| A LanguageTag represents a BCP47 value, and can be used in the `lang` attribute of HTML
@@ -16,10 +16,12 @@ See <https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang>.
 
 @docs build, custom, unknown
 
-@docs toString
+@docs toString, toHtmlAttribute
 
 -}
 
+import Html
+import Html.Attributes
 import LanguageTag.Country as Country exposing (Country)
 import LanguageTag.ExtendedLanguage as ExtendedLanguage exposing (ExtendedLanguage)
 import LanguageTag.Language as Language exposing (Language)
@@ -111,6 +113,14 @@ toString languageTag =
                 ++ List.map Variant.toCodeString options.variants
             )
                 |> String.join "-"
+
+
+{-| Most often, you'll want to use BCP47 tags in the top-level tag `<html lang="en-US">`. If you have multiple languages
+on the same page, you can also set the language for individual sections separately.
+-}
+toHtmlAttribute : LanguageTag -> Html.Attribute msg
+toHtmlAttribute languageTag =
+    Html.Attributes.lang (toString languageTag)
 
 
 {-| This is an escape hatch with no validation. It will just directly use the String you pass in. So be sure to test out
