@@ -15,6 +15,7 @@
   },
   "scripts": {
     "test": "elm-verify-examples --run-tests && elm-test",
+    "build": "node --experimental-modules --experimental-json-modules generate-language-module.js && elm-format src --yes",
     "postinstall": "elm-tooling install"
   },
   "author": "Dillon Kearns",
