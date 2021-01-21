@@ -37,12 +37,12 @@ Language.no
     --> "no"
 
 Language.en
-    |> LanguageTag.build  { emptySubtags | region = Just Country.gb }
+    |> LanguageTag.build { emptySubtags | region = Just Country.gb }
     |> LanguageTag.toString
     --> "en-gb"
 
 Language.zh
-    |> LanguageTag.build  { emptySubtags | region = Just Country.tw }
+    |> LanguageTag.build { emptySubtags | region = Just Country.tw }
     |> LanguageTag.toString
     --> "zh-tw"
 
@@ -58,7 +58,7 @@ Language.hy
 
 -- Chinese, Simplified script, as used in China
 Language.zh
-|> LanguageTag.build { emptySubtags | region = Just Country.cn, script = Just Script.hans }
+    |> LanguageTag.build { emptySubtags | region = Just Country.cn, script = Just Script.hans }
     |> LanguageTag.toString
     --> "zh-hans-cn"
 ```
