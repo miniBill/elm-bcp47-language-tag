@@ -9,7 +9,7 @@ import Test exposing (..)
 
 suite : Test
 suite =
-    describe "bcp47"
+    describe "LanguageTag"
         [ test "example" <|
             \() ->
                 Language.no

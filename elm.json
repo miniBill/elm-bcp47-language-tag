@@ -1,9 +1,9 @@
 {
     "type": "package",
     "name": "dillonkearns/elm-bcp47-language-tag",
-    "summary": "BCP47 language tags, ISO 639-1 language codes, and ISO 3166-1 country codes.",
+    "summary": "BCP 47 language tags, ISO 639-1 language codes, and ISO 3166-1 country codes.",
     "license": "BSD-3-Clause",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "exposed-modules": [
         "LanguageTag",
         "LanguageTag.Language",

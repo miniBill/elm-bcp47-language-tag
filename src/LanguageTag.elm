@@ -5,7 +5,7 @@ module LanguageTag exposing
     , toString, toHtmlAttribute
     )
 
-{-| A LanguageTag represents a BCP47 value, and can be used in the `lang` attribute of HTML
+{-| A LanguageTag represents a BCP 47 value, and can be used in the `lang` attribute of HTML
 elements to tell the web page which language it's written in, including script and region information.
 
 See <https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang>.
@@ -115,7 +115,7 @@ toString languageTag =
                 |> String.join "-"
 
 
-{-| Most often, you'll want to use BCP47 tags in the top-level tag `<html lang="en-US">`. If you have multiple languages
+{-| Most often, you'll want to use BCP 47 tags in the top-level tag `<html lang="en-US">`. If you have multiple languages
 on the same page, you can also set the language for individual sections separately.
 -}
 toHtmlAttribute : LanguageTag -> Html.Attribute msg
