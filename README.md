@@ -8,7 +8,7 @@ with this package should give you added confidence but be sure to test the resul
 ## Project goals
 
 - Provide a way to create valid `BCP47` tags with confidence that the result is well-formed and valid.
-- The resulting Elm bundle will be able to include only the data that is explicitly referenced (for example, `LanguageTag.build Language.en { emptySubtags | region = Just Country.gb }` only includes the data for the English language and the Great Britain region, but doesn't cause your bundle to include data for French, Spanish, etc.)
+- The resulting Elm bundle will be able to include only the data that is explicitly referenced (for example, `LanguageTag.build { emptySubtags | region = Just Country.gb } Language.en` only includes the data for the English language and the Great Britain region, but doesn't cause your bundle to include data for French, Spanish, etc.)
 - For unusual cases, there's an escape hatch (`LanguageTag.custom`) where you're on your own making sure you have a valid and meaningful value (much like the elm/html API). If you encounter a use case that isn't supported directly and requires this escape hatch, please open a GitHub issue to describe your use case to help me get context!
 - This package is generated from a script with some data sources, so it can be relatively kept up-to-date through automation.
 
