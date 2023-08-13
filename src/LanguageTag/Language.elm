@@ -18,10 +18,12 @@ For everything else, there's [`LanguageTag.custom`](LanguageTag#custom) as an es
 
 -}
 
+import LanguageTag.Internal as Internal exposing (Language(..))
+
 
 {-| -}
-type Language
-    = Language String
+type alias Language =
+    Internal.Language
 
 
 {-| Get the ISO 639 language code value for this Language.

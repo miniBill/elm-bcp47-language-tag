@@ -25,6 +25,7 @@ import Html.Attributes
 import LanguageTag.Country as Country exposing (Country)
 import LanguageTag.ExtendedLanguage as ExtendedLanguage exposing (ExtendedLanguage)
 import LanguageTag.Language as Language exposing (Language)
+import LanguageTag.PrivateUse as PrivateUse exposing (PrivateUse)
 import LanguageTag.Script as Script exposing (Script)
 import LanguageTag.Variant as Variant exposing (Variant)
 import List.Extra
@@ -56,10 +57,11 @@ unknown =
 
 {-| -}
 type alias Options =
-    { extendedLanguage : Maybe ExtendedLanguage
+    { script : Maybe Script
     , region : Maybe Country
-    , script : Maybe Script
     , variants : List Variant
+    , extensions : List ExtendedLanguage
+    , privateUse : Maybe PrivateUse
     }
 
 
@@ -84,7 +86,12 @@ It's also useful as the starting record for building a LanguageTag that has subt
 -}
 emptySubtags : Options
 emptySubtags =
-    { extendedLanguage = Nothing, region = Nothing, script = Nothing, variants = [] }
+    { script = Nothing
+    , region = Nothing
+    , variants = []
+    , extensions = []
+    , privateUse = Nothing
+    }
 
 
 {-| -}
@@ -102,16 +109,19 @@ toString languageTag =
             customCode
 
         LanguageTag language options ->
-            (([ language |> Language.toCodeString |> Just
-              , options.extendedLanguage |> Maybe.map ExtendedLanguage.toCodeString
-              , options.script |> Maybe.map Script.toCodeString
-              , options.region |> Maybe.map Country.toCodeString
-              ]
-                |> List.filterMap identity
-                |> List.Extra.unique
-             )
+            (Language.toCodeString language
+                :: ([ options.script |> Maybe.map Script.toCodeString
+                    , options.region |> Maybe.map Country.toCodeString
+                    ]
+                        |> List.filterMap identity
+                   )
                 ++ List.map Variant.toCodeString options.variants
+                ++ List.map ExtendedLanguage.toCodeString options.extensions
+                ++ ([ options.privateUse |> Maybe.map PrivateUse.toCodeString ]
+                        |> List.filterMap identity
+                   )
             )
+                |> List.Extra.unique
                 |> String.join "-"
 
 

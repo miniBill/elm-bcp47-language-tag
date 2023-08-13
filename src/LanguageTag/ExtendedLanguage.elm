@@ -20,10 +20,12 @@ variations.
 
 -}
 
+import LanguageTag.Internal as Internal exposing (ExtendedLanguage(..))
+
 
 {-| -}
-type ExtendedLanguage
-    = ExtendedLanguage String
+type alias ExtendedLanguage =
+    Internal.ExtendedLanguage
 
 
 {-| Get the ISO 639 code for this ExtendedLanguage.

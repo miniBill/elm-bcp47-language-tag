@@ -11,10 +11,12 @@ module LanguageTag.Script exposing
 
 -}
 
+import LanguageTag.Internal as Internal exposing (Script(..))
+
 
 {-| -}
-type Script
-    = Script String
+type alias Script =
+    Internal.Script
 
 
 {-| Get the ISO 15924 language script code value for this Script.
