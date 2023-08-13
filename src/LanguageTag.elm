@@ -3,6 +3,7 @@ module LanguageTag exposing
     , Options, emptySubtags
     , build, custom, unknown
     , toString, toHtmlAttribute
+    , toParts, toSegments
     )
 
 {-| A LanguageTag represents a BCP 47 value, and can be used in the `lang` attribute of HTML
@@ -123,6 +124,69 @@ toString languageTag =
             )
                 |> List.Extra.unique
                 |> String.join "-"
+
+
+{-| If the `LanguageTag` was not created by `custom`, get back the components it is made of.
+-}
+toParts : LanguageTag -> Maybe ( Language, Options )
+toParts languageTag =
+    case languageTag of
+        Custom _ ->
+            Nothing
+
+        LanguageTag language options ->
+            Just ( language, options )
+
+
+{-| Return the segments that compose a language tag.
+
+    LanguageTag.custom "x-whatever" |> toSegments
+    --> [ "x", "whatever" ]
+
+    Language.en
+        |> build { emptySubtags | region = Just Country.us }
+        |> LanguageTag.toSegments
+    --> [ "en", "US" ]
+
+This is useful for pattern matching with fallback
+
+    case LanguageTag.toSegments languageTag of
+        "ca" :: "ES" :: "valencia" :: _ ->
+            "Catalan - Valencia (Spain)"
+
+        "ca" :: "ES" :: _ ->
+            "Catalan - Spain"
+
+        "ca" :: _ ->
+            "Catalan"
+
+        "en" :: "GB" :: _ ->
+            "English - UK"
+
+        "en" :: _ ->
+            "English"
+
+-}
+toSegments : LanguageTag -> List String
+toSegments languageTag =
+    case languageTag of
+        Custom customCode ->
+            String.split "-" customCode
+
+        LanguageTag language options ->
+            (Language.toCodeString language
+                :: ([ options.script |> Maybe.map Script.toCodeString
+                    , options.region |> Maybe.map Country.toCodeString
+                    ]
+                        |> List.filterMap identity
+                   )
+                ++ List.map Variant.toCodeString options.variants
+                ++ List.map ExtendedLanguage.toCodeString options.extensions
+                ++ ([ options.privateUse |> Maybe.map PrivateUse.toCodeString ]
+                        |> List.filterMap identity
+                   )
+            )
+                |> List.Extra.unique
 
 
 {-| Most often, you'll want to use BCP 47 tags in the top-level tag `<html lang="en-US">`. If you have multiple languages
