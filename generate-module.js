@@ -53,10 +53,12 @@ ${normalizeCode(key)} =
 
 -}
 
+import LanguageTag.Internal as Internal exposing (${config.typeName}(..))
+
 {-|
 -}
-type ${config.typeName}
-    = ${config.typeName} String
+type alias ${config.typeName}
+    = Internal.${config.typeName}
 
 {-| ${config.toCodeComment}
 -}
