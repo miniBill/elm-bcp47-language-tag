@@ -1,2130 +1,2130 @@
-module LanguageTag.Country exposing
-    ( Country, toCodeString
+module LanguageTag.Region exposing
+    ( Region, toCodeString
     , n_001, n_002, n_003, n_005, n_009, n_011, n_013, n_014, n_015, n_017, n_018, n_019, n_021, n_029, n_030, n_034, n_035, n_039, n_053, n_054, n_057, n_061, n_142, n_143, n_145, n_150, n_151, n_154, n_155, n_202, n_419, ac, ad, ae, af, ag, ai, al, am, an, ao, aq, ar, as_, at, au, aw, ax, az, ba, bb, bd, be, bf, bg, bh, bi, bj, bl, bm, bn, bo, bq, br, bs, bt, bu, bv, bw, by, bz, ca, cc, cd, cf, cg, ch, ci, ck, cl, cm, cn, co, cp, cr, cs, cu, cv, cw, cx, cy, cz, dd, de, dg, dj, dk, dm, do, dz, ea, ec, ee, eg, eh, er, es, et, eu, ez, fi, fj, fk, fm, fo, fr, fx, ga, gb, gd, ge, gf, gg, gh, gi, gl, gm, gn, gp, gq, gr, gs, gt, gu, gw, gy, hk, hm, hn, hr, ht, hu, ic, id, ie, il, im, in_, io, iq, ir, is, it, je, jm, jo, jp, ke, kg, kh, ki, km, kn, kp, kr, kw, ky, kz, la, lb, lc, li, lk, lr, ls, lt, lu, lv, ly, ma, mc, md, me, mf, mg, mh, mk, ml, mm, mn, mo, mp, mq, mr, ms, mt, mu, mv, mw, mx, my, mz, na, nc, ne, nf, ng, ni, nl, no, np, nr, nt, nu, nz, om, pa, pe, pf, pg, ph, pk, pl, pm, pn, pr, ps, pt, pw, py, qa, re, ro, rs, ru, rw, sa, sb, sc, sd, se, sg, sh, si, sj, sk, sl, sm, sn, so, sr, ss, st, su, sv, sx, sy, sz, ta, tc, td, tf, tg, th, tj, tk, tl, tm, tn, to, tp, tr, tt, tv, tw, tz, ua, ug, um, un, us, uy, uz, va, vc, ve, vg, vi, vn, vu, wf, ws, yd, ye, yt, yu, za, zm, zr, zw
     )
 
-{-| ISO 3166-1 country codes. See <https://en.wikipedia.org/wiki/ISO_3166-1>.
+{-| ISO 3166-1 country codes and UN M49 region codes. See <https://en.wikipedia.org/wiki/ISO_3166-1> and <https://en.wikipedia.org/wiki/UN_M49>.
 
-@docs Country, toCodeString
+@docs Region, toCodeString
 
 @docs n_001, n_002, n_003, n_005, n_009, n_011, n_013, n_014, n_015, n_017, n_018, n_019, n_021, n_029, n_030, n_034, n_035, n_039, n_053, n_054, n_057, n_061, n_142, n_143, n_145, n_150, n_151, n_154, n_155, n_202, n_419, ac, ad, ae, af, ag, ai, al, am, an, ao, aq, ar, as_, at, au, aw, ax, az, ba, bb, bd, be, bf, bg, bh, bi, bj, bl, bm, bn, bo, bq, br, bs, bt, bu, bv, bw, by, bz, ca, cc, cd, cf, cg, ch, ci, ck, cl, cm, cn, co, cp, cr, cs, cu, cv, cw, cx, cy, cz, dd, de, dg, dj, dk, dm, do, dz, ea, ec, ee, eg, eh, er, es, et, eu, ez, fi, fj, fk, fm, fo, fr, fx, ga, gb, gd, ge, gf, gg, gh, gi, gl, gm, gn, gp, gq, gr, gs, gt, gu, gw, gy, hk, hm, hn, hr, ht, hu, ic, id, ie, il, im, in_, io, iq, ir, is, it, je, jm, jo, jp, ke, kg, kh, ki, km, kn, kp, kr, kw, ky, kz, la, lb, lc, li, lk, lr, ls, lt, lu, lv, ly, ma, mc, md, me, mf, mg, mh, mk, ml, mm, mn, mo, mp, mq, mr, ms, mt, mu, mv, mw, mx, my, mz, na, nc, ne, nf, ng, ni, nl, no, np, nr, nt, nu, nz, om, pa, pe, pf, pg, ph, pk, pl, pm, pn, pr, ps, pt, pw, py, qa, re, ro, rs, ru, rw, sa, sb, sc, sd, se, sg, sh, si, sj, sk, sl, sm, sn, so, sr, ss, st, su, sv, sx, sy, sz, ta, tc, td, tf, tg, th, tj, tk, tl, tm, tn, to, tp, tr, tt, tv, tw, tz, ua, ug, um, un, us, uy, uz, va, vc, ve, vg, vi, vn, vu, wf, ws, yd, ye, yt, yu, za, zm, zr, zw
 
 -}
 
-import LanguageTag.Internal as Internal exposing (Country(..))
+import LanguageTag.Internal as Internal exposing (Region(..))
 
 
 {-| -}
-type alias Country =
-    Internal.Country
+type alias Region =
+    Internal.Region
 
 
-{-| Get the ISO 3166-1 country code value for this Country.
+{-| Get the ISO 3166-1 country code or UN M49 region code value for this Region.
 -}
-toCodeString : Country -> String
-toCodeString (Country rawCode) =
+toCodeString : Region -> String
+toCodeString (Region rawCode) =
     rawCode
 
 
 {-| World
 -}
-n_001 : Country
+n_001 : Region
 n_001 =
-    Country "001"
+    Region "001"
 
 
 {-| Africa
 -}
-n_002 : Country
+n_002 : Region
 n_002 =
-    Country "002"
+    Region "002"
 
 
 {-| North America
 -}
-n_003 : Country
+n_003 : Region
 n_003 =
-    Country "003"
+    Region "003"
 
 
 {-| South America
 -}
-n_005 : Country
+n_005 : Region
 n_005 =
-    Country "005"
+    Region "005"
 
 
 {-| Oceania
 -}
-n_009 : Country
+n_009 : Region
 n_009 =
-    Country "009"
+    Region "009"
 
 
 {-| Western Africa
 -}
-n_011 : Country
+n_011 : Region
 n_011 =
-    Country "011"
+    Region "011"
 
 
 {-| Central America
 -}
-n_013 : Country
+n_013 : Region
 n_013 =
-    Country "013"
+    Region "013"
 
 
 {-| Eastern Africa
 -}
-n_014 : Country
+n_014 : Region
 n_014 =
-    Country "014"
+    Region "014"
 
 
 {-| Northern Africa
 -}
-n_015 : Country
+n_015 : Region
 n_015 =
-    Country "015"
+    Region "015"
 
 
 {-| Middle Africa
 -}
-n_017 : Country
+n_017 : Region
 n_017 =
-    Country "017"
+    Region "017"
 
 
 {-| Southern Africa
 -}
-n_018 : Country
+n_018 : Region
 n_018 =
-    Country "018"
+    Region "018"
 
 
 {-| Americas
 -}
-n_019 : Country
+n_019 : Region
 n_019 =
-    Country "019"
+    Region "019"
 
 
 {-| Northern America
 -}
-n_021 : Country
+n_021 : Region
 n_021 =
-    Country "021"
+    Region "021"
 
 
 {-| Caribbean
 -}
-n_029 : Country
+n_029 : Region
 n_029 =
-    Country "029"
+    Region "029"
 
 
 {-| Eastern Asia
 -}
-n_030 : Country
+n_030 : Region
 n_030 =
-    Country "030"
+    Region "030"
 
 
 {-| Southern Asia
 -}
-n_034 : Country
+n_034 : Region
 n_034 =
-    Country "034"
+    Region "034"
 
 
 {-| South-Eastern Asia
 -}
-n_035 : Country
+n_035 : Region
 n_035 =
-    Country "035"
+    Region "035"
 
 
 {-| Southern Europe
 -}
-n_039 : Country
+n_039 : Region
 n_039 =
-    Country "039"
+    Region "039"
 
 
 {-| Australia and New Zealand
 -}
-n_053 : Country
+n_053 : Region
 n_053 =
-    Country "053"
+    Region "053"
 
 
 {-| Melanesia
 -}
-n_054 : Country
+n_054 : Region
 n_054 =
-    Country "054"
+    Region "054"
 
 
 {-| Micronesia
 -}
-n_057 : Country
+n_057 : Region
 n_057 =
-    Country "057"
+    Region "057"
 
 
 {-| Polynesia
 -}
-n_061 : Country
+n_061 : Region
 n_061 =
-    Country "061"
+    Region "061"
 
 
 {-| Asia
 -}
-n_142 : Country
+n_142 : Region
 n_142 =
-    Country "142"
+    Region "142"
 
 
 {-| Central Asia
 -}
-n_143 : Country
+n_143 : Region
 n_143 =
-    Country "143"
+    Region "143"
 
 
 {-| Western Asia
 -}
-n_145 : Country
+n_145 : Region
 n_145 =
-    Country "145"
+    Region "145"
 
 
 {-| Europe
 -}
-n_150 : Country
+n_150 : Region
 n_150 =
-    Country "150"
+    Region "150"
 
 
 {-| Eastern Europe
 -}
-n_151 : Country
+n_151 : Region
 n_151 =
-    Country "151"
+    Region "151"
 
 
 {-| Northern Europe
 -}
-n_154 : Country
+n_154 : Region
 n_154 =
-    Country "154"
+    Region "154"
 
 
 {-| Western Europe
 -}
-n_155 : Country
+n_155 : Region
 n_155 =
-    Country "155"
+    Region "155"
 
 
 {-| Sub-Saharan Africa
 -}
-n_202 : Country
+n_202 : Region
 n_202 =
-    Country "202"
+    Region "202"
 
 
 {-| Latin America and the Caribbean
 -}
-n_419 : Country
+n_419 : Region
 n_419 =
-    Country "419"
+    Region "419"
 
 
 {-| Ascension Island
 -}
-ac : Country
+ac : Region
 ac =
-    Country "ac"
+    Region "ac"
 
 
 {-| Andorra
 -}
-ad : Country
+ad : Region
 ad =
-    Country "ad"
+    Region "ad"
 
 
 {-| United Arab Emirates
 -}
-ae : Country
+ae : Region
 ae =
-    Country "ae"
+    Region "ae"
 
 
 {-| Afghanistan
 -}
-af : Country
+af : Region
 af =
-    Country "af"
+    Region "af"
 
 
 {-| Antigua and Barbuda
 -}
-ag : Country
+ag : Region
 ag =
-    Country "ag"
+    Region "ag"
 
 
 {-| Anguilla
 -}
-ai : Country
+ai : Region
 ai =
-    Country "ai"
+    Region "ai"
 
 
 {-| Albania
 -}
-al : Country
+al : Region
 al =
-    Country "al"
+    Region "al"
 
 
 {-| Armenia
 -}
-am : Country
+am : Region
 am =
-    Country "am"
+    Region "am"
 
 
 {-| Netherlands Antilles
 -}
-an : Country
+an : Region
 an =
-    Country "an"
+    Region "an"
 
 
 {-| Angola
 -}
-ao : Country
+ao : Region
 ao =
-    Country "ao"
+    Region "ao"
 
 
 {-| Antarctica
 -}
-aq : Country
+aq : Region
 aq =
-    Country "aq"
+    Region "aq"
 
 
 {-| Argentina
 -}
-ar : Country
+ar : Region
 ar =
-    Country "ar"
+    Region "ar"
 
 
 {-| American Samoa
 -}
-as_ : Country
+as_ : Region
 as_ =
-    Country "as"
+    Region "as"
 
 
 {-| Austria
 -}
-at : Country
+at : Region
 at =
-    Country "at"
+    Region "at"
 
 
 {-| Australia
 -}
-au : Country
+au : Region
 au =
-    Country "au"
+    Region "au"
 
 
 {-| Aruba
 -}
-aw : Country
+aw : Region
 aw =
-    Country "aw"
+    Region "aw"
 
 
 {-| Åland Islands
 -}
-ax : Country
+ax : Region
 ax =
-    Country "ax"
+    Region "ax"
 
 
 {-| Azerbaijan
 -}
-az : Country
+az : Region
 az =
-    Country "az"
+    Region "az"
 
 
 {-| Bosnia and Herzegovina
 -}
-ba : Country
+ba : Region
 ba =
-    Country "ba"
+    Region "ba"
 
 
 {-| Barbados
 -}
-bb : Country
+bb : Region
 bb =
-    Country "bb"
+    Region "bb"
 
 
 {-| Bangladesh
 -}
-bd : Country
+bd : Region
 bd =
-    Country "bd"
+    Region "bd"
 
 
 {-| Belgium
 -}
-be : Country
+be : Region
 be =
-    Country "be"
+    Region "be"
 
 
 {-| Burkina Faso
 -}
-bf : Country
+bf : Region
 bf =
-    Country "bf"
+    Region "bf"
 
 
 {-| Bulgaria
 -}
-bg : Country
+bg : Region
 bg =
-    Country "bg"
+    Region "bg"
 
 
 {-| Bahrain
 -}
-bh : Country
+bh : Region
 bh =
-    Country "bh"
+    Region "bh"
 
 
 {-| Burundi
 -}
-bi : Country
+bi : Region
 bi =
-    Country "bi"
+    Region "bi"
 
 
 {-| Benin
 -}
-bj : Country
+bj : Region
 bj =
-    Country "bj"
+    Region "bj"
 
 
 {-| Saint Barthélemy
 -}
-bl : Country
+bl : Region
 bl =
-    Country "bl"
+    Region "bl"
 
 
 {-| Bermuda
 -}
-bm : Country
+bm : Region
 bm =
-    Country "bm"
+    Region "bm"
 
 
 {-| Brunei Darussalam
 -}
-bn : Country
+bn : Region
 bn =
-    Country "bn"
+    Region "bn"
 
 
 {-| Bolivia
 -}
-bo : Country
+bo : Region
 bo =
-    Country "bo"
+    Region "bo"
 
 
 {-| Bonaire, Sint Eustatius and Saba
 -}
-bq : Country
+bq : Region
 bq =
-    Country "bq"
+    Region "bq"
 
 
 {-| Brazil
 -}
-br : Country
+br : Region
 br =
-    Country "br"
+    Region "br"
 
 
 {-| Bahamas
 -}
-bs : Country
+bs : Region
 bs =
-    Country "bs"
+    Region "bs"
 
 
 {-| Bhutan
 -}
-bt : Country
+bt : Region
 bt =
-    Country "bt"
+    Region "bt"
 
 
 {-| Burma
 -}
-bu : Country
+bu : Region
 bu =
-    Country "bu"
+    Region "bu"
 
 
 {-| Bouvet Island
 -}
-bv : Country
+bv : Region
 bv =
-    Country "bv"
+    Region "bv"
 
 
 {-| Botswana
 -}
-bw : Country
+bw : Region
 bw =
-    Country "bw"
+    Region "bw"
 
 
 {-| Belarus
 -}
-by : Country
+by : Region
 by =
-    Country "by"
+    Region "by"
 
 
 {-| Belize
 -}
-bz : Country
+bz : Region
 bz =
-    Country "bz"
+    Region "bz"
 
 
 {-| Canada
 -}
-ca : Country
+ca : Region
 ca =
-    Country "ca"
+    Region "ca"
 
 
 {-| Cocos (Keeling) Islands
 -}
-cc : Country
+cc : Region
 cc =
-    Country "cc"
+    Region "cc"
 
 
 {-| The Democratic Republic of the Congo
 -}
-cd : Country
+cd : Region
 cd =
-    Country "cd"
+    Region "cd"
 
 
 {-| Central African Republic
 -}
-cf : Country
+cf : Region
 cf =
-    Country "cf"
+    Region "cf"
 
 
 {-| Congo
 -}
-cg : Country
+cg : Region
 cg =
-    Country "cg"
+    Region "cg"
 
 
 {-| Switzerland
 -}
-ch : Country
+ch : Region
 ch =
-    Country "ch"
+    Region "ch"
 
 
 {-| Côte d'Ivoire
 -}
-ci : Country
+ci : Region
 ci =
-    Country "ci"
+    Region "ci"
 
 
 {-| Cook Islands
 -}
-ck : Country
+ck : Region
 ck =
-    Country "ck"
+    Region "ck"
 
 
 {-| Chile
 -}
-cl : Country
+cl : Region
 cl =
-    Country "cl"
+    Region "cl"
 
 
 {-| Cameroon
 -}
-cm : Country
+cm : Region
 cm =
-    Country "cm"
+    Region "cm"
 
 
 {-| China
 -}
-cn : Country
+cn : Region
 cn =
-    Country "cn"
+    Region "cn"
 
 
 {-| Colombia
 -}
-co : Country
+co : Region
 co =
-    Country "co"
+    Region "co"
 
 
 {-| Clipperton Island
 -}
-cp : Country
+cp : Region
 cp =
-    Country "cp"
+    Region "cp"
 
 
 {-| Costa Rica
 -}
-cr : Country
+cr : Region
 cr =
-    Country "cr"
+    Region "cr"
 
 
 {-| Serbia and Montenegro
 -}
-cs : Country
+cs : Region
 cs =
-    Country "cs"
+    Region "cs"
 
 
 {-| Cuba
 -}
-cu : Country
+cu : Region
 cu =
-    Country "cu"
+    Region "cu"
 
 
 {-| Cabo Verde
 Cape Verde
 -}
-cv : Country
+cv : Region
 cv =
-    Country "cv"
+    Region "cv"
 
 
 {-| Curaçao
 -}
-cw : Country
+cw : Region
 cw =
-    Country "cw"
+    Region "cw"
 
 
 {-| Christmas Island
 -}
-cx : Country
+cx : Region
 cx =
-    Country "cx"
+    Region "cx"
 
 
 {-| Cyprus
 -}
-cy : Country
+cy : Region
 cy =
-    Country "cy"
+    Region "cy"
 
 
 {-| Czechia
 Czech Republic
 -}
-cz : Country
+cz : Region
 cz =
-    Country "cz"
+    Region "cz"
 
 
 {-| German Democratic Republic
 -}
-dd : Country
+dd : Region
 dd =
-    Country "dd"
+    Region "dd"
 
 
 {-| Germany
 -}
-de : Country
+de : Region
 de =
-    Country "de"
+    Region "de"
 
 
 {-| Diego Garcia
 -}
-dg : Country
+dg : Region
 dg =
-    Country "dg"
+    Region "dg"
 
 
 {-| Djibouti
 -}
-dj : Country
+dj : Region
 dj =
-    Country "dj"
+    Region "dj"
 
 
 {-| Denmark
 -}
-dk : Country
+dk : Region
 dk =
-    Country "dk"
+    Region "dk"
 
 
 {-| Dominica
 -}
-dm : Country
+dm : Region
 dm =
-    Country "dm"
+    Region "dm"
 
 
 {-| Dominican Republic
 -}
-do : Country
+do : Region
 do =
-    Country "do"
+    Region "do"
 
 
 {-| Algeria
 -}
-dz : Country
+dz : Region
 dz =
-    Country "dz"
+    Region "dz"
 
 
 {-| Ceuta, Melilla
 -}
-ea : Country
+ea : Region
 ea =
-    Country "ea"
+    Region "ea"
 
 
 {-| Ecuador
 -}
-ec : Country
+ec : Region
 ec =
-    Country "ec"
+    Region "ec"
 
 
 {-| Estonia
 -}
-ee : Country
+ee : Region
 ee =
-    Country "ee"
+    Region "ee"
 
 
 {-| Egypt
 -}
-eg : Country
+eg : Region
 eg =
-    Country "eg"
+    Region "eg"
 
 
 {-| Western Sahara
 -}
-eh : Country
+eh : Region
 eh =
-    Country "eh"
+    Region "eh"
 
 
 {-| Eritrea
 -}
-er : Country
+er : Region
 er =
-    Country "er"
+    Region "er"
 
 
 {-| Spain
 -}
-es : Country
+es : Region
 es =
-    Country "es"
+    Region "es"
 
 
 {-| Ethiopia
 -}
-et : Country
+et : Region
 et =
-    Country "et"
+    Region "et"
 
 
 {-| European Union
 -}
-eu : Country
+eu : Region
 eu =
-    Country "eu"
+    Region "eu"
 
 
 {-| Eurozone
 -}
-ez : Country
+ez : Region
 ez =
-    Country "ez"
+    Region "ez"
 
 
 {-| Finland
 -}
-fi : Country
+fi : Region
 fi =
-    Country "fi"
+    Region "fi"
 
 
 {-| Fiji
 -}
-fj : Country
+fj : Region
 fj =
-    Country "fj"
+    Region "fj"
 
 
 {-| Falkland Islands (Malvinas)
 -}
-fk : Country
+fk : Region
 fk =
-    Country "fk"
+    Region "fk"
 
 
 {-| Federated States of Micronesia
 -}
-fm : Country
+fm : Region
 fm =
-    Country "fm"
+    Region "fm"
 
 
 {-| Faroe Islands
 -}
-fo : Country
+fo : Region
 fo =
-    Country "fo"
+    Region "fo"
 
 
 {-| France
 -}
-fr : Country
+fr : Region
 fr =
-    Country "fr"
+    Region "fr"
 
 
 {-| Metropolitan France
 -}
-fx : Country
+fx : Region
 fx =
-    Country "fx"
+    Region "fx"
 
 
 {-| Gabon
 -}
-ga : Country
+ga : Region
 ga =
-    Country "ga"
+    Region "ga"
 
 
 {-| United Kingdom
 -}
-gb : Country
+gb : Region
 gb =
-    Country "gb"
+    Region "gb"
 
 
 {-| Grenada
 -}
-gd : Country
+gd : Region
 gd =
-    Country "gd"
+    Region "gd"
 
 
 {-| Georgia
 -}
-ge : Country
+ge : Region
 ge =
-    Country "ge"
+    Region "ge"
 
 
 {-| French Guiana
 -}
-gf : Country
+gf : Region
 gf =
-    Country "gf"
+    Region "gf"
 
 
 {-| Guernsey
 -}
-gg : Country
+gg : Region
 gg =
-    Country "gg"
+    Region "gg"
 
 
 {-| Ghana
 -}
-gh : Country
+gh : Region
 gh =
-    Country "gh"
+    Region "gh"
 
 
 {-| Gibraltar
 -}
-gi : Country
+gi : Region
 gi =
-    Country "gi"
+    Region "gi"
 
 
 {-| Greenland
 -}
-gl : Country
+gl : Region
 gl =
-    Country "gl"
+    Region "gl"
 
 
 {-| Gambia
 -}
-gm : Country
+gm : Region
 gm =
-    Country "gm"
+    Region "gm"
 
 
 {-| Guinea
 -}
-gn : Country
+gn : Region
 gn =
-    Country "gn"
+    Region "gn"
 
 
 {-| Guadeloupe
 -}
-gp : Country
+gp : Region
 gp =
-    Country "gp"
+    Region "gp"
 
 
 {-| Equatorial Guinea
 -}
-gq : Country
+gq : Region
 gq =
-    Country "gq"
+    Region "gq"
 
 
 {-| Greece
 -}
-gr : Country
+gr : Region
 gr =
-    Country "gr"
+    Region "gr"
 
 
 {-| South Georgia and the South Sandwich Islands
 -}
-gs : Country
+gs : Region
 gs =
-    Country "gs"
+    Region "gs"
 
 
 {-| Guatemala
 -}
-gt : Country
+gt : Region
 gt =
-    Country "gt"
+    Region "gt"
 
 
 {-| Guam
 -}
-gu : Country
+gu : Region
 gu =
-    Country "gu"
+    Region "gu"
 
 
 {-| Guinea-Bissau
 -}
-gw : Country
+gw : Region
 gw =
-    Country "gw"
+    Region "gw"
 
 
 {-| Guyana
 -}
-gy : Country
+gy : Region
 gy =
-    Country "gy"
+    Region "gy"
 
 
 {-| Hong Kong
 -}
-hk : Country
+hk : Region
 hk =
-    Country "hk"
+    Region "hk"
 
 
 {-| Heard Island and McDonald Islands
 -}
-hm : Country
+hm : Region
 hm =
-    Country "hm"
+    Region "hm"
 
 
 {-| Honduras
 -}
-hn : Country
+hn : Region
 hn =
-    Country "hn"
+    Region "hn"
 
 
 {-| Croatia
 -}
-hr : Country
+hr : Region
 hr =
-    Country "hr"
+    Region "hr"
 
 
 {-| Haiti
 -}
-ht : Country
+ht : Region
 ht =
-    Country "ht"
+    Region "ht"
 
 
 {-| Hungary
 -}
-hu : Country
+hu : Region
 hu =
-    Country "hu"
+    Region "hu"
 
 
 {-| Canary Islands
 -}
-ic : Country
+ic : Region
 ic =
-    Country "ic"
+    Region "ic"
 
 
 {-| Indonesia
 -}
-id : Country
+id : Region
 id =
-    Country "id"
+    Region "id"
 
 
 {-| Ireland
 -}
-ie : Country
+ie : Region
 ie =
-    Country "ie"
+    Region "ie"
 
 
 {-| Israel
 -}
-il : Country
+il : Region
 il =
-    Country "il"
+    Region "il"
 
 
 {-| Isle of Man
 -}
-im : Country
+im : Region
 im =
-    Country "im"
+    Region "im"
 
 
 {-| India
 -}
-in_ : Country
+in_ : Region
 in_ =
-    Country "in"
+    Region "in"
 
 
 {-| British Indian Ocean Territory
 -}
-io : Country
+io : Region
 io =
-    Country "io"
+    Region "io"
 
 
 {-| Iraq
 -}
-iq : Country
+iq : Region
 iq =
-    Country "iq"
+    Region "iq"
 
 
 {-| Islamic Republic of Iran
 -}
-ir : Country
+ir : Region
 ir =
-    Country "ir"
+    Region "ir"
 
 
 {-| Iceland
 -}
-is : Country
+is : Region
 is =
-    Country "is"
+    Region "is"
 
 
 {-| Italy
 -}
-it : Country
+it : Region
 it =
-    Country "it"
+    Region "it"
 
 
 {-| Jersey
 -}
-je : Country
+je : Region
 je =
-    Country "je"
+    Region "je"
 
 
 {-| Jamaica
 -}
-jm : Country
+jm : Region
 jm =
-    Country "jm"
+    Region "jm"
 
 
 {-| Jordan
 -}
-jo : Country
+jo : Region
 jo =
-    Country "jo"
+    Region "jo"
 
 
 {-| Japan
 -}
-jp : Country
+jp : Region
 jp =
-    Country "jp"
+    Region "jp"
 
 
 {-| Kenya
 -}
-ke : Country
+ke : Region
 ke =
-    Country "ke"
+    Region "ke"
 
 
 {-| Kyrgyzstan
 -}
-kg : Country
+kg : Region
 kg =
-    Country "kg"
+    Region "kg"
 
 
 {-| Cambodia
 -}
-kh : Country
+kh : Region
 kh =
-    Country "kh"
+    Region "kh"
 
 
 {-| Kiribati
 -}
-ki : Country
+ki : Region
 ki =
-    Country "ki"
+    Region "ki"
 
 
 {-| Comoros
 -}
-km : Country
+km : Region
 km =
-    Country "km"
+    Region "km"
 
 
 {-| Saint Kitts and Nevis
 -}
-kn : Country
+kn : Region
 kn =
-    Country "kn"
+    Region "kn"
 
 
 {-| Democratic People's Republic of Korea
 -}
-kp : Country
+kp : Region
 kp =
-    Country "kp"
+    Region "kp"
 
 
 {-| Republic of Korea
 -}
-kr : Country
+kr : Region
 kr =
-    Country "kr"
+    Region "kr"
 
 
 {-| Kuwait
 -}
-kw : Country
+kw : Region
 kw =
-    Country "kw"
+    Region "kw"
 
 
 {-| Cayman Islands
 -}
-ky : Country
+ky : Region
 ky =
-    Country "ky"
+    Region "ky"
 
 
 {-| Kazakhstan
 -}
-kz : Country
+kz : Region
 kz =
-    Country "kz"
+    Region "kz"
 
 
 {-| Lao People's Democratic Republic
 -}
-la : Country
+la : Region
 la =
-    Country "la"
+    Region "la"
 
 
 {-| Lebanon
 -}
-lb : Country
+lb : Region
 lb =
-    Country "lb"
+    Region "lb"
 
 
 {-| Saint Lucia
 -}
-lc : Country
+lc : Region
 lc =
-    Country "lc"
+    Region "lc"
 
 
 {-| Liechtenstein
 -}
-li : Country
+li : Region
 li =
-    Country "li"
+    Region "li"
 
 
 {-| Sri Lanka
 -}
-lk : Country
+lk : Region
 lk =
-    Country "lk"
+    Region "lk"
 
 
 {-| Liberia
 -}
-lr : Country
+lr : Region
 lr =
-    Country "lr"
+    Region "lr"
 
 
 {-| Lesotho
 -}
-ls : Country
+ls : Region
 ls =
-    Country "ls"
+    Region "ls"
 
 
 {-| Lithuania
 -}
-lt : Country
+lt : Region
 lt =
-    Country "lt"
+    Region "lt"
 
 
 {-| Luxembourg
 -}
-lu : Country
+lu : Region
 lu =
-    Country "lu"
+    Region "lu"
 
 
 {-| Latvia
 -}
-lv : Country
+lv : Region
 lv =
-    Country "lv"
+    Region "lv"
 
 
 {-| Libya
 -}
-ly : Country
+ly : Region
 ly =
-    Country "ly"
+    Region "ly"
 
 
 {-| Morocco
 -}
-ma : Country
+ma : Region
 ma =
-    Country "ma"
+    Region "ma"
 
 
 {-| Monaco
 -}
-mc : Country
+mc : Region
 mc =
-    Country "mc"
+    Region "mc"
 
 
 {-| Moldova
 -}
-md : Country
+md : Region
 md =
-    Country "md"
+    Region "md"
 
 
 {-| Montenegro
 -}
-me : Country
+me : Region
 me =
-    Country "me"
+    Region "me"
 
 
 {-| Saint Martin (French part)
 -}
-mf : Country
+mf : Region
 mf =
-    Country "mf"
+    Region "mf"
 
 
 {-| Madagascar
 -}
-mg : Country
+mg : Region
 mg =
-    Country "mg"
+    Region "mg"
 
 
 {-| Marshall Islands
 -}
-mh : Country
+mh : Region
 mh =
-    Country "mh"
+    Region "mh"
 
 
 {-| North Macedonia
 -}
-mk : Country
+mk : Region
 mk =
-    Country "mk"
+    Region "mk"
 
 
 {-| Mali
 -}
-ml : Country
+ml : Region
 ml =
-    Country "ml"
+    Region "ml"
 
 
 {-| Myanmar
 -}
-mm : Country
+mm : Region
 mm =
-    Country "mm"
+    Region "mm"
 
 
 {-| Mongolia
 -}
-mn : Country
+mn : Region
 mn =
-    Country "mn"
+    Region "mn"
 
 
 {-| Macao
 -}
-mo : Country
+mo : Region
 mo =
-    Country "mo"
+    Region "mo"
 
 
 {-| Northern Mariana Islands
 -}
-mp : Country
+mp : Region
 mp =
-    Country "mp"
+    Region "mp"
 
 
 {-| Martinique
 -}
-mq : Country
+mq : Region
 mq =
-    Country "mq"
+    Region "mq"
 
 
 {-| Mauritania
 -}
-mr : Country
+mr : Region
 mr =
-    Country "mr"
+    Region "mr"
 
 
 {-| Montserrat
 -}
-ms : Country
+ms : Region
 ms =
-    Country "ms"
+    Region "ms"
 
 
 {-| Malta
 -}
-mt : Country
+mt : Region
 mt =
-    Country "mt"
+    Region "mt"
 
 
 {-| Mauritius
 -}
-mu : Country
+mu : Region
 mu =
-    Country "mu"
+    Region "mu"
 
 
 {-| Maldives
 -}
-mv : Country
+mv : Region
 mv =
-    Country "mv"
+    Region "mv"
 
 
 {-| Malawi
 -}
-mw : Country
+mw : Region
 mw =
-    Country "mw"
+    Region "mw"
 
 
 {-| Mexico
 -}
-mx : Country
+mx : Region
 mx =
-    Country "mx"
+    Region "mx"
 
 
 {-| Malaysia
 -}
-my : Country
+my : Region
 my =
-    Country "my"
+    Region "my"
 
 
 {-| Mozambique
 -}
-mz : Country
+mz : Region
 mz =
-    Country "mz"
+    Region "mz"
 
 
 {-| Namibia
 -}
-na : Country
+na : Region
 na =
-    Country "na"
+    Region "na"
 
 
 {-| New Caledonia
 -}
-nc : Country
+nc : Region
 nc =
-    Country "nc"
+    Region "nc"
 
 
 {-| Niger
 -}
-ne : Country
+ne : Region
 ne =
-    Country "ne"
+    Region "ne"
 
 
 {-| Norfolk Island
 -}
-nf : Country
+nf : Region
 nf =
-    Country "nf"
+    Region "nf"
 
 
 {-| Nigeria
 -}
-ng : Country
+ng : Region
 ng =
-    Country "ng"
+    Region "ng"
 
 
 {-| Nicaragua
 -}
-ni : Country
+ni : Region
 ni =
-    Country "ni"
+    Region "ni"
 
 
 {-| Netherlands
 -}
-nl : Country
+nl : Region
 nl =
-    Country "nl"
+    Region "nl"
 
 
 {-| Norway
 -}
-no : Country
+no : Region
 no =
-    Country "no"
+    Region "no"
 
 
 {-| Nepal
 -}
-np : Country
+np : Region
 np =
-    Country "np"
+    Region "np"
 
 
 {-| Nauru
 -}
-nr : Country
+nr : Region
 nr =
-    Country "nr"
+    Region "nr"
 
 
 {-| Neutral Zone
 -}
-nt : Country
+nt : Region
 nt =
-    Country "nt"
+    Region "nt"
 
 
 {-| Niue
 -}
-nu : Country
+nu : Region
 nu =
-    Country "nu"
+    Region "nu"
 
 
 {-| New Zealand
 -}
-nz : Country
+nz : Region
 nz =
-    Country "nz"
+    Region "nz"
 
 
 {-| Oman
 -}
-om : Country
+om : Region
 om =
-    Country "om"
+    Region "om"
 
 
 {-| Panama
 -}
-pa : Country
+pa : Region
 pa =
-    Country "pa"
+    Region "pa"
 
 
 {-| Peru
 -}
-pe : Country
+pe : Region
 pe =
-    Country "pe"
+    Region "pe"
 
 
 {-| French Polynesia
 -}
-pf : Country
+pf : Region
 pf =
-    Country "pf"
+    Region "pf"
 
 
 {-| Papua New Guinea
 -}
-pg : Country
+pg : Region
 pg =
-    Country "pg"
+    Region "pg"
 
 
 {-| Philippines
 -}
-ph : Country
+ph : Region
 ph =
-    Country "ph"
+    Region "ph"
 
 
 {-| Pakistan
 -}
-pk : Country
+pk : Region
 pk =
-    Country "pk"
+    Region "pk"
 
 
 {-| Poland
 -}
-pl : Country
+pl : Region
 pl =
-    Country "pl"
+    Region "pl"
 
 
 {-| Saint Pierre and Miquelon
 -}
-pm : Country
+pm : Region
 pm =
-    Country "pm"
+    Region "pm"
 
 
 {-| Pitcairn
 -}
-pn : Country
+pn : Region
 pn =
-    Country "pn"
+    Region "pn"
 
 
 {-| Puerto Rico
 -}
-pr : Country
+pr : Region
 pr =
-    Country "pr"
+    Region "pr"
 
 
 {-| State of Palestine
 -}
-ps : Country
+ps : Region
 ps =
-    Country "ps"
+    Region "ps"
 
 
 {-| Portugal
 -}
-pt : Country
+pt : Region
 pt =
-    Country "pt"
+    Region "pt"
 
 
 {-| Palau
 -}
-pw : Country
+pw : Region
 pw =
-    Country "pw"
+    Region "pw"
 
 
 {-| Paraguay
 -}
-py : Country
+py : Region
 py =
-    Country "py"
+    Region "py"
 
 
 {-| Qatar
 -}
-qa : Country
+qa : Region
 qa =
-    Country "qa"
+    Region "qa"
 
 
 {-| Réunion
 -}
-re : Country
+re : Region
 re =
-    Country "re"
+    Region "re"
 
 
 {-| Romania
 -}
-ro : Country
+ro : Region
 ro =
-    Country "ro"
+    Region "ro"
 
 
 {-| Serbia
 -}
-rs : Country
+rs : Region
 rs =
-    Country "rs"
+    Region "rs"
 
 
 {-| Russian Federation
 -}
-ru : Country
+ru : Region
 ru =
-    Country "ru"
+    Region "ru"
 
 
 {-| Rwanda
 -}
-rw : Country
+rw : Region
 rw =
-    Country "rw"
+    Region "rw"
 
 
 {-| Saudi Arabia
 -}
-sa : Country
+sa : Region
 sa =
-    Country "sa"
+    Region "sa"
 
 
 {-| Solomon Islands
 -}
-sb : Country
+sb : Region
 sb =
-    Country "sb"
+    Region "sb"
 
 
 {-| Seychelles
 -}
-sc : Country
+sc : Region
 sc =
-    Country "sc"
+    Region "sc"
 
 
 {-| Sudan
 -}
-sd : Country
+sd : Region
 sd =
-    Country "sd"
+    Region "sd"
 
 
 {-| Sweden
 -}
-se : Country
+se : Region
 se =
-    Country "se"
+    Region "se"
 
 
 {-| Singapore
 -}
-sg : Country
+sg : Region
 sg =
-    Country "sg"
+    Region "sg"
 
 
 {-| Saint Helena, Ascension and Tristan da Cunha
 -}
-sh : Country
+sh : Region
 sh =
-    Country "sh"
+    Region "sh"
 
 
 {-| Slovenia
 -}
-si : Country
+si : Region
 si =
-    Country "si"
+    Region "si"
 
 
 {-| Svalbard and Jan Mayen
 -}
-sj : Country
+sj : Region
 sj =
-    Country "sj"
+    Region "sj"
 
 
 {-| Slovakia
 -}
-sk : Country
+sk : Region
 sk =
-    Country "sk"
+    Region "sk"
 
 
 {-| Sierra Leone
 -}
-sl : Country
+sl : Region
 sl =
-    Country "sl"
+    Region "sl"
 
 
 {-| San Marino
 -}
-sm : Country
+sm : Region
 sm =
-    Country "sm"
+    Region "sm"
 
 
 {-| Senegal
 -}
-sn : Country
+sn : Region
 sn =
-    Country "sn"
+    Region "sn"
 
 
 {-| Somalia
 -}
-so : Country
+so : Region
 so =
-    Country "so"
+    Region "so"
 
 
 {-| Suriname
 -}
-sr : Country
+sr : Region
 sr =
-    Country "sr"
+    Region "sr"
 
 
 {-| South Sudan
 -}
-ss : Country
+ss : Region
 ss =
-    Country "ss"
+    Region "ss"
 
 
 {-| Sao Tome and Principe
 -}
-st : Country
+st : Region
 st =
-    Country "st"
+    Region "st"
 
 
 {-| Union of Soviet Socialist Republics
 -}
-su : Country
+su : Region
 su =
-    Country "su"
+    Region "su"
 
 
 {-| El Salvador
 -}
-sv : Country
+sv : Region
 sv =
-    Country "sv"
+    Region "sv"
 
 
 {-| Sint Maarten (Dutch part)
 -}
-sx : Country
+sx : Region
 sx =
-    Country "sx"
+    Region "sx"
 
 
 {-| Syrian Arab Republic
 -}
-sy : Country
+sy : Region
 sy =
-    Country "sy"
+    Region "sy"
 
 
 {-| Eswatini
 eSwatini
 Swaziland
 -}
-sz : Country
+sz : Region
 sz =
-    Country "sz"
+    Region "sz"
 
 
 {-| Tristan da Cunha
 -}
-ta : Country
+ta : Region
 ta =
-    Country "ta"
+    Region "ta"
 
 
 {-| Turks and Caicos Islands
 -}
-tc : Country
+tc : Region
 tc =
-    Country "tc"
+    Region "tc"
 
 
 {-| Chad
 -}
-td : Country
+td : Region
 td =
-    Country "td"
+    Region "td"
 
 
 {-| French Southern Territories
 -}
-tf : Country
+tf : Region
 tf =
-    Country "tf"
+    Region "tf"
 
 
 {-| Togo
 -}
-tg : Country
+tg : Region
 tg =
-    Country "tg"
+    Region "tg"
 
 
 {-| Thailand
 -}
-th : Country
+th : Region
 th =
-    Country "th"
+    Region "th"
 
 
 {-| Tajikistan
 -}
-tj : Country
+tj : Region
 tj =
-    Country "tj"
+    Region "tj"
 
 
 {-| Tokelau
 -}
-tk : Country
+tk : Region
 tk =
-    Country "tk"
+    Region "tk"
 
 
 {-| Timor-Leste
 -}
-tl : Country
+tl : Region
 tl =
-    Country "tl"
+    Region "tl"
 
 
 {-| Turkmenistan
 -}
-tm : Country
+tm : Region
 tm =
-    Country "tm"
+    Region "tm"
 
 
 {-| Tunisia
 -}
-tn : Country
+tn : Region
 tn =
-    Country "tn"
+    Region "tn"
 
 
 {-| Tonga
 -}
-to : Country
+to : Region
 to =
-    Country "to"
+    Region "to"
 
 
 {-| East Timor
 -}
-tp : Country
+tp : Region
 tp =
-    Country "tp"
+    Region "tp"
 
 
 {-| Turkey
 -}
-tr : Country
+tr : Region
 tr =
-    Country "tr"
+    Region "tr"
 
 
 {-| Trinidad and Tobago
 -}
-tt : Country
+tt : Region
 tt =
-    Country "tt"
+    Region "tt"
 
 
 {-| Tuvalu
 -}
-tv : Country
+tv : Region
 tv =
-    Country "tv"
+    Region "tv"
 
 
 {-| Taiwan, Province of China
 -}
-tw : Country
+tw : Region
 tw =
-    Country "tw"
+    Region "tw"
 
 
 {-| United Republic of Tanzania
 -}
-tz : Country
+tz : Region
 tz =
-    Country "tz"
+    Region "tz"
 
 
 {-| Ukraine
 -}
-ua : Country
+ua : Region
 ua =
-    Country "ua"
+    Region "ua"
 
 
 {-| Uganda
 -}
-ug : Country
+ug : Region
 ug =
-    Country "ug"
+    Region "ug"
 
 
 {-| United States Minor Outlying Islands
 -}
-um : Country
+um : Region
 um =
-    Country "um"
+    Region "um"
 
 
 {-| United Nations
 -}
-un : Country
+un : Region
 un =
-    Country "un"
+    Region "un"
 
 
 {-| United States
 -}
-us : Country
+us : Region
 us =
-    Country "us"
+    Region "us"
 
 
 {-| Uruguay
 -}
-uy : Country
+uy : Region
 uy =
-    Country "uy"
+    Region "uy"
 
 
 {-| Uzbekistan
 -}
-uz : Country
+uz : Region
 uz =
-    Country "uz"
+    Region "uz"
 
 
 {-| Holy See (Vatican City State)
 -}
-va : Country
+va : Region
 va =
-    Country "va"
+    Region "va"
 
 
 {-| Saint Vincent and the Grenadines
 -}
-vc : Country
+vc : Region
 vc =
-    Country "vc"
+    Region "vc"
 
 
 {-| Venezuela
 -}
-ve : Country
+ve : Region
 ve =
-    Country "ve"
+    Region "ve"
 
 
 {-| British Virgin Islands
 -}
-vg : Country
+vg : Region
 vg =
-    Country "vg"
+    Region "vg"
 
 
 {-| U.S. Virgin Islands
 -}
-vi : Country
+vi : Region
 vi =
-    Country "vi"
+    Region "vi"
 
 
 {-| Viet Nam
 -}
-vn : Country
+vn : Region
 vn =
-    Country "vn"
+    Region "vn"
 
 
 {-| Vanuatu
 -}
-vu : Country
+vu : Region
 vu =
-    Country "vu"
+    Region "vu"
 
 
 {-| Wallis and Futuna
 -}
-wf : Country
+wf : Region
 wf =
-    Country "wf"
+    Region "wf"
 
 
 {-| Samoa
 -}
-ws : Country
+ws : Region
 ws =
-    Country "ws"
+    Region "ws"
 
 
 {-| Democratic Yemen
 -}
-yd : Country
+yd : Region
 yd =
-    Country "yd"
+    Region "yd"
 
 
 {-| Yemen
 -}
-ye : Country
+ye : Region
 ye =
-    Country "ye"
+    Region "ye"
 
 
 {-| Mayotte
 -}
-yt : Country
+yt : Region
 yt =
-    Country "yt"
+    Region "yt"
 
 
 {-| Yugoslavia
 -}
-yu : Country
+yu : Region
 yu =
-    Country "yu"
+    Region "yu"
 
 
 {-| South Africa
 -}
-za : Country
+za : Region
 za =
-    Country "za"
+    Region "za"
 
 
 {-| Zambia
 -}
-zm : Country
+zm : Region
 zm =
-    Country "zm"
+    Region "zm"
 
 
 {-| Zaire
 -}
-zr : Country
+zr : Region
 zr =
-    Country "zr"
+    Region "zr"
 
 
 {-| Zimbabwe
 -}
-zw : Country
+zw : Region
 zw =
-    Country "zw"
+    Region "zw"

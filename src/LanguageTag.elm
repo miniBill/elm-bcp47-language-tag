@@ -25,10 +25,10 @@ See <https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang>.
 
 import Html
 import Html.Attributes
-import LanguageTag.Country as Country exposing (Country)
 import LanguageTag.ExtendedLanguage as ExtendedLanguage exposing (ExtendedLanguage)
 import LanguageTag.Language as Language exposing (Language)
 import LanguageTag.PrivateUse as PrivateUse exposing (PrivateUse)
+import LanguageTag.Region as Region exposing (Region)
 import LanguageTag.Script as Script exposing (Script)
 import LanguageTag.Variant as Variant exposing (Variant)
 import List.Extra
@@ -61,7 +61,7 @@ unknown =
 {-| -}
 type alias Options =
     { script : Maybe Script
-    , region : Maybe Country
+    , region : Maybe Region
     , variants : List Variant
     , extensions : List ExtendedLanguage
     , privateUse : Maybe PrivateUse
@@ -72,7 +72,7 @@ type alias Options =
 
     import LanguageTag
     import LanguageTag.Language as Language
-    import LanguageTag.Country as Country
+    import LanguageTag.Region as Region
 
     Language.en
         |> build emptySubtags
@@ -82,7 +82,7 @@ type alias Options =
 It's also useful as the starting record for building a LanguageTag that has subtags.
 
     Language.en
-        |> build { emptySubtags | region = Just Country.us }
+        |> build { emptySubtags | region = Just Region.us }
         |> LanguageTag.toString
         --> "en-us"
 
@@ -114,7 +114,7 @@ toString languageTag =
         LanguageTag language options ->
             (Language.toCodeString language
                 :: ([ options.script |> Maybe.map Script.toCodeString
-                    , options.region |> Maybe.map Country.toCodeString
+                    , options.region |> Maybe.map Region.toCodeString
                     ]
                         |> List.filterMap identity
                    )
@@ -143,13 +143,13 @@ toParts languageTag =
 {-| Return the segments that compose a language tag.
 
     import LanguageTag.Language as Language
-    import LanguageTag.Country as Country
+    import LanguageTag.Region as Region
 
     LanguageTag.custom "x-whatever" |> toSegments
     --> [ "x", "whatever" ]
 
     Language.en
-        |> build { emptySubtags | region = Just Country.us }
+        |> build { emptySubtags | region = Just Region.us }
         |> LanguageTag.toSegments
     --> [ "en", "us" ]
 
@@ -181,7 +181,7 @@ toSegments languageTag =
         LanguageTag language options ->
             (Language.toCodeString language
                 :: ([ options.script |> Maybe.map Script.toCodeString
-                    , options.region |> Maybe.map Country.toCodeString
+                    , options.region |> Maybe.map Region.toCodeString
                     ]
                         |> List.filterMap identity
                    )
