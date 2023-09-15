@@ -140,13 +140,16 @@ toParts languageTag =
 
 {-| Return the segments that compose a language tag.
 
+    import LanguageTag.Language as Language
+    import LanguageTag.Country as Country
+
     LanguageTag.custom "x-whatever" |> toSegments
     --> [ "x", "whatever" ]
 
     Language.en
         |> build { emptySubtags | region = Just Country.us }
         |> LanguageTag.toSegments
-    --> [ "en", "US" ]
+    --> [ "en", "us" ]
 
 This is useful for pattern matching with fallback
 
