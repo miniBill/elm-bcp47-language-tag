@@ -1,12 +1,21 @@
-module LanguageTag.PrivateUse exposing (PrivateUse, fromStrings, toCodeString)
+module LanguageTag.PrivateUse exposing (PrivateUse, toCodeString, fromStrings)
+
+{-| Private use tags. They begin with an `x-`, can be 1 to 8 character long, and can be freely defined and used without any registration.
+
+@docs PrivateUse, toCodeString, fromStrings
+
+-}
 
 import LanguageTag.Internal as Internal exposing (PrivateUse(..))
 
 
+{-| -}
 type alias PrivateUse =
     Internal.PrivateUse
 
 
+{-| Convert the tag to its `String` representation.
+-}
 toCodeString : PrivateUse -> String
 toCodeString (PrivateUse components) =
     String.join "-" ("x" :: components)
