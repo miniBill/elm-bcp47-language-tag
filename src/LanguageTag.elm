@@ -19,6 +19,8 @@ See <https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang>.
 
 @docs toString, toHtmlAttribute
 
+@docs toParts, toSegments
+
 -}
 
 import Html
