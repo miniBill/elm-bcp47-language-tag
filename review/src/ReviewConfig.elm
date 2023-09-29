@@ -57,5 +57,9 @@ config =
     --    |> NoInconsistentAliases.noMissingAliases
     --    |> NoInconsistentAliases.rule
     , NoModuleOnExposedNames.rule
+        -- Unfortunately, due to https://github.com/sparksp/elm-review-imports/issues/127
+        -- we can't enable this rule for the main source files. This can be re-enabled fully
+        -- once the issue is fixed.
+        |> Review.Rule.ignoreErrorsForDirectories ["src"]
     ]
     |> List.map ( Review.Rule.ignoreErrorsForDirectories ["tests/VerifyExamples"])
