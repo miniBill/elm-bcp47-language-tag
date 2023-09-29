@@ -3,6 +3,7 @@
   "tests": [
     "./README.md",
     "LanguageTag",
-    "LanguageTag.PrivateUse"
+    "LanguageTag.PrivateUse",
+    "LanguageTag.Parser"
   ]
 }

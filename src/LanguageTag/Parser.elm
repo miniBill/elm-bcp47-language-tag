@@ -17,6 +17,15 @@ import LanguageTag.Variant exposing (Variant)
 
 
 {-| This will attempt to parse the tag as a BCP47 tag. If it fails, it will construct a `LanguageTag` using `custom`, with no validation.
+
+    import LanguageTag
+
+    parseLanguageTag "en-US" |> LanguageTag.toSegments
+    --> [ "en", "US" ]
+
+    parseLanguageTag "completely-invalid-tag" |> LanguageTag.toSegments
+    --> [ "completely", "invalid", "tag" ]
+
 -}
 parseLanguageTag : String -> LanguageTag
 parseLanguageTag inputString =
@@ -28,7 +37,21 @@ parseLanguageTag inputString =
             LanguageTag.custom inputString
 
 
-{-| Parse a BCP47 language tag.
+{-| Parse a BCP47 language tag. Returns `Nothing` if the input is not valid.
+
+    import LanguageTag
+    import LanguageTag.Language as Language
+    import LanguageTag.Country as Country
+
+    empty : LanguageTag.Options
+    empty = LanguageTag.emptySubtags
+
+    parseBcp47 "en-us"
+    --> Just (Language.en, { empty | region = Just Country.us })
+
+    parseBcp47 "completely-invalid-tag"
+    --> Nothing
+
 -}
 parseBcp47 : String -> Maybe ( Language, LanguageTag.Options )
 parseBcp47 inputString =
