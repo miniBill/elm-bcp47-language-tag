@@ -14,15 +14,40 @@ toCodeString (PrivateUse components) =
 
 {-| Create a `PrivateUse` from its components.
 
+Fails if the list is empty or any of the components are outside the expected size (1 to 8 characters).
+
 The `x-` is added automatically by `toCodeString`.
 
-    fromString [ "whatever" ] |> toCodeString
-    --> "x-whatever"
+    fromString [ "whatever" ] |> Maybe.map toCodeString
+    --> Just "x-whatever"
 
-    fromString [ "x", "whatever" ] |> toCodeString
-    --> "x-x-whatever"
+    fromString [ "x", "whatever" ] |> Maybe.map toCodeString
+    --> Just "x-x-whatever"
+
+    fromString []
+    --> Nothing
+
+    fromString [ "thisistoolong" ]
+    --> Nothing
 
 -}
-fromStrings : List String -> PrivateUse
+fromStrings : List String -> Maybe PrivateUse
 fromStrings components =
-    PrivateUse components
+    let
+        isComponentValid : String -> Bool
+        isComponentValid component =
+            let
+                len : Int
+                len =
+                    String.length component
+            in
+            1 <= len && len <= 8
+    in
+    if List.isEmpty components then
+        Nothing
+
+    else if List.all isComponentValid components then
+        Just (PrivateUse components)
+
+    else
+        Nothing
