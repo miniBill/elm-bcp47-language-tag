@@ -27,16 +27,16 @@ Fails if the list is empty or any of the components are outside the expected siz
 
 The `x-` is added automatically by `toCodeString`.
 
-    fromString [ "whatever" ] |> Maybe.map toCodeString
+    fromStrings [ "whatever" ] |> Maybe.map toCodeString
     --> Just "x-whatever"
 
-    fromString [ "x", "whatever" ] |> Maybe.map toCodeString
+    fromStrings [ "x", "whatever" ] |> Maybe.map toCodeString
     --> Just "x-x-whatever"
 
-    fromString []
+    fromStrings []
     --> Nothing
 
-    fromString [ "thisistoolong" ]
+    fromStrings [ "thisistoolong" ]
     --> Nothing
 
 -}
