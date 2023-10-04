@@ -65,12 +65,3 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           path-to-elm: ./node_modules/.bin/elm
-      - name: Generate elm-doc-preview
-        uses: EndBug/add-and-commit@v5
-        with:
-          add: "docs.json"
-          author_name: GitHub Actions
-          message: "Update docs.json from CI for elm-doc-preview."
-          push: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
