@@ -22,19 +22,12 @@ with this package should give you added confidence but be sure to test the resul
 
 ## Out of scope for this package
 
-The current goals for this project are to help you safely *construct* BCP 47 language tags, in a way that results in good dead-code elimination.
+The current goals for this project are to help you safely *construct* or *parse* BCP 47 language tags, in a way that results in good dead-code elimination.
 
-This package is not intended to help you *parse* BCP 47 language tags, or extract metadata or turn them into human-readable strings (like country name, language name, etc.).
+This package is not intended to turn BCP 47 language into human-readable strings (like country name, language name, etc.).
 See [`supermario/elm-countries`](https://github.com/supermario/elm-countries/) for a package that lets you find the country name for a given ISO 3166 country.
 
-Here are some places that BCP 47 tags show up where this package's features are likely to not handle:
-
-- The [`Intl` API in browsers](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl) uses BCP 47 language tags as locales for some functions
-- [`navigator.language`](https://developer.mozilla.org/en-US/docs/Web/API/NavigatorLanguage/language) gives the current user's browser language in the BCP 47 format
-
-Because this package is intended to *construct*, not *parse* BCP 47 tags, this package is not likely to be useful for working with those values.
-
-Some reasons that these use cases don't fit into the package goals currently:
+Some reasons that this use case doesn't fit into the package goals currently:
 
 - Metadata, like country name, language name, etc. is more likely to change frequently. Hopefully the
   narrowly focused goal of this package will allow it to have less churn since it only changes the codes (like country code, language code, etc.) change.
@@ -93,4 +86,4 @@ The following features and tag types are supported indirectly through the `custo
 
 ## Reference
 
-- Learn more about the BCP 47 spec at <https://www.w3.org/International/questions/qa-choosing-language-tags>
+- Learn more about the BCP 47 spec at <https://www.w3.org/International/questions/qa-choosing-language-tags>.

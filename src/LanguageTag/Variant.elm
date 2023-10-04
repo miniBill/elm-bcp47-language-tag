@@ -11,10 +11,12 @@ module LanguageTag.Variant exposing
 
 -}
 
+import LanguageTag.Internal as Internal exposing (Variant(..))
+
 
 {-| -}
-type Variant
-    = Variant String
+type alias Variant =
+    Internal.Variant
 
 
 {-| Get the code for this Variant.

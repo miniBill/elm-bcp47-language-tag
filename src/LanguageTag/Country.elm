@@ -11,10 +11,12 @@ module LanguageTag.Country exposing
 
 -}
 
+import LanguageTag.Internal as Internal exposing (Country(..))
+
 
 {-| -}
-type Country
-    = Country String
+type alias Country =
+    Internal.Country
 
 
 {-| Get the ISO 3166-1 country code value for this Country.

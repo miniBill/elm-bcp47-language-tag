@@ -51,8 +51,8 @@ generate({
 generate({
   includeDefinition: (value) => value.type() === "script",
   entryToTopLevelDefinition: (lang) => lang.data.subtag,
-  definitionComment: (country) => {
-    return country.data.record.Description.join("\n");
+  definitionComment: (script) => {
+    return script.data.record.Description.join("\n");
   },
   typeName: "Script",
   comment: `ISO 15924 language script codes. See <https://en.wikipedia.org/wiki/ISO_15924>.`,
@@ -62,8 +62,8 @@ generate({
 generate({
   includeDefinition: (value) => value.type() === "variant",
   entryToTopLevelDefinition: (lang) => lang.data.subtag,
-  definitionComment: (country) => {
-    return country.data.record.Description.join("\n");
+  definitionComment: (variant) => {
+    return variant.data.record.Description.join("\n");
   },
   typeName: "Variant",
   comment: ``,

@@ -3,6 +3,7 @@ module LanguageTag exposing
     , Options, emptySubtags
     , build, custom, unknown
     , toString, toHtmlAttribute
+    , toParts, toSegments
     )
 
 {-| A LanguageTag represents a BCP 47 value, and can be used in the `lang` attribute of HTML
@@ -18,6 +19,8 @@ See <https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang>.
 
 @docs toString, toHtmlAttribute
 
+@docs toParts, toSegments
+
 -}
 
 import Html
@@ -25,6 +28,7 @@ import Html.Attributes
 import LanguageTag.Country as Country exposing (Country)
 import LanguageTag.ExtendedLanguage as ExtendedLanguage exposing (ExtendedLanguage)
 import LanguageTag.Language as Language exposing (Language)
+import LanguageTag.PrivateUse as PrivateUse exposing (PrivateUse)
 import LanguageTag.Script as Script exposing (Script)
 import LanguageTag.Variant as Variant exposing (Variant)
 import List.Extra
@@ -56,10 +60,11 @@ unknown =
 
 {-| -}
 type alias Options =
-    { extendedLanguage : Maybe ExtendedLanguage
+    { script : Maybe Script
     , region : Maybe Country
-    , script : Maybe Script
     , variants : List Variant
+    , extensions : List ExtendedLanguage
+    , privateUse : Maybe PrivateUse
     }
 
 
@@ -84,7 +89,12 @@ It's also useful as the starting record for building a LanguageTag that has subt
 -}
 emptySubtags : Options
 emptySubtags =
-    { extendedLanguage = Nothing, region = Nothing, script = Nothing, variants = [] }
+    { script = Nothing
+    , region = Nothing
+    , variants = []
+    , extensions = []
+    , privateUse = Nothing
+    }
 
 
 {-| -}
@@ -102,17 +112,86 @@ toString languageTag =
             customCode
 
         LanguageTag language options ->
-            (([ language |> Language.toCodeString |> Just
-              , options.extendedLanguage |> Maybe.map ExtendedLanguage.toCodeString
-              , options.script |> Maybe.map Script.toCodeString
-              , options.region |> Maybe.map Country.toCodeString
-              ]
-                |> List.filterMap identity
-                |> List.Extra.unique
-             )
+            (Language.toCodeString language
+                :: ([ options.script |> Maybe.map Script.toCodeString
+                    , options.region |> Maybe.map Country.toCodeString
+                    ]
+                        |> List.filterMap identity
+                   )
                 ++ List.map Variant.toCodeString options.variants
+                ++ List.map ExtendedLanguage.toCodeString options.extensions
+                ++ ([ options.privateUse |> Maybe.map PrivateUse.toCodeString ]
+                        |> List.filterMap identity
+                   )
             )
+                |> List.Extra.unique
                 |> String.join "-"
+
+
+{-| If the `LanguageTag` was not created by `custom`, get back the components it is made of.
+-}
+toParts : LanguageTag -> Maybe ( Language, Options )
+toParts languageTag =
+    case languageTag of
+        Custom _ ->
+            Nothing
+
+        LanguageTag language options ->
+            Just ( language, options )
+
+
+{-| Return the segments that compose a language tag.
+
+    import LanguageTag.Language as Language
+    import LanguageTag.Country as Country
+
+    LanguageTag.custom "x-whatever" |> toSegments
+    --> [ "x", "whatever" ]
+
+    Language.en
+        |> build { emptySubtags | region = Just Country.us }
+        |> LanguageTag.toSegments
+    --> [ "en", "us" ]
+
+This is useful for pattern matching with fallback
+
+    case LanguageTag.toSegments languageTag of
+        "ca" :: "ES" :: "valencia" :: _ ->
+            "Catalan - Valencia (Spain)"
+
+        "ca" :: "ES" :: _ ->
+            "Catalan - Spain"
+
+        "ca" :: _ ->
+            "Catalan"
+
+        "en" :: "GB" :: _ ->
+            "English - UK"
+
+        "en" :: _ ->
+            "English"
+
+-}
+toSegments : LanguageTag -> List String
+toSegments languageTag =
+    case languageTag of
+        Custom customCode ->
+            String.split "-" customCode
+
+        LanguageTag language options ->
+            (Language.toCodeString language
+                :: ([ options.script |> Maybe.map Script.toCodeString
+                    , options.region |> Maybe.map Country.toCodeString
+                    ]
+                        |> List.filterMap identity
+                   )
+                ++ List.map Variant.toCodeString options.variants
+                ++ List.map ExtendedLanguage.toCodeString options.extensions
+                ++ ([ options.privateUse |> Maybe.map PrivateUse.toCodeString ]
+                        |> List.filterMap identity
+                   )
+            )
+                |> List.Extra.unique
 
 
 {-| Most often, you'll want to use BCP 47 tags in the top-level tag `<html lang="en-US">`. If you have multiple languages
