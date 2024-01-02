@@ -1,5 +1,5 @@
 module LanguageTag.Internal exposing
-    ( Country(..)
+    ( Region(..)
     , ExtendedLanguage(..)
     , Language(..)
     , PrivateUse(..)
@@ -18,8 +18,8 @@ type Script
     = Script String
 
 
-type Country
-    = Country String
+type Region
+    = Region String
 
 
 type Variant

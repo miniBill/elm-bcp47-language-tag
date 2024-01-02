@@ -7,7 +7,7 @@ module LanguageTag.Parser exposing (parseBcp47, parseLanguageTag)
 -}
 
 import LanguageTag exposing (LanguageTag(..))
-import LanguageTag.Country exposing (Country)
+import LanguageTag.Region exposing (Region)
 import LanguageTag.ExtendedLanguage exposing (ExtendedLanguage)
 import LanguageTag.Internal as Internal
 import LanguageTag.Language exposing (Language)
@@ -41,13 +41,13 @@ parseLanguageTag inputString =
 
     import LanguageTag
     import LanguageTag.Language as Language
-    import LanguageTag.Country as Country
+    import LanguageTag.Region as Region
 
     empty : LanguageTag.Options
     empty = LanguageTag.emptySubtags
 
     parseBcp47 "en-us"
-    --> Just (Language.en, { empty | region = Just Country.us })
+    --> Just (Language.en, { empty | region = Just Region.us })
 
     parseBcp47 "completely-invalid-tag"
     --> Nothing
@@ -135,13 +135,13 @@ scriptParser =
         |> map Internal.Script
 
 
-regionParser : Parser Country
+regionParser : Parser Region
 regionParser =
     oneOf
         [ xAlpha 2
         , repeat 3 3 Char.isDigit
         ]
-        |> map Internal.Country
+        |> map Internal.Region
 
 
 variantParser : Parser Variant

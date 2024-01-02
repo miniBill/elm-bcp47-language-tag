@@ -9,7 +9,7 @@
         "LanguageTag.Parser",
         "LanguageTag.Language",
         "LanguageTag.Script",
-        "LanguageTag.Country",
+        "LanguageTag.Region",
         "LanguageTag.Variant",
         "LanguageTag.ExtendedLanguage",
         "LanguageTag.PrivateUse"

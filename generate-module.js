@@ -69,7 +69,7 @@ toCodeString (${config.typeName} rawCode) =
 ${languageEntriesCode}
 `;
   fs.writeFileSync(`src/LanguageTag/${config.typeName}.elm`, languageModule);
-}
+};
 
 /**
  * @param {string} languageCode

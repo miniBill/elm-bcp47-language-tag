@@ -15,7 +15,7 @@ generate({
   \`zh-CN\` (Chinese in the region Mainland China). Be sure to test your implementation because even if your language
   tag is precise, specific tools may depend on it being written in a specific way and may not interpret all correct
   variations.`,
-  toCodeComment: `Get the ISO 639 code for this ExtendedLanguage.`
+  toCodeComment: `Get the ISO 639 code for this ExtendedLanguage.`,
 });
 
 generate({
@@ -40,12 +40,12 @@ For everything else, there's [\`LanguageTag.custom\`](LanguageTag#custom) as an 
 generate({
   includeDefinition: (value) => value.type() === "region",
   entryToTopLevelDefinition: (lang) => lang.data.subtag,
-  definitionComment: (country) => {
-    return country.data.record.Description.filter((value) => value).join("\n");
+  definitionComment: (region) => {
+    return region.data.record.Description.filter((value) => value).join("\n");
   },
-  typeName: "Country",
-  comment: `ISO 3166-1 country codes. See <https://en.wikipedia.org/wiki/ISO_3166-1>.`,
-  toCodeComment: `Get the ISO 3166-1 country code value for this Country.`
+  typeName: "Region",
+  comment: `ISO 3166-1 country codes and UN M49 region codes. See <https://en.wikipedia.org/wiki/ISO_3166-1> and <https://en.wikipedia.org/wiki/UN_M49>.`,
+  toCodeComment: `Get the ISO 3166-1 country code or UN M49 region code value for this Region.`,
 });
 
 generate({
@@ -56,7 +56,7 @@ generate({
   },
   typeName: "Script",
   comment: `ISO 15924 language script codes. See <https://en.wikipedia.org/wiki/ISO_15924>.`,
-  toCodeComment: `Get the ISO 15924 language script code value for this Script.`
+  toCodeComment: `Get the ISO 15924 language script code value for this Script.`,
 });
 
 generate({
@@ -67,5 +67,5 @@ generate({
   },
   typeName: "Variant",
   comment: ``,
-  toCodeComment: `Get the code for this Variant.`
+  toCodeComment: `Get the code for this Variant.`,
 });

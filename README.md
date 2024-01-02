@@ -8,7 +8,7 @@ with this package should give you added confidence but be sure to test the resul
 ## Project goals
 
 - Provide a way to create valid BCP 47 tags with confidence that the result is well-formed and valid.
-- The resulting Elm bundle will be able to include only the data that is explicitly referenced (for example, `LanguageTag.build { emptySubtags | region = Just Country.gb } Language.en` only includes the data for the English language and the Great Britain region, but doesn't cause your bundle to include data for French, Spanish, etc.)
+- The resulting Elm bundle will be able to include only the data that is explicitly referenced (for example, `LanguageTag.build { emptySubtags | region = Just Region.gb } Language.en` only includes the data for the English language and the Great Britain region, but doesn't cause your bundle to include data for French, Spanish, etc.)
 - For unusual cases, there's an escape hatch (`LanguageTag.custom`) where you're on your own making sure you have a valid and meaningful value (much like the elm/html API). If you encounter a use case that isn't supported directly and requires this escape hatch, please open a GitHub issue to describe your use case to help me get context!
 - This package is generated from a script with some data sources, so it can be relatively kept up-to-date through automation.
 
@@ -22,15 +22,15 @@ with this package should give you added confidence but be sure to test the resul
 
 ## Out of scope for this package
 
-The current goals for this project are to help you safely *construct* or *parse* BCP 47 language tags, in a way that results in good dead-code elimination.
+The current goals for this project are to help you safely _construct_ or _parse_ BCP 47 language tags, in a way that results in good dead-code elimination.
 
-This package is not intended to turn BCP 47 language into human-readable strings (like country name, language name, etc.).
+This package is not intended to turn BCP 47 language into human-readable strings (like country or region name, language name, etc.).
 See [`supermario/elm-countries`](https://github.com/supermario/elm-countries/) for a package that lets you find the country name for a given ISO 3166 country.
 
 Some reasons that this use case doesn't fit into the package goals currently:
 
-- Metadata, like country name, language name, etc. is more likely to change frequently. Hopefully the
-  narrowly focused goal of this package will allow it to have less churn since it only changes the codes (like country code, language code, etc.) change.
+- Metadata, like country or region name, language name, etc. is more likely to change frequently. Hopefully the
+  narrowly focused goal of this package will allow it to have less churn since it only changes the codes (like country or region code, language code, etc.) change.
   The package will not change and require an update when names or other metadata change.
 - Turning a code, like a language code or country code, into a name, like a language name or a country name, requires including the data for all possible values in your
   bundle.
@@ -40,7 +40,7 @@ Some reasons that this use case doesn't fit into the package goals currently:
 ```elm
 import LanguageTag exposing (emptySubtags)
 import LanguageTag.Language as Language
-import LanguageTag.Country as Country
+import LanguageTag.Region as Region
 import LanguageTag.Script as Script
 import LanguageTag.Variant as Variant
 
@@ -50,28 +50,28 @@ Language.no
     --> "no"
 
 Language.en
-    |> LanguageTag.build { emptySubtags | region = Just Country.gb }
+    |> LanguageTag.build { emptySubtags | region = Just Region.gb }
     |> LanguageTag.toString
     --> "en-gb"
 
 Language.zh
-    |> LanguageTag.build { emptySubtags | region = Just Country.tw }
+    |> LanguageTag.build { emptySubtags | region = Just Region.tw }
     |> LanguageTag.toString
     --> "zh-tw"
 
 Language.hy
-    |> LanguageTag.build  
-        { emptySubtags | 
-          region = Just Country.it
+    |> LanguageTag.build
+        { emptySubtags |
+          region = Just Region.it
         , script = Just Script.latn
-        , variants = [ Variant.arevela ] 
+        , variants = [ Variant.arevela ]
         }
     |> LanguageTag.toString
     --> "hy-latn-it-arevela"
 
 -- Chinese, Simplified script, as used in China
 Language.zh
-    |> LanguageTag.build { emptySubtags | region = Just Country.cn, script = Just Script.hans }
+    |> LanguageTag.build { emptySubtags | region = Just Region.cn, script = Just Script.hans }
     |> LanguageTag.toString
     --> "zh-hans-cn"
 ```
